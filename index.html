@@ -4,6 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Zkouška A2 nanečisto</title>
+<meta name="description" content="Zkouška z češtiny A2 pro trvalý pobyt nanečisto – zdarma, nový formát od 11. 4. 2026. Čtení, psaní, poslech, mluvení, 20 variant. Тренувальний іспит A2 з чеської мови для трвалого побиту безкоштовно.">
+<meta name="keywords" content="zkouška A2, trvalý pobyt, test nanečisto, čeština pro cizince, modelový test A2, іспит A2 чеська, трвалий побит, тест з чеської мови">
+<link rel="canonical" href="https://andre-kuvich14g.github.io/zkouska-a2/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zkouška A2 nanečisto – trvalý pobyt">
+<meta property="og:description" content="Bezplatný cvičný test A2 z češtiny pro trvalý pobyt. Безкоштовний тренувальний іспит A2 з чеської.">
+<meta property="og:url" content="https://andre-kuvich14g.github.io/zkouska-a2/">
+<meta name="robots" content="index, follow">
+<!-- Google tag (gtag.js) with Consent Mode: analytics only after consent -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+var __c = null; try { __c = localStorage.getItem('ga-consent'); } catch(e) {}
+gtag('consent', 'default', {analytics_storage: __c === 'yes' ? 'granted' : 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500});
+gtag('js', new Date());
+gtag('config', 'G-YMHXGCMMH4');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YMHXGCMMH4"></script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -215,8 +234,19 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 @media (prefers-reduced-motion: reduce){ *{transition:none!important;animation:none!important} }
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
+<style>
+.consent{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--sheet);border-top:2px solid var(--accent);box-shadow:0 -4px 16px rgba(0,0,0,.12);
+  padding:14px max(16px, env(safe-area-inset-right, 0px)) calc(14px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px))}
+.consent .in{max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.consent p{flex:1 1 360px;font-size:.9rem}
+.consent .bt{display:flex;gap:8px;flex-wrap:wrap}
+</style>
 </head>
 <body>
+<div class="consent" id="consent" hidden role="dialog" aria-label="Souhlas s analytikou">
+ <div class="in"><p><b>Statistika návštěvnosti.</b> Používáme Google Analytics, abychom věděli, kolik lidí test využívá a které úlohy jsou nejtěžší. Údaje jsou anonymní.<br><span class="muted">Ми рахуємо анонімну статистику відвідувань (Google Analytics), щоб покращувати тест. Дозволити?</span></p>
+ <div class="bt"><button class="btn" type="button" id="consentNo">Nesouhlasím / Ні</button><button class="btn primary" type="button" id="consentYes">Souhlasím / Так</button></div></div>
+</div>
 
 
 <div class="wrap">
@@ -285,6 +315,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 <script>
 (function(){
 "use strict";
+function track(name, params){ try{ if(typeof gtag === 'function') gtag('event', name, params || {}); }catch(e){} }
+(function(){ let c = null; try{ c = localStorage.getItem('ga-consent'); }catch(e){}
+  const box = document.getElementById('consent'); if(!box) return; if(c !== 'yes' && c !== 'no') box.hidden = false;
+  const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes') track('page_view_after_consent'); };
+  document.getElementById('consentYes').addEventListener('click', () => set('yes'));
+  document.getElementById('consentNo').addEventListener('click', () => set('no'));
+})();
 const V = JSON.parse(document.getElementById('exam-data').textContent).variants;
 const $ = (s, r=document) => r.querySelector(s);
 const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
@@ -496,16 +533,21 @@ function checkWrite(){
   $('#self-w1').addEventListener('change', upd); if(!zero) $('#self-w2').addEventListener('change', upd);
   upd();
   CHECKED.write = true; stopTimer('write'); markDone('write');
+  track('section_score', {section: 'write', words_form: w1counts.reduce((a,b)=>a+b,0), words_email: w2count, mode: MODE});
   $('#bar-write').innerHTML = `<span>Зразки показано. Поставте собі бали вище, вони підуть у підсумок.</span><button class="btn" type="button" data-goto="listen">Далі: Poslech →</button>`;
 }
 function checkSpeak(){
   const keys = ['s1','s2','s3','s4','ph']; let total = 0, all = true;
   keys.forEach(k => { const v = $('#self-'+k).value; if(v === '') all = false; RES[k] = +(v || 0); total += RES[k]; });
-  RES.speakSet = all; CHECKED.speak = true; stopTimer('speak'); markDone('speak');
+  RES.speakSet = all; CHECKED.speak = true;
+  track('section_score', {section: 'speak', score: total, max: 40, mode: MODE}); stopTimer('speak'); markDone('speak');
   $('#bar-speak').innerHTML = `<span class="score">${total} / 40</span><span>${all ? '' : 'Не всі завдання оцінені. '}Бали можна змінити й зберегти ще раз.</span><button class="btn" type="button" data-check="speak">Оновити</button><button class="btn primary" type="button" data-goto="results">Підсумок →</button>`;
   renderResults();
 }
 function finishSection(sec, got, max){
+  const pre = sec === 'read' ? 'r' : 'l';
+  [1,2,3,4,5].forEach(i => track('task_score', {section: sec, task: SLOT_NAMES[pre+i], variant: E.src[pre+i] + 1, score: RES[pre+i]}));
+  track('section_score', {section: sec, score: got, max: max, mode: MODE});
   CHECKED[sec] = true; stopTimer(sec); markDone(sec);
   const next = {read:'write', listen:'speak'}[sec];
   $('#bar-'+sec).innerHTML = `<span class="score">${got} / ${max}</span><span>Зелене правильно, червоне помилка, поруч правильна відповідь.</span><button class="btn primary" type="button" data-goto="${next}">Далі →</button>`;
@@ -529,6 +571,7 @@ function renderResults(){
   const card = (title, got, max, min, done) => `<div class="sum-card"><div class="task-h"><b>${title}</b>${pill(done, got >= min)}</div><div class="big">${got} <span class="muted" style="font-size:1rem">/ ${max}</span></div><div class="bar" aria-hidden="true"><i style="width:${Math.min(100, got/max*100)}%"></i><b></b></div><span class="small muted">Потрібно мінімум ${min} (60 %)</span></div>`;
   const tr = r => `<tr><td>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
   const overall = writtenDone && CHECKED.speak && RES.speakSet;
+  if(overall && !E.resultSent){ E.resultSent = true; track('exam_result', {written: wr, oral: sp, passed: (wr >= 42 && sp >= 24) ? 'yes' : 'no', mode: MODE}); }
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">код іспиту ${E.seed}</span></div>
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Іспит складено. Обидві частини вище 60 %.' : 'Іспит не складено. Потрібно 60 % в кожній частині окремо.'}</b></div>` : '<p class="ua">Підсумок з’явиться, коли перевірите всі чотири частини та поставите самооцінку за письмо й мовлення.</p>'}
@@ -586,6 +629,7 @@ function speakSegs(segs, tok){
 function stopSpeech(){ speakTok++; if(hasTTS) speechSynthesis.cancel(); $$('.play.playing').forEach(b => { b.classList.remove('playing'); b.textContent = '▶ Přehrát (2×)'; }); $$('.stopbtn').forEach(b => b.hidden = true); }
 async function playTwice(btn){
   if(!hasTTS) return;
+  track('audio_play', {item: btn.dataset.key});
   const key = btn.dataset.key;
   if(MODE === 'exam' && (PLAYS[key] || 0) >= 1) return;
   stopSpeech();
@@ -641,6 +685,7 @@ function showTab(tab){
   $$('.tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
   $$('[data-pane]').forEach(p => p.hidden = p.dataset.pane !== tab);
   if(TIMES[tab]) startTimer(tab);
+  if(E) track('section_open', {section: tab, mode: MODE});
   if(tab === 'results') renderResults();
   tick();
   window.scrollTo({top: 0});
@@ -659,6 +704,7 @@ function startExam(){
   RATE = 0.92;
   $('#codeLabel').textContent = `${MODE === 'exam' ? 'Іспит' : 'Тренування'} · код ${code}`;
   $('#startView').hidden = true; $('#examView').hidden = false; $('#topActions').hidden = false;
+  track('exam_start', {mode: MODE, exam_code: String(code)});
   showTab('read');
   if(!tickH) tickH = setInterval(tick, 1000);
 }
