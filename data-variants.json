@@ -19,32 +19,37 @@
       {
        "n": 1,
        "picture": "🥛🧀",
-       "caption": "Lednice s mlékem a sýry",
-       "answer": "D"
+       "caption": "Sýry a mléko",
+       "answer": "D",
+       "img": "Several_cheeses_with_a_slicer,_bread_and_milk.JPG"
       },
       {
        "n": 2,
        "picture": "💇‍♀️✂️",
-       "caption": "Žena u kadeřnice",
-       "answer": "A"
+       "caption": "Kadeřnictví",
+       "answer": "A",
+       "img": "Hair_salon_(51212326557).jpg"
       },
       {
        "n": 3,
        "picture": "💊🏥",
-       "caption": "Léky a zelený kříž",
-       "answer": "B"
+       "caption": "Lékárna",
+       "answer": "B",
+       "img": "Smíchovské_nádraží_lékárna.jpg"
       },
       {
        "n": 4,
        "picture": "🧥🏷️",
-       "caption": "Zimní bundy s cenovkou",
-       "answer": "E"
+       "caption": "Zimní bunda",
+       "answer": "E",
+       "img": "Ehlel_Winter_Jacket.jpg"
       },
       {
        "n": 5,
        "picture": "🚲⛰️",
-       "caption": "Kolo v horách",
-       "answer": "C"
+       "caption": "Horské kolo",
+       "answer": "C",
+       "img": "Mountainbike.jpg"
       }
      ]
     },
@@ -874,32 +879,37 @@
       {
        "n": 1,
        "picture": "🅿️🚗",
-       "caption": "Auta na parkovišti",
-       "answer": "A"
+       "caption": "Parkoviště",
+       "answer": "A",
+       "img": "Car_parking_at_retail_park.JPG"
       },
       {
        "n": 2,
        "picture": "🚆📱",
-       "caption": "Vlak a mobilní telefon",
-       "answer": "D"
+       "caption": "Vlak Českých drah",
+       "answer": "D",
+       "img": "20250808_České_dráhy_682001.jpg"
       },
       {
        "n": 3,
        "picture": "🚕🌙",
-       "caption": "Taxi v noci",
-       "answer": "B"
+       "caption": "Stanoviště taxi",
+       "answer": "B",
+       "img": "Praha_hlavní_nádraží,_stanoviště_ČD_Taxi.jpg"
       },
       {
        "n": 4,
        "picture": "✈️🧳",
-       "caption": "Letadlo a kufr",
-       "answer": "E"
+       "caption": "Kufr na letišti",
+       "answer": "E",
+       "img": "Suitcase._The_airport_in_Poznan.jpg"
       },
       {
        "n": 5,
        "picture": "🚌⛪",
-       "caption": "Autobus u kostela",
-       "answer": "C"
+       "caption": "Autobusová zastávka",
+       "answer": "C",
+       "img": "Janské_Lázně,_kolonáda,_autobusová_zastávka,_autobus_TAD.jpg"
       }
      ]
     },
@@ -1726,32 +1736,37 @@
       {
        "n": 1,
        "picture": "📸🪪",
-       "caption": "Fotograf fotí muže na pas",
-       "answer": "A"
+       "caption": "Fotka na pas",
+       "answer": "A",
+       "img": "Passport_photo.jpg"
       },
       {
        "n": 2,
        "picture": "🔑🚪",
-       "caption": "Klíče a zamčené dveře",
-       "answer": "C"
+       "caption": "Výroba klíčů",
+       "answer": "C",
+       "img": "Car_key_duplication.jpg"
       },
       {
        "n": 3,
        "picture": "📦🗓️",
-       "caption": "Balík a kalendář se sobotou",
-       "answer": "E"
+       "caption": "Pošta",
+       "answer": "E",
+       "img": "Česká_pošta,_Jindřišská_16.JPG"
       },
       {
        "n": 4,
        "picture": "🏧💳",
-       "caption": "Bankomat a platební karta",
-       "answer": "D"
+       "caption": "Bankomat",
+       "answer": "D",
+       "img": "Praha_Dejvice_M_Dejvicka_bankomat_Fio_banky.jpg"
       },
       {
        "n": 5,
        "picture": "👔🧺",
-       "caption": "Košile a pračka",
-       "answer": "B"
+       "caption": "Pračka",
+       "answer": "B",
+       "img": "Washing_machine.jpg"
       }
      ]
     },
@@ -2572,32 +2587,37 @@
       {
        "n": 1,
        "picture": "👓👁️",
-       "caption": "Brýle a test očí",
-       "answer": "A"
+       "caption": "Optika",
+       "answer": "A",
+       "img": "Optiker_Bode_in_Berlin-Köpenick.JPG"
       },
       {
        "n": 2,
        "picture": "🦷👧",
-       "caption": "Zubař a malá holčička",
-       "answer": "D"
+       "caption": "Zubní křeslo",
+       "answer": "D",
+       "img": "Dental_Chair.jpg"
       },
       {
        "n": 3,
        "picture": "🧘🌳",
-       "caption": "Lidé cvičí na trávě v parku",
-       "answer": "E"
+       "caption": "Jóga venku",
+       "answer": "E",
+       "img": "Outdoor_yoga_class_in_Vaduz_Liechtenstein_Himalayan_Yoga_Center.JPG"
       },
       {
        "n": 4,
        "picture": "💉🤧",
-       "caption": "Injekce a nemocný člověk s kapesníkem",
-       "answer": "C"
+       "caption": "Očkování",
+       "answer": "C",
+       "img": "Flu_Vaccination_Grippe_(5116249876).jpg"
       },
       {
        "n": 5,
        "picture": "🏋️💪",
-       "caption": "Muž zvedá činky",
-       "answer": "B"
+       "caption": "Činky v posilovně",
+       "answer": "B",
+       "img": "Gym_Dumbbells_For_Working_Out_(193383405).jpeg"
       }
      ]
     },
@@ -3426,32 +3446,37 @@
       {
        "n": 1,
        "picture": "💐🎂",
-       "caption": "Kytice květin a narozeninový dort",
-       "answer": "A"
+       "caption": "Kytice",
+       "answer": "A",
+       "img": "Bouquet_of_white,_pink_and_yellow_flowers.jpg"
       },
       {
        "n": 2,
        "picture": "🎒✏️",
-       "caption": "Školní taška a tužky",
-       "answer": "C"
+       "caption": "Školní potřeby",
+       "answer": "C",
+       "img": "KSS_School_Supplies.jpg"
       },
       {
        "n": 3,
        "picture": "🐕🥫",
-       "caption": "Pes a miska s krmivem",
-       "answer": "H"
+       "caption": "Pes u misky",
+       "answer": "H",
+       "img": "Dog_eating.jpg"
       },
       {
        "n": 4,
        "picture": "🥕🥔",
-       "caption": "Mrkev a brambory na trhu",
-       "answer": "E"
+       "caption": "Zelenina na trhu",
+       "answer": "E",
+       "img": "Vegetable_Stall,_Brigg_Market_-_geograph.org.uk_-_1725898.jpg"
       },
       {
        "n": 5,
        "picture": "📺🧺",
-       "caption": "Televize a pračka v obchodě",
-       "answer": "D"
+       "caption": "Televize v obchodě",
+       "answer": "D",
+       "img": "TVs_for_sale.jpg"
       }
      ]
     },
@@ -4274,32 +4299,37 @@
       {
        "n": 1,
        "picture": "🍕🛵",
-       "caption": "Pizza a motorka s kurýrem",
-       "answer": "A"
+       "caption": "Rozvoz pizzy",
+       "answer": "A",
+       "img": "Telepizza_scooter,_Warsaw_.jpg"
       },
       {
        "n": 2,
        "picture": "🍳☕",
-       "caption": "Vajíčka a hrnek kávy ráno",
-       "answer": "E"
+       "caption": "Snídaně",
+       "answer": "E",
+       "img": "Full_English_breakfast.jpg"
       },
       {
        "n": 3,
        "picture": "🍣🥢",
-       "caption": "Sushi a hůlky",
-       "answer": "F"
+       "caption": "Sushi",
+       "answer": "F",
+       "img": "Sushi_platter.jpg"
       },
       {
        "n": 4,
        "picture": "🍷🍇",
-       "caption": "Sklenice vína a hrozny",
-       "answer": "C"
+       "caption": "Sklenice vína",
+       "answer": "C",
+       "img": "Red_Wine_Glass.jpg"
       },
       {
        "n": 5,
        "picture": "🔥🚫",
-       "caption": "Přeškrtnutý gril v parku",
-       "answer": "D"
+       "caption": "Grilování",
+       "answer": "D",
+       "img": "Grilling.jpg"
       }
      ]
     },
@@ -5123,32 +5153,37 @@
       {
        "n": 1,
        "picture": "🚗🧽",
-       "caption": "Auto a houba s pěnou",
-       "answer": "A"
+       "caption": "Mytí auta",
+       "answer": "A",
+       "img": "Mobile_Wash_partner_washing_a_car.jpg"
       },
       {
        "n": 2,
        "picture": "🍓🧺",
-       "caption": "Lidé sbírají jahody na poli",
-       "answer": "D"
+       "caption": "Sběr jahod",
+       "answer": "D",
+       "img": "Strawberry_Picking.jpg"
       },
       {
        "n": 3,
        "picture": "🧵👖",
-       "caption": "Jehla, nit a kalhoty",
-       "answer": "F"
+       "caption": "Jehla a nit",
+       "answer": "F",
+       "img": "Needle_&_Thread..jpg"
       },
       {
        "n": 4,
        "picture": "🖌️🧱",
-       "caption": "Muž maluje zeď válečkem",
-       "answer": "H"
+       "caption": "Malování zdi",
+       "answer": "H",
+       "img": "Man_Painting_Wall.jpg"
       },
       {
        "n": 5,
        "picture": "🪟🧹",
-       "caption": "Žena myje okna",
-       "answer": "E"
+       "caption": "Mytí oken",
+       "answer": "E",
+       "img": "Woman_Cleaning_Windows_-_Omsk_-_Russia.JPG"
       }
      ]
     },
@@ -5967,32 +6002,37 @@
       {
        "n": 1,
        "picture": "🎳",
-       "caption": "Koule a kuželky",
-       "answer": "B"
+       "caption": "Bowling",
+       "answer": "B",
+       "img": "Bowling_alley.jpg"
       },
       {
        "n": 2,
        "picture": "🎸🎹",
-       "caption": "Kytara a klavír",
-       "answer": "G"
+       "caption": "Kytara",
+       "answer": "G",
+       "img": "Acoustic_guitar.jpg"
       },
       {
        "n": 3,
        "picture": "🎿🚡",
-       "caption": "Lyže a lanovka",
-       "answer": "F"
+       "caption": "Lyže",
+       "answer": "F",
+       "img": "Polsport_skis.jpg"
       },
       {
        "n": 4,
        "picture": "♟️",
-       "caption": "Šachovnice",
-       "answer": "H"
+       "caption": "Šachy",
+       "answer": "H",
+       "img": "Chess_board_with_pieces.jpg"
       },
       {
        "n": 5,
        "picture": "🎣🐟",
-       "caption": "Rybářský prut a ryba",
-       "answer": "D"
+       "caption": "Rybářské pruty",
+       "answer": "D",
+       "img": "Fishing_Rods.jpg"
       }
      ]
     },
@@ -6812,32 +6852,37 @@
       {
        "n": 1,
        "picture": "🚭",
-       "caption": "Přeškrtnutá cigareta",
-       "answer": "A"
+       "caption": "Značka",
+       "answer": "A",
+       "img": "No_Smoking_sign.jpg"
       },
       {
        "n": 2,
        "picture": "🐕🚫",
-       "caption": "Přeškrtnutý pes",
-       "answer": "C"
+       "caption": "Značka",
+       "answer": "C",
+       "img": "No_dogs_allowed.jpg"
       },
       {
        "n": 3,
        "picture": "🛗⚠️",
-       "caption": "Výtah s cedulí a schody vedle",
-       "answer": "E"
+       "caption": "Výtah",
+       "answer": "E",
+       "img": "Toshiba_lift.jpg"
       },
       {
        "n": 4,
        "picture": "🏃🚪",
-       "caption": "Zelená cedule s běžícím panáčkem",
-       "answer": "B"
+       "caption": "Značka",
+       "answer": "B",
+       "img": "Emergency_exit_sign_(42050562511).jpg"
       },
       {
        "n": 5,
        "picture": "📵",
-       "caption": "Přeškrtnutý telefon",
-       "answer": "F"
+       "caption": "Značka",
+       "answer": "F",
+       "img": "No_cellphone.svg"
       }
      ]
     },
@@ -7659,32 +7704,37 @@
       {
        "n": 1,
        "picture": "🎄🌲",
-       "caption": "Vánoční stromky před obchodem",
-       "answer": "C"
+       "caption": "Prodej stromků",
+       "answer": "C",
+       "img": "-2019-11-29_Santa_&_Christmas_tree's_for_sale,_QD_stores,_Cromer.JPG"
       },
       {
        "n": 2,
        "picture": "🥚🐣",
-       "caption": "Barevná vajíčka",
-       "answer": "D"
+       "caption": "Velikonoční vajíčka",
+       "answer": "D",
+       "img": "Easter-eggs-1_(23958405589).jpg"
       },
       {
        "n": 3,
        "picture": "🎆🌉",
-       "caption": "Ohňostroj nad mostem",
-       "answer": "F"
+       "caption": "Ohňostroj",
+       "answer": "F",
+       "img": "Fireworks_over_Vltava_river._late_evenong._Prague,_Czech_Republic,_Western_Europe.jpg"
       },
       {
        "n": 4,
        "picture": "😈😇",
-       "caption": "Čert, anděl a dítě",
-       "answer": "G"
+       "caption": "Mikuláš a čert",
+       "answer": "G",
+       "img": "Mikulas_a_cert_v_Praze_(1).JPG"
       },
       {
        "n": 5,
        "picture": "💃🕺",
-       "caption": "Pár tancuje",
-       "answer": "A"
+       "caption": "Tanec",
+       "answer": "A",
+       "img": "Ballroom_dance_lesson.jpg"
       }
      ]
     },
@@ -8506,32 +8556,37 @@
       {
        "n": 1,
        "picture": "🩸❤️",
-       "caption": "Kapka krve a srdce",
-       "answer": "C"
+       "caption": "Darování krve",
+       "answer": "C",
+       "img": "Blood_Donation_(44291611580).jpg"
       },
       {
        "n": 2,
        "picture": "👶🍼",
-       "caption": "Miminko a lahvička",
-       "answer": "A"
+       "caption": "Miminko",
+       "answer": "A",
+       "img": "Baby_drinks_milk.jpg"
       },
       {
        "n": 3,
        "picture": "🚑📞",
-       "caption": "Sanitka a telefon",
-       "answer": "G"
+       "caption": "Sanitka",
+       "answer": "G",
+       "img": "ZZS_JMK_nové_sanitky_(03).jpg"
       },
       {
        "n": 4,
        "picture": "🦵🏋️",
-       "caption": "Muž s ortézou na koleni cvičí",
-       "answer": "D"
+       "caption": "Rehabilitace",
+       "answer": "D",
+       "img": "Physiotherapie.jpg"
       },
       {
        "n": 5,
        "picture": "🦷🗓️",
-       "caption": "Zub a kalendář s víkendem",
-       "answer": "B"
+       "caption": "Zuby",
+       "answer": "B",
+       "img": "Teeth_model_front.jpg"
       }
      ]
     },
@@ -9349,32 +9404,37 @@
       {
        "n": 1,
        "picture": "♻️🗑️",
-       "caption": "Barevné kontejnery na odpad",
-       "answer": "A"
+       "caption": "Kontejnery na odpad",
+       "answer": "A",
+       "img": "Papír,_plasty_a_sklo.JPG"
       },
       {
        "n": 2,
        "picture": "🚛⛔",
-       "caption": "Dopravní značka s kamionem",
-       "answer": "C"
+       "caption": "Dopravní značka",
+       "answer": "C",
+       "img": "CZ_road_sign_B-4.svg"
       },
       {
        "n": 3,
        "picture": "🧒⚽🚗",
-       "caption": "Děti si hrají na ulici a pomalé auto",
-       "answer": "D"
+       "caption": "Dopravní značka",
+       "answer": "D",
+       "img": "Dopravná_značka_IP26a.svg"
       },
       {
        "n": 4,
        "picture": "🌙🔇",
-       "caption": "Měsíc a přeškrtnutý reproduktor",
-       "answer": "E"
+       "caption": "Noc",
+       "answer": "E",
+       "img": "Dark_night_moon.jpg"
       },
       {
        "n": 5,
        "picture": "❄️🧹",
-       "caption": "Muž odklízí sníh lopatou",
-       "answer": "F"
+       "caption": "Odklízení sněhu",
+       "answer": "F",
+       "img": "Shoveling_snow,_Seattle,_1923.jpg"
       }
      ]
     },
@@ -10196,32 +10256,37 @@
       {
        "n": 1,
        "picture": "🚿🔧",
-       "caption": "Kapající kohoutek a klíč",
-       "answer": "C"
+       "caption": "Kapající kohoutek",
+       "answer": "C",
+       "img": "Dripping_faucet_1.jpg"
       },
       {
        "n": 2,
        "picture": "💡🔌",
-       "caption": "Žárovka a zásuvka",
-       "answer": "E"
+       "caption": "Elektrikář",
+       "answer": "E",
+       "img": "Electrician_installing_socket.jpg"
       },
       {
        "n": 3,
        "picture": "🌿✂️",
-       "caption": "Muž stříhá keř na zahradě",
-       "answer": "G"
+       "caption": "Stříhání keřů",
+       "answer": "G",
+       "img": "Gardener_in_a_senior_high_school_pruning_a_hedge.jpg"
       },
       {
        "n": 4,
        "picture": "🐭🚫",
-       "caption": "Přeškrtnutá myš",
-       "answer": "H"
+       "caption": "Myš",
+       "answer": "H",
+       "img": "House_mouse.jpg"
       },
       {
        "n": 5,
        "picture": "🏠💨",
-       "caption": "Muž na střeše u komína",
-       "answer": "D"
+       "caption": "Kominík",
+       "answer": "D",
+       "img": "Chimney_sweep.JPG"
       }
      ]
     },
@@ -11044,32 +11109,37 @@
       {
        "n": 1,
        "picture": "📷💒",
-       "caption": "Fotoaparát a svatba",
-       "answer": "B"
+       "caption": "Fotograf",
+       "answer": "B",
+       "img": "A_professional_photographer_with_photo_camera_records_the_images.jpg"
       },
       {
        "n": 2,
        "picture": "🎂💍",
-       "caption": "Velký bílý dort se dvěma figurkami",
-       "answer": "C"
+       "caption": "Svatební dort",
+       "answer": "C",
+       "img": "Wedding_cake_(1).jpg"
       },
       {
        "n": 3,
        "picture": "🎺🎸",
-       "caption": "Muzikanti hrají na sále",
-       "answer": "D"
+       "caption": "Kapela",
+       "answer": "D",
+       "img": "Concert_Band.jpg"
       },
       {
        "n": 4,
        "picture": "👰👗",
-       "caption": "Bílé šaty v obchodě",
-       "answer": "E"
+       "caption": "Svatební šaty",
+       "answer": "E",
+       "img": "Wedding_dress_shop.JPG"
       },
       {
        "n": 5,
        "picture": "🚘🎀",
-       "caption": "Dlouhé černé auto s mašlí",
-       "answer": "G"
+       "caption": "Limuzína",
+       "answer": "G",
+       "img": "Lincoln_Town_Car_Stretch_limo_(47828403802).jpg"
       }
      ]
     },
@@ -11892,32 +11962,37 @@
       {
        "n": 1,
        "picture": "⌚🔋",
-       "caption": "Hodinky a baterie",
-       "answer": "H"
+       "caption": "Hodinky",
+       "answer": "H",
+       "img": "Wristwatch_on_hand.JPG"
       },
       {
        "n": 2,
        "picture": "☔🌧️",
-       "caption": "Deštník v dešti",
-       "answer": "C"
+       "caption": "Deštník",
+       "answer": "C",
+       "img": "Umbrella_with_raindrops.jpg"
       },
       {
        "n": 3,
        "picture": "🔪✨",
-       "caption": "Nůž a brus",
-       "answer": "E"
+       "caption": "Broušení nožů",
+       "answer": "E",
+       "img": "Knife_sharpening_stones.jpg"
       },
       {
        "n": 4,
        "picture": "🧵🪡👗",
-       "caption": "Šicí stroj a šaty",
-       "answer": "F"
+       "caption": "Šicí stroj",
+       "answer": "F",
+       "img": "Dressmaker_Sewing_Machine_pic.jpg"
       },
       {
        "n": 5,
        "picture": "🚗❄️",
-       "caption": "Auto na sněhu a pneumatika",
-       "answer": "D"
+       "caption": "Zimní pneumatika",
+       "answer": "D",
+       "img": "Hankook_studded_snow_tire.jpg"
       }
      ]
     },
@@ -12730,32 +12805,37 @@
       {
        "n": 1,
        "picture": "🚧👷",
-       "caption": "Dělníci na silnici a značka 30",
-       "answer": "A"
+       "caption": "Práce na silnici",
+       "answer": "A",
+       "img": "Asphalt_paving.jpg"
       },
       {
        "n": 2,
        "picture": "🚴🛣️",
-       "caption": "Cyklisté na stezce",
-       "answer": "B"
+       "caption": "Cyklostezka",
+       "answer": "B",
+       "img": "Cyklostezka_Praha_10_Botič_1.JPG"
       },
       {
        "n": 3,
        "picture": "🔌🚙",
-       "caption": "Auto připojené ke kabelu",
-       "answer": "G"
+       "caption": "Nabíjení elektromobilu",
+       "answer": "G",
+       "img": "Electric_car_charging_station.jpg"
       },
       {
        "n": 4,
        "picture": "🧒🚸",
-       "caption": "Děti na přechodu u školy",
-       "answer": "D"
+       "caption": "Děti na přechodu",
+       "answer": "D",
+       "img": "School_girls_in_Japan_crossing_road.jpg"
       },
       {
        "n": 5,
        "picture": "🇩🇪➡️",
-       "caption": "Cedule s německou vlajkou a šipkou",
-       "answer": "H"
+       "caption": "Hranice",
+       "answer": "H",
+       "img": "Bundesgrenze-Deutschland-Tschechien.jpg"
       }
      ]
     },
@@ -13576,32 +13656,37 @@
       {
        "n": 1,
        "picture": "🐘🏛️",
-       "caption": "Slon v nové budově",
-       "answer": "C"
+       "caption": "Slon v zoo",
+       "answer": "C",
+       "img": "Asian_elephant_-_melbourne_zoo.jpg"
       },
       {
        "n": 2,
        "picture": "🌸🌿",
-       "caption": "Krásné fialové květiny ve skleníku",
-       "answer": "D"
+       "caption": "Orchideje",
+       "answer": "D",
+       "img": "Orchid_Show_at_NYBG_(70544).jpg"
       },
       {
        "n": 3,
        "picture": "🔭🪐",
-       "caption": "Dalekohled a planety",
-       "answer": "E"
+       "caption": "Planetárium",
+       "answer": "E",
+       "img": "Planetarium_dome.jpg"
       },
       {
        "n": 4,
        "picture": "🧗🌲",
-       "caption": "Dítě na lanech mezi stromy",
-       "answer": "F"
+       "caption": "Lanový park",
+       "answer": "F",
+       "img": "Highropes_course2.JPG"
       },
       {
        "n": 5,
        "picture": "🚂🪆",
-       "caption": "Staré vláčky a panenky ve vitríně",
-       "answer": "G"
+       "caption": "Muzeum hraček",
+       "answer": "G",
+       "img": "Tintoy_museum.JPG"
       }
      ]
     },
@@ -14424,32 +14509,37 @@
       {
        "n": 1,
        "picture": "🍯🐝",
-       "caption": "Sklenice medu a včela",
-       "answer": "A"
+       "caption": "Med",
+       "answer": "A",
+       "img": "Honey_comb.jpg"
       },
       {
        "n": 2,
        "picture": "🍄⚠️",
-       "caption": "Houby a výstražná značka",
-       "answer": "C"
+       "caption": "Houby v košíku",
+       "answer": "C",
+       "img": "Mushrooms_in_handbasket_Houby_v_košíku.jpg"
       },
       {
        "n": 3,
        "picture": "🍒🪜",
-       "caption": "Lidé na žebříku trhají třešně",
-       "answer": "D"
+       "caption": "Sběr třešní",
+       "answer": "D",
+       "img": "Cherry_picking.JPG"
       },
       {
        "n": 4,
        "picture": "🐐🧀",
-       "caption": "Koza a sýr",
-       "answer": "G"
+       "caption": "Kozy",
+       "answer": "G",
+       "img": "Collingwood_Children's_Farm_-_goats.JPG"
       },
       {
        "n": 5,
        "picture": "🥔🧺",
-       "caption": "Velký pytel brambor",
-       "answer": "H"
+       "caption": "Brambory",
+       "answer": "H",
+       "img": "Potatoes_on_a_sack.jpg"
       }
      ]
     },
@@ -15271,32 +15361,37 @@
       {
        "n": 1,
        "picture": "💶💱",
-       "caption": "Bankovky různých měn",
-       "answer": "D"
+       "caption": "Bankovky",
+       "answer": "D",
+       "img": "Euro-Banknoten.jpg"
       },
       {
        "n": 2,
        "picture": "🖨️📄",
-       "caption": "Tiskárna a papíry",
-       "answer": "C"
+       "caption": "Kopírka",
+       "answer": "C",
+       "img": "Konica_Minolta_Bizhub_C224e_photocopier.jpg"
       },
       {
        "n": 3,
        "picture": "📦🔐",
-       "caption": "Kovový box s mnoha dvířky",
-       "answer": "G"
+       "caption": "Výdejní box",
+       "answer": "G",
+       "img": "InPost_parcel_locker.jpg"
       },
       {
        "n": 4,
        "picture": "📮✉️",
-       "caption": "Oranžová schránka a dopis",
-       "answer": "F"
+       "caption": "Česká pošta",
+       "answer": "F",
+       "img": "ČESKÁ_POŠTA_1.JPG"
       },
       {
        "n": 5,
        "picture": "🧳🚉",
-       "caption": "Kufry ve skříňkách na nádraží",
-       "answer": "E"
+       "caption": "Úschovna zavazadel",
+       "answer": "E",
+       "img": "Luggage_lockers.jpg"
       }
      ]
     },
@@ -16112,32 +16207,37 @@
       {
        "n": 1,
        "picture": "👩‍🏫🇨🇿",
-       "caption": "Učitelka a třída s českou vlajkou",
-       "answer": "A"
+       "caption": "Kurz pro dospělé",
+       "answer": "A",
+       "img": "English_Tutor_for_Adults.jpg"
       },
       {
        "n": 2,
        "picture": "🗣️🔄",
-       "caption": "Dvě osoby a šipky mezi jazyky",
-       "answer": "F"
+       "caption": "Slovníky",
+       "answer": "F",
+       "img": "Dictionaries_in_different_languages.JPG"
       },
       {
        "n": 3,
        "picture": "👵💻",
-       "caption": "Starší paní u notebooku",
-       "answer": "E"
+       "caption": "Starší žena s notebookem",
+       "answer": "E",
+       "img": "Older_woman_uses_laptop_while_exercising_with_dumbbells_in_home_setting.jpg"
       },
       {
        "n": 4,
        "picture": "👩‍🍼🧸",
-       "caption": "Ženy s malými dětmi a hračky",
-       "answer": "H"
+       "caption": "Maminky s dětmi",
+       "answer": "H",
+       "img": "Mamatoto_Playgroup,_Lions'_Club_Hall,_2003.jpg"
       },
       {
        "n": 5,
        "picture": "📚🌍",
-       "caption": "Police s knihami a glóbus",
-       "answer": "G"
+       "caption": "Knihovna",
+       "answer": "G",
+       "img": "Shelves_of_Language_Books_in_Library.JPG"
       }
      ]
     },
