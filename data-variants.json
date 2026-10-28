@@ -663,10 +663,56 @@
         "Balík tam bude asi za pět dní.",
         "Ano, můžete platit kartou i hotově."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, číslo zásilky najdete na účtence.",
        "close": "Není zač. Na shledanou."
       },
-      "model": "Dobrý den, chci poslat balík na Ukrajinu. Kolik to stojí? Jak dlouho to trvá? Můžu platit kartou? Můžu balík sledovat na internetu?"
+      "model": "Dobrý den, chci poslat balík na Ukrajinu. Kolik to stojí? Jak dlouho to trvá? Můžu platit kartou? Můžu balík sledovat na internetu?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, chci poslat balík na Ukrajinu. Kolik to stojí?"
+       ],
+       [
+        "T",
+        "Balík do 5 kilogramů stojí 650 Kč."
+       ],
+       [
+        "U",
+        "Jak dlouho to trvá?"
+       ],
+       [
+        "T",
+        "Balík tam bude asi za pět dní."
+       ],
+       [
+        "U",
+        "Můžu platit kartou?"
+       ],
+       [
+        "T",
+        "Ano, můžete platit kartou i hotově."
+       ],
+       [
+        "U",
+        "Můžu balík sledovat na internetu?"
+       ],
+       [
+        "T",
+        "Ano, číslo zásilky najdete na účtence."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Není zač. Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v jazykové škole.",
@@ -684,10 +730,56 @@
         "Kurz stojí 4 500 Kč za semestr.",
         "Ve skupině je maximálně deset lidí."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, lekce jsou vždy v úterý od 18 hodin.",
        "close": "Není zač. Na shledanou."
       },
-      "model": "Dobrý den, kdy začíná kurz angličtiny? Kolik stojí? Kolik lidí je ve skupině? Je kurz večer?"
+      "model": "Dobrý den, kdy začíná kurz angličtiny? Kolik stojí? Kolik lidí je ve skupině? Je kurz večer?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy začíná kurz angličtiny?"
+       ],
+       [
+        "T",
+        "Nový kurz začíná 1. října."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Kurz stojí 4 500 Kč za semestr."
+       ],
+       [
+        "U",
+        "Kolik lidí je ve skupině?"
+       ],
+       [
+        "T",
+        "Ve skupině je maximálně deset lidí."
+       ],
+       [
+        "U",
+        "Je kurz večer?"
+       ],
+       [
+        "T",
+        "Ano, lekce jsou vždy v úterý od 18 hodin."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Není zač. Na shledanou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -699,7 +791,7 @@
       "🛋️ V novém bytě dávají gauč a stůl na místo.",
       "🍕 Rodina večer jí pizzu na zemi mezi krabicemi."
      ],
-     "model": "Včera se rodina Novákových stěhovala. Ráno balili věci do krabic. Potom přijelo velké auto a muži nosili krabice do auta. V novém bytě dávali nábytek na místo, gauč a stůl. Večer byli unavení, objednali si pizzu a jedli na zemi."
+     "model": "Včera se rodina Novákových stěhovala do nového bytu. Ráno balili všechny věci do krabic. Maminka balila nádobí a děti balily hračky. Potom přijelo velké auto. Dva silní muži nosili krabice a nábytek do auta. Bylo to těžké, ale šlo to rychle. V novém bytě dávali gauč a stůl na místo. Tatínek skládal postele a maminka uklízela kuchyň. Večer byli všichni moc unavení. Neměli čas vařit, tak si objednali pizzu. Jedli ji na zemi mezi krabicemi a smáli se."
     },
     "t4": {
      "situation": "Kamarádka bude mít narozeniny. Chceme jí spolu koupit dárek. Co jí koupíme?",
@@ -722,7 +814,45 @@
       "Čokoládu ne, ona teď nejí sladké.",
       "A proč chceš koupit tohle?"
      ],
-     "model": "Můžeme jí koupit knihu. – Tak jí koupíme květiny. – Protože má ráda květiny a jsou hezké. – Dobře, koupíme květiny."
+     "model": "Můžeme jí koupit knihu. – Tak jí koupíme květiny. – Protože má ráda květiny a jsou hezké. – Dobře, koupíme květiny.",
+     "dialog": [
+      [
+       "T",
+       "Kamarádka bude mít narozeniny. Chceme jí spolu koupit dárek. Co jí koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jí koupit knihu."
+      ],
+      [
+       "T",
+       "Myslím, že knihu už má. Ona moc nečte."
+      ],
+      [
+       "U",
+       "Tak jí koupíme čokoládu."
+      ],
+      [
+       "T",
+       "Čokoládu ne, ona teď nejí sladké."
+      ],
+      [
+       "U",
+       "Dobře, tak jí koupíme květiny."
+      ],
+      [
+       "T",
+       "A proč chceš koupit tohle?"
+      ],
+      [
+       "U",
+       "Protože má ráda květiny a udělají jí radost."
+      ],
+      [
+       "T",
+       "To je pravda, květiny jsou dobrý nápad. Koupíme jí květiny."
+      ]
+     ]
     }
    }
   },
@@ -1385,10 +1515,56 @@
         "Můžete přijít v deset hodin.",
         "Přineste si kartu pojištěnce."
        ],
-       "own": "Ano, to je v pořádku.",
+       "own": "Ne, nalačno nemusíte, můžete se normálně nasnídat.",
        "close": "Není zač. Na shledanou."
       },
-      "model": "Dobrý den, máte volný termín na prohlídku? V kolik hodin můžu přijít? Co si mám přinést? Musím přijít nalačno?"
+      "model": "Dobrý den, máte volný termín na prohlídku? V kolik hodin můžu přijít? Co si mám přinést? Musím přijít nalačno?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volný termín na prohlídku?"
+       ],
+       [
+        "T",
+        "Volný termín máme ve čtvrtek."
+       ],
+       [
+        "U",
+        "V kolik hodin můžu přijít?"
+       ],
+       [
+        "T",
+        "Můžete přijít v deset hodin."
+       ],
+       [
+        "U",
+        "Co si mám přinést?"
+       ],
+       [
+        "T",
+        "Přineste si kartu pojištěnce."
+       ],
+       [
+        "U",
+        "Musím přijít nalačno?"
+       ],
+       [
+        "T",
+        "Ne, nalačno nemusíte, můžete se normálně nasnídat."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Není zač. Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste na nádraží u pokladny.",
@@ -1406,10 +1582,56 @@
         "Jízdenka stojí 320 Kč.",
         "Ne, vlak jede přímo."
        ],
-       "own": "Ano, je to možné.",
+       "own": "Vlak jede z nástupiště číslo 3.",
        "close": "Šťastnou cestu."
       },
-      "model": "Dobrý den, kdy jede vlak do Brna? Kolik stojí jízdenka? Musím přestupovat? Z kterého nástupiště vlak jede?"
+      "model": "Dobrý den, kdy jede vlak do Brna? Kolik stojí jízdenka? Musím přestupovat? Z kterého nástupiště vlak jede?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy jede vlak do Brna?"
+       ],
+       [
+        "T",
+        "Nejbližší vlak odjíždí v 10:15."
+       ],
+       [
+        "U",
+        "Kolik stojí jízdenka?"
+       ],
+       [
+        "T",
+        "Jízdenka stojí 320 Kč."
+       ],
+       [
+        "U",
+        "Musím přestupovat?"
+       ],
+       [
+        "T",
+        "Ne, vlak jede přímo."
+       ],
+       [
+        "U",
+        "Z kterého nástupiště vlak jede?"
+       ],
+       [
+        "T",
+        "Vlak jede z nástupiště číslo 3."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Šťastnou cestu."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -1421,7 +1643,7 @@
       "🌧️ Začne pršet, nemají deštník.",
       "🏠☕ Sedí v chatě a pijí horký čaj."
      ],
-     "model": "V sobotu ráno jeli Petr a Jana vlakem na hory. Potom šli pěšky na kopec. Najednou začalo pršet a oni neměli deštník, tak byli mokří. Nakonec přišli do chaty, kde pili horký čaj."
+     "model": "V sobotu jeli Petr a Jana na výlet na hory. Ráno seděli ve vlaku a dívali se z okna. Venku bylo hezky a svítilo slunce. Potom šli pěšky po cestě nahoru na kopec. Cesta byla dlouhá, ale příroda byla krásná. Najednou začalo pršet. Petr a Jana neměli deštník, a proto byli úplně mokří. Nakonec našli malou chatu. Sedli si ke stolu a pili horký čaj. Odpočívali a čekali, až přestane pršet."
     },
     "t4": {
      "situation": "V sobotu večer chceme jít spolu ven. Kam půjdeme?",
@@ -1444,7 +1666,45 @@
       "Divadlo je moc drahé.",
       "A proč chceš jít tam?"
      ],
-     "model": "Můžeme jít do kina. – Tak půjdeme do restaurace. – Protože máme hlad a můžeme si tam povídat. – Dobře, půjdeme do restaurace."
+     "model": "Můžeme jít do kina. – Tak půjdeme do restaurace. – Protože máme hlad a můžeme si tam povídat. – Dobře, půjdeme do restaurace.",
+     "dialog": [
+      [
+       "T",
+       "V sobotu večer chceme jít spolu ven. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Co kdybychom šli do kina?"
+      ],
+      [
+       "T",
+       "Do kina se mi nechce, byl jsem tam včera."
+      ],
+      [
+       "U",
+       "Tak můžeme jít do divadla."
+      ],
+      [
+       "T",
+       "Divadlo je moc drahé."
+      ],
+      [
+       "U",
+       "Tak půjdeme do restaurace."
+      ],
+      [
+       "T",
+       "A proč chceš jít tam?"
+      ],
+      [
+       "U",
+       "Protože máme hlad a můžeme si tam v klidu povídat."
+      ],
+      [
+       "T",
+       "Dobře, to je dobrý nápad. Půjdeme do restaurace."
+      ]
+     ]
     }
    }
   },
@@ -2101,10 +2361,56 @@
         "Bunda stojí 2 490 Kč.",
         "Vrátit ji můžete do 30 dnů."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, černou máme ve všech velikostech.",
        "close": "Děkuji, na shledanou."
       },
-      "model": "Dobrý den, máte tuhle bundu ve větší velikosti? Kolik stojí? Můžu ji vrátit, když se mi nebude líbit? Máte ji i v černé barvě?"
+      "model": "Dobrý den, máte tuhle bundu ve větší velikosti? Kolik stojí? Můžu ji vrátit, když se mi nebude líbit? Máte ji i v černé barvě?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte tuhle bundu ve větší velikosti?"
+       ],
+       [
+        "T",
+        "Ano, máme ji i ve velikosti L."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Bunda stojí 2 490 Kč."
+       ],
+       [
+        "U",
+        "Můžu ji vrátit, když se mi nebude líbit?"
+       ],
+       [
+        "T",
+        "Vrátit ji můžete do 30 dnů."
+       ],
+       [
+        "U",
+        "Máte ji i v černé barvě?"
+       ],
+       [
+        "T",
+        "Ano, černou máme ve všech velikostech."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Děkuji, na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Voláte do restaurace.",
@@ -2122,10 +2428,56 @@
         "Máme otevřeno do 23 hodin.",
         "Ano, máme několik vegetariánských jídel."
        ],
-       "own": "Ano, to není problém.",
+       "own": "Ano, parkoviště je hned za restaurací.",
        "close": "Těšíme se na vás."
       },
-      "model": "Dobrý den, máte v sobotu volný stůl pro šest lidí? Do kolika máte otevřeno? Máte vegetariánská jídla? Můžeme parkovat u restaurace?"
+      "model": "Dobrý den, máte v sobotu volný stůl pro šest lidí? Do kolika máte otevřeno? Máte vegetariánská jídla? Můžeme parkovat u restaurace?",
+      "dialog": [
+       [
+        "T",
+        "Restaurace U Lva, dobrý den."
+       ],
+       [
+        "U",
+        "Dobrý den, máte v sobotu volný stůl pro šest lidí?"
+       ],
+       [
+        "T",
+        "Ano, v sobotu máme volný stůl."
+       ],
+       [
+        "U",
+        "Do kolika máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno do 23 hodin."
+       ],
+       [
+        "U",
+        "Máte vegetariánská jídla?"
+       ],
+       [
+        "T",
+        "Ano, máme několik vegetariánských jídel."
+       ],
+       [
+        "U",
+        "Můžeme parkovat u restaurace?"
+       ],
+       [
+        "T",
+        "Ano, parkoviště je hned za restaurací."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Těšíme se na vás."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -2137,7 +2489,7 @@
       "🚑 Sanitka veze muže do nemocnice.",
       "👨‍⚕️🦴 Lékař dává muži sádru na ruku."
      ],
-     "model": "Včera ráno jel pan Tichý na kole do práce. Najednou na cestu vyběhl pes a pan Tichý spadl z kola. Přijela sanitka a odvezla ho do nemocnice. Lékař řekl, že má zlomenou ruku, a dal mu sádru."
+     "model": "Včera ráno jel pan Tichý na kole do práce. Bylo hezké počasí a on jel docela rychle. Najednou na cestu vyběhl velký pes. Pan Tichý chtěl zastavit, ale spadl z kola. Bolela ho ruka a nemohl vstát. Lidé na ulici zavolali sanitku. Sanitka přijela za deset minut a odvezla ho do nemocnice. V nemocnici ho vyšetřil lékař. Řekl mu, že má zlomenou ruku, a dal mu sádru. Pan Tichý musel zůstat šest týdnů doma."
     },
     "t4": {
      "situation": "V létě chceme spolu jet na dovolenou. Kam pojedeme?",
@@ -2160,7 +2512,45 @@
       "Ve městě je v létě moc horko.",
       "A proč chceš jet tam?"
      ],
-     "model": "Můžeme jet k moři. – Tak pojedeme na hory. – Protože tam je klid, čerstvý vzduch a můžeme chodit na výlety. – Dobře, pojedeme na hory."
+     "model": "Můžeme jet k moři. – Tak pojedeme na hory. – Protože tam je klid, čerstvý vzduch a můžeme chodit na výlety. – Dobře, pojedeme na hory.",
+     "dialog": [
+      [
+       "T",
+       "V létě chceme spolu jet na dovolenou. Kam pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jet k moři."
+      ],
+      [
+       "T",
+       "K moři je to moc daleko."
+      ],
+      [
+       "U",
+       "Tak pojedeme do nějakého velkého města."
+      ],
+      [
+       "T",
+       "Ve městě je v létě moc horko."
+      ],
+      [
+       "U",
+       "Tak pojedeme na hory."
+      ],
+      [
+       "T",
+       "A proč chceš jet tam?"
+      ],
+      [
+       "U",
+       "Protože tam je klid, čerstvý vzduch a můžeme chodit na výlety."
+      ],
+      [
+       "T",
+       "Máš pravdu. Pojedeme na hory."
+      ]
+     ]
     }
    }
   },
@@ -2825,10 +3215,56 @@
         "Ano, kartu dostanete poštou do týdne.",
         "Ano, internetové bankovnictví je zdarma."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, potřebujete pas a povolení k pobytu.",
        "close": "Děkuji, na shledanou."
       },
-      "model": "Dobrý den, chci si založit účet. Kolik stojí účet měsíčně? Dostanu platební kartu? Můžu mít internetové bankovnictví? Potřebuju pas?"
+      "model": "Dobrý den, chci si založit účet. Kolik stojí účet měsíčně? Dostanu platební kartu? Můžu mít internetové bankovnictví? Potřebuju pas?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, chci si založit účet. Kolik stojí účet měsíčně?"
+       ],
+       [
+        "T",
+        "Účet je bez poplatku."
+       ],
+       [
+        "U",
+        "Dostanu platební kartu?"
+       ],
+       [
+        "T",
+        "Ano, kartu dostanete poštou do týdne."
+       ],
+       [
+        "U",
+        "Můžu mít internetové bankovnictví?"
+       ],
+       [
+        "T",
+        "Ano, internetové bankovnictví je zdarma."
+       ],
+       [
+        "U",
+        "Potřebuju pas?"
+       ],
+       [
+        "T",
+        "Ano, potřebujete pas a povolení k pobytu."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Děkuji, na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v půjčovně kol.",
@@ -2846,10 +3282,56 @@
         "Helmu vám půjčíme zdarma.",
         "Kolo musíte vrátit do 19 hodin."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, dětská kola máme pro děti od 6 let.",
        "close": "Hezký výlet!"
       },
-      "model": "Dobrý den, kolik stojí kolo na jeden den? Půjčíte mi i helmu? Do kolika hodin musím kolo vrátit? Máte i dětské kolo?"
+      "model": "Dobrý den, kolik stojí kolo na jeden den? Půjčíte mi i helmu? Do kolika hodin musím kolo vrátit? Máte i dětské kolo?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí kolo na jeden den?"
+       ],
+       [
+        "T",
+        "Kolo stojí 350 Kč na den."
+       ],
+       [
+        "U",
+        "Půjčíte mi i helmu?"
+       ],
+       [
+        "T",
+        "Helmu vám půjčíme zdarma."
+       ],
+       [
+        "U",
+        "Do kolika hodin musím kolo vrátit?"
+       ],
+       [
+        "T",
+        "Kolo musíte vrátit do 19 hodin."
+       ],
+       [
+        "U",
+        "Máte i dětské kolo?"
+       ],
+       [
+        "T",
+        "Ano, dětská kola máme pro děti od 6 let."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hezký výlet!"
+       ]
+      ]
      }
     ],
     "t3": {
@@ -2861,7 +3343,7 @@
       "💳❌ U pokladny hledá v tašce peněženku, ale nemá ji.",
       "🏠👛 Doma najde peněženku na stole."
      ],
-     "model": "Včera paní Kováčová napsala nákupní seznam. Potom šla do supermarketu a dala do košíku mléko, chleba a ovoce. U pokladny hledala peněženku, ale neměla ji. Musela jít domů. Doma našla peněženku na stole."
+     "model": "Včera odpoledne chtěla paní Kováčová jít nakupovat. Doma nejdřív napsala nákupní seznam. Potřebovala mléko, chleba a ovoce. Potom šla do supermarketu. Vzala si košík a dala do něj všechny věci ze seznamu. Nakonec šla k pokladně. U pokladny hledala v tašce peněženku, ale neměla ji. Byla nervózní a musela nákup nechat v obchodě. Šla rychle domů. Doma našla peněženku na stole v kuchyni. Potom se do obchodu vrátila a nákup zaplatila."
     },
     "t4": {
      "situation": "V sobotu k nám přijdou kamarádi. Chceme spolu uvařit večeři. Co uvaříme?",
@@ -2884,7 +3366,45 @@
       "Pizzu jsme měli minulý týden.",
       "A proč chceš vařit tohle?"
      ],
-     "model": "Můžeme udělat rybu. – Tak uvaříme guláš. – Protože guláš mají všichni rádi a můžeme ho uvařit dopředu. – Dobře, uvaříme guláš."
+     "model": "Můžeme udělat rybu. – Tak uvaříme guláš. – Protože guláš mají všichni rádi a můžeme ho uvařit dopředu. – Dobře, uvaříme guláš.",
+     "dialog": [
+      [
+       "T",
+       "V sobotu k nám přijdou kamarádi. Chceme spolu uvařit večeři. Co uvaříme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme uvařit rybu."
+      ],
+      [
+       "T",
+       "Rybu nemám rád, nechutná mi."
+      ],
+      [
+       "U",
+       "Tak uděláme pizzu."
+      ],
+      [
+       "T",
+       "Pizzu jsme měli minulý týden."
+      ],
+      [
+       "U",
+       "Tak uvaříme guláš."
+      ],
+      [
+       "T",
+       "A proč chceš vařit tohle?"
+      ],
+      [
+       "U",
+       "Protože guláš mají všichni rádi a můžeme ho uvařit dopředu."
+      ],
+      [
+       "T",
+       "Dobře, guláš je dobrý nápad. Uvaříme guláš."
+      ]
+     ]
     }
    }
   },
@@ -3543,10 +4063,56 @@
         "Stříhání stojí 400 Kč.",
         "Trvá to asi 45 minut."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, kartou platit můžete.",
        "close": "Tak zítra, na shledanou."
       },
-      "model": "Dobrý den, máte volný termín na stříhání? Kolik to stojí? Jak dlouho to trvá? Můžu platit kartou?"
+      "model": "Dobrý den, máte volný termín na stříhání? Kolik to stojí? Jak dlouho to trvá? Můžu platit kartou?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volný termín na stříhání?"
+       ],
+       [
+        "T",
+        "Volno mám zítra ve tři hodiny."
+       ],
+       [
+        "U",
+        "Kolik to stojí?"
+       ],
+       [
+        "T",
+        "Stříhání stojí 400 Kč."
+       ],
+       [
+        "U",
+        "Jak dlouho to trvá?"
+       ],
+       [
+        "T",
+        "Trvá to asi 45 minut."
+       ],
+       [
+        "U",
+        "Můžu platit kartou?"
+       ],
+       [
+        "T",
+        "Ano, kartou platit můžete."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Tak zítra, na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v informačním centru.",
@@ -3564,10 +4130,56 @@
         "Vstupenka stojí 150 Kč.",
         "Prohlídka je v češtině a angličtině."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Prohlídka trvá asi dvě hodiny.",
        "close": "Hezký den."
       },
-      "model": "Dobrý den, kdy začíná prohlídka města? Kolik stojí? V jakém jazyce je prohlídka? Jak dlouho trvá?"
+      "model": "Dobrý den, kdy začíná prohlídka města? Kolik stojí? V jakém jazyce je prohlídka? Jak dlouho trvá?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy začíná prohlídka města?"
+       ],
+       [
+        "T",
+        "Prohlídka začíná v 11 hodin."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Vstupenka stojí 150 Kč."
+       ],
+       [
+        "U",
+        "V jakém jazyce je prohlídka?"
+       ],
+       [
+        "T",
+        "Prohlídka je v češtině a angličtině."
+       ],
+       [
+        "U",
+        "Jak dlouho trvá?"
+       ],
+       [
+        "T",
+        "Prohlídka trvá asi dvě hodiny."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hezký den."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -3579,7 +4191,7 @@
       "🎁 Večer přijdou kamarádi s dárky.",
       "🎶 Všichni zpívají a tancují."
      ],
-     "model": "Včera měla Marie narozeniny. Ráno pekla dort v kuchyni. Odpoledne zdobila byt balonky. Večer přišli kamarádi a přinesli jí dárky. Potom všichni zpívali, tancovali a měli se dobře."
+     "model": "Včera měla Marie narozeniny. Ráno vstala brzy a v kuchyni pekla čokoládový dort. Dort byl velký a moc voněl. Na dort dala jahody a šlehačku. Odpoledne zdobila byt. Dala do obýváku barevné balonky. Potom připravila jídlo a pití. Večer přišli kamarádi. Přinesli Marii dárky a květiny. Marie byla moc ráda. Potom všichni jedli dort, zpívali a tancovali. Oslava skončila až o půlnoci a všichni se měli dobře."
     },
     "t4": {
      "situation": "Chceme spolu začít sportovat. Jaký sport budeme dělat?",
@@ -3602,7 +4214,45 @@
       "Nemám kolo.",
       "A proč chceš dělat tohle?"
      ],
-     "model": "Můžeme běhat. – Tak můžeme jezdit na kole. – Tak budeme plavat. – Protože plavání je zdravé a bazén je blízko. – Dobře, budeme plavat."
+     "model": "Můžeme běhat. – Tak můžeme jezdit na kole. – Tak budeme plavat. – Protože plavání je zdravé a bazén je blízko. – Dobře, budeme plavat.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu začít sportovat. Jaký sport budeme dělat? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme chodit běhat."
+      ],
+      [
+       "T",
+       "Běhat nechci, bolí mě kolena."
+      ],
+      [
+       "U",
+       "Tak budeme jezdit na kole."
+      ],
+      [
+       "T",
+       "Nemám kolo."
+      ],
+      [
+       "U",
+       "Tak budeme chodit plavat."
+      ],
+      [
+       "T",
+       "A proč chceš dělat tohle?"
+      ],
+      [
+       "U",
+       "Protože plavání je zdravé a bazén je blízko."
+      ],
+      [
+       "T",
+       "To je pravda. Budeme chodit plavat."
+      ]
+     ]
     }
    }
   },
@@ -4262,10 +4912,56 @@
         "Oprava bude stát asi 6 000 Kč.",
         "Ano, můžeme vám půjčit náhradní auto."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, platit můžete kartou i hotově.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, kdy bude auto hotové? Kolik bude stát oprava? Můžete mi půjčit náhradní auto? Můžu platit kartou?"
+      "model": "Dobrý den, kdy bude auto hotové? Kolik bude stát oprava? Můžete mi půjčit náhradní auto? Můžu platit kartou?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy bude auto hotové?"
+       ],
+       [
+        "T",
+        "Auto bude hotové v pátek."
+       ],
+       [
+        "U",
+        "Kolik bude stát oprava?"
+       ],
+       [
+        "T",
+        "Oprava bude stát asi 6 000 Kč."
+       ],
+       [
+        "U",
+        "Můžete mi půjčit náhradní auto?"
+       ],
+       [
+        "T",
+        "Ano, můžeme vám půjčit náhradní auto."
+       ],
+       [
+        "U",
+        "Můžu platit kartou?"
+       ],
+       [
+        "T",
+        "Ano, platit můžete kartou i hotově."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v supermarketu.",
@@ -4283,10 +4979,56 @@
         "Ano, chleba pečeme každé ráno.",
         "Ano, dnes je sleva na ovoce."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Máme otevřeno do 22 hodin.",
        "close": "Není zač."
       },
-      "model": "Dobrý den, kde najdu mléko? Máte čerstvý chleba? Je dnes nějaká sleva? Do kolika máte otevřeno?"
+      "model": "Dobrý den, kde najdu mléko? Máte čerstvý chleba? Je dnes nějaká sleva? Do kolika máte otevřeno?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den, můžu vám pomoct?"
+       ],
+       [
+        "U",
+        "Dobrý den, kde najdu mléko?"
+       ],
+       [
+        "T",
+        "Mléko je v chladicím boxu vzadu."
+       ],
+       [
+        "U",
+        "Máte čerstvý chleba?"
+       ],
+       [
+        "T",
+        "Ano, chleba pečeme každé ráno."
+       ],
+       [
+        "U",
+        "Je dnes nějaká sleva?"
+       ],
+       [
+        "T",
+        "Ano, dnes je sleva na ovoce."
+       ],
+       [
+        "U",
+        "Do kolika máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno do 22 hodin."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Není zač."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -4298,7 +5040,7 @@
       "📞 Volá zámečníkovi.",
       "🔧🚪 Zámečník otvírá dveře a muž platí."
      ],
-     "model": "Včera večer šel pan Vlk z práce domů. Před dveřmi hledal klíč, ale neměl ho. Zavolal zámečníkovi. Zámečník přijel a otevřel dveře. Pan Vlk musel zaplatit hodně peněz."
+     "model": "Včera večer šel pan Vlk z práce domů. Byl unavený a těšil se na večeři. Když přišel ke dveřím, hledal klíč. Hledal ho v kapse i v tašce, ale neměl ho. Asi ho zapomněl v práci. Pan Vlk nevěděl, co má dělat. Nakonec zavolal zámečníkovi. Zámečník přijel za půl hodiny. Otevřel dveře za pět minut. Pan Vlk mu musel zaplatit osm set korun a byl smutný."
     },
     "t4": {
      "situation": "Kamarád se stěhuje do nového bytu. Co mu koupíme?",
@@ -4321,7 +5063,45 @@
       "Obraz je moc drahý.",
       "Proč chceš koupit tohle?"
      ],
-     "model": "Můžeme koupit květinu. – Tak koupíme obraz. – Tak mu koupíme hrnky. – Protože rád pije kávu a hrnky potřebuje každý. – Dobře, koupíme hrnky."
+     "model": "Můžeme koupit květinu. – Tak koupíme obraz. – Tak mu koupíme hrnky. – Protože rád pije kávu a hrnky potřebuje každý. – Dobře, koupíme hrnky.",
+     "dialog": [
+      [
+       "T",
+       "Kamarád se stěhuje do nového bytu. Co mu koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme mu koupit květinu."
+      ],
+      [
+       "T",
+       "Květiny on nemá rád, nestará se o ně."
+      ],
+      [
+       "U",
+       "Tak mu koupíme obraz."
+      ],
+      [
+       "T",
+       "Obraz je moc drahý."
+      ],
+      [
+       "U",
+       "Tak mu koupíme hrnky."
+      ],
+      [
+       "T",
+       "Proč chceš koupit tohle?"
+      ],
+      [
+       "U",
+       "Protože rád pije kávu a hrnky potřebuje každý."
+      ],
+      [
+       "T",
+       "Dobře, to je praktický dárek. Koupíme mu hrnky."
+      ]
+     ]
     }
    }
   },
@@ -4976,10 +5756,56 @@
         "Měsíc stojí 990 Kč.",
         "Ano, trenér je tady každý den."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, sprchy jsou v šatně.",
        "close": "Těšíme se na vás."
       },
-      "model": "Dobrý den, kdy máte otevřeno? Kolik stojí měsíční permanentka? Máte trenéra? Je tady sprcha?"
+      "model": "Dobrý den, kdy máte otevřeno? Kolik stojí měsíční permanentka? Máte trenéra? Je tady sprcha?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno od 6 do 22 hodin."
+       ],
+       [
+        "U",
+        "Kolik stojí měsíční permanentka?"
+       ],
+       [
+        "T",
+        "Měsíc stojí 990 Kč."
+       ],
+       [
+        "U",
+        "Máte trenéra?"
+       ],
+       [
+        "T",
+        "Ano, trenér je tady každý den."
+       ],
+       [
+        "U",
+        "Je tady sprcha?"
+       ],
+       [
+        "T",
+        "Ano, sprchy jsou v šatně."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Těšíme se na vás."
+       ]
+      ]
      },
      {
       "situation": "Jste v realitní kanceláři.",
@@ -4997,10 +5823,56 @@
         "Nájem je 14 000 Kč.",
         "Prohlídka je možná zítra."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Malého psa majitel dovolí.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, máte volný byt 2+1? Kolik stojí nájem? Kdy můžu přijít na prohlídku? Můžu mít psa?"
+      "model": "Dobrý den, máte volný byt 2+1? Kolik stojí nájem? Kdy můžu přijít na prohlídku? Můžu mít psa?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volný byt 2+1?"
+       ],
+       [
+        "T",
+        "Ano, máme volný byt 2+1."
+       ],
+       [
+        "U",
+        "Kolik stojí nájem?"
+       ],
+       [
+        "T",
+        "Nájem je 14 000 Kč."
+       ],
+       [
+        "U",
+        "Kdy můžu přijít na prohlídku?"
+       ],
+       [
+        "T",
+        "Prohlídka je možná zítra."
+       ],
+       [
+        "U",
+        "Můžu mít psa?"
+       ],
+       [
+        "T",
+        "Malého psa majitel dovolí."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -5012,7 +5884,7 @@
       "👩‍⚕️ Lékařka ji vyšetřuje.",
       "💊 V lékárně kupuje léky."
      ],
-     "model": "Včera ráno se Olga cítila špatně a měla horečku. Zavolala do ordinace a objednala se. Lékařka ji vyšetřila a napsala jí recept. Potom šla Olga do lékárny a koupila si léky."
+     "model": "Včera ráno se Olga necítila dobře. Ležela v posteli, bolela ji hlava a měla horečku. Do práce nemohla jít. Zavolala do ordinace a objednala se k lékařce. Sestra jí řekla, ať přijde v deset hodin. Lékařka Olgu vyšetřila. Řekla jí, že má chřipku, a napsala jí recept. Potom šla Olga do lékárny. Koupila si léky a čaj. Doma si lehla a celý den odpočívala."
     },
     "t4": {
      "situation": "V neděli chceme jít spolu s dětmi na výlet. Kam půjdeme?",
@@ -5035,7 +5907,45 @@
       "Na hrad je to daleko a děti budou unavené.",
       "A proč chceš jít tam?"
      ],
-     "model": "Můžeme jít do zoo. – Tak pojedeme na hrad. – Tak půjdeme do aquaparku. – Protože děti rády plavou a bude hezky. – Dobře, aquapark."
+     "model": "Můžeme jít do zoo. – Tak pojedeme na hrad. – Tak půjdeme do aquaparku. – Protože děti rády plavou a bude hezky. – Dobře, aquapark.",
+     "dialog": [
+      [
+       "T",
+       "V neděli chceme jít spolu s dětmi na výlet. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jít do zoo."
+      ],
+      [
+       "T",
+       "V zoo jsme byli minulý měsíc."
+      ],
+      [
+       "U",
+       "Tak pojedeme na hrad."
+      ],
+      [
+       "T",
+       "Na hrad je to daleko a děti budou unavené."
+      ],
+      [
+       "U",
+       "Tak půjdeme do aquaparku."
+      ],
+      [
+       "T",
+       "A proč chceš jít tam?"
+      ],
+      [
+       "U",
+       "Protože děti rády plavou a v aquaparku se nebudou nudit."
+      ],
+      [
+       "T",
+       "Máš pravdu. Půjdeme do aquaparku."
+      ]
+     ]
     }
    }
   },
@@ -5691,10 +6601,56 @@
         "Poplatek je 100 Kč.",
         "Trvá to asi 30 dní."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, přineste nájemní smlouvu nebo potvrzení od majitele.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, potřebuju změnit adresu. Kde dostanu formulář? Kolik stojí poplatek? Jak dlouho to trvá? Potřebuju nájemní smlouvu?"
+      "model": "Dobrý den, potřebuju změnit adresu. Kde dostanu formulář? Kolik stojí poplatek? Jak dlouho to trvá? Potřebuju nájemní smlouvu?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, potřebuju změnit adresu. Kde dostanu formulář?"
+       ],
+       [
+        "T",
+        "Formulář dostanete tady u mě."
+       ],
+       [
+        "U",
+        "Kolik stojí poplatek?"
+       ],
+       [
+        "T",
+        "Poplatek je 100 Kč."
+       ],
+       [
+        "U",
+        "Jak dlouho to trvá?"
+       ],
+       [
+        "T",
+        "Trvá to asi 30 dní."
+       ],
+       [
+        "U",
+        "Potřebuju nájemní smlouvu?"
+       ],
+       [
+        "T",
+        "Ano, přineste nájemní smlouvu nebo potvrzení od majitele."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v kavárně.",
@@ -5712,10 +6668,56 @@
         "Stojí to 350 Kč za osobu.",
         "Ano, můžete pustit vlastní hudbu."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Můžete zůstat do 23 hodin.",
        "close": "Těšíme se."
       },
-      "model": "Dobrý den, máte volnou místnost na oslavu? Kolik to stojí za osobu? Můžeme mít hudbu? Do kolika hodin můžeme zůstat?"
+      "model": "Dobrý den, máte volnou místnost na oslavu? Kolik to stojí za osobu? Můžeme mít hudbu? Do kolika hodin můžeme zůstat?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volnou místnost na oslavu?"
+       ],
+       [
+        "T",
+        "Ano, máme salonek pro 20 lidí."
+       ],
+       [
+        "U",
+        "Kolik to stojí za osobu?"
+       ],
+       [
+        "T",
+        "Stojí to 350 Kč za osobu."
+       ],
+       [
+        "U",
+        "Můžeme mít hudbu?"
+       ],
+       [
+        "T",
+        "Ano, můžete pustit vlastní hudbu."
+       ],
+       [
+        "U",
+        "Do kolika hodin můžeme zůstat?"
+       ],
+       [
+        "T",
+        "Můžete zůstat do 23 hodin."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Těšíme se."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -5727,7 +6729,7 @@
       "🍽️ V poledne obědvá s kolegy.",
       "🛋️ Večer odpočívá doma a dívá se na televizi."
      ],
-     "model": "Včera vstal Ivan už ve čtyři hodiny ráno. Jel do práce a ve skladu nakládal krabice. V poledne obědval s kolegy v jídelně. Večer byl unavený, odpočíval doma a díval se na televizi."
+     "model": "Včera vstal Ivan už ve čtyři hodiny ráno. Rychle se oblékl, vypil kávu a jel do práce. Pracuje ve velkém skladu. Celé dopoledne nakládal těžké krabice do kamionu. Práce byla náročná, ale šla dobře. V poledne obědval s kolegy v jídelně. Dal si polévku a guláš. Povídali si o fotbale. Večer byl Ivan moc unavený. Odpočíval doma na gauči a díval se na televizi."
     },
     "t4": {
      "situation": "Chceme spolu udělat něco pro zdraví. Co budeme dělat?",
@@ -5750,7 +6752,45 @@
       "Na procházky nemám čas.",
       "A proč chceš tohle?"
      ],
-     "model": "Můžeme cvičit jógu. – Tak budeme chodit na procházky. – Tak budeme jíst zdravě. – Protože to můžeme dělat každý den doma. – Dobře, budeme jíst zdravě."
+     "model": "Můžeme cvičit jógu. – Tak budeme chodit na procházky. – Tak budeme jíst zdravě. – Protože to můžeme dělat každý den doma. – Dobře, budeme jíst zdravě.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu udělat něco pro zdraví. Co budeme dělat? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme spolu cvičit jógu."
+      ],
+      [
+       "T",
+       "Jóga je nuda."
+      ],
+      [
+       "U",
+       "Tak budeme chodit na procházky."
+      ],
+      [
+       "T",
+       "Na procházky nemám čas."
+      ],
+      [
+       "U",
+       "Tak budeme jíst zdravě."
+      ],
+      [
+       "T",
+       "A proč chceš tohle?"
+      ],
+      [
+       "U",
+       "Protože to můžeme dělat každý den a nepotřebujeme na to čas navíc."
+      ],
+      [
+       "T",
+       "Dobře, budeme jíst zdravě."
+      ]
+     ]
     }
    }
   },
@@ -6408,10 +7448,56 @@
         "Jízdenka stojí 650 Kč.",
         "Místenku doporučuji, stojí 50 Kč."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, jídelní vůz je uprostřed vlaku.",
        "close": "Šťastnou cestu."
       },
-      "model": "Dobrý den, kdy jede vlak do Vídně? Kolik stojí jízdenka? Potřebuju místenku? Je ve vlaku jídelní vůz?"
+      "model": "Dobrý den, kdy jede vlak do Vídně? Kolik stojí jízdenka? Potřebuju místenku? Je ve vlaku jídelní vůz?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy jede vlak do Vídně?"
+       ],
+       [
+        "T",
+        "Vlak jede v 9:20."
+       ],
+       [
+        "U",
+        "Kolik stojí jízdenka?"
+       ],
+       [
+        "T",
+        "Jízdenka stojí 650 Kč."
+       ],
+       [
+        "U",
+        "Potřebuju místenku?"
+       ],
+       [
+        "T",
+        "Místenku doporučuji, stojí 50 Kč."
+       ],
+       [
+        "U",
+        "Je ve vlaku jídelní vůz?"
+       ],
+       [
+        "T",
+        "Ano, jídelní vůz je uprostřed vlaku."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Šťastnou cestu."
+       ]
+      ]
      },
      {
       "situation": "Jste v obchodě s nábytkem.",
@@ -6429,10 +7515,56 @@
         "Stojí 12 000 Kč.",
         "Ano, dopravu domů vám zajistíme."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ne, matraci musíte koupit zvlášť.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, jak velká je tato postel? Kolik stojí? Dovezete mi ji domů? Je v ceně i matrace?"
+      "model": "Dobrý den, jak velká je tato postel? Kolik stojí? Dovezete mi ji domů? Je v ceně i matrace?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, jak velká je tato postel?"
+       ],
+       [
+        "T",
+        "Postel je 160 krát 200 centimetrů."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Stojí 12 000 Kč."
+       ],
+       [
+        "U",
+        "Dovezete mi ji domů?"
+       ],
+       [
+        "T",
+        "Ano, dopravu domů vám zajistíme."
+       ],
+       [
+        "U",
+        "Je v ceně i matrace?"
+       ],
+       [
+        "T",
+        "Ne, matraci musíte koupit zvlášť."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -6444,7 +7576,7 @@
       "📷 Fotí se na nový doklad.",
       "🪪 Úřednice mu dává potvrzení."
      ],
-     "model": "Včera byl pan Kovač na úřadě. Nejdřív dlouho čekal ve frontě. Potom vyplnil formulář. Musel se vyfotit na nový doklad. Nakonec mu úřednice dala potvrzení a řekla, kdy si doklad vyzvedne."
+     "model": "Včera šel pan Kovač na úřad, protože potřeboval nový doklad. Na úřadě bylo hodně lidí. Musel dlouho čekat ve frontě, skoro hodinu. Potom vyplnil formulář. Napsal tam svoje jméno, adresu a datum narození. Některé věci nevěděl, tak se zeptal úřednice. Potom se musel vyfotit na nový doklad. Fotka byla hotová hned. Nakonec mu úřednice dala potvrzení. Řekla mu, že si doklad může vyzvednout za měsíc."
     },
     "t4": {
      "situation": "Chceme se spolu naučit něco nového. Co se budeme učit?",
@@ -6467,7 +7599,45 @@
       "Autoškola je moc drahá.",
       "A proč to chceš?"
      ],
-     "model": "Můžeme se učit anglicky. – Tak půjdeme do autoškoly. – Tak se budeme učit na počítači. – Protože to potřebujeme v práci. – Dobře, kurz počítačů."
+     "model": "Můžeme se učit anglicky. – Tak půjdeme do autoškoly. – Tak se budeme učit na počítači. – Protože to potřebujeme v práci. – Dobře, kurz počítačů.",
+     "dialog": [
+      [
+       "T",
+       "Chceme se spolu naučit něco nového. Co se budeme učit? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme se učit anglicky."
+      ],
+      [
+       "T",
+       "Anglicky už umím."
+      ],
+      [
+       "U",
+       "Tak půjdeme do autoškoly."
+      ],
+      [
+       "T",
+       "Autoškola je moc drahá."
+      ],
+      [
+       "U",
+       "Tak se budeme učit pracovat s počítačem."
+      ],
+      [
+       "T",
+       "A proč to chceš?"
+      ],
+      [
+       "U",
+       "Protože počítače potřebujeme v práci i doma."
+      ],
+      [
+       "T",
+       "To je pravda. Půjdeme na kurz počítačů."
+      ]
+     ]
     }
    }
   },
@@ -7125,10 +8295,56 @@
         "Check-out je do 10 hodin.",
         "Parkování je za hotelem."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, o víkendu je snídaně až do 11 hodin.",
        "close": "Příjemný pobyt."
       },
-      "model": "Dobrý den, je v pokoji Wi-Fi? Do kolika musíme odejít? Kde můžu parkovat? Můžu mít pozdní snídani?"
+      "model": "Dobrý den, je v pokoji Wi-Fi? Do kolika musíme odejít? Kde můžu parkovat? Můžu mít pozdní snídani?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, je v pokoji Wi-Fi?"
+       ],
+       [
+        "T",
+        "Wi-Fi je zdarma, heslo je na pokoji."
+       ],
+       [
+        "U",
+        "Do kolika musíme odejít?"
+       ],
+       [
+        "T",
+        "Check-out je do 10 hodin."
+       ],
+       [
+        "U",
+        "Kde můžu parkovat?"
+       ],
+       [
+        "T",
+        "Parkování je za hotelem."
+       ],
+       [
+        "U",
+        "Můžu mít pozdní snídani?"
+       ],
+       [
+        "T",
+        "Ano, o víkendu je snídaně až do 11 hodin."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Příjemný pobyt."
+       ]
+      ]
      },
      {
       "situation": "Jste v zoo.",
@@ -7146,10 +8362,56 @@
         "Krmení je ve 14 hodin.",
         "Ano, restaurace je u vchodu."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, kočárky půjčujeme u pokladny zdarma.",
        "close": "Hezký den."
       },
-      "model": "Dobrý den, kolik stojí vstupenka pro děti? Kdy je krmení zvířat? Je tady restaurace? Můžu si půjčit kočárek?"
+      "model": "Dobrý den, kolik stojí vstupenka pro děti? Kdy je krmení zvířat? Je tady restaurace? Můžu si půjčit kočárek?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí vstupenka pro děti?"
+       ],
+       [
+        "T",
+        "Děti platí 100 Kč."
+       ],
+       [
+        "U",
+        "Kdy je krmení zvířat?"
+       ],
+       [
+        "T",
+        "Krmení je ve 14 hodin."
+       ],
+       [
+        "U",
+        "Je tady restaurace?"
+       ],
+       [
+        "T",
+        "Ano, restaurace je u vchodu."
+       ],
+       [
+        "U",
+        "Můžu si půjčit kočárek?"
+       ],
+       [
+        "T",
+        "Ano, kočárky půjčujeme u pokladny zdarma."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hezký den."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -7161,7 +8423,7 @@
       "🐟🥔 Večer jedí kapra s bramborovým salátem.",
       "🎁 Pod stromečkem rozbalují dárky."
      ],
-     "model": "Na Štědrý den ráno zdobili Petrenkovi stromeček. Odpoledne pekli cukroví. Večer jedli kapra s bramborovým salátem. Potom rozbalovali dárky pod stromečkem a byli moc šťastní."
+     "model": "Na Štědrý den byla rodina Petrenkových celý den doma. Ráno zdobili vánoční stromeček. Děti dávaly na stromeček koule a světýlka. Odpoledne pekli cukroví. Maminka dělala těsto a děti vykrajovaly hvězdičky. Celý byt krásně voněl. Večer jedli kapra s bramborovým salátem. Byla to tradiční česká večeře. Potom šli ke stromečku a rozbalovali dárky. Děti dostaly nové hračky a knihy. Všichni byli moc šťastní a večer zpívali koledy."
     },
     "t4": {
      "situation": "Kamarádka slaví narozeniny. Kde uděláme oslavu?",
@@ -7184,7 +8446,45 @@
       "V parku bude zima.",
       "A proč tam?"
      ],
-     "model": "Můžeme slavit doma. – Tak půjdeme do parku. – Tak v restauraci. – Protože tam nemusíme vařit ani uklízet. – Dobře, v restauraci."
+     "model": "Můžeme slavit doma. – Tak půjdeme do parku. – Tak v restauraci. – Protože tam nemusíme vařit ani uklízet. – Dobře, v restauraci.",
+     "dialog": [
+      [
+       "T",
+       "Kamarádka slaví narozeniny. Kde uděláme oslavu? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme udělat oslavu doma."
+      ],
+      [
+       "T",
+       "Doma je málo místa."
+      ],
+      [
+       "U",
+       "Tak uděláme oslavu v parku."
+      ],
+      [
+       "T",
+       "V parku bude zima."
+      ],
+      [
+       "U",
+       "Tak uděláme oslavu v restauraci."
+      ],
+      [
+       "T",
+       "A proč tam?"
+      ],
+      [
+       "U",
+       "Protože tam nemusíme vařit ani uklízet."
+      ],
+      [
+       "T",
+       "Dobře, to je dobrý nápad. Oslava bude v restauraci."
+      ]
+     ]
     }
    }
   },
@@ -7838,10 +9138,56 @@
         "Zkouška stojí 3 200 Kč.",
         "Zkouška bude tady v naší škole."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Přineste si pas a modré pero.",
        "close": "Hodně štěstí."
       },
-      "model": "Dobrý den, kdy je nejbližší termín zkoušky? Kolik stojí? Kde bude zkouška? Co si mám přinést?"
+      "model": "Dobrý den, kdy je nejbližší termín zkoušky? Kolik stojí? Kde bude zkouška? Co si mám přinést?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy je nejbližší termín zkoušky?"
+       ],
+       [
+        "T",
+        "Nejbližší termín je 15. listopadu."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Zkouška stojí 3 200 Kč."
+       ],
+       [
+        "U",
+        "Kde bude zkouška?"
+       ],
+       [
+        "T",
+        "Zkouška bude tady v naší škole."
+       ],
+       [
+        "U",
+        "Co si mám přinést?"
+       ],
+       [
+        "T",
+        "Přineste si pas a modré pero."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hodně štěstí."
+       ]
+      ]
      },
      {
       "situation": "Voláte do pizzerie.",
@@ -7859,10 +9205,56 @@
         "Velká pizza stojí 220 Kč.",
         "Pizzu přivezeme asi za 40 minut."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, řidič má platební terminál.",
        "close": "Dobrou chuť."
       },
-      "model": "Dobrý den, vozíte jídlo domů? Kolik stojí velká pizza? Kdy ji přivezete? Můžu platit kartou u řidiče?"
+      "model": "Dobrý den, vozíte jídlo domů? Kolik stojí velká pizza? Kdy ji přivezete? Můžu platit kartou u řidiče?",
+      "dialog": [
+       [
+        "T",
+        "Pizzerie Napoli, dobrý den."
+       ],
+       [
+        "U",
+        "Dobrý den, vozíte jídlo domů?"
+       ],
+       [
+        "T",
+        "Ano, vozíme po celém městě."
+       ],
+       [
+        "U",
+        "Kolik stojí velká pizza?"
+       ],
+       [
+        "T",
+        "Velká pizza stojí 220 Kč."
+       ],
+       [
+        "U",
+        "Kdy ji přivezete?"
+       ],
+       [
+        "T",
+        "Pizzu přivezeme asi za 40 minut."
+       ],
+       [
+        "U",
+        "Můžu platit kartou u řidiče?"
+       ],
+       [
+        "T",
+        "Ano, řidič má platební terminál."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Dobrou chuť."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -7874,7 +9266,7 @@
       "🚌 Autobus mu odjíždí.",
       "🧑‍💼 Šéf se v kanceláři zlobí."
      ],
-     "model": "Včera Petr zaspal, budík zvonil, ale on spal až do půl osmé. Rychle se oblékl a běžel z domu bez snídaně. Na zastávce mu ujel autobus. Do práce přišel pozdě a šéf se na něj zlobil."
+     "model": "Včera ráno Petr zaspal. Budík zvonil, ale Petr ho neslyšel a spal až do půl osmé. Když se probudil, byl v šoku. Rychle se oblékl a běžel ze schodů. Neměl čas na snídani ani na kávu. Na zastávce viděl, že autobus právě odjíždí. Musel čekat na další autobus dvacet minut. Do práce přišel o hodinu později. Šéf se na něj zlobil. Petr se omluvil a slíbil, že už nepřijde pozdě."
     },
     "t4": {
      "situation": "Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme?",
@@ -7897,7 +9289,45 @@
       "Koncert je vyprodaný.",
       "A proč chceš jít tam?"
      ],
-     "model": "Můžeme jít na fotbal. – Tak na koncert. – Tak půjdeme na bowling. – Protože je to zábava a můžeme vzít kamarády. – Dobře, bowling."
+     "model": "Můžeme jít na fotbal. – Tak na koncert. – Tak půjdeme na bowling. – Protože je to zábava a můžeme vzít kamarády. – Dobře, bowling.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jít na fotbalový zápas."
+      ],
+      [
+       "T",
+       "Fotbal mě nebaví."
+      ],
+      [
+       "U",
+       "Tak půjdeme na koncert."
+      ],
+      [
+       "T",
+       "Koncert je vyprodaný."
+      ],
+      [
+       "U",
+       "Tak půjdeme na bowling."
+      ],
+      [
+       "T",
+       "A proč chceš jít tam?"
+      ],
+      [
+       "U",
+       "Protože je to zábava a můžeme vzít i kamarády."
+      ],
+      [
+       "T",
+       "Dobře, půjdeme na bowling."
+      ]
+     ]
     }
    }
   },
@@ -8555,10 +9985,56 @@
         "Stojí 159 Kč.",
         "Berte ho třikrát denně."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, děti od šesti let, ale jen poloviční dávku.",
        "close": "Brzy se uzdravte."
       },
-      "model": "Dobrý den, máte lék na kašel bez receptu? Kolik stojí? Kolikrát denně ho mám brát? Můžou ho brát i děti?"
+      "model": "Dobrý den, máte lék na kašel bez receptu? Kolik stojí? Kolikrát denně ho mám brát? Můžou ho brát i děti?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte lék na kašel bez receptu?"
+       ],
+       [
+        "T",
+        "Ano, tento sirup je bez receptu."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Stojí 159 Kč."
+       ],
+       [
+        "U",
+        "Kolikrát denně ho mám brát?"
+       ],
+       [
+        "T",
+        "Berte ho třikrát denně."
+       ],
+       [
+        "U",
+        "Můžou ho brát i děti?"
+       ],
+       [
+        "T",
+        "Ano, děti od šesti let, ale jen poloviční dávku."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Brzy se uzdravte."
+       ]
+      ]
      },
      {
       "situation": "Jste v obchodě s elektronikou.",
@@ -8576,10 +10052,56 @@
         "Záruka je dva roky.",
         "Ano, můžete platit na splátky."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, máme ho skladem, můžete si ho vzít hned.",
        "close": "Děkujeme za nákup."
       },
-      "model": "Dobrý den, kolik stojí tento notebook? Jak dlouhá je záruka? Můžu platit na splátky? Máte ho skladem?"
+      "model": "Dobrý den, kolik stojí tento notebook? Jak dlouhá je záruka? Můžu platit na splátky? Máte ho skladem?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí tento notebook?"
+       ],
+       [
+        "T",
+        "Tento notebook stojí 15 990 Kč."
+       ],
+       [
+        "U",
+        "Jak dlouhá je záruka?"
+       ],
+       [
+        "T",
+        "Záruka je dva roky."
+       ],
+       [
+        "U",
+        "Můžu platit na splátky?"
+       ],
+       [
+        "T",
+        "Ano, můžete platit na splátky."
+       ],
+       [
+        "U",
+        "Máte ho skladem?"
+       ],
+       [
+        "T",
+        "Ano, máme ho skladem, můžete si ho vzít hned."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Děkujeme za nákup."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -8591,7 +10113,7 @@
       "⛈️ Začne bouřka.",
       "🏃‍♀️☂️ Všichni utíkají domů s mokrým oblečením."
      ],
-     "model": "V neděli Kovalovi zabalili jídlo do košíku a šli do parku na piknik. Seděli na dece a jedli sendviče a ovoce. Najednou začala bouřka. Všichni rychle utíkali domů a byli úplně mokří."
+     "model": "V neděli šla rodina Kovalových na piknik. Doma zabalili jídlo do košíku. Vzali si sendviče, ovoce a limonádu. Potom šli do parku. Sedli si na deku pod stromem a jedli. Děti si hrály s míčem a rodiče si povídali. Bylo teplo a svítilo slunce. Najednou se zatáhlo a začala bouřka. Hřmělo a silně pršelo. Všichni rychle utíkali domů. Neměli deštník, a proto přišli domů úplně mokří."
     },
     "t4": {
      "situation": "Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme?",
@@ -8614,7 +10136,45 @@
       "Na kočky mám alergii.",
       "A proč chceš tohle zvíře?"
      ],
-     "model": "Můžeme vzít psa. – Tak kočku. – Tak vezmeme králíka. – Protože je malý, tichý a děti ho budou mít rády. – Dobře, králík."
+     "model": "Můžeme vzít psa. – Tak kočku. – Tak vezmeme králíka. – Protože je malý, tichý a děti ho budou mít rády. – Dobře, králík.",
+     "dialog": [
+      [
+       "T",
+       "Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme si vzít psa."
+      ],
+      [
+       "T",
+       "Pes potřebuje hodně prostoru."
+      ],
+      [
+       "U",
+       "Tak si vezmeme kočku."
+      ],
+      [
+       "T",
+       "Na kočky mám alergii."
+      ],
+      [
+       "U",
+       "Tak si vezmeme králíka."
+      ],
+      [
+       "T",
+       "A proč chceš tohle zvíře?"
+      ],
+      [
+       "U",
+       "Protože je malý, tichý a děti ho budou mít rády."
+      ],
+      [
+       "T",
+       "Máš pravdu. Vezmeme si králíka."
+      ]
+     ]
     }
    }
   },
@@ -9273,10 +10833,56 @@
         "Ano, potřebujete pas nebo průkaz.",
         "Máme otevřeno do 18 hodin."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, ale potřebuje vaši plnou moc.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, kde si můžu vyzvednout balík? Potřebuju doklad? Do kolika máte otevřeno? Může balík vyzvednout i manželka?"
+      "model": "Dobrý den, kde si můžu vyzvednout balík? Potřebuju doklad? Do kolika máte otevřeno? Může balík vyzvednout i manželka?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kde si můžu vyzvednout balík?"
+       ],
+       [
+        "T",
+        "Balíky vydáváme u přepážky číslo 3."
+       ],
+       [
+        "U",
+        "Potřebuju doklad?"
+       ],
+       [
+        "T",
+        "Ano, potřebujete pas nebo průkaz."
+       ],
+       [
+        "U",
+        "Do kolika máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno do 18 hodin."
+       ],
+       [
+        "U",
+        "Může balík vyzvednout i manželka?"
+       ],
+       [
+        "T",
+        "Ano, ale potřebuje vaši plnou moc."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v cestovní kanceláři.",
@@ -9294,10 +10900,56 @@
         "Zájezd stojí 15 000 Kč na osobu.",
         "Strava je all inclusive."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, letenka i transfer jsou v ceně.",
        "close": "Krásnou dovolenou."
       },
-      "model": "Dobrý den, kdy je volný termín? Kolik stojí zájezd? Jaká je strava? Je v ceně letenka?"
+      "model": "Dobrý den, kdy je volný termín? Kolik stojí zájezd? Jaká je strava? Je v ceně letenka?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy je volný termín?"
+       ],
+       [
+        "T",
+        "Volný termín je od 10. do 17. července."
+       ],
+       [
+        "U",
+        "Kolik stojí zájezd?"
+       ],
+       [
+        "T",
+        "Zájezd stojí 15 000 Kč na osobu."
+       ],
+       [
+        "U",
+        "Jaká je strava?"
+       ],
+       [
+        "T",
+        "Strava je all inclusive."
+       ],
+       [
+        "U",
+        "Je v ceně letenka?"
+       ],
+       [
+        "T",
+        "Ano, letenka i transfer jsou v ceně."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Krásnou dovolenou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -9309,7 +10961,7 @@
       "✍️ Podepisují nájemní smlouvu.",
       "🔑😊 Dostávají klíče a jsou šťastní."
      ],
-     "model": "Minulý týden hledali Ivan a Olena byt na internetu. Našli hezký byt a šli na prohlídku s majitelem. Byt se jim líbil, tak podepsali nájemní smlouvu. Nakonec dostali klíče a byli moc šťastní."
+     "model": "Minulý týden hledali Ivan a Olena nový byt. Večer seděli u počítače a hledali byt na internetu. Našli hezký byt blízko centra. Potom šli na prohlídku. Majitel jim ukázal kuchyň, ložnici a balkon. Byt se jim moc líbil, protože byl světlý a čistý. Druhý den podepsali nájemní smlouvu. Zaplatili kauci a první nájem. Nakonec od majitele dostali klíče. Byli moc šťastní, protože konečně měli vlastní bydlení."
     },
     "t4": {
      "situation": "Chceme spolu koupit dárek kolegyni, která odchází z práce. Co jí koupíme?",
@@ -9332,7 +10984,45 @@
       "Kytice rychle uvadne.",
       "A proč chceš koupit tohle?"
      ],
-     "model": "Můžeme koupit kávovar. – Tak kytici. – Tak koupíme poukaz do wellness. – Protože si bude moct odpočinout. – Dobře, poukaz."
+     "model": "Můžeme koupit kávovar. – Tak kytici. – Tak koupíme poukaz do wellness. – Protože si bude moct odpočinout. – Dobře, poukaz.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu koupit dárek kolegyni, která odchází z práce. Co jí koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jí koupit kávovar."
+      ],
+      [
+       "T",
+       "Kávovar je moc drahý."
+      ],
+      [
+       "U",
+       "Tak jí koupíme kytici."
+      ],
+      [
+       "T",
+       "Kytice rychle uvadne."
+      ],
+      [
+       "U",
+       "Tak jí koupíme poukaz do wellness."
+      ],
+      [
+       "T",
+       "A proč chceš koupit tohle?"
+      ],
+      [
+       "U",
+       "Protože hodně pracovala a teď si může odpočinout."
+      ],
+      [
+       "T",
+       "To je dobrý nápad. Koupíme jí poukaz do wellness."
+      ]
+     ]
     }
    }
   },
@@ -9991,10 +11681,56 @@
         "Můžete si půjčit 10 knih.",
         "Knihy si půjčíte na měsíc."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, máme malé oddělení ukrajinských knih.",
        "close": "Hezké čtení."
       },
-      "model": "Dobrý den, kolik stojí registrace? Kolik knih si můžu půjčit? Na jak dlouho? Máte i knihy v ukrajinštině?"
+      "model": "Dobrý den, kolik stojí registrace? Kolik knih si můžu půjčit? Na jak dlouho? Máte i knihy v ukrajinštině?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí registrace?"
+       ],
+       [
+        "T",
+        "Registrace stojí 100 Kč na rok."
+       ],
+       [
+        "U",
+        "Kolik knih si můžu půjčit?"
+       ],
+       [
+        "T",
+        "Můžete si půjčit 10 knih."
+       ],
+       [
+        "U",
+        "Na jak dlouho?"
+       ],
+       [
+        "T",
+        "Knihy si půjčíte na měsíc."
+       ],
+       [
+        "U",
+        "Máte i knihy v ukrajinštině?"
+       ],
+       [
+        "T",
+        "Ano, máme malé oddělení ukrajinských knih."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hezké čtení."
+       ]
+      ]
      },
      {
       "situation": "Jste v obchodě s potravinami.",
@@ -10012,10 +11748,56 @@
         "Jeden stojí 35 Kč.",
         "Hotové budou zítra v 10 hodin."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, zabalíme je do krabice.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, děláte chlebíčky na objednávku? Kolik stojí jeden? Kdy budou hotové? Můžete je zabalit?"
+      "model": "Dobrý den, děláte chlebíčky na objednávku? Kolik stojí jeden? Kdy budou hotové? Můžete je zabalit?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co si přejete?"
+       ],
+       [
+        "U",
+        "Dobrý den, děláte chlebíčky na objednávku?"
+       ],
+       [
+        "T",
+        "Ano, chlebíčky děláme na objednávku."
+       ],
+       [
+        "U",
+        "Kolik stojí jeden?"
+       ],
+       [
+        "T",
+        "Jeden stojí 35 Kč."
+       ],
+       [
+        "U",
+        "Kdy budou hotové?"
+       ],
+       [
+        "T",
+        "Hotové budou zítra v 10 hodin."
+       ],
+       [
+        "U",
+        "Můžete je zabalit?"
+       ],
+       [
+        "T",
+        "Ano, zabalíme je do krabice."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -10027,7 +11809,7 @@
       "✍️ Píše test.",
       "🎉📜 Dostane certifikát a slaví s rodinou."
      ],
-     "model": "Minulý měsíc se Oksana každý večer učila česky. Potom šla na zkoušku do jazykové školy. Psala test a mluvila s učitelem. Za měsíc dostala certifikát, protože zkoušku udělala. S rodinou to oslavila."
+     "model": "Minulý měsíc dělala Oksana zkoušku z češtiny. Každý večer se učila česky. Četla texty, poslouchala nahrávky a psala e-maily. V sobotu ráno šla na zkoušku do jazykové školy. Byla trochu nervózní. Nejdřív psala test, čtení, psaní a poslech. Test byl těžký, ale zvládla ho. Za měsíc dostala certifikát, že zkoušku udělala. Byla moc ráda a hned zavolala manželovi. Večer to oslavila s rodinou v restauraci."
     },
     "t4": {
      "situation": "Chceme spolu jet na víkend pryč z města. Kam pojedeme?",
@@ -10050,7 +11832,45 @@
       "Hotel je moc drahý.",
       "A proč chceš jet tam?"
      ],
-     "model": "Můžeme jet do kempu. – Tak do hotelu. – Tak pojedeme na chatu. – Protože tam je klid a můžeme grilovat. – Dobře, chata."
+     "model": "Můžeme jet do kempu. – Tak do hotelu. – Tak pojedeme na chatu. – Protože tam je klid a můžeme grilovat. – Dobře, chata.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jet na víkend pryč z města. Kam pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jet do kempu."
+      ],
+      [
+       "T",
+       "V kempu je moc lidí."
+      ],
+      [
+       "U",
+       "Tak pojedeme do hotelu ve městě."
+      ],
+      [
+       "T",
+       "Hotel je moc drahý."
+      ],
+      [
+       "U",
+       "Tak pojedeme na chatu."
+      ],
+      [
+       "T",
+       "A proč chceš jet tam?"
+      ],
+      [
+       "U",
+       "Protože tam je klid a můžeme grilovat."
+      ],
+      [
+       "T",
+       "Dobře, pojedeme na chatu."
+      ]
+     ]
     }
    }
   },
@@ -10699,10 +12519,56 @@
         "Školné je 800 Kč měsíčně.",
         "Školka je otevřená od 6:30 do 16:30."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, děti mají svačinu a teplý oběd.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, máte volné místo pro mou dceru? Kolik to stojí měsíčně? Kdy je školka otevřená? Mají děti i oběd?"
+      "model": "Dobrý den, máte volné místo pro mou dceru? Kolik to stojí měsíčně? Kdy je školka otevřená? Mají děti i oběd?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volné místo pro mou dceru?"
+       ],
+       [
+        "T",
+        "Ano, od září máme volné místo."
+       ],
+       [
+        "U",
+        "Kolik to stojí měsíčně?"
+       ],
+       [
+        "T",
+        "Školné je 800 Kč měsíčně."
+       ],
+       [
+        "U",
+        "Kdy je školka otevřená?"
+       ],
+       [
+        "T",
+        "Školka je otevřená od 6:30 do 16:30."
+       ],
+       [
+        "U",
+        "Mají děti i oběd?"
+       ],
+       [
+        "T",
+        "Ano, děti mají svačinu a teplý oběd."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v kině.",
@@ -10720,10 +12586,56 @@
         "Lístek stojí 180 Kč.",
         "Film je s českým dabingem."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Film trvá hodinu a půl.",
        "close": "Příjemnou zábavu."
       },
-      "model": "Dobrý den, jaký film dnes hrajete? Kolik stojí lístek? Je film dabovaný? Jak dlouho trvá?"
+      "model": "Dobrý den, jaký film dnes hrajete? Kolik stojí lístek? Je film dabovaný? Jak dlouho trvá?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co si přejete?"
+       ],
+       [
+        "U",
+        "Dobrý den, jaký film dnes hrajete?"
+       ],
+       [
+        "T",
+        "Dnes hrajeme novou komedii v 19 hodin."
+       ],
+       [
+        "U",
+        "Kolik stojí lístek?"
+       ],
+       [
+        "T",
+        "Lístek stojí 180 Kč."
+       ],
+       [
+        "U",
+        "Je film dabovaný?"
+       ],
+       [
+        "T",
+        "Film je s českým dabingem."
+       ],
+       [
+        "U",
+        "Jak dlouho trvá?"
+       ],
+       [
+        "T",
+        "Film trvá hodinu a půl."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Příjemnou zábavu."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -10735,7 +12647,7 @@
       "🔧 Spolu opravují kolo před domem.",
       "🚴‍♂️😄 Syn jede na kole a je šťastný."
      ],
-     "model": "V sobotu chtěl Matvij jet na kole, ale kolo mělo prázdnou pneumatiku. Šel s tátou do obchodu a koupili novou duši. Potom spolu opravili kolo před domem. Nakonec Matvij jel na kole a byl šťastný."
+     "model": "V sobotu chtěl Matvij jet na kole, ale kolo mělo prázdnou pneumatiku. Byl smutný, protože nemohl jet. Řekl to tátovi. Táta a Matvij šli do obchodu se sportovními potřebami. Koupili tam novou duši a pumpičku. Potom spolu opravovali kolo před domem. Táta vyměnil duši a Matvij pumpoval pneumatiku. Nakonec bylo kolo v pořádku. Matvij jel na kole po ulici. Byl moc šťastný a poděkoval tátovi."
     },
     "t4": {
      "situation": "Chceme spolu jet na výlet. Čím pojedeme?",
@@ -10758,7 +12670,45 @@
       "Autobus jede moc dlouho.",
       "A proč chceš jet takhle?"
      ],
-     "model": "Můžeme jet autem. – Tak autobusem. – Tak pojedeme vlakem. – Protože je to rychlé a můžeme si číst. – Dobře, vlakem."
+     "model": "Můžeme jet autem. – Tak autobusem. – Tak pojedeme vlakem. – Protože je to rychlé a můžeme si číst. – Dobře, vlakem.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jet na výlet. Čím pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jet autem."
+      ],
+      [
+       "T",
+       "Auto je v servisu."
+      ],
+      [
+       "U",
+       "Tak pojedeme autobusem."
+      ],
+      [
+       "T",
+       "Autobus jede moc dlouho."
+      ],
+      [
+       "U",
+       "Tak pojedeme vlakem."
+      ],
+      [
+       "T",
+       "A proč chceš jet takhle?"
+      ],
+      [
+       "U",
+       "Protože je to rychlé a ve vlaku si můžeme číst."
+      ],
+      [
+       "T",
+       "Máš pravdu. Pojedeme vlakem."
+      ]
+     ]
     }
    }
   },
@@ -11415,10 +13365,56 @@
         "Máte 20 GB dat.",
         "Volání na Ukrajinu je za 5 Kč za minutu."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, staré číslo vám převedeme.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, kolik stojí tento tarif? Kolik mám dat? Kolik stojí volání do zahraničí? Můžu si nechat staré číslo?"
+      "model": "Dobrý den, kolik stojí tento tarif? Kolik mám dat? Kolik stojí volání do zahraničí? Můžu si nechat staré číslo?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí tento tarif?"
+       ],
+       [
+        "T",
+        "Tarif stojí 499 Kč měsíčně."
+       ],
+       [
+        "U",
+        "Kolik mám dat?"
+       ],
+       [
+        "T",
+        "Máte 20 GB dat."
+       ],
+       [
+        "U",
+        "Kolik stojí volání do zahraničí?"
+       ],
+       [
+        "T",
+        "Volání na Ukrajinu je za 5 Kč za minutu."
+       ],
+       [
+        "U",
+        "Můžu si nechat staré číslo?"
+       ],
+       [
+        "T",
+        "Ano, staré číslo vám převedeme."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste na koupališti.",
@@ -11436,10 +13432,56 @@
         "Máme otevřeno do 19 hodin.",
         "Ano, tobogán je pro děti od 6 let."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, lehátko stojí 50 Kč na den.",
        "close": "Hezký den."
       },
-      "model": "Dobrý den, kolik stojí vstup? Do kolika máte otevřeno? Je tady tobogán? Můžeme si půjčit lehátko?"
+      "model": "Dobrý den, kolik stojí vstup? Do kolika máte otevřeno? Je tady tobogán? Můžeme si půjčit lehátko?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co si přejete?"
+       ],
+       [
+        "U",
+        "Dobrý den, kolik stojí vstup?"
+       ],
+       [
+        "T",
+        "Dospělí platí 120 Kč, děti 60 Kč."
+       ],
+       [
+        "U",
+        "Do kolika máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno do 19 hodin."
+       ],
+       [
+        "U",
+        "Je tady tobogán?"
+       ],
+       [
+        "T",
+        "Ano, tobogán je pro děti od 6 let."
+       ],
+       [
+        "U",
+        "Můžeme si půjčit lehátko?"
+       ],
+       [
+        "T",
+        "Ano, lehátko stojí 50 Kč na den."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hezký den."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -11451,7 +13493,7 @@
       "📢 Jana hledá psa a volá ho.",
       "👦🐕 Malý chlapec přivede psa zpátky."
      ],
-     "model": "Včera venčila Jana psa v parku. Najednou pes uviděl veverku a utekl. Jana ho dlouho hledala a volala. Nakonec přišel malý chlapec a přivedl psa zpátky. Jana mu poděkovala."
+     "model": "Včera odpoledne šla Jana se psem do parku. Bylo hezké počasí a pes běhal po trávě. Jana ho pustila z vodítka. Najednou pes uviděl veverku. Rychle za ní běžel a utekl. Jana se moc bála, že se psovi něco stane. Chodila po parku a volala ho jménem. Asi za půl hodiny přišel malý chlapec. Přivedl psa zpátky. Jana mu poděkovala a dala mu čokoládu."
     },
     "t4": {
      "situation": "Chceme spolu jít na oběd. Co si dáme?",
@@ -11474,7 +13516,45 @@
       "Knedlíky jsou moc těžké.",
       "A proč chceš jíst tohle?"
      ],
-     "model": "Můžeme si dát hamburger. – Tak knedlíky. – Tak vietnamskou polévku. – Protože je lehká a chutná. – Dobře, polévku."
+     "model": "Můžeme si dát hamburger. – Tak knedlíky. – Tak vietnamskou polévku. – Protože je lehká a chutná. – Dobře, polévku.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jít na oběd. Co si dáme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme si dát hamburger."
+      ],
+      [
+       "T",
+       "Hamburgery jsou nezdravé."
+      ],
+      [
+       "U",
+       "Tak si dáme knedlíky s masem."
+      ],
+      [
+       "T",
+       "Knedlíky jsou moc těžké."
+      ],
+      [
+       "U",
+       "Tak si dáme vietnamskou polévku."
+      ],
+      [
+       "T",
+       "A proč chceš jíst tohle?"
+      ],
+      [
+       "U",
+       "Protože je lehká, zdravá a chutná."
+      ],
+      [
+       "T",
+       "Dobře, dáme si vietnamskou polévku."
+      ]
+     ]
     }
    }
   },
@@ -12133,10 +14213,56 @@
         "Čištění stojí 350 Kč.",
         "Máme otevřeno do 18 hodin."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, malé opravy děláme za 100 Kč.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, kdy bude kabát hotový? Kolik to stojí? Do kolika máte otevřeno? Můžete ho i opravit?"
+      "model": "Dobrý den, kdy bude kabát hotový? Kolik to stojí? Do kolika máte otevřeno? Můžete ho i opravit?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy bude kabát hotový?"
+       ],
+       [
+        "T",
+        "Kabát bude hotový za tři dny."
+       ],
+       [
+        "U",
+        "Kolik to stojí?"
+       ],
+       [
+        "T",
+        "Čištění stojí 350 Kč."
+       ],
+       [
+        "U",
+        "Do kolika máte otevřeno?"
+       ],
+       [
+        "T",
+        "Máme otevřeno do 18 hodin."
+       ],
+       [
+        "U",
+        "Můžete ho i opravit?"
+       ],
+       [
+        "T",
+        "Ano, malé opravy děláme za 100 Kč."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Voláte do servisu pračky.",
@@ -12154,10 +14280,56 @@
         "Výjezd stojí 500 Kč.",
         "Pokud je pračka v záruce, je oprava zdarma."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, technik má terminál na karty.",
        "close": "Na slyšenou."
       },
-      "model": "Dobrý den, kdy může přijít technik? Kolik stojí oprava? Je pračka ještě v záruce? Můžu platit kartou?"
+      "model": "Dobrý den, kdy může přijít technik? Kolik stojí oprava? Je pračka ještě v záruce? Můžu platit kartou?",
+      "dialog": [
+       [
+        "T",
+        "Servis, dobrý den."
+       ],
+       [
+        "U",
+        "Dobrý den, kdy může přijít technik?"
+       ],
+       [
+        "T",
+        "Technik může přijít ve středu."
+       ],
+       [
+        "U",
+        "Kolik stojí oprava?"
+       ],
+       [
+        "T",
+        "Výjezd stojí 500 Kč."
+       ],
+       [
+        "U",
+        "Je pračka ještě v záruce?"
+       ],
+       [
+        "T",
+        "Pokud je pračka v záruce, je oprava zdarma."
+       ],
+       [
+        "U",
+        "Můžu platit kartou?"
+       ],
+       [
+        "T",
+        "Ano, technik má terminál na karty."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na slyšenou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -12169,7 +14341,7 @@
       "🥧 Spolu jedí koláč na zahradě.",
       "🍎🧺 Sbírají jablka ze stromu."
      ],
-     "model": "V neděli jeli Lukáš a máma autobusem na vesnici k babičce. Babička je přivítala u domu. Potom spolu jedli koláč na zahradě. Odpoledne sbírali jablka ze stromu a večer jeli domů."
+     "model": "V neděli jeli Lukáš a jeho máma za babičkou. Jeli autobusem na vesnici, cesta trvala hodinu. Lukáš se díval z okna na pole a lesy. Babička je čekala před domem. Když je viděla, objala je a byla moc ráda. Potom šli na zahradu. Babička upekla jablečný koláč. Všichni ho jedli a pili čaj. Odpoledne sbírali jablka ze stromu. Lukáš si odvezl domů plnou tašku jablek."
     },
     "t4": {
      "situation": "Chceme spolu udělat večírek. Jakou hudbu pustíme?",
@@ -12192,7 +14364,45 @@
       "Vážná hudba je na večírek nudná.",
       "A proč chceš tuhle hudbu?"
      ],
-     "model": "Můžeme pustit rock. – Tak vážnou hudbu. – Tak disko. – Protože na ni můžeme tancovat. – Dobře, disko."
+     "model": "Můžeme pustit rock. – Tak vážnou hudbu. – Tak disko. – Protože na ni můžeme tancovat. – Dobře, disko.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu udělat večírek. Jakou hudbu pustíme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme pustit rock."
+      ],
+      [
+       "T",
+       "Rock je moc hlasitý."
+      ],
+      [
+       "U",
+       "Tak pustíme vážnou hudbu."
+      ],
+      [
+       "T",
+       "Vážná hudba je na večírek nudná."
+      ],
+      [
+       "U",
+       "Tak pustíme disko."
+      ],
+      [
+       "T",
+       "A proč chceš tuhle hudbu?"
+      ],
+      [
+       "U",
+       "Protože na disko se dobře tancuje."
+      ],
+      [
+       "T",
+       "To je pravda. Pustíme disko."
+      ]
+     ]
     }
    }
   },
@@ -12850,10 +15060,56 @@
         "Stojí 1 200 Kč na den.",
         "Kauce je 10 000 Kč."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, do zemí Evropské unie ano.",
        "close": "Šťastnou cestu."
       },
-      "model": "Dobrý den, máte volné auto na víkend? Kolik stojí na den? Kolik je kauce? Můžu jet do zahraničí?"
+      "model": "Dobrý den, máte volné auto na víkend? Kolik stojí na den? Kolik je kauce? Můžu jet do zahraničí?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, máte volné auto na víkend?"
+       ],
+       [
+        "T",
+        "Ano, máme volnou Škodu Octavia."
+       ],
+       [
+        "U",
+        "Kolik stojí na den?"
+       ],
+       [
+        "T",
+        "Stojí 1 200 Kč na den."
+       ],
+       [
+        "U",
+        "Kolik je kauce?"
+       ],
+       [
+        "T",
+        "Kauce je 10 000 Kč."
+       ],
+       [
+        "U",
+        "Můžu jet do zahraničí?"
+       ],
+       [
+        "T",
+        "Ano, do zemí Evropské unie ano."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Šťastnou cestu."
+       ]
+      ]
      },
      {
       "situation": "Jste u zubaře na recepci.",
@@ -12871,10 +15127,56 @@
         "Vyšetření hradí pojišťovna.",
         "Ano, můžete platit kartou."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Vyšetření trvá asi 30 minut.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, bolí mě zub. Máte dnes volno? Kolik to bude stát? Můžu platit kartou? Jak dlouho to bude trvat?"
+      "model": "Dobrý den, bolí mě zub. Máte dnes volno? Kolik to bude stát? Můžu platit kartou? Jak dlouho to bude trvat?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, bolí mě zub. Máte dnes volno?"
+       ],
+       [
+        "T",
+        "Dnes můžete přijít v 15 hodin."
+       ],
+       [
+        "U",
+        "Kolik to bude stát?"
+       ],
+       [
+        "T",
+        "Vyšetření hradí pojišťovna."
+       ],
+       [
+        "U",
+        "Můžu platit kartou?"
+       ],
+       [
+        "T",
+        "Ano, můžete platit kartou."
+       ],
+       [
+        "U",
+        "Jak dlouho to bude trvat?"
+       ],
+       [
+        "T",
+        "Vyšetření trvá asi 30 minut."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -12886,7 +15188,7 @@
       "🏢 Přijedou do Kralup a vidí nový byt.",
       "🏫 Syn jde první den do české školy."
      ],
-     "model": "Rodina Kovalenkových zabalila kufry na Ukrajině. Potom jeli dlouho autobusem do Česka. V Kralupech uviděli svůj nový byt. Za týden šel syn poprvé do české školy. Byl nervózní, ale den byl dobrý."
+     "model": "Rodina Kovalenkových se stěhovala z Ukrajiny do Česka. Doma balili kufry. Vzali si oblečení, doklady a pár hraček pro syna. Potom jeli autobusem do Česka. Cesta byla dlouhá, trvala skoro dva dny. Všichni byli unavení. Nakonec přijeli do Kralup. Uviděli svůj nový byt, byl malý, ale hezký. Za týden šel syn poprvé do české školy. Byl nervózní, ale učitelka byla milá a den byl dobrý."
     },
     "t4": {
      "situation": "Chceme spolu jít na nákup oblečení. Kam půjdeme?",
@@ -12909,7 +15211,45 @@
       "Na internetu nemůžu oblečení zkusit.",
       "A proč tam?"
      ],
-     "model": "Můžeme jít do obchodního centra. – Tak koupíme na internetu. – Tak půjdeme do second handu. – Protože je to levné a můžeme oblečení vyzkoušet. – Dobře, second hand."
+     "model": "Můžeme jít do obchodního centra. – Tak koupíme na internetu. – Tak půjdeme do second handu. – Protože je to levné a můžeme oblečení vyzkoušet. – Dobře, second hand.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jít na nákup oblečení. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jít do obchodního centra."
+      ],
+      [
+       "T",
+       "V obchodním centru je moc lidí."
+      ],
+      [
+       "U",
+       "Tak to koupíme v e-shopu."
+      ],
+      [
+       "T",
+       "Na internetu nemůžu oblečení zkusit."
+      ],
+      [
+       "U",
+       "Tak půjdeme do second handu."
+      ],
+      [
+       "T",
+       "A proč tam?"
+      ],
+      [
+       "U",
+       "Protože je tam levné oblečení a můžeme si ho vyzkoušet."
+      ],
+      [
+       "T",
+       "Dobře, půjdeme do second handu."
+      ]
+     ]
     }
    }
   },
@@ -13561,10 +15901,56 @@
         "Ano, formulář vyplníme spolu.",
         "Potvrzení dostanete hned."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, napište nám svoje telefonní číslo.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, ztratil jsem peněženku. Co mám dělat? Musím vyplnit formulář? Dostanu potvrzení? Zavoláte mi, když ji někdo najde?"
+      "model": "Dobrý den, ztratil jsem peněženku. Co mám dělat? Musím vyplnit formulář? Dostanu potvrzení? Zavoláte mi, když ji někdo najde?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, ztratil jsem peněženku. Co mám dělat?"
+       ],
+       [
+        "T",
+        "Musíte sepsat oznámení o ztrátě."
+       ],
+       [
+        "U",
+        "Musím vyplnit formulář?"
+       ],
+       [
+        "T",
+        "Ano, formulář vyplníme spolu."
+       ],
+       [
+        "U",
+        "Dostanu potvrzení?"
+       ],
+       [
+        "T",
+        "Potvrzení dostanete hned."
+       ],
+       [
+        "U",
+        "Zavoláte mi, když ji někdo najde?"
+       ],
+       [
+        "T",
+        "Ano, napište nám svoje telefonní číslo."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v hotelu na recepci.",
@@ -13582,10 +15968,56 @@
         "Opraváře pošleme za hodinu.",
         "Ano, dáme vám slevu 10 %."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, hned vám je přineseme.",
        "close": "Omlouváme se."
       },
-      "model": "Dobrý den, v pokoji nefunguje sprcha. Máte jiný pokoj? Kdy to opravíte? Dostanu slevu? Můžete mi přinést ručníky?"
+      "model": "Dobrý den, v pokoji nefunguje sprcha. Máte jiný pokoj? Kdy to opravíte? Dostanu slevu? Můžete mi přinést ručníky?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, v pokoji nefunguje sprcha. Máte jiný pokoj?"
+       ],
+       [
+        "T",
+        "Ano, máme volný pokoj ve třetím patře."
+       ],
+       [
+        "U",
+        "Kdy to opravíte?"
+       ],
+       [
+        "T",
+        "Opraváře pošleme za hodinu."
+       ],
+       [
+        "U",
+        "Dostanu slevu?"
+       ],
+       [
+        "T",
+        "Ano, dáme vám slevu 10 %."
+       ],
+       [
+        "U",
+        "Můžete mi přinést ručníky?"
+       ],
+       [
+        "T",
+        "Ano, hned vám je přineseme."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Omlouváme se."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -13597,7 +16029,7 @@
       "🔥⏲️ Dort se peče v troubě.",
       "🎂🕯️ Dávají svíčky na dort pro tátu."
      ],
-     "model": "Včera Lucie se synem koupili mouku, vajíčka a čokoládu. Doma spolu míchali těsto. Potom se dort pekl v troubě asi hodinu. Nakonec dali na dort svíčky, protože táta měl narozeniny."
+     "model": "Včera chtěla Lucie se synem upéct dort, protože táta měl narozeniny. Nejdřív šli do obchodu. Koupili mouku, vajíčka, cukr a čokoládu. Doma spolu míchali těsto. Syn pomáhal a byl celý od mouky. Oba se u toho hodně smáli. Potom dali těsto do trouby. Dort se pekl asi hodinu a krásně voněl. Večer dali na dort svíčky. Když táta přišel domů, zazpívali mu. Táta byl moc překvapený a šťastný."
     },
     "t4": {
      "situation": "Chceme spolu jít v sobotu cvičit. Kam půjdeme?",
@@ -13620,7 +16052,45 @@
       "Lezení je nebezpečné.",
       "A proč chceš jít tam?"
      ],
-     "model": "Můžeme jít do posilovny. – Tak na lezeckou stěnu. – Tak budeme hrát tenis. – Protože je to zábava a můžeme hrát spolu. – Dobře, tenis."
+     "model": "Můžeme jít do posilovny. – Tak na lezeckou stěnu. – Tak budeme hrát tenis. – Protože je to zábava a můžeme hrát spolu. – Dobře, tenis.",
+     "dialog": [
+      [
+       "T",
+       "Chceme spolu jít v sobotu cvičit. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jít do posilovny."
+      ],
+      [
+       "T",
+       "V posilovně je nuda."
+      ],
+      [
+       "U",
+       "Tak půjdeme na lezeckou stěnu."
+      ],
+      [
+       "T",
+       "Lezení je nebezpečné."
+      ],
+      [
+       "U",
+       "Tak budeme hrát tenis."
+      ],
+      [
+       "T",
+       "A proč chceš jít tam?"
+      ],
+      [
+       "U",
+       "Protože je to zábava a můžeme hrát spolu."
+      ],
+      [
+       "T",
+       "Máš pravdu. Půjdeme hrát tenis."
+      ]
+     ]
     }
    }
   },
@@ -14277,10 +16747,56 @@
         "Poplatek je 2 500 Kč.",
         "Rozhodnutí bude do 60 dnů."
        ],
-       "own": "Ano, to je možné.",
+       "own": "Ano, žádost musíte podat osobně.",
        "close": "Na shledanou."
       },
-      "model": "Dobrý den, jaké doklady potřebuju? Kolik je poplatek? Jak dlouho budu čekat? Musím přijít osobně?"
+      "model": "Dobrý den, jaké doklady potřebuju? Kolik je poplatek? Jak dlouho budu čekat? Musím přijít osobně?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, jaké doklady potřebuju?"
+       ],
+       [
+        "T",
+        "Potřebujete pas, fotografii a osvědčení o zkoušce."
+       ],
+       [
+        "U",
+        "Kolik je poplatek?"
+       ],
+       [
+        "T",
+        "Poplatek je 2 500 Kč."
+       ],
+       [
+        "U",
+        "Jak dlouho budu čekat?"
+       ],
+       [
+        "T",
+        "Rozhodnutí bude do 60 dnů."
+       ],
+       [
+        "U",
+        "Musím přijít osobně?"
+       ],
+       [
+        "T",
+        "Ano, žádost musíte podat osobně."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Na shledanou."
+       ]
+      ]
      },
      {
       "situation": "Jste v jazykové škole.",
@@ -14298,10 +16814,56 @@
         "Stojí 5 000 Kč.",
         "Lekce jsou dvakrát týdně."
        ],
-       "own": "Ano, samozřejmě.",
+       "own": "Ano, kurz můžete navštěvovat i online.",
        "close": "Hodně štěstí."
       },
-      "model": "Dobrý den, kdy začíná přípravný kurz? Kolik stojí? Kolikrát týdně jsou lekce? Je kurz i online?"
+      "model": "Dobrý den, kdy začíná přípravný kurz? Kolik stojí? Kolikrát týdně jsou lekce? Je kurz i online?",
+      "dialog": [
+       [
+        "T",
+        "Dobrý den. Co pro vás můžu udělat?"
+       ],
+       [
+        "U",
+        "Dobrý den, kdy začíná přípravný kurz?"
+       ],
+       [
+        "T",
+        "Kurz začíná 1. září."
+       ],
+       [
+        "U",
+        "Kolik stojí?"
+       ],
+       [
+        "T",
+        "Stojí 5 000 Kč."
+       ],
+       [
+        "U",
+        "Kolikrát týdně jsou lekce?"
+       ],
+       [
+        "T",
+        "Lekce jsou dvakrát týdně."
+       ],
+       [
+        "U",
+        "Je kurz i online?"
+       ],
+       [
+        "T",
+        "Ano, kurz můžete navštěvovat i online."
+       ],
+       [
+        "U",
+        "Děkuju za informace. Na shledanou."
+       ],
+       [
+        "T",
+        "Hodně štěstí."
+       ]
+      ]
      }
     ],
     "t3": {
@@ -14313,7 +16875,7 @@
       "📝 Píše test ve třídě.",
       "🗣️👩‍🏫 Mluví s examinátorkou a usmívá se."
      ],
-     "model": "V den zkoušky vstal Andrij brzy ráno a vypil kávu. Potom jel vlakem do školy. Ve třídě psal test, čtení, psaní a poslech. Odpoledne mluvil s examinátorkou. Byl nervózní, ale nakonec se usmíval."
+     "model": "V den zkoušky vstal Andrij brzy ráno. Vypil kávu a ještě jednou si zopakoval slovíčka. Byl trochu nervózní, ale věřil si, protože se dlouho učil. Potom jel vlakem do jazykové školy. Cesta trvala čtyřicet minut. Ve třídě psal test. Nejdřív bylo čtení, potom psaní a poslech. Odpoledne měl ústní zkoušku. Mluvil s examinátorkou o práci a rodině. Na konci se usmíval, protože věděl, že to zvládl."
     },
     "t4": {
      "situation": "Uděláme zkoušku a chceme to oslavit. Jak to oslavíme?",
@@ -14336,7 +16898,45 @@
       "Bowling neumím.",
       "A proč chceš udělat tohle?"
      ],
-     "model": "Můžeme jít do restaurace. – Tak na bowling. – Tak pojedeme na loďky. – Protože bude hezky a je to něco nového. – Dobře, loďky."
+     "model": "Můžeme jít do restaurace. – Tak na bowling. – Tak pojedeme na loďky. – Protože bude hezky a je to něco nového. – Dobře, loďky.",
+     "dialog": [
+      [
+       "T",
+       "Uděláme zkoušku a chceme to oslavit. Jak to oslavíme? Máš nějaký nápad? Můžeš vybírat z těchto možností."
+      ],
+      [
+       "U",
+       "Můžeme jít na večeři do restaurace."
+      ],
+      [
+       "T",
+       "Do restaurace chodíme často."
+      ],
+      [
+       "U",
+       "Tak půjdeme na bowling."
+      ],
+      [
+       "T",
+       "Bowling neumím."
+      ],
+      [
+       "U",
+       "Tak pojedeme na výlet na loďkách."
+      ],
+      [
+       "T",
+       "A proč chceš udělat tohle?"
+      ],
+      [
+       "U",
+       "Protože bude hezky a je to něco nového."
+      ],
+      [
+       "T",
+       "To je super nápad. Pojedeme na loďky."
+      ]
+     ]
     }
    }
   }
