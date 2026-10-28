@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ochrana osobních údajů – Zkouška A2 nanečisto</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#eef1f6;--sheet:#fff;--ink:#15213a;--muted:#59647a;--rule:#d5dbe6;--accent:#1f4e9c;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#0d121c;--sheet:#151c2a;--ink:#e5e9f1;--muted:#9aa4b8;--rule:#29334a;--accent:#7ea4ff;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "IBM Plex Sans","Segoe UI",Roboto,Arial,sans-serif;padding:24px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px))}
+main{max-width:760px;margin:0 auto;background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:clamp(16px,4vw,32px)}
+h1{font-family:Bitter,Georgia,serif;font-size:1.6rem;margin:0 0 8px}
+h2{font-family:Bitter,Georgia,serif;font-size:1.15rem;margin:24px 0 6px}
+p,li{max-width:68ch}
+.muted{color:var(--muted);font-size:.9rem}
+.lang{border-top:2px solid var(--ink);margin-top:32px;padding-top:8px}
+a{color:var(--accent)}
+button{font:inherit;padding:8px 14px;border-radius:6px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+<p><a href="./">← Zpět na test / Назад до тесту</a></p>
+<h1>Ochrana osobních údajů</h1>
+<p class="muted">Platí od 28. 10. 2026</p>
+
+<h2>Kdo web provozuje</h2>
+<p>Web „Zkouška A2 nanečisto“ je soukromý, nekomerční vzdělávací projekt. Provozovatel: Andre (fyzická osoba, Česká republika). Kontakt: přes profil <a href="https://github.com/Andre-kuvich14g" rel="noopener">github.com/Andre-kuvich14g</a>.</p>
+<p>Web není oficiální stránkou zkoušky. Oficiální informace najdete na <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
+
+<h2>Jaké údaje zpracováváme</h2>
+<ul>
+<li><b>Anonymní statistika návštěvnosti</b> přes Google Analytics 4 (Google Ireland Ltd.), pouze pokud dáte souhlas: počet návštěv, doba na webu, typ zařízení, přibližná země a město, a jaké části testu jste spustili a kolik bodů jste získali v jednotlivých úlohách.</li>
+<li>Nezpracováváme jméno, e-mail ani jiné údaje, podle kterých by vás šlo přímo identifikovat. IP adresu Google Analytics 4 neukládá.</li>
+<li><b>Vaše odpovědi, nahrávky hlasu a historie výsledků</b> zůstávají jen ve vašem prohlížeči (v zařízení). Nikam se neposílají a provozovatel je nevidí.</li>
+</ul>
+
+<h2>Proč</h2>
+<p>Abychom věděli, kolik lidí test využívá a které úlohy jsou nejtěžší, a mohli test zlepšovat. Právní základ: váš souhlas (čl. 6 odst. 1 písm. a GDPR).</p>
+
+<h2>Jak dlouho</h2>
+<p>Statistické údaje se v Google Analytics uchovávají nejvýše 14 měsíců a potom se automaticky mažou.</p>
+
+<h2>Vaše práva</h2>
+<p>Souhlas můžete kdykoli odvolat tlačítkem níže. Máte právo na informace, výmaz a právo podat stížnost u Úřadu pro ochranu osobních údajů (<a href="https://uoou.gov.cz" rel="noopener">uoou.gov.cz</a>).</p>
+<p><button type="button" id="revoke">Odvolat souhlas se statistikou / Відкликати згоду</button> <span id="msg" class="muted"></span></p>
+
+<section class="lang" lang="uk">
+<h2>Захист персональних даних (українською)</h2>
+<p>Сайт «Zkouška A2 nanečisto» — приватний некомерційний навчальний проєкт, не офіційний сайт іспиту. Власник: Андре (фізична особа, Чехія). Контакт: через профіль <a href="https://github.com/Andre-kuvich14g" rel="noopener">github.com/Andre-kuvich14g</a>.</p>
+<ul>
+<li><b>Анонімна статистика</b> через Google Analytics 4 збирається тільки за вашою згодою: кількість відвідувань, час на сайті, тип пристрою, приблизна країна й місто, які частини тесту ви відкривали і скільки балів отримали.</li>
+<li>Ім'я, пошту чи інші дані, за якими вас можна впізнати, ми не збираємо.</li>
+<li><b>Ваші відповіді, записи голосу та історія результатів</b> зберігаються лише у вашому браузері й нікуди не надсилаються.</li>
+<li>Статистика зберігається не довше 14 місяців. Згоду можна будь-коли відкликати кнопкою вище. Скаргу можна подати до Úřad pro ochranu osobních údajů.</li>
+</ul>
+</section>
+</main>
+<script>
+document.getElementById('revoke').addEventListener('click', function(){
+  try{ localStorage.setItem('ga-consent','no'); }catch(e){}
+  document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim(); if(/^_ga/.test(n)){ document.cookie=n+'=; Max-Age=0; path=/'; document.cookie=n+'=; Max-Age=0; path=/; domain=.github.io'; document.cookie=n+'=; Max-Age=0; path=/; domain='+location.hostname; } });
+  document.getElementById('msg').textContent='Souhlas odvolán. / Згоду відкликано.';
+});
+</script>
+</body>
+</html>
