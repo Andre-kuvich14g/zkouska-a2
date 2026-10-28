@@ -436,7 +436,7 @@ const PLAYS = {}; const PREVIEW = {};
 const PREVIEW_SEC = {l1:60, l2:60, l3:15, l4:15, l5:60};
 const PREVIEW_SAY = {l1:'Teď si prohlédněte úkoly 1 až 5.', l2:'Teď si přečtěte úkoly 6 až 10.', l3:'Teď si prohlédněte tabulku A až G.', l4:'Teď si prohlédněte obrázky A až F.', l5:'Teď si přečtěte úkoly 21 až 25.'};
 let PREV_MODE = null; try{ PREV_MODE = localStorage.getItem('a2-preview'); }catch(e){}
-let PREV_SKIP = false;
+let PREV_SKIP = false, PREV_WAKE = null;
 function previewSec(task){ const m = PREV_MODE || (MODE === 'exam' ? 'official' : 'short'); return m === 'none' ? 0 : m === 'short' ? Math.min(15, PREVIEW_SEC[task]) : PREVIEW_SEC[task]; }
 
 /* ---------- widgets ---------- */
@@ -818,25 +818,31 @@ function parseScript(s){
     return {g:'f', alt:false, text: line};
   }).filter(x => x.text.trim());
 }
-function speakSegs(segs, tok){
+const UTT_REFS = new Set();
+function speakSegs(segs, tok, alive){
   return new Promise(res => {
     const queue = [];
     segs.forEach((sg, si) => (cleanSpeech(sg.text).match(/[^.!?]+[.!?]*/g) || [sg.text]).forEach(t => { if(t.trim()) queue.push({g:sg.g, alt:sg.alt, text:t.trim(), turn:si}); }));
     let i = 0;
     const next = () => {
-      if(tok !== speakTok) return res(false);
+      if(tok !== speakTok || (alive && !alive())) return res(false);
       if(i >= queue.length) return res(true);
       const q = queue[i++];
       const u = new SpeechSynthesisUtterance(q.text);
       u.lang = 'cs-CZ'; const v = pickVoice(q.g); if(v) u.voice = v;
       u.rate = RATE; u.pitch = (voiceDistinct() || !VPREF.pitch) ? (q.alt ? 1.05 : 1) : (q.g === 'm' ? (q.alt ? 0.96 : 0.92) : (q.alt ? 1.1 : 1.05));
-      u.onend = () => { const nx = queue[i]; if(nx && nx.turn !== q.turn) setTimeout(next, 450); else next(); }; u.onerror = next;
+      let done = false, wd = null;
+      const fin = gap => { if(done) return; done = true; clearTimeout(wd); UTT_REFS.delete(u); if(gap) setTimeout(next, gap); else next(); };
+      u.onend = () => { const nx = queue[i]; fin(nx && nx.turn !== q.turn ? 450 : 0); }; u.onerror = () => fin(0);
+      UTT_REFS.add(u); // keeps the utterance alive: some browsers lose onend otherwise
+      const busy = () => speechSynthesis.speaking || speechSynthesis.pending;
+      wd = setTimeout(function chk(){ if(done) return; if(!busy()) fin(0); else wd = setTimeout(chk, 300); }, 1200);
       speechSynthesis.speak(u);
     };
     next();
   });
 }
-function stopSpeech(){ speakTok++; $$('.skipbtn').forEach(b => b.remove()); if(hasTTS) speechSynthesis.cancel(); $$('.play.playing').forEach(b => { b.classList.remove('playing'); b.textContent = '▶ Přehrát (2×)'; }); $$('.stopbtn').forEach(b => b.hidden = true); }
+function stopSpeech(){ speakTok++; if(PREV_WAKE){ const w = PREV_WAKE; PREV_WAKE = null; w(); } $$('.skipbtn').forEach(b => b.remove()); if(hasTTS) speechSynthesis.cancel(); $$('.play.playing').forEach(b => { b.classList.remove('playing'); b.textContent = '▶ Přehrát (2×)'; }); $$('.stopbtn').forEach(b => b.hidden = true); }
 async function playTwice(btn){
   if(!hasTTS) return;
   track('audio_play', {item: btn.dataset.key});
@@ -853,18 +859,24 @@ async function playTwice(btn){
   const psec = previewSec(task);
   if(psec && !PREVIEW[task]){
     PREVIEW[task] = true; PREV_SKIP = false;
-    const abort = () => { $$('.skipbtn').forEach(b => b.remove()); PLAYS[key] = Math.max(0, (PLAYS[key] || 1) - 1); PREVIEW[task] = false; btn.classList.remove('playing'); updPlays(btn, key); };
+    let wake = null; const skipped = new Promise(r => { wake = r; }); PREV_WAKE = () => { PREV_SKIP = true; wake(); };
+    const abort = () => { PREV_WAKE = null; btn.classList.remove('previewing'); $$('.skipbtn').forEach(b => b.remove()); PLAYS[key] = Math.max(0, (PLAYS[key] || 1) - 1); PREVIEW[task] = false; btn.classList.remove('playing'); updPlays(btn, key); };
+    btn.classList.add('previewing');
     stop.insertAdjacentHTML('afterend', '<button class="btn sm skipbtn" type="button">⏭ Я готовий/а, слухати</button>');
     btn.textContent = '⏳ Čas na přečtení úkolů';
-    const ok0 = await speakSegs([{g:'f', alt:false, text: PREVIEW_SAY[task] + ' Máte na to ' + (psec >= 60 ? 'jednu minutu.' : 'patnáct sekund.')}], tok);
-    if(!ok0 || tok !== speakTok) return abort();
-    for(let sLeft = psec; sLeft > 0 && !PREV_SKIP; sLeft--){
-      if(tok !== speakTok) return abort();
-      btn.textContent = `⏳ Čas na přečtení úkolů: ${Math.floor(sLeft/60)}:${String(sLeft%60).padStart(2,'0')}`;
-      for(let k = 0; k < 4 && !PREV_SKIP && tok === speakTok; k++) await sleep(250);
+    const sayIt = speakSegs([{g:'f', alt:false, text: PREVIEW_SAY[task] + ' Máte na to ' + (psec >= 60 ? 'jednu minutu.' : 'patnáct sekund.')}], tok, () => !PREV_SKIP);
+    await Promise.race([sayIt, skipped, sleep(9000)]);
+    if(tok !== speakTok) return abort();
+    const end = Date.now() + psec * 1000;
+    while(!PREV_SKIP && tok === speakTok && Date.now() < end){
+      const left = Math.ceil((end - Date.now()) / 1000);
+      btn.textContent = `⏳ ${Math.floor(left/60)}:${String(left%60).padStart(2,'0')} · Čas na přečtení úkolů`;
+      await Promise.race([sleep(250), skipped]);
     }
     if(tok !== speakTok) return abort();
+    PREV_WAKE = null; btn.classList.remove('previewing');
     $$('.skipbtn').forEach(b => b.remove());
+    if(PREV_SKIP && hasTTS){ speechSynthesis.cancel(); await sleep(200); }
     btn.textContent = '♪ 1. poslech';
   }
   await sleep(150);
@@ -966,9 +978,9 @@ document.addEventListener('click', e => {
   if(t.dataset.goto) return showTab(t.dataset.goto);
   if(t.dataset.jump){ e.preventDefault(); jumpTo(t.dataset.jump); return; }
   if(t.dataset.check){ const s = t.dataset.check; if((s === 'read' || s === 'listen') && !guardCheck(s)) return; if(s === 'read') checkRead(); else if(s === 'listen') checkListen(); else if(s === 'write') checkWrite(); else if(s === 'speak') checkSpeak(); return; }
-  if(t.classList.contains('play')) return playTwice(t);
+  if(t.classList.contains('play')){ if(t.classList.contains('previewing')){ if(PREV_WAKE) PREV_WAKE(); return; } return playTwice(t); }
   if(t.classList.contains('stopbtn')) return stopSpeech();
-  if(t.classList.contains('skipbtn')){ PREV_SKIP = true; return; }
+  if(t.classList.contains('skipbtn')){ t.textContent = '▶ Починаємо…'; t.disabled = true; if(PREV_WAKE) PREV_WAKE(); return; }
   if(t.classList.contains('say')) return say(t.dataset.say, t.dataset.g);
   if(t.classList.contains('recbtn')) return toggleRec(t);
   if(t.classList.contains('sayd')) return sayDialog(DLG.at(Number(t.dataset.dlg)));
