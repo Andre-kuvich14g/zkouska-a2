@@ -21,35 +21,55 @@
        "picture": "🥛🧀",
        "caption": "Sýry a mléko",
        "answer": "D",
-       "img": "Several_cheeses_with_a_slicer,_bread_and_milk.JPG"
+       "img": "Several_cheeses_with_a_slicer,_bread_and_milk.JPG",
+       "om": [
+        "1F95B",
+        "1F9C0"
+       ]
       },
       {
        "n": 2,
        "picture": "💇‍♀️✂️",
        "caption": "Kadeřnictví",
        "answer": "A",
-       "img": "Hair_salon_(51212326557).jpg"
+       "img": "Hair_salon_(51212326557).jpg",
+       "om": [
+        "1F487-200D-2640-FE0F",
+        "2702"
+       ]
       },
       {
        "n": 3,
        "picture": "💊🏥",
        "caption": "Lékárna",
        "answer": "B",
-       "img": "Smíchovské_nádraží_lékárna.jpg"
+       "img": "Smíchovské_nádraží_lékárna.jpg",
+       "om": [
+        "1F48A",
+        "1F3E5"
+       ]
       },
       {
        "n": 4,
        "picture": "🧥🏷️",
        "caption": "Zimní bunda",
        "answer": "E",
-       "img": "Ehlel_Winter_Jacket.jpg"
+       "img": "Ehlel_Winter_Jacket.jpg",
+       "om": [
+        "1F9E5",
+        "1F3F7"
+       ]
       },
       {
        "n": 5,
        "picture": "🚲⛰️",
        "caption": "Horské kolo",
        "answer": "C",
-       "img": "Mountainbike.jpg"
+       "img": "Mountainbike.jpg",
+       "om": [
+        "1F6B2",
+        "26F0"
+       ]
       }
      ]
     },
@@ -303,23 +323,38 @@
      "prompts": [
       {
        "icon": "🏠",
-       "q": "JAKÝ BYT HLEDÁTE?"
+       "q": "JAKÝ BYT HLEDÁTE?",
+       "om": [
+        "1F3E0"
+       ]
       },
       {
        "icon": "📍",
-       "q": "KDE CHCETE BYDLET?"
+       "q": "KDE CHCETE BYDLET?",
+       "om": [
+        "1F4CD"
+       ]
       },
       {
        "icon": "💰",
-       "q": "KOLIK MŮŽETE PLATIT?"
+       "q": "KOLIK MŮŽETE PLATIT?",
+       "om": [
+        "1F4B0"
+       ]
       },
       {
        "icon": "📦",
-       "q": "KDY SE CHCETE STĚHOVAT?"
+       "q": "KDY SE CHCETE STĚHOVAT?",
+       "om": [
+        "1F4E6"
+       ]
       },
       {
        "icon": "🕒",
-       "q": "KDY MŮŽETE PŘIJÍT NA PROHLÍDKU?"
+       "q": "KDY MŮŽETE PŘIJÍT NA PROHLÍDKU?",
+       "om": [
+        "1F552"
+       ]
       }
      ],
      "model": "Dobrý den,\nhledám byt k pronájmu. Potřebuju byt 2+1, protože mám manželku a syna. Chceme bydlet blízko centra nebo blízko školy. Můžeme platit maximálně 18 000 Kč měsíčně. Stěhovat se chceme od 1. září. Na prohlídku můžu přijít v pondělí nebo ve středu odpoledne.\nDěkuji za odpověď.\nS pozdravem\nAndrij Kovalenko"
@@ -503,27 +538,45 @@
      "options": {
       "A": {
        "icon": "📮",
-       "label": "pošta"
+       "label": "pošta",
+       "om": [
+        "1F4EE"
+       ]
       },
       "B": {
        "icon": "💊",
-       "label": "lékárna"
+       "label": "lékárna",
+       "om": [
+        "1F48A"
+       ]
       },
       "C": {
        "icon": "🏦",
-       "label": "banka"
+       "label": "banka",
+       "om": [
+        "1F3E6"
+       ]
       },
       "D": {
        "icon": "👮",
-       "label": "policie"
+       "label": "policie",
+       "om": [
+        "1F46E"
+       ]
       },
       "E": {
        "icon": "📚",
-       "label": "knihovna"
+       "label": "knihovna",
+       "om": [
+        "1F4DA"
+       ]
       },
       "F": {
        "icon": "🚏",
-       "label": "autobusová zastávka"
+       "label": "autobusová zastávka",
+       "om": [
+        "1F68F"
+       ]
       }
      },
      "items": [
@@ -796,22 +849,45 @@
       "🛋️ V novém bytě dávají gauč a stůl na místo.",
       "🍕 Rodina večer jí pizzu na zemi mezi krabicemi."
      ],
-     "model": "Včera se rodina Novákových stěhovala do nového bytu. Ráno balili všechny věci do krabic. Maminka balila nádobí a děti balily hračky. Potom přijelo velké auto. Dva silní muži nosili krabice a nábytek do auta. Bylo to těžké, ale šlo to rychle. V novém bytě dávali gauč a stůl na místo. Tatínek skládal postele a maminka uklízela kuchyň. Večer byli všichni moc unavení. Neměli čas vařit, tak si objednali pizzu. Jedli ji na zemi mezi krabicemi a smáli se."
+     "model": "Včera se rodina Novákových stěhovala do nového bytu. Ráno balili všechny věci do krabic. Maminka balila nádobí a děti balily hračky. Potom přijelo velké auto. Dva silní muži nosili krabice a nábytek do auta. Bylo to těžké, ale šlo to rychle. V novém bytě dávali gauč a stůl na místo. Tatínek skládal postele a maminka uklízela kuchyň. Večer byli všichni moc unavení. Neměli čas vařit, tak si objednali pizzu. Jedli ji na zemi mezi krabicemi a smáli se.",
+     "om": [
+      [
+       "1F4E6"
+      ],
+      [
+       "1F69A"
+      ],
+      [
+       "1F6CB"
+      ],
+      [
+       "1F355"
+      ]
+     ]
     },
     "t4": {
      "situation": "Kamarádka bude mít narozeniny. Chceme jí spolu koupit dárek. Co jí koupíme?",
      "options": [
       {
        "icon": "📕",
-       "label": "kniha"
+       "label": "kniha",
+       "om": [
+        "1F4D5"
+       ]
       },
       {
        "icon": "💐",
-       "label": "květiny"
+       "label": "květiny",
+       "om": [
+        "1F490"
+       ]
       },
       {
        "icon": "🍫",
-       "label": "čokoláda"
+       "label": "čokoláda",
+       "om": [
+        "1F36B"
+       ]
       }
      ],
      "examiner": [
@@ -881,35 +957,55 @@
        "picture": "🅿️🚗",
        "caption": "Parkoviště",
        "answer": "A",
-       "img": "Car_parking_at_retail_park.JPG"
+       "img": "Car_parking_at_retail_park.JPG",
+       "om": [
+        "1F17F",
+        "1F697"
+       ]
       },
       {
        "n": 2,
        "picture": "🚆📱",
        "caption": "Vlak Českých drah",
        "answer": "D",
-       "img": "20250808_České_dráhy_682001.jpg"
+       "img": "20250808_České_dráhy_682001.jpg",
+       "om": [
+        "1F686",
+        "1F4F1"
+       ]
       },
       {
        "n": 3,
        "picture": "🚕🌙",
        "caption": "Stanoviště taxi",
        "answer": "B",
-       "img": "Praha_hlavní_nádraží,_stanoviště_ČD_Taxi.jpg"
+       "img": "Praha_hlavní_nádraží,_stanoviště_ČD_Taxi.jpg",
+       "om": [
+        "1F695",
+        "1F319"
+       ]
       },
       {
        "n": 4,
        "picture": "✈️🧳",
        "caption": "Kufr na letišti",
        "answer": "E",
-       "img": "Suitcase._The_airport_in_Poznan.jpg"
+       "img": "Suitcase._The_airport_in_Poznan.jpg",
+       "om": [
+        "2708",
+        "1F9F3"
+       ]
       },
       {
        "n": 5,
        "picture": "🚌⛪",
        "caption": "Autobusová zastávka",
        "answer": "C",
-       "img": "Janské_Lázně,_kolonáda,_autobusová_zastávka,_autobus_TAD.jpg"
+       "img": "Janské_Lázně,_kolonáda,_autobusová_zastávka,_autobus_TAD.jpg",
+       "om": [
+        "1F68C",
+        "26EA"
+       ]
       }
      ]
     },
@@ -1161,23 +1257,38 @@
      "prompts": [
       {
        "icon": "🤒",
-       "q": "PROČ NEPŘIJDETE DO PRÁCE?"
+       "q": "PROČ NEPŘIJDETE DO PRÁCE?",
+       "om": [
+        "1F912"
+       ]
       },
       {
        "icon": "👨‍⚕️",
-       "q": "CO VÁM ŘEKL LÉKAŘ?"
+       "q": "CO VÁM ŘEKL LÉKAŘ?",
+       "om": [
+        "1F468-200D-2695-FE0F"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY SE VRÁTÍTE?"
+       "q": "KDY SE VRÁTÍTE?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "👥",
-       "q": "KDO MŮŽE DĚLAT VAŠI PRÁCI?"
+       "q": "KDO MŮŽE DĚLAT VAŠI PRÁCI?",
+       "om": [
+        "1F465"
+       ]
       },
       {
        "icon": "📞",
-       "q": "JAK VÁS MŮŽE KONTAKTOVAT?"
+       "q": "JAK VÁS MŮŽE KONTAKTOVAT?",
+       "om": [
+        "1F4DE"
+       ]
       }
      ],
      "model": "Dobrý den, pane Dvořáku,\nomlouvám se, ale dnes nemůžu přijít do práce. Mám vysokou horečku a bolí mě v krku. Lékař mi řekl, že musím zůstat týden doma. Vrátím se asi v pondělí 10. 2. Moji práci může dělat kolega Petr. Můžete mi zavolat na telefon 605 123 456.\nS pozdravem\nOleh Kovaljov"
@@ -1361,27 +1472,45 @@
      "options": {
       "A": {
        "icon": "🏛️",
-       "label": "úřad"
+       "label": "úřad",
+       "om": [
+        "1F3DB"
+       ]
       },
       "B": {
        "icon": "🏊",
-       "label": "bazén"
+       "label": "bazén",
+       "om": [
+        "1F3CA"
+       ]
       },
       "C": {
        "icon": "⛪",
-       "label": "kostel"
+       "label": "kostel",
+       "om": [
+        "26EA"
+       ]
       },
       "D": {
        "icon": "🎬",
-       "label": "kino"
+       "label": "kino",
+       "om": [
+        "1F3AC"
+       ]
       },
       "E": {
        "icon": "🏥",
-       "label": "nemocnice"
+       "label": "nemocnice",
+       "om": [
+        "1F3E5"
+       ]
       },
       "F": {
        "icon": "🛒",
-       "label": "supermarket"
+       "label": "supermarket",
+       "om": [
+        "1F6D2"
+       ]
       }
      },
      "items": [
@@ -1653,22 +1782,47 @@
       "🌧️ Začne pršet, nemají deštník.",
       "🏠☕ Sedí v chatě a pijí horký čaj."
      ],
-     "model": "V sobotu jeli Petr a Jana na výlet na hory. Ráno seděli ve vlaku a dívali se z okna. Venku bylo hezky a svítilo slunce. Potom šli pěšky po cestě nahoru na kopec. Cesta byla dlouhá, ale příroda byla krásná. Najednou začalo pršet. Petr a Jana neměli deštník, a proto byli úplně mokří. Nakonec našli malou chatu. Sedli si ke stolu a pili horký čaj. Odpočívali a čekali, až přestane pršet."
+     "model": "V sobotu jeli Petr a Jana na výlet na hory. Ráno seděli ve vlaku a dívali se z okna. Venku bylo hezky a svítilo slunce. Potom šli pěšky po cestě nahoru na kopec. Cesta byla dlouhá, ale příroda byla krásná. Najednou začalo pršet. Petr a Jana neměli deštník, a proto byli úplně mokří. Nakonec našli malou chatu. Sedli si ke stolu a pili horký čaj. Odpočívali a čekali, až přestane pršet.",
+     "om": [
+      [
+       "1F686"
+      ],
+      [
+       "1F97E",
+       "26F0"
+      ],
+      [
+       "1F327"
+      ],
+      [
+       "1F3E0",
+       "2615"
+      ]
+     ]
     },
     "t4": {
      "situation": "V sobotu večer chceme jít spolu ven. Kam půjdeme?",
      "options": [
       {
        "icon": "🎬",
-       "label": "kino"
+       "label": "kino",
+       "om": [
+        "1F3AC"
+       ]
       },
       {
        "icon": "🍽️",
-       "label": "restaurace"
+       "label": "restaurace",
+       "om": [
+        "1F37D"
+       ]
       },
       {
        "icon": "🎭",
-       "label": "divadlo"
+       "label": "divadlo",
+       "om": [
+        "1F3AD"
+       ]
       }
      ],
      "examiner": [
@@ -1738,35 +1892,55 @@
        "picture": "📸🪪",
        "caption": "Fotka na pas",
        "answer": "A",
-       "img": "Passport_photo.jpg"
+       "img": "Passport_photo.jpg",
+       "om": [
+        "1F4F8",
+        "1FAAA"
+       ]
       },
       {
        "n": 2,
        "picture": "🔑🚪",
        "caption": "Výroba klíčů",
        "answer": "C",
-       "img": "Car_key_duplication.jpg"
+       "img": "Car_key_duplication.jpg",
+       "om": [
+        "1F511",
+        "1F6AA"
+       ]
       },
       {
        "n": 3,
        "picture": "📦🗓️",
        "caption": "Pošta",
        "answer": "E",
-       "img": "Česká_pošta,_Jindřišská_16.JPG"
+       "img": "Česká_pošta,_Jindřišská_16.JPG",
+       "om": [
+        "1F4E6",
+        "1F5D3"
+       ]
       },
       {
        "n": 4,
        "picture": "🏧💳",
        "caption": "Bankomat",
        "answer": "D",
-       "img": "Praha_Dejvice_M_Dejvicka_bankomat_Fio_banky.jpg"
+       "img": "Praha_Dejvice_M_Dejvicka_bankomat_Fio_banky.jpg",
+       "om": [
+        "1F3E7",
+        "1F4B3"
+       ]
       },
       {
        "n": 5,
        "picture": "👔🧺",
        "caption": "Pračka",
        "answer": "B",
-       "img": "Washing_machine.jpg"
+       "img": "Washing_machine.jpg",
+       "om": [
+        "1F454",
+        "1F9FA"
+       ]
       }
      ]
     },
@@ -2015,23 +2189,38 @@
      "prompts": [
       {
        "icon": "🏰",
-       "q": "KAM POJEDETE?"
+       "q": "KAM POJEDETE?",
+       "om": [
+        "1F3F0"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY POJEDETE?"
+       "q": "KDY POJEDETE?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "🚆",
-       "q": "ČÍM POJEDETE?"
+       "q": "ČÍM POJEDETE?",
+       "om": [
+        "1F686"
+       ]
       },
       {
        "icon": "🥾",
-       "q": "CO TAM BUDETE DĚLAT?"
+       "q": "CO TAM BUDETE DĚLAT?",
+       "om": [
+        "1F97E"
+       ]
       },
       {
        "icon": "🎒",
-       "q": "CO MÁ KAMARÁD VZÍT S SEBOU?"
+       "q": "CO MÁ KAMARÁD VZÍT S SEBOU?",
+       "om": [
+        "1F392"
+       ]
       }
      ],
      "model": "Ahoj Martine,\nchceš jet s námi na výlet? Pojedeme na hrad Karlštejn. Pojedeme v sobotu ráno v osm hodin. Pojedeme vlakem z Prahy, je to jen 40 minut. Na hradě budeme mít prohlídku a potom půjdeme na procházku do lesa. Vezmi si s sebou pohodlné boty a něco k jídlu.\nNapiš mi, jestli pojedeš.\nAhoj\nDmytro"
@@ -2215,27 +2404,45 @@
      "options": {
       "A": {
        "icon": "🚻",
-       "label": "toalety"
+       "label": "toalety",
+       "om": [
+        "1F6BB"
+       ]
       },
       "B": {
        "icon": "🛗",
-       "label": "výtah"
+       "label": "výtah",
+       "om": [
+        "1F6D7"
+       ]
       },
       "C": {
        "icon": "🏧",
-       "label": "bankomat"
+       "label": "bankomat",
+       "om": [
+        "1F3E7"
+       ]
       },
       "D": {
        "icon": "🎫",
-       "label": "pokladna"
+       "label": "pokladna",
+       "om": [
+        "1F3AB"
+       ]
       },
       "E": {
        "icon": "🧥",
-       "label": "šatna"
+       "label": "šatna",
+       "om": [
+        "1F9E5"
+       ]
       },
       "F": {
        "icon": "🚪",
-       "label": "východ"
+       "label": "východ",
+       "om": [
+        "1F6AA"
+       ]
       }
      },
      "items": [
@@ -2504,22 +2711,47 @@
       "🚑 Sanitka veze muže do nemocnice.",
       "👨‍⚕️🦴 Lékař dává muži sádru na ruku."
      ],
-     "model": "Včera ráno jel pan Tichý na kole do práce. Bylo hezké počasí a on jel docela rychle. Najednou na cestu vyběhl velký pes. Pan Tichý chtěl zastavit, ale spadl z kola. Bolela ho ruka a nemohl vstát. Lidé na ulici zavolali sanitku. Sanitka přijela za deset minut a odvezla ho do nemocnice. V nemocnici ho vyšetřil lékař. Řekl mu, že má zlomenou ruku, a dal mu sádru. Pan Tichý musel zůstat šest týdnů doma."
+     "model": "Včera ráno jel pan Tichý na kole do práce. Bylo hezké počasí a on jel docela rychle. Najednou na cestu vyběhl velký pes. Pan Tichý chtěl zastavit, ale spadl z kola. Bolela ho ruka a nemohl vstát. Lidé na ulici zavolali sanitku. Sanitka přijela za deset minut a odvezla ho do nemocnice. V nemocnici ho vyšetřil lékař. Řekl mu, že má zlomenou ruku, a dal mu sádru. Pan Tichý musel zůstat šest týdnů doma.",
+     "om": [
+      [
+       "1F6B2"
+      ],
+      [
+       "1F415",
+       "1F4A5"
+      ],
+      [
+       "1F691"
+      ],
+      [
+       "1F468-200D-2695-FE0F",
+       "1F9B4"
+      ]
+     ]
     },
     "t4": {
      "situation": "V létě chceme spolu jet na dovolenou. Kam pojedeme?",
      "options": [
       {
        "icon": "🏖️",
-       "label": "k moři"
+       "label": "k moři",
+       "om": [
+        "1F3D6"
+       ]
       },
       {
        "icon": "🏔️",
-       "label": "na hory"
+       "label": "na hory",
+       "om": [
+        "1F3D4"
+       ]
       },
       {
        "icon": "🏙️",
-       "label": "do velkého města"
+       "label": "do velkého města",
+       "om": [
+        "1F3D9"
+       ]
       }
      ],
      "examiner": [
@@ -2589,35 +2821,55 @@
        "picture": "👓👁️",
        "caption": "Optika",
        "answer": "A",
-       "img": "Optiker_Bode_in_Berlin-Köpenick.JPG"
+       "img": "Optiker_Bode_in_Berlin-Köpenick.JPG",
+       "om": [
+        "1F453",
+        "1F441"
+       ]
       },
       {
        "n": 2,
        "picture": "🦷👧",
        "caption": "Zubní křeslo",
        "answer": "D",
-       "img": "Dental_Chair.jpg"
+       "img": "Dental_Chair.jpg",
+       "om": [
+        "1F9B7",
+        "1F467"
+       ]
       },
       {
        "n": 3,
        "picture": "🧘🌳",
        "caption": "Jóga venku",
        "answer": "E",
-       "img": "Outdoor_yoga_class_in_Vaduz_Liechtenstein_Himalayan_Yoga_Center.JPG"
+       "img": "Outdoor_yoga_class_in_Vaduz_Liechtenstein_Himalayan_Yoga_Center.JPG",
+       "om": [
+        "1F9D8",
+        "1F333"
+       ]
       },
       {
        "n": 4,
        "picture": "💉🤧",
        "caption": "Očkování",
        "answer": "C",
-       "img": "Flu_Vaccination_Grippe_(5116249876).jpg"
+       "img": "Flu_Vaccination_Grippe_(5116249876).jpg",
+       "om": [
+        "1F489",
+        "1F927"
+       ]
       },
       {
        "n": 5,
        "picture": "🏋️💪",
        "caption": "Činky v posilovně",
        "answer": "B",
-       "img": "Gym_Dumbbells_For_Working_Out_(193383405).jpeg"
+       "img": "Gym_Dumbbells_For_Working_Out_(193383405).jpeg",
+       "om": [
+        "1F3CB",
+        "1F4AA"
+       ]
       }
      ]
     },
@@ -2870,23 +3122,38 @@
      "prompts": [
       {
        "icon": "📅",
-       "q": "KDY PŘIJEDETE A KDY ODJEDETE?"
+       "q": "KDY PŘIJEDETE A KDY ODJEDETE?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "👨‍👩‍👦",
-       "q": "KOLIK VÁS BUDE?"
+       "q": "KOLIK VÁS BUDE?",
+       "om": [
+        "1F468-200D-1F469-200D-1F466"
+       ]
       },
       {
        "icon": "🛏️",
-       "q": "JAKÝ POKOJ CHCETE?"
+       "q": "JAKÝ POKOJ CHCETE?",
+       "om": [
+        "1F6CF"
+       ]
       },
       {
        "icon": "🍳",
-       "q": "CO CHCETE JÍST V HOTELU?"
+       "q": "CO CHCETE JÍST V HOTELU?",
+       "om": [
+        "1F373"
+       ]
       },
       {
        "icon": "🚗",
-       "q": "ČÍM PŘIJEDETE?"
+       "q": "ČÍM PŘIJEDETE?",
+       "om": [
+        "1F697"
+       ]
       }
      ],
      "model": "Dobrý den,\nchtěla bych rezervovat pokoj ve Vašem hotelu. Přijedeme v pátek 10. července a odjedeme v neděli 19. července. Budeme tři, já, manžel a syn. Chceme rodinný pokoj s balkonem. V hotelu chceme snídani a večeři. Přijedeme autem, potřebujeme parkovací místo.\nDěkuji a těším se na odpověď.\nS pozdravem\nJulija Petrenko"
@@ -3070,27 +3337,45 @@
      "options": {
       "A": {
        "icon": "🎠",
-       "label": "dětské hřiště"
+       "label": "dětské hřiště",
+       "om": [
+        "1F3A0"
+       ]
       },
       "B": {
        "icon": "🅿️",
-       "label": "parkoviště"
+       "label": "parkoviště",
+       "om": [
+        "1F17F"
+       ]
       },
       "C": {
        "icon": "🍦",
-       "label": "zmrzlina"
+       "label": "zmrzlina",
+       "om": [
+        "1F366"
+       ]
       },
       "D": {
        "icon": "⛽",
-       "label": "benzínka"
+       "label": "benzínka",
+       "om": [
+        "26FD"
+       ]
       },
       "E": {
        "icon": "🏨",
-       "label": "hotel"
+       "label": "hotel",
+       "om": [
+        "1F3E8"
+       ]
       },
       "F": {
        "icon": "🐾",
-       "label": "veterinář"
+       "label": "veterinář",
+       "om": [
+        "1F43E"
+       ]
       }
      },
      "items": [
@@ -3363,22 +3648,47 @@
       "💳❌ U pokladny hledá v tašce peněženku, ale nemá ji.",
       "🏠👛 Doma najde peněženku na stole."
      ],
-     "model": "Včera odpoledne chtěla paní Kováčová jít nakupovat. Doma nejdřív napsala nákupní seznam. Potřebovala mléko, chleba a ovoce. Potom šla do supermarketu. Vzala si košík a dala do něj všechny věci ze seznamu. Nakonec šla k pokladně. U pokladny hledala v tašce peněženku, ale neměla ji. Byla nervózní a musela nákup nechat v obchodě. Šla rychle domů. Doma našla peněženku na stole v kuchyni. Potom se do obchodu vrátila a nákup zaplatila."
+     "model": "Včera odpoledne chtěla paní Kováčová jít nakupovat. Doma nejdřív napsala nákupní seznam. Potřebovala mléko, chleba a ovoce. Potom šla do supermarketu. Vzala si košík a dala do něj všechny věci ze seznamu. Nakonec šla k pokladně. U pokladny hledala v tašce peněženku, ale neměla ji. Byla nervózní a musela nákup nechat v obchodě. Šla rychle domů. Doma našla peněženku na stole v kuchyni. Potom se do obchodu vrátila a nákup zaplatila.",
+     "om": [
+      [
+       "1F4DD"
+      ],
+      [
+       "1F6D2"
+      ],
+      [
+       "1F4B3",
+       "274C"
+      ],
+      [
+       "1F3E0",
+       "1F45B"
+      ]
+     ]
     },
     "t4": {
      "situation": "V sobotu k nám přijdou kamarádi. Chceme spolu uvařit večeři. Co uvaříme?",
      "options": [
       {
        "icon": "🍕",
-       "label": "pizza"
+       "label": "pizza",
+       "om": [
+        "1F355"
+       ]
       },
       {
        "icon": "🍲",
-       "label": "guláš"
+       "label": "guláš",
+       "om": [
+        "1F372"
+       ]
       },
       {
        "icon": "🐟",
-       "label": "ryba"
+       "label": "ryba",
+       "om": [
+        "1F41F"
+       ]
       }
      ],
      "examiner": [
@@ -3448,35 +3758,55 @@
        "picture": "💐🎂",
        "caption": "Kytice",
        "answer": "A",
-       "img": "Bouquet_of_white,_pink_and_yellow_flowers.jpg"
+       "img": "Bouquet_of_white,_pink_and_yellow_flowers.jpg",
+       "om": [
+        "1F490",
+        "1F382"
+       ]
       },
       {
        "n": 2,
        "picture": "🎒✏️",
        "caption": "Školní potřeby",
        "answer": "C",
-       "img": "KSS_School_Supplies.jpg"
+       "img": "KSS_School_Supplies.jpg",
+       "om": [
+        "1F392",
+        "270F"
+       ]
       },
       {
        "n": 3,
        "picture": "🐕🥫",
        "caption": "Pes u misky",
        "answer": "H",
-       "img": "Dog_eating.jpg"
+       "img": "Dog_eating.jpg",
+       "om": [
+        "1F415",
+        "1F96B"
+       ]
       },
       {
        "n": 4,
        "picture": "🥕🥔",
        "caption": "Zelenina na trhu",
        "answer": "E",
-       "img": "Vegetable_Stall,_Brigg_Market_-_geograph.org.uk_-_1725898.jpg"
+       "img": "Vegetable_Stall,_Brigg_Market_-_geograph.org.uk_-_1725898.jpg",
+       "om": [
+        "1F955",
+        "1F954"
+       ]
       },
       {
        "n": 5,
        "picture": "📺🧺",
        "caption": "Televize v obchodě",
        "answer": "D",
-       "img": "TVs_for_sale.jpg"
+       "img": "TVs_for_sale.jpg",
+       "om": [
+        "1F4FA",
+        "1F9FA"
+       ]
       }
      ]
     },
@@ -3724,23 +4054,38 @@
      "prompts": [
       {
        "icon": "👟",
-       "q": "CO JSTE SI KOUPIL/A?"
+       "q": "CO JSTE SI KOUPIL/A?",
+       "om": [
+        "1F45F"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY JSTE TO KOUPIL/A?"
+       "q": "KDY JSTE TO KOUPIL/A?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "💔",
-       "q": "JAKÝ JE PROBLÉM?"
+       "q": "JAKÝ JE PROBLÉM?",
+       "om": [
+        "1F494"
+       ]
       },
       {
        "icon": "🔄",
-       "q": "CO CHCETE: VÝMĚNU, NEBO PENÍZE?"
+       "q": "CO CHCETE: VÝMĚNU, NEBO PENÍZE?",
+       "om": [
+        "1F504"
+       ]
       },
       {
        "icon": "📦",
-       "q": "JAK BOTY POŠLETE ZPÁTKY?"
+       "q": "JAK BOTY POŠLETE ZPÁTKY?",
+       "om": [
+        "1F4E6"
+       ]
       }
      ],
      "model": "Dobrý den,\nkoupil jsem si u Vás sportovní boty Nike, velikost 43. Koupil jsem je 2. října přes internet. Boty jsem nosil jen týden a už jsou rozbité, levá bota má díru. Chtěl bych výměnu za nové boty. Boty Vám pošlu poštou zítra.\nDěkuji za odpověď.\nS pozdravem\nVasyl Hrytsenko"
@@ -3924,27 +4269,45 @@
      "options": {
       "A": {
        "icon": "🏰",
-       "label": "hrad"
+       "label": "hrad",
+       "om": [
+        "1F3F0"
+       ]
       },
       "B": {
        "icon": "🖼️",
-       "label": "galerie"
+       "label": "galerie",
+       "om": [
+        "1F5BC"
+       ]
       },
       "C": {
        "icon": "🏟️",
-       "label": "stadion"
+       "label": "stadion",
+       "om": [
+        "1F3DF"
+       ]
       },
       "D": {
        "icon": "🌳",
-       "label": "park"
+       "label": "park",
+       "om": [
+        "1F333"
+       ]
       },
       "E": {
        "icon": "🏫",
-       "label": "škola"
+       "label": "škola",
+       "om": [
+        "1F3EB"
+       ]
       },
       "F": {
        "icon": "🦁",
-       "label": "zoo"
+       "label": "zoo",
+       "om": [
+        "1F981"
+       ]
       }
      },
      "items": [
@@ -4216,22 +4579,45 @@
       "🎁 Večer přijdou kamarádi s dárky.",
       "🎶 Všichni zpívají a tancují."
      ],
-     "model": "Včera měla Marie narozeniny. Ráno vstala brzy a v kuchyni pekla čokoládový dort. Dort byl velký a moc voněl. Na dort dala jahody a šlehačku. Odpoledne zdobila byt. Dala do obýváku barevné balonky. Potom připravila jídlo a pití. Večer přišli kamarádi. Přinesli Marii dárky a květiny. Marie byla moc ráda. Potom všichni jedli dort, zpívali a tancovali. Oslava skončila až o půlnoci a všichni se měli dobře."
+     "model": "Včera měla Marie narozeniny. Ráno vstala brzy a v kuchyni pekla čokoládový dort. Dort byl velký a moc voněl. Na dort dala jahody a šlehačku. Odpoledne zdobila byt. Dala do obýváku barevné balonky. Potom připravila jídlo a pití. Večer přišli kamarádi. Přinesli Marii dárky a květiny. Marie byla moc ráda. Potom všichni jedli dort, zpívali a tancovali. Oslava skončila až o půlnoci a všichni se měli dobře.",
+     "om": [
+      [
+       "1F382"
+      ],
+      [
+       "1F388"
+      ],
+      [
+       "1F381"
+      ],
+      [
+       "1F3B6"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu začít sportovat. Jaký sport budeme dělat?",
      "options": [
       {
        "icon": "🏊",
-       "label": "plavání"
+       "label": "plavání",
+       "om": [
+        "1F3CA"
+       ]
       },
       {
        "icon": "🏃",
-       "label": "běh"
+       "label": "běh",
+       "om": [
+        "1F3C3"
+       ]
       },
       {
        "icon": "🚴",
-       "label": "cyklistika"
+       "label": "cyklistika",
+       "om": [
+        "1F6B4"
+       ]
       }
      ],
      "examiner": [
@@ -4301,35 +4687,55 @@
        "picture": "🍕🛵",
        "caption": "Rozvoz pizzy",
        "answer": "A",
-       "img": "Telepizza_scooter,_Warsaw_.jpg"
+       "img": "Telepizza_scooter,_Warsaw_.jpg",
+       "om": [
+        "1F355",
+        "1F6F5"
+       ]
       },
       {
        "n": 2,
        "picture": "🍳☕",
        "caption": "Snídaně",
        "answer": "E",
-       "img": "Full_English_breakfast.jpg"
+       "img": "Full_English_breakfast.jpg",
+       "om": [
+        "1F373",
+        "2615"
+       ]
       },
       {
        "n": 3,
        "picture": "🍣🥢",
        "caption": "Sushi",
        "answer": "F",
-       "img": "Sushi_platter.jpg"
+       "img": "Sushi_platter.jpg",
+       "om": [
+        "1F363",
+        "1F962"
+       ]
       },
       {
        "n": 4,
        "picture": "🍷🍇",
        "caption": "Sklenice vína",
        "answer": "C",
-       "img": "Red_Wine_Glass.jpg"
+       "img": "Red_Wine_Glass.jpg",
+       "om": [
+        "1F377",
+        "1F347"
+       ]
       },
       {
        "n": 5,
        "picture": "🔥🚫",
        "caption": "Grilování",
        "answer": "D",
-       "img": "Grilling.jpg"
+       "img": "Grilling.jpg",
+       "om": [
+        "1F525",
+        "1F6AB"
+       ]
       }
      ]
     },
@@ -4581,23 +4987,38 @@
      "prompts": [
       {
        "icon": "🏢",
-       "q": "KDE BYDLÍTE?"
+       "q": "KDE BYDLÍTE?",
+       "om": [
+        "1F3E2"
+       ]
       },
       {
        "icon": "🔊",
-       "q": "JAKÝ JE PROBLÉM?"
+       "q": "JAKÝ JE PROBLÉM?",
+       "om": [
+        "1F50A"
+       ]
       },
       {
        "icon": "🌙",
-       "q": "KDY TO JE?"
+       "q": "KDY TO JE?",
+       "om": [
+        "1F319"
+       ]
       },
       {
        "icon": "😴",
-       "q": "PROČ JE TO PRO VÁS PROBLÉM?"
+       "q": "PROČ JE TO PRO VÁS PROBLÉM?",
+       "om": [
+        "1F634"
+       ]
       },
       {
        "icon": "🙏",
-       "q": "CO MÁ SPRÁVCE UDĚLAT?"
+       "q": "CO MÁ SPRÁVCE UDĚLAT?",
+       "om": [
+        "1F64F"
+       ]
       }
      ],
      "model": "Dobrý den,\nbydlím v ulici Lobečská 12, ve třetím patře. Mám problém se sousedem ve čtvrtém patře. Každý večer hraje velmi nahlas hudbu. Je to vždy od deseti do dvou hodin v noci. Já vstávám ve čtyři ráno do práce a nemůžu spát. Prosím, můžete se sousedem mluvit?\nDěkuji.\nS pozdravem\nAndrij Moroz"
@@ -4781,27 +5202,45 @@
      "options": {
       "A": {
        "icon": "🚕",
-       "label": "taxi"
+       "label": "taxi",
+       "om": [
+        "1F695"
+       ]
       },
       "B": {
        "icon": "🚇",
-       "label": "metro"
+       "label": "metro",
+       "om": [
+        "1F687"
+       ]
       },
       "C": {
        "icon": "🚲",
-       "label": "půjčovna kol"
+       "label": "půjčovna kol",
+       "om": [
+        "1F6B2"
+       ]
       },
       "D": {
        "icon": "🚉",
-       "label": "nádraží"
+       "label": "nádraží",
+       "om": [
+        "1F689"
+       ]
       },
       "E": {
        "icon": "⛴️",
-       "label": "přístav"
+       "label": "přístav",
+       "om": [
+        "26F4"
+       ]
       },
       "F": {
        "icon": "🛫",
-       "label": "letiště"
+       "label": "letiště",
+       "om": [
+        "1F6EB"
+       ]
       }
      },
      "items": [
@@ -5070,22 +5509,47 @@
       "📞 Volá zámečníkovi.",
       "🔧🚪 Zámečník otvírá dveře a muž platí."
      ],
-     "model": "Včera večer šel pan Vlk z práce domů. Byl unavený a těšil se na večeři. Když přišel ke dveřím, hledal klíč. Hledal ho v kapse i v tašce, ale neměl ho. Asi ho zapomněl v práci. Pan Vlk nevěděl, co má dělat. Nakonec zavolal zámečníkovi. Zámečník přijel za půl hodiny. Otevřel dveře za pět minut. Pan Vlk mu musel zaplatit osm set korun a byl smutný."
+     "model": "Včera večer šel pan Vlk z práce domů. Byl unavený a těšil se na večeři. Když přišel ke dveřím, hledal klíč. Hledal ho v kapse i v tašce, ale neměl ho. Asi ho zapomněl v práci. Pan Vlk nevěděl, co má dělat. Nakonec zavolal zámečníkovi. Zámečník přijel za půl hodiny. Otevřel dveře za pět minut. Pan Vlk mu musel zaplatit osm set korun a byl smutný.",
+     "om": [
+      [
+       "1F6B6"
+      ],
+      [
+       "1F511",
+       "2753"
+      ],
+      [
+       "1F4DE"
+      ],
+      [
+       "1F527",
+       "1F6AA"
+      ]
+     ]
     },
     "t4": {
      "situation": "Kamarád se stěhuje do nového bytu. Co mu koupíme?",
      "options": [
       {
        "icon": "🪴",
-       "label": "květina"
+       "label": "květina",
+       "om": [
+        "1FAB4"
+       ]
       },
       {
        "icon": "🖼️",
-       "label": "obraz"
+       "label": "obraz",
+       "om": [
+        "1F5BC"
+       ]
       },
       {
        "icon": "☕",
-       "label": "hrnky"
+       "label": "hrnky",
+       "om": [
+        "2615"
+       ]
       }
      ],
      "examiner": [
@@ -5155,35 +5619,55 @@
        "picture": "🚗🧽",
        "caption": "Mytí auta",
        "answer": "A",
-       "img": "Mobile_Wash_partner_washing_a_car.jpg"
+       "img": "Mobile_Wash_partner_washing_a_car.jpg",
+       "om": [
+        "1F697",
+        "1F9FD"
+       ]
       },
       {
        "n": 2,
        "picture": "🍓🧺",
        "caption": "Sběr jahod",
        "answer": "D",
-       "img": "Strawberry_Picking.jpg"
+       "img": "Strawberry_Picking.jpg",
+       "om": [
+        "1F353",
+        "1F9FA"
+       ]
       },
       {
        "n": 3,
        "picture": "🧵👖",
        "caption": "Jehla a nit",
        "answer": "F",
-       "img": "Needle_&_Thread..jpg"
+       "img": "Needle_&_Thread..jpg",
+       "om": [
+        "1F9F5",
+        "1F456"
+       ]
       },
       {
        "n": 4,
        "picture": "🖌️🧱",
        "caption": "Malování zdi",
        "answer": "H",
-       "img": "Man_Painting_Wall.jpg"
+       "img": "Man_Painting_Wall.jpg",
+       "om": [
+        "1F58C",
+        "1F9F1"
+       ]
       },
       {
        "n": 5,
        "picture": "🪟🧹",
        "caption": "Mytí oken",
        "answer": "E",
-       "img": "Woman_Cleaning_Windows_-_Omsk_-_Russia.JPG"
+       "img": "Woman_Cleaning_Windows_-_Omsk_-_Russia.JPG",
+       "om": [
+        "1FA9F",
+        "1F9F9"
+       ]
       }
      ]
     },
@@ -5432,23 +5916,38 @@
      "prompts": [
       {
        "icon": "📚",
-       "q": "JAKÝ KURZ CHCETE?"
+       "q": "JAKÝ KURZ CHCETE?",
+       "om": [
+        "1F4DA"
+       ]
       },
       {
        "icon": "❓",
-       "q": "PROČ SE CHCETE UČIT ČESKY?"
+       "q": "PROČ SE CHCETE UČIT ČESKY?",
+       "om": [
+        "2753"
+       ]
       },
       {
        "icon": "🗓️",
-       "q": "KDY MÁTE ČAS?"
+       "q": "KDY MÁTE ČAS?",
+       "om": [
+        "1F5D3"
+       ]
       },
       {
        "icon": "💳",
-       "q": "JAK CHCETE PLATIT?"
+       "q": "JAK CHCETE PLATIT?",
+       "om": [
+        "1F4B3"
+       ]
       },
       {
        "icon": "📞",
-       "q": "JAK VÁS MŮŽOU KONTAKTOVAT?"
+       "q": "JAK VÁS MŮŽOU KONTAKTOVAT?",
+       "om": [
+        "1F4DE"
+       ]
       }
      ],
      "model": "Dobrý den,\nchtěl bych se přihlásit na kurz češtiny pro mírně pokročilé. Česky se chci učit, protože budu dělat zkoušku na trvalý pobyt. Čas mám v úterý a ve čtvrtek večer, přes den pracuju. Platit chci převodem na účet. Můžete mi zavolat na číslo 777 456 123 nebo napsat e-mail.\nDěkuji.\nS pozdravem\nRoman Bilyk"
@@ -5632,27 +6131,45 @@
      "options": {
       "A": {
        "icon": "🛏️",
-       "label": "ložnice"
+       "label": "ložnice",
+       "om": [
+        "1F6CF"
+       ]
       },
       "B": {
        "icon": "🍳",
-       "label": "kuchyň"
+       "label": "kuchyň",
+       "om": [
+        "1F373"
+       ]
       },
       "C": {
        "icon": "🛁",
-       "label": "koupelna"
+       "label": "koupelna",
+       "om": [
+        "1F6C1"
+       ]
       },
       "D": {
        "icon": "🧺",
-       "label": "prádelna"
+       "label": "prádelna",
+       "om": [
+        "1F9FA"
+       ]
       },
       "E": {
        "icon": "🚗",
-       "label": "garáž"
+       "label": "garáž",
+       "om": [
+        "1F697"
+       ]
       },
       "F": {
        "icon": "🌿",
-       "label": "zahrada"
+       "label": "zahrada",
+       "om": [
+        "1F33F"
+       ]
       }
      },
      "items": [
@@ -5919,22 +6436,45 @@
       "👩‍⚕️ Lékařka ji vyšetřuje.",
       "💊 V lékárně kupuje léky."
      ],
-     "model": "Včera ráno se Olga necítila dobře. Ležela v posteli, bolela ji hlava a měla horečku. Do práce nemohla jít. Zavolala do ordinace a objednala se k lékařce. Sestra jí řekla, ať přijde v deset hodin. Lékařka Olgu vyšetřila. Řekla jí, že má chřipku, a napsala jí recept. Potom šla Olga do lékárny. Koupila si léky a čaj. Doma si lehla a celý den odpočívala."
+     "model": "Včera ráno se Olga necítila dobře. Ležela v posteli, bolela ji hlava a měla horečku. Do práce nemohla jít. Zavolala do ordinace a objednala se k lékařce. Sestra jí řekla, ať přijde v deset hodin. Lékařka Olgu vyšetřila. Řekla jí, že má chřipku, a napsala jí recept. Potom šla Olga do lékárny. Koupila si léky a čaj. Doma si lehla a celý den odpočívala.",
+     "om": [
+      [
+       "1F912"
+      ],
+      [
+       "1F4DE"
+      ],
+      [
+       "1F469-200D-2695-FE0F"
+      ],
+      [
+       "1F48A"
+      ]
+     ]
     },
     "t4": {
      "situation": "V neděli chceme jít spolu s dětmi na výlet. Kam půjdeme?",
      "options": [
       {
        "icon": "🦁",
-       "label": "zoo"
+       "label": "zoo",
+       "om": [
+        "1F981"
+       ]
       },
       {
        "icon": "🏰",
-       "label": "hrad"
+       "label": "hrad",
+       "om": [
+        "1F3F0"
+       ]
       },
       {
        "icon": "🏊",
-       "label": "aquapark"
+       "label": "aquapark",
+       "om": [
+        "1F3CA"
+       ]
       }
      ],
      "examiner": [
@@ -6004,35 +6544,53 @@
        "picture": "🎳",
        "caption": "Bowling",
        "answer": "B",
-       "img": "Bowling_alley.jpg"
+       "img": "Bowling_alley.jpg",
+       "om": [
+        "1F3B3"
+       ]
       },
       {
        "n": 2,
        "picture": "🎸🎹",
        "caption": "Kytara",
        "answer": "G",
-       "img": "Acoustic_guitar.jpg"
+       "img": "Acoustic_guitar.jpg",
+       "om": [
+        "1F3B8",
+        "1F3B9"
+       ]
       },
       {
        "n": 3,
        "picture": "🎿🚡",
        "caption": "Lyže",
        "answer": "F",
-       "img": "Polsport_skis.jpg"
+       "img": "Polsport_skis.jpg",
+       "om": [
+        "1F3BF",
+        "1F6A1"
+       ]
       },
       {
        "n": 4,
        "picture": "♟️",
        "caption": "Šachy",
        "answer": "H",
-       "img": "Chess_board_with_pieces.jpg"
+       "img": "Chess_board_with_pieces.jpg",
+       "om": [
+        "265F"
+       ]
       },
       {
        "n": 5,
        "picture": "🎣🐟",
        "caption": "Rybářské pruty",
        "answer": "D",
-       "img": "Fishing_Rods.jpg"
+       "img": "Fishing_Rods.jpg",
+       "om": [
+        "1F3A3",
+        "1F41F"
+       ]
       }
      ]
     },
@@ -6281,23 +6839,39 @@
      "prompts": [
       {
        "icon": "🎂",
-       "q": "KOLIK LET BUDE SYNOVI?"
+       "q": "KOLIK LET BUDE SYNOVI?",
+       "om": [
+        "1F382"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY CHCETE OSLAVU?"
+       "q": "KDY CHCETE OSLAVU?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "👧👦",
-       "q": "KOLIK DĚTÍ PŘIJDE?"
+       "q": "KOLIK DĚTÍ PŘIJDE?",
+       "om": [
+        "1F467",
+        "1F466"
+       ]
       },
       {
        "icon": "🎨",
-       "q": "JAKÝ PROGRAM CHCETE?"
+       "q": "JAKÝ PROGRAM CHCETE?",
+       "om": [
+        "1F3A8"
+       ]
       },
       {
        "icon": "🍰",
-       "q": "CO CHCETE K JÍDLU?"
+       "q": "CO CHCETE K JÍDLU?",
+       "om": [
+        "1F370"
+       ]
       }
      ],
      "model": "Dobrý den,\nchtěla bych u Vás udělat oslavu narozenin. Můj syn bude mít deset let. Oslavu chceme v sobotu 14. března odpoledne. Přijde dvanáct dětí. Chceme program se soutěžemi a malováním na obličej. K jídlu chceme pizzu, limonádu a dort.\nKolik to bude stát?\nS pozdravem\nJulija Shevchenko"
@@ -6481,27 +7055,45 @@
      "options": {
       "A": {
        "icon": "🏨",
-       "label": "hotel"
+       "label": "hotel",
+       "om": [
+        "1F3E8"
+       ]
       },
       "B": {
        "icon": "🍺",
-       "label": "hospoda"
+       "label": "hospoda",
+       "om": [
+        "1F37A"
+       ]
       },
       "C": {
        "icon": "☕",
-       "label": "kavárna"
+       "label": "kavárna",
+       "om": [
+        "2615"
+       ]
       },
       "D": {
        "icon": "🥖",
-       "label": "pekárna"
+       "label": "pekárna",
+       "om": [
+        "1F956"
+       ]
       },
       "E": {
        "icon": "🥩",
-       "label": "řeznictví"
+       "label": "řeznictví",
+       "om": [
+        "1F969"
+       ]
       },
       "F": {
        "icon": "🍷",
-       "label": "vinárna"
+       "label": "vinárna",
+       "om": [
+        "1F377"
+       ]
       }
      },
      "items": [
@@ -6769,22 +7361,45 @@
       "🍽️ V poledne obědvá s kolegy.",
       "🛋️ Večer odpočívá doma a dívá se na televizi."
      ],
-     "model": "Včera vstal Ivan už ve čtyři hodiny ráno. Rychle se oblékl, vypil kávu a jel do práce. Pracuje ve velkém skladu. Celé dopoledne nakládal těžké krabice do kamionu. Práce byla náročná, ale šla dobře. V poledne obědval s kolegy v jídelně. Dal si polévku a guláš. Povídali si o fotbale. Večer byl Ivan moc unavený. Odpočíval doma na gauči a díval se na televizi."
+     "model": "Včera vstal Ivan už ve čtyři hodiny ráno. Rychle se oblékl, vypil kávu a jel do práce. Pracuje ve velkém skladu. Celé dopoledne nakládal těžké krabice do kamionu. Práce byla náročná, ale šla dobře. V poledne obědval s kolegy v jídelně. Dal si polévku a guláš. Povídali si o fotbale. Večer byl Ivan moc unavený. Odpočíval doma na gauči a díval se na televizi.",
+     "om": [
+      [
+       "23F0"
+      ],
+      [
+       "1F3ED"
+      ],
+      [
+       "1F37D"
+      ],
+      [
+       "1F6CB"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu udělat něco pro zdraví. Co budeme dělat?",
      "options": [
       {
        "icon": "🧘",
-       "label": "jóga"
+       "label": "jóga",
+       "om": [
+        "1F9D8"
+       ]
       },
       {
        "icon": "🚶",
-       "label": "procházky"
+       "label": "procházky",
+       "om": [
+        "1F6B6"
+       ]
       },
       {
        "icon": "🥗",
-       "label": "zdravá strava"
+       "label": "zdravá strava",
+       "om": [
+        "1F957"
+       ]
       }
      ],
      "examiner": [
@@ -6854,35 +7469,53 @@
        "picture": "🚭",
        "caption": "Značka",
        "answer": "A",
-       "img": "No_Smoking_sign.jpg"
+       "img": "No_Smoking_sign.jpg",
+       "om": [
+        "1F6AD"
+       ]
       },
       {
        "n": 2,
        "picture": "🐕🚫",
        "caption": "Značka",
        "answer": "C",
-       "img": "No_dogs_allowed.jpg"
+       "img": "No_dogs_allowed.jpg",
+       "om": [
+        "1F415",
+        "1F6AB"
+       ]
       },
       {
        "n": 3,
        "picture": "🛗⚠️",
        "caption": "Výtah",
        "answer": "E",
-       "img": "Toshiba_lift.jpg"
+       "img": "Toshiba_lift.jpg",
+       "om": [
+        "1F6D7",
+        "26A0"
+       ]
       },
       {
        "n": 4,
        "picture": "🏃🚪",
        "caption": "Značka",
        "answer": "B",
-       "img": "Emergency_exit_sign_(42050562511).jpg"
+       "img": "Emergency_exit_sign_(42050562511).jpg",
+       "om": [
+        "1F3C3",
+        "1F6AA"
+       ]
       },
       {
        "n": 5,
        "picture": "📵",
        "caption": "Značka",
        "answer": "F",
-       "img": "No_cellphone.svg"
+       "img": "No_cellphone.svg",
+       "om": [
+        "1F4F5"
+       ]
       }
      ]
     },
@@ -7129,23 +7762,38 @@
      "prompts": [
       {
        "icon": "🚆",
-       "q": "KTERÝM VLAKEM JSTE JEL/A?"
+       "q": "KTERÝM VLAKEM JSTE JEL/A?",
+       "om": [
+        "1F686"
+       ]
       },
       {
        "icon": "🕗",
-       "q": "KDY TO BYLO?"
+       "q": "KDY TO BYLO?",
+       "om": [
+        "1F557"
+       ]
       },
       {
        "icon": "👜",
-       "q": "JAK VYPADÁ TAŠKA?"
+       "q": "JAK VYPADÁ TAŠKA?",
+       "om": [
+        "1F45C"
+       ]
       },
       {
        "icon": "📄",
-       "q": "CO JE V TAŠCE?"
+       "q": "CO JE V TAŠCE?",
+       "om": [
+        "1F4C4"
+       ]
       },
       {
        "icon": "📬",
-       "q": "JAK VÁS MAJÍ KONTAKTOVAT?"
+       "q": "JAK VÁS MAJÍ KONTAKTOVAT?",
+       "om": [
+        "1F4EC"
+       ]
       }
      ],
      "model": "Dobrý den,\nvčera jsem ve vlaku ztratila tašku. Jela jsem vlakem z Kralup do Prahy. Bylo to v pondělí ráno v sedm hodin. Taška je černá, kožená a malá. V tašce jsou doklady, peněženka a klíče. Prosím, když ji najdete, zavolejte mi na číslo 604 321 987.\nDěkuji.\nS pozdravem\nOksana Lysenko"
@@ -7329,27 +7977,45 @@
      "options": {
       "A": {
        "icon": "🧑‍⚕️",
-       "label": "ordinace"
+       "label": "ordinace",
+       "om": [
+        "1F9D1-200D-2695-FE0F"
+       ]
       },
       "B": {
        "icon": "🏦",
-       "label": "banka"
+       "label": "banka",
+       "om": [
+        "1F3E6"
+       ]
       },
       "C": {
        "icon": "🛍️",
-       "label": "obchodní centrum"
+       "label": "obchodní centrum",
+       "om": [
+        "1F6CD"
+       ]
       },
       "D": {
        "icon": "🍽️",
-       "label": "restaurace"
+       "label": "restaurace",
+       "om": [
+        "1F37D"
+       ]
       },
       "E": {
        "icon": "🏋️",
-       "label": "posilovna"
+       "label": "posilovna",
+       "om": [
+        "1F3CB"
+       ]
       },
       "F": {
        "icon": "💇",
-       "label": "kadeřnictví"
+       "label": "kadeřnictví",
+       "om": [
+        "1F487"
+       ]
       }
      },
      "items": [
@@ -7621,22 +8287,46 @@
       "📷 Fotí se na nový doklad.",
       "🪪 Úřednice mu dává potvrzení."
      ],
-     "model": "Včera šel pan Kovač na úřad, protože potřeboval nový doklad. Na úřadě bylo hodně lidí. Musel dlouho čekat ve frontě, skoro hodinu. Potom vyplnil formulář. Napsal tam svoje jméno, adresu a datum narození. Některé věci nevěděl, tak se zeptal úřednice. Potom se musel vyfotit na nový doklad. Fotka byla hotová hned. Nakonec mu úřednice dala potvrzení. Řekla mu, že si doklad může vyzvednout za měsíc."
+     "model": "Včera šel pan Kovač na úřad, protože potřeboval nový doklad. Na úřadě bylo hodně lidí. Musel dlouho čekat ve frontě, skoro hodinu. Potom vyplnil formulář. Napsal tam svoje jméno, adresu a datum narození. Některé věci nevěděl, tak se zeptal úřednice. Potom se musel vyfotit na nový doklad. Fotka byla hotová hned. Nakonec mu úřednice dala potvrzení. Řekla mu, že si doklad může vyzvednout za měsíc.",
+     "om": [
+      [
+       "1F3DB"
+      ],
+      [
+       "1F4DD"
+      ],
+      [
+       "1F4F7"
+      ],
+      [
+       "1FAAA"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme se spolu naučit něco nového. Co se budeme učit?",
      "options": [
       {
        "icon": "🇬🇧",
-       "label": "angličtina"
+       "label": "angličtina",
+       "om": [
+        "1F1EC",
+        "1F1E7"
+       ]
       },
       {
        "icon": "🚗",
-       "label": "řízení auta"
+       "label": "řízení auta",
+       "om": [
+        "1F697"
+       ]
       },
       {
        "icon": "💻",
-       "label": "počítače"
+       "label": "počítače",
+       "om": [
+        "1F4BB"
+       ]
       }
      ],
      "examiner": [
@@ -7706,35 +8396,55 @@
        "picture": "🎄🌲",
        "caption": "Prodej stromků",
        "answer": "C",
-       "img": "-2019-11-29_Santa_&_Christmas_tree's_for_sale,_QD_stores,_Cromer.JPG"
+       "img": "-2019-11-29_Santa_&_Christmas_tree's_for_sale,_QD_stores,_Cromer.JPG",
+       "om": [
+        "1F384",
+        "1F332"
+       ]
       },
       {
        "n": 2,
        "picture": "🥚🐣",
        "caption": "Velikonoční vajíčka",
        "answer": "D",
-       "img": "Easter-eggs-1_(23958405589).jpg"
+       "img": "Easter-eggs-1_(23958405589).jpg",
+       "om": [
+        "1F95A",
+        "1F423"
+       ]
       },
       {
        "n": 3,
        "picture": "🎆🌉",
        "caption": "Ohňostroj",
        "answer": "F",
-       "img": "Fireworks_over_Vltava_river._late_evenong._Prague,_Czech_Republic,_Western_Europe.jpg"
+       "img": "Fireworks_over_Vltava_river._late_evenong._Prague,_Czech_Republic,_Western_Europe.jpg",
+       "om": [
+        "1F386",
+        "1F309"
+       ]
       },
       {
        "n": 4,
        "picture": "😈😇",
        "caption": "Mikuláš a čert",
        "answer": "G",
-       "img": "Mikulas_a_cert_v_Praze_(1).JPG"
+       "img": "Mikulas_a_cert_v_Praze_(1).JPG",
+       "om": [
+        "1F608",
+        "1F607"
+       ]
       },
       {
        "n": 5,
        "picture": "💃🕺",
        "caption": "Tanec",
        "answer": "A",
-       "img": "Ballroom_dance_lesson.jpg"
+       "img": "Ballroom_dance_lesson.jpg",
+       "om": [
+        "1F483",
+        "1F57A"
+       ]
       }
      ]
     },
@@ -7983,23 +8693,38 @@
      "prompts": [
       {
        "icon": "💍",
-       "q": "PODĚKUJTE ZA POZVÁNÍ."
+       "q": "PODĚKUJTE ZA POZVÁNÍ.",
+       "om": [
+        "1F48D"
+       ]
       },
       {
        "icon": "😔",
-       "q": "PROČ NEMŮŽETE PŘIJÍT?"
+       "q": "PROČ NEMŮŽETE PŘIJÍT?",
+       "om": [
+        "1F614"
+       ]
       },
       {
        "icon": "🎁",
-       "q": "CO JÍ POŠLETE?"
+       "q": "CO JÍ POŠLETE?",
+       "om": [
+        "1F381"
+       ]
       },
       {
        "icon": "☕",
-       "q": "KDY SE MŮŽETE POTKAT?"
+       "q": "KDY SE MŮŽETE POTKAT?",
+       "om": [
+        "2615"
+       ]
       },
       {
        "icon": "💐",
-       "q": "CO JÍ PŘEJETE?"
+       "q": "CO JÍ PŘEJETE?",
+       "om": [
+        "1F490"
+       ]
       }
      ],
      "model": "Ahoj Petro,\nmoc děkuju za pozvání na tvoji svatbu. Bohužel nemůžu přijít, protože v ten den letím na Ukrajinu za mámou, je nemocná. Pošlu ti dárek poštou, je to sada sklenic. Můžeme se potkat na kávu příští týden, třeba ve středu. Přeju vám hodně lásky a štěstí.\nTvoje Ira"
@@ -8183,27 +8908,45 @@
      "options": {
       "A": {
        "icon": "🧥",
-       "label": "bunda"
+       "label": "bunda",
+       "om": [
+        "1F9E5"
+       ]
       },
       "B": {
        "icon": "👓",
-       "label": "brýle"
+       "label": "brýle",
+       "om": [
+        "1F453"
+       ]
       },
       "C": {
        "icon": "🔑",
-       "label": "klíče"
+       "label": "klíče",
+       "om": [
+        "1F511"
+       ]
       },
       "D": {
        "icon": "📱",
-       "label": "telefon"
+       "label": "telefon",
+       "om": [
+        "1F4F1"
+       ]
       },
       "E": {
        "icon": "☂️",
-       "label": "deštník"
+       "label": "deštník",
+       "om": [
+        "2602"
+       ]
       },
       "F": {
        "icon": "👛",
-       "label": "peněženka"
+       "label": "peněženka",
+       "om": [
+        "1F45B"
+       ]
       }
      },
      "items": [
@@ -8473,22 +9216,46 @@
       "🐟🥔 Večer jedí kapra s bramborovým salátem.",
       "🎁 Pod stromečkem rozbalují dárky."
      ],
-     "model": "Na Štědrý den byla rodina Petrenkových celý den doma. Ráno zdobili vánoční stromeček. Děti dávaly na stromeček koule a světýlka. Odpoledne pekli cukroví. Maminka dělala těsto a děti vykrajovaly hvězdičky. Celý byt krásně voněl. Večer jedli kapra s bramborovým salátem. Byla to tradiční česká večeře. Potom šli ke stromečku a rozbalovali dárky. Děti dostaly nové hračky a knihy. Všichni byli moc šťastní a večer zpívali koledy."
+     "model": "Na Štědrý den byla rodina Petrenkových celý den doma. Ráno zdobili vánoční stromeček. Děti dávaly na stromeček koule a světýlka. Odpoledne pekli cukroví. Maminka dělala těsto a děti vykrajovaly hvězdičky. Celý byt krásně voněl. Večer jedli kapra s bramborovým salátem. Byla to tradiční česká večeře. Potom šli ke stromečku a rozbalovali dárky. Děti dostaly nové hračky a knihy. Všichni byli moc šťastní a večer zpívali koledy.",
+     "om": [
+      [
+       "1F384"
+      ],
+      [
+       "1F36A"
+      ],
+      [
+       "1F41F",
+       "1F954"
+      ],
+      [
+       "1F381"
+      ]
+     ]
     },
     "t4": {
      "situation": "Kamarádka slaví narozeniny. Kde uděláme oslavu?",
      "options": [
       {
        "icon": "🏠",
-       "label": "doma"
+       "label": "doma",
+       "om": [
+        "1F3E0"
+       ]
       },
       {
        "icon": "🍽️",
-       "label": "v restauraci"
+       "label": "v restauraci",
+       "om": [
+        "1F37D"
+       ]
       },
       {
        "icon": "🌳",
-       "label": "v parku"
+       "label": "v parku",
+       "om": [
+        "1F333"
+       ]
       }
      ],
      "examiner": [
@@ -8558,35 +9325,55 @@
        "picture": "🩸❤️",
        "caption": "Darování krve",
        "answer": "C",
-       "img": "Blood_Donation_(44291611580).jpg"
+       "img": "Blood_Donation_(44291611580).jpg",
+       "om": [
+        "1FA78",
+        "2764"
+       ]
       },
       {
        "n": 2,
        "picture": "👶🍼",
        "caption": "Miminko",
        "answer": "A",
-       "img": "Baby_drinks_milk.jpg"
+       "img": "Baby_drinks_milk.jpg",
+       "om": [
+        "1F476",
+        "1F37C"
+       ]
       },
       {
        "n": 3,
        "picture": "🚑📞",
        "caption": "Sanitka",
        "answer": "G",
-       "img": "ZZS_JMK_nové_sanitky_(03).jpg"
+       "img": "ZZS_JMK_nové_sanitky_(03).jpg",
+       "om": [
+        "1F691",
+        "1F4DE"
+       ]
       },
       {
        "n": 4,
        "picture": "🦵🏋️",
        "caption": "Rehabilitace",
        "answer": "D",
-       "img": "Physiotherapie.jpg"
+       "img": "Physiotherapie.jpg",
+       "om": [
+        "1F9B5",
+        "1F3CB"
+       ]
       },
       {
        "n": 5,
        "picture": "🦷🗓️",
        "caption": "Zuby",
        "answer": "B",
-       "img": "Teeth_model_front.jpg"
+       "img": "Teeth_model_front.jpg",
+       "om": [
+        "1F9B7",
+        "1F5D3"
+       ]
       }
      ]
     },
@@ -8835,23 +9622,38 @@
      "prompts": [
       {
        "icon": "🧒",
-       "q": "KDO BUDE CHYBĚT?"
+       "q": "KDO BUDE CHYBĚT?",
+       "om": [
+        "1F9D2"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY BUDE CHYBĚT?"
+       "q": "KDY BUDE CHYBĚT?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "❓",
-       "q": "PROČ?"
+       "q": "PROČ?",
+       "om": [
+        "2753"
+       ]
       },
       {
        "icon": "📚",
-       "q": "CO BUDE DĚLAT S ÚKOLY?"
+       "q": "CO BUDE DĚLAT S ÚKOLY?",
+       "om": [
+        "1F4DA"
+       ]
       },
       {
        "icon": "🔙",
-       "q": "KDY PŘIJDE ZPÁTKY DO ŠKOLY?"
+       "q": "KDY PŘIJDE ZPÁTKY DO ŠKOLY?",
+       "om": [
+        "1F519"
+       ]
       }
      ],
      "model": "Dobrý den, paní učitelko,\nomlouvám svého syna Matvije ze 3. A. Příští týden nebude ve škole od pondělí do středy. Pojedeme na Ukrajinu na pohřeb jeho dědečka. Úkoly bude dělat doma, prosím pošlete nám je e-mailem. Do školy přijde zpátky ve čtvrtek.\nDěkuji za pochopení.\nS pozdravem\nAndrij Kuzmenko"
@@ -9035,27 +9837,45 @@
      "options": {
       "A": {
        "icon": "📮",
-       "label": "pošta"
+       "label": "pošta",
+       "om": [
+        "1F4EE"
+       ]
       },
       "B": {
        "icon": "🏥",
-       "label": "nemocnice"
+       "label": "nemocnice",
+       "om": [
+        "1F3E5"
+       ]
       },
       "C": {
        "icon": "🎓",
-       "label": "univerzita"
+       "label": "univerzita",
+       "om": [
+        "1F393"
+       ]
       },
       "D": {
        "icon": "⛪",
-       "label": "kostel"
+       "label": "kostel",
+       "om": [
+        "26EA"
+       ]
       },
       "E": {
        "icon": "🏛️",
-       "label": "radnice"
+       "label": "radnice",
+       "om": [
+        "1F3DB"
+       ]
       },
       "F": {
        "icon": "🚒",
-       "label": "hasiči"
+       "label": "hasiči",
+       "om": [
+        "1F692"
+       ]
       }
      },
      "items": [
@@ -9321,22 +10141,46 @@
       "🚌 Autobus mu odjíždí.",
       "🧑‍💼 Šéf se v kanceláři zlobí."
      ],
-     "model": "Včera ráno Petr zaspal. Budík zvonil, ale Petr ho neslyšel a spal až do půl osmé. Když se probudil, byl v šoku. Rychle se oblékl a běžel ze schodů. Neměl čas na snídani ani na kávu. Na zastávce viděl, že autobus právě odjíždí. Musel čekat na další autobus dvacet minut. Do práce přišel o hodinu později. Šéf se na něj zlobil. Petr se omluvil a slíbil, že už nepřijde pozdě."
+     "model": "Včera ráno Petr zaspal. Budík zvonil, ale Petr ho neslyšel a spal až do půl osmé. Když se probudil, byl v šoku. Rychle se oblékl a běžel ze schodů. Neměl čas na snídani ani na kávu. Na zastávce viděl, že autobus právě odjíždí. Musel čekat na další autobus dvacet minut. Do práce přišel o hodinu později. Šéf se na něj zlobil. Petr se omluvil a slíbil, že už nepřijde pozdě.",
+     "om": [
+      [
+       "1F634",
+       "23F0"
+      ],
+      [
+       "1F3C3"
+      ],
+      [
+       "1F68C"
+      ],
+      [
+       "1F9D1-200D-1F4BC"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme?",
      "options": [
       {
        "icon": "🎤",
-       "label": "koncert"
+       "label": "koncert",
+       "om": [
+        "1F3A4"
+       ]
       },
       {
        "icon": "⚽",
-       "label": "fotbalový zápas"
+       "label": "fotbalový zápas",
+       "om": [
+        "26BD"
+       ]
       },
       {
        "icon": "🎳",
-       "label": "bowling"
+       "label": "bowling",
+       "om": [
+        "1F3B3"
+       ]
       }
      ],
      "examiner": [
@@ -9406,35 +10250,56 @@
        "picture": "♻️🗑️",
        "caption": "Kontejnery na odpad",
        "answer": "A",
-       "img": "Papír,_plasty_a_sklo.JPG"
+       "img": "Papír,_plasty_a_sklo.JPG",
+       "om": [
+        "267B",
+        "1F5D1"
+       ]
       },
       {
        "n": 2,
        "picture": "🚛⛔",
        "caption": "Dopravní značka",
        "answer": "C",
-       "img": "CZ_road_sign_B-4.svg"
+       "img": "CZ_road_sign_B-4.svg",
+       "om": [
+        "1F69B",
+        "26D4"
+       ]
       },
       {
        "n": 3,
        "picture": "🧒⚽🚗",
        "caption": "Dopravní značka",
        "answer": "D",
-       "img": "Dopravná_značka_IP26a.svg"
+       "img": "Dopravná_značka_IP26a.svg",
+       "om": [
+        "1F9D2",
+        "26BD",
+        "1F697"
+       ]
       },
       {
        "n": 4,
        "picture": "🌙🔇",
        "caption": "Noc",
        "answer": "E",
-       "img": "Dark_night_moon.jpg"
+       "img": "Dark_night_moon.jpg",
+       "om": [
+        "1F319",
+        "1F507"
+       ]
       },
       {
        "n": 5,
        "picture": "❄️🧹",
        "caption": "Odklízení sněhu",
        "answer": "F",
-       "img": "Shoveling_snow,_Seattle,_1923.jpg"
+       "img": "Shoveling_snow,_Seattle,_1923.jpg",
+       "om": [
+        "2744",
+        "1F9F9"
+       ]
       }
      ]
     },
@@ -9683,23 +10548,38 @@
      "prompts": [
       {
        "icon": "🚲",
-       "q": "JAKÉ JE TO KOLO?"
+       "q": "JAKÉ JE TO KOLO?",
+       "om": [
+        "1F6B2"
+       ]
       },
       {
        "icon": "🗓️",
-       "q": "JAK DLOUHO HO MÁTE?"
+       "q": "JAK DLOUHO HO MÁTE?",
+       "om": [
+        "1F5D3"
+       ]
       },
       {
        "icon": "❓",
-       "q": "PROČ HO PRODÁVÁTE?"
+       "q": "PROČ HO PRODÁVÁTE?",
+       "om": [
+        "2753"
+       ]
       },
       {
        "icon": "💰",
-       "q": "KOLIK STOJÍ?"
+       "q": "KOLIK STOJÍ?",
+       "om": [
+        "1F4B0"
+       ]
       },
       {
        "icon": "👀",
-       "q": "KDY SI HO MŮŽE PŘIJÍT PROHLÉDNOUT?"
+       "q": "KDY SI HO MŮŽE PŘIJÍT PROHLÉDNOUT?",
+       "om": [
+        "1F440"
+       ]
       }
      ],
      "model": "Ahoj Jirko,\nslyšel jsem, že hledáš kolo. Prodávám svoje horské kolo, je modré a má 21 rychlostí. Mám ho tři roky, ale jezdil jsem na něm málo. Prodávám ho, protože jsem si koupil elektrokolo. Chci za něj 4 000 Kč. Můžeš si ho přijít prohlédnout v sobotu dopoledne.\nAhoj\nMaksym"
@@ -9883,27 +10763,45 @@
      "options": {
       "A": {
        "icon": "🍞",
-       "label": "chleba"
+       "label": "chleba",
+       "om": [
+        "1F35E"
+       ]
       },
       "B": {
        "icon": "🧀",
-       "label": "sýr"
+       "label": "sýr",
+       "om": [
+        "1F9C0"
+       ]
       },
       "C": {
        "icon": "🍌",
-       "label": "banány"
+       "label": "banány",
+       "om": [
+        "1F34C"
+       ]
       },
       "D": {
        "icon": "🥛",
-       "label": "mléko"
+       "label": "mléko",
+       "om": [
+        "1F95B"
+       ]
       },
       "E": {
        "icon": "🥚",
-       "label": "vejce"
+       "label": "vejce",
+       "om": [
+        "1F95A"
+       ]
       },
       "F": {
        "icon": "🍫",
-       "label": "čokoláda"
+       "label": "čokoláda",
+       "om": [
+        "1F36B"
+       ]
       }
      },
      "items": [
@@ -10173,22 +11071,46 @@
       "⛈️ Začne bouřka.",
       "🏃‍♀️☂️ Všichni utíkají domů s mokrým oblečením."
      ],
-     "model": "V neděli šla rodina Kovalových na piknik. Doma zabalili jídlo do košíku. Vzali si sendviče, ovoce a limonádu. Potom šli do parku. Sedli si na deku pod stromem a jedli. Děti si hrály s míčem a rodiče si povídali. Bylo teplo a svítilo slunce. Najednou se zatáhlo a začala bouřka. Hřmělo a silně pršelo. Všichni rychle utíkali domů. Neměli deštník, a proto přišli domů úplně mokří."
+     "model": "V neděli šla rodina Kovalových na piknik. Doma zabalili jídlo do košíku. Vzali si sendviče, ovoce a limonádu. Potom šli do parku. Sedli si na deku pod stromem a jedli. Děti si hrály s míčem a rodiče si povídali. Bylo teplo a svítilo slunce. Najednou se zatáhlo a začala bouřka. Hřmělo a silně pršelo. Všichni rychle utíkali domů. Neměli deštník, a proto přišli domů úplně mokří.",
+     "om": [
+      [
+       "1F9FA"
+      ],
+      [
+       "1F333"
+      ],
+      [
+       "26C8"
+      ],
+      [
+       "1F3C3-200D-2640-FE0F",
+       "2602"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme?",
      "options": [
       {
        "icon": "🐶",
-       "label": "pes"
+       "label": "pes",
+       "om": [
+        "1F436"
+       ]
       },
       {
        "icon": "🐱",
-       "label": "kočka"
+       "label": "kočka",
+       "om": [
+        "1F431"
+       ]
       },
       {
        "icon": "🐰",
-       "label": "králík"
+       "label": "králík",
+       "om": [
+        "1F430"
+       ]
       }
      ],
      "examiner": [
@@ -10258,35 +11180,55 @@
        "picture": "🚿🔧",
        "caption": "Kapající kohoutek",
        "answer": "C",
-       "img": "Dripping_faucet_1.jpg"
+       "img": "Dripping_faucet_1.jpg",
+       "om": [
+        "1F6BF",
+        "1F527"
+       ]
       },
       {
        "n": 2,
        "picture": "💡🔌",
        "caption": "Elektrikář",
        "answer": "E",
-       "img": "Electrician_installing_socket.jpg"
+       "img": "Electrician_installing_socket.jpg",
+       "om": [
+        "1F4A1",
+        "1F50C"
+       ]
       },
       {
        "n": 3,
        "picture": "🌿✂️",
        "caption": "Stříhání keřů",
        "answer": "G",
-       "img": "Gardener_in_a_senior_high_school_pruning_a_hedge.jpg"
+       "img": "Gardener_in_a_senior_high_school_pruning_a_hedge.jpg",
+       "om": [
+        "1F33F",
+        "2702"
+       ]
       },
       {
        "n": 4,
        "picture": "🐭🚫",
        "caption": "Myš",
        "answer": "H",
-       "img": "House_mouse.jpg"
+       "img": "House_mouse.jpg",
+       "om": [
+        "1F42D",
+        "1F6AB"
+       ]
       },
       {
        "n": 5,
        "picture": "🏠💨",
        "caption": "Kominík",
        "answer": "D",
-       "img": "Chimney_sweep.JPG"
+       "img": "Chimney_sweep.JPG",
+       "om": [
+        "1F3E0",
+        "1F4A8"
+       ]
       }
      ]
     },
@@ -10536,23 +11478,38 @@
      "prompts": [
       {
        "icon": "🌡️",
-       "q": "JAKÝ JE PROBLÉM?"
+       "q": "JAKÝ JE PROBLÉM?",
+       "om": [
+        "1F321"
+       ]
       },
       {
        "icon": "📅",
-       "q": "OD KDY TO TRVÁ?"
+       "q": "OD KDY TO TRVÁ?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "🥶",
-       "q": "JAKÁ JE TEPLOTA V BYTĚ?"
+       "q": "JAKÁ JE TEPLOTA V BYTĚ?",
+       "om": [
+        "1F976"
+       ]
       },
       {
        "icon": "🔧",
-       "q": "CO MÁ MAJITEL UDĚLAT?"
+       "q": "CO MÁ MAJITEL UDĚLAT?",
+       "om": [
+        "1F527"
+       ]
       },
       {
        "icon": "🕒",
-       "q": "KDY JSTE DOMA?"
+       "q": "KDY JSTE DOMA?",
+       "om": [
+        "1F552"
+       ]
       }
      ],
      "model": "Dobrý den, pane Veselý,\nv bytě nám nefunguje topení. Radiátory jsou úplně studené. Trvá to už od pondělí, tři dny. V bytě je jen patnáct stupňů a syn je nachlazený. Prosím, pošlete co nejdřív opraváře. Doma jsme každý den od čtyř hodin odpoledne.\nDěkuji.\nS pozdravem\nYuliia Marchenko"
@@ -10736,27 +11693,45 @@
      "options": {
       "A": {
        "icon": "🎭",
-       "label": "divadlo"
+       "label": "divadlo",
+       "om": [
+        "1F3AD"
+       ]
       },
       "B": {
        "icon": "🏊",
-       "label": "koupaliště"
+       "label": "koupaliště",
+       "om": [
+        "1F3CA"
+       ]
       },
       "C": {
        "icon": "📚",
-       "label": "knihovna"
+       "label": "knihovna",
+       "om": [
+        "1F4DA"
+       ]
       },
       "D": {
        "icon": "⛸️",
-       "label": "zimní stadion"
+       "label": "zimní stadion",
+       "om": [
+        "26F8"
+       ]
       },
       "E": {
        "icon": "🏪",
-       "label": "trafika"
+       "label": "trafika",
+       "om": [
+        "1F3EA"
+       ]
       },
       "F": {
        "icon": "🧑‍⚖️",
-       "label": "soud"
+       "label": "soud",
+       "om": [
+        "1F9D1-200D-2696-FE0F"
+       ]
       }
      },
      "items": [
@@ -11026,22 +12001,46 @@
       "✍️ Podepisují nájemní smlouvu.",
       "🔑😊 Dostávají klíče a jsou šťastní."
      ],
-     "model": "Minulý týden hledali Ivan a Olena nový byt. Večer seděli u počítače a hledali byt na internetu. Našli hezký byt blízko centra. Potom šli na prohlídku. Majitel jim ukázal kuchyň, ložnici a balkon. Byt se jim moc líbil, protože byl světlý a čistý. Druhý den podepsali nájemní smlouvu. Zaplatili kauci a první nájem. Nakonec od majitele dostali klíče. Byli moc šťastní, protože konečně měli vlastní bydlení."
+     "model": "Minulý týden hledali Ivan a Olena nový byt. Večer seděli u počítače a hledali byt na internetu. Našli hezký byt blízko centra. Potom šli na prohlídku. Majitel jim ukázal kuchyň, ložnici a balkon. Byt se jim moc líbil, protože byl světlý a čistý. Druhý den podepsali nájemní smlouvu. Zaplatili kauci a první nájem. Nakonec od majitele dostali klíče. Byli moc šťastní, protože konečně měli vlastní bydlení.",
+     "om": [
+      [
+       "1F4BB"
+      ],
+      [
+       "1F3E2"
+      ],
+      [
+       "270D"
+      ],
+      [
+       "1F511",
+       "1F60A"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu koupit dárek kolegyni, která odchází z práce. Co jí koupíme?",
      "options": [
       {
        "icon": "☕",
-       "label": "kávovar"
+       "label": "kávovar",
+       "om": [
+        "2615"
+       ]
       },
       {
        "icon": "🌸",
-       "label": "kytice"
+       "label": "kytice",
+       "om": [
+        "1F338"
+       ]
       },
       {
        "icon": "🎫",
-       "label": "poukaz do wellness"
+       "label": "poukaz do wellness",
+       "om": [
+        "1F3AB"
+       ]
       }
      ],
      "examiner": [
@@ -11111,35 +12110,55 @@
        "picture": "📷💒",
        "caption": "Fotograf",
        "answer": "B",
-       "img": "A_professional_photographer_with_photo_camera_records_the_images.jpg"
+       "img": "A_professional_photographer_with_photo_camera_records_the_images.jpg",
+       "om": [
+        "1F4F7",
+        "1F492"
+       ]
       },
       {
        "n": 2,
        "picture": "🎂💍",
        "caption": "Svatební dort",
        "answer": "C",
-       "img": "Wedding_cake_(1).jpg"
+       "img": "Wedding_cake_(1).jpg",
+       "om": [
+        "1F382",
+        "1F48D"
+       ]
       },
       {
        "n": 3,
        "picture": "🎺🎸",
        "caption": "Kapela",
        "answer": "D",
-       "img": "Concert_Band.jpg"
+       "img": "Concert_Band.jpg",
+       "om": [
+        "1F3BA",
+        "1F3B8"
+       ]
       },
       {
        "n": 4,
        "picture": "👰👗",
        "caption": "Svatební šaty",
        "answer": "E",
-       "img": "Wedding_dress_shop.JPG"
+       "img": "Wedding_dress_shop.JPG",
+       "om": [
+        "1F470",
+        "1F457"
+       ]
       },
       {
        "n": 5,
        "picture": "🚘🎀",
        "caption": "Limuzína",
        "answer": "G",
-       "img": "Lincoln_Town_Car_Stretch_limo_(47828403802).jpg"
+       "img": "Lincoln_Town_Car_Stretch_limo_(47828403802).jpg",
+       "om": [
+        "1F698",
+        "1F380"
+       ]
       }
      ]
     },
@@ -11388,23 +12407,38 @@
      "prompts": [
       {
        "icon": "🍖",
-       "q": "PROČ GRILUJETE?"
+       "q": "PROČ GRILUJETE?",
+       "om": [
+        "1F356"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY TO BUDE?"
+       "q": "KDY TO BUDE?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "📍",
-       "q": "KDE TO BUDE?"
+       "q": "KDE TO BUDE?",
+       "om": [
+        "1F4CD"
+       ]
       },
       {
        "icon": "🥗",
-       "q": "CO MAJÍ SOUSEDÉ PŘINÉST?"
+       "q": "CO MAJÍ SOUSEDÉ PŘINÉST?",
+       "om": [
+        "1F957"
+       ]
       },
       {
        "icon": "✉️",
-       "q": "DO KDY MAJÍ ODPOVĚDĚT?"
+       "q": "DO KDY MAJÍ ODPOVĚDĚT?",
+       "om": [
+        "2709"
+       ]
       }
      ],
      "model": "Milí sousedé,\nchceme vás pozvat na grilování, protože jsme se sem nově přistěhovali a chceme se s vámi seznámit. Bude to v sobotu 6. června od pěti hodin odpoledne. Grilovat budeme na zahradě za domem. Maso a pití budeme mít, přineste prosím salát nebo chleba. Odpovězte nám prosím do středy.\nTěšíme se.\nRodina Bondarenkových"
@@ -11588,27 +12622,45 @@
      "options": {
       "A": {
        "icon": "🚆",
-       "label": "ve vlaku"
+       "label": "ve vlaku",
+       "om": [
+        "1F686"
+       ]
       },
       "B": {
        "icon": "✈️",
-       "label": "v letadle"
+       "label": "v letadle",
+       "om": [
+        "2708"
+       ]
       },
       "C": {
        "icon": "🏥",
-       "label": "v nemocnici"
+       "label": "v nemocnici",
+       "om": [
+        "1F3E5"
+       ]
       },
       "D": {
        "icon": "🛒",
-       "label": "v obchodě"
+       "label": "v obchodě",
+       "om": [
+        "1F6D2"
+       ]
       },
       "E": {
        "icon": "🍽️",
-       "label": "v restauraci"
+       "label": "v restauraci",
+       "om": [
+        "1F37D"
+       ]
       },
       "F": {
        "icon": "🏦",
-       "label": "v bance"
+       "label": "v bance",
+       "om": [
+        "1F3E6"
+       ]
       }
      },
      "items": [
@@ -11879,22 +12931,46 @@
       "✍️ Píše test.",
       "🎉📜 Dostane certifikát a slaví s rodinou."
      ],
-     "model": "Minulý měsíc dělala Oksana zkoušku z češtiny. Každý večer se učila česky. Četla texty, poslouchala nahrávky a psala e-maily. V sobotu ráno šla na zkoušku do jazykové školy. Byla trochu nervózní. Nejdřív psala test, čtení, psaní a poslech. Test byl těžký, ale zvládla ho. Za měsíc dostala certifikát, že zkoušku udělala. Byla moc ráda a hned zavolala manželovi. Večer to oslavila s rodinou v restauraci."
+     "model": "Minulý měsíc dělala Oksana zkoušku z češtiny. Každý večer se učila česky. Četla texty, poslouchala nahrávky a psala e-maily. V sobotu ráno šla na zkoušku do jazykové školy. Byla trochu nervózní. Nejdřív psala test, čtení, psaní a poslech. Test byl těžký, ale zvládla ho. Za měsíc dostala certifikát, že zkoušku udělala. Byla moc ráda a hned zavolala manželovi. Večer to oslavila s rodinou v restauraci.",
+     "om": [
+      [
+       "1F4D6"
+      ],
+      [
+       "1F3EB"
+      ],
+      [
+       "270D"
+      ],
+      [
+       "1F389",
+       "1F4DC"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jet na víkend pryč z města. Kam pojedeme?",
      "options": [
       {
        "icon": "🏕️",
-       "label": "kemp"
+       "label": "kemp",
+       "om": [
+        "1F3D5"
+       ]
       },
       {
        "icon": "🏨",
-       "label": "hotel ve městě"
+       "label": "hotel ve městě",
+       "om": [
+        "1F3E8"
+       ]
       },
       {
        "icon": "🏡",
-       "label": "chata"
+       "label": "chata",
+       "om": [
+        "1F3E1"
+       ]
       }
      ],
      "examiner": [
@@ -11964,35 +13040,56 @@
        "picture": "⌚🔋",
        "caption": "Hodinky",
        "answer": "H",
-       "img": "Wristwatch_on_hand.JPG"
+       "img": "Wristwatch_on_hand.JPG",
+       "om": [
+        "231A",
+        "1F50B"
+       ]
       },
       {
        "n": 2,
        "picture": "☔🌧️",
        "caption": "Deštník",
        "answer": "C",
-       "img": "Umbrella_with_raindrops.jpg"
+       "img": "Umbrella_with_raindrops.jpg",
+       "om": [
+        "2614",
+        "1F327"
+       ]
       },
       {
        "n": 3,
        "picture": "🔪✨",
        "caption": "Broušení nožů",
        "answer": "E",
-       "img": "Knife_sharpening_stones.jpg"
+       "img": "Knife_sharpening_stones.jpg",
+       "om": [
+        "1F52A",
+        "2728"
+       ]
       },
       {
        "n": 4,
        "picture": "🧵🪡👗",
        "caption": "Šicí stroj",
        "answer": "F",
-       "img": "Dressmaker_Sewing_Machine_pic.jpg"
+       "img": "Dressmaker_Sewing_Machine_pic.jpg",
+       "om": [
+        "1F9F5",
+        "1FAA1",
+        "1F457"
+       ]
       },
       {
        "n": 5,
        "picture": "🚗❄️",
        "caption": "Zimní pneumatika",
        "answer": "D",
-       "img": "Hankook_studded_snow_tire.jpg"
+       "img": "Hankook_studded_snow_tire.jpg",
+       "om": [
+        "1F697",
+        "2744"
+       ]
       }
      ]
     },
@@ -12238,23 +13335,38 @@
      "prompts": [
       {
        "icon": "📅",
-       "q": "KDY JSTE BYL/A V RESTAURACI?"
+       "q": "KDY JSTE BYL/A V RESTAURACI?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "🍝",
-       "q": "CO JSTE SI OBJEDNAL/A?"
+       "q": "CO JSTE SI OBJEDNAL/A?",
+       "om": [
+        "1F35D"
+       ]
       },
       {
        "icon": "😠",
-       "q": "CO SE VÁM NELÍBILO?"
+       "q": "CO SE VÁM NELÍBILO?",
+       "om": [
+        "1F620"
+       ]
       },
       {
        "icon": "⏳",
-       "q": "JAK DLOUHO JSTE ČEKAL/A?"
+       "q": "JAK DLOUHO JSTE ČEKAL/A?",
+       "om": [
+        "23F3"
+       ]
       },
       {
        "icon": "💬",
-       "q": "CO CHCETE OD MAJITELE?"
+       "q": "CO CHCETE OD MAJITELE?",
+       "om": [
+        "1F4AC"
+       ]
       }
      ],
      "model": "Dobrý den,\nv sobotu večer jsem byla ve Vaší restauraci s rodinou. Objednali jsme si těstoviny a dvě pizzy. Jídlo bylo studené a pizza byla spálená. Na jídlo jsme čekali hodinu a číšník byl nepříjemný. Chtěla bych, abyste nám vrátili část peněz, nebo nám dali slevu na příště.\nS pozdravem\nMarija Koval"
@@ -12438,27 +13550,45 @@
      "options": {
       "A": {
        "icon": "🧴",
-       "label": "drogerie"
+       "label": "drogerie",
+       "om": [
+        "1F9F4"
+       ]
       },
       "B": {
        "icon": "📱",
-       "label": "obchod s telefony"
+       "label": "obchod s telefony",
+       "om": [
+        "1F4F1"
+       ]
       },
       "C": {
        "icon": "👟",
-       "label": "obuv"
+       "label": "obuv",
+       "om": [
+        "1F45F"
+       ]
       },
       "D": {
        "icon": "🧸",
-       "label": "hračkářství"
+       "label": "hračkářství",
+       "om": [
+        "1F9F8"
+       ]
       },
       "E": {
        "icon": "🪑",
-       "label": "nábytek"
+       "label": "nábytek",
+       "om": [
+        "1FA91"
+       ]
       },
       "F": {
        "icon": "🌷",
-       "label": "květinářství"
+       "label": "květinářství",
+       "om": [
+        "1F337"
+       ]
       }
      },
      "items": [
@@ -12722,22 +13852,47 @@
       "🔧 Spolu opravují kolo před domem.",
       "🚴‍♂️😄 Syn jede na kole a je šťastný."
      ],
-     "model": "V sobotu chtěl Matvij jet na kole, ale kolo mělo prázdnou pneumatiku. Byl smutný, protože nemohl jet. Řekl to tátovi. Táta a Matvij šli do obchodu se sportovními potřebami. Koupili tam novou duši a pumpičku. Potom spolu opravovali kolo před domem. Táta vyměnil duši a Matvij pumpoval pneumatiku. Nakonec bylo kolo v pořádku. Matvij jel na kole po ulici. Byl moc šťastný a poděkoval tátovi."
+     "model": "V sobotu chtěl Matvij jet na kole, ale kolo mělo prázdnou pneumatiku. Byl smutný, protože nemohl jet. Řekl to tátovi. Táta a Matvij šli do obchodu se sportovními potřebami. Koupili tam novou duši a pumpičku. Potom spolu opravovali kolo před domem. Táta vyměnil duši a Matvij pumpoval pneumatiku. Nakonec bylo kolo v pořádku. Matvij jel na kole po ulici. Byl moc šťastný a poděkoval tátovi.",
+     "om": [
+      [
+       "1F6B2",
+       "1F4A8"
+      ],
+      [
+       "1F6D2"
+      ],
+      [
+       "1F527"
+      ],
+      [
+       "1F6B4-200D-2642-FE0F",
+       "1F604"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jet na výlet. Čím pojedeme?",
      "options": [
       {
        "icon": "🚆",
-       "label": "vlakem"
+       "label": "vlakem",
+       "om": [
+        "1F686"
+       ]
       },
       {
        "icon": "🚗",
-       "label": "autem"
+       "label": "autem",
+       "om": [
+        "1F697"
+       ]
       },
       {
        "icon": "🚌",
-       "label": "autobusem"
+       "label": "autobusem",
+       "om": [
+        "1F68C"
+       ]
       }
      ],
      "examiner": [
@@ -12807,35 +13962,56 @@
        "picture": "🚧👷",
        "caption": "Práce na silnici",
        "answer": "A",
-       "img": "Asphalt_paving.jpg"
+       "img": "Asphalt_paving.jpg",
+       "om": [
+        "1F6A7",
+        "1F477"
+       ]
       },
       {
        "n": 2,
        "picture": "🚴🛣️",
        "caption": "Cyklostezka",
        "answer": "B",
-       "img": "Cyklostezka_Praha_10_Botič_1.JPG"
+       "img": "Cyklostezka_Praha_10_Botič_1.JPG",
+       "om": [
+        "1F6B4",
+        "1F6E3"
+       ]
       },
       {
        "n": 3,
        "picture": "🔌🚙",
        "caption": "Nabíjení elektromobilu",
        "answer": "G",
-       "img": "Electric_car_charging_station.jpg"
+       "img": "Electric_car_charging_station.jpg",
+       "om": [
+        "1F50C",
+        "1F699"
+       ]
       },
       {
        "n": 4,
        "picture": "🧒🚸",
        "caption": "Děti na přechodu",
        "answer": "D",
-       "img": "School_girls_in_Japan_crossing_road.jpg"
+       "img": "School_girls_in_Japan_crossing_road.jpg",
+       "om": [
+        "1F9D2",
+        "1F6B8"
+       ]
       },
       {
        "n": 5,
        "picture": "🇩🇪➡️",
        "caption": "Hranice",
        "answer": "H",
-       "img": "Bundesgrenze-Deutschland-Tschechien.jpg"
+       "img": "Bundesgrenze-Deutschland-Tschechien.jpg",
+       "om": [
+        "1F1E9",
+        "1F1EA",
+        "27A1"
+       ]
       }
      ]
     },
@@ -13082,23 +14258,38 @@
      "prompts": [
       {
        "icon": "😊",
-       "q": "JAK SE MÁTE?"
+       "q": "JAK SE MÁTE?",
+       "om": [
+        "1F60A"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY MÁ PŘIJET?"
+       "q": "KDY MÁ PŘIJET?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "🛏️",
-       "q": "KDE BUDE SPÁT?"
+       "q": "KDE BUDE SPÁT?",
+       "om": [
+        "1F6CF"
+       ]
       },
       {
        "icon": "🏰",
-       "q": "CO SPOLU BUDETE DĚLAT?"
+       "q": "CO SPOLU BUDETE DĚLAT?",
+       "om": [
+        "1F3F0"
+       ]
       },
       {
        "icon": "🧥",
-       "q": "CO MÁ VZÍT S SEBOU?"
+       "q": "CO MÁ VZÍT S SEBOU?",
+       "om": [
+        "1F9E5"
+       ]
       }
      ],
      "model": "Ahoj Denysi,\nmáme se dobře, syn chodí do školy a já mám novou práci. Přijeď prosím v srpnu, to mám dovolenou. Můžeš spát u nás v obýváku, máme velký gauč. Pojedeme spolu do Prahy a na hrad Karlštejn, taky půjdeme na pivo. Vezmi si s sebou pohodlné boty a bundu, večer bývá zima.\nTěším se!\nAndrij"
@@ -13282,27 +14473,45 @@
      "options": {
       "A": {
        "icon": "🥾",
-       "label": "turistické boty"
+       "label": "turistické boty",
+       "om": [
+        "1F97E"
+       ]
       },
       "B": {
        "icon": "🎒",
-       "label": "batoh"
+       "label": "batoh",
+       "om": [
+        "1F392"
+       ]
       },
       "C": {
        "icon": "⛺",
-       "label": "stan"
+       "label": "stan",
+       "om": [
+        "26FA"
+       ]
       },
       "D": {
        "icon": "🧢",
-       "label": "čepice"
+       "label": "čepice",
+       "om": [
+        "1F9E2"
+       ]
       },
       "E": {
        "icon": "🕶️",
-       "label": "sluneční brýle"
+       "label": "sluneční brýle",
+       "om": [
+        "1F576"
+       ]
       },
       "F": {
        "icon": "🩱",
-       "label": "plavky"
+       "label": "plavky",
+       "om": [
+        "1FA71"
+       ]
       }
      },
      "items": [
@@ -13573,22 +14782,48 @@
       "📢 Jana hledá psa a volá ho.",
       "👦🐕 Malý chlapec přivede psa zpátky."
      ],
-     "model": "Včera odpoledne šla Jana se psem do parku. Bylo hezké počasí a pes běhal po trávě. Jana ho pustila z vodítka. Najednou pes uviděl veverku. Rychle za ní běžel a utekl. Jana se moc bála, že se psovi něco stane. Chodila po parku a volala ho jménem. Asi za půl hodiny přišel malý chlapec. Přivedl psa zpátky. Jana mu poděkovala a dala mu čokoládu."
+     "model": "Včera odpoledne šla Jana se psem do parku. Bylo hezké počasí a pes běhal po trávě. Jana ho pustila z vodítka. Najednou pes uviděl veverku. Rychle za ní běžel a utekl. Jana se moc bála, že se psovi něco stane. Chodila po parku a volala ho jménem. Asi za půl hodiny přišel malý chlapec. Přivedl psa zpátky. Jana mu poděkovala a dala mu čokoládu.",
+     "om": [
+      [
+       "1F415",
+       "1F333"
+      ],
+      [
+       "1F43F",
+       "1F3C3"
+      ],
+      [
+       "1F4E2"
+      ],
+      [
+       "1F466",
+       "1F415"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jít na oběd. Co si dáme?",
      "options": [
       {
        "icon": "🍜",
-       "label": "vietnamská polévka"
+       "label": "vietnamská polévka",
+       "om": [
+        "1F35C"
+       ]
       },
       {
        "icon": "🍔",
-       "label": "hamburger"
+       "label": "hamburger",
+       "om": [
+        "1F354"
+       ]
       },
       {
        "icon": "🥟",
-       "label": "knedlíky s masem"
+       "label": "knedlíky s masem",
+       "om": [
+        "1F95F"
+       ]
       }
      ],
      "examiner": [
@@ -13658,35 +14893,55 @@
        "picture": "🐘🏛️",
        "caption": "Slon v zoo",
        "answer": "C",
-       "img": "Asian_elephant_-_melbourne_zoo.jpg"
+       "img": "Asian_elephant_-_melbourne_zoo.jpg",
+       "om": [
+        "1F418",
+        "1F3DB"
+       ]
       },
       {
        "n": 2,
        "picture": "🌸🌿",
        "caption": "Orchideje",
        "answer": "D",
-       "img": "Orchid_Show_at_NYBG_(70544).jpg"
+       "img": "Orchid_Show_at_NYBG_(70544).jpg",
+       "om": [
+        "1F338",
+        "1F33F"
+       ]
       },
       {
        "n": 3,
        "picture": "🔭🪐",
        "caption": "Planetárium",
        "answer": "E",
-       "img": "Planetarium_dome.jpg"
+       "img": "Planetarium_dome.jpg",
+       "om": [
+        "1F52D",
+        "1FA90"
+       ]
       },
       {
        "n": 4,
        "picture": "🧗🌲",
        "caption": "Lanový park",
        "answer": "F",
-       "img": "Highropes_course2.JPG"
+       "img": "Highropes_course2.JPG",
+       "om": [
+        "1F9D7",
+        "1F332"
+       ]
       },
       {
        "n": 5,
        "picture": "🚂🪆",
        "caption": "Muzeum hraček",
        "answer": "G",
-       "img": "Tintoy_museum.JPG"
+       "img": "Tintoy_museum.JPG",
+       "om": [
+        "1F682",
+        "1FA86"
+       ]
       }
      ]
     },
@@ -13936,23 +15191,38 @@
      "prompts": [
       {
        "icon": "🎉",
-       "q": "PROČ CHCETE VEČÍREK?"
+       "q": "PROČ CHCETE VEČÍREK?",
+       "om": [
+        "1F389"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY TO BUDE?"
+       "q": "KDY TO BUDE?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "👥",
-       "q": "KOLIK LIDÍ PŘIJDE?"
+       "q": "KOLIK LIDÍ PŘIJDE?",
+       "om": [
+        "1F465"
+       ]
       },
       {
        "icon": "🍽️",
-       "q": "CO CHCETE JÍST?"
+       "q": "CO CHCETE JÍST?",
+       "om": [
+        "1F37D"
+       ]
       },
       {
        "icon": "🎵",
-       "q": "CO DALŠÍHO POTŘEBUJETE?"
+       "q": "CO DALŠÍHO POTŘEBUJETE?",
+       "om": [
+        "1F3B5"
+       ]
       }
      ],
      "model": "Dobrý den,\nchceme u Vás udělat firemní večírek, protože naše firma slaví deset let. Bude to v pátek 12. prosince od šesti hodin večer. Přijde asi dvacet pět lidí. K jídlu chceme studený bufet a teplé maso s přílohou. Potřebujeme také prostor na tancování a hudbu.\nDěkuji za nabídku.\nS pozdravem\nIhor Tkachuk"
@@ -14136,27 +15406,45 @@
      "options": {
       "A": {
        "icon": "🛏️",
-       "label": "postel"
+       "label": "postel",
+       "om": [
+        "1F6CF"
+       ]
       },
       "B": {
        "icon": "📺",
-       "label": "televize"
+       "label": "televize",
+       "om": [
+        "1F4FA"
+       ]
       },
       "C": {
        "icon": "🧊",
-       "label": "lednice"
+       "label": "lednice",
+       "om": [
+        "1F9CA"
+       ]
       },
       "D": {
        "icon": "🖥️",
-       "label": "počítač"
+       "label": "počítač",
+       "om": [
+        "1F5A5"
+       ]
       },
       "E": {
        "icon": "🪞",
-       "label": "zrcadlo"
+       "label": "zrcadlo",
+       "om": [
+        "1FA9E"
+       ]
       },
       "F": {
        "icon": "💡",
-       "label": "lampa"
+       "label": "lampa",
+       "om": [
+        "1F4A1"
+       ]
       }
      },
      "items": [
@@ -14426,22 +15714,47 @@
       "🥧 Spolu jedí koláč na zahradě.",
       "🍎🧺 Sbírají jablka ze stromu."
      ],
-     "model": "V neděli jeli Lukáš a jeho máma za babičkou. Jeli autobusem na vesnici, cesta trvala hodinu. Lukáš se díval z okna na pole a lesy. Babička je čekala před domem. Když je viděla, objala je a byla moc ráda. Potom šli na zahradu. Babička upekla jablečný koláč. Všichni ho jedli a pili čaj. Odpoledne sbírali jablka ze stromu. Lukáš si odvezl domů plnou tašku jablek."
+     "model": "V neděli jeli Lukáš a jeho máma za babičkou. Jeli autobusem na vesnici, cesta trvala hodinu. Lukáš se díval z okna na pole a lesy. Babička je čekala před domem. Když je viděla, objala je a byla moc ráda. Potom šli na zahradu. Babička upekla jablečný koláč. Všichni ho jedli a pili čaj. Odpoledne sbírali jablka ze stromu. Lukáš si odvezl domů plnou tašku jablek.",
+     "om": [
+      [
+       "1F68C"
+      ],
+      [
+       "1F475",
+       "1F917"
+      ],
+      [
+       "1F967"
+      ],
+      [
+       "1F34E",
+       "1F9FA"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu udělat večírek. Jakou hudbu pustíme?",
      "options": [
       {
        "icon": "🎻",
-       "label": "vážná hudba"
+       "label": "vážná hudba",
+       "om": [
+        "1F3BB"
+       ]
       },
       {
        "icon": "🎸",
-       "label": "rock"
+       "label": "rock",
+       "om": [
+        "1F3B8"
+       ]
       },
       {
        "icon": "🪩",
-       "label": "disko"
+       "label": "disko",
+       "om": [
+        "1FAA9"
+       ]
       }
      ],
      "examiner": [
@@ -14511,35 +15824,55 @@
        "picture": "🍯🐝",
        "caption": "Med",
        "answer": "A",
-       "img": "Honey_comb.jpg"
+       "img": "Honey_comb.jpg",
+       "om": [
+        "1F36F",
+        "1F41D"
+       ]
       },
       {
        "n": 2,
        "picture": "🍄⚠️",
        "caption": "Houby v košíku",
        "answer": "C",
-       "img": "Mushrooms_in_handbasket_Houby_v_košíku.jpg"
+       "img": "Mushrooms_in_handbasket_Houby_v_košíku.jpg",
+       "om": [
+        "1F344",
+        "26A0"
+       ]
       },
       {
        "n": 3,
        "picture": "🍒🪜",
        "caption": "Sběr třešní",
        "answer": "D",
-       "img": "Cherry_picking.JPG"
+       "img": "Cherry_picking.JPG",
+       "om": [
+        "1F352",
+        "1FA9C"
+       ]
       },
       {
        "n": 4,
        "picture": "🐐🧀",
        "caption": "Kozy",
        "answer": "G",
-       "img": "Collingwood_Children's_Farm_-_goats.JPG"
+       "img": "Collingwood_Children's_Farm_-_goats.JPG",
+       "om": [
+        "1F410",
+        "1F9C0"
+       ]
       },
       {
        "n": 5,
        "picture": "🥔🧺",
        "caption": "Brambory",
        "answer": "H",
-       "img": "Potatoes_on_a_sack.jpg"
+       "img": "Potatoes_on_a_sack.jpg",
+       "om": [
+        "1F954",
+        "1F9FA"
+       ]
       }
      ]
     },
@@ -14791,23 +16124,38 @@
      "prompts": [
       {
        "icon": "😔",
-       "q": "OMLUVTE SE."
+       "q": "OMLUVTE SE.",
+       "om": [
+        "1F614"
+       ]
       },
       {
        "icon": "❓",
-       "q": "PROČ JSTE NEPŘIŠEL/NEPŘIŠLA?"
+       "q": "PROČ JSTE NEPŘIŠEL/NEPŘIŠLA?",
+       "om": [
+        "2753"
+       ]
       },
       {
        "icon": "📵",
-       "q": "PROČ JSTE NEZAVOLAL/A?"
+       "q": "PROČ JSTE NEZAVOLAL/A?",
+       "om": [
+        "1F4F5"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY SE MŮŽETE SEJÍT?"
+       "q": "KDY SE MŮŽETE SEJÍT?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "☕",
-       "q": "KAM PŮJDETE?"
+       "q": "KAM PŮJDETE?",
+       "om": [
+        "2615"
+       ]
       }
      ],
      "model": "Ahoj Hano,\nmoc se omlouvám, že jsem včera nepřišla. Musela jsem zůstat v práci, protože kolegyně byla nemocná. Nezavolala jsem ti, protože se mi vybil telefon. Můžeme se sejít v sobotu odpoledne? Půjdeme do kavárny na náměstí, pozvu tě na kávu a dort.\nJeště jednou promiň.\nTvoje Olena"
@@ -14991,27 +16339,45 @@
      "options": {
       "A": {
        "icon": "🏧",
-       "label": "bankomat"
+       "label": "bankomat",
+       "om": [
+        "1F3E7"
+       ]
       },
       "B": {
        "icon": "🅿️",
-       "label": "parkoviště"
+       "label": "parkoviště",
+       "om": [
+        "1F17F"
+       ]
       },
       "C": {
        "icon": "🚻",
-       "label": "toalety"
+       "label": "toalety",
+       "om": [
+        "1F6BB"
+       ]
       },
       "D": {
        "icon": "ℹ️",
-       "label": "informace"
+       "label": "informace",
+       "om": [
+        "2139"
+       ]
       },
       "E": {
        "icon": "🍴",
-       "label": "jídelna"
+       "label": "jídelna",
+       "om": [
+        "1F374"
+       ]
       },
       "F": {
        "icon": "🚑",
-       "label": "první pomoc"
+       "label": "první pomoc",
+       "om": [
+        "1F691"
+       ]
       }
      },
      "items": [
@@ -15278,22 +16644,45 @@
       "🏢 Přijedou do Kralup a vidí nový byt.",
       "🏫 Syn jde první den do české školy."
      ],
-     "model": "Rodina Kovalenkových se stěhovala z Ukrajiny do Česka. Doma balili kufry. Vzali si oblečení, doklady a pár hraček pro syna. Potom jeli autobusem do Česka. Cesta byla dlouhá, trvala skoro dva dny. Všichni byli unavení. Nakonec přijeli do Kralup. Uviděli svůj nový byt, byl malý, ale hezký. Za týden šel syn poprvé do české školy. Byl nervózní, ale učitelka byla milá a den byl dobrý."
+     "model": "Rodina Kovalenkových se stěhovala z Ukrajiny do Česka. Doma balili kufry. Vzali si oblečení, doklady a pár hraček pro syna. Potom jeli autobusem do Česka. Cesta byla dlouhá, trvala skoro dva dny. Všichni byli unavení. Nakonec přijeli do Kralup. Uviděli svůj nový byt, byl malý, ale hezký. Za týden šel syn poprvé do české školy. Byl nervózní, ale učitelka byla milá a den byl dobrý.",
+     "om": [
+      [
+       "1F9F3"
+      ],
+      [
+       "1F68C"
+      ],
+      [
+       "1F3E2"
+      ],
+      [
+       "1F3EB"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jít na nákup oblečení. Kam půjdeme?",
      "options": [
       {
        "icon": "🏬",
-       "label": "obchodní centrum"
+       "label": "obchodní centrum",
+       "om": [
+        "1F3EC"
+       ]
       },
       {
        "icon": "👕",
-       "label": "second hand"
+       "label": "second hand",
+       "om": [
+        "1F455"
+       ]
       },
       {
        "icon": "💻",
-       "label": "e-shop"
+       "label": "e-shop",
+       "om": [
+        "1F4BB"
+       ]
       }
      ],
      "examiner": [
@@ -15363,35 +16752,55 @@
        "picture": "💶💱",
        "caption": "Bankovky",
        "answer": "D",
-       "img": "Euro-Banknoten.jpg"
+       "img": "Euro-Banknoten.jpg",
+       "om": [
+        "1F4B6",
+        "1F4B1"
+       ]
       },
       {
        "n": 2,
        "picture": "🖨️📄",
        "caption": "Kopírka",
        "answer": "C",
-       "img": "Konica_Minolta_Bizhub_C224e_photocopier.jpg"
+       "img": "Konica_Minolta_Bizhub_C224e_photocopier.jpg",
+       "om": [
+        "1F5A8",
+        "1F4C4"
+       ]
       },
       {
        "n": 3,
        "picture": "📦🔐",
        "caption": "Výdejní box",
        "answer": "G",
-       "img": "InPost_parcel_locker.jpg"
+       "img": "InPost_parcel_locker.jpg",
+       "om": [
+        "1F4E6",
+        "1F510"
+       ]
       },
       {
        "n": 4,
        "picture": "📮✉️",
        "caption": "Česká pošta",
        "answer": "F",
-       "img": "ČESKÁ_POŠTA_1.JPG"
+       "img": "ČESKÁ_POŠTA_1.JPG",
+       "om": [
+        "1F4EE",
+        "2709"
+       ]
       },
       {
        "n": 5,
        "picture": "🧳🚉",
        "caption": "Úschovna zavazadel",
        "answer": "E",
-       "img": "Luggage_lockers.jpg"
+       "img": "Luggage_lockers.jpg",
+       "om": [
+        "1F9F3",
+        "1F689"
+       ]
       }
      ]
     },
@@ -15637,23 +17046,38 @@
      "prompts": [
       {
        "icon": "🏠",
-       "q": "JAK VELKÝ JE VÁŠ BYT?"
+       "q": "JAK VELKÝ JE VÁŠ BYT?",
+       "om": [
+        "1F3E0"
+       ]
       },
       {
        "icon": "🧽",
-       "q": "CO MAJÍ UKLIDIT?"
+       "q": "CO MAJÍ UKLIDIT?",
+       "om": [
+        "1F9FD"
+       ]
       },
       {
        "icon": "📅",
-       "q": "KDY MAJÍ PŘIJÍT?"
+       "q": "KDY MAJÍ PŘIJÍT?",
+       "om": [
+        "1F4C5"
+       ]
       },
       {
        "icon": "🔑",
-       "q": "JAK SE DOSTANOU DO BYTU?"
+       "q": "JAK SE DOSTANOU DO BYTU?",
+       "om": [
+        "1F511"
+       ]
       },
       {
        "icon": "💳",
-       "q": "JAK ZAPLATÍTE?"
+       "q": "JAK ZAPLATÍTE?",
+       "om": [
+        "1F4B3"
+       ]
       }
      ],
      "model": "Dobrý den,\nchtěl bych objednat úklid bytu. Byt je 3+1, má asi 75 metrů. Potřebuji umýt okna, vysát koberce a uklidit kuchyň a koupelnu. Přijďte prosím v pátek 20. března dopoledne. Já budu v práci, klíč vám nechám u sousedky v prvním patře. Zaplatím převodem na účet.\nS pozdravem\nOleksandr Hnatiuk"
@@ -15837,27 +17261,45 @@
      "options": {
       "A": {
        "icon": "🧒",
-       "label": "dítě"
+       "label": "dítě",
+       "om": [
+        "1F9D2"
+       ]
       },
       "B": {
        "icon": "🐈",
-       "label": "kočka"
+       "label": "kočka",
+       "om": [
+        "1F408"
+       ]
       },
       "C": {
        "icon": "🚗",
-       "label": "auto"
+       "label": "auto",
+       "om": [
+        "1F697"
+       ]
       },
       "D": {
        "icon": "🎒",
-       "label": "batoh"
+       "label": "batoh",
+       "om": [
+        "1F392"
+       ]
       },
       "E": {
        "icon": "📄",
-       "label": "dokument"
+       "label": "dokument",
+       "om": [
+        "1F4C4"
+       ]
       },
       "F": {
        "icon": "🎟️",
-       "label": "vstupenka"
+       "label": "vstupenka",
+       "om": [
+        "1F39F"
+       ]
       }
      },
      "items": [
@@ -16124,22 +17566,48 @@
       "🔥⏲️ Dort se peče v troubě.",
       "🎂🕯️ Dávají svíčky na dort pro tátu."
      ],
-     "model": "Včera chtěla Lucie se synem upéct dort, protože táta měl narozeniny. Nejdřív šli do obchodu. Koupili mouku, vajíčka, cukr a čokoládu. Doma spolu míchali těsto. Syn pomáhal a byl celý od mouky. Oba se u toho hodně smáli. Potom dali těsto do trouby. Dort se pekl asi hodinu a krásně voněl. Večer dali na dort svíčky. Když táta přišel domů, zazpívali mu. Táta byl moc překvapený a šťastný."
+     "model": "Včera chtěla Lucie se synem upéct dort, protože táta měl narozeniny. Nejdřív šli do obchodu. Koupili mouku, vajíčka, cukr a čokoládu. Doma spolu míchali těsto. Syn pomáhal a byl celý od mouky. Oba se u toho hodně smáli. Potom dali těsto do trouby. Dort se pekl asi hodinu a krásně voněl. Večer dali na dort svíčky. Když táta přišel domů, zazpívali mu. Táta byl moc překvapený a šťastný.",
+     "om": [
+      [
+       "1F6D2",
+       "1F95A"
+      ],
+      [
+       "1F963"
+      ],
+      [
+       "1F525",
+       "23F2"
+      ],
+      [
+       "1F382",
+       "1F56F"
+      ]
+     ]
     },
     "t4": {
      "situation": "Chceme spolu jít v sobotu cvičit. Kam půjdeme?",
      "options": [
       {
        "icon": "🏋️",
-       "label": "posilovna"
+       "label": "posilovna",
+       "om": [
+        "1F3CB"
+       ]
       },
       {
        "icon": "🧗",
-       "label": "lezecká stěna"
+       "label": "lezecká stěna",
+       "om": [
+        "1F9D7"
+       ]
       },
       {
        "icon": "🎾",
-       "label": "tenis"
+       "label": "tenis",
+       "om": [
+        "1F3BE"
+       ]
       }
      ],
      "examiner": [
@@ -16209,35 +17677,56 @@
        "picture": "👩‍🏫🇨🇿",
        "caption": "Kurz pro dospělé",
        "answer": "A",
-       "img": "English_Tutor_for_Adults.jpg"
+       "img": "English_Tutor_for_Adults.jpg",
+       "om": [
+        "1F469-200D-1F3EB",
+        "1F1E8",
+        "1F1FF"
+       ]
       },
       {
        "n": 2,
        "picture": "🗣️🔄",
        "caption": "Slovníky",
        "answer": "F",
-       "img": "Dictionaries_in_different_languages.JPG"
+       "img": "Dictionaries_in_different_languages.JPG",
+       "om": [
+        "1F5E3",
+        "1F504"
+       ]
       },
       {
        "n": 3,
        "picture": "👵💻",
        "caption": "Starší žena s notebookem",
        "answer": "E",
-       "img": "Older_woman_uses_laptop_while_exercising_with_dumbbells_in_home_setting.jpg"
+       "img": "Older_woman_uses_laptop_while_exercising_with_dumbbells_in_home_setting.jpg",
+       "om": [
+        "1F475",
+        "1F4BB"
+       ]
       },
       {
        "n": 4,
        "picture": "👩‍🍼🧸",
        "caption": "Maminky s dětmi",
        "answer": "H",
-       "img": "Mamatoto_Playgroup,_Lions'_Club_Hall,_2003.jpg"
+       "img": "Mamatoto_Playgroup,_Lions'_Club_Hall,_2003.jpg",
+       "om": [
+        "1F469-200D-1F37C",
+        "1F9F8"
+       ]
       },
       {
        "n": 5,
        "picture": "📚🌍",
        "caption": "Knihovna",
        "answer": "G",
-       "img": "Shelves_of_Language_Books_in_Library.JPG"
+       "img": "Shelves_of_Language_Books_in_Library.JPG",
+       "om": [
+        "1F4DA",
+        "1F30D"
+       ]
       }
      ]
     },
@@ -16485,23 +17974,38 @@
      "prompts": [
       {
        "icon": "🎉",
-       "q": "JAK DOPADLA ZKOUŠKA?"
+       "q": "JAK DOPADLA ZKOUŠKA?",
+       "om": [
+        "1F389"
+       ]
       },
       {
        "icon": "✍️",
-       "q": "CO BYLO NEJTĚŽŠÍ?"
+       "q": "CO BYLO NEJTĚŽŠÍ?",
+       "om": [
+        "270D"
+       ]
       },
       {
        "icon": "🙏",
-       "q": "PODĚKUJTE UČITELCE."
+       "q": "PODĚKUJTE UČITELCE.",
+       "om": [
+        "1F64F"
+       ]
       },
       {
        "icon": "🏠",
-       "q": "CO TEĎ BUDETE DĚLAT?"
+       "q": "CO TEĎ BUDETE DĚLAT?",
+       "om": [
+        "1F3E0"
+       ]
       },
       {
        "icon": "☕",
-       "q": "POZVĚTE JI NĚKAM."
+       "q": "POZVĚTE JI NĚKAM.",
+       "om": [
+        "2615"
+       ]
       }
      ],
      "model": "Dobrý den, paní učitelko,\nchci Vám říct, že jsem udělala zkoušku z češtiny! Nejtěžší byl poslech, lidé mluvili moc rychle. Moc Vám děkuji za Vaše lekce a za trpělivost. Teď si podám žádost o trvalý pobyt a budu se dál učit česky. Chtěla bych Vás pozvat na kávu a dort, máte čas příští týden?\nS pozdravem\nJulija"
@@ -16685,27 +18189,45 @@
      "options": {
       "A": {
        "icon": "🏫",
-       "label": "jazyková škola"
+       "label": "jazyková škola",
+       "om": [
+        "1F3EB"
+       ]
       },
       "B": {
        "icon": "🏛️",
-       "label": "ministerstvo vnitra"
+       "label": "ministerstvo vnitra",
+       "om": [
+        "1F3DB"
+       ]
       },
       "C": {
        "icon": "🏥",
-       "label": "nemocnice"
+       "label": "nemocnice",
+       "om": [
+        "1F3E5"
+       ]
       },
       "D": {
        "icon": "🏦",
-       "label": "banka"
+       "label": "banka",
+       "om": [
+        "1F3E6"
+       ]
       },
       "E": {
        "icon": "🚓",
-       "label": "policie"
+       "label": "policie",
+       "om": [
+        "1F693"
+       ]
       },
       "F": {
        "icon": "🏢",
-       "label": "úřad práce"
+       "label": "úřad práce",
+       "om": [
+        "1F3E2"
+       ]
       }
      },
      "items": [
@@ -16975,22 +18497,47 @@
       "📝 Píše test ve třídě.",
       "🗣️👩‍🏫 Mluví s examinátorkou a usmívá se."
      ],
-     "model": "V den zkoušky vstal Andrij brzy ráno. Vypil kávu a ještě jednou si zopakoval slovíčka. Byl trochu nervózní, ale věřil si, protože se dlouho učil. Potom jel vlakem do jazykové školy. Cesta trvala čtyřicet minut. Ve třídě psal test. Nejdřív bylo čtení, potom psaní a poslech. Odpoledne měl ústní zkoušku. Mluvil s examinátorkou o práci a rodině. Na konci se usmíval, protože věděl, že to zvládl."
+     "model": "V den zkoušky vstal Andrij brzy ráno. Vypil kávu a ještě jednou si zopakoval slovíčka. Byl trochu nervózní, ale věřil si, protože se dlouho učil. Potom jel vlakem do jazykové školy. Cesta trvala čtyřicet minut. Ve třídě psal test. Nejdřív bylo čtení, potom psaní a poslech. Odpoledne měl ústní zkoušku. Mluvil s examinátorkou o práci a rodině. Na konci se usmíval, protože věděl, že to zvládl.",
+     "om": [
+      [
+       "23F0",
+       "2615"
+      ],
+      [
+       "1F686"
+      ],
+      [
+       "1F4DD"
+      ],
+      [
+       "1F5E3",
+       "1F469-200D-1F3EB"
+      ]
+     ]
     },
     "t4": {
      "situation": "Uděláme zkoušku a chceme to oslavit. Jak to oslavíme?",
      "options": [
       {
        "icon": "🍕",
-       "label": "večeře v restauraci"
+       "label": "večeře v restauraci",
+       "om": [
+        "1F355"
+       ]
       },
       {
        "icon": "🎳",
-       "label": "bowling"
+       "label": "bowling",
+       "om": [
+        "1F3B3"
+       ]
       },
       {
        "icon": "🛶",
-       "label": "výlet na loďkách"
+       "label": "výlet na loďkách",
+       "om": [
+        "1F6F6"
+       ]
       }
      ],
      "examiner": [
