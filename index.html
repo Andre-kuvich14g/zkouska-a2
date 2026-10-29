@@ -237,6 +237,7 @@ body.hide-q .qtext{visibility:hidden}
 .iab-h{color:#5b4600}
 .rec-tag{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;background:var(--ok-soft);color:var(--ok);font-size:.75rem;font-weight:600;vertical-align:middle}
 .tr.ex{margin-top:8px}
+.tip{padding:10px 14px;border-radius:var(--r);background:var(--ok-soft);border-left:3px solid var(--ok);font-size:.95rem;line-height:1.5}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -532,6 +533,7 @@ function renderRead(){
 function renderWrite(){
   const w1 = E.w1, w2 = E.w2;
   let h = `<div class="sec-head"><h2>Psaní</h2><span class="meta">25 minut · 20 bodů</span></div>`;
+  if(MODE === 'practice') h += `<div class="tip">✍️ <b>Порада:</b> спершу напишіть відповідь самі, навіть якщо не впевнені. Потім відкрийте «Приклад відповіді» і порівняйте, які слова чи форми ви написали інакше. Так правильні форми запам'ятовуються набагато краще, ніж коли просто переписуєш готовий текст.</div>`;
   h += `<div class="task">${taskHead('Úloha 1 – Formulář','8 bodů', esc(w1.situation)+' Odpovídejte celou větou! Ke každé otázce napište minimálně 10 slov.','Відповідайте цілими реченнями, на кожне питання мінімум 10 слів.','w1')}
     <div class="form-card"><div class="fh">${esc(w1.form)}</div><div class="fb">${w1.questions.map((q,i) => `<div class="field"><label for="w1-${i}">${i+1}. ${esc(q)}</label><textarea id="w1-${i}" data-min="10" spellcheck="false"></textarea><span class="wc" data-for="w1-${i}">0 slov · minimálně 10</span>${MODE === 'practice' && w1.models ? `<details class="tr ex"><summary>Приклад відповіді</summary><p>${esc(w1.models[i])}</p>${modelSay(w1.models[i])}</details>` : ''}</div>`).join('')}</div></div>
     <div id="w1-after"></div></div>`;
