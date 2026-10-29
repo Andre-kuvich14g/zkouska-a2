@@ -262,6 +262,13 @@ body.hide-q .qtext{visibility:hidden}
 .best-box{padding:10px 14px;border-radius:var(--r);background:var(--warn-soft);border:1px solid var(--warn);line-height:1.5}
 .hist .up{color:var(--ok);font-weight:700} .hist .down{color:var(--mark);font-weight:700} .hist .same{color:var(--muted)}
 .hist tr.best-row td{background:var(--warn-soft)}
+.auto{margin:10px 0;padding:10px 14px;border:1px dashed var(--accent);border-radius:var(--r);background:var(--accent-soft);display:grid;gap:6px}
+.chk{list-style:none;margin:0;padding:0;display:grid;gap:3px;font-size:.92rem}
+.chk li.ok{color:var(--ok)} .chk li.no{color:var(--mark)} .chk li.q{color:var(--muted)}
+.sr{display:grid;gap:8px;margin-bottom:8px}
+.srbtn.on{background:var(--mark-soft);border-color:var(--mark);color:var(--mark)}
+.srtext{font-size:.92rem;padding:8px 12px;border-left:3px solid var(--rule);background:var(--soft);margin:0}
+.autos{font-weight:600;color:var(--accent)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -558,6 +565,111 @@ function sceneClass(t){ t = String(t).toLowerCase();
   if(/ráno|snídan|vstává/.test(t) && !/doma|kuchyn|byt|posteli/.test(t)) return 'sc-morning';
   if(/doma|kuchyn|byt|pokoj|kancelá|ordinac|úřad|nemocnic|škol|tříd|lékárn|obchod|supermarket|sklad|jídeln|chat|posteli|pokladn|stůl|stole|stromeček|recepc/.test(t)) return 'sc-in';
   return 'sc-out'; }
+const fold = x => String(x).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const wordsOf = x => String(x).match(/[\p{L}\p{N}]+/gu) || [];
+const hasDia = x => /[ěščřžýáíéúůťďň]/i.test(x);
+const RX = {
+  time: /\b(pondel|uter|stred|ctvrt|patek|sobot|nedel|ledn|unor|brez|dub|kvet|cerv|srp|zari|rij|listopad|prosin|hodin|rano|vecer|odpoledn|dopoledn|zitra|pozitri|dnes|pristi|tyden|mesic|vikend|brzy|hned|vcera|noc)\w*|\b\d{1,2}[.:]\d{0,2}/,
+  place: /\b(v|ve|na|u|do|blizko|vedle|za|pred|k|ke)\s+[a-z]{3,}|\bdoma\b/,
+  num: /\d|\b(jed|dva|dve|tri|ctyr|pet|sest|sedm|osm|devet|deset|[a-z]+nact|dvacet|tricet|ctyricet|padesat|sto|tisic|milion)\w*|\bkc\b|korun|eur/,
+  why: /\b(protoze|kvuli|abych|aby|proto|totiz)\b/,
+  how: /\b(vlak|aut|autobus|letad|pesk|kol|tramvaj|metr|lod)\w*/,
+  contact: /\d{3}\s?\d{3}|@|telefon|cisl|mail|zavolej|napis|sms/,
+  pay: /\b(kart|hotov|prevod|online|zaplat|platit|platim|platime)\w*/,
+  thanks: /dekuj|diky/, sorry: /omlouv|omluv|promin|je mi lito|mrzi/, invite: /zvu|pozv|pojd|chces|nechces|zajdem|pujdem/,
+  wish: /preju|prejem|prani|hodne stesti|vse nejlepsi/, howare: /mam se|mame se|dobre|v poradku/
+};
+const STOPQ = /^(chcete|muzete|budete|jste|maji|muze|mate|vase|vasi|jaky|jaka|jake|ktery|kterym|kolik|bude)$/;
+function promptOK(q, text, used){
+  const Q = fold(q), T = fold(text); let rx = null;
+  if(/^(do kdy|od kdy|kdy)/.test(Q) || /jak dlouho/.test(Q)) rx = /jak dlouho|od kdy/.test(Q) ? new RegExp(RX.time.source + '|' + RX.num.source) : RX.time;
+  else if(/^(kde|kam)/.test(Q)) rx = RX.place; else if(/^kolik/.test(Q)) rx = RX.num; else if(/^proc/.test(Q)) rx = RX.why; else if(/^cim/.test(Q)) rx = RX.how;
+  else if(/kontakt/.test(Q)) rx = RX.contact; else if(/platit|zaplatite/.test(Q)) rx = RX.pay; else if(/podekujte/.test(Q)) rx = RX.thanks; else if(/omluvte/.test(Q)) rx = RX.sorry;
+  else if(/pozvete/.test(Q)) rx = RX.invite; else if(/prejete/.test(Q)) rx = RX.wish; else if(/jak se mate/.test(Q)) rx = RX.howare;
+  if(rx){ const m = T.match(new RegExp(rx.source, 'g')) || []; const k = used[rx.source] = (used[rx.source] || 0) + 1; return m.length >= k ? 1 : 0; }
+  const stems = wordsOf(Q).filter(w => w.length >= 5 && !STOPQ.test(w)).map(w => w.slice(0, 4));
+  return stems.some(x => T.includes(x)) ? 1 : 0.5;
+}
+const AUTO = {};
+const chk = (ok, text) => `<li class="${ok === true ? 'ok' : ok === false ? 'no' : 'q'}">${ok === true ? '✓' : ok === false ? '✗' : '?'} ${text}</li>`;
+const autoBox = (sc, max, body) => `<div class="auto"><div><b>🤖 Trang chấm: ${sc} / ${max}</b> <span class="small muted">tự động, chỉ theo tiêu chí hình thức. Ngữ pháp và nội dung do người chấm.</span></div>${body}</div>`;
+function autoW1(){
+  let tot = 0;
+  const parts = E.w1.questions.map((q, i) => {
+    const t = ($('#w1-'+i).value || '').trim(), n = countWords(t);
+    const sent = /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/.test(t) && /[.!?]$/.test(t);
+    const rel = n ? promptOK(q, t, {}) : 0, dia = n >= 5 && hasDia(t);
+    tot += (n >= 10 ? 1.2 : n >= 5 ? 0.6 : 0) + (sent ? 0.5 : 0) + rel * 0.6 + (dia ? 0.36 : 0);
+    return `<p class="small"><b>${i+1}. ${esc(q)}</b></p><ul class="chk">${chk(n >= 10, n + ' từ (tối thiểu 10)')}${chk(sent, 'Câu hoàn chỉnh: viết hoa đầu câu, dấu chấm cuối câu')}${chk(rel === 1 ? true : rel === 0 ? false : null, rel === 0.5 ? 'Trả lời đúng câu hỏi: trang không kiểm tra được, hãy tự kiểm tra' : 'Câu trả lời đúng câu hỏi')}${chk(dia, 'Có dấu tiếng Séc (č, ř, á…)')}</ul>`;
+  });
+  return {sc: Math.min(8, Math.round(tot)), max: 8, html: parts.join('')};
+}
+function autoW2(){
+  const t = ($('#w2-0').value || '').trim(), T = fold(t), n = countWords(t);
+  if(n < 35) return {sc: 0, max: 12, html: `<ul class="chk">${chk(false, n + ' từ: dưới 35 nên được 0 điểm')}</ul>`};
+  const used = {}, ps = E.w2.prompts.map(p => promptOK(p.q, t, used));
+  const greet = /^\s*(dobry den|ahoj|vazen|mil|zdravim|dobry vecer)/.test(T);
+  const close = /(s pozdravem|dekuji|dekuju|diky|mej se|mejte se|na shledanou|tesim se|hezky den|zdravim)/.test(T.slice(-160));
+  const sn = String(t).split(/[.!?]+/).filter(x => countWords(x) >= 2).length;
+  const sc = 1 + (greet ? 1.5 : 0) + (close ? 1.5 : 0) + ps.reduce((a, b) => a + b * 1.4, 0) + (hasDia(t) ? 1 : 0) + (sn >= 6 ? 1 : sn >= 4 ? 0.5 : 0);
+  return {sc: Math.min(12, Math.round(sc)), max: 12, html: `<ul class="chk">${chk(true, n + ' từ (tối thiểu 35)')}${chk(greet, 'Lời chào ở đầu (Dobrý den, Ahoj…)')}${chk(close, 'Lời kết và chữ ký ở cuối (S pozdravem, Děkuji…)')}${E.w2.prompts.map((p, i) => chk(ps[i] === 1 ? true : ps[i] === 0 ? false : null, (i+1) + '. ' + esc(p.q) + (ps[i] === 0.5 ? ' — hãy tự kiểm tra' : ''))).join('')}${chk(hasDia(t), 'Có dấu tiếng Séc')}${chk(sn >= 6, 'Số câu: ' + sn + ' (nên từ 6 câu trở lên)')}</ul>`};
+}
+/* ---- speech recognition (Mluvení) ---- */
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition;
+let srActive = null;
+function srHTML(key){ return SRC ? `<div class="sr"><button class="btn sm srbtn" type="button" data-sr="${key}">🗣 Trang chấm: hãy nói, trang sẽ nhận dạng</button><div class="srout" id="sr-${key}"></div></div>` : ''; }
+function toggleSR(btn){
+  const key = btn.dataset.sr, out = document.getElementById('sr-' + key);
+  if(srActive){ const same = srActive.key === key; srActive.user = true; srActive.rec.stop(); if(same) return; }
+  if(recActive) recActive.mr.stop();
+  stopSpeech();
+  const st = {key, finals: [], conf: [], user: false, t0: Date.now()};
+  const start = () => {
+    const rec = new SRC(); rec.lang = 'cs-CZ'; rec.continuous = true; rec.interimResults = true; st.rec = rec;
+    rec.onresult = e => { let interim = ''; for(let i = e.resultIndex; i < e.results.length; i++){ const r = e.results[i]; if(r.isFinal){ st.finals.push(r[0].transcript.trim()); if(r[0].confidence) st.conf.push(r[0].confidence); } else interim += r[0].transcript; } out.innerHTML = `<p class="srtext">${esc(st.finals.join(' · '))} <i>${esc(interim)}</i></p>`; };
+    rec.onerror = e => { if(e.error === 'no-speech' || e.error === 'aborted') return; st.user = true; out.innerHTML = `<p class="small" style="color:var(--mark)">${e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Không truy cập được micro hoặc nhận dạng giọng nói. Hãy cho phép micro trong cài đặt trình duyệt.' : 'Nhận dạng không thành công. Hãy thử Chrome.'}</p>`; };
+    rec.onend = () => {
+      if(!st.user && Date.now() - st.t0 < 240000){ try{ start(); return; }catch(err){} }
+      if(srActive === st) srActive = null;
+      btn.classList.remove('on'); btn.textContent = '🗣 Nói lại';
+      if(st.finals.length) srAnalyze(key, st, out); else if(!out.querySelector('.small')) out.innerHTML = '<p class="small muted">Không nhận dạng được gì. Hãy nói to hơn và gần điện thoại hơn.</p>';
+    };
+    rec.start();
+  };
+  try{ start(); }catch(err){ out.innerHTML = '<p class="small" style="color:var(--mark)">Nhận dạng không thành công. Hãy thử Chrome.</p>'; return; }
+  srActive = st; btn.classList.add('on'); btn.textContent = '■ Dừng và chấm';
+  out.innerHTML = '<p class="small muted">Đang nghe… Hãy nói tiếng Séc. Khi xong, bấm “Dừng và chấm”.</p>';
+  track('speech_check', {task: key});
+}
+function srAnalyze(key, st, out){
+  const text = st.finals.join('. '), T = fold(text), W = wordsOf(text).length, segs = st.finals.length, t = key.split('-')[0];
+  const past = (T.match(/\b[a-z]+(l|la|lo|li|ly)\b/g) || []).length;
+  let sc = 0, max = 0, items = [];
+  if(t === 's1'){ max = 8; const fut = /\b(budu|budeme|pojedu|pujdu|pristi)\b/.test(T);
+    sc = Math.min(6, W / 10) + (segs >= 6 ? 1 : 0) + (fut && past ? 1 : 0);
+    items = [chk(W >= 60, W + ' từ (cho 8 câu hỏi nên từ 60 trở lên)'), chk(segs >= 6, 'Số câu trả lời riêng: ' + segs), chk(fut && past > 0, 'Dùng nhiều thì: quá khứ và tương lai')]; }
+  else if(t === 's2'){ max = 6; const q = (T.match(/\b(kolik|kdy|kde|jak|muzu|mohu|muzete|mate|potrebuju|proc|ktery|ktera|ktere|je tam|jsou tam)\b/g) || []).length;
+    const gr = /dobry den|ahoj/.test(T), by = /dekuj|na shledanou|diky/.test(T);
+    sc = Math.min(4, q) + (gr ? 1 : 0) + (by ? 1 : 0);
+    items = [chk(q >= 4, 'Từ để hỏi (kolik, kdy, kde, jak, můžu…): ' + q + ' (cần 4 câu hỏi)'), chk(gr, 'Lời chào (Dobrý den)'), chk(by, 'Cảm ơn hoặc chào tạm biệt (Děkuji, Na shledanou)')]; }
+  else if(t === 's3'){ max = 10; const con = /\b(nejdriv|nejprve|potom|pak|nakonec|pozdeji|rano|vecer)\b/.test(T);
+    sc = Math.min(4, W / 15) + Math.min(4, past * 0.5) + (con ? 1 : 0) + (W >= 70 ? 1 : 0);
+    items = [chk(W >= 60, W + ' từ (nên 60–90)'), chk(past >= 6, 'Dạng thì quá khứ (byl, šla, koupili…): ' + past + ' (nên từ 6 câu trở lên)'), chk(con, 'Từ nối: nejdřív, potom, nakonec…')]; }
+  else if(t === 's4'){ max = 7; const sug = (T.match(/\b(muzeme|co kdyby|pojdme|navrhuju|chces|nechces|zkusime|pujdeme|pojedeme)\w*/g) || []).length;
+    const why = /\bprotoze\b/.test(T), ok = /\b(dobre|souhlas|tak jo|domluveno|platí|plati|super)\b/.test(T);
+    sc = Math.min(3, sug) + (why ? 2 : 0) + (W >= 30 ? 1 : 0) + (ok ? 1 : 0);
+    items = [chk(sug >= 2, 'Số đề xuất (můžeme, co kdybychom, pojďme…): ' + sug), chk(why, 'Giải thích «protože…»'), chk(W >= 30, W + ' từ (nên từ 30 trở lên)'), chk(ok, 'Đồng ý ở cuối (dobře, domluveno…)')]; }
+  sc = Math.min(max, Math.round(sc));
+  AUTO[key] = {sc, max, conf: st.conf.slice()};
+  out.innerHTML = `<p class="srtext">${esc(st.finals.join(' · '))}</p>` + autoBox(sc, max, `<ul class="chk">${items.join('')}</ul><p class="small muted">Trang đã nghe được ${W} từ. Nếu nhiều từ bị nhận sai, hãy nói rõ hơn: đó cũng là dấu hiệu về phát âm.</p>`);
+  updAutoSpeak();
+}
+function autoSpeak(k){
+  if(k === 's2'){ const a = AUTO['s2-0'], b = AUTO['s2-1']; if(!a && !b) return null; return {sc: (a ? a.sc : 0) + (b ? b.sc : 0), max: 12, part: !(a && b)}; }
+  if(k === 'ph'){ const c = Object.values(AUTO).flatMap(x => x.conf || []); if(!c.length) return null; const m = c.reduce((x, y) => x + y, 0) / c.length; return {sc: m >= 0.85 ? 3 : m >= 0.7 ? 2 : m >= 0.5 ? 1 : 0, max: 3}; }
+  const a = AUTO[k]; return a ? {sc: a.sc, max: a.max} : null;
+}
+function updAutoSpeak(){ $$('[data-auto]').forEach(el => { const a = autoSpeak(el.dataset.auto); el.textContent = a ? `🤖 ${a.sc}${a.part ? '+?' : ''}` : ''; el.title = a ? 'Trang chấm' : ''; }); }
 const countWords = s => (String(s).match(/[\p{L}\p{N}]+/gu) || []).length;
 const letters = n => LET.slice(0, n).split('');
 
@@ -666,16 +778,16 @@ function renderSpeak(){
     ${MODE === 'practice' && s4.dialog ? dialogHTML(s4.dialog, 'Příklad celého dialogu') : `<details class="tr shown"><summary>Příklad možného dialogu</summary><p>${esc(s4.model)}</p></details>`}${recHTML('s4')}</div></div>`;
   h += `<div class="task"><div class="task-h"><h3>Tự chấm phần nói</h3></div>
     <p class="ua">Hãy tự chấm trung thực. Điểm bị trừ nếu câu trả lời thiếu, ngắt quãng nhiều hoặc khó hiểu. Phần 3 bắt buộc dùng thì quá khứ.</p>
-    <div class="selfscore">${[['s1','Úloha 1',8],['s2','Úloha 2',12],['s3','Úloha 3',10],['s4','Úloha 4',7],['ph','Fonetika',3]].map(([k,l,m]) => `<label>${l} <select id="self-${k}" class="ans">${Array.from({length:m+1},(_,i)=>`<option value="${i}" ${i===0?'':''}>${i}</option>`).reverse().join('')}</select> <span class="small muted">/ ${m}</span></label>`).join('')}</div></div>`;
+    <div class="selfscore">${[['s1','Úloha 1',8],['s2','Úloha 2',12],['s3','Úloha 3',10],['s4','Úloha 4',7],['ph','Fonetika',3]].map(([k,l,m]) => `<label>${l} <select id="self-${k}" class="ans">${Array.from({length:m+1},(_,i)=>`<option value="${i}" ${i===0?'':''}>${i}</option>`).reverse().join('')}</select> <span class="small muted">/ ${m}</span> <span class="autos" data-auto="${k}"></span></label>`).join('')}</div>${SRC ? '<p class="small muted">🤖 — điểm trang chấm theo giọng nói nhận dạng được (nút 🗣 trong các phần). Điểm cuối cùng do bạn quyết định.</p>' : ''}</div>`;
   h += checkBar('speak', 'Lưu điểm phần nói');
-  $('#pane-speak').innerHTML = h;
+  $('#pane-speak').innerHTML = h; for(const k in AUTO) delete AUTO[k];
   $$('#pane-speak select.ans').forEach(s => { s.value = ''; s.insertAdjacentHTML('afterbegin','<option value="" selected>–</option>'); s.value=''; });
   $('#showQ').addEventListener('change', e => document.body.classList.toggle('hide-q', !e.target.checked));
   document.body.classList.toggle('hide-q', MODE !== 'practice');
 }
 
 const REC = {}; let recActive = null;
-function recHTML(key){ return `<div class="rec" data-reckey="${key}"><button class="btn sm recbtn" type="button" data-rec="${key}">🎙 Ghi âm câu trả lời</button><span class="recst">Bản ghi chỉ lưu trên thiết bị của bạn.</span><audio controls hidden></audio></div>`; }
+function recHTML(key){ return srHTML(key) + `<div class="rec" data-reckey="${key}"><button class="btn sm recbtn" type="button" data-rec="${key}">🎙 Ghi âm câu trả lời</button><span class="recst">Bản ghi chỉ lưu trên thiết bị của bạn.</span><audio controls hidden></audio></div>`; }
 async function toggleRec(btn){
   const key = btn.dataset.rec, box = btn.closest('.rec'), st = box.querySelector('.recst'), au = box.querySelector('audio');
   if(recActive && recActive.key === key){ recActive.mr.stop(); return; }
@@ -792,6 +904,9 @@ function checkWrite(){
     ${zero ? `<p class="notice"><b>0 điểm:</b> e-mail ngắn hơn 35 từ.</p>` : `<div class="selfscore"><label for="self-w2">Điểm của bạn cho Úloha 2</label><select id="self-w2" class="ans"><option value="">–</option>${Array.from({length:13},(_,i)=>`<option value="${12-i}">${12-i}</option>`).join('')}</select><span class="small muted">/ 12</span></div>`}`;
   RES.w2zero = zero;
   const upd = () => { RES.w1 = +($('#self-w1').value || 0); RES.w1set = !!$('#self-w1').value; if(zero){ RES.w2 = 0; RES.w2set = true; } else { RES.w2 = +($('#self-w2').value || 0); RES.w2set = !!$('#self-w2').value; } renderResults(); };
+  const a1 = autoW1(), a2 = autoW2(); RES.w1auto = a1.sc; RES.w2auto = a2.sc;
+  $('#w1-after .selfscore').insertAdjacentHTML('beforebegin', autoBox(a1.sc, a1.max, a1.html));
+  const s2 = $('#w2-after .selfscore') || $('#w2-after .notice'); if(s2) s2.insertAdjacentHTML('beforebegin', autoBox(a2.sc, a2.max, a2.html));
   $('#self-w1').addEventListener('change', upd); if(!zero) $('#self-w2').addEventListener('change', upd);
   upd();
   CHECKED.write = true; stopTimer('write'); markDone('write');
@@ -799,6 +914,7 @@ function checkWrite(){
   $('#bar-write').innerHTML = `<span>Đã hiện bài mẫu. Hãy tự chấm điểm ở trên, điểm sẽ được tính vào kết quả.</span><button class="btn" type="button" data-goto="listen">Tiếp: Poslech →</button>`;
 }
 function checkSpeak(){
+  ['s1','s2','s3','s4','ph'].forEach(k => { const a = autoSpeak(k); RES[k + 'auto'] = a ? a.sc : null; });
   const keys = ['s1','s2','s3','s4','ph']; let total = 0, all = true;
   keys.forEach(k => { const v = $('#self-'+k).value; if(v === '') all = false; RES[k] = +(v || 0); total += RES[k]; });
   RES.speakSet = all; CHECKED.speak = true;
@@ -911,6 +1027,9 @@ function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
     h += `<h4>Nên cải thiện</h4><ul class="an-tips">${mid.slice(0,4).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>`;
   }
   if(strong.length) h += `<h4>Điểm mạnh</h4><p class="small">${strong.map(r => r[0]).join(' · ')}: không sai câu nào 👍</p>`;
+  const gaps = [['w1','Psaní – formulář'],['w2','Psaní – e-mail'],['s1','Mluvení – úloha 1'],['s2','Mluvení – úloha 2'],['s3','Mluvení – úloha 3'],['s4','Mluvení – úloha 4']]
+    .filter(([k]) => RES[k] != null && RES[k + 'auto'] != null && RES[k] - RES[k + 'auto'] >= 3);
+  if(gaps.length) h += `<h4>🤖 Tự chấm và điểm của trang</h4><ul class="an-list">${gaps.map(([k, n]) => `<li><b>${n}</b>: bạn tự chấm ${RES[k]}, trang chấm ${RES[k + 'auto']}. Có thể bạn tự chấm quá cao: hãy xem danh sách kiểm tra ở phần đó.</li>`).join('')}</ul>`;
   const next = [];
   if(weak.length) next.push('Hãy bắt đầu từ các điểm yếu ở trên: làm lại ở chế độ Luyện tập và đọc kỹ phần “Vì sao” cho từng lỗi.');
   if(overall && wr >= 42 && sp >= 24){
@@ -1177,7 +1296,8 @@ document.addEventListener('click', e => {
   if(t.classList.contains('stopbtn')) return stopSpeech();
   if(t.classList.contains('skipbtn')){ t.textContent = '▶ Bắt đầu…'; t.disabled = true; if(PREV_WAKE) PREV_WAKE(); return; }
   if(t.classList.contains('say')) return say(t.dataset.say, t.dataset.g);
-  if(t.classList.contains('recbtn')) return toggleRec(t);
+  if(t.classList.contains('recbtn')){ if(srActive){ srActive.user = true; srActive.rec.stop(); } return toggleRec(t); }
+  if(t.classList.contains('srbtn')) return toggleSR(t);
   if(t.classList.contains('sayd')) return sayDialog(DLG.at(Number(t.dataset.dlg)));
 });
 })();
