@@ -315,3 +315,22 @@ T += [
 ("Ще завдань нижче 60 %:", "More tasks below 60 %:", "Ещё заданий ниже 60 %:", "Số phần khác dưới 60 %:"),
 (". Усі бали — у таблиці нижче.", ". All points are in the table below.", ". Все баллы — в таблице ниже.", ". Toàn bộ điểm có trong bảng bên dưới."),
 ]
+T += [
+("краще, ніж попередня спроба", "better than the previous attempt", "лучше, чем предыдущая попытка", "tốt hơn lần trước"),
+("гірше, ніж попередня спроба", "worse than the previous attempt", "хуже, чем предыдущая попытка", "kém hơn lần trước"),
+("Результат", "Result", "Результат", "Kết quả"),
+("Ваш найкращий результат:", "Your best result:", "Ваш лучший результат:", "Kết quả tốt nhất của bạn:"),
+("Склав.", "Passed.", "Сдал.", "Đã đỗ."),
+("Ще не склав.", "Not passed yet.", "Ещё не сдал.", "Chưa đỗ."),
+("Спробуйте побити свій рекорд!", "Try to beat your record!", "Попробуйте побить свой рекорд!", "Hãy thử phá kỷ lục của mình!"),
+("Рекорд з’явиться після першого повністю завершеного іспиту (усі чотири частини).", "Your record will appear after your first fully completed exam (all four parts).", "Рекорд появится после первого полностью завершённого экзамена (все четыре части).", "Kỷ lục sẽ hiện sau bài thi đầu tiên làm đủ cả bốn phần."),
+("Останні спроби", "Recent attempts", "Последние попытки", "Các lần làm gần đây"),
+("Показати всі спроби (", "Show all attempts (", "Показать все попытки (", "Xem tất cả các lần làm ("),
+("↑ краще, ↓ гірше, ніж попередня спроба (у % від перевірених частин). Зберігається тільки в цьому браузері.", "↑ better, ↓ worse than the previous attempt (in % of the checked parts). Stored only in this browser.", "↑ лучше, ↓ хуже, чем предыдущая попытка (в % от проверенных частей). Хранится только в этом браузере.", "↑ tốt hơn, ↓ kém hơn lần trước (tính theo % các phần đã chấm). Chỉ lưu trong trình duyệt này."),
+("Перший повний результат!", "Your first full result!", "Первый полный результат!", "Kết quả đầy đủ đầu tiên!"),
+("Тепер це ваш рекорд. Спробуйте його побити наступного разу.", "This is now your record. Try to beat it next time.", "Теперь это ваш рекорд. Попробуйте побить его в следующий раз.", "Đây là kỷ lục của bạn. Lần sau hãy thử phá nó."),
+("Новий рекорд!", "New record!", "Новый рекорд!", "Kỷ lục mới!"),
+("б. порівняно з попереднім найкращим результатом.", "pts compared with your previous best.", "б. по сравнению с предыдущим лучшим результатом.", "điểm so với kết quả tốt nhất trước đó."),
+("Ваш рекорд:", "Your record:", "Ваш рекорд:", "Kỷ lục của bạn:"),
+("б. з 110. Цього разу:", "of 110 pts. This time:", "б. из 110. В этот раз:", "/110 điểm. Lần này:"),
+]

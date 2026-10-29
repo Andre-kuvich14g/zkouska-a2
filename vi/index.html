@@ -259,6 +259,9 @@ body.hide-q .qtext{visibility:hidden}
 .an-tips span{color:var(--muted);font-size:.92rem}
 .ok-t{color:var(--ok)} .bad-t{color:var(--mark)} .warn-t{color:var(--warn)}
 .an-alert{margin:4px 0;padding:8px 12px;border-radius:6px;background:var(--mark-soft);color:var(--ink)}
+.best-box{padding:10px 14px;border-radius:var(--r);background:var(--warn-soft);border:1px solid var(--warn);line-height:1.5}
+.hist .up{color:var(--ok);font-weight:700} .hist .down{color:var(--mark);font-weight:700} .hist .same{color:var(--muted)}
+.hist tr.best-row td{background:var(--warn-soft)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -828,12 +831,29 @@ function saveAttempt(){
   if(CHECKED.speak) a.speak = sum(['s1','s2','s3','s4','ph']);
   try{ localStorage.setItem('a2-history', JSON.stringify(h.slice(0, 30))); }catch(e){}
 }
+const histDone = a => a.read != null && a.write != null && a.listen != null && a.speak != null;
+const histTotal = a => a.read + a.write + a.listen + a.speak;
+const histPct = a => { const p = [['read',25],['write',20],['listen',25],['speak',40]].filter(x => a[x[0]] != null); if(!p.length) return null; return Math.round(p.reduce((t,x) => t + a[x[0]], 0) / p.reduce((t,x) => t + x[1], 0) * 100); };
+function histBest(h, exceptId){ return h.filter(a => histDone(a) && a.id !== exceptId).sort((x,y) => histTotal(y) - histTotal(x) || x.ts - y.ts)[0] || null; }
 function renderHistory(){
   const el = document.getElementById('history'); if(!el) return; const h = loadHist();
   if(!h.length){ el.innerHTML = ''; return; }
   const v = x => x == null ? '–' : x;
   const d = ts => { const t = new Date(ts); return t.getDate() + '. ' + (t.getMonth()+1) + '. ' + String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0'); };
-  el.innerHTML = `<div class="hist"><h3 style="margin:8px 0">Các lần làm trước</h3><div class="tbl-wrap"><table><thead><tr><th>Ngày</th><th>Chế độ</th><th>Čtení /25</th><th>Psaní /20</th><th>Poslech /25</th><th>Mluvení /40</th></tr></thead><tbody>${h.slice(0,10).map(a => `<tr><td>${d(a.ts)}</td><td>${a.mode === 'exam' ? 'Thi' : 'Luyện tập'}</td><td class="n">${v(a.read)}</td><td class="n">${v(a.write)}</td><td class="n">${v(a.listen)}</td><td class="n">${v(a.speak)}</td></tr>`).join('')}</tbody></table></div><p class="small muted">Chỉ lưu trong trình duyệt này.</p></div>`;
+  const row = (a, i) => {
+    const p = histPct(a), prev = h.slice(i + 1).find(x => histPct(x) != null), pp = prev ? histPct(prev) : null;
+    const arr = (p == null || pp == null) ? '' : p > pp ? ' <span class="up" title="tốt hơn lần trước">↑</span>' : p < pp ? ' <span class="down" title="kém hơn lần trước">↓</span>' : ' <span class="same">=</span>';
+    return `<tr${best && a.id === best.id ? ' class="best-row"' : ''}><td>${d(a.ts)}${best && a.id === best.id ? ' 🏆' : ''}</td><td>${a.mode === 'exam' ? 'Thi' : 'Luyện tập'}</td><td class="n">${v(a.read)}</td><td class="n">${v(a.write)}</td><td class="n">${v(a.listen)}</td><td class="n">${v(a.speak)}</td><td class="n">${p == null ? '–' : p + ' %'}${arr}</td></tr>`;
+  };
+  const best = histBest(h);
+  const head = `<thead><tr><th>Ngày</th><th>Chế độ</th><th>Čtení /25</th><th>Psaní /20</th><th>Poslech /25</th><th>Mluvení /40</th><th>Kết quả</th></tr></thead>`;
+  const bw = best ? best.read + best.write + best.listen : 0;
+  el.innerHTML = `<div class="hist">
+    ${best ? `<div class="best-box">🏆 <b>Kết quả tốt nhất của bạn:</b> písemná ${bw} / 70 · ústní ${best.speak} / 40 · ${d(best.ts)} · ${best.mode === 'exam' ? 'Thi' : 'Luyện tập'} · mã ${best.code}<br><span class="small">${bw >= 42 && best.speak >= 24 ? 'Đã đỗ.' : 'Chưa đỗ.'} Hãy thử phá kỷ lục của mình!</span></div>` : `<p class="small muted">Kỷ lục sẽ hiện sau bài thi đầu tiên làm đủ cả bốn phần.</p>`}
+    <h3 style="margin:8px 0">Các lần làm gần đây</h3>
+    <div class="tbl-wrap"><table>${head}<tbody>${h.slice(0,5).map(row).join('')}</tbody></table></div>
+    ${h.length > 5 ? `<details class="tr"><summary>Xem tất cả các lần làm (${h.length})</summary><div class="tbl-wrap"><table>${head}<tbody>${h.map(row).join('')}</tbody></table></div></details>` : ''}
+    <p class="small muted">↑ tốt hơn, ↓ kém hơn lần trước (tính theo % các phần đã chấm). Chỉ lưu trong trình duyệt này.</p></div>`;
 }
 renderHistory();
 
@@ -920,7 +940,12 @@ function renderResults(){
   const tr = r => `<tr><td>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
   const overall = writtenDone && CHECKED.speak && RES.speakSet;
   if(overall && !E.resultSent){ E.resultSent = true; track('exam_result', {written: wr, oral: sp, passed: (wr >= 42 && sp >= 24) ? 'yes' : 'no', mode: MODE}); }
-  let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">mã bài thi ${E.seed}</span></div>
+  let rec = '';
+  if(overall){ const hh = loadHist(), me = hh.find(x => x.id === E.attemptId), prevBest = histBest(hh, E.attemptId);
+    if(me && histDone(me)){ if(!prevBest) rec = `<div class="best-box">🏆 <b>Kết quả đầy đủ đầu tiên!</b> Đây là kỷ lục của bạn. Lần sau hãy thử phá nó.</div>`;
+      else if(histTotal(me) > histTotal(prevBest)) rec = `<div class="best-box">🏆 <b>Kỷ lục mới!</b> +${histTotal(me) - histTotal(prevBest)} điểm so với kết quả tốt nhất trước đó.</div>`;
+      else rec = `<p class="small muted">Kỷ lục của bạn: ${histTotal(prevBest)} /110 điểm. Lần này: ${histTotal(me)}.</p>`; } }
+  let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">mã bài thi ${E.seed}</span></div>${rec}
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Đã đỗ. Cả hai phần đều trên 60 %.' : 'Chưa đỗ. Cần đạt 60 % ở từng phần riêng.'}</b></div>` : '<p class="ua">Kết quả sẽ hiện khi bạn đã chấm cả bốn phần và tự chấm phần viết và nói.</p>'}
     ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
