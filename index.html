@@ -1,12 +1,17 @@
 <!doctype html>
-<html lang="cs">
+<html lang="uk">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Zkouška A2 nanečisto</title>
+<title>Тренувальний іспит A2 з чеської – Zkouška A2 nanečisto</title>
 <meta name="description" content="Zkouška z češtiny A2 pro trvalý pobyt nanečisto – zdarma, nový formát od 11. 4. 2026. Čtení, psaní, poslech, mluvení, 20 variant. Тренувальний іспит A2 з чеської мови для трвалого побиту безкоштовно.">
 <meta name="keywords" content="zkouška A2, trvalý pobyt, test nanečisto, čeština pro cizince, modelový test A2, іспит A2 чеська, постійне проживання Чехія, тест з чеської мови">
 <link rel="canonical" href="https://andre-kuvich14g.github.io/zkouska-a2/">
+<link rel="alternate" hreflang="uk" href="https://andre-kuvich14g.github.io/zkouska-a2/">
+<link rel="alternate" hreflang="en" href="https://andre-kuvich14g.github.io/zkouska-a2/en/">
+<link rel="alternate" hreflang="ru" href="https://andre-kuvich14g.github.io/zkouska-a2/ru/">
+<link rel="alternate" hreflang="vi" href="https://andre-kuvich14g.github.io/zkouska-a2/vi/">
+<link rel="alternate" hreflang="x-default" href="https://andre-kuvich14g.github.io/zkouska-a2/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Zkouška A2 nanečisto – trvalý pobyt">
 <meta property="og:description" content="Безкоштовний тренувальний іспит A2 з чеської для постійного проживання: новий формат 2026, 20 варіантів, аудіо, пояснення українською. Bezplatný cvičný test A2 pro trvalý pobyt.">
@@ -238,6 +243,15 @@ body.hide-q .qtext{visibility:hidden}
 .rec-tag{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;background:var(--ok-soft);color:var(--ok);font-size:.75rem;font-weight:600;vertical-align:middle}
 .tr.ex{margin-top:8px}
 .tip{padding:10px 14px;border-radius:var(--r);background:var(--ok-soft);border-left:3px solid var(--ok);font-size:.95rem;line-height:1.5}
+.langs{display:flex;align-items:center;gap:2px;margin-left:auto;font-size:.85rem;font-weight:600}
+.langs .globe{margin-right:4px}
+.langs a{padding:5px 8px;border-radius:6px;color:var(--muted);text-decoration:none;border:1px solid transparent}
+.langs a[aria-current=page]{color:var(--ink);border-color:var(--rule);background:var(--sheet)}
+.langs a:hover{color:var(--ink)}
+.langhint{font-size:.9rem;color:var(--muted);margin-top:-4px}
+.langsug{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:8px 16px;background:var(--accent-soft);font-size:.92rem}
+.langsug a{font-weight:600}
+.langwarn{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;max-width:min(92vw,460px);background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:8px;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -326,6 +340,34 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 </div>
 <script>
 (function(){
+  var PAGE_LANG = document.documentElement.lang || 'uk';
+  var URLS = {uk:'/zkouska-a2/', en:'/zkouska-a2/en/', ru:'/zkouska-a2/ru/', vi:'/zkouska-a2/vi/'};
+  var SUG = {en:['This page is also available in English.','Switch to English'], ru:['Эта страница есть на русском языке.','Перейти на русский'], vi:['Trang này có tiếng Việt.','Chuyển sang tiếng Việt'], uk:['Ця сторінка є українською.','Перейти на українську']};
+  document.addEventListener('DOMContentLoaded', function(){
+    var nav = document.getElementById('langs'); if(!nav) return;
+    var links = nav.querySelectorAll('a[data-lang]');
+    for(var i = 0; i < links.length; i++){ (function(a){
+      if(a.getAttribute('data-lang') === PAGE_LANG) a.setAttribute('aria-current', 'page');
+      a.addEventListener('click', function(e){
+        try{ localStorage.setItem('a2-lang', a.getAttribute('data-lang')); }catch(err){}
+        var ev = document.getElementById('examView');
+        if(ev && !ev.hidden && !a.dataset.armed){ e.preventDefault(); a.dataset.armed = '1'; var t = a.textContent; a.textContent = t + ' ⚠'; a.title = LANG_WARN; setTimeout(function(){ a.textContent = t; delete a.dataset.armed; }, 4000); alertLang(); }
+      });
+    })(links[i]); }
+    var pref = null; try{ pref = localStorage.getItem('a2-lang'); }catch(e){}
+    if(pref) return;
+    var bl = ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0,2).toLowerCase();
+    if(bl === 'cs' || !SUG[bl] || bl === PAGE_LANG) return;
+    var bar = document.getElementById('langsug'); bar.hidden = false;
+    document.getElementById('langsugT').textContent = SUG[bl][0];
+    var A = document.getElementById('langsugA'); A.textContent = SUG[bl][1] + ' →'; A.href = URLS[bl];
+    A.addEventListener('click', function(){ try{ localStorage.setItem('a2-lang', bl); }catch(e){} });
+    document.getElementById('langsugX').addEventListener('click', function(){ bar.hidden = true; try{ localStorage.setItem('a2-lang', PAGE_LANG); }catch(e){} });
+  });
+  var LANG_WARN = 'Відповіді поточного іспиту зникнуть. Натисніть ще раз, щоб змінити мову.';
+  function alertLang(){ var n = document.getElementById('langwarn'); if(!n){ n = document.createElement('div'); n.id = 'langwarn'; n.className = 'langwarn'; document.body.appendChild(n); } n.textContent = LANG_WARN; n.hidden = false; clearTimeout(n._t); n._t = setTimeout(function(){ n.hidden = true; }, 4000); }
+})();
+(function(){
   var ua = navigator.userAgent || '', url = 'https://andre-kuvich14g.github.io/zkouska-a2/';
   var apps = [['Facebook', /FBAN|FBAV|FB_IAB|FBIOS|FB4A/i], ['Messenger', /Messenger|Orca/i], ['Instagram', /Instagram/i], ['Viber', /Viber/i], ['TikTok', /musical_ly|TikTok|BytedanceWebview/i], ['LinkedIn', /LinkedInApp/i], ['Snapchat', /Snapchat/i], ['Line', /\bLine\//i], ['WhatsApp', /WhatsApp/i]];
   var app = null; for (var i = 0; i < apps.length; i++) if (apps[i][1].test(ua)) { app = apps[i][0]; break; }
@@ -361,9 +403,11 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 </div>
 
 
+<div class="langsug" id="langsug" hidden><span id="langsugT"></span> <a id="langsugA" href="#"></a> <button type="button" class="btn sm" id="langsugX" aria-label="Закрити">✕</button></div>
 <div class="wrap">
   <div class="top">
     <div class="brand"><span class="eyebrow">Trvalý pobyt · úroveň A2 · nový formát od 11. 4. 2026</span><b>Zkouška A2 nanečisto</b></div>
+    <nav class="langs" id="langs" aria-label="Мова інтерфейсу"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav>
     <div class="top-actions" id="topActions" hidden>
       <span class="code" id="codeLabel"></span>
       <button class="btn sm" id="newBtn" type="button">Новий іспит</button>
@@ -375,6 +419,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
     <div class="sheet">
       <div class="hero">
         <h1>Тренувальний іспит A2 з чеської для постійного проживання</h1>
+        <p class="langhint">🌐 Мову підказок і пояснень можна змінити вгорі праворуч: UA · EN · RU · VI.</p>
         <p>Кожного разу збирається новий іспит із 20 варіантів: кожне завдання береться з випадкового варіанта, а відповіді перемішуються. Структура, кількість завдань, бали й час такі самі, як на офіційному іспиті NPI ČR.</p>
       </div>
       <div class="struct">
