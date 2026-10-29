@@ -252,6 +252,13 @@ body.hide-q .qtext{visibility:hidden}
 .langsug{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:8px 16px;background:var(--accent-soft);font-size:.92rem}
 .langsug a{font-weight:600}
 .langwarn{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;max-width:min(92vw,460px);background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:8px;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.analysis{border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;background:var(--soft);display:grid;gap:6px}
+.analysis h3{margin:0 0 4px;font-size:1.1rem}
+.analysis h4{margin:10px 0 2px;font-size:.95rem}
+.an-list,.an-tips{margin:0;padding-left:18px;display:grid;gap:6px;line-height:1.45}
+.an-tips span{color:var(--muted);font-size:.92rem}
+.ok-t{color:var(--ok)} .bad-t{color:var(--mark)} .warn-t{color:var(--warn)}
+.an-alert{margin:4px 0;padding:8px 12px;border-radius:6px;background:var(--mark-soft);color:var(--ink)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -831,6 +838,72 @@ function renderHistory(){
 renderHistory();
 
 /* ---------- results ---------- */
+const TIPS = {
+  r1: 'Ищите в тексте слово, прямо связанное с картинкой: место, предмет или услугу. Три текста лишние, не подгоняйте ответ.',
+  r2: 'Сначала прочитайте вопрос, потом ищите ответ в тексте. Ловушки: числа, дни и время, которые в тексте относятся к чему-то другому.',
+  r3: 'У каждого человека найдите главную потребность (что, когда, для кого) и сравнивайте с объявлением по всем условиям сразу.',
+  r4: 'Читайте всё предложение вокруг пропуска: слово должно подходить и по смыслу, и по грамматической форме.',
+  r5: 'Ответ — одно слово или число из текста или таблицы. Проверьте, подходит ли форма к предложению, и пишите с диакритикой.',
+  w1: 'На каждый вопрос минимум 10 слов, полными предложениями. Отвечайте именно на то, что спрашивают: кто, когда, почему.',
+  w2: 'Минимум 35 слов, иначе 0 баллов. Приветствие, цель письма, по предложению на каждую из 5 картинок, прощание и подпись.',
+  l1: 'В диалогах часто сначала звучит неправильный вариант, а потом решение меняется. Слушайте до конца и ловите слова «ale», «tak», «ne… ale».',
+  l2: 'В объявлениях звучит несколько чисел и мест. Перед прослушиванием прочитайте вопрос, чтобы знать, что именно ловить.',
+  l3: 'Слушайте, что человек делает сейчас («teď», «nově»), а не что делал раньше. Два варианта лишние.',
+  l4: 'Ищите цель: что человеку нужно (лекарства, деньги, отправить посылку). Места вроде «vedle banky» — только ориентиры.',
+  l5: 'Во время первого прослушивания записывайте коротко, во время второго проверяйте. Числа диктуют группами, поэтому тренируйте числительные.',
+  s1: 'Отвечайте полными предложениями, 1–2 предложения на вопрос, в правильном времени: прошедшем, настоящем или будущем.',
+  s2: 'Задавайте 4 вопроса в правильной форме: «Kolik stojí…?», «Kdy…?», «Můžu…?». Последний вопрос придумайте сами.',
+  s3: 'Рассказывайте в прошедшем времени, по 2–3 предложения к каждой из 4 картинок. Помогут слова nejdřív, potom, nakonec.',
+  s4: 'Предложите вариант, отреагируйте на отказ, предложите другой и объясните «protože…». Обращайтесь на «ты».',
+  ph: 'Читайте вслух, записывайте себя и сравнивайте с образцом. Внимание на долгие гласные (á, í, ů) и звук ř.'
+};
+function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
+  const has = k => RES[k] != null;
+  const done = rows.concat(srows).filter(r => has(r[1]) && (r[1][0] !== 'w' || RES[r[1] + 'set']) && (r[1][0] !== 's' && r[1] !== 'ph' || RES.speakSet));
+  if(!done.length) return '';
+  const pct = r => RES[r[1]] / r[2];
+  const P = x => Math.round(x * 100) + ' %';
+  let h = `<div class="analysis"><h3>📋 Анализ и рекомендации</h3>`;
+  const verdict = (name, got, min, isDone) => {
+    if(!isDone) return '';
+    const d = got - min;
+    if(d >= 0) return `<li><b class="ok-t">${name}: сдал</b> · запас +${d} б.${d < 5 ? ' <span class="warn-t">Запас маленький: на настоящем экзамене одна-две ошибки могут всё изменить.</span>' : ''}</li>`;
+    return `<li><b class="bad-t">${name}: не сдал</b> · не хватило ${-d} б. до ${min}.</li>`;
+  };
+  const v = verdict('Písemná část', wr, 42, writtenDone) + verdict('Ústní část', sp, 24, oralDone);
+  if(v) h += `<ul class="an-list">${v}</ul>`;
+  // written sections
+  const sec = [['Čtení', ['r1','r2','r3','r4','r5'], 25], ['Psaní', ['w1','w2'], 20], ['Poslech', ['l1','l2','l3','l4','l5'], 25]]
+    .filter(x => x[1].every(k => done.some(r => r[1] === k)))
+    .map(x => ({name: x[0], got: x[1].reduce((t,k) => t + RES[k], 0), max: x[2]}));
+  if(sec.length > 1){
+    const worst = sec.slice().sort((a,b) => a.got/a.max - b.got/b.max)[0];
+    h += `<h4>Части письменного экзамена</h4><ul class="an-list">${sec.map(x => `<li>${x.name}: ${x.got} / ${x.max} (${P(x.got/x.max)})${x === worst && x.got/x.max < 0.85 ? ' <b class="warn-t">← самая слабая часть</b>' : ''}</li>`).join('')}</ul>`;
+  }
+  const weak = done.filter(r => pct(r) < 0.6).sort((a,b) => pct(a) - pct(b));
+  const mid = done.filter(r => pct(r) >= 0.6 && pct(r) < 0.8).sort((a,b) => pct(a) - pct(b));
+  const strong = done.filter(r => pct(r) === 1);
+  if(RES.w2zero) h += `<p class="an-alert">⚠️ Ваш e-mail короче 35 слов. На экзамене это автоматически 0 из 12 баллов, самая дорогая ошибка письменной части.</p>`;
+  if(weak.length){
+    h += `<h4>Слабые места: на что обратить внимание</h4><ul class="an-tips">${weak.slice(0,6).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>${weak.length > 6 ? `<p class="small muted">Ещё заданий ниже 60 %: ${weak.length - 6}. Все баллы — в таблице ниже.</p>` : ''}`;
+  }
+  if(mid.length){
+    h += `<h4>Стоит подтянуть</h4><ul class="an-tips">${mid.slice(0,4).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>`;
+  }
+  if(strong.length) h += `<h4>Сильные стороны</h4><p class="small">${strong.map(r => r[0]).join(' · ')}: без ошибок 👍</p>`;
+  const next = [];
+  if(weak.length) next.push('Начните со слабых мест выше: пройдите их ещё раз в режиме «Тренировка» и внимательно прочитайте пояснения «Почему так» к каждой ошибке.');
+  if(overall && wr >= 42 && sp >= 24){
+    if(MODE === 'practice') next.push('Вы сдали в режиме тренировки. Теперь попробуйте режим «Экзамен» с таймером и одним прослушиванием, чтобы проверить себя в реальных условиях.');
+    else next.push((wr - 42 < 5 || sp - 24 < 5) ? 'Вы сдали, но с небольшим запасом. Пройдите ещё 2–3 экзамена с другими вариантами, чтобы запас был хотя бы 5 баллов.' : 'Отличный результат! Для уверенности пройдите ещё 2–3 экзамена с другими вариантами.');
+  } else if(overall){
+    next.push('Не расстраивайтесь: пробный экзамен и нужен, чтобы найти слабые места. Позанимайтесь ими несколько дней и повторите экзамен с новыми вариантами.');
+  }
+  if(!overall) next.push('Чтобы получить полный анализ, завершите все четыре части и поставьте самооценку за письмо и говорение.');
+  if(done.some(r => r[1][0] === 'w' || r[1][0] === 's' || r[1] === 'ph')) next.push('Письмо и говорение вы оценивали сами. Если можете, покажите свои тексты или записи учителю или носителю языка.');
+  h += `<h4>Что делать дальше</h4><ul class="an-list">${next.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+  return h;
+}
 function renderResults(){
   saveAttempt();
   const has = k => RES[k] != null;
@@ -850,6 +923,7 @@ function renderResults(){
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">код экзамена ${E.seed}</span></div>
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Экзамен сдан. Обе части выше 60 %.' : 'Экзамен не сдан. Нужно 60 % в каждой части отдельно.'}</b></div>` : '<p class="ua">Итог появится, когда вы проверите все четыре части и поставите самооценку за письмо и говорение.</p>'}
+    ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>Из каких вариантов составлен этот экзамен</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: вариант ${E.src[s]+1}`).join(' · ')}</p></details>
     <div class="controls"><button class="btn primary" type="button" id="againBtn">Новый экзамен</button><span class="small muted">Чтобы повторить именно этот экзамен, введите код ${E.seed} на стартовой странице.</span></div>`;

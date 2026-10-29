@@ -252,6 +252,13 @@ body.hide-q .qtext{visibility:hidden}
 .langsug{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:8px 16px;background:var(--accent-soft);font-size:.92rem}
 .langsug a{font-weight:600}
 .langwarn{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;max-width:min(92vw,460px);background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:8px;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.analysis{border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;background:var(--soft);display:grid;gap:6px}
+.analysis h3{margin:0 0 4px;font-size:1.1rem}
+.analysis h4{margin:10px 0 2px;font-size:.95rem}
+.an-list,.an-tips{margin:0;padding-left:18px;display:grid;gap:6px;line-height:1.45}
+.an-tips span{color:var(--muted);font-size:.92rem}
+.ok-t{color:var(--ok)} .bad-t{color:var(--mark)} .warn-t{color:var(--warn)}
+.an-alert{margin:4px 0;padding:8px 12px;border-radius:6px;background:var(--mark-soft);color:var(--ink)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -831,6 +838,72 @@ function renderHistory(){
 renderHistory();
 
 /* ---------- results ---------- */
+const TIPS = {
+  r1: 'Tìm trong đoạn văn từ liên quan trực tiếp đến bức tranh: địa điểm, đồ vật hoặc dịch vụ. Có ba đoạn thừa, đừng cố ghép cho bằng được.',
+  r2: 'Đọc câu hỏi trước, rồi tìm câu trả lời trong bài. Bẫy: các con số, ngày và giờ trong bài nói về việc khác.',
+  r3: 'Tìm nhu cầu chính của mỗi người (cái gì, khi nào, cho ai) và so với thông báo theo tất cả điều kiện cùng lúc.',
+  r4: 'Đọc cả câu quanh chỗ trống: từ phải hợp cả về nghĩa lẫn về dạng ngữ pháp.',
+  r5: 'Đáp án là một từ hoặc một số trong bài hoặc trong bảng. Kiểm tra dạng từ có hợp với câu không và viết đủ dấu.',
+  w1: 'Mỗi câu hỏi tối thiểu 10 từ, viết thành câu hoàn chỉnh. Trả lời đúng điều được hỏi: ai, khi nào, vì sao.',
+  w2: 'Tối thiểu 35 từ, nếu không được 0 điểm. Lời chào, mục đích thư, mỗi bức tranh một câu, lời kết và chữ ký.',
+  l1: 'Trong hội thoại, phương án sai thường được nói trước rồi người nói đổi ý. Hãy nghe đến cuối và chú ý các từ «ale», «tak», «ne… ale».',
+  l2: 'Thông báo có nhiều con số và địa điểm. Đọc câu hỏi trước khi nghe để biết cần bắt thông tin gì.',
+  l3: 'Nghe xem người đó bây giờ làm gì («teď», «nově»), không phải trước đây. Có hai phương án thừa.',
+  l4: 'Tìm mục đích: người đó cần gì (thuốc, tiền, gửi bưu kiện). Các địa điểm như «vedle banky» chỉ là mốc chỉ đường.',
+  l5: 'Lần nghe đầu ghi chép ngắn, lần nghe thứ hai kiểm tra lại. Số được đọc theo nhóm, hãy luyện số đếm.',
+  s1: 'Trả lời bằng câu hoàn chỉnh, 1–2 câu cho mỗi câu hỏi, đúng thì: quá khứ, hiện tại hoặc tương lai.',
+  s2: 'Đặt 4 câu hỏi đúng dạng: «Kolik stojí…?», «Kdy…?», «Můžu…?». Câu cuối tự nghĩ ra.',
+  s3: 'Kể ở thì quá khứ, mỗi bức tranh 2–3 câu. Các từ nejdřív, potom, nakonec sẽ giúp bạn.',
+  s4: 'Đề xuất một phương án, phản hồi khi bị từ chối, đề xuất phương án khác và giải thích «protože…». Xưng hô thân mật (ty).',
+  ph: 'Đọc to, ghi âm và so sánh với bài mẫu. Chú ý nguyên âm dài (á, í, ů) và âm ř.'
+};
+function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
+  const has = k => RES[k] != null;
+  const done = rows.concat(srows).filter(r => has(r[1]) && (r[1][0] !== 'w' || RES[r[1] + 'set']) && (r[1][0] !== 's' && r[1] !== 'ph' || RES.speakSet));
+  if(!done.length) return '';
+  const pct = r => RES[r[1]] / r[2];
+  const P = x => Math.round(x * 100) + ' %';
+  let h = `<div class="analysis"><h3>📋 Phân tích và lời khuyên</h3>`;
+  const verdict = (name, got, min, isDone) => {
+    if(!isDone) return '';
+    const d = got - min;
+    if(d >= 0) return `<li><b class="ok-t">${name}: đỗ</b> · dư +${d} điểm${d < 5 ? ' <span class="warn-t">Mức dư nhỏ: khi thi thật, một hai lỗi có thể thay đổi kết quả.</span>' : ''}</li>`;
+    return `<li><b class="bad-t">${name}: trượt</b> · còn thiếu ${-d} điểm để đạt ${min}.</li>`;
+  };
+  const v = verdict('Písemná část', wr, 42, writtenDone) + verdict('Ústní část', sp, 24, oralDone);
+  if(v) h += `<ul class="an-list">${v}</ul>`;
+  // written sections
+  const sec = [['Čtení', ['r1','r2','r3','r4','r5'], 25], ['Psaní', ['w1','w2'], 20], ['Poslech', ['l1','l2','l3','l4','l5'], 25]]
+    .filter(x => x[1].every(k => done.some(r => r[1] === k)))
+    .map(x => ({name: x[0], got: x[1].reduce((t,k) => t + RES[k], 0), max: x[2]}));
+  if(sec.length > 1){
+    const worst = sec.slice().sort((a,b) => a.got/a.max - b.got/b.max)[0];
+    h += `<h4>Các phần của bài thi viết</h4><ul class="an-list">${sec.map(x => `<li>${x.name}: ${x.got} / ${x.max} (${P(x.got/x.max)})${x === worst && x.got/x.max < 0.85 ? ' <b class="warn-t">← phần yếu nhất</b>' : ''}</li>`).join('')}</ul>`;
+  }
+  const weak = done.filter(r => pct(r) < 0.6).sort((a,b) => pct(a) - pct(b));
+  const mid = done.filter(r => pct(r) >= 0.6 && pct(r) < 0.8).sort((a,b) => pct(a) - pct(b));
+  const strong = done.filter(r => pct(r) === 1);
+  if(RES.w2zero) h += `<p class="an-alert">⚠️ E-mail của bạn ngắn hơn 35 từ. Khi thi sẽ tự động bị 0/12 điểm, lỗi đắt nhất của phần viết.</p>`;
+  if(weak.length){
+    h += `<h4>Điểm yếu: cần chú ý gì</h4><ul class="an-tips">${weak.slice(0,6).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>${weak.length > 6 ? `<p class="small muted">Số phần khác dưới 60 %: ${weak.length - 6}. Toàn bộ điểm có trong bảng bên dưới.</p>` : ''}`;
+  }
+  if(mid.length){
+    h += `<h4>Nên cải thiện</h4><ul class="an-tips">${mid.slice(0,4).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>`;
+  }
+  if(strong.length) h += `<h4>Điểm mạnh</h4><p class="small">${strong.map(r => r[0]).join(' · ')}: không sai câu nào 👍</p>`;
+  const next = [];
+  if(weak.length) next.push('Hãy bắt đầu từ các điểm yếu ở trên: làm lại ở chế độ Luyện tập và đọc kỹ phần “Vì sao” cho từng lỗi.');
+  if(overall && wr >= 42 && sp >= 24){
+    if(MODE === 'practice') next.push('Bạn đã đỗ ở chế độ Luyện tập. Giờ hãy thử chế độ Thi có đồng hồ và chỉ nghe một lượt để tự kiểm tra như thi thật.');
+    else next.push((wr - 42 < 5 || sp - 24 < 5) ? 'Bạn đã đỗ nhưng mức dư nhỏ. Làm thêm 2–3 bài với đề khác để dư ít nhất 5 điểm.' : 'Kết quả rất tốt! Để chắc chắn, hãy làm thêm 2–3 bài với đề khác.');
+  } else if(overall){
+    next.push('Đừng nản: bài thi thử chính là để tìm ra điểm yếu. Hãy luyện các phần đó vài ngày rồi thi lại với đề mới.');
+  }
+  if(!overall) next.push('Để có phân tích đầy đủ, hãy hoàn thành cả bốn phần và tự chấm phần viết và nói.');
+  if(done.some(r => r[1][0] === 'w' || r[1][0] === 's' || r[1] === 'ph')) next.push('Phần viết và nói là bạn tự chấm. Nếu có thể, hãy cho giáo viên hoặc người bản xứ xem bài viết hoặc bản ghi âm.');
+  h += `<h4>Làm gì tiếp theo</h4><ul class="an-list">${next.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+  return h;
+}
 function renderResults(){
   saveAttempt();
   const has = k => RES[k] != null;
@@ -850,6 +923,7 @@ function renderResults(){
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">mã bài thi ${E.seed}</span></div>
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Đã đỗ. Cả hai phần đều trên 60 %.' : 'Chưa đỗ. Cần đạt 60 % ở từng phần riêng.'}</b></div>` : '<p class="ua">Kết quả sẽ hiện khi bạn đã chấm cả bốn phần và tự chấm phần viết và nói.</p>'}
+    ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>Bài thi này được ghép từ những đề nào</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: đề ${E.src[s]+1}`).join(' · ')}</p></details>
     <div class="controls"><button class="btn primary" type="button" id="againBtn">Bài thi mới</button><span class="small muted">Để làm lại đúng bài thi này, nhập mã ${E.seed} ở trang đầu.</span></div>`;

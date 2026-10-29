@@ -252,6 +252,13 @@ body.hide-q .qtext{visibility:hidden}
 .langsug{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:8px 16px;background:var(--accent-soft);font-size:.92rem}
 .langsug a{font-weight:600}
 .langwarn{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;max-width:min(92vw,460px);background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:8px;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.analysis{border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;background:var(--soft);display:grid;gap:6px}
+.analysis h3{margin:0 0 4px;font-size:1.1rem}
+.analysis h4{margin:10px 0 2px;font-size:.95rem}
+.an-list,.an-tips{margin:0;padding-left:18px;display:grid;gap:6px;line-height:1.45}
+.an-tips span{color:var(--muted);font-size:.92rem}
+.ok-t{color:var(--ok)} .bad-t{color:var(--mark)} .warn-t{color:var(--warn)}
+.an-alert{margin:4px 0;padding:8px 12px;border-radius:6px;background:var(--mark-soft);color:var(--ink)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -831,6 +838,72 @@ function renderHistory(){
 renderHistory();
 
 /* ---------- results ---------- */
+const TIPS = {
+  r1: 'Look for a word in the text that is directly linked to the picture: a place, an object or a service. Three texts are extra, so do not force an answer.',
+  r2: 'Read the question first, then look for the answer in the text. Traps: numbers, days and times that refer to something else in the text.',
+  r3: 'Find each person’s main need (what, when, for whom) and compare it with the advert on all conditions at once.',
+  r4: 'Read the whole sentence around the gap: the word must fit both the meaning and the grammatical form.',
+  r5: 'The answer is one word or number from the text or the table. Check that the form fits the sentence and write with diacritics.',
+  w1: 'At least 10 words for each question, in full sentences. Answer exactly what is asked: who, when, why.',
+  w2: 'At least 35 words, otherwise 0 points. A greeting, the purpose of the e-mail, one sentence for each of the 5 pictures, a closing and a signature.',
+  l1: 'In dialogues the wrong option is often mentioned first and then the decision changes. Listen to the end and catch the words «ale», «tak», «ne… ale».',
+  l2: 'Announcements mention several numbers and places. Read the question before listening so you know what to catch.',
+  l3: 'Listen for what the person does now («teď», «nově»), not what they did before. Two options are extra.',
+  l4: 'Look for the goal: what the person needs (medicine, money, to send a parcel). Places like «vedle banky» are only landmarks.',
+  l5: 'During the first listening take short notes, during the second check them. Numbers are dictated in groups, so practise numerals.',
+  s1: 'Answer in full sentences, 1–2 sentences per question, in the right tense: past, present or future.',
+  s2: 'Ask 4 questions in the correct form: «Kolik stojí…?», «Kdy…?», «Můžu…?». Make up the last question yourself.',
+  s3: 'Tell the story in the past tense, 2–3 sentences for each of the 4 pictures. The words nejdřív, potom, nakonec help.',
+  s4: 'Suggest an option, react to the refusal, suggest another one and explain «protože…». Use the informal «ty».',
+  ph: 'Read aloud, record yourself and compare with the sample. Pay attention to long vowels (á, í, ů) and the sound ř.'
+};
+function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
+  const has = k => RES[k] != null;
+  const done = rows.concat(srows).filter(r => has(r[1]) && (r[1][0] !== 'w' || RES[r[1] + 'set']) && (r[1][0] !== 's' && r[1] !== 'ph' || RES.speakSet));
+  if(!done.length) return '';
+  const pct = r => RES[r[1]] / r[2];
+  const P = x => Math.round(x * 100) + ' %';
+  let h = `<div class="analysis"><h3>📋 Analysis and recommendations</h3>`;
+  const verdict = (name, got, min, isDone) => {
+    if(!isDone) return '';
+    const d = got - min;
+    if(d >= 0) return `<li><b class="ok-t">${name}: passed</b> · margin +${d} pts${d < 5 ? ' <span class="warn-t">The margin is small: in the real exam one or two mistakes can change everything.</span>' : ''}</li>`;
+    return `<li><b class="bad-t">${name}: not passed</b> · missing ${-d} pts to reach ${min}.</li>`;
+  };
+  const v = verdict('Písemná část', wr, 42, writtenDone) + verdict('Ústní část', sp, 24, oralDone);
+  if(v) h += `<ul class="an-list">${v}</ul>`;
+  // written sections
+  const sec = [['Čtení', ['r1','r2','r3','r4','r5'], 25], ['Psaní', ['w1','w2'], 20], ['Poslech', ['l1','l2','l3','l4','l5'], 25]]
+    .filter(x => x[1].every(k => done.some(r => r[1] === k)))
+    .map(x => ({name: x[0], got: x[1].reduce((t,k) => t + RES[k], 0), max: x[2]}));
+  if(sec.length > 1){
+    const worst = sec.slice().sort((a,b) => a.got/a.max - b.got/b.max)[0];
+    h += `<h4>Parts of the written exam</h4><ul class="an-list">${sec.map(x => `<li>${x.name}: ${x.got} / ${x.max} (${P(x.got/x.max)})${x === worst && x.got/x.max < 0.85 ? ' <b class="warn-t">← weakest part</b>' : ''}</li>`).join('')}</ul>`;
+  }
+  const weak = done.filter(r => pct(r) < 0.6).sort((a,b) => pct(a) - pct(b));
+  const mid = done.filter(r => pct(r) >= 0.6 && pct(r) < 0.8).sort((a,b) => pct(a) - pct(b));
+  const strong = done.filter(r => pct(r) === 1);
+  if(RES.w2zero) h += `<p class="an-alert">⚠️ Your e-mail is shorter than 35 words. In the exam that means 0 of 12 points automatically, the most expensive mistake in the written part.</p>`;
+  if(weak.length){
+    h += `<h4>Weak spots: what to focus on</h4><ul class="an-tips">${weak.slice(0,6).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>${weak.length > 6 ? `<p class="small muted">More tasks below 60 %: ${weak.length - 6}. All points are in the table below.</p>` : ''}`;
+  }
+  if(mid.length){
+    h += `<h4>Worth improving</h4><ul class="an-tips">${mid.slice(0,4).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>`;
+  }
+  if(strong.length) h += `<h4>Strengths</h4><p class="small">${strong.map(r => r[0]).join(' · ')}: no mistakes 👍</p>`;
+  const next = [];
+  if(weak.length) next.push('Start with the weak spots above: do them again in Practice mode and read the “Why” explanation for every mistake carefully.');
+  if(overall && wr >= 42 && sp >= 24){
+    if(MODE === 'practice') next.push('You passed in Practice mode. Now try Exam mode with the timer and a single play of each recording to test yourself in real conditions.');
+    else next.push((wr - 42 < 5 || sp - 24 < 5) ? 'You passed, but with a small margin. Do 2–3 more exams with other variants so that your margin is at least 5 points.' : 'Great result! For confidence, do 2–3 more exams with other variants.');
+  } else if(overall){
+    next.push('Don’t be discouraged: a practice exam is there to find your weak spots. Work on them for a few days and repeat the exam with new variants.');
+  }
+  if(!overall) next.push('For a full analysis, finish all four parts and score your writing and speaking.');
+  if(done.some(r => r[1][0] === 'w' || r[1][0] === 's' || r[1] === 'ph')) next.push('You scored writing and speaking yourself. If you can, show your texts or recordings to a teacher or a native speaker.');
+  h += `<h4>What to do next</h4><ul class="an-list">${next.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+  return h;
+}
 function renderResults(){
   saveAttempt();
   const has = k => RES[k] != null;
@@ -850,6 +923,7 @@ function renderResults(){
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">exam code ${E.seed}</span></div>
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Exam passed. Both parts are above 60 %.' : 'Exam not passed. You need 60 % in each part separately.'}</b></div>` : '<p class="ua">The result will appear when you have checked all four parts and scored your writing and speaking.</p>'}
+    ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>Which variants this exam was built from</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: variant ${E.src[s]+1}`).join(' · ')}</p></details>
     <div class="controls"><button class="btn primary" type="button" id="againBtn">New exam</button><span class="small muted">To repeat exactly this exam, enter the code ${E.seed} on the start page.</span></div>`;

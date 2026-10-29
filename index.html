@@ -252,6 +252,13 @@ body.hide-q .qtext{visibility:hidden}
 .langsug{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:8px 16px;background:var(--accent-soft);font-size:.92rem}
 .langsug a{font-weight:600}
 .langwarn{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;max-width:min(92vw,460px);background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:8px;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.analysis{border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;background:var(--soft);display:grid;gap:6px}
+.analysis h3{margin:0 0 4px;font-size:1.1rem}
+.analysis h4{margin:10px 0 2px;font-size:.95rem}
+.an-list,.an-tips{margin:0;padding-left:18px;display:grid;gap:6px;line-height:1.45}
+.an-tips span{color:var(--muted);font-size:.92rem}
+.ok-t{color:var(--ok)} .bad-t{color:var(--mark)} .warn-t{color:var(--warn)}
+.an-alert{margin:4px 0;padding:8px 12px;border-radius:6px;background:var(--mark-soft);color:var(--ink)}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -831,6 +838,72 @@ function renderHistory(){
 renderHistory();
 
 /* ---------- results ---------- */
+const TIPS = {
+  r1: 'Шукайте в тексті слово, яке прямо пов’язане з картинкою: місце, предмет чи послугу. Три тексти зайві, не підганяйте відповідь.',
+  r2: 'Спершу прочитайте питання, потім шукайте відповідь у тексті. Пастки: числа, дні й час, які в тексті стосуються чогось іншого.',
+  r3: 'У кожної людини знайдіть головну потребу (що, коли, для кого) і порівнюйте з оголошенням за всіма умовами одразу.',
+  r4: 'Читайте все речення навколо пропуску: слово має підходити і за змістом, і за граматичною формою.',
+  r5: 'Відповідь — одне слово або число з тексту чи таблиці. Перевірте, чи форма підходить до речення, і пишіть з діакритикою.',
+  w1: 'На кожне питання щонайменше 10 слів, цілими реченнями. Відповідайте саме на те, що питають: хто, коли, чому.',
+  w2: 'Мінімум 35 слів, інакше 0 балів. Привітання, мета листа, по реченню на кожну з 5 картинок, прощання й підпис.',
+  l1: 'У діалогах часто спершу звучить неправильний варіант, а потім рішення змінюється. Слухайте до кінця й ловіть слова «ale», «tak», «ne… ale».',
+  l2: 'В оголошеннях звучить кілька чисел і місць. Перед прослуховуванням прочитайте питання, щоб знати, що саме ловити.',
+  l3: 'Слухайте, що людина робить тепер («teď», «nově»), а не що робила раніше. Два варіанти зайві.',
+  l4: 'Шукайте мету: що людині потрібно (ліки, гроші, відправити посилку). Місця на кшталт «vedle banky» — лише орієнтири.',
+  l5: 'Під час першого прослуховування записуйте коротко, під час другого перевіряйте. Числа диктують групами, тож тренуйте числівники.',
+  s1: 'Відповідайте повними реченнями, 1–2 речення на питання, у правильному часі: минулому, теперішньому чи майбутньому.',
+  s2: 'Ставте 4 питання в правильній формі: «Kolik stojí…?», «Kdy…?», «Můžu…?». Останнє питання придумайте самі.',
+  s3: 'Розповідайте в минулому часі, по 2–3 речення до кожної з 4 картинок. Допоможуть слова nejdřív, potom, nakonec.',
+  s4: 'Запропонуйте варіант, відреагуйте на відмову, запропонуйте інший і поясніть «protože…». Звертайтеся на «ти».',
+  ph: 'Читайте вголос, записуйте себе й порівнюйте зі зразком. Увага на довгі голосні (á, í, ů) і звук ř.'
+};
+function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
+  const has = k => RES[k] != null;
+  const done = rows.concat(srows).filter(r => has(r[1]) && (r[1][0] !== 'w' || RES[r[1] + 'set']) && (r[1][0] !== 's' && r[1] !== 'ph' || RES.speakSet));
+  if(!done.length) return '';
+  const pct = r => RES[r[1]] / r[2];
+  const P = x => Math.round(x * 100) + ' %';
+  let h = `<div class="analysis"><h3>📋 Аналіз і рекомендації</h3>`;
+  const verdict = (name, got, min, isDone) => {
+    if(!isDone) return '';
+    const d = got - min;
+    if(d >= 0) return `<li><b class="ok-t">${name}: склав</b> · запас +${d} б.${d < 5 ? ' <span class="warn-t">Запас малий: на справжньому іспиті одна-дві помилки можуть усе змінити.</span>' : ''}</li>`;
+    return `<li><b class="bad-t">${name}: не склав</b> · не вистачило ${-d} б. до ${min}.</li>`;
+  };
+  const v = verdict('Písemná část', wr, 42, writtenDone) + verdict('Ústní část', sp, 24, oralDone);
+  if(v) h += `<ul class="an-list">${v}</ul>`;
+  // written sections
+  const sec = [['Čtení', ['r1','r2','r3','r4','r5'], 25], ['Psaní', ['w1','w2'], 20], ['Poslech', ['l1','l2','l3','l4','l5'], 25]]
+    .filter(x => x[1].every(k => done.some(r => r[1] === k)))
+    .map(x => ({name: x[0], got: x[1].reduce((t,k) => t + RES[k], 0), max: x[2]}));
+  if(sec.length > 1){
+    const worst = sec.slice().sort((a,b) => a.got/a.max - b.got/b.max)[0];
+    h += `<h4>Частини письмового іспиту</h4><ul class="an-list">${sec.map(x => `<li>${x.name}: ${x.got} / ${x.max} (${P(x.got/x.max)})${x === worst && x.got/x.max < 0.85 ? ' <b class="warn-t">← найслабша частина</b>' : ''}</li>`).join('')}</ul>`;
+  }
+  const weak = done.filter(r => pct(r) < 0.6).sort((a,b) => pct(a) - pct(b));
+  const mid = done.filter(r => pct(r) >= 0.6 && pct(r) < 0.8).sort((a,b) => pct(a) - pct(b));
+  const strong = done.filter(r => pct(r) === 1);
+  if(RES.w2zero) h += `<p class="an-alert">⚠️ Ваш e-mail коротший за 35 слів. На іспиті це автоматично 0 з 12 балів, найдорожча помилка письмової частини.</p>`;
+  if(weak.length){
+    h += `<h4>Слабкі місця: на що звернути увагу</h4><ul class="an-tips">${weak.slice(0,6).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>${weak.length > 6 ? `<p class="small muted">Ще завдань нижче 60 %: ${weak.length - 6}. Усі бали — у таблиці нижче.</p>` : ''}`;
+  }
+  if(mid.length){
+    h += `<h4>Варто підтягнути</h4><ul class="an-tips">${mid.slice(0,4).map(r => `<li><b>${r[0]}</b> · ${RES[r[1]]} / ${r[2]}<br><span>${esc(TIPS[r[1]] || '')}</span></li>`).join('')}</ul>`;
+  }
+  if(strong.length) h += `<h4>Сильні сторони</h4><p class="small">${strong.map(r => r[0]).join(' · ')}: без помилок 👍</p>`;
+  const next = [];
+  if(weak.length) next.push('Почніть зі слабких місць угорі: пройдіть їх ще раз у режимі «Тренування» й уважно прочитайте пояснення «Чому так» до кожної помилки.');
+  if(overall && wr >= 42 && sp >= 24){
+    if(MODE === 'practice') next.push('Ви склали в режимі тренування. Тепер спробуйте режим «Іспит» з таймером і одним прослуховуванням, щоб перевірити себе в реальних умовах.');
+    else next.push((wr - 42 < 5 || sp - 24 < 5) ? 'Ви склали, але з невеликим запасом. Пройдіть ще 2–3 іспити з іншими варіантами, щоб запас був хоча б 5 балів.' : 'Чудовий результат! Для впевненості пройдіть ще 2–3 іспити з іншими варіантами.');
+  } else if(overall){
+    next.push('Не засмучуйтесь: тренувальний іспит і потрібен, щоб знайти слабкі місця. Позаймайтеся ними кілька днів і повторіть іспит з новими варіантами.');
+  }
+  if(!overall) next.push('Щоб отримати повний аналіз, завершіть усі чотири частини й поставте самооцінку за письмо й мовлення.');
+  if(done.some(r => r[1][0] === 'w' || r[1][0] === 's' || r[1] === 'ph')) next.push('Письмо й мовлення ви оцінювали самі. Якщо можете, покажіть свої тексти чи записи вчителеві або носієві мови.');
+  h += `<h4>Що робити далі</h4><ul class="an-list">${next.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+  return h;
+}
 function renderResults(){
   saveAttempt();
   const has = k => RES[k] != null;
@@ -850,6 +923,7 @@ function renderResults(){
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">код іспиту ${E.seed}</span></div>
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
     ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Іспит складено. Обидві частини вище 60 %.' : 'Іспит не складено. Потрібно 60 % в кожній частині окремо.'}</b></div>` : '<p class="ua">Підсумок з’явиться, коли перевірите всі чотири частини та поставите самооцінку за письмо й мовлення.</p>'}
+    ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>З яких варіантів складено цей іспит</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: варіант ${E.src[s]+1}`).join(' · ')}</p></details>
     <div class="controls"><button class="btn primary" type="button" id="againBtn">Новий іспит</button><span class="small muted">Щоб повторити саме цей іспит, введіть код ${E.seed} на стартовій сторінці.</span></div>`;
