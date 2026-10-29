@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Поширити тренажер A2</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#eef1f6;--sheet:#fff;--ink:#15213a;--muted:#59647a;--rule:#d5dbe6;--accent:#1f4e9c;--accent-soft:#e3ebf8;--ok:#1b7a4b;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#0d121c;--sheet:#151c2a;--ink:#e5e9f1;--muted:#9aa4b8;--rule:#29334a;--accent:#7ea4ff;--accent-soft:#1d2a45;--ok:#5fcf98;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "IBM Plex Sans","Segoe UI",Roboto,Arial,sans-serif;padding:20px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px))}
+main{max-width:720px;margin:0 auto;display:grid;gap:16px}
+h1{font:700 1.5rem/1.2 Bitter,Georgia,serif;margin:0}
+.muted{color:var(--muted);font-size:.92rem}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tabs button{font-family:inherit;font-weight:600;font-size:.95rem;line-height:1;padding:9px 14px;border-radius:999px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.card{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:16px;display:grid;gap:12px}
+.card img{width:100%;max-width:420px;border-radius:8px;justify-self:center;border:1px solid var(--rule)}
+textarea{width:100%;min-height:220px;font-family:inherit;font-size:15px;line-height:1.5;padding:10px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.btn{font-family:inherit;font-weight:600;font-size:1rem;line-height:1;padding:12px 16px;border-radius:8px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.msg{min-height:1.4em;color:var(--ok);font-weight:600}
+.how{background:var(--accent-soft);border-radius:10px;padding:12px 16px;font-size:.94rem}
+.how ol{margin:6px 0 0;padding-left:20px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="./">← На сайт</a></p>
+<h1>Поширити тренажер A2</h1>
+<p class="muted">Виберіть мову, натисніть «Поділитися» і виберіть Viber, Telegram, WhatsApp чи Facebook. Буклет і текст з посиланням підуть разом.</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="card">
+  <img id="img" alt="Рекламний буклет">
+  <label for="txt" class="muted">Текст (можна змінити перед відправкою)</label>
+  <textarea id="txt"></textarea>
+  <div class="btns">
+    <button class="btn primary" type="button" id="share">📤 Поділитися: буклет + текст</button>
+    <button class="btn" type="button" id="copy">📋 Копіювати текст</button>
+    <a class="btn" id="save" download>⬇ Зберегти буклет</a>
+  </div>
+  <div class="msg" id="msg" role="status"></div>
+</div>
+<div class="how">
+  <b>Якщо кнопка «Поділитися» не спрацювала</b> (наприклад, на комп'ютері):
+  <ol><li>Натисніть «Зберегти буклет».</li><li>Натисніть «Копіювати текст».</li><li>У Viber чи Facebook додайте збережене фото й вставте текст під ним.</li></ol>
+  <p class="muted" style="margin:8px 0 0">Facebook іноді не підставляє текст автоматично. Тоді просто вставте його: він уже скопійований.</p>
+</div>
+</main>
+<script>
+const BASE = 'https://andre-kuvich14g.github.io/zkouska-a2/';
+const P = {
+ uk: {name:'Українська', file:'promo/flyer-uk.jpg', text:`🇨🇿 Безкоштовний тренажер іспиту A2 з чеської на постійне проживання (trvalý pobyt) за новим форматом 2026.\n\n✅ читання, письмо, аудіювання, мовлення\n✅ 20 варіантів — щоразу новий іспит\n✅ пояснення відповідей, зразки, аналіз результату\n✅ на телефоні, без реєстрації\n\n👉 ${BASE}\n\n🔊 Для звуку відкривайте в Chrome або Safari.`},
+ ru: {name:'Русский', file:'promo/flyer-ru.jpg', text:`🇨🇿 Бесплатный тренажёр экзамена A2 по чешскому для ПМЖ (trvalý pobyt) по новому формату 2026.\n\n✅ чтение, письмо, аудирование, говорение\n✅ 20 вариантов — каждый раз новый экзамен\n✅ пояснения ответов на русском, образцы, анализ результата\n✅ на телефоне, без регистрации\n\n👉 ${BASE}ru/\n\n🔊 Для звука открывайте в Chrome или Safari.`},
+ en: {name:'English', file:'promo/flyer-en.jpg', text:`🇨🇿 Free online practice test for the Czech A2 exam for permanent residence (trvalý pobyt) – new format from April 2026.\n\n✅ reading, writing, listening, speaking\n✅ 20 variants – a new exam every time\n✅ explanations in English, sample answers, result analysis\n✅ works on your phone, no registration\n\n👉 ${BASE}en/\n\n🔊 For sound, open the link in Chrome or Safari.`},
+ vi: {name:'Tiếng Việt', file:'promo/flyer-vi.jpg', text:`🇨🇿 Luyện thi miễn phí tiếng Séc A2 để xin cư trú dài hạn (trvalý pobyt) – định dạng mới 2026.\n\n✅ đọc, viết, nghe, nói\n✅ 20 đề – mỗi lần một bài thi mới\n✅ giải thích đáp án bằng tiếng Việt, bài mẫu, phân tích kết quả\n✅ trên điện thoại, không cần đăng ký\n\n👉 ${BASE}vi/\n\n🔊 Để nghe âm thanh, hãy mở bằng Chrome hoặc Safari.`},
+ cs: {name:'Česky', file:'promo/flyer-cs.jpg', text:`🇨🇿 Bezplatný online trenažér zkoušky z češtiny A2 pro trvalý pobyt – podle nového formátu od 11. 4. 2026.\n\n✅ čtení, psaní, poslech, mluvení\n✅ 20 variant, každý test je jiný\n✅ režim zkoušky s časem i režim tréninku s vysvětlením odpovědí\n✅ nápovědy ukrajinsky, anglicky, rusky a vietnamsky\n✅ na mobilu, bez registrace\n\nPokud znáte někoho, kdo se na zkoušku připravuje, pošlete mu prosím odkaz:\n👉 ${BASE}\n\n(Neoficiální výukový projekt. Oficiální informace: cestina-pro-cizince.cz)`}
+};
+let cur = 'uk'; try{ const h = location.hash.slice(1); if(P[h]) cur = h; }catch(e){}
+const $ = s => document.querySelector(s), msg = t => { $('#msg').textContent = t; clearTimeout(msg.t); msg.t = setTimeout(() => $('#msg').textContent = '', 4000); };
+function show(k){
+  cur = k; const p = P[k];
+  $('#img').src = p.file; $('#txt').value = p.text; $('#save').href = p.file; $('#save').setAttribute('download', 'zkouska-a2-' + k + '.jpg');
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.k === k)));
+  history.replaceState(null, '', '#' + k);
+}
+$('#tabs').innerHTML = Object.entries(P).map(([k, p]) => `<button type="button" role="tab" data-k="${k}">${p.name}</button>`).join('');
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('button'); if(b) show(b.dataset.k); });
+async function copyText(){ const t = $('#txt').value; try{ await navigator.clipboard.writeText(t); return true; }catch(e){ $('#txt').select(); try{ return document.execCommand('copy'); }catch(err){ return false; } } }
+$('#copy').addEventListener('click', async () => msg(await copyText() ? 'Текст скопійовано ✓' : 'Виділіть текст і скопіюйте вручну'));
+$('#share').addEventListener('click', async () => {
+  const text = $('#txt').value;
+  await copyText();
+  try{
+    const blob = await (await fetch(P[cur].file)).blob();
+    const file = new File([blob], 'zkouska-a2-' + cur + '.jpg', {type: 'image/jpeg'});
+    if(navigator.canShare && navigator.canShare({files: [file]})){ await navigator.share({files: [file], text}); msg('Готово ✓'); return; }
+    if(navigator.share){ await navigator.share({text}); msg('Надіслано текст. Буклет збережіть окремо'); return; }
+    msg('Цей браузер не вміє «Поділитися». Текст скопійовано: збережіть буклет і вставте текст вручну');
+  }catch(e){ if(e && e.name === 'AbortError') return; msg('Не вдалося поділитися. Текст скопійовано: збережіть буклет і вставте текст вручну'); }
+});
+show(cur);
+</script>
+</body>
+</html>
