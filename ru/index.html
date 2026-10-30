@@ -411,6 +411,11 @@ body.hide-q .qtext{visibility:hidden}
 .phr span{color:var(--muted)}
 @media (max-width:520px){ .phr{grid-template-columns:1fr} .phr span{margin-bottom:6px} }
 .tips-go{display:flex;flex-wrap:wrap;gap:8px}
+.news{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px;background:var(--soft)}
+.news>summary{cursor:pointer;padding:11px 0;font-weight:600}
+.news>summary time{font-family:var(--f-mono);font-size:.9rem;font-weight:500}
+.news[open]>summary{border-bottom:1px solid var(--rule)}
+.news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
 .codebox{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .codebox input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);width:140px;font-family:var(--f-mono)}
 details.src-list{font-size:.85rem;color:var(--muted)}
@@ -545,6 +550,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Начать новый экзамен</button></div>
         <div id="history"></div>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-10-30">30.10.2026</time></summary><ul>
+          <li><b>4 языка.</b> Подсказки и объяснения на украинском, английском, русском и вьетнамском.</li>
+          <li><b>Отдельные тренажёры.</b> Psaní и Mluvení можно тренировать отдельно, тема за темой, а ещё есть советы к экзамену.</li>
+          <li><b>Объяснения и примеры.</b> В тренировке видно, почему ответ правильный, есть образцы писем и ответов, а сайт сам оценивает письмо и говорение рядом с вашей самооценкой.</li>
+          <li><b>Подробный результат.</b> Сдали или нет, самая слабая часть, конкретные советы, история попыток и ваш рекорд.</li>
+          <li><b>Новый вид.</b> Свой цвет для каждой части, светлая и тёмная тема, удобнее с телефона.</li>
+        </ul></details>
         <p class="official small">Это неофициальный тренажёр. Официальный пробный тест от NPI ČR стоит пройти хотя бы раз: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
     </div>

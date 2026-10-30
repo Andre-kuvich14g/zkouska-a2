@@ -411,6 +411,11 @@ body.hide-q .qtext{visibility:hidden}
 .phr span{color:var(--muted)}
 @media (max-width:520px){ .phr{grid-template-columns:1fr} .phr span{margin-bottom:6px} }
 .tips-go{display:flex;flex-wrap:wrap;gap:8px}
+.news{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px;background:var(--soft)}
+.news>summary{cursor:pointer;padding:11px 0;font-weight:600}
+.news>summary time{font-family:var(--f-mono);font-size:.9rem;font-weight:500}
+.news[open]>summary{border-bottom:1px solid var(--rule)}
+.news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
 .codebox{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .codebox input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);width:140px;font-family:var(--f-mono)}
 details.src-list{font-size:.85rem;color:var(--muted)}
@@ -545,6 +550,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Start a new exam</button></div>
         <div id="history"></div>
+        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-10-30">30.10.2026</time></summary><ul>
+          <li><b>4 languages.</b> Hints and explanations in Ukrainian, English, Russian and Vietnamese.</li>
+          <li><b>Separate trainers.</b> You can practise Psaní and Mluvení on their own, topic by topic, and there are exam tips too.</li>
+          <li><b>Explanations and samples.</b> In practice mode you see why an answer is correct, there are sample e-mails and answers, and the site scores your writing and speaking next to your self-assessment.</li>
+          <li><b>Detailed results.</b> Passed or not, your weakest part, concrete tips, attempt history and your best score.</li>
+          <li><b>New look.</b> A colour for each part, light and dark theme, easier to use on a phone.</li>
+        </ul></details>
         <p class="official small">This is an unofficial trainer. It is worth taking the official NPI ČR mock test at least once: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
     </div>

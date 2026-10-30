@@ -57,6 +57,15 @@ def sitemap():
 
 if __name__ == '__main__':
     src = open('index.html', encoding='utf-8').read()
+    # дата «оновлено» в блоці «Що нового» ставиться автоматично під час кожного збирання
+    try:
+        from zoneinfo import ZoneInfo
+        d = datetime.datetime.now(ZoneInfo('Europe/Prague')).date()
+    except Exception:
+        d = datetime.date.today()
+    src2 = re.sub(r'<time id="updDate" datetime="[^"]*">[^<]*</time>',
+                  f'<time id="updDate" datetime="{d.isoformat()}">{d.day:02d}.{d.month:02d}.{d.year}</time>', src)
+    if src2 != src: open('index.html', 'w', encoding='utf-8').write(src2); src = src2
     for lang in LANGS:
         os.makedirs(lang, exist_ok=True)
         open(f'{lang}/index.html', 'w', encoding='utf-8').write(build(src, lang))

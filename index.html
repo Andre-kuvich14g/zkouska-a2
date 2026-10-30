@@ -411,6 +411,11 @@ body.hide-q .qtext{visibility:hidden}
 .phr span{color:var(--muted)}
 @media (max-width:520px){ .phr{grid-template-columns:1fr} .phr span{margin-bottom:6px} }
 .tips-go{display:flex;flex-wrap:wrap;gap:8px}
+.news{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px;background:var(--soft)}
+.news>summary{cursor:pointer;padding:11px 0;font-weight:600}
+.news>summary time{font-family:var(--f-mono);font-size:.9rem;font-weight:500}
+.news[open]>summary{border-bottom:1px solid var(--rule)}
+.news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
 .codebox{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .codebox input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);width:140px;font-family:var(--f-mono)}
 details.src-list{font-size:.85rem;color:var(--muted)}
@@ -545,6 +550,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Почати новий іспит</button></div>
         <div id="history"></div>
+        <details class="news" id="news"><summary>🆕 Що нового · оновлено <time id="updDate" datetime="2026-10-30">30.10.2026</time></summary><ul>
+          <li><b>4 мови.</b> Підказки й пояснення українською, англійською, російською та в’єтнамською.</li>
+          <li><b>Окремі тренажери.</b> Psaní і Mluvení можна тренувати окремо, тема за темою, а ще є поради до іспиту.</li>
+          <li><b>Пояснення й приклади.</b> У тренуванні видно, чому відповідь правильна, є зразки листів і відповідей, а сайт сам оцінює письмо й мовлення поруч із вашою самооцінкою.</li>
+          <li><b>Детальний результат.</b> Склали чи ні, найслабша частина, конкретні поради, історія спроб і ваш рекорд.</li>
+          <li><b>Новий вигляд.</b> Свій колір для кожної частини, світла й темна тема, зручніше з телефона.</li>
+        </ul></details>
         <p class="official small">Це неофіційний тренажер. Офіційний пробний тест від NPI ČR варто пройти хоча б раз: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
     </div>

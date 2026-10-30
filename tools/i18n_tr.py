@@ -492,3 +492,17 @@ T += [
 ("Почати →", "Start →", "Начать →", "Bắt đầu →"),
 ("Відкрити поради →", "Open the tips →", "Открыть советы →", "Mở mẹo thi →"),
 ]
+# блок «Що нового»
+T += [
+("🆕 Що нового · оновлено", "🆕 What’s new · updated", "🆕 Что нового · обновлено", "🆕 Có gì mới · cập nhật"),
+("4 мови.", "4 languages.", "4 языка.", "4 ngôn ngữ."),
+("Підказки й пояснення українською, англійською, російською та в’єтнамською.", "Hints and explanations in Ukrainian, English, Russian and Vietnamese.", "Подсказки и объяснения на украинском, английском, русском и вьетнамском.", "Gợi ý và giải thích bằng tiếng Ukraina, Anh, Nga và Việt."),
+("Окремі тренажери.", "Separate trainers.", "Отдельные тренажёры.", "Luyện riêng từng phần."),
+("Psaní і Mluvení можна тренувати окремо, тема за темою, а ще є поради до іспиту.", "You can practise Psaní and Mluvení on their own, topic by topic, and there are exam tips too.", "Psaní и Mluvení можно тренировать отдельно, тема за темой, а ещё есть советы к экзамену.", "Có thể luyện riêng Psaní và Mluvení theo từng chủ đề, và có thêm mẹo đi thi."),
+("Пояснення й приклади.", "Explanations and samples.", "Объяснения и примеры.", "Giải thích và bài mẫu."),
+("У тренуванні видно, чому відповідь правильна, є зразки листів і відповідей, а сайт сам оцінює письмо й мовлення поруч із вашою самооцінкою.", "In practice mode you see why an answer is correct, there are sample e-mails and answers, and the site scores your writing and speaking next to your self-assessment.", "В тренировке видно, почему ответ правильный, есть образцы писем и ответов, а сайт сам оценивает письмо и говорение рядом с вашей самооценкой.", "Ở chế độ luyện tập bạn thấy vì sao đáp án đúng, có thư và câu trả lời mẫu, và trang tự chấm phần viết, phần nói bên cạnh điểm tự chấm của bạn."),
+("Детальний результат.", "Detailed results.", "Подробный результат.", "Kết quả chi tiết."),
+("Склали чи ні, найслабша частина, конкретні поради, історія спроб і ваш рекорд.", "Passed or not, your weakest part, concrete tips, attempt history and your best score.", "Сдали или нет, самая слабая часть, конкретные советы, история попыток и ваш рекорд.", "Đỗ hay chưa, phần yếu nhất, lời khuyên cụ thể, lịch sử các lần thi và kỷ lục của bạn."),
+("Новий вигляд.", "New look.", "Новый вид.", "Giao diện mới."),
+("Свій колір для кожної частини, світла й темна тема, зручніше з телефона.", "A colour for each part, light and dark theme, easier to use on a phone.", "Свой цвет для каждой части, светлая и тёмная тема, удобнее с телефона.", "Mỗi phần một màu, giao diện sáng và tối, dùng trên điện thoại tiện hơn."),
+]
