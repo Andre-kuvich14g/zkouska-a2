@@ -338,6 +338,19 @@ body.hide-q .qtext{visibility:hidden}
 .mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start}
 .mode:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
 .mode input{margin-top:5px;accent-color:var(--accent)}
+.mode.wide{grid-column:1/-1;background:var(--soft)}
+.tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
+.tips-top ol,.tips-sec ul{margin:8px 0 0;padding-left:20px;display:grid;gap:8px;line-height:1.5}
+.tips-sec{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px}
+.tips-sec>summary{cursor:pointer;padding:12px 0;font-weight:600}
+.tips-sec[open]>summary{border-bottom:1px solid var(--rule)}
+.tips-sec ul{padding-bottom:12px}
+.tips-legend{color:var(--muted);font-size:.85rem}
+.phr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4px 14px;padding:10px 0 14px}
+.phr b{font-weight:600}
+.phr span{color:var(--muted)}
+@media (max-width:520px){ .phr{grid-template-columns:1fr} .phr span{margin-bottom:6px} }
+.tips-go{display:flex;flex-wrap:wrap;gap:8px}
 .codebox{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .codebox input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);width:140px;font-family:var(--f-mono)}
 details.src-list{font-size:.85rem;color:var(--muted)}
@@ -462,8 +475,9 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <label class="mode"><input type="radio" name="mode" value="exam" id="modeExam"><span><b>Thi</b><br><span class="small muted">Có đồng hồ, mỗi bài nghe chỉ bật một lần (phát hai lần), lời thoại ẩn đến khi chấm. Để tự kiểm tra sau khi đã luyện tập.</span></span></label>
           <label class="mode"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span><b>✍️ Luyện Psaní (viết)</b><br><span class="small muted">Chỉ phần viết: mẫu đơn và e-mail. Có bài mẫu, gợi ý, trang chấm và nút “Bài tiếp theo”.</span></span></label>
           <label class="mode"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span><b>🗣 Luyện Mluvení (nói)</b><br><span class="small muted">Chỉ phần nói: câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận. Có âm thanh, ghi âm và trang chấm.</span></span></label>
+          <label class="mode wide"><input type="radio" name="mode" value="tips" id="modeTips"><span><b>💡 Mẹo đi thi</b><br><span class="small muted">Cần làm gì trước, trong và sau kỳ thi: đăng ký, chiến thuật cho từng phần, câu cứu nguy cho Mluvení. Ngắn gọn, từ nguồn chính thức và kinh nghiệm của thí sinh.</span></span></label>
         </div>
-        <div class="codebox">
+        <div class="codebox" id="codeBox">
           <label for="codeIn" class="small muted">Mã bài thi (không bắt buộc, để làm lại đúng bài đó):</label>
           <input id="codeIn" inputmode="numeric" maxlength="6" placeholder="vd. 482913">
         </div>
@@ -471,6 +485,25 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div id="history"></div>
         <p class="official small">Đây là trang luyện thi không chính thức. Bạn nên làm bài thi thử chính thức của NPI ČR ít nhất một lần: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- TIPS -->
+  <section id="tipsView" hidden>
+    <div class="sheet">
+      <div><button class="btn" type="button" id="tipsBack">← Quay lại chọn chế độ</button></div>
+      <div class="hero"><h1>💡 Mẹo thi A2</h1><p>Tóm tắt những điều thực sự giúp bạn thi đỗ: từ lúc đăng ký đến phút cuối của Mluvení.</p><p class="tips-legend">🏛 nguồn chính thức · 👥 kinh nghiệm thí sinh · không biểu tượng: mẹo của trang luyện thi</p></div>
+      <div class="tips-top"><b>⭐ Điều quan trọng nhất trong một phút</b><ol><li>Mluvení chiếm 40/110 điểm, và phải đỗ riêng từng phần: phần viết ít nhất 42/70, phần nói ít nhất 24/40. Hãy nói thành tiếng mỗi ngày.</li><li>E-mail ngắn hơn 35 từ bị 0 điểm. Hãy đếm số từ.</li><li>Đừng để trống câu trả lời ở Čtení và Poslech: ô trống luôn được 0 điểm.</li><li>Mỗi bài nghe ở Poslech phát hai lần, và trước đó có thời gian đọc câu hỏi. Hãy tận dụng thời gian này.</li><li>Không hiểu giám khảo? Hãy xin nhắc lại bằng tiếng Séc. Im lặng còn tệ hơn mắc lỗi.</li></ol></div>
+      <details class="tips-sec"><summary>📅 Đăng ký và thủ tục</summary><ul><li>🏛 Có thể đăng ký online hoặc trực tiếp tại một trong các trường được cấp phép trong danh sách trên trang chính thức. Lệ phí 3 200 Kč phải đến trường chậm nhất 8 ngày trước kỳ thi.</li><li>👥 Ở thành phố lớn lịch thi thường kín từ sớm. Ở thị trấn nhỏ hơn hay có chỗ sớm hơn, nên hãy so sánh vài trường.</li><li>🏛 Sau khi đăng ký, trường gửi e-mail về giờ, địa điểm và thông tin thanh toán. Hãy kiểm tra cả thư mục spam. Đơn phải ký trực tiếp tại trường: kiểm tra tên viết đúng như trong hộ chiếu.</li><li>🏛 Có thể huỷ chậm nhất 15 ngày trước. Sau đó chỉ khi ốm hoặc có lý do nghiêm trọng kèm giấy tờ, và khi đó bạn không mất lượt thi.</li><li>🏛 Bộ Nội vụ khuyên đăng ký thi trước khi nộp đơn xin thường trú. Kết quả gửi qua e-mail hoặc SMS sau khoảng 9 ngày, chứng chỉ có giá trị vô thời hạn.</li></ul></details>
+      <details class="tips-sec"><summary>🎒 Ngày thi</summary><ul><li>Mang giấy tờ bạn đã ghi trong đơn (thường là hộ chiếu) và hai cây bút. Đến sớm 15–20 phút.</li><li>🏛 Kỳ thi diễn ra trong một ngày: phần viết gần 2 tiếng (Čtení, Psaní, Poslech), phần nói khoảng 15 phút.</li><li>Tắt điện thoại trước khi bắt đầu: không được dùng điện thoại và từ điển.</li><li>Mang nước và đồ ăn nhẹ. Giữa phần viết và phần nói có thể có giờ nghỉ, và mệt mỏi khiến bạn ngập ngừng khi Mluvení.</li></ul></details>
+      <details class="tips-sec"><summary>📖 Čtení · 40 phút · 25 điểm</summary><ul><li>Đọc câu hỏi trước, rồi mới đọc bài. Như vậy bạn tìm thông tin cụ thể thay vì dịch hết.</li><li>Đừng sa lầy: 5 bài trong 40 phút, khoảng 8 phút mỗi bài. Đánh dấu câu khó và quay lại cuối giờ.</li><li>Bẫy: số, ngày và giờ. Bài có nhiều con số, nhưng đáp án đúng là cái liên quan đúng điều được hỏi.</li><li>Đừng để trống: ô trống luôn được 0, còn đoán thì vẫn có cơ hội.</li><li>Ở bài cuối, chép từ trong bài với đầy đủ háčky và čárky.</li></ul></details>
+      <details class="tips-sec"><summary>✍️ Psaní · 25 phút · 20 điểm</summary><ul><li>E-mail ngắn hơn 35 từ bị 0 điểm. Đây là lỗi đắt nhất trong kỳ thi, nên hãy đếm số từ.</li><li>🏛 Từ 2026 phần viết thiên về tương tác: bạn trả lời câu hỏi cụ thể và một lá thư. Hãy trả lời từng ý, không bỏ sót.</li><li>Mẫu đơn: mỗi câu hỏi ít nhất 10 từ, viết thành câu đầy đủ. Công thức đơn giản: câu trả lời + protože + lý do.</li><li>E-mail: lời chào, mục đích thư, mỗi tranh một câu, lời chào kết và chữ ký. Ví dụ: Ahoj Petře, … Měj se, Olena.</li><li>Viết câu đơn giản mà bạn chắc chắn. Hai câu ngắn đúng tốt hơn một câu dài có ba lỗi.</li><li>Dành 3 phút để kiểm tra: số từ, mỗi câu có động từ, háčky và čárky.</li></ul></details>
+      <details class="tips-sec"><summary>🎧 Poslech · ~40 phút · 25 điểm</summary><ul><li>🏛 Mỗi bài nghe phát hai lần, và trước đó có thời gian đọc đề. Gạch chân từ khoá: khi nào? bao nhiêu? ở đâu?</li><li>Lần nghe đầu để trả lời, lần hai để kiểm tra.</li><li>Nghe đến hết: thường lúc đầu nói một phương án, sau đó người nói đổi ý (ale, tak radši, ne… ale).</li><li>Lỡ mất đáp án? Chọn phương án khả năng nhất và nghe tiếp, bài nghe không chờ bạn.</li><li>Luyện nghe số, giờ, ngày và giá tiền: chúng có trong hầu hết các bài.</li></ul></details>
+      <details class="tips-sec"><summary>🗣 Mluvení · 15 phút · 40 điểm</summary><ul><li>🏛 Đây là phần chính. Điều được đánh giá là bạn có giao tiếp được trong tình huống hằng ngày không; ngữ pháp ít quan trọng hơn.</li><li>🏛 Định dạng mới đòi hỏi chủ động hơn: tự đặt câu hỏi, đưa đề xuất, phản hồi (A vy? A co v sobotu?).</li><li>👥 Giám khảo có thể bắt đầu bằng câu hỏi cá nhân đơn giản: công việc, gia đình, món ăn yêu thích, bữa sáng, thú cưng. Hãy chuẩn bị một phút nói về bản thân.</li><li>Kể theo tranh: ai, ở đâu, làm gì, sau đó thế nào. Bẫy hay gặp nhất ở đây là thì quá khứ.</li><li>Trong bài thoả thuận, hãy đi đến quyết định chung và xác nhận: Dobře, tak v sobotu v deset.</li><li>Nói chậm và rõ: phát âm cũng ảnh hưởng đến điểm. Im lặng còn tệ hơn mắc lỗi.</li></ul></details>
+      <details class="tips-sec"><summary>🆘 Câu cứu nguy cho Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Xin lỗi, bạn có thể nhắc lại không?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Xin nói chậm hơn.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>Tôi không hiểu từ… Nó nghĩa là gì?</span><b lang="cs">Moment, musím přemýšlet.</b><span>Chờ một chút, tôi cần suy nghĩ.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>Tôi không biết nói điều đó bằng tiếng Séc thế nào, nhưng…</span><b lang="cs">Myslíte…?</b><span>Ý bạn là…?</span></div></details>
+      <details class="tips-sec"><summary>🗓 Cách ôn luyện</summary><ul><li>🏛 Trang chính thức khuyên học khoá ít nhất 50 giờ hoặc tự học với tài liệu online. Có khoá học miễn phí tại các Trung tâm hỗ trợ hội nhập người nước ngoài ở mọi vùng.</li><li>Làm bài thi thử chính thức theo định dạng mới ít nhất một lần.</li><li>Kế hoạch 2 tuần cuối: làm một bài thi đầy đủ ở chế độ «Thi» để tìm phần yếu; sau đó mỗi ngày luyện phần đó 20–30 phút; 2–3 ngày trước kỳ thi làm thêm một bài thi đầy đủ.</li><li>Nói thành tiếng mỗi ngày: ghi âm bằng điện thoại rồi nghe lại. Chỗ ngập ngừng và lỗi sẽ lộ ra ngay.</li><li>Hôm trước đừng học thêm điều mới. Ôn lại các câu cứu nguy và mẫu e-mail, rồi ngủ đủ giấc.</li></ul></details>
+      <div class="tips-go"><button class="btn primary" type="button" data-gomode="practice">Bắt đầu luyện tập</button><button class="btn" type="button" data-gomode="trainW">✍️ Luyện Psaní (viết)</button><button class="btn" type="button" data-gomode="trainS">🗣 Luyện Mluvení (nói)</button></div>
+      <details class="src-list"><summary>Nguồn</summary><ul><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/" rel="noopener">cestina-pro-cizince.cz</a>: trang chính thức của kỳ thi NPI ČR (đăng ký, thanh toán, huỷ, kết quả, ôn luyện)</li><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/wp-content/uploads/2025/10/Dulezite-upozorneni-na-zmenu-formatu-zkousky-A2-od-11.-dubna-2026.pdf" rel="noopener">Důležité upozornění na změnu formátu zkoušky A2</a>: những thay đổi từ 11.04.2026</li><li><a href="https://blog.foreigners.cz/changes-to-the-czech-a2-language-exam-in-2026/" rel="noopener">blog.foreigners.cz</a>: tổng quan thay đổi 2026</li><li>Kinh nghiệm thí sinh: thảo luận trong các nhóm Facebook và trên Reddit</li></ul><p>Điều kiện có thể thay đổi. Hãy kiểm tra thông tin mới nhất trên trang chính thức trước khi đăng ký.</p></details>
     </div>
   </section>
 
@@ -1335,12 +1368,19 @@ function startExam(){
   if(!tickH) tickH = setInterval(tick, 1000);
 }
 function goStart(){ stopSpeech(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
+function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
+function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
+function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : 'Bắt đầu bài thi mới'; }
+document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
+if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Bài thi mới'; b.classList.remove('danger'); newArm = null; }
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn') return startExam();
+  if(t.id === 'startBtn') return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'tipsBack') return hideTips();
+  if(t.dataset.gomode){ $('#mode' + {practice:'Practice', trainW:'TrainW', trainS:'TrainS'}[t.dataset.gomode]).checked = true; modeUI(); $('#tipsView').hidden = true; $('#codeIn').value = ''; return startExam(); }
   if(t.id === 'newBtn'){
     if(newArm){ clearTimeout(newArm); return goStart(); }
     t.textContent = 'Bấm lần nữa: câu trả lời sẽ mất'; t.classList.add('danger');

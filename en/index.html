@@ -338,6 +338,19 @@ body.hide-q .qtext{visibility:hidden}
 .mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start}
 .mode:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
 .mode input{margin-top:5px;accent-color:var(--accent)}
+.mode.wide{grid-column:1/-1;background:var(--soft)}
+.tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
+.tips-top ol,.tips-sec ul{margin:8px 0 0;padding-left:20px;display:grid;gap:8px;line-height:1.5}
+.tips-sec{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px}
+.tips-sec>summary{cursor:pointer;padding:12px 0;font-weight:600}
+.tips-sec[open]>summary{border-bottom:1px solid var(--rule)}
+.tips-sec ul{padding-bottom:12px}
+.tips-legend{color:var(--muted);font-size:.85rem}
+.phr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4px 14px;padding:10px 0 14px}
+.phr b{font-weight:600}
+.phr span{color:var(--muted)}
+@media (max-width:520px){ .phr{grid-template-columns:1fr} .phr span{margin-bottom:6px} }
+.tips-go{display:flex;flex-wrap:wrap;gap:8px}
 .codebox{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .codebox input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);width:140px;font-family:var(--f-mono)}
 details.src-list{font-size:.85rem;color:var(--muted)}
@@ -462,8 +475,9 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <label class="mode"><input type="radio" name="mode" value="exam" id="modeExam"><span><b>Exam</b><br><span class="small muted">Timers, each recording can be started once (it plays twice), transcripts are hidden until checking. To test yourself after practising.</span></span></label>
           <label class="mode"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span><b>✍️ Practise Psaní (writing)</b><br><span class="small muted">Writing only: the form and the e-mail. Samples, hints, the site’s score and a “Next task” button.</span></span></label>
           <label class="mode"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span><b>🗣 Practise Mluvení (speaking)</b><br><span class="small muted">Speaking only: questions, dialogues, a story from pictures, making an agreement. Audio, voice recording and the site’s score.</span></span></label>
+          <label class="mode wide"><input type="radio" name="mode" value="tips" id="modeTips"><span><b>💡 Exam tips</b><br><span class="small muted">What to do before, during and after the exam: registration, a strategy for each part, lifesaver phrases for Mluvení. Short, from official sources and candidates’ experience.</span></span></label>
         </div>
-        <div class="codebox">
+        <div class="codebox" id="codeBox">
           <label for="codeIn" class="small muted">Exam code (optional, to repeat the same exam):</label>
           <input id="codeIn" inputmode="numeric" maxlength="6" placeholder="e.g. 482913">
         </div>
@@ -471,6 +485,25 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div id="history"></div>
         <p class="official small">This is an unofficial trainer. It is worth taking the official NPI ČR mock test at least once: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- TIPS -->
+  <section id="tipsView" hidden>
+    <div class="sheet">
+      <div><button class="btn" type="button" id="tipsBack">← Back to modes</button></div>
+      <div class="hero"><h1>💡 A2 exam tips</h1><p>A short guide to what really helps you pass: from registration to the last minute of Mluvení.</p><p class="tips-legend">🏛 official source · 👥 candidates’ experience · no icon: tips from this trainer</p></div>
+      <div class="tips-top"><b>⭐ The essentials in one minute</b><ol><li>Mluvení is worth 40 of 110 points, and each part must be passed separately: written at least 42 of 70, oral at least 24 of 40. Speak out loud every day.</li><li>An e-mail shorter than 35 words gets 0 points. Count your words.</li><li>Don’t leave blank answers in Čtení and Poslech: a blank always scores 0.</li><li>Each Poslech recording is played twice, and you get time to read the questions first. Use that time.</li><li>Don’t understand the examiner? Ask them to repeat, in Czech. Silence costs more than a mistake.</li></ol></div>
+      <details class="tips-sec"><summary>📅 Registration and logistics</summary><ul><li>🏛 You can register online or in person at one of the certified schools listed on the official website. The fee of 3,200 CZK must reach the school at least 8 days before the exam.</li><li>👥 In big cities dates are often booked up well ahead. Smaller towns often have a free place sooner, so compare several schools.</li><li>🏛 After you register, the school e-mails you the time, place and payment details. Check your spam folder too. You must sign the application in person at the school: make sure your name is spelled exactly as in your passport.</li><li>🏛 You can cancel no later than 15 days before. After that only for illness or another serious reason with proof, and then you don’t lose the attempt.</li><li>🏛 The Ministry of the Interior advises registering for the exam before you apply for permanent residence. Results arrive by e-mail or SMS in about 9 days; the certificate never expires.</li></ul></details>
+      <details class="tips-sec"><summary>🎒 Exam day</summary><ul><li>Bring the ID you gave in your application (usually your passport) and two pens. Arrive 15–20 minutes early.</li><li>🏛 The exam takes one day: the written part lasts almost 2 hours (Čtení, Psaní, Poslech), the oral part about 15 minutes.</li><li>Switch your phone off before it starts: phones and dictionaries are not allowed.</li><li>Bring water and a snack. There may be a break between the written and oral parts, and tiredness causes extra pauses in Mluvení.</li></ul></details>
+      <details class="tips-sec"><summary>📖 Čtení · 40 min · 25 points</summary><ul><li>Questions first, then the text. That way you look for something specific instead of translating everything.</li><li>Don’t get stuck: 5 tasks in 40 minutes is about 8 minutes each. Mark the hard ones and come back at the end.</li><li>Traps: numbers, days and times. The text has several, and the right one is the one about exactly what is asked.</li><li>Don’t leave blanks: a blank always scores 0, a guess gives you a chance.</li><li>In the last task, copy the word from the text with all its háčky and čárky.</li></ul></details>
+      <details class="tips-sec"><summary>✍️ Psaní · 25 min · 20 points</summary><ul><li>An e-mail shorter than 35 words gets 0 points. It is the most expensive mistake in the exam, so count your words.</li><li>🏛 Since 2026 writing is more interactive: you reply to specific questions and to a message. Answer every point and skip nothing.</li><li>The form: at least 10 words per question, in full sentences. A simple formula: answer + protože + reason.</li><li>E-mail: greeting, purpose of the message, one sentence per picture, sign-off and name. For example: Ahoj Petře, … Měj se, Olena.</li><li>Write simple sentences you are sure of. Two short correct sentences beat one long sentence with three mistakes.</li><li>Leave 3 minutes to check: word count, a verb in every sentence, háčky and čárky.</li></ul></details>
+      <details class="tips-sec"><summary>🎧 Poslech · ~40 min · 25 points</summary><ul><li>🏛 Each recording is played twice, and you get time to read the task first. Underline the key words: when? how much? where?</li><li>First listening to answer, second to check.</li><li>Listen to the end: often one option is said first and then the person changes their mind (ale, tak radši, ne… ale).</li><li>Missed an answer? Mark the most likely one and keep listening, the recording won’t wait.</li><li>Practise hearing numbers, times, days and prices: they appear in almost every task.</li></ul></details>
+      <details class="tips-sec"><summary>🗣 Mluvení · 15 min · 40 points</summary><ul><li>🏛 This is the main part. What counts is whether you can make yourself understood in everyday situations; grammar matters less.</li><li>🏛 The new format expects more initiative: ask your own questions, make suggestions, react (A vy? A co v sobotu?).</li><li>👥 The examiner may start with simple personal questions: work, family, favourite food, breakfast, pets. Prepare a one-minute talk about yourself.</li><li>Story from pictures: who it is, where they are, what they do, what happened next. The most common trap here is the past tense.</li><li>In the arrangement task, reach a joint decision and confirm it: Dobře, tak v sobotu v deset.</li><li>Speak slowly and clearly: pronunciation affects the score too. Silence costs more than a mistake.</li></ul></details>
+      <details class="tips-sec"><summary>🆘 Lifesaver phrases for Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Sorry, could you repeat that?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Please speak more slowly.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>I don’t understand the word… What does it mean?</span><b lang="cs">Moment, musím přemýšlet.</b><span>One moment, I need to think.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>I don’t know how to say it in Czech, but…</span><b lang="cs">Myslíte…?</b><span>Do you mean…?</span></div></details>
+      <details class="tips-sec"><summary>🗓 How to prepare</summary><ul><li>🏛 The official website recommends a course of at least 50 hours, or self-study with the online materials. Free courses are offered by the Centres for Support of Integration of Foreigners in every region.</li><li>Take the official practice test in the new format at least once.</li><li>Plan for the last 2 weeks: a full exam in «Exam» mode to find your weakest part; then 20–30 minutes a day practising that part; 2–3 days before the exam, one more full exam.</li><li>Speak out loud every day: record yourself on your phone and listen back. Pauses and mistakes become obvious at once.</li><li>The day before, don’t cram anything new. Review the lifesaver phrases and the e-mail template, and get a good night’s sleep.</li></ul></details>
+      <div class="tips-go"><button class="btn primary" type="button" data-gomode="practice">Start practice</button><button class="btn" type="button" data-gomode="trainW">✍️ Practise Psaní (writing)</button><button class="btn" type="button" data-gomode="trainS">🗣 Practise Mluvení (speaking)</button></div>
+      <details class="src-list"><summary>Sources</summary><ul><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/" rel="noopener">cestina-pro-cizince.cz</a>: the official NPI ČR exam website (registration, payment, cancellation, results, preparation)</li><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/wp-content/uploads/2025/10/Dulezite-upozorneni-na-zmenu-formatu-zkousky-A2-od-11.-dubna-2026.pdf" rel="noopener">Důležité upozornění na změnu formátu zkoušky A2</a>: what changed from 11.04.2026</li><li><a href="https://blog.foreigners.cz/changes-to-the-czech-a2-language-exam-in-2026/" rel="noopener">blog.foreigners.cz</a>: overview of the 2026 changes</li><li>Candidates’ experience: discussions in Facebook groups and on Reddit</li></ul><p>Conditions may change. Check the current information on the official website before you register.</p></details>
     </div>
   </section>
 
@@ -1335,12 +1368,19 @@ function startExam(){
   if(!tickH) tickH = setInterval(tick, 1000);
 }
 function goStart(){ stopSpeech(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
+function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
+function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
+function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Open the tips' : 'Start a new exam'; }
+document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
+if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'New exam'; b.classList.remove('danger'); newArm = null; }
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn') return startExam();
+  if(t.id === 'startBtn') return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'tipsBack') return hideTips();
+  if(t.dataset.gomode){ $('#mode' + {practice:'Practice', trainW:'TrainW', trainS:'TrainS'}[t.dataset.gomode]).checked = true; modeUI(); $('#tipsView').hidden = true; $('#codeIn').value = ''; return startExam(); }
   if(t.id === 'newBtn'){
     if(newArm){ clearTimeout(newArm); return goStart(); }
     t.textContent = 'Tap again: answers will be lost'; t.classList.add('danger');
