@@ -373,6 +373,8 @@ body.hide-q .qtext{visibility:hidden}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
 .mode.wide{grid-column:1/-1}
+.mode .btn.mstart{display:none;margin-top:12px;width:fit-content;min-height:42px;padding:8px 18px;background:var(--m);border-color:var(--m);color:var(--accent-ink)}
+.mode:has(input:checked) .btn.mstart{display:flex}
 .mi{flex:0 0 auto;width:42px;height:42px;border-radius:10px;display:grid;place-items:center;font-size:1.35rem;background:var(--m-soft);border:1px solid var(--rule)}
 .mode:has(input:checked) .mi{background:var(--sheet)}
 /* final verdict */
@@ -531,11 +533,11 @@ details.src-list{font-size:.85rem;color:var(--muted)}
       </div>
       <div class="start-grid">
         <div class="modes" role="radiogroup" aria-label="Режим">
-          <label class="mode m-practice"><input type="radio" name="mode" value="practice" id="modePractice" checked><span class="mi" aria-hidden="true">📘</span><span><b>Тренировка</b> <span class="rec-tag">советуем начать с него</span><br><span class="small muted">Без времени, аудио можно слушать сколько угодно, можно открыть текст записи, есть примеры ответов и пояснения.</span></span></label>
-          <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Экзамен</b><br><span class="small muted">Таймеры, каждую запись можно запустить один раз (звучит дважды), тексты аудио скрыты до проверки. Чтобы проверить себя после тренировки.</span></span></label>
-          <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Тренировать Psaní (письмо)</b><br><span class="small muted">Только письмо: анкета и e-mail. Примеры, подсказки, оценка сайта и кнопка «Следующее задание».</span></span></label>
-          <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Тренировать Mluvení (говорение)</b><br><span class="small muted">Только говорение: вопросы, диалоги, рассказ по картинкам, договорённость. Озвучивание, запись голоса и оценка сайта.</span></span></label>
-          <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Советы к экзамену</b><br><span class="small muted">Что делать до, во время и после экзамена: запись, стратегия для каждой части, фразы-спасатели для Mluvení. Коротко, из официальных источников и опыта кандидатов.</span></span></label>
+          <label class="mode m-practice"><input type="radio" name="mode" value="practice" id="modePractice" checked><span class="mi" aria-hidden="true">📘</span><span><b>Тренировка</b> <span class="rec-tag">советуем начать с него</span><br><span class="small muted">Без времени, аудио можно слушать сколько угодно, можно открыть текст записи, есть примеры ответов и пояснения.</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
+          <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Экзамен</b><br><span class="small muted">Таймеры, каждую запись можно запустить один раз (звучит дважды), тексты аудио скрыты до проверки. Чтобы проверить себя после тренировки.</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
+          <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Тренировать Psaní (письмо)</b><br><span class="small muted">Только письмо: анкета и e-mail. Примеры, подсказки, оценка сайта и кнопка «Следующее задание».</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
+          <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Тренировать Mluvení (говорение)</b><br><span class="small muted">Только говорение: вопросы, диалоги, рассказ по картинкам, договорённость. Озвучивание, запись голоса и оценка сайта.</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
+          <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Советы к экзамену</b><br><span class="small muted">Что делать до, во время и после экзамена: запись, стратегия для каждой части, фразы-спасатели для Mluvení. Коротко, из официальных источников и опыта кандидатов.</span><button type="button" class="btn primary sm mstart" data-start="1">Открыть советы →</button></span></label>
         </div>
         <div class="codebox" id="codeBox">
           <label for="codeIn" class="small muted">Код экзамена (необязательно, чтобы повторить тот же):</label>
@@ -1443,7 +1445,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новый эк
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn') return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'startBtn' || t.dataset.start) return $('#modeTips').checked ? showTips() : startExam();
   if(t.id === 'tipsBack') return hideTips();
   if(t.dataset.gomode){ $('#mode' + {practice:'Practice', trainW:'TrainW', trainS:'TrainS'}[t.dataset.gomode]).checked = true; modeUI(); $('#tipsView').hidden = true; $('#codeIn').value = ''; return startExam(); }
   if(t.id === 'newBtn'){
