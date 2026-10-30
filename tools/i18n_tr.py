@@ -506,3 +506,14 @@ T += [
 ("Новий вигляд.", "New look.", "Новый вид.", "Giao diện mới."),
 ("Свій колір для кожної частини, світла й темна тема, зручніше з телефона.", "A colour for each part, light and dark theme, easier to use on a phone.", "Свой цвет для каждой части, светлая и тёмная тема, удобнее с телефона.", "Mỗi phần một màu, giao diện sáng và tối, dùng trên điện thoại tiện hơn."),
 ]
+# донати (QR platba)
+T += [
+("☕ Підтримати проєкт", "☕ Support the project", "☕ Поддержать проект", "☕ Ủng hộ dự án"),
+("Тренажер безкоштовний і без реклами. Якщо він вам допоміг, можете пригостити автора кавою: будь-яка сума через QR-платбу.", "The trainer is free and has no ads. If it helped you, you can buy the author a coffee: any amount via a Czech QR payment.", "Тренажёр бесплатный и без рекламы. Если он вам помог, можете угостить автора кофе: любая сумма через QR-платёж.", "Trang luyện thi miễn phí và không có quảng cáo. Nếu nó giúp ích cho bạn, bạn có thể mời tác giả một ly cà phê: số tiền tùy ý qua QR platba."),
+("Номер рахунку", "Account number", "Номер счёта", "Số tài khoản"),
+("Отримувач", "Recipient", "Получатель", "Người nhận"),
+("Копіювати номер", "Copy number", "Копировать номер", "Sao chép số"),
+("З телефона: скопіюйте номер і вставте його в застосунку банку. З комп’ютера: відскануйте QR-код застосунком банку.", "On a phone: copy the number and paste it into your banking app. On a computer: scan the QR code with your banking app.", "С телефона: скопируйте номер и вставьте его в приложении банка. С компьютера: отсканируйте QR-код приложением банка.", "Trên điện thoại: sao chép số tài khoản và dán vào ứng dụng ngân hàng. Trên máy tính: quét mã QR bằng ứng dụng ngân hàng."),
+("Тренажер допоміг? Можете пригостити автора кавою ☕", "Did the trainer help? You can buy the author a coffee ☕", "Тренажёр помог? Можете угостить автора кофе ☕", "Trang luyện thi có giúp ích? Bạn có thể mời tác giả một ly cà phê ☕"),
+("Скопійовано ✓", "Copied ✓", "Скопировано ✓", "Đã sao chép ✓"),
+]
