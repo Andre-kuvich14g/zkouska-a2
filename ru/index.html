@@ -269,6 +269,11 @@ body.hide-q .qtext{visibility:hidden}
 .srbtn.on{background:var(--mark-soft);border-color:var(--mark);color:var(--mark)}
 .srtext{font-size:.92rem;padding:8px 12px;border-left:3px solid var(--rule);background:var(--soft);margin:0}
 .autos{font-weight:600;color:var(--accent)}
+.trainbar{display:grid;gap:10px;padding:12px 14px;border:1px solid var(--accent);border-radius:var(--r);background:var(--accent-soft)}
+.tb-top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;justify-content:space-between}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg .btn[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.trainbar > .btn.primary{justify-self:start}
 .frame .art{font-size:2.2rem}
 .prog{position:sticky;top:calc(var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:4;display:flex;align-items:center;gap:8px;background:var(--sheet, var(--paper));padding:6px 0 8px;margin:0 0 12px;border-bottom:1px solid var(--rule)}
 .why{margin-top:8px;padding:8px 12px;border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 6px 6px 0;font-size:.92rem;line-height:1.5;flex-basis:100%;text-align:left}
@@ -455,6 +460,8 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div class="modes" role="radiogroup" aria-label="Режим">
           <label class="mode"><input type="radio" name="mode" value="practice" id="modePractice" checked><span><b>Тренировка</b> <span class="rec-tag">советуем начать с него</span><br><span class="small muted">Без времени, аудио можно слушать сколько угодно, можно открыть текст записи, есть примеры ответов и пояснения.</span></span></label>
           <label class="mode"><input type="radio" name="mode" value="exam" id="modeExam"><span><b>Экзамен</b><br><span class="small muted">Таймеры, каждую запись можно запустить один раз (звучит дважды), тексты аудио скрыты до проверки. Чтобы проверить себя после тренировки.</span></span></label>
+          <label class="mode"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span><b>✍️ Тренировать Psaní (письмо)</b><br><span class="small muted">Только письмо: анкета и e-mail. Примеры, подсказки, оценка сайта и кнопка «Следующее задание».</span></span></label>
+          <label class="mode"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span><b>🗣 Тренировать Mluvení (говорение)</b><br><span class="small muted">Только говорение: вопросы, диалоги, рассказ по картинкам, договорённость. Озвучивание, запись голоса и оценка сайта.</span></span></label>
         </div>
         <div class="codebox">
           <label for="codeIn" class="small muted">Код экзамена (необязательно, чтобы повторить тот же):</label>
@@ -912,6 +919,7 @@ function checkWrite(){
   CHECKED.write = true; stopTimer('write'); markDone('write');
   track('section_score', {section: 'write', words_form: w1counts.reduce((a,b)=>a+b,0), words_email: w2count, mode: MODE});
   $('#bar-write').innerHTML = `<span>Образцы показаны. Поставьте себе баллы выше, они пойдут в итог.</span><button class="btn" type="button" data-goto="listen">Далее: Poslech →</button>`;
+  if(TRAIN) { trainApplyPart(); trainAfterCheck('write'); }
 }
 function checkSpeak(){
   ['s1','s2','s3','s4','ph'].forEach(k => { const a = autoSpeak(k); RES[k + 'auto'] = a ? a.sc : null; });
@@ -921,6 +929,7 @@ function checkSpeak(){
   track('section_score', {section: 'speak', score: total, max: 40, mode: MODE}); stopTimer('speak'); markDone('speak');
   $('#bar-speak').innerHTML = `<span class="score">${total} / 40</span><span>${all ? '' : 'Не все задания оценены. '}Баллы можно изменить и сохранить ещё раз.</span><button class="btn" type="button" data-check="speak">Обновить</button><button class="btn primary" type="button" data-goto="results">Итог →</button>`;
   renderResults();
+  if(TRAIN) trainAfterCheck('speak');
 }
 function finishSection(sec, got, max){
   const pre = sec === 'read' ? 'r' : 'l';
@@ -938,7 +947,7 @@ function markDone(sec){ const el = $(`[data-done="${sec}"]`); if(el) el.textCont
 /* ---------- history (this device only) ---------- */
 function loadHist(){ try{ return JSON.parse(localStorage.getItem('a2-history') || '[]'); }catch(e){ return []; } }
 function saveAttempt(){
-  if(!E || !(CHECKED.read || CHECKED.listen || CHECKED.write || CHECKED.speak)) return; const h = loadHist(); let a = h.find(x => x.id === E.attemptId);
+  if(!E || TRAIN || !(CHECKED.read || CHECKED.listen || CHECKED.write || CHECKED.speak)) return; const h = loadHist(); let a = h.find(x => x.id === E.attemptId);
   if(!a){ a = {id: E.attemptId, ts: Date.now(), code: E.seed, mode: MODE}; h.unshift(a); }
   const sum = ks => ks.reduce((t,k) => t + (RES[k] || 0), 0);
   if(CHECKED.read) a.read = sum(['r1','r2','r3','r4','r5']);
@@ -1225,17 +1234,18 @@ async function say(text, g){ if(!hasTTS) return; stopSpeech(); const tok = ++spe
 /* ---------- timers ---------- */
 let tickH = null;
 function startTimer(sec){
-  if(MODE !== 'exam' || CHECKED[sec] || timers[sec]) return;
+  if((MODE !== 'exam' && !(TRAIN === 'write' && sec === 'write' && TRAIN_TIMER)) || CHECKED[sec] || timers[sec]) return;
   timers[sec] = {end: Date.now() + TIMES[sec] * 60000};
 }
 function stopTimer(sec){ if(timers[sec]) timers[sec].stopped = true; }
 function tick(){
   const c = $('#clock'); const t = timers[activeTab];
-  if(MODE !== 'exam' || !t || t.stopped || CHECKED[activeTab]){ c.hidden = true; }
+  if((MODE !== 'exam' && !(TRAIN === 'write' && TRAIN_TIMER)) || !t || t.stopped || CHECKED[activeTab]){ c.hidden = true; }
   else {
     const left = Math.max(0, t.end - Date.now()); const m = Math.floor(left/60000), s = Math.floor(left%60000/1000);
     c.hidden = false; c.textContent = `⏱ ${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`; c.classList.toggle('low', left < 5*60000);
   }
+  const tc = document.getElementById('trainClock'); if(tc){ tc.hidden = c.hidden; tc.textContent = c.textContent; tc.className = c.className; }
   for(const k in timers){ const tt = timers[k]; if(!tt.stopped && Date.now() >= tt.end && !CHECKED[k]){ tt.stopped = true; timeUp(k); } }
 }
 function timeUp(sec){
@@ -1254,11 +1264,57 @@ function showTab(tab){
   tick();
   window.scrollTo({top: 0});
 }
+let TRAIN = null, TRAIN_PART = {write: 'all', speak: 'all'}, TRAIN_TIMER = false, TRAIN_IDX = 0;
+function trainDoneList(kind){ try{ return JSON.parse(localStorage.getItem('a2-done-' + kind) || '[]'); }catch(e){ return []; } }
+function trainPick(kind){
+  let done = trainDoneList(kind); let left = V.map((_, i) => i).filter(i => !done.includes(i));
+  if(!left.length){ done = []; left = V.map((_, i) => i); try{ localStorage.setItem('a2-done-' + kind, '[]'); }catch(e){} }
+  const prev = TRAIN_IDX; const pool = left.length > 1 ? left.filter(i => i !== prev) : left;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+function trainMarkDone(kind, i){ const d = trainDoneList(kind); if(!d.includes(i)){ d.push(i); try{ localStorage.setItem('a2-done-' + kind, JSON.stringify(d)); }catch(e){} } }
+function trainApplyPart(){
+  if(!TRAIN) return;
+  const sec = TRAIN, part = TRAIN_PART[sec], pane = document.getElementById('pane-' + sec);
+  const tasks = [...pane.querySelectorAll(':scope > .task')];
+  tasks.forEach((t, i) => { const own = sec === 'speak' && i === 4; t.hidden = !own && part !== 'all' && String(i + 1) !== part; });
+  if(sec === 'speak') ['s1','s2','s3','s4'].forEach((k, i) => { const l = document.getElementById('self-' + k); if(l) l.closest('label').hidden = part !== 'all' && String(i + 1) !== part; });
+  if(sec === 'write'){ const a = document.getElementById('w2-after'); if(a) a.hidden = part === '1'; const b = document.getElementById('w1-after'); if(b) b.hidden = part === '2'; }
+  pane.querySelectorAll('.trainbar [data-part]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.part === part)));
+}
+function trainBarHTML(){
+  const sec = TRAIN, n = sec === 'write' ? 2 : 4, done = trainDoneList(sec).length;
+  const parts = [['all', 'Все']].concat(Array.from({length: n}, (_, i) => [String(i + 1), 'Úloha ' + (i + 1)]));
+  return `<div class="trainbar"><div class="tb-top"><b>${sec === 'write' ? '✍️ Тренировка Psaní' : '🗣 Тренировка Mluvení'}</b><span class="small muted">Тема ${TRAIN_IDX + 1} / ${V.length} · пройдено тем: ${done}</span></div>
+    <div class="seg" role="group" aria-label="Задания">${parts.map(([k, l]) => `<button type="button" class="btn sm" data-part="${k}">${l}</button>`).join('')}</div>
+    ${sec === 'write' ? `<div class="tb-top"><label class="small"><input type="checkbox" id="trainTimer"${TRAIN_TIMER ? ' checked' : ''}> Таймер 25 минут, как на экзамене</label><span id="trainClock" hidden></span></div>` : ''}
+    <button type="button" class="btn primary" data-trainnext="1">Следующее задание →</button></div>`;
+}
+function trainSetup(){
+  const sec = TRAIN, pane = document.getElementById('pane-' + sec);
+  pane.insertAdjacentHTML('afterbegin', trainBarHTML());
+  trainApplyPart();
+  const tt = document.getElementById('trainTimer');
+  if(tt) tt.addEventListener('change', () => { TRAIN_TIMER = tt.checked; if(TRAIN_TIMER){ delete timers.write; startTimer('write'); } else if(timers.write){ timers.write.stopped = true; } tick(); });
+}
+function trainAfterCheck(sec){
+  trainMarkDone(sec, TRAIN_IDX);
+  const bar = document.getElementById('bar-' + sec);
+  if(bar) bar.innerHTML = `<span>${sec === 'write' ? 'Сравните свой текст с образцом и чек-листом выше.' : 'Сравните свои ответы с образцами.'} Тема засчитана.</span><button type="button" class="btn primary" data-trainnext="1">Следующее задание →</button>`;
+  const tb = document.querySelector('#pane-' + sec + ' .trainbar .muted'); if(tb) tb.textContent = `Тема ${TRAIN_IDX + 1} / ${V.length} · пройдено тем: ${trainDoneList(sec).length}`;
+}
 function startExam(){
-  MODE = $('#modePractice').checked ? 'practice' : 'exam';
+  const mv = (document.querySelector('input[name=mode]:checked') || {}).value || 'practice';
+  TRAIN = mv === 'trainW' ? 'write' : mv === 'trainS' ? 'speak' : null;
+  MODE = mv === 'exam' ? 'exam' : 'practice';
   let code = parseInt(($('#codeIn').value || '').replace(/\D/g,''), 10);
   if(!code || code < 100000 || code > 999999) code = 100000 + Math.floor(Math.random() * 900000);
   E = buildExam(code); E.attemptId = Date.now() + '-' + code;
+  if(TRAIN){
+    const i = TRAIN_IDX = trainPick(TRAIN), v = V[i];
+    if(TRAIN === 'write'){ E.w1 = v.writing.t1; E.w2 = v.writing.t2; E.src.w1 = E.src.w2 = i; }
+    else { E.s1 = v.speaking.t1; E.s2 = v.speaking.t2; E.s3 = v.speaking.t3; E.s4 = Object.assign({}, v.speaking.t4, {options: shuffle(v.speaking.t4.options, rngFrom(code))}); ['s1','s2','s3','s4'].forEach(k => E.src[k] = i); }
+  }
   RES = {}; CHECKED = {read:false, write:false, listen:false, speak:false}; timers = {};
   for(const k in PLAYS) delete PLAYS[k];
   for(const k in PREVIEW) delete PREVIEW[k];
@@ -1270,10 +1326,12 @@ function startExam(){
   $('#prevSel').value = PREV_MODE || (MODE === 'exam' ? 'official' : 'short');
   $('#prevSel').addEventListener('change', e => { PREV_MODE = e.target.value; try{ localStorage.setItem('a2-preview', PREV_MODE); }catch(err){} });
   RATE = 0.92;
-  $('#codeLabel').textContent = `${MODE === 'exam' ? 'Экзамен' : 'Тренировка'} · код ${code}`;
+  $('#codeLabel').textContent = TRAIN ? (TRAIN === 'write' ? '✍️ Psaní' : '🗣 Mluvení') + ` · тема ${TRAIN_IDX + 1}` : `${MODE === 'exam' ? 'Экзамен' : 'Тренировка'} · код ${code}`;
+  document.querySelector('.tabs').hidden = !!TRAIN;
+  if(TRAIN) trainSetup();
   $('#startView').hidden = true; $('#examView').hidden = false; $('#topActions').hidden = false;
-  track('exam_start', {mode: MODE, exam_code: String(code)});
-  showTab('read');
+  track('exam_start', {mode: TRAIN ? 'train_' + TRAIN : MODE, exam_code: String(code)});
+  showTab(TRAIN || 'read');
   if(!tickH) tickH = setInterval(tick, 1000);
 }
 function goStart(){ stopSpeech(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
@@ -1291,6 +1349,8 @@ document.addEventListener('click', e => {
   if(t.classList.contains('tab')) return showTab(t.dataset.tab);
   if(t.dataset.goto) return showTab(t.dataset.goto);
   if(t.dataset.jump){ e.preventDefault(); jumpTo(t.dataset.jump); return; }
+  if(t.dataset.part){ TRAIN_PART[TRAIN] = t.dataset.part; trainApplyPart(); return; }
+  if(t.dataset.trainnext){ stopSpeech(); startExam(); window.scrollTo({top: 0}); return; }
   if(t.dataset.check){ const s = t.dataset.check; if((s === 'read' || s === 'listen') && !guardCheck(s)) return; if(s === 'read') checkRead(); else if(s === 'listen') checkListen(); else if(s === 'write') checkWrite(); else if(s === 'speak') checkSpeak(); return; }
   if(t.classList.contains('play')){ if(t.classList.contains('previewing')){ if(PREV_WAKE) PREV_WAKE(); return; } return playTwice(t); }
   if(t.classList.contains('stopbtn')) return stopSpeech();

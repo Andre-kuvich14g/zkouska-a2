@@ -380,3 +380,21 @@ T += [
 (", сайт", ", site", ", сайт", ", trang chấm"),
 (". Можливо, ви оцінили себе завищено: перегляньте чек-лист біля завдання.", ". You may have scored yourself too high: look at the checklist next to the task.", ". Возможно, вы оценили себя завышенно: посмотрите чек-лист у задания.", ". Có thể bạn tự chấm quá cao: hãy xem danh sách kiểm tra ở phần đó."),
 ]
+T += [
+("✍️ Тренувати Psaní", "✍️ Practise Psaní (writing)", "✍️ Тренировать Psaní (письмо)", "✍️ Luyện Psaní (viết)"),
+("Тільки письмо: формуляр і e-mail. Приклади, підказки, оцінка сайту й кнопка «Наступне завдання».", "Writing only: the form and the e-mail. Samples, hints, the site’s score and a “Next task” button.", "Только письмо: анкета и e-mail. Примеры, подсказки, оценка сайта и кнопка «Следующее задание».", "Chỉ phần viết: mẫu đơn và e-mail. Có bài mẫu, gợi ý, trang chấm và nút “Bài tiếp theo”."),
+("🗣 Тренувати Mluvení", "🗣 Practise Mluvení (speaking)", "🗣 Тренировать Mluvení (говорение)", "🗣 Luyện Mluvení (nói)"),
+("Тільки мовлення: питання, діалоги, розповідь за картинками, домовленість. Озвучення, запис голосу й оцінка сайту.", "Speaking only: questions, dialogues, a story from pictures, making an agreement. Audio, voice recording and the site’s score.", "Только говорение: вопросы, диалоги, рассказ по картинкам, договорённость. Озвучивание, запись голоса и оценка сайта.", "Chỉ phần nói: câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận. Có âm thanh, ghi âm và trang chấm."),
+("Усі", "All", "Все", "Tất cả"),
+("✍️ Тренування Psaní", "✍️ Psaní practice", "✍️ Тренировка Psaní", "✍️ Luyện Psaní"),
+("🗣 Тренування Mluvení", "🗣 Mluvení practice", "🗣 Тренировка Mluvení", "🗣 Luyện Mluvení"),
+("Тема", "Topic", "Тема", "Chủ đề"),
+("· пройдено тем:", "· topics done:", "· пройдено тем:", "· đã làm:"),
+("Завдання", "Tasks", "Задания", "Bài"),
+("Таймер 25 хвилин, як на іспиті", "25-minute timer, as in the exam", "Таймер 25 минут, как на экзамене", "Hẹn giờ 25 phút như khi thi"),
+("Наступне завдання →", "Next task →", "Следующее задание →", "Bài tiếp theo →"),
+("Порівняйте свій текст зі зразком і чек-листом вище.", "Compare your text with the sample and the checklist above.", "Сравните свой текст с образцом и чек-листом выше.", "Hãy so sánh bài viết của bạn với bài mẫu và danh sách kiểm tra ở trên."),
+("Порівняйте свої відповіді зі зразками.", "Compare your answers with the samples.", "Сравните свои ответы с образцами.", "Hãy so sánh câu trả lời của bạn với bài mẫu."),
+("Тему зараховано.", "Topic counted as done.", "Тема засчитана.", "Đã tính chủ đề này."),
+("· тема", "· topic", "· тема", "· chủ đề"),
+]
