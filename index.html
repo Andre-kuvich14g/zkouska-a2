@@ -35,6 +35,7 @@ gtag('config', 'G-YMHXGCMMH4');
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMHXGCMMH4"></script>
 
+<script>try{var __t=localStorage.getItem('a2-theme');if(__t==='dark'||__t==='light')document.documentElement.setAttribute('data-theme',__t);}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -48,16 +49,23 @@ gtag('config', 'G-YMHXGCMMH4');
   --f-body:"IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   --r:6px;
+  --c-read:#1f5fbf; --c-read-soft:#e4edfb; --c-write:#0f766e; --c-write-soft:#dcf2ef;
+  --c-listen:#6d3fc0; --c-listen-soft:#eee6fb; --c-speak:#c2410c; --c-speak-soft:#fdeadf;
+  --c-exam:#15213a; --c-exam-soft:#e6e9f0; --c-tips:#a15c00; --c-tips-soft:#fbf0dc;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
+  --c-read:#86a9ff; --c-read-soft:#1d2a47; --c-write:#4fd1c0; --c-write-soft:#123432; --c-listen:#b99eff; --c-listen-soft:#2a2145;
+  --c-speak:#ff9a5c; --c-speak-soft:#3a2414; --c-exam:#e5e9f1; --c-exam-soft:#232c40; --c-tips:#f0b65a; --c-tips-soft:#352813;
   color-scheme:dark } }
 :root[data-theme="dark"]{
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
+  --c-read:#86a9ff; --c-read-soft:#1d2a47; --c-write:#4fd1c0; --c-write-soft:#123432; --c-listen:#b99eff; --c-listen-soft:#2a2145;
+  --c-speak:#ff9a5c; --c-speak-soft:#3a2414; --c-exam:#e5e9f1; --c-exam-soft:#232c40; --c-tips:#f0b65a; --c-tips-soft:#352813;
   color-scheme:dark }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
@@ -328,6 +336,59 @@ body.hide-q .qtext{visibility:hidden}
 .bar b{position:absolute;top:-2px;bottom:-2px;left:60%;width:2px;background:var(--ink)}
 .rtable td.n{font-family:var(--f-mono);text-align:right}
 
+
+/* colours per exam part */
+.s-read,[data-pane=read],.tab[data-tab=read]{--sec:var(--c-read);--sec-soft:var(--c-read-soft)}
+.s-write,[data-pane=write],.tab[data-tab=write]{--sec:var(--c-write);--sec-soft:var(--c-write-soft)}
+.s-listen,[data-pane=listen],.tab[data-tab=listen]{--sec:var(--c-listen);--sec-soft:var(--c-listen-soft)}
+.s-speak,[data-pane=speak],.tab[data-tab=speak]{--sec:var(--c-speak);--sec-soft:var(--c-speak-soft)}
+[data-pane=results],.tab[data-tab=results]{--sec:var(--accent);--sec-soft:var(--accent-soft)}
+.sheet[data-pane]{border-top:5px solid var(--sec)}
+.sheet[data-pane] .sec-head{border-bottom-color:var(--sec)}
+.sheet[data-pane] .sec-head h2{color:var(--sec)}
+.sheet[data-pane] .btn.primary{background:var(--sec);border-color:var(--sec);color:var(--accent-ink)}
+.sheet[data-pane] .btn:not(.primary):hover{border-color:var(--sec)}
+.tab .t1::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--sec);margin-right:6px;vertical-align:1px}
+.tab[aria-selected="true"]{border-color:var(--sec);background:var(--sec-soft);box-shadow:inset 0 -3px 0 var(--sec)}
+
+.cdot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--sec);margin-right:7px;vertical-align:1px}
+.struct tr[class^=s-] td:first-child b{color:var(--sec)}
+.tips-sec[class*=" s-"]{border-left:5px solid var(--sec)}
+.tips-sec[class*=" s-"]>summary{color:var(--sec)}
+/* start hero */
+.hero.hero-start{position:relative;overflow:hidden;max-width:none;border-radius:calc(var(--r) + 4px);padding:clamp(20px,4vw,32px) clamp(16px,4vw,32px) 84px;
+  background:radial-gradient(120% 140% at 100% 0%,var(--c-listen-soft) 0%,transparent 55%),linear-gradient(135deg,var(--accent-soft) 0%,var(--sheet) 85%);border:1px solid var(--rule)}
+.hero.hero-start>*{position:relative;max-width:64ch}
+.hero.hero-start h1{color:var(--ink)}
+.skyline{position:absolute!important;left:0;right:0;bottom:0;width:100%;height:76px;max-width:none!important;color:var(--accent);opacity:.22;pointer-events:none}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges span{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--sheet);border:1px solid var(--rule);font-size:.85rem;font-weight:600}
+/* mode cards */
+.m-practice{--m:var(--c-read);--m-soft:var(--c-read-soft)}
+.m-exam{--m:var(--c-exam);--m-soft:var(--c-exam-soft)}
+.m-trainW{--m:var(--c-write);--m-soft:var(--c-write-soft)}
+.m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
+.m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
+.mode:hover{border-color:var(--m)}
+.mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
+.mode input{margin-top:13px;accent-color:var(--m)}
+.mode.wide{grid-column:1/-1}
+.mi{flex:0 0 auto;width:42px;height:42px;border-radius:10px;display:grid;place-items:center;font-size:1.35rem;background:var(--m-soft);border:1px solid var(--rule)}
+.mode:has(input:checked) .mi{background:var(--sheet)}
+/* final verdict */
+.verdict{display:flex;gap:14px;align-items:center;padding:18px 20px;border-radius:calc(var(--r) + 4px);border:2px solid}
+.verdict .vi{font-size:2.2rem;line-height:1}
+.verdict b{display:block;font-family:var(--f-display);font-size:1.4rem;line-height:1.25}
+.verdict.pass{background:var(--ok-soft);border-color:var(--ok)}
+.verdict.pass b{color:var(--ok)}
+.verdict.fail{background:var(--warn-soft);border-color:var(--warn)}
+.verdict.fail b{color:var(--warn)}
+.sum-card.ok{border-color:var(--ok)}
+.sum-card.ok .bar i{background:var(--ok)}
+.sum-card.bad{border-color:var(--mark)}
+.sum-card.bad .bar i{background:var(--mark)}
+/* theme switch */
+.theme-btn{width:36px;height:36px;min-height:36px;padding:0;border-radius:50%;font-size:1.05rem;margin-left:6px}
 /* start */
 .hero{padding-block:24px 8px;display:grid;gap:14px;max-width:68ch}
 .struct{overflow-x:auto}
@@ -335,10 +396,7 @@ body.hide-q .qtext{visibility:hidden}
 .struct td:last-child,.struct th:last-child{text-align:right;font-family:var(--f-mono)}
 .start-grid{display:grid;gap:16px}
 .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
-.mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start}
-.mode:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
-.mode input{margin-top:5px;accent-color:var(--accent)}
-.mode.wide{grid-column:1/-1;background:var(--soft)}
+.mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;border-left:5px solid var(--m,var(--rule));transition:background .15s,border-color .15s}
 .tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
 .tips-top ol,.tips-sec ul{margin:8px 0 0;padding-left:20px;display:grid;gap:8px;line-height:1.5}
 .tips-sec{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px}
@@ -442,7 +500,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 <div class="wrap">
   <div class="top">
     <div class="brand"><span class="eyebrow">Trvalý pobyt · úroveň A2 · nový formát od 11. 4. 2026</span><b>Zkouška A2 nanečisto</b></div>
-    <nav class="langs" id="langs" aria-label="Мова інтерфейсу"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav>
+    <nav class="langs" id="langs" aria-label="Мова інтерфейсу"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav><button type="button" class="btn theme-btn" id="themeBtn" aria-label="Темна тема"></button>
     <div class="top-actions" id="topActions" hidden>
       <span class="code" id="codeLabel"></span>
       <button class="btn sm" id="newBtn" type="button">Новий іспит</button>
@@ -452,30 +510,32 @@ details.src-list{font-size:.85rem;color:var(--muted)}
   <!-- START -->
   <section id="startView">
     <div class="sheet">
-      <div class="hero">
+      <div class="hero hero-start">
         <h1>Тренувальний іспит A2 з чеської для постійного проживання</h1>
         <p class="langhint">🌐 Мову підказок і пояснень можна змінити вгорі праворуч: UA · EN · RU · VI.</p>
         <p>Кожного разу збирається новий іспит із 20 варіантів: кожне завдання береться з випадкового варіанта, а відповіді перемішуються. Структура, кількість завдань, бали й час такі самі, як на офіційному іспиті NPI ČR.</p>
+        <div class="badges"><span>✓ Безкоштовно</span><span>✓ Новий формат 2026</span><span>✓ 20 варіантів</span><span>✓ Аудіо й пояснення</span></div>
+        <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
       <div class="struct">
         <table>
           <thead><tr><th>Частина</th><th>Що робите</th><th>Час</th><th>Бали</th></tr></thead>
           <tbody>
-            <tr><td><b>Čtení</b></td><td>5 завдань: картинки, текст, оголошення, пропуски, таблиця</td><td class="mono">40 хв</td><td>25</td></tr>
-            <tr><td><b>Psaní</b></td><td>Формуляр (3 × мін. 10 слів) і e-mail (мін. 35 слів)</td><td class="mono">25 хв</td><td>20</td></tr>
-            <tr><td><b>Poslech</b></td><td>5 завдань, кожен текст звучить двічі</td><td class="mono">~40 хв</td><td>25</td></tr>
-            <tr><td><b>Mluvení</b></td><td>Питання, діалоги, розповідь за картинками, домовленість</td><td class="mono">15 хв</td><td>40</td></tr>
+            <tr class="s-read"><td><span class="cdot"></span><b>Čtení</b></td><td>5 завдань: картинки, текст, оголошення, пропуски, таблиця</td><td class="mono">40 хв</td><td>25</td></tr>
+            <tr class="s-write"><td><span class="cdot"></span><b>Psaní</b></td><td>Формуляр (3 × мін. 10 слів) і e-mail (мін. 35 слів)</td><td class="mono">25 хв</td><td>20</td></tr>
+            <tr class="s-listen"><td><span class="cdot"></span><b>Poslech</b></td><td>5 завдань, кожен текст звучить двічі</td><td class="mono">~40 хв</td><td>25</td></tr>
+            <tr class="s-speak"><td><span class="cdot"></span><b>Mluvení</b></td><td>Питання, діалоги, розповідь за картинками, домовленість</td><td class="mono">15 хв</td><td>40</td></tr>
           </tbody>
         </table>
         <p class="small muted" style="margin-top:8px">Щоб скласти: письмова частина мінімум 42 з 70, усна мінімум 24 з 40.</p>
       </div>
       <div class="start-grid">
         <div class="modes" role="radiogroup" aria-label="Режим">
-          <label class="mode"><input type="radio" name="mode" value="practice" id="modePractice" checked><span><b>Тренування</b> <span class="rec-tag">радимо почати з нього</span><br><span class="small muted">Без часу, аудіо можна слухати скільки завгодно, можна відкрити текст запису, є приклади відповідей і пояснення.</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="exam" id="modeExam"><span><b>Іспит</b><br><span class="small muted">Таймери, кожен запис можна запустити один раз (звучить двічі), тексти аудіо приховані до перевірки. Для перевірки себе, коли вже потренувались.</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span><b>✍️ Тренувати Psaní</b><br><span class="small muted">Тільки письмо: формуляр і e-mail. Приклади, підказки, оцінка сайту й кнопка «Наступне завдання».</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span><b>🗣 Тренувати Mluvení</b><br><span class="small muted">Тільки мовлення: питання, діалоги, розповідь за картинками, домовленість. Озвучення, запис голосу й оцінка сайту.</span></span></label>
-          <label class="mode wide"><input type="radio" name="mode" value="tips" id="modeTips"><span><b>💡 Поради до іспиту</b><br><span class="small muted">Що робити до, під час і після іспиту: запис, стратегія для кожної частини, фрази-рятівники для Mluvení. Коротко, з офіційних джерел і досвіду кандидатів.</span></span></label>
+          <label class="mode m-practice"><input type="radio" name="mode" value="practice" id="modePractice" checked><span class="mi" aria-hidden="true">📘</span><span><b>Тренування</b> <span class="rec-tag">радимо почати з нього</span><br><span class="small muted">Без часу, аудіо можна слухати скільки завгодно, можна відкрити текст запису, є приклади відповідей і пояснення.</span></span></label>
+          <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Іспит</b><br><span class="small muted">Таймери, кожен запис можна запустити один раз (звучить двічі), тексти аудіо приховані до перевірки. Для перевірки себе, коли вже потренувались.</span></span></label>
+          <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Тренувати Psaní</b><br><span class="small muted">Тільки письмо: формуляр і e-mail. Приклади, підказки, оцінка сайту й кнопка «Наступне завдання».</span></span></label>
+          <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Тренувати Mluvení</b><br><span class="small muted">Тільки мовлення: питання, діалоги, розповідь за картинками, домовленість. Озвучення, запис голосу й оцінка сайту.</span></span></label>
+          <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Поради до іспиту</b><br><span class="small muted">Що робити до, під час і після іспиту: запис, стратегія для кожної частини, фрази-рятівники для Mluvení. Коротко, з офіційних джерел і досвіду кандидатів.</span></span></label>
         </div>
         <div class="codebox" id="codeBox">
           <label for="codeIn" class="small muted">Код іспиту (необов'язково, щоб повторити той самий):</label>
@@ -496,11 +556,11 @@ details.src-list{font-size:.85rem;color:var(--muted)}
       <div class="tips-top"><b>⭐ Головне за одну хвилину</b><ol><li>Mluvení дає 40 зі 110 балів, а скласти треба кожну частину окремо: письмову мінімум 42 з 70, усну мінімум 24 з 40. Говоріть вголос щодня.</li><li>E-mail коротший за 35 слів отримує 0 балів. Рахуйте слова.</li><li>Не лишайте порожніх відповідей у Čtení й Poslech: порожня клітинка завжди дає 0.</li><li>Кожен запис у Poslech звучить двічі, а перед ним є час прочитати питання. Використайте цей час.</li><li>Не розумієте екзаменатора? Попросіть повторити чеською. Мовчання коштує дорожче, ніж помилка.</li></ol></div>
       <details class="tips-sec"><summary>📅 Запис і організація</summary><ul><li>🏛 Записатися можна онлайн або особисто в одній із сертифікованих шкіл зі списку на офіційному сайті. Оплата 3 200 Kč має надійти школі не пізніше ніж за 8 днів до іспиту.</li><li>👥 У великих містах дати часто розписані наперед. У менших містах вільне місце буває раніше, тож порівняйте кілька шкіл.</li><li>🏛 Після запису школа надсилає e-mail з часом, місцем і рахунком. Перевіряйте й папку спам. Заявку треба особисто підписати в школі: перевірте, щоб ім’я було написане точно як у паспорті.</li><li>🏛 Скасувати запис можна не пізніше ніж за 15 днів. Пізніше тільки через хворобу чи іншу серйозну причину з підтвердженням, і тоді спроба не втрачається.</li><li>🏛 МВС радить записатися на іспит ще до подання заяви на постійне проживання. Результат приходить e-mailом або SMS приблизно за 9 днів, сертифікат діє безстроково.</li></ul></details>
       <details class="tips-sec"><summary>🎒 День іспиту</summary><ul><li>Візьміть документ, який ви вказали в заявці (зазвичай паспорт), і дві ручки. Приходьте за 15–20 хвилин.</li><li>🏛 Іспит проходить за один день: письмова частина займає майже 2 години (Čtení, Psaní, Poslech), усна близько 15 хвилин.</li><li>Телефон вимкніть ще до початку: користуватися ним і словником не можна.</li><li>Візьміть воду й перекус. Між письмовою та усною частиною буває перерва, а втома на Mluvení дає зайві паузи.</li></ul></details>
-      <details class="tips-sec"><summary>📖 Čtení · 40 хв · 25 балів</summary><ul><li>Спершу питання, потім текст. Так ви шукаєте конкретне, а не перекладаєте все підряд.</li><li>Не застрягайте: 5 завдань за 40 хвилин, це приблизно 8 хвилин на кожне. Складне позначте й поверніться наприкінці.</li><li>Пастки: числа, дні й час. У тексті їх кілька, а правильне стосується саме того, про що питають.</li><li>Не лишайте порожніх відповідей: порожня клітинка завжди дає 0, а здогадка дає шанс.</li><li>В останньому завданні пишіть слово з тексту з усіма háčky й čárky.</li></ul></details>
-      <details class="tips-sec"><summary>✍️ Psaní · 25 хв · 20 балів</summary><ul><li>E-mail коротший за 35 слів отримує 0 балів. Це найдорожча помилка на іспиті, тож рахуйте слова.</li><li>🏛 З 2026 року письмо більше про взаємодію: ви відповідаєте на конкретні питання й лист. Відповідайте на кожен пункт, нічого не пропускайте.</li><li>Формуляр: на кожне питання мінімум 10 слів, цілими реченнями. Проста формула: відповідь + protože + причина.</li><li>E-mail: привітання, мета листа, по реченню на кожну картинку, прощання й підпис. Наприклад: Ahoj Petře, … Měj se, Olena.</li><li>Пишіть простими реченнями, які точно знаєте. Два короткі правильні речення кращі за одне довге з трьома помилками.</li><li>Залиште 3 хвилини на перевірку: кількість слів, дієслово в кожному реченні, háčky й čárky.</li></ul></details>
-      <details class="tips-sec"><summary>🎧 Poslech · ~40 хв · 25 балів</summary><ul><li>🏛 Кожен запис звучить двічі, а перед ним є час прочитати завдання. Підкресліть ключові слова: коли? скільки? де?</li><li>Перше прослуховування для відповіді, друге для перевірки.</li><li>Слухайте до кінця: часто спершу звучить один варіант, а потім людина передумує (ale, tak radši, ne… ale).</li><li>Пропустили відповідь? Поставте найімовірнішу й слухайте далі, запис не чекає.</li><li>Тренуйте на слух числа, години, дні й ціни: вони є майже в кожному завданні.</li></ul></details>
-      <details class="tips-sec"><summary>🗣 Mluvení · 15 хв · 40 балів</summary><ul><li>🏛 Це головна частина. Оцінюють, чи ви порозумієтеся в буденній ситуації, а граматика не настільки важлива.</li><li>🏛 Новий формат чекає більше ініціативи: ставте свої питання, пропонуйте, реагуйте (A vy? A co v sobotu?).</li><li>👥 Екзаменатор може почати з простих особистих питань: робота, сім’я, улюблена їжа, сніданок, домашні тварини. Підготуйте розповідь про себе на хвилину.</li><li>Розповідь за картинками: хто це, де він, що робить, що було потім. Найчастіша пастка тут минулий час.</li><li>У домовленості дійдіть до спільного рішення й підтвердьте його: Dobře, tak v sobotu v deset.</li><li>Говоріть повільно й чітко: вимова теж впливає на оцінку. Мовчання коштує дорожче, ніж помилка.</li></ul></details>
-      <details class="tips-sec"><summary>🆘 Фрази-рятівники для Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Вибачте, можете повторити?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Говоріть повільніше, будь ласка.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>Я не розумію слово… Що це означає?</span><b lang="cs">Moment, musím přemýšlet.</b><span>Хвилинку, мушу подумати.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>Не знаю, як це сказати чеською, але…</span><b lang="cs">Myslíte…?</b><span>Ви маєте на увазі…?</span></div></details>
+      <details class="tips-sec s-read"><summary>📖 Čtení · 40 хв · 25 балів</summary><ul><li>Спершу питання, потім текст. Так ви шукаєте конкретне, а не перекладаєте все підряд.</li><li>Не застрягайте: 5 завдань за 40 хвилин, це приблизно 8 хвилин на кожне. Складне позначте й поверніться наприкінці.</li><li>Пастки: числа, дні й час. У тексті їх кілька, а правильне стосується саме того, про що питають.</li><li>Не лишайте порожніх відповідей: порожня клітинка завжди дає 0, а здогадка дає шанс.</li><li>В останньому завданні пишіть слово з тексту з усіма háčky й čárky.</li></ul></details>
+      <details class="tips-sec s-write"><summary>✍️ Psaní · 25 хв · 20 балів</summary><ul><li>E-mail коротший за 35 слів отримує 0 балів. Це найдорожча помилка на іспиті, тож рахуйте слова.</li><li>🏛 З 2026 року письмо більше про взаємодію: ви відповідаєте на конкретні питання й лист. Відповідайте на кожен пункт, нічого не пропускайте.</li><li>Формуляр: на кожне питання мінімум 10 слів, цілими реченнями. Проста формула: відповідь + protože + причина.</li><li>E-mail: привітання, мета листа, по реченню на кожну картинку, прощання й підпис. Наприклад: Ahoj Petře, … Měj se, Olena.</li><li>Пишіть простими реченнями, які точно знаєте. Два короткі правильні речення кращі за одне довге з трьома помилками.</li><li>Залиште 3 хвилини на перевірку: кількість слів, дієслово в кожному реченні, háčky й čárky.</li></ul></details>
+      <details class="tips-sec s-listen"><summary>🎧 Poslech · ~40 хв · 25 балів</summary><ul><li>🏛 Кожен запис звучить двічі, а перед ним є час прочитати завдання. Підкресліть ключові слова: коли? скільки? де?</li><li>Перше прослуховування для відповіді, друге для перевірки.</li><li>Слухайте до кінця: часто спершу звучить один варіант, а потім людина передумує (ale, tak radši, ne… ale).</li><li>Пропустили відповідь? Поставте найімовірнішу й слухайте далі, запис не чекає.</li><li>Тренуйте на слух числа, години, дні й ціни: вони є майже в кожному завданні.</li></ul></details>
+      <details class="tips-sec s-speak"><summary>🗣 Mluvení · 15 хв · 40 балів</summary><ul><li>🏛 Це головна частина. Оцінюють, чи ви порозумієтеся в буденній ситуації, а граматика не настільки важлива.</li><li>🏛 Новий формат чекає більше ініціативи: ставте свої питання, пропонуйте, реагуйте (A vy? A co v sobotu?).</li><li>👥 Екзаменатор може почати з простих особистих питань: робота, сім’я, улюблена їжа, сніданок, домашні тварини. Підготуйте розповідь про себе на хвилину.</li><li>Розповідь за картинками: хто це, де він, що робить, що було потім. Найчастіша пастка тут минулий час.</li><li>У домовленості дійдіть до спільного рішення й підтвердьте його: Dobře, tak v sobotu v deset.</li><li>Говоріть повільно й чітко: вимова теж впливає на оцінку. Мовчання коштує дорожче, ніж помилка.</li></ul></details>
+      <details class="tips-sec s-speak"><summary>🆘 Фрази-рятівники для Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Вибачте, можете повторити?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Говоріть повільніше, будь ласка.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>Я не розумію слово… Що це означає?</span><b lang="cs">Moment, musím přemýšlet.</b><span>Хвилинку, мушу подумати.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>Не знаю, як це сказати чеською, але…</span><b lang="cs">Myslíte…?</b><span>Ви маєте на увазі…?</span></div></details>
       <details class="tips-sec"><summary>🗓 Як готуватися</summary><ul><li>🏛 Офіційний сайт радить курс щонайменше на 50 годин або самостійну підготовку з онлайн-матеріалами. Безкоштовні курси є в Центрах підтримки інтеграції іноземців у кожному краї.</li><li>Пройдіть хоча б раз офіційний пробний тест у новому форматі.</li><li>План на останні 2 тижні: повний іспит у режимі «Іспит», щоб знайти слабку частину; далі щодня 20–30 хвилин тренажера цієї частини; за 2–3 дні до іспиту ще один повний іспит.</li><li>Говоріть вголос щодня: записуйте себе на телефон і слухайте. Так паузи й помилки видно одразу.</li><li>Напередодні не зубріть нове. Повторіть фрази-рятівники й шаблон e-mailu та виспіться.</li></ul></details>
       <div class="tips-go"><button class="btn primary" type="button" data-gomode="practice">Почати тренування</button><button class="btn" type="button" data-gomode="trainW">✍️ Тренувати Psaní</button><button class="btn" type="button" data-gomode="trainS">🗣 Тренувати Mluvení</button></div>
       <details class="src-list"><summary>Джерела</summary><ul><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/" rel="noopener">cestina-pro-cizince.cz</a>: офіційний сайт іспиту NPI ČR (запис, оплата, скасування, результати, підготовка)</li><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/wp-content/uploads/2025/10/Dulezite-upozorneni-na-zmenu-formatu-zkousky-A2-od-11.-dubna-2026.pdf" rel="noopener">Důležité upozornění na změnu formátu zkoušky A2</a>: що змінилося з 11.04.2026</li><li><a href="https://blog.foreigners.cz/changes-to-the-czech-a2-language-exam-in-2026/" rel="noopener">blog.foreigners.cz</a>: огляд змін 2026</li><li>Досвід кандидатів: обговорення у Facebook-групах і на Reddit</li></ul><p>Умови можуть змінюватися. Перед записом перевірте актуальну інформацію на офіційному сайті.</p></details>
@@ -1097,8 +1157,8 @@ function renderResults(){
   const wr = sum(rows), sp = sum(srows);
   const writtenDone = CHECKED.read && CHECKED.write && CHECKED.listen && RES.w1set && RES.w2set;
   const pill = (done, ok) => !done ? '<span class="pill wait">ще не завершено</span>' : (ok ? '<span class="pill pass">склав</span>' : '<span class="pill fail">не склав</span>');
-  const card = (title, got, max, min, done) => `<div class="sum-card"><div class="task-h"><b>${title}</b>${pill(done, got >= min)}</div><div class="big">${got} <span class="muted" style="font-size:1rem">/ ${max}</span></div><div class="bar" aria-hidden="true"><i style="width:${Math.min(100, got/max*100)}%"></i><b></b></div><span class="small muted">Потрібно мінімум ${min} (60 %)</span></div>`;
-  const tr = r => `<tr><td>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
+  const card = (title, got, max, min, done) => `<div class="sum-card${done ? (got >= min ? ' ok' : ' bad') : ''}"><div class="task-h"><b>${title}</b>${pill(done, got >= min)}</div><div class="big">${got} <span class="muted" style="font-size:1rem">/ ${max}</span></div><div class="bar" aria-hidden="true"><i style="width:${Math.min(100, got/max*100)}%"></i><b></b></div><span class="small muted">Потрібно мінімум ${min} (60 %)</span></div>`;
+  const tr = r => `<tr><td><span class="cdot ${({r:'s-read',w:'s-write',l:'s-listen',s:'s-speak',p:'s-speak'})[r[1][0]]}"></span>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
   const overall = writtenDone && CHECKED.speak && RES.speakSet;
   if(overall && !E.resultSent){ E.resultSent = true; track('exam_result', {written: wr, oral: sp, passed: (wr >= 42 && sp >= 24) ? 'yes' : 'no', mode: MODE}); }
   let rec = '';
@@ -1107,8 +1167,8 @@ function renderResults(){
       else if(histTotal(me) > histTotal(prevBest)) rec = `<div class="best-box">🏆 <b>Новий рекорд!</b> +${histTotal(me) - histTotal(prevBest)} б. порівняно з попереднім найкращим результатом.</div>`;
       else rec = `<p class="small muted">Ваш рекорд: ${histTotal(prevBest)} б. з 110. Цього разу: ${histTotal(me)}.</p>`; } }
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">код іспиту ${E.seed}</span></div>${rec}
+    ${overall ? (wr >= 42 && sp >= 24 ? `<div class="verdict pass"><span class="vi" aria-hidden="true">🎉</span><div><b>Іспит складено!</b><span>Обидві частини вище 60 %. Так тримати!</span></div></div>` : `<div class="verdict fail"><span class="vi" aria-hidden="true">💪</span><div><b>Іспит поки не складено</b><span>Потрібно 60 % в кожній частині окремо. Нижче видно, що саме підтягнути.</span></div></div>`) : '<p class="ua">Підсумок з’явиться, коли перевірите всі чотири частини та поставите самооцінку за письмо й мовлення.</p>'}
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
-    ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Іспит складено. Обидві частини вище 60 %.' : 'Іспит не складено. Потрібно 60 % в кожній частині окремо.'}</b></div>` : '<p class="ua">Підсумок з’явиться, коли перевірите всі чотири частини та поставите самооцінку за письмо й мовлення.</p>'}
     ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>З яких варіантів складено цей іспит</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: варіант ${E.src[s]+1}`).join(' · ')}</p></details>
@@ -1373,6 +1433,11 @@ function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = fals
 function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Відкрити поради' : 'Почати новий іспит'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
+function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
+function themeUI(){ const b = $('#themeBtn'); if(!b) return; const d = isDark(); b.textContent = d ? '☀️' : '🌙'; const l = d ? 'Увімкнути світлу тему' : 'Увімкнути темну тему'; b.title = l; b.setAttribute('aria-label', l); }
+$('#themeBtn').addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); try{ localStorage.setItem('a2-theme', t); }catch(e){} themeUI(); track('theme', {theme: t}); });
+try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeUI); }catch(e){}
+themeUI();
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новий іспит'; b.classList.remove('danger'); newArm = null; }
 

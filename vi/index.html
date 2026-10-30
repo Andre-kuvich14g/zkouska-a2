@@ -35,6 +35,7 @@ gtag('config', 'G-YMHXGCMMH4');
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMHXGCMMH4"></script>
 
+<script>try{var __t=localStorage.getItem('a2-theme');if(__t==='dark'||__t==='light')document.documentElement.setAttribute('data-theme',__t);}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -48,16 +49,23 @@ gtag('config', 'G-YMHXGCMMH4');
   --f-body:"IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   --r:6px;
+  --c-read:#1f5fbf; --c-read-soft:#e4edfb; --c-write:#0f766e; --c-write-soft:#dcf2ef;
+  --c-listen:#6d3fc0; --c-listen-soft:#eee6fb; --c-speak:#c2410c; --c-speak-soft:#fdeadf;
+  --c-exam:#15213a; --c-exam-soft:#e6e9f0; --c-tips:#a15c00; --c-tips-soft:#fbf0dc;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
+  --c-read:#86a9ff; --c-read-soft:#1d2a47; --c-write:#4fd1c0; --c-write-soft:#123432; --c-listen:#b99eff; --c-listen-soft:#2a2145;
+  --c-speak:#ff9a5c; --c-speak-soft:#3a2414; --c-exam:#e5e9f1; --c-exam-soft:#232c40; --c-tips:#f0b65a; --c-tips-soft:#352813;
   color-scheme:dark } }
 :root[data-theme="dark"]{
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
+  --c-read:#86a9ff; --c-read-soft:#1d2a47; --c-write:#4fd1c0; --c-write-soft:#123432; --c-listen:#b99eff; --c-listen-soft:#2a2145;
+  --c-speak:#ff9a5c; --c-speak-soft:#3a2414; --c-exam:#e5e9f1; --c-exam-soft:#232c40; --c-tips:#f0b65a; --c-tips-soft:#352813;
   color-scheme:dark }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
@@ -328,6 +336,59 @@ body.hide-q .qtext{visibility:hidden}
 .bar b{position:absolute;top:-2px;bottom:-2px;left:60%;width:2px;background:var(--ink)}
 .rtable td.n{font-family:var(--f-mono);text-align:right}
 
+
+/* colours per exam part */
+.s-read,[data-pane=read],.tab[data-tab=read]{--sec:var(--c-read);--sec-soft:var(--c-read-soft)}
+.s-write,[data-pane=write],.tab[data-tab=write]{--sec:var(--c-write);--sec-soft:var(--c-write-soft)}
+.s-listen,[data-pane=listen],.tab[data-tab=listen]{--sec:var(--c-listen);--sec-soft:var(--c-listen-soft)}
+.s-speak,[data-pane=speak],.tab[data-tab=speak]{--sec:var(--c-speak);--sec-soft:var(--c-speak-soft)}
+[data-pane=results],.tab[data-tab=results]{--sec:var(--accent);--sec-soft:var(--accent-soft)}
+.sheet[data-pane]{border-top:5px solid var(--sec)}
+.sheet[data-pane] .sec-head{border-bottom-color:var(--sec)}
+.sheet[data-pane] .sec-head h2{color:var(--sec)}
+.sheet[data-pane] .btn.primary{background:var(--sec);border-color:var(--sec);color:var(--accent-ink)}
+.sheet[data-pane] .btn:not(.primary):hover{border-color:var(--sec)}
+.tab .t1::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--sec);margin-right:6px;vertical-align:1px}
+.tab[aria-selected="true"]{border-color:var(--sec);background:var(--sec-soft);box-shadow:inset 0 -3px 0 var(--sec)}
+
+.cdot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--sec);margin-right:7px;vertical-align:1px}
+.struct tr[class^=s-] td:first-child b{color:var(--sec)}
+.tips-sec[class*=" s-"]{border-left:5px solid var(--sec)}
+.tips-sec[class*=" s-"]>summary{color:var(--sec)}
+/* start hero */
+.hero.hero-start{position:relative;overflow:hidden;max-width:none;border-radius:calc(var(--r) + 4px);padding:clamp(20px,4vw,32px) clamp(16px,4vw,32px) 84px;
+  background:radial-gradient(120% 140% at 100% 0%,var(--c-listen-soft) 0%,transparent 55%),linear-gradient(135deg,var(--accent-soft) 0%,var(--sheet) 85%);border:1px solid var(--rule)}
+.hero.hero-start>*{position:relative;max-width:64ch}
+.hero.hero-start h1{color:var(--ink)}
+.skyline{position:absolute!important;left:0;right:0;bottom:0;width:100%;height:76px;max-width:none!important;color:var(--accent);opacity:.22;pointer-events:none}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges span{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--sheet);border:1px solid var(--rule);font-size:.85rem;font-weight:600}
+/* mode cards */
+.m-practice{--m:var(--c-read);--m-soft:var(--c-read-soft)}
+.m-exam{--m:var(--c-exam);--m-soft:var(--c-exam-soft)}
+.m-trainW{--m:var(--c-write);--m-soft:var(--c-write-soft)}
+.m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
+.m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
+.mode:hover{border-color:var(--m)}
+.mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
+.mode input{margin-top:13px;accent-color:var(--m)}
+.mode.wide{grid-column:1/-1}
+.mi{flex:0 0 auto;width:42px;height:42px;border-radius:10px;display:grid;place-items:center;font-size:1.35rem;background:var(--m-soft);border:1px solid var(--rule)}
+.mode:has(input:checked) .mi{background:var(--sheet)}
+/* final verdict */
+.verdict{display:flex;gap:14px;align-items:center;padding:18px 20px;border-radius:calc(var(--r) + 4px);border:2px solid}
+.verdict .vi{font-size:2.2rem;line-height:1}
+.verdict b{display:block;font-family:var(--f-display);font-size:1.4rem;line-height:1.25}
+.verdict.pass{background:var(--ok-soft);border-color:var(--ok)}
+.verdict.pass b{color:var(--ok)}
+.verdict.fail{background:var(--warn-soft);border-color:var(--warn)}
+.verdict.fail b{color:var(--warn)}
+.sum-card.ok{border-color:var(--ok)}
+.sum-card.ok .bar i{background:var(--ok)}
+.sum-card.bad{border-color:var(--mark)}
+.sum-card.bad .bar i{background:var(--mark)}
+/* theme switch */
+.theme-btn{width:36px;height:36px;min-height:36px;padding:0;border-radius:50%;font-size:1.05rem;margin-left:6px}
 /* start */
 .hero{padding-block:24px 8px;display:grid;gap:14px;max-width:68ch}
 .struct{overflow-x:auto}
@@ -335,10 +396,7 @@ body.hide-q .qtext{visibility:hidden}
 .struct td:last-child,.struct th:last-child{text-align:right;font-family:var(--f-mono)}
 .start-grid{display:grid;gap:16px}
 .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
-.mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start}
-.mode:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
-.mode input{margin-top:5px;accent-color:var(--accent)}
-.mode.wide{grid-column:1/-1;background:var(--soft)}
+.mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;border-left:5px solid var(--m,var(--rule));transition:background .15s,border-color .15s}
 .tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
 .tips-top ol,.tips-sec ul{margin:8px 0 0;padding-left:20px;display:grid;gap:8px;line-height:1.5}
 .tips-sec{border:1px solid var(--rule);border-radius:var(--r);padding:0 14px}
@@ -442,7 +500,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 <div class="wrap">
   <div class="top">
     <div class="brand"><span class="eyebrow">Trvalý pobyt · úroveň A2 · nový formát od 11. 4. 2026</span><b>Zkouška A2 nanečisto</b></div>
-    <nav class="langs" id="langs" aria-label="Ngôn ngữ giao diện"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav>
+    <nav class="langs" id="langs" aria-label="Ngôn ngữ giao diện"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav><button type="button" class="btn theme-btn" id="themeBtn" aria-label="Giao diện tối"></button>
     <div class="top-actions" id="topActions" hidden>
       <span class="code" id="codeLabel"></span>
       <button class="btn sm" id="newBtn" type="button">Bài thi mới</button>
@@ -452,30 +510,32 @@ details.src-list{font-size:.85rem;color:var(--muted)}
   <!-- START -->
   <section id="startView">
     <div class="sheet">
-      <div class="hero">
+      <div class="hero hero-start">
         <h1>Thi thử tiếng Séc A2 để xin cư trú dài hạn</h1>
         <p class="langhint">🌐 Bạn có thể đổi ngôn ngữ gợi ý và giải thích ở góc trên bên phải: UA · EN · RU · VI. Bản tiếng Việt đang thử nghiệm (beta) – nếu thấy lỗi dịch, xin hãy báo cho chúng tôi.</p>
         <p>Mỗi lần, một bài thi mới được ghép từ 20 đề: mỗi phần lấy từ một đề ngẫu nhiên và đáp án được xáo trộn. Cấu trúc, số câu, điểm và thời gian giống bài thi chính thức của NPI ČR.</p>
+        <div class="badges"><span>✓ Miễn phí</span><span>✓ Định dạng mới 2026</span><span>✓ 20 đề</span><span>✓ Âm thanh và giải thích</span></div>
+        <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
       <div class="struct">
         <table>
           <thead><tr><th>Phần</th><th>Nội dung</th><th>Thời gian</th><th>Điểm</th></tr></thead>
           <tbody>
-            <tr><td><b>Čtení</b></td><td>5 phần: tranh, bài đọc, thông báo, điền từ, bảng</td><td class="mono">40 phút</td><td>25</td></tr>
-            <tr><td><b>Psaní</b></td><td>Mẫu đơn (3 × tối thiểu 10 từ) và e-mail (tối thiểu 35 từ)</td><td class="mono">25 phút</td><td>20</td></tr>
-            <tr><td><b>Poslech</b></td><td>5 phần, mỗi bài nghe phát hai lần</td><td class="mono">~40 phút</td><td>25</td></tr>
-            <tr><td><b>Mluvení</b></td><td>Câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận</td><td class="mono">15 phút</td><td>40</td></tr>
+            <tr class="s-read"><td><span class="cdot"></span><b>Čtení</b></td><td>5 phần: tranh, bài đọc, thông báo, điền từ, bảng</td><td class="mono">40 phút</td><td>25</td></tr>
+            <tr class="s-write"><td><span class="cdot"></span><b>Psaní</b></td><td>Mẫu đơn (3 × tối thiểu 10 từ) và e-mail (tối thiểu 35 từ)</td><td class="mono">25 phút</td><td>20</td></tr>
+            <tr class="s-listen"><td><span class="cdot"></span><b>Poslech</b></td><td>5 phần, mỗi bài nghe phát hai lần</td><td class="mono">~40 phút</td><td>25</td></tr>
+            <tr class="s-speak"><td><span class="cdot"></span><b>Mluvení</b></td><td>Câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận</td><td class="mono">15 phút</td><td>40</td></tr>
           </tbody>
         </table>
         <p class="small muted" style="margin-top:8px">Để đỗ: phần viết tối thiểu 42/70, phần nói tối thiểu 24/40.</p>
       </div>
       <div class="start-grid">
         <div class="modes" role="radiogroup" aria-label="Chế độ">
-          <label class="mode"><input type="radio" name="mode" value="practice" id="modePractice" checked><span><b>Luyện tập</b> <span class="rec-tag">nên bắt đầu từ đây</span><br><span class="small muted">Không giới hạn thời gian, nghe lại bao nhiêu lần cũng được, xem được lời thoại, có bài mẫu và giải thích.</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="exam" id="modeExam"><span><b>Thi</b><br><span class="small muted">Có đồng hồ, mỗi bài nghe chỉ bật một lần (phát hai lần), lời thoại ẩn đến khi chấm. Để tự kiểm tra sau khi đã luyện tập.</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span><b>✍️ Luyện Psaní (viết)</b><br><span class="small muted">Chỉ phần viết: mẫu đơn và e-mail. Có bài mẫu, gợi ý, trang chấm và nút “Bài tiếp theo”.</span></span></label>
-          <label class="mode"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span><b>🗣 Luyện Mluvení (nói)</b><br><span class="small muted">Chỉ phần nói: câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận. Có âm thanh, ghi âm và trang chấm.</span></span></label>
-          <label class="mode wide"><input type="radio" name="mode" value="tips" id="modeTips"><span><b>💡 Mẹo đi thi</b><br><span class="small muted">Cần làm gì trước, trong và sau kỳ thi: đăng ký, chiến thuật cho từng phần, câu cứu nguy cho Mluvení. Ngắn gọn, từ nguồn chính thức và kinh nghiệm của thí sinh.</span></span></label>
+          <label class="mode m-practice"><input type="radio" name="mode" value="practice" id="modePractice" checked><span class="mi" aria-hidden="true">📘</span><span><b>Luyện tập</b> <span class="rec-tag">nên bắt đầu từ đây</span><br><span class="small muted">Không giới hạn thời gian, nghe lại bao nhiêu lần cũng được, xem được lời thoại, có bài mẫu và giải thích.</span></span></label>
+          <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Thi</b><br><span class="small muted">Có đồng hồ, mỗi bài nghe chỉ bật một lần (phát hai lần), lời thoại ẩn đến khi chấm. Để tự kiểm tra sau khi đã luyện tập.</span></span></label>
+          <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Luyện Psaní (viết)</b><br><span class="small muted">Chỉ phần viết: mẫu đơn và e-mail. Có bài mẫu, gợi ý, trang chấm và nút “Bài tiếp theo”.</span></span></label>
+          <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Luyện Mluvení (nói)</b><br><span class="small muted">Chỉ phần nói: câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận. Có âm thanh, ghi âm và trang chấm.</span></span></label>
+          <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Mẹo đi thi</b><br><span class="small muted">Cần làm gì trước, trong và sau kỳ thi: đăng ký, chiến thuật cho từng phần, câu cứu nguy cho Mluvení. Ngắn gọn, từ nguồn chính thức và kinh nghiệm của thí sinh.</span></span></label>
         </div>
         <div class="codebox" id="codeBox">
           <label for="codeIn" class="small muted">Mã bài thi (không bắt buộc, để làm lại đúng bài đó):</label>
@@ -496,11 +556,11 @@ details.src-list{font-size:.85rem;color:var(--muted)}
       <div class="tips-top"><b>⭐ Điều quan trọng nhất trong một phút</b><ol><li>Mluvení chiếm 40/110 điểm, và phải đỗ riêng từng phần: phần viết ít nhất 42/70, phần nói ít nhất 24/40. Hãy nói thành tiếng mỗi ngày.</li><li>E-mail ngắn hơn 35 từ bị 0 điểm. Hãy đếm số từ.</li><li>Đừng để trống câu trả lời ở Čtení và Poslech: ô trống luôn được 0 điểm.</li><li>Mỗi bài nghe ở Poslech phát hai lần, và trước đó có thời gian đọc câu hỏi. Hãy tận dụng thời gian này.</li><li>Không hiểu giám khảo? Hãy xin nhắc lại bằng tiếng Séc. Im lặng còn tệ hơn mắc lỗi.</li></ol></div>
       <details class="tips-sec"><summary>📅 Đăng ký và thủ tục</summary><ul><li>🏛 Có thể đăng ký online hoặc trực tiếp tại một trong các trường được cấp phép trong danh sách trên trang chính thức. Lệ phí 3 200 Kč phải đến trường chậm nhất 8 ngày trước kỳ thi.</li><li>👥 Ở thành phố lớn lịch thi thường kín từ sớm. Ở thị trấn nhỏ hơn hay có chỗ sớm hơn, nên hãy so sánh vài trường.</li><li>🏛 Sau khi đăng ký, trường gửi e-mail về giờ, địa điểm và thông tin thanh toán. Hãy kiểm tra cả thư mục spam. Đơn phải ký trực tiếp tại trường: kiểm tra tên viết đúng như trong hộ chiếu.</li><li>🏛 Có thể huỷ chậm nhất 15 ngày trước. Sau đó chỉ khi ốm hoặc có lý do nghiêm trọng kèm giấy tờ, và khi đó bạn không mất lượt thi.</li><li>🏛 Bộ Nội vụ khuyên đăng ký thi trước khi nộp đơn xin thường trú. Kết quả gửi qua e-mail hoặc SMS sau khoảng 9 ngày, chứng chỉ có giá trị vô thời hạn.</li></ul></details>
       <details class="tips-sec"><summary>🎒 Ngày thi</summary><ul><li>Mang giấy tờ bạn đã ghi trong đơn (thường là hộ chiếu) và hai cây bút. Đến sớm 15–20 phút.</li><li>🏛 Kỳ thi diễn ra trong một ngày: phần viết gần 2 tiếng (Čtení, Psaní, Poslech), phần nói khoảng 15 phút.</li><li>Tắt điện thoại trước khi bắt đầu: không được dùng điện thoại và từ điển.</li><li>Mang nước và đồ ăn nhẹ. Giữa phần viết và phần nói có thể có giờ nghỉ, và mệt mỏi khiến bạn ngập ngừng khi Mluvení.</li></ul></details>
-      <details class="tips-sec"><summary>📖 Čtení · 40 phút · 25 điểm</summary><ul><li>Đọc câu hỏi trước, rồi mới đọc bài. Như vậy bạn tìm thông tin cụ thể thay vì dịch hết.</li><li>Đừng sa lầy: 5 bài trong 40 phút, khoảng 8 phút mỗi bài. Đánh dấu câu khó và quay lại cuối giờ.</li><li>Bẫy: số, ngày và giờ. Bài có nhiều con số, nhưng đáp án đúng là cái liên quan đúng điều được hỏi.</li><li>Đừng để trống: ô trống luôn được 0, còn đoán thì vẫn có cơ hội.</li><li>Ở bài cuối, chép từ trong bài với đầy đủ háčky và čárky.</li></ul></details>
-      <details class="tips-sec"><summary>✍️ Psaní · 25 phút · 20 điểm</summary><ul><li>E-mail ngắn hơn 35 từ bị 0 điểm. Đây là lỗi đắt nhất trong kỳ thi, nên hãy đếm số từ.</li><li>🏛 Từ 2026 phần viết thiên về tương tác: bạn trả lời câu hỏi cụ thể và một lá thư. Hãy trả lời từng ý, không bỏ sót.</li><li>Mẫu đơn: mỗi câu hỏi ít nhất 10 từ, viết thành câu đầy đủ. Công thức đơn giản: câu trả lời + protože + lý do.</li><li>E-mail: lời chào, mục đích thư, mỗi tranh một câu, lời chào kết và chữ ký. Ví dụ: Ahoj Petře, … Měj se, Olena.</li><li>Viết câu đơn giản mà bạn chắc chắn. Hai câu ngắn đúng tốt hơn một câu dài có ba lỗi.</li><li>Dành 3 phút để kiểm tra: số từ, mỗi câu có động từ, háčky và čárky.</li></ul></details>
-      <details class="tips-sec"><summary>🎧 Poslech · ~40 phút · 25 điểm</summary><ul><li>🏛 Mỗi bài nghe phát hai lần, và trước đó có thời gian đọc đề. Gạch chân từ khoá: khi nào? bao nhiêu? ở đâu?</li><li>Lần nghe đầu để trả lời, lần hai để kiểm tra.</li><li>Nghe đến hết: thường lúc đầu nói một phương án, sau đó người nói đổi ý (ale, tak radši, ne… ale).</li><li>Lỡ mất đáp án? Chọn phương án khả năng nhất và nghe tiếp, bài nghe không chờ bạn.</li><li>Luyện nghe số, giờ, ngày và giá tiền: chúng có trong hầu hết các bài.</li></ul></details>
-      <details class="tips-sec"><summary>🗣 Mluvení · 15 phút · 40 điểm</summary><ul><li>🏛 Đây là phần chính. Điều được đánh giá là bạn có giao tiếp được trong tình huống hằng ngày không; ngữ pháp ít quan trọng hơn.</li><li>🏛 Định dạng mới đòi hỏi chủ động hơn: tự đặt câu hỏi, đưa đề xuất, phản hồi (A vy? A co v sobotu?).</li><li>👥 Giám khảo có thể bắt đầu bằng câu hỏi cá nhân đơn giản: công việc, gia đình, món ăn yêu thích, bữa sáng, thú cưng. Hãy chuẩn bị một phút nói về bản thân.</li><li>Kể theo tranh: ai, ở đâu, làm gì, sau đó thế nào. Bẫy hay gặp nhất ở đây là thì quá khứ.</li><li>Trong bài thoả thuận, hãy đi đến quyết định chung và xác nhận: Dobře, tak v sobotu v deset.</li><li>Nói chậm và rõ: phát âm cũng ảnh hưởng đến điểm. Im lặng còn tệ hơn mắc lỗi.</li></ul></details>
-      <details class="tips-sec"><summary>🆘 Câu cứu nguy cho Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Xin lỗi, bạn có thể nhắc lại không?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Xin nói chậm hơn.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>Tôi không hiểu từ… Nó nghĩa là gì?</span><b lang="cs">Moment, musím přemýšlet.</b><span>Chờ một chút, tôi cần suy nghĩ.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>Tôi không biết nói điều đó bằng tiếng Séc thế nào, nhưng…</span><b lang="cs">Myslíte…?</b><span>Ý bạn là…?</span></div></details>
+      <details class="tips-sec s-read"><summary>📖 Čtení · 40 phút · 25 điểm</summary><ul><li>Đọc câu hỏi trước, rồi mới đọc bài. Như vậy bạn tìm thông tin cụ thể thay vì dịch hết.</li><li>Đừng sa lầy: 5 bài trong 40 phút, khoảng 8 phút mỗi bài. Đánh dấu câu khó và quay lại cuối giờ.</li><li>Bẫy: số, ngày và giờ. Bài có nhiều con số, nhưng đáp án đúng là cái liên quan đúng điều được hỏi.</li><li>Đừng để trống: ô trống luôn được 0, còn đoán thì vẫn có cơ hội.</li><li>Ở bài cuối, chép từ trong bài với đầy đủ háčky và čárky.</li></ul></details>
+      <details class="tips-sec s-write"><summary>✍️ Psaní · 25 phút · 20 điểm</summary><ul><li>E-mail ngắn hơn 35 từ bị 0 điểm. Đây là lỗi đắt nhất trong kỳ thi, nên hãy đếm số từ.</li><li>🏛 Từ 2026 phần viết thiên về tương tác: bạn trả lời câu hỏi cụ thể và một lá thư. Hãy trả lời từng ý, không bỏ sót.</li><li>Mẫu đơn: mỗi câu hỏi ít nhất 10 từ, viết thành câu đầy đủ. Công thức đơn giản: câu trả lời + protože + lý do.</li><li>E-mail: lời chào, mục đích thư, mỗi tranh một câu, lời chào kết và chữ ký. Ví dụ: Ahoj Petře, … Měj se, Olena.</li><li>Viết câu đơn giản mà bạn chắc chắn. Hai câu ngắn đúng tốt hơn một câu dài có ba lỗi.</li><li>Dành 3 phút để kiểm tra: số từ, mỗi câu có động từ, háčky và čárky.</li></ul></details>
+      <details class="tips-sec s-listen"><summary>🎧 Poslech · ~40 phút · 25 điểm</summary><ul><li>🏛 Mỗi bài nghe phát hai lần, và trước đó có thời gian đọc đề. Gạch chân từ khoá: khi nào? bao nhiêu? ở đâu?</li><li>Lần nghe đầu để trả lời, lần hai để kiểm tra.</li><li>Nghe đến hết: thường lúc đầu nói một phương án, sau đó người nói đổi ý (ale, tak radši, ne… ale).</li><li>Lỡ mất đáp án? Chọn phương án khả năng nhất và nghe tiếp, bài nghe không chờ bạn.</li><li>Luyện nghe số, giờ, ngày và giá tiền: chúng có trong hầu hết các bài.</li></ul></details>
+      <details class="tips-sec s-speak"><summary>🗣 Mluvení · 15 phút · 40 điểm</summary><ul><li>🏛 Đây là phần chính. Điều được đánh giá là bạn có giao tiếp được trong tình huống hằng ngày không; ngữ pháp ít quan trọng hơn.</li><li>🏛 Định dạng mới đòi hỏi chủ động hơn: tự đặt câu hỏi, đưa đề xuất, phản hồi (A vy? A co v sobotu?).</li><li>👥 Giám khảo có thể bắt đầu bằng câu hỏi cá nhân đơn giản: công việc, gia đình, món ăn yêu thích, bữa sáng, thú cưng. Hãy chuẩn bị một phút nói về bản thân.</li><li>Kể theo tranh: ai, ở đâu, làm gì, sau đó thế nào. Bẫy hay gặp nhất ở đây là thì quá khứ.</li><li>Trong bài thoả thuận, hãy đi đến quyết định chung và xác nhận: Dobře, tak v sobotu v deset.</li><li>Nói chậm và rõ: phát âm cũng ảnh hưởng đến điểm. Im lặng còn tệ hơn mắc lỗi.</li></ul></details>
+      <details class="tips-sec s-speak"><summary>🆘 Câu cứu nguy cho Mluvení</summary><div class="phr"><b lang="cs">Promiňte, můžete to zopakovat?</b><span>Xin lỗi, bạn có thể nhắc lại không?</span><b lang="cs">Mluvte pomaleji, prosím.</b><span>Xin nói chậm hơn.</span><b lang="cs">Nerozumím slovu… Co to znamená?</b><span>Tôi không hiểu từ… Nó nghĩa là gì?</span><b lang="cs">Moment, musím přemýšlet.</b><span>Chờ một chút, tôi cần suy nghĩ.</span><b lang="cs">Nevím, jak se to řekne česky, ale…</b><span>Tôi không biết nói điều đó bằng tiếng Séc thế nào, nhưng…</span><b lang="cs">Myslíte…?</b><span>Ý bạn là…?</span></div></details>
       <details class="tips-sec"><summary>🗓 Cách ôn luyện</summary><ul><li>🏛 Trang chính thức khuyên học khoá ít nhất 50 giờ hoặc tự học với tài liệu online. Có khoá học miễn phí tại các Trung tâm hỗ trợ hội nhập người nước ngoài ở mọi vùng.</li><li>Làm bài thi thử chính thức theo định dạng mới ít nhất một lần.</li><li>Kế hoạch 2 tuần cuối: làm một bài thi đầy đủ ở chế độ «Thi» để tìm phần yếu; sau đó mỗi ngày luyện phần đó 20–30 phút; 2–3 ngày trước kỳ thi làm thêm một bài thi đầy đủ.</li><li>Nói thành tiếng mỗi ngày: ghi âm bằng điện thoại rồi nghe lại. Chỗ ngập ngừng và lỗi sẽ lộ ra ngay.</li><li>Hôm trước đừng học thêm điều mới. Ôn lại các câu cứu nguy và mẫu e-mail, rồi ngủ đủ giấc.</li></ul></details>
       <div class="tips-go"><button class="btn primary" type="button" data-gomode="practice">Bắt đầu luyện tập</button><button class="btn" type="button" data-gomode="trainW">✍️ Luyện Psaní (viết)</button><button class="btn" type="button" data-gomode="trainS">🗣 Luyện Mluvení (nói)</button></div>
       <details class="src-list"><summary>Nguồn</summary><ul><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/" rel="noopener">cestina-pro-cizince.cz</a>: trang chính thức của kỳ thi NPI ČR (đăng ký, thanh toán, huỷ, kết quả, ôn luyện)</li><li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/wp-content/uploads/2025/10/Dulezite-upozorneni-na-zmenu-formatu-zkousky-A2-od-11.-dubna-2026.pdf" rel="noopener">Důležité upozornění na změnu formátu zkoušky A2</a>: những thay đổi từ 11.04.2026</li><li><a href="https://blog.foreigners.cz/changes-to-the-czech-a2-language-exam-in-2026/" rel="noopener">blog.foreigners.cz</a>: tổng quan thay đổi 2026</li><li>Kinh nghiệm thí sinh: thảo luận trong các nhóm Facebook và trên Reddit</li></ul><p>Điều kiện có thể thay đổi. Hãy kiểm tra thông tin mới nhất trên trang chính thức trước khi đăng ký.</p></details>
@@ -1097,8 +1157,8 @@ function renderResults(){
   const wr = sum(rows), sp = sum(srows);
   const writtenDone = CHECKED.read && CHECKED.write && CHECKED.listen && RES.w1set && RES.w2set;
   const pill = (done, ok) => !done ? '<span class="pill wait">chưa hoàn thành</span>' : (ok ? '<span class="pill pass">đỗ</span>' : '<span class="pill fail">trượt</span>');
-  const card = (title, got, max, min, done) => `<div class="sum-card"><div class="task-h"><b>${title}</b>${pill(done, got >= min)}</div><div class="big">${got} <span class="muted" style="font-size:1rem">/ ${max}</span></div><div class="bar" aria-hidden="true"><i style="width:${Math.min(100, got/max*100)}%"></i><b></b></div><span class="small muted">Cần tối thiểu ${min} (60 %)</span></div>`;
-  const tr = r => `<tr><td>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
+  const card = (title, got, max, min, done) => `<div class="sum-card${done ? (got >= min ? ' ok' : ' bad') : ''}"><div class="task-h"><b>${title}</b>${pill(done, got >= min)}</div><div class="big">${got} <span class="muted" style="font-size:1rem">/ ${max}</span></div><div class="bar" aria-hidden="true"><i style="width:${Math.min(100, got/max*100)}%"></i><b></b></div><span class="small muted">Cần tối thiểu ${min} (60 %)</span></div>`;
+  const tr = r => `<tr><td><span class="cdot ${({r:'s-read',w:'s-write',l:'s-listen',s:'s-speak',p:'s-speak'})[r[1][0]]}"></span>${r[0]}</td><td class="n">${has(r[1]) ? RES[r[1]] : '–'} / ${r[2]}</td></tr>`;
   const overall = writtenDone && CHECKED.speak && RES.speakSet;
   if(overall && !E.resultSent){ E.resultSent = true; track('exam_result', {written: wr, oral: sp, passed: (wr >= 42 && sp >= 24) ? 'yes' : 'no', mode: MODE}); }
   let rec = '';
@@ -1107,8 +1167,8 @@ function renderResults(){
       else if(histTotal(me) > histTotal(prevBest)) rec = `<div class="best-box">🏆 <b>Kỷ lục mới!</b> +${histTotal(me) - histTotal(prevBest)} điểm so với kết quả tốt nhất trước đó.</div>`;
       else rec = `<p class="small muted">Kỷ lục của bạn: ${histTotal(prevBest)} /110 điểm. Lần này: ${histTotal(me)}.</p>`; } }
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">mã bài thi ${E.seed}</span></div>${rec}
+    ${overall ? (wr >= 42 && sp >= 24 ? `<div class="verdict pass"><span class="vi" aria-hidden="true">🎉</span><div><b>Đã thi đỗ!</b><span>Cả hai phần đều trên 60 %. Cứ thế phát huy!</span></div></div>` : `<div class="verdict fail"><span class="vi" aria-hidden="true">💪</span><div><b>Chưa đỗ lần này</b><span>Cần đạt 60 % ở từng phần riêng. Bên dưới là những gì cần cải thiện.</span></div></div>`) : '<p class="ua">Kết quả sẽ hiện khi bạn đã chấm cả bốn phần và tự chấm phần viết và nói.</p>'}
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
-    ${overall ? `<div class="banner"><b>${wr >= 42 && sp >= 24 ? 'Đã đỗ. Cả hai phần đều trên 60 %.' : 'Chưa đỗ. Cần đạt 60 % ở từng phần riêng.'}</b></div>` : '<p class="ua">Kết quả sẽ hiện khi bạn đã chấm cả bốn phần và tự chấm phần viết và nói.</p>'}
     ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>Bài thi này được ghép từ những đề nào</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: đề ${E.src[s]+1}`).join(' · ')}</p></details>
@@ -1373,6 +1433,11 @@ function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = fals
 function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : 'Bắt đầu bài thi mới'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
+function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
+function themeUI(){ const b = $('#themeBtn'); if(!b) return; const d = isDark(); b.textContent = d ? '☀️' : '🌙'; const l = d ? 'Bật giao diện sáng' : 'Bật giao diện tối'; b.title = l; b.setAttribute('aria-label', l); }
+$('#themeBtn').addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); try{ localStorage.setItem('a2-theme', t); }catch(e){} themeUI(); track('theme', {theme: t}); });
+try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeUI); }catch(e){}
+themeUI();
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Bài thi mới'; b.classList.remove('danger'); newArm = null; }
 

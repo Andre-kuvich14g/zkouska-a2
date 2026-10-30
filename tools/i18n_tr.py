@@ -471,3 +471,20 @@ T += [
 ("Умови можуть змінюватися. Перед записом перевірте актуальну інформацію на офіційному сайті.", "Conditions may change. Check the current information on the official website before you register.", "Условия могут меняться. Перед записью проверьте актуальную информацию на официальном сайте.", "Điều kiện có thể thay đổi. Hãy kiểm tra thông tin mới nhất trên trang chính thức trước khi đăng ký."),
 ("Відкрити поради", "Open the tips", "Открыть советы", "Mở mẹo thi"),
 ]
+# дизайн: кольори, тема, вердикт
+T += [
+("Темна тема", "Dark theme", "Тёмная тема", "Giao diện tối"),
+("✓ Безкоштовно", "✓ Free", "✓ Бесплатно", "✓ Miễn phí"),
+("✓ Новий формат 2026", "✓ New 2026 format", "✓ Новый формат 2026", "✓ Định dạng mới 2026"),
+("✓ 20 варіантів", "✓ 20 variants", "✓ 20 вариантов", "✓ 20 đề"),
+("✓ Аудіо й пояснення", "✓ Audio and explanations", "✓ Аудио и объяснения", "✓ Âm thanh và giải thích"),
+("Тренувати Psaní", "Practise Psaní (writing)", "Тренировать Psaní (письмо)", "Luyện Psaní (viết)"),
+("Тренувати Mluvení", "Practise Mluvení (speaking)", "Тренировать Mluvení (говорение)", "Luyện Mluvení (nói)"),
+("Поради до іспиту", "Exam tips", "Советы к экзамену", "Mẹo đi thi"),
+("Іспит складено!", "Exam passed!", "Экзамен сдан!", "Đã thi đỗ!"),
+("Обидві частини вище 60 %. Так тримати!", "Both parts are above 60 %. Keep it up!", "Обе части выше 60 %. Так держать!", "Cả hai phần đều trên 60 %. Cứ thế phát huy!"),
+("Іспит поки не складено", "Not passed yet", "Экзамен пока не сдан", "Chưa đỗ lần này"),
+("Потрібно 60 % в кожній частині окремо. Нижче видно, що саме підтягнути.", "You need 60 % in each part separately. Below you can see exactly what to improve.", "Нужно 60 % в каждой части отдельно. Ниже видно, что именно подтянуть.", "Cần đạt 60 % ở từng phần riêng. Bên dưới là những gì cần cải thiện."),
+("Увімкнути світлу тему", "Switch to light theme", "Включить светлую тему", "Bật giao diện sáng"),
+("Увімкнути темну тему", "Switch to dark theme", "Включить тёмную тему", "Bật giao diện tối"),
+]
