@@ -598,7 +598,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <p>Недавно сдавали экзамен в новом формате? Расскажите, какие темы и ситуации были в Mluvení и Psaní: мы добавим похожие задания, и это поможет другим.</p>
           <p>Или напишите, чего не хватает на сайте, что неудобно или работает не так.</p>
           <a class="btn primary" id="feedbackLink" href="#" target="_blank" rel="noopener">Написать отзыв</a>
-          <p class="small muted">Анонимно, без регистрации. Откроется короткая форма.</p>
+          <p class="small muted">Откроется пост в Facebook: напишите комментарий под ним.</p>
         </div></details>
         <details class="news donate" id="donate"><summary>☕ Поддержать проект</summary><div class="don-body">
           <p>Тренажёр бесплатный и без рекламы. Если он вам помог, можете угостить автора кофе: любая сумма через QR-платёж.</p>
@@ -1536,7 +1536,7 @@ function themeUI(){ const b = $('#themeBtn'); if(!b) return; const d = isDark();
 $('#themeBtn').addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); try{ localStorage.setItem('a2-theme', t); }catch(e){} themeUI(); track('theme', {theme: t}); });
 try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeUI); }catch(e){}
 themeUI();
-const FEEDBACK_URL = '';
+const FEEDBACK_URL = 'https://www.facebook.com/permalink.php?story_fbid=pfbid0NJozfWL3BmMZKG4N6v88nMhTmKx71uiepH6Adurd6NeMMJdgLyVuRpG5w3wVJrgcl&id=100000975782877';
 if(FEEDBACK_URL){ $('#feedbackLink').href = FEEDBACK_URL; $('#feedback').hidden = false; $('#feedbackLink').addEventListener('click', () => track('feedback_open')); }
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новый экзамен'; b.classList.remove('danger'); newArm = null; }

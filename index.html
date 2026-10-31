@@ -598,7 +598,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <p>Нещодавно складали іспит у новому форматі? Розкажіть, які теми й ситуації були в Mluvení та Psaní: ми додамо схожі завдання, і це допоможе іншим.</p>
           <p>Або напишіть, чого бракує на сайті, що незручно чи працює не так.</p>
           <a class="btn primary" id="feedbackLink" href="#" target="_blank" rel="noopener">Написати відгук</a>
-          <p class="small muted">Анонімно, без реєстрації. Відкриється коротка форма.</p>
+          <p class="small muted">Відкриється пост у Facebook: напишіть коментар під ним.</p>
         </div></details>
         <details class="news donate" id="donate"><summary>☕ Підтримати проєкт</summary><div class="don-body">
           <p>Тренажер безкоштовний і без реклами. Якщо він вам допоміг, можете пригостити автора кавою: будь-яка сума через QR-платбу.</p>
@@ -1536,7 +1536,7 @@ function themeUI(){ const b = $('#themeBtn'); if(!b) return; const d = isDark();
 $('#themeBtn').addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); try{ localStorage.setItem('a2-theme', t); }catch(e){} themeUI(); track('theme', {theme: t}); });
 try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeUI); }catch(e){}
 themeUI();
-const FEEDBACK_URL = '';
+const FEEDBACK_URL = 'https://www.facebook.com/permalink.php?story_fbid=pfbid0NJozfWL3BmMZKG4N6v88nMhTmKx71uiepH6Adurd6NeMMJdgLyVuRpG5w3wVJrgcl&id=100000975782877';
 if(FEEDBACK_URL){ $('#feedbackLink').href = FEEDBACK_URL; $('#feedback').hidden = false; $('#feedbackLink').addEventListener('click', () => track('feedback_open')); }
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новий іспит'; b.classList.remove('danger'); newArm = null; }

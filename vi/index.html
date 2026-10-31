@@ -598,7 +598,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <p>Bạn vừa thi theo định dạng mới? Hãy kể các chủ đề và tình huống trong Mluvení và Psaní: chúng tôi sẽ thêm bài tương tự, và điều đó giúp ích cho người khác.</p>
           <p>Hoặc cho biết trang còn thiếu gì, chỗ nào bất tiện hay hoạt động chưa đúng.</p>
           <a class="btn primary" id="feedbackLink" href="#" target="_blank" rel="noopener">Viết góp ý</a>
-          <p class="small muted">Ẩn danh, không cần đăng ký. Một biểu mẫu ngắn sẽ mở ra.</p>
+          <p class="small muted">Một bài đăng Facebook sẽ mở ra: hãy viết bình luận bên dưới.</p>
         </div></details>
         <details class="news donate" id="donate"><summary>☕ Ủng hộ dự án</summary><div class="don-body">
           <p>Trang luyện thi miễn phí và không có quảng cáo. Nếu nó giúp ích cho bạn, bạn có thể mời tác giả một ly cà phê: số tiền tùy ý qua QR platba.</p>
@@ -1536,7 +1536,7 @@ function themeUI(){ const b = $('#themeBtn'); if(!b) return; const d = isDark();
 $('#themeBtn').addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); try{ localStorage.setItem('a2-theme', t); }catch(e){} themeUI(); track('theme', {theme: t}); });
 try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeUI); }catch(e){}
 themeUI();
-const FEEDBACK_URL = '';
+const FEEDBACK_URL = 'https://www.facebook.com/permalink.php?story_fbid=pfbid0NJozfWL3BmMZKG4N6v88nMhTmKx71uiepH6Adurd6NeMMJdgLyVuRpG5w3wVJrgcl&id=100000975782877';
 if(FEEDBACK_URL){ $('#feedbackLink').href = FEEDBACK_URL; $('#feedback').hidden = false; $('#feedbackLink').addEventListener('click', () => track('feedback_open')); }
 let newArm = null;
 function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Bài thi mới'; b.classList.remove('danger'); newArm = null; }

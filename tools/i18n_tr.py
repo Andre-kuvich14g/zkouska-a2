@@ -562,3 +562,6 @@ T += [
 ("Час вийшов. На іспиті розповідь закінчилася б тут.", "Time is up. In the exam your story would end here.", "Время вышло. На экзамене рассказ закончился бы здесь.", "Hết giờ. Khi thi phần kể của bạn sẽ kết thúc ở đây."),
 ("1 хвилина минула. На іспиті розповідь закінчилася б тут, можете договорити.", "1 minute has passed. In the exam your story would end here; you can finish.", "1 минута прошла. На экзамене рассказ закончился бы здесь, можете договорить.", "Đã hết 1 phút. Khi thi phần kể sẽ kết thúc ở đây, bạn có thể nói nốt."),
 ]
+T += [
+("Відкриється пост у Facebook: напишіть коментар під ним.", "A Facebook post will open: write a comment under it.", "Откроется пост в Facebook: напишите комментарий под ним.", "Một bài đăng Facebook sẽ mở ra: hãy viết bình luận bên dưới."),
+]
