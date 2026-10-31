@@ -3800,31 +3800,32 @@
      }
     ],
     "t3": {
-     "title": "Nákup",
-     "q": "Co se stalo včera paní Kováčové?",
+     "title": "Ztracená peněženka",
+     "q": "Co se stalo včera panu Dvořákovi?",
      "pictures": [
-      "📝 Žena doma píše nákupní seznam.",
-      "🛒 V supermarketu dává mléko, chleba a ovoce do košíku.",
-      "💳❌ U pokladny hledá v tašce peněženku, ale nemá ji.",
-      "🏠👛 Doma najde peněženku na stole."
+      "🚌 Pan Dvořák jede ráno autobusem do práce.",
+      "👛❌ V práci zjistí, že nemá peněženku.",
+      "🏦💳 Volá do banky a blokuje platební kartu.",
+      "👮📄 Odpoledne je na policii a hlásí ztrátu dokladů."
      ],
-     "model": "Včera odpoledne chtěla paní Kováčová jít nakupovat. Doma nejdřív napsala nákupní seznam. Potřebovala mléko, chleba a ovoce. Potom šla do supermarketu. Vzala si košík a dala do něj všechny věci ze seznamu. Nakonec šla k pokladně. U pokladny hledala v tašce peněženku, ale neměla ji. Byla nervózní a musela nákup nechat v obchodě. Šla rychle domů. Doma našla peněženku na stole v kuchyni. Potom se do obchodu vrátila a nákup zaplatila.",
      "om": [
       [
-       "1F4DD"
+       "1F68C"
       ],
       [
-       "1F6D2"
-      ],
-      [
-       "1F4B3",
+       "1F45B",
        "274C"
       ],
       [
-       "1F3E0",
-       "1F45B"
+       "1F3E6",
+       "1F4B3"
+      ],
+      [
+       "1F46E",
+       "1F4C4"
       ]
-     ]
+     ],
+     "model": "Včera ráno jel pan Dvořák autobusem do práce. V autobuse bylo hodně lidí. Když přišel do práce, chtěl si koupit kávu, ale zjistil, že nemá peněženku. Byl nervózní, protože v peněžence měl platební kartu, řidičský průkaz a povolení k pobytu. Nejdřív zavolal do banky a kartu zablokoval. Odpoledne šel na policii a nahlásil ztrátu dokladů. Policista napsal protokol. Večer mu zavolali z dopravního podniku, že peněženku někdo našel v autobuse."
     },
     "t4": {
      "situation": "V sobotu k nám přijdou kamarádi. Chceme spolu uvařit večeři. Co uvaříme?",
@@ -10573,30 +10574,33 @@
      }
     ],
     "t3": {
-     "title": "Ranní spěch",
-     "q": "Co se stalo včera Petrovi?",
+     "title": "Nehoda na parkovišti",
+     "q": "Co se stalo včera paní Novotné?",
      "pictures": [
-      "😴⏰ Petr spí, budík zvoní, je 7:30.",
-      "🏃 Petr běží ze schodů, nemá snídani.",
-      "🚌 Autobus mu odjíždí.",
-      "🧑‍💼 Šéf se v kanceláři zlobí."
+      "🚗🛒 Paní Novotná přijede autem na parkoviště u supermarketu.",
+      "💥🚙 Když couvá, narazí do jiného auta.",
+      "📞👮 Volá policii.",
+      "📝🪪 S majitelem druhého auta vyplňují formulář pro pojišťovnu."
      ],
-     "model": "Včera ráno Petr zaspal. Budík zvonil, ale Petr ho neslyšel a spal až do půl osmé. Když se probudil, byl v šoku. Rychle se oblékl a běžel ze schodů. Neměl čas na snídani ani na kávu. Na zastávce viděl, že autobus právě odjíždí. Musel čekat na další autobus dvacet minut. Do práce přišel o hodinu později. Šéf se na něj zlobil. Petr se omluvil a slíbil, že už nepřijde pozdě.",
      "om": [
       [
-       "1F634",
-       "23F0"
+       "1F697",
+       "1F6D2"
       ],
       [
-       "1F3C3"
+       "1F4A5",
+       "1F698"
       ],
       [
-       "1F68C"
+       "1F4DE",
+       "1F46E"
       ],
       [
-       "1F9D1-200D-1F4BC"
+       "1F4DD",
+       "1FAAA"
       ]
-     ]
+     ],
+     "model": "Včera odpoledne jela paní Novotná autem na nákup. Přijela na parkoviště u supermarketu. Když potom couvala, neviděla jiné auto a narazila do něj. Auto mělo rozbité světlo. Paní Novotná byla vyděšená, ale nikomu se nic nestalo. Majitel druhého auta byl naštvaný. Paní Novotná zavolala policii. Policie přijela za dvacet minut a zkontrolovala doklady. Nakonec paní Novotná a majitel druhého auta vyplnili formulář pro pojišťovnu a odjeli domů."
     },
     "t4": {
      "situation": "Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme?",
@@ -11543,30 +11547,31 @@
      }
     ],
     "t3": {
-     "title": "Piknik",
-     "q": "Co dělala v neděli rodina Kovalových?",
+     "title": "Záchranka",
+     "q": "Co se stalo včera babičce?",
      "pictures": [
-      "🧺 Rodina balí jídlo do košíku.",
-      "🌳 Sedí na dece v parku a jedí.",
-      "⛈️ Začne bouřka.",
-      "🏃‍♀️☂️ Všichni utíkají domů s mokrým oblečením."
+      "👵🏠 Babička je doma a v kuchyni upadne.",
+      "📱 Vnuk volá na číslo 155.",
+      "🚑 Za deset minut přijede sanitka.",
+      "🏥🧑‍⚕️ V nemocnici lékař babičku vyšetří."
      ],
-     "model": "V neděli šla rodina Kovalových na piknik. Doma zabalili jídlo do košíku. Vzali si sendviče, ovoce a limonádu. Potom šli do parku. Sedli si na deku pod stromem a jedli. Děti si hrály s míčem a rodiče si povídali. Bylo teplo a svítilo slunce. Najednou se zatáhlo a začala bouřka. Hřmělo a silně pršelo. Všichni rychle utíkali domů. Neměli deštník, a proto přišli domů úplně mokří.",
      "om": [
       [
-       "1F9FA"
+       "1F475",
+       "1F3E0"
       ],
       [
-       "1F333"
+       "1F4F1"
       ],
       [
-       "26C8"
+       "1F691"
       ],
       [
-       "1F3C3-200D-2640-FE0F",
-       "2602"
+       "1F3E5",
+       "1F468-200D-2695-FE0F"
       ]
-     ]
+     ],
+     "model": "Včera dopoledne byla babička doma a vařila oběd. V kuchyni byla mokrá podlaha a babička upadla. Bolela ji noha a nemohla vstát. Naštěstí byl doma vnuk. Hned zavolal na číslo 155 a řekl, co se stalo a kde bydlí. Za deset minut přijela sanitka. Záchranáři babičku odvezli do nemocnice. V nemocnici ji lékař vyšetřil a udělal rentgen. Noha nebyla zlomená, jen naražená. Večer mohla babička jet domů."
     },
     "t4": {
      "situation": "Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme?",
@@ -15414,32 +15419,32 @@
      }
     ],
     "t3": {
-     "title": "Ztracený pes",
-     "q": "Co se stalo včera paní Janě?",
+     "title": "Voda v koupelně",
+     "q": "Co se stalo včera paní Horákové?",
      "pictures": [
-      "🐕🌳 Jana venčí psa v parku.",
-      "🐿️🏃 Pes uteče za veverkou.",
-      "📢 Jana hledá psa a volá ho.",
-      "👦🐕 Malý chlapec přivede psa zpátky."
+      "🚿 Paní Horáková se ráno chce osprchovat.",
+      "⚠️🛁 Z trubky v koupelně teče voda na zem.",
+      "📞🏠 Volá majiteli bytu.",
+      "🔧👷 Odpoledne přijde instalatér a trubku opraví."
      ],
-     "model": "Včera odpoledne šla Jana se psem do parku. Bylo hezké počasí a pes běhal po trávě. Jana ho pustila z vodítka. Najednou pes uviděl veverku. Rychle za ní běžel a utekl. Jana se moc bála, že se psovi něco stane. Chodila po parku a volala ho jménem. Asi za půl hodiny přišel malý chlapec. Přivedl psa zpátky. Jana mu poděkovala a dala mu čokoládu.",
      "om": [
       [
-       "1F415",
-       "1F333"
+       "1F6BF"
       ],
       [
-       "1F43F",
-       "1F3C3"
+       "26A0",
+       "1F6C1"
       ],
       [
-       "1F4E2"
+       "1F4DE",
+       "1F3E0"
       ],
       [
-       "1F466",
-       "1F415"
+       "1F527",
+       "1F477"
       ]
-     ]
+     ],
+     "model": "Včera ráno se paní Horáková chtěla osprchovat. Když přišla do koupelny, viděla, že z trubky teče voda na zem. Rychle zavřela vodu a ručníkem utírala podlahu. Bála se, že voda poteče k sousedům dolů. Potom zavolala majiteli bytu a všechno mu vysvětlila. Majitel slíbil, že pošle instalatéra. Odpoledne instalatér přišel a trubku opravil. Paní Horáková musela jít do práce později, ale byla ráda, že je všechno v pořádku."
     },
     "t4": {
      "situation": "Chceme spolu jít na oběd. Co si dáme?",
@@ -18318,32 +18323,32 @@
      }
     ],
     "t3": {
-     "title": "Pečení dortu",
-     "q": "Co dělala včera Lucie se synem?",
+     "title": "Policejní kontrola",
+     "q": "Co se stalo včera večer panu Novákovi?",
      "pictures": [
-      "🛒🥚 Kupují mouku, vajíčka a čokoládu.",
-      "🥣 Doma míchají těsto.",
-      "🔥⏲️ Dort se peče v troubě.",
-      "🎂🕯️ Dávají svíčky na dort pro tátu."
+      "🚗🌙 Pan Novák jede večer autem z práce domů.",
+      "🚓👮 Policie ho zastaví na silnici.",
+      "🪪📄 Policista chce vidět řidičský průkaz a doklady od auta.",
+      "💶 Pan Novák jel moc rychle a platí pokutu."
      ],
-     "model": "Včera chtěla Lucie se synem upéct dort, protože táta měl narozeniny. Nejdřív šli do obchodu. Koupili mouku, vajíčka, cukr a čokoládu. Doma spolu míchali těsto. Syn pomáhal a byl celý od mouky. Oba se u toho hodně smáli. Potom dali těsto do trouby. Dort se pekl asi hodinu a krásně voněl. Večer dali na dort svíčky. Když táta přišel domů, zazpívali mu. Táta byl moc překvapený a šťastný.",
      "om": [
       [
-       "1F6D2",
-       "1F95A"
+       "1F697",
+       "1F319"
       ],
       [
-       "1F963"
+       "1F693",
+       "1F46E"
       ],
       [
-       "1F525",
-       "23F2"
+       "1FAAA",
+       "1F4C4"
       ],
       [
-       "1F382",
-       "1F56F"
+       "1F4B6"
       ]
-     ]
+     ],
+     "model": "Včera večer jel pan Novák autem z práce domů. Byl unavený a spěchal, protože chtěl vidět fotbal. Na silnici za městem ho zastavila policie. Policista řekl dobrý večer a chtěl vidět řidičský průkaz, technický průkaz a pojištění. Pan Novák mu všechno ukázal. Potom mu policista řekl, že jel moc rychle, místo padesáti jel sedmdesát. Pan Novák musel zaplatit pokutu tisíc korun. Domů už jel pomalu a fotbal viděl jen v televizi."
     },
     "t4": {
      "situation": "Chceme spolu jít v sobotu cvičit. Kam půjdeme?",
