@@ -398,7 +398,9 @@ body.hide-q .qtext{visibility:hidden}
 .struct{overflow-x:auto}
 .struct table{width:100%}
 .struct td:last-child,.struct th:last-child{text-align:right;font-family:var(--f-mono)}
-.start-grid{display:grid;gap:16px}
+.start-grid{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+.start-grid>*{min-width:0}
+@media (max-width:640px){ .modes{grid-template-columns:minmax(0,1fr)} }
 .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
 .mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;border-left:5px solid var(--m,var(--rule));transition:background .15s,border-color .15s}
 .tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
@@ -561,7 +563,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Начать новый экзамен</button></div>
         <div id="history"></div>
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-10-30">30.10.2026</time></summary><ul>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-10-31">31.10.2026</time></summary><ul>
           <li><b>4 языка.</b> Подсказки и объяснения на украинском, английском, русском и вьетнамском.</li>
           <li><b>Отдельные тренажёры.</b> Psaní и Mluvení можно тренировать отдельно, тема за темой, а ещё есть советы к экзамену.</li>
           <li><b>Объяснения и примеры.</b> В тренировке видно, почему ответ правильный, есть образцы писем и ответов, а сайт сам оценивает письмо и говорение рядом с вашей самооценкой.</li>

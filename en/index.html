@@ -398,7 +398,9 @@ body.hide-q .qtext{visibility:hidden}
 .struct{overflow-x:auto}
 .struct table{width:100%}
 .struct td:last-child,.struct th:last-child{text-align:right;font-family:var(--f-mono)}
-.start-grid{display:grid;gap:16px}
+.start-grid{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+.start-grid>*{min-width:0}
+@media (max-width:640px){ .modes{grid-template-columns:minmax(0,1fr)} }
 .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
 .mode{border:1.5px solid var(--rule);border-radius:var(--r);padding:14px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;border-left:5px solid var(--m,var(--rule));transition:background .15s,border-color .15s}
 .tips-top{border:1.5px solid var(--accent);border-radius:var(--r);padding:14px 16px;background:var(--accent-soft)}
@@ -561,7 +563,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Start a new exam</button></div>
         <div id="history"></div>
-        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-10-30">30.10.2026</time></summary><ul>
+        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-10-31">31.10.2026</time></summary><ul>
           <li><b>4 languages.</b> Hints and explanations in Ukrainian, English, Russian and Vietnamese.</li>
           <li><b>Separate trainers.</b> You can practise Psaní and Mluvení on their own, topic by topic, and there are exam tips too.</li>
           <li><b>Explanations and samples.</b> In practice mode you see why an answer is correct, there are sample e-mails and answers, and the site scores your writing and speaking next to your self-assessment.</li>
