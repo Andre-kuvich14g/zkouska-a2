@@ -1,7 +1,7 @@
 # Рядки інтерфейсу сторінки «Вчимо Mluvení»: ключ -> [uk, en, ru, vi]
 UI = {
 'title': ['Вчимо Mluvení', 'Learn Mluvení', 'Учим Mluvení', 'Học Mluvení'],
-'back': ['← На тренажер', '← Back to the trainer', '← К тренажёру', '← Về trang luyện thi'],
+'back': ['← Zkouška A2 · головна', '← Zkouška A2 · home', '← Zkouška A2 · главная', '← Zkouška A2 · trang chủ'],
 'lead': ['Не тест, а уроки до усної частини іспиту A2. Оберіть завдання (úlohu): пояснення, шаблони, відео й сотні прикладів з озвученням чеською. Слухайте, повторюйте вголос і перевіряйте себе.',
  'Not a test but lessons for the oral part of the A2 exam. Pick a task (úloha): explanations, templates, videos and hundreds of examples with Czech audio. Listen, repeat out loud and check yourself.',
  'Не тест, а уроки к устной части экзамена A2. Выберите задание (úlohu): объяснения, шаблоны, видео и сотни примеров с озвучкой на чешском. Слушайте, повторяйте вслух и проверяйте себя.',
