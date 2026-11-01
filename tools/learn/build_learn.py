@@ -4,6 +4,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 ROOT = os.path.dirname(os.path.dirname(HERE))
 from ui import UI
 from theory import THEORY
+import theory_en, theory_ru, theory_vi  # noqa: F401 (доповнюють THEORY)
 from u1_a import U1_A; from u1_b import U1_B; from u1_c import U1_C; from u1_d import U1_D
 
 def opt(mod, name):
