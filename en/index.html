@@ -422,6 +422,8 @@ body.hide-q .qtext{visibility:hidden}
 .news>summary time{font-family:var(--f-mono);font-size:.9rem;font-weight:500}
 .news[open]>summary{border-bottom:1px solid var(--rule)}
 .news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
+.news .nh{margin:12px 0 0;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.news .nh-hot{color:var(--c-speak, var(--accent))}
 .don-body{display:grid;gap:12px;padding:12px 0 14px}
 .don-grid{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
 .don-qr{width:150px;flex:0 0 auto;background:#fff;border-radius:8px;padding:4px;border:1px solid var(--rule)}
@@ -614,16 +616,18 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div><button class="btn primary" id="startBtn" type="button">Start a new exam</button></div>
         <div id="history"></div>
         <div class="more">
-        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary><ul>
-          <li><b>4 languages.</b> Hints and explanations in Ukrainian, English, Russian and Vietnamese.</li>
-          <li><b>Separate trainers.</b> You can practise Psaní and Mluvení on their own, topic by topic, and there are exam tips too.</li>
-          <li><b>Explanations and samples.</b> In practice mode you see why an answer is correct, there are sample e-mails and answers, and the site scores your writing and speaking next to your self-assessment.</li>
-          <li><b>Detailed results.</b> Passed or not, your weakest part, concrete tips, attempt history and your best score.</li>
-          <li><b>New look.</b> A colour for each part, light and dark theme, easier to use on a phone.</li>
-          <li><b>Learn Mluvení.</b> A new section with lessons: explanations, templates, videos and 400 questions with answers and audio.</li>
-          <li><b>Learn Psaní.</b> Lessons for the form and the e-mail: templates, 80 tasks with samples, a word counter and an e-mail check.</li>
-          <li><b>Mluvení like the new exam.</b> New picture stories (police, car accident, ambulance, a leak in the flat), 1 minute for the story, a check of informal/formal “you” and tenses, and tips on correcting mistakes.</li>
-        </ul></details>
+        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary>
+          <p class="nh nh-hot">🔥 New this weekend</p><ul>
+          <li><b>📝 Learn Psaní.</b> Writing is the weakest part of the exam for most candidates. Now it has lessons: an answer formula, an e-mail frame, 80 tasks with samples, a word counter, an instant e-mail check and a 25-minute training.</li>
+          <li><b>🗣 Learn Mluvení.</b> All 4 úlohy step by step: 400 questions with answers and audio, 40 stories in the past tense, 40 dialogue situations, videos and training with speech recognition.</li>
+          <li><b>🧭 A learning platform.</b> Not just a test but a clear path: Learn → Practise → Test yourself.</li>
+          <li><b>🎯 Mluvení like the new exam.</b> New picture stories (police, car accident, ambulance, flat emergency), 1 minute per story, a check of ty/Vy and tenses.</li>
+          <li><b>✏️ How to correct a mistake in the exam.</b> What to do if you make a mistake on the answer sheet or in Mluvení: by the official rules, with illustrations.</li>
+          </ul>
+          <p class="nh">Already on the platform</p><ul>
+          <li><b>20 full tests in the 2026 format.</b> A timer like in the exam and an honest result at the end: pass or fail, your weakest part, concrete tips, attempt history and your record.</li>
+          <li><b>For everyone, on any phone.</b> Free and with no sign-up, explanations in 4 languages, light and dark theme.</li>
+          </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Feedback and suggestions</summary><div class="don-body">
           <p>Took the exam in the new format recently? Tell us which topics and situations came up in Mluvení and Psaní: we will add similar tasks, and it will help others.</p>
           <p>Or tell us what the site is missing, what is inconvenient or doesn’t work right.</p>

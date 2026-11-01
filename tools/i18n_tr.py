@@ -600,3 +600,28 @@ T += [
 ("Вчимо Psaní.", "Learn Psaní.", "Учим Psaní.", "Học Psaní."),
 ("Уроки до формуляра й e-mailu: шаблони, 80 завдань зі зразками, лічильник слів і перевірка листа.", "Lessons for the form and the e-mail: templates, 80 tasks with samples, a word counter and an e-mail check.", "Уроки к формуляру и e-mailу: шаблоны, 80 заданий с образцами, счётчик слов и проверка письма.", "Bài học cho mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail."),
 ]
+# Що нового (1.11)
+T += [
+("🔥 Нове цими вихідними", "🔥 New this weekend", "🔥 Новое в эти выходные", "🔥 Mới cuối tuần này"),
+("Уже є на платформі", "Already on the platform", "Уже есть на платформе", "Đã có trên nền tảng"),
+("📝 Вчимо Psaní.", "📝 Learn Psaní.", "📝 Учим Psaní.", "📝 Học Psaní."),
+("Письмо — найслабша частина іспиту для більшості кандидатів. Тепер до неї є уроки: формула відповіді, каркас листа, 80 завдань зі зразками, лічильник слів, миттєва перевірка листа й тренування на 25 хвилин.",
+ "Writing is the weakest part of the exam for most candidates. Now it has lessons: an answer formula, an e-mail frame, 80 tasks with samples, a word counter, an instant e-mail check and a 25-minute training.",
+ "Письмо — самая слабая часть экзамена для большинства кандидатов. Теперь к ней есть уроки: формула ответа, каркас письма, 80 заданий с образцами, счётчик слов, мгновенная проверка письма и тренировка на 25 минут.",
+ "Viết là phần yếu nhất của kỳ thi với hầu hết thí sinh. Giờ đã có bài học: công thức trả lời, khung e-mail, 80 bài có bài mẫu, bộ đếm từ, kiểm tra e-mail ngay và bài luyện 25 phút."),
+("🗣 Вчимо Mluvení.", "🗣 Learn Mluvení.", "🗣 Учим Mluvení.", "🗣 Học Mluvení."),
+("Усі 4 úlohy крок за кроком: 400 питань з відповідями й озвученням, 40 історій у минулому часі, 40 ситуацій для діалогу, відео й тренування з розпізнаванням мови.",
+ "All 4 úlohy step by step: 400 questions with answers and audio, 40 stories in the past tense, 40 dialogue situations, videos and training with speech recognition.",
+ "Все 4 úlohy шаг за шагом: 400 вопросов с ответами и озвучкой, 40 историй в прошедшем времени, 40 ситуаций для диалога, видео и тренировка с распознаванием речи.",
+ "Cả 4 úlohy từng bước: 400 câu hỏi có đáp án và phát âm, 40 câu chuyện thì quá khứ, 40 tình huống hội thoại, video và luyện tập với nhận dạng giọng nói."),
+("🧭 Навчальна платформа.", "🧭 A learning platform.", "🧭 Учебная платформа.", "🧭 Nền tảng học tập."),
+("Не просто тест, а зрозумілий шлях: Вчитися → Тренуватися → Перевірити себе.", "Not just a test but a clear path: Learn → Practise → Test yourself.", "Не просто тест, а понятный путь: Учиться → Тренироваться → Проверить себя.", "Không chỉ là bài thi mà là lộ trình rõ ràng: Học → Luyện → Tự kiểm tra."),
+("🎯 Mluvení як на новому іспиті.", "🎯 Mluvení like the new exam.", "🎯 Mluvení как на новом экзамене.", "🎯 Mluvení như kỳ thi mới."),
+("Нові розповіді за картинками (поліція, ДТП, швидка, аварія в квартирі), 1 хвилина на розповідь, перевірка «ти/Ви» і часів.", "New picture stories (police, car accident, ambulance, flat emergency), 1 minute per story, a check of ty/Vy and tenses.", "Новые рассказы по картинкам (полиция, ДТП, скорая, авария в квартире), 1 минута на рассказ, проверка «ты/Вы» и времён.", "Truyện tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho mỗi truyện, kiểm tra ty/Vy và thì."),
+("✏️ Як виправити помилку на іспиті.", "✏️ How to correct a mistake in the exam.", "✏️ Как исправить ошибку на экзамене.", "✏️ Cách sửa lỗi trong kỳ thi."),
+("Що робити, якщо помилилися в аркуші відповідей чи в Mluvení: за офіційними правилами, з ілюстраціями.", "What to do if you make a mistake on the answer sheet or in Mluvení: by the official rules, with illustrations.", "Что делать, если ошиблись в листе ответов или в Mluvení: по официальным правилам, с иллюстрациями.", "Làm gì khi sai trên phiếu trả lời hoặc trong Mluvení: theo quy định chính thức, có hình minh họa."),
+("20 повних варіантів у форматі 2026.", "20 full tests in the 2026 format.", "20 полных вариантов в формате 2026.", "20 đề đầy đủ theo định dạng 2026."),
+("Таймер як на іспиті, а в кінці чесний результат: склали чи ні, найслабша частина, конкретні поради, історія спроб і рекорд.", "A timer like in the exam and an honest result at the end: pass or fail, your weakest part, concrete tips, attempt history and your record.", "Таймер как на экзамене, а в конце честный результат: сдали или нет, самая слабая часть, конкретные советы, история попыток и рекорд.", "Đồng hồ như khi thi và kết quả trung thực ở cuối: đỗ hay trượt, phần yếu nhất, lời khuyên cụ thể, lịch sử làm bài và kỷ lục."),
+("Для всіх і з телефона.", "For everyone, on any phone.", "Для всех и с телефона.", "Cho mọi người, cả trên điện thoại."),
+("Безкоштовно й без реєстрації, пояснення 4 мовами, світла й темна тема.", "Free and with no sign-up, explanations in 4 languages, light and dark theme.", "Бесплатно и без регистрации, объяснения на 4 языках, светлая и тёмная тема.", "Miễn phí, không cần đăng ký, giải thích bằng 4 ngôn ngữ, giao diện sáng và tối."),
+]

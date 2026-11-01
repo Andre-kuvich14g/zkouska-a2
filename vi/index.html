@@ -422,6 +422,8 @@ body.hide-q .qtext{visibility:hidden}
 .news>summary time{font-family:var(--f-mono);font-size:.9rem;font-weight:500}
 .news[open]>summary{border-bottom:1px solid var(--rule)}
 .news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
+.news .nh{margin:12px 0 0;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.news .nh-hot{color:var(--c-speak, var(--accent))}
 .don-body{display:grid;gap:12px;padding:12px 0 14px}
 .don-grid{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
 .don-qr{width:150px;flex:0 0 auto;background:#fff;border-radius:8px;padding:4px;border:1px solid var(--rule)}
@@ -614,16 +616,18 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div><button class="btn primary" id="startBtn" type="button">Bắt đầu bài thi mới</button></div>
         <div id="history"></div>
         <div class="more">
-        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary><ul>
-          <li><b>4 ngôn ngữ.</b> Gợi ý và giải thích bằng tiếng Ukraina, Anh, Nga và Việt.</li>
-          <li><b>Luyện riêng từng phần.</b> Có thể luyện riêng Psaní và Mluvení theo từng chủ đề, và có thêm mẹo đi thi.</li>
-          <li><b>Giải thích và bài mẫu.</b> Ở chế độ luyện tập bạn thấy vì sao đáp án đúng, có thư và câu trả lời mẫu, và trang tự chấm phần viết, phần nói bên cạnh điểm tự chấm của bạn.</li>
-          <li><b>Kết quả chi tiết.</b> Đỗ hay chưa, phần yếu nhất, lời khuyên cụ thể, lịch sử các lần thi và kỷ lục của bạn.</li>
-          <li><b>Giao diện mới.</b> Mỗi phần một màu, giao diện sáng và tối, dùng trên điện thoại tiện hơn.</li>
-          <li><b>Học Mluvení.</b> Mục mới với các bài học: giải thích, mẫu câu, video và 400 câu hỏi kèm câu trả lời và âm thanh.</li>
-          <li><b>Học Psaní.</b> Bài học cho mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail.</li>
-          <li><b>Mluvení giống kỳ thi mới.</b> Bài kể chuyện theo tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho phần kể, kiểm tra cách xưng hô «ty/Vy» và thì, mẹo sửa lỗi.</li>
-        </ul></details>
+        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary>
+          <p class="nh nh-hot">🔥 Mới cuối tuần này</p><ul>
+          <li><b>📝 Học Psaní.</b> Viết là phần yếu nhất của kỳ thi với hầu hết thí sinh. Giờ đã có bài học: công thức trả lời, khung e-mail, 80 bài có bài mẫu, bộ đếm từ, kiểm tra e-mail ngay và bài luyện 25 phút.</li>
+          <li><b>🗣 Học Mluvení.</b> Cả 4 úlohy từng bước: 400 câu hỏi có đáp án và phát âm, 40 câu chuyện thì quá khứ, 40 tình huống hội thoại, video và luyện tập với nhận dạng giọng nói.</li>
+          <li><b>🧭 Nền tảng học tập.</b> Không chỉ là bài thi mà là lộ trình rõ ràng: Học → Luyện → Tự kiểm tra.</li>
+          <li><b>🎯 Mluvení như kỳ thi mới.</b> Truyện tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho mỗi truyện, kiểm tra ty/Vy và thì.</li>
+          <li><b>✏️ Cách sửa lỗi trong kỳ thi.</b> Làm gì khi sai trên phiếu trả lời hoặc trong Mluvení: theo quy định chính thức, có hình minh họa.</li>
+          </ul>
+          <p class="nh">Đã có trên nền tảng</p><ul>
+          <li><b>20 đề đầy đủ theo định dạng 2026.</b> Đồng hồ như khi thi và kết quả trung thực ở cuối: đỗ hay trượt, phần yếu nhất, lời khuyên cụ thể, lịch sử làm bài và kỷ lục.</li>
+          <li><b>Cho mọi người, cả trên điện thoại.</b> Miễn phí, không cần đăng ký, giải thích bằng 4 ngôn ngữ, giao diện sáng và tối.</li>
+          </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Góp ý và đề xuất</summary><div class="don-body">
           <p>Bạn vừa thi theo định dạng mới? Hãy kể các chủ đề và tình huống trong Mluvení và Psaní: chúng tôi sẽ thêm bài tương tự, và điều đó giúp ích cho người khác.</p>
           <p>Hoặc cho biết trang còn thiếu gì, chỗ nào bất tiện hay hoạt động chưa đúng.</p>
