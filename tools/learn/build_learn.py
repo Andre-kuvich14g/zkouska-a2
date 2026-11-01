@@ -24,7 +24,7 @@ def build():
     data = {
         'ui': UI, 'theory': THEORY, 'videos': {k: [list(v) for v in vs] for k, vs in VIDEOS.items()},
         'u1': topics(U1_A + U1_B + U1_C + U1_D),
-        'u2': opt('u2', 'U2'), 'u3': opt('u3', 'U3'), 'u4': opt('u4', 'U4'),
+        'u2': opt('u2', 'U2'), 'u3': [dict(x, cz=x['title']) for x in opt('u3', 'U3')], 'u4': opt('u4', 'U4'),
     }
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()

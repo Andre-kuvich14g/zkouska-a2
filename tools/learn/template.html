@@ -49,6 +49,7 @@ gtag('config', 'G-YMHXGCMMH4');
   --u1:#86a9ff; --u1-soft:#1d2a47; --u2:#4fd1c0; --u2-soft:#123432; --u3:#ff9a5c; --u3-soft:#3a2414; --u4:#b99eff; --u4-soft:#2a2145;
   color-scheme:dark }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
   padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:0 48px}
 .wrap{max-width:860px;margin:0 auto;display:grid;gap:16px}
@@ -118,6 +119,22 @@ button{font:inherit;color:inherit}
 .trainbox{display:grid;gap:12px;padding:16px;border-radius:var(--r);background:var(--us)}
 .trainbox .big{font-size:1.2rem;font-weight:600}
 .note{font-size:.85rem;color:var(--muted)}
+.story{display:grid;gap:12px}
+.frames{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:700px){ .frames{grid-template-columns:repeat(4,minmax(0,1fr))} }
+.frame{margin:0;border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;background:var(--sheet);display:grid;position:relative}
+.frame .fn{position:absolute;top:6px;left:8px;font-family:var(--f-mono);font-size:.8rem;color:var(--muted)}
+.scene{aspect-ratio:4/3;max-width:100%;display:flex;align-items:center;justify-content:center;gap:4px;background:linear-gradient(var(--us),var(--soft))}
+.scene img{width:42%;height:auto} .scene img.sub{width:28%}
+.frame figcaption{padding:6px 8px;font-size:.88rem;display:flex;gap:6px;align-items:flex-start;min-width:0}
+.frame figcaption span{min-width:0;overflow-wrap:anywhere}
+.sents{margin:0;padding-left:22px;display:grid;gap:6px}
+.sents li span{line-height:1.6}
+mark{background:var(--us);color:var(--u);font-weight:700;border-radius:3px;padding:0 2px}
+.ans.model{display:grid;gap:8px;background:var(--soft)}
+.tmr{font-family:var(--f-mono);align-self:center;padding:4px 8px;border:1px dashed var(--rule);border-radius:6px}
+.tmr.over{color:var(--mark);border-color:var(--mark)}
+.q-text{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .foot{margin-top:8px;font-size:.8rem;color:var(--muted)}
 </style>
 </head>
@@ -182,7 +199,16 @@ function feedback(said, model, q){
     `<li class="${verbHit ? 'ok' : 'no'}">${verbHit ? t('fbVerb') : t('fbNoVerb')}</li>`];
   if(common.length) items.push(`<li class="ok">✓ ${esc(common.slice(0, 6).join(', '))}</li>`);
   return `<ul class="fb">${items.join('')}</ul>`; }
-function srToggle(btn, out, model, q){
+const PAST_X = new Set('fotbal fotbalu kostel hotel mobil michal pavel karel pavla karla anil kolo kola kole kolem skola skolu skoly skole skolka stul stolu stole sul mel? dal? hotel hotelu ale jedli? mala malo male mali maly cela celo cely celi dila dilo vila sila pila? zela'.split(' ').filter(w => !w.endsWith('?')));
+const isPast = w => w.length > 2 && /(l|la|lo|li|ly)$/.test(w) && !PAST_X.has(w) && !/(ell|all|ill)$/.test(w);
+function pastMark(text){ return esc(text).replace(/[A-Za-zÀ-ž]+/g, w => isPast(fold(w)) ? `<mark>${w}</mark>` : w); }
+function feedback3(said){
+  const W = srNorm(said).split(' ').filter(Boolean), past = W.filter(isPast).length;
+  const conn = [...new Set(W.filter(w => /^(nejdriv|nejprve|potom|pak|nakonec|najednou|kdyz|vecer|rano|odpoledne|vcera)$/.test(w)))];
+  return `<ul class="fb"><li class="${W.length >= 60 ? 'ok' : 'no'}">${W.length} ${t('fbWords')} ${W.length >= 60 ? '✓' : '· ' + t('fb3len')}</li>
+  <li class="${past >= 6 ? 'ok' : 'no'}">${t('fb3past')}: ${past} ${past >= 6 ? '✓' : '· ' + t('fb3pastMore')}</li>
+  <li class="${conn.length >= 2 ? 'ok' : 'no'}">${t('fb3conn')}: ${conn.length ? esc(conn.join(', ')) : '–'} ${conn.length >= 2 ? '✓' : '· Nejdřív… Potom… Nakonec…'}</li></ul>`; }
+function srToggle(btn, out, model, q, kind){
   if(SR){ const same = SR.btn === btn; SR.user = true; try{ SR.rec.stop(); }catch(e){} if(same) return; }
   if(!SRC){ out.innerHTML = `<p class="note">${t('noSR')}</p>`; return; }
   try{ speechSynthesis.cancel(); }catch(e){}
@@ -193,11 +219,15 @@ function srToggle(btn, out, model, q){
     rec.onerror = e => { if(e.error === 'no-speech' || e.error === 'aborted') return; st.user = true; out.innerHTML = `<p class="note">${t('noSR')}</p>`; };
     rec.onend = () => { if(!st.user && Date.now() - st.t0 < 120000){ try{ start(); return; }catch(err){} }
       if(SR === st) SR = null; btn.classList.remove('on'); btn.textContent = label;
+      if(st.tm){ clearInterval(st.tm); st.tm = null; }
       const said = st.finals.join('. ');
-      out.innerHTML = said ? `<p class="heard"><b>${t('heard')}:</b> ${esc(said)}</p>${feedback(said, model, q)}` : `<p class="note">${t('nothing')}</p>`; };
+      out.innerHTML = said ? `<p class="heard"><b>${t('heard')}:</b> ${esc(said)}</p>${kind === 'u3' ? feedback3(said) : feedback(said, model, q)}` : `<p class="note">${t('nothing')}</p>`; };
     rec.start(); };
   try{ start(); }catch(err){ out.innerHTML = `<p class="note">${t('noSR')}</p>`; return; }
-  SR = st; btn.classList.add('on'); btn.textContent = t('stop'); out.innerHTML = `<p class="note">${t('listening')}</p>`; track('learn_speak');
+  SR = st; btn.classList.add('on'); btn.textContent = t('stop'); out.innerHTML = `<p class="note">${t('listening')}</p>`; track('learn_speak', {kind: kind || 'u1'});
+  const tmEl = btn.closest('.sheet') && btn.closest('.sheet').querySelector('.tmr');
+  if(kind === 'u3' && tmEl){ const t0 = Date.now(); tmEl.classList.remove('over'); st.tm = setInterval(() => { const left = 60 - Math.floor((Date.now() - t0) / 1000);
+    tmEl.textContent = left > 0 ? '⏱ 0:' + String(left).padStart(2, '0') : '⏱ 0:00 · ' + t('timeUp'); if(left <= 0){ tmEl.classList.add('over'); clearInterval(st.tm); st.tm = null; } }, 250); }
 }
 
 /* videos */
@@ -220,7 +250,8 @@ function lesson(u){
   <details class="sec"><summary>💡 ${t('tips')}</summary><div class="body">${th(u, 'tips')}</div></details>
   ${vidHTML(D.videos[u])}
   ${u === 'u1' ? `<div class="trainbox"><b>🎯 ${t('practice')}</b><p class="small">${t('practiceD')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
-  <h3>${t('topics')}</h3><p class="small muted">${t('topicsd')}</p>
+  ${u === 'u3' ? `<div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
+  <h3>${u === 'u3' ? t('stories') : t('topics')}</h3><p class="small muted">${u === 'u3' ? t('storiesd') : t('topicsd')}</p>
   <div class="tgrid">${items.map((it, i) => `<a class="tbtn ${DONE[u + '-' + i] ? 'done' : ''}" href="#${u}-${i}"><span>${esc(it.cz)}<span class="tr">${esc(it.t[LI[lang]] || it.t[0])}</span></span>${DONE[u + '-' + i] ? '<span class="ck">✓</span>' : ''}</a>`).join('')}</div></section>`; }
 function qaHTML(q, a, n){
   return `<div class="qa"><div class="qrow"><span class="num">${n}.</span><button class="btn sm" type="button" data-say="${esc(q)}" aria-label="▶">▶</button><span class="qtext">${esc(q)}</span></div>
@@ -234,6 +265,24 @@ function topic(u, i){
   <div><span class="small muted">${t(u)} · ${t('topic')} ${i + 1} / ${D[u].length}</span><h2>${esc(it.cz)}</h2><p class="muted">${esc(it.t[LI[lang]] || it.t[0])}</p></div>
   <div>${it.qa.map((p, n) => qaHTML(p[0], p[1], n + 1)).join('')}</div>
   <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
+function storyHTML(it, exam){
+  const sents = it.model.match(/[^.!?]+[.!?]+/g) || [it.model];
+  return `<div class="story"><p class="q-text"><b>${esc(it.q)}</b> <button class="btn sm" type="button" data-say="${esc(it.q)}">▶</button></p>
+  <div class="frames">${it.pictures.map((p, i) => { const m = p.match(/^(\S+)\s+(.*)$/), txt = m ? m[2] : p; const ic = (it.om && it.om[i]) || [];
+    return `<figure class="frame"><span class="fn">${i + 1}</span><div class="scene">${ic.map((c, k) => `<img src="../img/om/${c}.svg" alt="" class="${k ? 'sub' : 'main'}">`).join('')}</div>${exam ? '' : `<figcaption><button class="btn sm" type="button" data-say="${esc(txt)}">▶</button><span>${esc(txt)}</span></figcaption>`}</figure>`; }).join('')}</div>
+  <div class="acts"><button class="btn sm primary" type="button" data-sr data-kind="u3">${t('say3')}</button><span class="tmr mono">⏱ 1:00</span>${exam ? `<button class="btn sm" type="button" data-show>${t('showModel')}</button>` : ''}</div>
+  <div class="srout"></div>
+  <div class="ans model" ${exam ? 'hidden' : ''}><div class="acts"><b>${t('model3')}</b><button class="btn sm" type="button" data-say="${esc(it.model)}">▶</button><button class="btn sm" type="button" data-say="${esc(it.model)}" data-slow="1">${t('slow')}</button></div>
+  <ol class="sents">${sents.map(x => `<li><button class="btn sm" type="button" data-say="${esc(x.trim())}" data-slow="1">▶</button> <span>${pastMark(x.trim())}</span></li>`).join('')}</ol>
+  <p class="note">${t('pastNote')}</p></div></div>`; }
+function story(u, i){
+  const it = (D[u] || [])[i]; if(!it) return lesson(u); const k = u + '-' + i;
+  return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toList')}</a>
+  <div><span class="small muted">${t(u)} · ${t('story')} ${i + 1} / ${D[u].length}</span><h2>${esc(it.cz)}</h2><p class="muted">${esc(it.t[LI[lang]] || it.t[0])}</p></div>
+  ${storyHTML(it, false)}
+  <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
+function train3(u){ const i = Math.floor(Math.random() * D[u].length), it = D[u][i]; track('learn_train', {u});
+  return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toLesson')}</a><div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p></div><h2>${esc(it.cz)}</h2>${storyHTML(it, true)}<a class="btn primary" href="#${u}-train" data-retrain>${t('another')}</a></section>`; }
 let TR = null;
 function train(u){
   const items = D[u]; const pick = []; const idx = items.map((_, i) => i).sort(() => Math.random() - 0.5).slice(0, 2);
@@ -256,8 +305,8 @@ function route(){
   const h = location.hash.replace('#', ''); let html;
   let m;
   if(!h) html = home();
-  else if((m = h.match(/^(u[1-4])-train$/)) && ready(m[1])){ html = train(m[1]); setTimeout(() => { const b = $('.trainbox [data-say]'); if(b) speak(b.dataset.say); }, 300); }
-  else if((m = h.match(/^(u[1-4])-(\d+)$/)) && ready(m[1])){ html = topic(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
+  else if((m = h.match(/^(u[1-4])-train$/)) && ready(m[1])){ if(m[1] === 'u3') html = train3(m[1]); else { html = train(m[1]); setTimeout(() => { const b = $('.trainbox [data-say]'); if(b) speak(b.dataset.say); }, 300); } }
+  else if((m = h.match(/^(u[1-4])-(\d+)$/)) && ready(m[1])){ html = m[1] === 'u3' ? story(m[1], +m[2]) : topic(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
   else if((m = h.match(/^(u[1-4])$/)) && ready(m[1])){ html = lesson(m[1]); track('learn_lesson', {u: m[1]}); }
   else html = home();
   $('#app').innerHTML = html; window.scrollTo({top: 0});
@@ -267,8 +316,8 @@ document.addEventListener('click', e => {
   const cz = e.target.closest('.cz'); if(cz){ speak(cz.textContent.replace(/[/]/g, ' ')); return; }
   const b = e.target.closest('button'); if(!b) return;
   if(b.dataset.say){ speak(b.dataset.say, !!b.dataset.slow); return; }
-  if(b.hasAttribute('data-show')){ const box = b.closest('.qa, .trainbox').querySelector('.ans'); box.hidden = !box.hidden; b.textContent = box.hidden ? t('showA') : t('hideA'); return; }
-  if(b.hasAttribute('data-sr')){ srToggle(b, b.closest('.qa, .trainbox').querySelector('.srout'), b.dataset.model, b.dataset.q); return; }
+  if(b.hasAttribute('data-show')){ const box = b.closest('.qa, .trainbox, .story').querySelector('.ans'); box.hidden = !box.hidden; b.textContent = box.hidden ? t('showA') : t('hideA'); return; }
+  if(b.hasAttribute('data-sr')){ srToggle(b, b.closest('.qa, .trainbox, .story').querySelector('.srout'), b.dataset.model, b.dataset.q, b.dataset.kind); return; }
   if(b.dataset.done){ const k = b.dataset.done; if(DONE[k]) delete DONE[k]; else DONE[k] = 1; saveDone(); route(); return; }
   if(b.hasAttribute('data-next')){ TR.n++; $('#app').innerHTML = trainView(); const s = $('.trainbox [data-say]'); if(s) speak(s.dataset.say); return; }
   if(b.dataset.vid){ const ph = b.closest('.ph'); ph.outerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.vid)}?autoplay=1&rel=0" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`; track('learn_video', {id: b.dataset.vid}); return; }

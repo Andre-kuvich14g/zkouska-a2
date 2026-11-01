@@ -43,3 +43,46 @@ THEORY['u1']['uk'] = {
 <li>Відповідь не мусить бути правдою. Головне, щоб вона була правильна й зрозуміла.</li>
 </ul>''',
 }
+
+THEORY['u3']['uk'] = {
+'how': '''
+<p>Ви бачите <b>4 картинки</b> і питання, наприклад <span class="cz">Co včera dělali muž a žena?</span> Ваше завдання — розповісти історію <b>в минулому часі</b>, використавши <b>всі 4 картинки</b>. На іспиті на це є <b>1 хвилина</b>, завдання дає <b>10 балів</b>.</p>
+<ul>
+<li>Оцінюють: чи є всі 4 картинки, чи правильний минулий час, чи розповідь зв'язна (слова «потім», «нарешті») і чи вистачає слів саме з цієї ситуації.</li>
+<li>Добра розповідь має 60–90 слів: по 2–3 речення на картинку.</li>
+<li>У новому форматі ситуації практичні: поліція, лікар, пошта, поломка, переїзд. Тому важливо знати конкретні слова.</li>
+</ul>''',
+'grammar': '''
+<h4>Як утворити минулий час</h4>
+<p>Беремо інфінітив, відкидаємо <b>-t</b> і додаємо <b>-l</b>. Закінчення залежить від того, <b>хто</b> робив:</p>
+<div class="tblw"><table class="tbl">
+<tr><th>Хто</th><th>dělat</th><th>koupit</th><th>být</th></tr>
+<tr><td>він (muž, pan Novák)</td><td><span class="cz">dělal</span></td><td><span class="cz">koupil</span></td><td><span class="cz">byl</span></td></tr>
+<tr><td>вона (žena, paní Nová)</td><td><span class="cz">dělala</span></td><td><span class="cz">koupila</span></td><td><span class="cz">byla</span></td></tr>
+<tr><td>воно (dítě, auto)</td><td><span class="cz">dělalo</span></td><td><span class="cz">koupilo</span></td><td><span class="cz">bylo</span></td></tr>
+<tr><td>вони (muž a žena, rodina → oni)</td><td><span class="cz">dělali</span></td><td><span class="cz">koupili</span></td><td><span class="cz">byli</span></td></tr>
+</table></div>
+<p>У розповіді про <b>інших людей</b> слово <span class="cz">jsem</span> не потрібне: <span class="cz">Muž šel do obchodu.</span> Про <b>себе</b> додаємо <span class="cz">jsem</span> або <span class="cz">jsme</span>: <span class="cz">Šel jsem do obchodu. Byli jsme v Praze.</span></p>
+<h4>Неправильні дієслова, які трапляються найчастіше</h4>
+<p><span class="cz">jít → šel, šla</span> · <span class="cz">jet → jel</span> · <span class="cz">přijít → přišel</span> · <span class="cz">najít → našel</span> · <span class="cz">mít → měl</span> · <span class="cz">chtít → chtěl</span> · <span class="cz">moct → mohl</span> · <span class="cz">říct → řekl</span> · <span class="cz">vzít → vzal</span> · <span class="cz">jíst → jedl</span> · <span class="cz">pít → pil</span> · <span class="cz">číst → četl</span> · <span class="cz">začít → začal</span> · <span class="cz">spát → spal</span> · <span class="cz">zapomenout → zapomněl</span></p>
+<h4>Зворотні дієслова: se / si на другому місці</h4>
+<p><span class="cz">Muž se probudil.</span> · <span class="cz">Žena si koupila boty.</span> · <span class="cz">Ráno se oblékl a umyl.</span></p>
+<h4>Каркас розповіді</h4>
+<div class="tblw"><table class="tbl">
+<tr><th>Частина</th><th>Слова-зв'язки</th><th>Приклад</th></tr>
+<tr><td>Початок: коли, хто, де</td><td><span class="cz">Včera ráno…</span> · <span class="cz">Minulou sobotu…</span></td><td><span class="cz">Včera ráno jel pan Novák do práce.</span></td></tr>
+<tr><td>Картинка 1</td><td><span class="cz">Nejdřív…</span> · <span class="cz">Na začátku…</span></td><td><span class="cz">Nejdřív si koupil kávu.</span></td></tr>
+<tr><td>Картинки 2–3</td><td><span class="cz">Potom…</span> · <span class="cz">Pak…</span> · <span class="cz">Když…</span> · <span class="cz">Najednou…</span></td><td><span class="cz">Najednou začalo pršet.</span></td></tr>
+<tr><td>Картинка 4, кінець</td><td><span class="cz">Nakonec…</span> · <span class="cz">Večer…</span></td><td><span class="cz">Nakonec šel domů a byl unavený.</span></td></tr>
+</table></div>
+<p>Додайте почуття: <span class="cz">byl šťastný</span>, <span class="cz">byla nervózní</span>, <span class="cz">byli unavení</span>, і причину: <span class="cz">protože…</span></p>''',
+'tips': '''
+<ul>
+<li><b>Не описуйте картинку в теперішньому часі</b> («Na obrázku je muž…»). Розповідайте історію: <span class="cz">Muž šel…</span></li>
+<li><b>Дайте людям імена</b>: <span class="cz">pan Novák, paní Nová</span>. Так легше говорити й не плутатися.</li>
+<li><b>Не пропускайте жодної картинки</b>: за кожну пропущену втрачаються бали.</li>
+<li><b>Не знаєте слова?</b> Опишіть інакше: замість <span class="cz">pokuta</span> — <span class="cz">musel zaplatit peníze policii</span>.</li>
+<li><b>Слідкуйте за родом</b>: жінка — <span class="cz">šla, byla, koupila</span>, чоловік — <span class="cz">šel, byl, koupil</span>.</li>
+<li>Тренуйтеся з таймером на 1 хвилину: спочатку з текстом, потім лише з картинками.</li>
+</ul>''',
+}
