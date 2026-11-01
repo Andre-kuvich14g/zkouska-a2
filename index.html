@@ -371,6 +371,7 @@ body.hide-q .qtext{visibility:hidden}
 .m-trainW{--m:var(--c-write);--m-soft:var(--c-write-soft)}
 .m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
 .m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
+.m-learn{--m:var(--c-listen);--m-soft:var(--c-listen-soft)}
 .mode:hover{border-color:var(--m)}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
@@ -578,6 +579,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Іспит</b><br><span class="small muted">Таймери, кожен запис можна запустити один раз (звучить двічі), тексти аудіо приховані до перевірки. Для перевірки себе, коли вже потренувались.</span><button type="button" class="btn primary sm mstart" data-start="1">Почати →</button></span></label>
           <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Тренувати Psaní</b><br><span class="small muted">Тільки письмо: формуляр і e-mail. Приклади, підказки, оцінка сайту й кнопка «Наступне завдання».</span><button type="button" class="btn primary sm mstart" data-start="1">Почати →</button></span></label>
           <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Тренувати Mluvení</b><br><span class="small muted">Тільки мовлення: питання, діалоги, розповідь за картинками, домовленість. Озвучення, запис голосу й оцінка сайту.</span><button type="button" class="btn primary sm mstart" data-start="1">Почати →</button></span></label>
+          <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Вчимо Mluvení</b> <span class="rec-tag">нове</span><br><span class="small muted">Не тест, а уроки до усної частини: пояснення, шаблони, відео й сотні прикладів з озвученням для кожної úlohy.</span><button type="button" class="btn primary sm mstart" data-start="1">Відкрити уроки →</button></span></label>
           <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Поради до іспиту</b><br><span class="small muted">Що робити до, під час і після іспиту: запис, стратегія для кожної частини, фрази-рятівники для Mluvení. Коротко, з офіційних джерел і досвіду кандидатів.</span><button type="button" class="btn primary sm mstart" data-start="1">Відкрити поради →</button></span></label>
         </div>
         <div class="codebox" id="codeBox">
@@ -586,12 +588,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Почати новий іспит</button></div>
         <div id="history"></div>
-        <details class="news" id="news"><summary>🆕 Що нового · оновлено <time id="updDate" datetime="2026-10-31">31.10.2026</time></summary><ul>
+        <details class="news" id="news"><summary>🆕 Що нового · оновлено <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary><ul>
           <li><b>4 мови.</b> Підказки й пояснення українською, англійською, російською та в’єтнамською.</li>
           <li><b>Окремі тренажери.</b> Psaní і Mluvení можна тренувати окремо, тема за темою, а ще є поради до іспиту.</li>
           <li><b>Пояснення й приклади.</b> У тренуванні видно, чому відповідь правильна, є зразки листів і відповідей, а сайт сам оцінює письмо й мовлення поруч із вашою самооцінкою.</li>
           <li><b>Детальний результат.</b> Склали чи ні, найслабша частина, конкретні поради, історія спроб і ваш рекорд.</li>
           <li><b>Новий вигляд.</b> Свій колір для кожної частини, світла й темна тема, зручніше з телефона.</li>
+          <li><b>Вчимо Mluvení.</b> Новий розділ з уроками: пояснення, шаблони, відео й 400 питань з відповідями та озвученням.</li>
           <li><b>Mluvení як на новому іспиті.</b> Нові розповіді за картинками (поліція, ДТП, швидка, аварія в квартирі), 1 хвилина на розповідь, перевірка «ти/Ви» і часів, порада, як виправляти помилки.</li>
         </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Відгуки й побажання</summary><div class="don-body">
@@ -1528,7 +1531,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Відкрити поради' : 'Почати новий іспит'; }
+function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Відкрити поради' : lrn ? 'Відкрити уроки →' : 'Почати новий іспит'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1543,7 +1546,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новий іс
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start) return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked){ track('learn_open_card'); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk'); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Скопійовано ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();

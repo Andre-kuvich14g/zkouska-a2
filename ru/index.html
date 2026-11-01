@@ -371,6 +371,7 @@ body.hide-q .qtext{visibility:hidden}
 .m-trainW{--m:var(--c-write);--m-soft:var(--c-write-soft)}
 .m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
 .m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
+.m-learn{--m:var(--c-listen);--m-soft:var(--c-listen-soft)}
 .mode:hover{border-color:var(--m)}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
@@ -578,6 +579,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Экзамен</b><br><span class="small muted">Таймеры, каждую запись можно запустить один раз (звучит дважды), тексты аудио скрыты до проверки. Чтобы проверить себя после тренировки.</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
           <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Тренировать Psaní (письмо)</b><br><span class="small muted">Только письмо: анкета и e-mail. Примеры, подсказки, оценка сайта и кнопка «Следующее задание».</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
           <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Тренировать Mluvení (говорение)</b><br><span class="small muted">Только говорение: вопросы, диалоги, рассказ по картинкам, договорённость. Озвучивание, запись голоса и оценка сайта.</span><button type="button" class="btn primary sm mstart" data-start="1">Начать →</button></span></label>
+          <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Учим Mluvení</b> <span class="rec-tag">новое</span><br><span class="small muted">Не тест, а уроки к устной части: объяснения, шаблоны, видео и сотни примеров с озвучкой для каждой úlohy.</span><button type="button" class="btn primary sm mstart" data-start="1">Открыть уроки →</button></span></label>
           <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Советы к экзамену</b><br><span class="small muted">Что делать до, во время и после экзамена: запись, стратегия для каждой части, фразы-спасатели для Mluvení. Коротко, из официальных источников и опыта кандидатов.</span><button type="button" class="btn primary sm mstart" data-start="1">Открыть советы →</button></span></label>
         </div>
         <div class="codebox" id="codeBox">
@@ -586,12 +588,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Начать новый экзамен</button></div>
         <div id="history"></div>
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-10-31">31.10.2026</time></summary><ul>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary><ul>
           <li><b>4 языка.</b> Подсказки и объяснения на украинском, английском, русском и вьетнамском.</li>
           <li><b>Отдельные тренажёры.</b> Psaní и Mluvení можно тренировать отдельно, тема за темой, а ещё есть советы к экзамену.</li>
           <li><b>Объяснения и примеры.</b> В тренировке видно, почему ответ правильный, есть образцы писем и ответов, а сайт сам оценивает письмо и говорение рядом с вашей самооценкой.</li>
           <li><b>Подробный результат.</b> Сдали или нет, самая слабая часть, конкретные советы, история попыток и ваш рекорд.</li>
           <li><b>Новый вид.</b> Свой цвет для каждой части, светлая и тёмная тема, удобнее с телефона.</li>
+          <li><b>Учим Mluvení.</b> Новый раздел с уроками: объяснения, шаблоны, видео и 400 вопросов с ответами и озвучкой.</li>
           <li><b>Mluvení как на новом экзамене.</b> Новые рассказы по картинкам (полиция, ДТП, скорая, авария в квартире), 1 минута на рассказ, проверка «ты/Вы» и времён, совет, как исправлять ошибки.</li>
         </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Отзывы и пожелания</summary><div class="don-body">
@@ -1528,7 +1531,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Открыть советы' : 'Начать новый экзамен'; }
+function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Открыть советы' : lrn ? 'Открыть уроки →' : 'Начать новый экзамен'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1543,7 +1546,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новый эк
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start) return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked){ track('learn_open_card'); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk'); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Скопировано ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();

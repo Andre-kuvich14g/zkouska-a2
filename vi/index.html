@@ -371,6 +371,7 @@ body.hide-q .qtext{visibility:hidden}
 .m-trainW{--m:var(--c-write);--m-soft:var(--c-write-soft)}
 .m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
 .m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
+.m-learn{--m:var(--c-listen);--m-soft:var(--c-listen-soft)}
 .mode:hover{border-color:var(--m)}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
@@ -578,6 +579,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Thi</b><br><span class="small muted">Có đồng hồ, mỗi bài nghe chỉ bật một lần (phát hai lần), lời thoại ẩn đến khi chấm. Để tự kiểm tra sau khi đã luyện tập.</span><button type="button" class="btn primary sm mstart" data-start="1">Bắt đầu →</button></span></label>
           <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Luyện Psaní (viết)</b><br><span class="small muted">Chỉ phần viết: mẫu đơn và e-mail. Có bài mẫu, gợi ý, trang chấm và nút “Bài tiếp theo”.</span><button type="button" class="btn primary sm mstart" data-start="1">Bắt đầu →</button></span></label>
           <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Luyện Mluvení (nói)</b><br><span class="small muted">Chỉ phần nói: câu hỏi, hội thoại, kể chuyện theo tranh, thỏa thuận. Có âm thanh, ghi âm và trang chấm.</span><button type="button" class="btn primary sm mstart" data-start="1">Bắt đầu →</button></span></label>
+          <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Học Mluvení</b> <span class="rec-tag">mới</span><br><span class="small muted">Không phải bài kiểm tra mà là bài học cho phần nói: giải thích, mẫu câu, video và hàng trăm ví dụ có âm thanh cho từng úloha.</span><button type="button" class="btn primary sm mstart" data-start="1">Mở bài học →</button></span></label>
           <label class="mode wide m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Mẹo đi thi</b><br><span class="small muted">Cần làm gì trước, trong và sau kỳ thi: đăng ký, chiến thuật cho từng phần, câu cứu nguy cho Mluvení. Ngắn gọn, từ nguồn chính thức và kinh nghiệm của thí sinh.</span><button type="button" class="btn primary sm mstart" data-start="1">Mở mẹo thi →</button></span></label>
         </div>
         <div class="codebox" id="codeBox">
@@ -586,12 +588,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </div>
         <div><button class="btn primary" id="startBtn" type="button">Bắt đầu bài thi mới</button></div>
         <div id="history"></div>
-        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-10-31">31.10.2026</time></summary><ul>
+        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary><ul>
           <li><b>4 ngôn ngữ.</b> Gợi ý và giải thích bằng tiếng Ukraina, Anh, Nga và Việt.</li>
           <li><b>Luyện riêng từng phần.</b> Có thể luyện riêng Psaní và Mluvení theo từng chủ đề, và có thêm mẹo đi thi.</li>
           <li><b>Giải thích và bài mẫu.</b> Ở chế độ luyện tập bạn thấy vì sao đáp án đúng, có thư và câu trả lời mẫu, và trang tự chấm phần viết, phần nói bên cạnh điểm tự chấm của bạn.</li>
           <li><b>Kết quả chi tiết.</b> Đỗ hay chưa, phần yếu nhất, lời khuyên cụ thể, lịch sử các lần thi và kỷ lục của bạn.</li>
           <li><b>Giao diện mới.</b> Mỗi phần một màu, giao diện sáng và tối, dùng trên điện thoại tiện hơn.</li>
+          <li><b>Học Mluvení.</b> Mục mới với các bài học: giải thích, mẫu câu, video và 400 câu hỏi kèm câu trả lời và âm thanh.</li>
           <li><b>Mluvení giống kỳ thi mới.</b> Bài kể chuyện theo tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho phần kể, kiểm tra cách xưng hô «ty/Vy» và thì, mẹo sửa lỗi.</li>
         </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Góp ý và đề xuất</summary><div class="don-body">
@@ -1528,7 +1531,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked; $('#codeBox').hidden = tips; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : 'Bắt đầu bài thi mới'; }
+function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : lrn ? 'Mở bài học →' : 'Bắt đầu bài thi mới'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1543,7 +1546,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Bài thi mới'
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start) return $('#modeTips').checked ? showTips() : startExam();
+  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked){ track('learn_open_card'); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk'); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Đã sao chép ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();

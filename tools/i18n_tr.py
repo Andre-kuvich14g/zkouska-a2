@@ -565,3 +565,12 @@ T += [
 T += [
 ("Відкриється пост у Facebook: напишіть коментар під ним.", "A Facebook post will open: write a comment under it.", "Откроется пост в Facebook: напишите комментарий под ним.", "Một bài đăng Facebook sẽ mở ra: hãy viết bình luận bên dưới."),
 ]
+# вхід у «Вчимо Mluvení»
+T += [
+("Вчимо Mluvení", "Learn Mluvení", "Учим Mluvení", "Học Mluvení"),
+("нове", "new", "новое", "mới"),
+("Не тест, а уроки до усної частини: пояснення, шаблони, відео й сотні прикладів з озвученням для кожної úlohy.", "Not a test but lessons for the oral part: explanations, templates, videos and hundreds of examples with audio for every úloha.", "Не тест, а уроки к устной части: объяснения, шаблоны, видео и сотни примеров с озвучкой для каждой úlohy.", "Không phải bài kiểm tra mà là bài học cho phần nói: giải thích, mẫu câu, video và hàng trăm ví dụ có âm thanh cho từng úloha."),
+("Відкрити уроки →", "Open lessons →", "Открыть уроки →", "Mở bài học →"),
+("Вчимо Mluvení.", "Learn Mluvení.", "Учим Mluvení.", "Học Mluvení."),
+("Новий розділ з уроками: пояснення, шаблони, відео й 400 питань з відповідями та озвученням.", "A new section with lessons: explanations, templates, videos and 400 questions with answers and audio.", "Новый раздел с уроками: объяснения, шаблоны, видео и 400 вопросов с ответами и озвучкой.", "Mục mới với các bài học: giải thích, mẫu câu, video và 400 câu hỏi kèm câu trả lời và âm thanh."),
+]
