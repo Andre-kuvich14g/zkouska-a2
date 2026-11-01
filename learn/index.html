@@ -164,6 +164,7 @@ if(!(lang in LI)){ try{ lang = localStorage.getItem('a2-learn-lang') || ''; }cat
 if(!(lang in LI)) lang = 'uk';
 try{ localStorage.setItem('a2-learn-lang', lang); }catch(e){}
 document.documentElement.lang = lang;
+if(lang !== 'uk') document.title = ((JSON.parse(document.getElementById('learn-data').textContent).ui.title || [])[{uk:0,en:1,ru:2,vi:3}[lang]] || 'Learn Mluvení') + ' – Zkouška A2 nanečisto';
 const t = k => (D.ui[k] || [k])[LI[lang]] || (D.ui[k] || [k])[0];
 const th = (u, part) => ((D.theory[u] || {})[lang] || (D.theory[u] || {}).uk || {})[part] || '';
 const $ = (s, r=document) => r.querySelector(s);
