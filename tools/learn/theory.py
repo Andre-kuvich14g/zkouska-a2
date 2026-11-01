@@ -125,3 +125,32 @@ THEORY['u2']['uk'] = {
 <li>Наприкінці подякуйте: <span class="cz">Děkuju za informace. Na shledanou.</span></li>
 </ul>''',
 }
+
+THEORY['u4']['uk'] = {
+'how': '''
+<p>Екзаменатор грає роль вашого <b>друга</b>, тому ви говорите на <b>«ти»</b>. Він описує ситуацію, наприклад <span class="cz">Chceme spolu jet na výlet. Čím pojedeme?</span>, і показує картинку з <b>3 варіантами</b>. Ви маєте <b>домовитися про один</b> і пояснити чому. <b>7 балів.</b></p>
+<ul>
+<li>Екзаменатор зазвичай <b>відмовляє</b> перші пропозиції, тож ви пропонуєте далі.</li>
+<li>Вибирати можна <b>лише з того, що на картинці</b>.</li>
+<li>Оцінюють: пропозиції, реакцію на відмову, пояснення <span class="cz">protože…</span> і підсумок, про що домовилися.</li>
+</ul>''',
+'grammar': '''
+<h4>Запропонувати</h4>
+<p><span class="cz">Můžeme jít do kina.</span> · <span class="cz">Pojďme do kina.</span> · <span class="cz">Co kdybychom šli do kina?</span> · <span class="cz">Co třeba kino?</span> · <span class="cz">Chceš jít do kina?</span></p>
+<h4>Відреагувати на відмову</h4>
+<p><span class="cz">Dobře, tak…</span> · <span class="cz">Aha, to nevadí. Tak co…?</span> · <span class="cz">Škoda. A co třeba…?</span></p>
+<h4>Пояснити вибір</h4>
+<p><span class="cz">Protože je to levné / blízko / zdravé.</span> · <span class="cz">Protože tam ještě nebyli.</span> · <span class="cz">Myslím, že je to nejlepší, protože…</span></p>
+<h4>Погодитися й підсумувати</h4>
+<p><span class="cz">Dobře, domluveno.</span> · <span class="cz">Platí.</span> · <span class="cz">Super, tak v sobotu v deset.</span> · <span class="cz">Souhlasím.</span></p>
+<h4>«Ти»-форми, потрібні тут</h4>
+<p><span class="cz">máš</span> (у тебе є) · <span class="cz">chceš</span> (хочеш) · <span class="cz">můžeš</span> (можеш) · <span class="cz">půjdeš</span> (підеш) · <span class="cz">pojďme</span> (ходімо) · <span class="cz">myslíš</span> (думаєш). Не <span class="cz">máte, chcete</span>: це «Ви».</p>''',
+'tips': '''
+<ul>
+<li><b>Не сперечайтеся</b> з відмовою, просто пропонуйте інший варіант.</li>
+<li><b>Обов'язково скажіть «protože…»</b>, навіть якщо екзаменатор не питає.</li>
+<li>Закінчіть домовленістю: що, коли, де. <span class="cz">Dobře, tak pojedeme vlakem v sobotu ráno.</span></li>
+<li>Не знаєте назви на картинці? Покажіть словами: <span class="cz">to první</span>, <span class="cz">to vpravo</span>.</li>
+<li>Говоріть природно, коротко й привітно, як із другом.</li>
+</ul>''',
+}
