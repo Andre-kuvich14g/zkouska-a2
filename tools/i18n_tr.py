@@ -593,3 +593,10 @@ T += [
 ("Платформа безкоштовна й без реклами. Якщо вона вам допомогла, можете пригостити автора кавою: будь-яка сума через QR-платбу.", "The platform is free and has no ads. If it helped you, you can buy the author a coffee: any amount via a Czech QR payment.", "Платформа бесплатная и без рекламы. Если она вам помогла, можете угостить автора кофе: любая сумма через QR-платёж.", "Nền tảng miễn phí và không có quảng cáo. Nếu nó giúp ích cho bạn, bạn có thể mời tác giả một ly cà phê: số tiền tùy ý qua QR platba."),
 ("Це неофіційна навчальна платформа. Офіційний пробний тест від NPI ČR варто пройти хоча б раз:", "This is an unofficial learning platform. It is worth taking the official NPI ČR practice test at least once:", "Это неофициальная учебная платформа. Официальный пробный тест от NPI ČR стоит пройти хотя бы раз:", "Đây là nền tảng học tập không chính thức. Bạn nên làm bài thi thử chính thức của NPI ČR ít nhất một lần:"),
 ]
+# Вчимо Psaní
+T += [
+("Вчимо Psaní", "Learn Psaní", "Учим Psaní", "Học Psaní"),
+("Формуляр і e-mail: шаблони, 80 завдань зі зразками, лічильник слів і перевірка листа.", "The form and the e-mail: templates, 80 tasks with samples, a word counter and an e-mail check.", "Формуляр и e-mail: шаблоны, 80 заданий с образцами, счётчик слов и проверка письма.", "Mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail."),
+("Вчимо Psaní.", "Learn Psaní.", "Учим Psaní.", "Học Psaní."),
+("Уроки до формуляра й e-mailu: шаблони, 80 завдань зі зразками, лічильник слів і перевірка листа.", "Lessons for the form and the e-mail: templates, 80 tasks with samples, a word counter and an e-mail check.", "Уроки к формуляру и e-mailу: шаблоны, 80 заданий с образцами, счётчик слов и проверка письма.", "Bài học cho mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail."),
+]

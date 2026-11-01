@@ -30,7 +30,7 @@ gtag('config', 'G-YMHXGCMMH4');
   --paper:#eef1f6; --sheet:#ffffff; --ink:#15213a; --muted:#59647a; --rule:#d5dbe6; --soft:#f4f6fa;
   --accent:#1f4e9c; --accent-ink:#ffffff; --accent-soft:#e3ebf8;
   --mark:#c4342b; --mark-soft:#fbe7e5; --ok:#1b7a4b; --ok-soft:#e2f3ea; --warn:#9a6200; --warn-soft:#fbf0dc;
-  --u1:#1f5fbf; --u1-soft:#e4edfb; --u2:#0f766e; --u2-soft:#dcf2ef; --u3:#c2410c; --u3-soft:#fdeadf; --u4:#6d3fc0; --u4-soft:#eee6fb;
+  --w:#15803d; --w-soft:#e3f4e8; --u1:#1f5fbf; --u1-soft:#e4edfb; --u2:#0f766e; --u2-soft:#dcf2ef; --u3:#c2410c; --u3-soft:#fdeadf; --u4:#6d3fc0; --u4-soft:#eee6fb;
   --f-display:"Bitter", Georgia, "Times New Roman", serif;
   --f-body:"IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -40,13 +40,13 @@ gtag('config', 'G-YMHXGCMMH4');
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
-  --u1:#86a9ff; --u1-soft:#1d2a47; --u2:#4fd1c0; --u2-soft:#123432; --u3:#ff9a5c; --u3-soft:#3a2414; --u4:#b99eff; --u4-soft:#2a2145;
+  --w:#5fd38a; --w-soft:#163322; --u1:#86a9ff; --u1-soft:#1d2a47; --u2:#4fd1c0; --u2-soft:#123432; --u3:#ff9a5c; --u3-soft:#3a2414; --u4:#b99eff; --u4-soft:#2a2145;
   color-scheme:dark } }
 :root[data-theme="dark"]{
   --paper:#0d121c; --sheet:#151c2a; --ink:#e5e9f1; --muted:#9aa4b8; --rule:#29334a; --soft:#1b2335;
   --accent:#7ea4ff; --accent-ink:#0d121c; --accent-soft:#1d2a47;
   --mark:#ff7b70; --mark-soft:#3a1e1d; --ok:#5fcf98; --ok-soft:#173226; --warn:#f0b65a; --warn-soft:#352813;
-  --u1:#86a9ff; --u1-soft:#1d2a47; --u2:#4fd1c0; --u2-soft:#123432; --u3:#ff9a5c; --u3-soft:#3a2414; --u4:#b99eff; --u4-soft:#2a2145;
+  --w:#5fd38a; --w-soft:#163322; --u1:#86a9ff; --u1-soft:#1d2a47; --u2:#4fd1c0; --u2-soft:#123432; --u3:#ff9a5c; --u3-soft:#3a2414; --u4:#b99eff; --u4-soft:#2a2145;
   color-scheme:dark }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -73,7 +73,7 @@ button{font:inherit;color:inherit}
 .icon-btn{width:36px;height:36px;min-height:36px;padding:0;border-radius:50%}
 .sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:clamp(16px,4vw,28px);display:grid;gap:16px;min-width:0}
 .sheet.u{border-top:5px solid var(--u)}
-.u1{--u:var(--u1);--us:var(--u1-soft)} .u2{--u:var(--u2);--us:var(--u2-soft)} .u3{--u:var(--u3);--us:var(--u3-soft)} .u4{--u:var(--u4);--us:var(--u4-soft)}
+.u1{--u:var(--u1);--us:var(--u1-soft)} .u2{--u:var(--u2);--us:var(--u2-soft)} .u3{--u:var(--u3);--us:var(--u3-soft)} .u4{--u:var(--u4);--us:var(--u4-soft)} .w1,.w2{--u:var(--w);--us:var(--w-soft)}
 .hero{display:grid;gap:10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px}
 .ucard{display:grid;gap:6px;padding:16px;border:1px solid var(--rule);border-left:5px solid var(--u);border-radius:var(--r);background:var(--sheet);text-decoration:none;color:var(--ink)}
@@ -114,7 +114,7 @@ button{font:inherit;color:inherit}
 .srout{font-size:.92rem}
 .srout .heard{padding:8px 10px;border-radius:var(--r);background:var(--soft)}
 .fb{margin:6px 0 0;padding-left:18px}
-.fb .ok{color:var(--ok)} .fb .no{color:var(--warn)}
+.fb .ok{color:var(--ok)} .fb .no{color:var(--warn)} .fb .tip{color:var(--muted)}
 .prog{height:8px;border-radius:4px;background:var(--soft);overflow:hidden} .prog i{display:block;height:100%;background:var(--ok)}
 .trainbox{display:grid;gap:12px;padding:16px;border-radius:var(--r);background:var(--us)}
 .trainbox .big{font-size:1.2rem;font-weight:600}
@@ -141,6 +141,15 @@ mark{background:var(--us);color:var(--u);font-weight:700;border-radius:3px;paddi
 .frames.opts{grid-template-columns:repeat(3,minmax(0,1fr))}
 .frames.opts figcaption{flex-direction:column;align-items:center;text-align:center}
 .qa.me4{padding:8px 10px;border-radius:var(--r);background:var(--us);border-top:0}
+h2.grp{font-size:1.15rem;margin-top:8px}
+.wta{width:100%;font:inherit;font-size:1rem;line-height:1.5;padding:10px 12px;border:1.5px solid var(--rule);border-radius:var(--r);background:var(--sheet);color:var(--ink);resize:vertical}
+.wta:focus{border-color:var(--u);outline:none}
+.wbar{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.wcnt{font-family:var(--f-mono);font-size:.85rem;color:var(--warn)} .wcnt.ok{color:var(--ok)}
+.mailhead{display:grid;gap:4px;padding:10px 12px;border-radius:var(--r);background:var(--soft);font-size:.92rem;overflow-wrap:anywhere}
+.frames.prompts{grid-template-columns:repeat(auto-fit,minmax(min(100%,120px),1fr))}
+.frames.prompts figcaption{font-weight:600;font-size:.8rem;justify-content:center;text-align:center}
+.mailtxt{white-space:pre-wrap;font-family:var(--f-body);margin:0;line-height:1.6;overflow-wrap:anywhere}
 .q-text{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .foot{margin-top:8px;font-size:.8rem;color:var(--muted)}
 </style>
@@ -201,7 +210,7 @@ const STOP = new Set('a i v ve na se je jsem jsi jsme jste to ten ta do z ze k k
 function feedback(said, model, q){
   const W = srNorm(said).split(' ').filter(Boolean), M = new Set(srNorm(model).split(' ').filter(w => w.length > 2 && !STOP.has(w)));
   const common = [...new Set(W)].filter(w => M.has(w));
-  const qv = srNorm(q).split(' ').filter(w => w.length > 3 && !STOP.has(w)).map(w => w.slice(0, 4));
+  const qv = srNorm(q).split(' ').filter(w => w.length > 3 && !STOP.has(w)).map(w => w.slice(0, 3));
   const verbHit = qv.some(st => W.some(w => w.startsWith(st)));
   const items = [`<li class="${W.length >= 6 ? 'ok' : 'no'}">${W.length} ${t('fbWords')}. ${W.length >= 6 ? t('fbOk') : t('fbShort')}</li>`,
     `<li class="${verbHit ? 'ok' : 'no'}">${verbHit ? t('fbVerb') : t('fbNoVerb')}</li>`];
@@ -245,10 +254,13 @@ function vidHTML(list){ if(!list || !list.length) return '';
 /* views */
 const U = ['u1','u2','u3','u4'];
 const ready = u => (D[u] || []).length > 0;
+const W = ['w1','w2'];
+function ucards(list){ return `<div class="cards">${list.map(u => { const n = (D[u] || []).length, d = (D[u] || []).filter((_, i) => DONE[u + '-' + i]).length;
+    return `<a class="ucard ${u} ${ready(u) ? '' : 'off'}" href="#${u}"><b>${t(u)}</b><span class="small muted">${t(u + 'd')}</span>${ready(u) ? `<span class="small">${t('progress')}: ${d} / ${n}</span><div class="prog"><i style="width:${n ? d / n * 100 : 0}%"></i></div>` : `<span class="soon">${t('soon')}</span>`}</a>`; }).join('')}</div>`; }
 function home(){
   return `<section class="sheet"><div class="hero"><h1>📚 ${t('title')}</h1><p>${t('lead')}</p></div>
-  <div class="cards">${U.map(u => { const n = (D[u] || []).length, d = (D[u] || []).filter((_, i) => DONE[u + '-' + i]).length;
-    return `<a class="ucard ${u} ${ready(u) ? '' : 'off'}" href="#${u}"><b>${t(u)}</b><span class="small muted">${t(u + 'd')}</span>${ready(u) ? `<span class="small">${t('progress')}: ${d} / ${n}</span><div class="prog"><i style="width:${n ? d / n * 100 : 0}%"></i></div>` : `<span class="soon">${t('soon')}</span>`}</a>`; }).join('')}</div>
+  <h2 class="grp" id="g-mluveni">🗣 ${t('gM')}</h2>${ucards(U)}
+  <h2 class="grp" id="g-psani">✍️ ${t('gP')}</h2>${ucards(W)}
   <p class="note">${t('voiceNote')}</p>${vidHTML(D.videos.home)}</section>`; }
 function lesson(u){
   const items = D[u] || [];
@@ -258,8 +270,9 @@ function lesson(u){
   <details class="sec"><summary>💡 ${t('tips')}</summary><div class="body">${th(u, 'tips')}</div></details>
   ${vidHTML(D.videos[u])}
   ${u === 'u1' ? `<div class="trainbox"><b>🎯 ${t('practice')}</b><p class="small">${t('practiceD')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
+  ${u[0] === 'w' ? `<div class="trainbox"><b>🎯 ${t('practiceW')}</b><p class="small">${t('practiceWD')}</p><a class="btn primary" href="#w-train">${t('start')}</a></div>` : ''}
   ${u === 'u3' ? `<div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
-  <h3>${u === 'u3' ? t('stories') : u === 'u2' ? t('cards') : u === 'u4' ? t('situations') : t('topics')}</h3><p class="small muted">${u === 'u3' ? t('storiesd') : u === 'u2' ? t('cardsd') : u === 'u4' ? t('situationsd') : t('topicsd')}</p>
+  <h3>${u === 'w1' ? t('forms') : u === 'w2' ? t('mails') : u === 'u3' ? t('stories') : u === 'u2' ? t('cards') : u === 'u4' ? t('situations') : t('topics')}</h3><p class="small muted">${u === 'w1' ? t('formsd') : u === 'w2' ? t('mailsd') : u === 'u3' ? t('storiesd') : u === 'u2' ? t('cardsd') : u === 'u4' ? t('situationsd') : t('topicsd')}</p>
   <div class="tgrid">${items.map((it, i) => `<a class="tbtn ${DONE[u + '-' + i] ? 'done' : ''}" href="#${u}-${i}"><span>${esc(it.cz)}<span class="tr">${esc(it.t[LI[lang]] || it.t[0])}</span></span>${DONE[u + '-' + i] ? '<span class="ck">✓</span>' : ''}</a>`).join('')}</div></section>`; }
 function qaHTML(q, a, n){
   return `<div class="qa"><div class="qrow"><span class="num">${n}.</span><button class="btn sm" type="button" data-say="${esc(q)}" aria-label="▶">▶</button><span class="qtext">${esc(q)}</span></div>
@@ -322,6 +335,54 @@ function sit(u, i){
   ${it.dialog.map(x => x[0] === 'T' ? `<div class="dl ex"><span class="who">${t('friend')}</span><button class="btn sm" type="button" data-say="${esc(x[1])}">▶</button><span>${esc(x[1])}</span></div>`
     : `<div class="qa me4"><div class="acts"><span class="who small muted">${t('you')} · ${++n}</span><button class="btn sm" type="button" data-sr data-kind="u4" data-model="${esc(x[1])}">${t('say')}</button><button class="btn sm" type="button" data-show>${t('showA')}</button></div><div class="ans" hidden><button class="btn sm" type="button" data-say="${esc(x[1])}">▶</button><p>${esc(x[1])}</p></div><div class="srout"></div></div>`).join('')}</div>
   <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
+const wcount = x => (String(x).match(/[A-Za-zÀ-ž0-9]+/g) || []).length;
+function areaHTML(min, id){ return `<textarea class="wta" id="${id}" rows="${min > 20 ? 9 : 3}" spellcheck="false" lang="cs" data-min="${min}" placeholder="${t('writeHere')}"></textarea><div class="wbar"><span class="wcnt" data-for="${id}">0 / ${min} ${t('fbWords')}</span><button class="btn sm" type="button" data-wcheck="${id}">${t('check')}</button></div><div class="wfb" data-fb="${id}"></div>`; }
+function checkForm(txt, q){
+  const n = wcount(txt), T = srNorm(txt), Q = srNorm(q).split(' ').filter(w => w.length > 3 && !STOP.has(w)).map(w => w.slice(0, 4));
+  const verb = Q.some(st => T.split(' ').some(w => w.startsWith(st)));
+  const cap = /^\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/.test(txt), dot = /[.!?]\s*$/.test(txt);
+  return `<ul class="fb"><li class="${n >= 10 ? 'ok' : 'no'}">${n} ${t('fbWords')} ${n >= 10 ? '✓' : '· ' + t('fbW1min')}</li><li class="${verb ? 'ok' : 'tip'}">${verb ? t('fbVerb') : t('fbNoVerb')}</li><li class="${cap && dot ? 'ok' : 'no'}">${cap && dot ? t('fbSent') : t('fbNoSent')}</li></ul>`; }
+function checkMail(txt){
+  const n = wcount(txt), T = srNorm(txt);
+  const lines = txt.trim().split(/\n+/), tail = srNorm(lines.slice(-3).join(' '));
+  const greet = /^(dobry den|dobre rano|dobry vecer|ahoj|cau|vazen|mil[aeiouy]|zdravim)/.test(T), close = lines.length > 1 && /(s pozdravem|dekuj|diky|mej se|mejte se|tesim se|zdravim|na shledanou|ahoj|cau|promin|tvoje|tvuj|vase|vas|brzy|na viden|hezky den)/.test(tail);
+  const last = (lines[lines.length - 1] || '').trim(), sign = lines.length > 1 && wcount(last) <= 6 && /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/.test(last);
+  const sents = (txt.match(/[.!?](\s|$)/g) || []).length;
+  const formal = /^(dobry den|vazen)/.test(T), casual = /^(ahoj|cau)/.test(T) && !/^(ahoj|cau) (vsichni|vsem|kolegove|sousede)/.test(T);
+  const vy = formal || /\b(muzete|mate|chcete|budete|napiste|dejte|prijdte)\b/.test(T), ty = casual || /\b(ti|tebe|muzes|mas|chces|budes|napis|dej|prijd)\b/.test(T);
+  return `<ul class="fb"><li class="${n >= 35 ? 'ok' : 'no'}">${n} ${t('fbWords')} ${n >= 35 ? '✓' : '· ' + t('fbW2min')}</li>
+  <li class="${greet ? 'ok' : 'no'}">${greet ? t('fbGreet') : t('fbNoGreet')}</li><li class="${close ? 'ok' : 'no'}">${close ? t('fbClose') : t('fbNoClose')}</li>
+  <li class="${sign ? 'ok' : 'no'}">${sign ? t('fbSign') : t('fbNoSign')}</li><li class="${sents >= 4 ? 'ok' : 'no'}">${t('fbSents')}: ${sents} ${sents >= 4 ? '✓' : '· ' + t('fbSentsMore')}</li>
+  ${vy && ty ? `<li class="no">${t('fbMix')}</li>` : ''}</ul>`; }
+function formView(u, i){
+  const it = (D[u] || [])[i]; if(!it) return lesson(u); const k = u + '-' + i;
+  return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toList')}</a>
+  <div><span class="small muted">${t(u)} · ${t('form')} ${i + 1} / ${D[u].length}</span><h2>${esc(it.cz)}</h2><p>${esc(it.situation)}</p></div>
+  ${it.qa.map((p, n) => `<div class="qa"><div class="qrow"><span class="num">${n + 1}.</span><span class="qtext">${esc(p[0])}</span></div>${areaHTML(10, 'f' + n)}
+    <div class="acts"><button class="btn sm" type="button" data-show>${t('showModel')}</button></div><div class="ans" hidden><button class="btn sm" type="button" data-say="${esc(p[1])}">▶</button><p>${esc(p[1])} <span class="muted small">(${wcount(p[1])} ${t('fbWords')})</span></p></div></div>`).join('')}
+  <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
+function mailHTML(it, id){
+  return `<div class="mailhead"><span><b>Komu:</b> ${esc(it.to)}</span><span><b>Předmět:</b> ${esc(it.subject)}</span></div>
+  <div class="frames prompts">${it.prompts.map((p, j) => `<figure class="frame"><span class="fn">${j + 1}</span><div class="scene">${(p.om || []).map((c, q) => `<img src="../img/om/${c}.svg" alt="" class="${q ? 'sub' : 'main'}">`).join('')}</div><figcaption><span>${esc(p.q)}</span></figcaption></figure>`).join('')}</div>
+  ${areaHTML(35, id)}`; }
+function mailView(u, i){
+  const it = (D[u] || [])[i]; if(!it) return lesson(u); const k = u + '-' + i;
+  return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toList')}</a>
+  <div><span class="small muted">${t(u)} · ${t('mail')} ${i + 1} / ${D[u].length}</span><h2>${esc(it.cz)}</h2><p>${esc(it.situation)}</p></div>
+  <div class="story">${mailHTML(it, 'm0')}<div class="acts"><button class="btn sm" type="button" data-show>${t('showModel')}</button></div>
+  <div class="ans model" hidden><div class="acts"><b>${t('modelMail')}</b><button class="btn sm" type="button" data-say="${esc(it.model)}">▶</button><span class="muted small">${wcount(it.model)} ${t('fbWords')}</span></div><pre class="mailtxt">${esc(it.model)}</pre></div></div>
+  <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
+let WT = null;
+function trainW(){
+  const f = D.w1[Math.floor(Math.random() * D.w1.length)], m = D.w2[Math.floor(Math.random() * D.w2.length)]; track('learn_train', {u: 'w'});
+  if(WT) clearInterval(WT.iv); WT = {t0: Date.now(), iv: null};
+  setTimeout(() => { WT.iv = setInterval(() => { const el = $('#wclock'); if(!el){ clearInterval(WT.iv); return; } const left = 25 * 60 - Math.floor((Date.now() - WT.t0) / 1000);
+    el.textContent = '⏱ ' + (left > 0 ? Math.floor(left / 60) + ':' + String(left % 60).padStart(2, '0') : '0:00 · ' + t('timeUp')); el.classList.toggle('over', left <= 300); }, 500); }, 50);
+  return `<section class="sheet u w1"><a href="#" class="small">${t('home')}</a><div class="trainbox"><b>🎯 ${t('practiceW')}</b><p class="small">${t('practiceWD')}</p><span class="tmr mono" id="wclock">⏱ 25:00</span></div>
+  <h3>1 · ${esc(f.cz)}</h3><p>${esc(f.situation)}</p>
+  ${f.qa.map((p, n) => `<div class="qa"><div class="qrow"><span class="num">${n + 1}.</span><span class="qtext">${esc(p[0])}</span></div>${areaHTML(10, 'tf' + n)}<div class="acts"><button class="btn sm" type="button" data-show>${t('showModel')}</button></div><div class="ans" hidden><p>${esc(p[1])}</p></div></div>`).join('')}
+  <h3>2 · E-mail: ${esc(m.cz)}</h3><p>${esc(m.situation)}</p><div class="story">${mailHTML(m, 'tm')}<div class="acts"><button class="btn sm" type="button" data-show>${t('showModel')}</button></div><div class="ans model" hidden><pre class="mailtxt">${esc(m.model)}</pre></div></div>
+  <a class="btn primary" href="#w-train" data-retrain>${t('another')}</a></section>`; }
 let TR = null;
 function train(u){
   const items = D[u]; const pick = []; const idx = items.map((_, i) => i).sort(() => Math.random() - 0.5).slice(0, 2);
@@ -343,18 +404,27 @@ function route(){
   try{ speechSynthesis.cancel(); }catch(e){}
   const h = location.hash.replace('#', ''); let html;
   let m;
-  if(!h) html = home();
+  if(!h || h === 'psani') html = home();
+  else if(h === 'w-train' && ready('w1')) html = trainW();
   else if((m = h.match(/^(u[1-4])-train$/)) && ready(m[1])){ if(m[1] === 'u3') html = train3(m[1]); else { html = train(m[1]); setTimeout(() => { const b = $('.trainbox [data-say]'); if(b) speak(b.dataset.say); }, 300); } }
+  else if((m = h.match(/^(w[12])-(\d+)$/)) && ready(m[1])){ html = m[1] === 'w1' ? formView(m[1], +m[2]) : mailView(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
+  else if((m = h.match(/^(w[12])$/)) && ready(m[1])){ html = lesson(m[1]); track('learn_lesson', {u: m[1]}); }
   else if((m = h.match(/^(u[1-4])-(\d+)$/)) && ready(m[1])){ html = m[1] === 'u3' ? story(m[1], +m[2]) : m[1] === 'u2' ? card(m[1], +m[2]) : m[1] === 'u4' ? sit(m[1], +m[2]) : topic(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
   else if((m = h.match(/^(u[1-4])$/)) && ready(m[1])){ html = lesson(m[1]); track('learn_lesson', {u: m[1]}); }
   else html = home();
   $('#app').innerHTML = html; window.scrollTo({top: 0});
+  if(h === 'psani'){ const g = $('#g-psani'); if(g) setTimeout(() => g.scrollIntoView({block: 'start'}), 50); }
 }
 window.addEventListener('hashchange', route);
+document.addEventListener('input', e => { const ta = e.target.closest('.wta'); if(!ta) return; const c = document.querySelector(`.wcnt[data-for="${ta.id}"]`), n = wcount(ta.value), min = +ta.dataset.min;
+  if(c){ c.textContent = n + ' / ' + min + ' ' + t('fbWords'); c.classList.toggle('ok', n >= min); } });
 document.addEventListener('click', e => {
   const cz = e.target.closest('.cz'); if(cz){ speak(cz.textContent.replace(/[/]/g, ' ')); return; }
   const b = e.target.closest('button'); if(!b) return;
   if(b.dataset.say){ speak(b.dataset.say, !!b.dataset.slow); return; }
+  if(b.dataset.wcheck){ const ta = document.getElementById(b.dataset.wcheck), fb = document.querySelector(`.wfb[data-fb="${b.dataset.wcheck}"]`); if(!ta || !fb) return;
+    const q = (ta.closest('.qa') && ta.closest('.qa').querySelector('.qtext')) ? ta.closest('.qa').querySelector('.qtext').textContent : '';
+    fb.innerHTML = +ta.dataset.min >= 35 ? checkMail(ta.value) : checkForm(ta.value, q); track('learn_write_check'); return; }
   if(b.hasAttribute('data-show')){ const box = b.closest('.qa, .trainbox, .story').querySelector('.ans'); box.hidden = !box.hidden; b.textContent = box.hidden ? t('showA') : t('hideA'); return; }
   if(b.hasAttribute('data-sr')){ srToggle(b, b.closest('.qa, .trainbox, .story').querySelector('.srout'), b.dataset.model, b.dataset.q, b.dataset.kind); return; }
   if(b.dataset.done){ const k = b.dataset.done; if(DONE[k]) delete DONE[k]; else DONE[k] = 1; saveDone(); route(); return; }

@@ -372,6 +372,7 @@ body.hide-q .qtext{visibility:hidden}
 .m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
 .m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
 .m-learn{--m:var(--c-listen);--m-soft:var(--c-listen-soft)}
+.m-learnw{--m:var(--c-write);--m-soft:var(--c-write-soft)}
 .mode:hover{border-color:var(--m)}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
@@ -592,6 +593,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <div class="path p-learn"><div class="path-h"><span class="pn">1</span><div><b>Вчитися</b><span class="small muted">Пояснення, шаблони й приклади з озвученням</span></div></div>
           <div class="modes">
           <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Вчимо Mluvení</b> <span class="rec-tag">нове</span><br><span class="small muted">Не тест, а уроки до усної частини: пояснення, шаблони, відео й сотні прикладів з озвученням для кожної úlohy.</span><button type="button" class="btn primary sm mstart" data-start="1">Відкрити уроки →</button></span></label>
+          <label class="mode m-learnw"><input type="radio" name="mode" value="learnw" id="modeLearnW"><span class="mi" aria-hidden="true">📝</span><span><b>Вчимо Psaní</b> <span class="rec-tag">нове</span><br><span class="small muted">Формуляр і e-mail: шаблони, 80 завдань зі зразками, лічильник слів і перевірка листа.</span><button type="button" class="btn primary sm mstart" data-start="1">Відкрити уроки →</button></span></label>
           <label class="mode m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Поради до іспиту</b><br><span class="small muted">Що робити до, під час і після іспиту: запис, стратегія для кожної частини, фрази-рятівники для Mluvení. Коротко, з офіційних джерел і досвіду кандидатів.</span><button type="button" class="btn primary sm mstart" data-start="1">Відкрити поради →</button></span></label>
           </div></div>
           <div class="path p-train"><div class="path-h"><span class="pn">2</span><div><b>Тренуватися</b><span class="small muted">Без поспіху, з підказками, поясненнями й зразками</span></div></div>
@@ -619,6 +621,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>Детальний результат.</b> Склали чи ні, найслабша частина, конкретні поради, історія спроб і ваш рекорд.</li>
           <li><b>Новий вигляд.</b> Свій колір для кожної частини, світла й темна тема, зручніше з телефона.</li>
           <li><b>Вчимо Mluvení.</b> Новий розділ з уроками: пояснення, шаблони, відео й 400 питань з відповідями та озвученням.</li>
+          <li><b>Вчимо Psaní.</b> Уроки до формуляра й e-mailu: шаблони, 80 завдань зі зразками, лічильник слів і перевірка листа.</li>
           <li><b>Mluvení як на новому іспиті.</b> Нові розповіді за картинками (поліція, ДТП, швидка, аварія в квартирі), 1 хвилина на розповідь, перевірка «ти/Ви» і часів, порада, як виправляти помилки.</li>
         </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Відгуки й побажання</summary><div class="don-body">
@@ -1556,7 +1559,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Відкрити поради' : lrn ? 'Відкрити уроки →' : 'Почати новий іспит'; }
+function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked || $('#modeLearnW').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Відкрити поради' : lrn ? 'Відкрити уроки →' : 'Почати новий іспит'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1571,7 +1574,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Новий іс
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked){ track('learn_open_card'); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk'); return; } return $('#modeTips').checked ? showTips() : startExam(); }
+  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Скопійовано ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();

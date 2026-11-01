@@ -372,6 +372,7 @@ body.hide-q .qtext{visibility:hidden}
 .m-trainS{--m:var(--c-speak);--m-soft:var(--c-speak-soft)}
 .m-tips{--m:var(--c-tips);--m-soft:var(--c-tips-soft)}
 .m-learn{--m:var(--c-listen);--m-soft:var(--c-listen-soft)}
+.m-learnw{--m:var(--c-write);--m-soft:var(--c-write-soft)}
 .mode:hover{border-color:var(--m)}
 .mode:has(input:checked){border-color:var(--m);background:var(--m-soft);box-shadow:0 0 0 1px var(--m)}
 .mode input{margin-top:13px;accent-color:var(--m)}
@@ -592,6 +593,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <div class="path p-learn"><div class="path-h"><span class="pn">1</span><div><b>Học</b><span class="small muted">Giải thích, mẫu câu và ví dụ có âm thanh</span></div></div>
           <div class="modes">
           <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Học Mluvení</b> <span class="rec-tag">mới</span><br><span class="small muted">Không phải bài kiểm tra mà là bài học cho phần nói: giải thích, mẫu câu, video và hàng trăm ví dụ có âm thanh cho từng úloha.</span><button type="button" class="btn primary sm mstart" data-start="1">Mở bài học →</button></span></label>
+          <label class="mode m-learnw"><input type="radio" name="mode" value="learnw" id="modeLearnW"><span class="mi" aria-hidden="true">📝</span><span><b>Học Psaní</b> <span class="rec-tag">mới</span><br><span class="small muted">Mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail.</span><button type="button" class="btn primary sm mstart" data-start="1">Mở bài học →</button></span></label>
           <label class="mode m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Mẹo đi thi</b><br><span class="small muted">Cần làm gì trước, trong và sau kỳ thi: đăng ký, chiến thuật cho từng phần, câu cứu nguy cho Mluvení. Ngắn gọn, từ nguồn chính thức và kinh nghiệm của thí sinh.</span><button type="button" class="btn primary sm mstart" data-start="1">Mở mẹo thi →</button></span></label>
           </div></div>
           <div class="path p-train"><div class="path-h"><span class="pn">2</span><div><b>Luyện tập</b><span class="small muted">Không vội, có gợi ý, giải thích và bài mẫu</span></div></div>
@@ -619,6 +621,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>Kết quả chi tiết.</b> Đỗ hay chưa, phần yếu nhất, lời khuyên cụ thể, lịch sử các lần thi và kỷ lục của bạn.</li>
           <li><b>Giao diện mới.</b> Mỗi phần một màu, giao diện sáng và tối, dùng trên điện thoại tiện hơn.</li>
           <li><b>Học Mluvení.</b> Mục mới với các bài học: giải thích, mẫu câu, video và 400 câu hỏi kèm câu trả lời và âm thanh.</li>
+          <li><b>Học Psaní.</b> Bài học cho mẫu đơn và e-mail: mẫu câu, 80 bài có bài mẫu, bộ đếm từ và kiểm tra e-mail.</li>
           <li><b>Mluvení giống kỳ thi mới.</b> Bài kể chuyện theo tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho phần kể, kiểm tra cách xưng hô «ty/Vy» và thì, mẹo sửa lỗi.</li>
         </ul></details>
         <details class="news" id="feedback" hidden><summary>💬 Góp ý và đề xuất</summary><div class="don-body">
@@ -1556,7 +1559,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : lrn ? 'Mở bài học →' : 'Bắt đầu bài thi mới'; }
+function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked || $('#modeLearnW').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Mở mẹo thi' : lrn ? 'Mở bài học →' : 'Bắt đầu bài thi mới'; }
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1571,7 +1574,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'Bài thi mới'
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked){ track('learn_open_card'); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk'); return; } return $('#modeTips').checked ? showTips() : startExam(); }
+  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Đã sao chép ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();
