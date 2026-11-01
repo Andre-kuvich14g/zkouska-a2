@@ -134,6 +134,10 @@ mark{background:var(--us);color:var(--u);font-weight:700;border-radius:3px;paddi
 .ans.model{display:grid;gap:8px;background:var(--soft)}
 .tmr{font-family:var(--f-mono);align-self:center;padding:4px 8px;border:1px dashed var(--rule);border-radius:6px}
 .tmr.over{color:var(--mark);border-color:var(--mark)}
+.dl{display:flex;gap:8px;align-items:flex-start;padding:6px 8px;border-radius:var(--r)}
+.dl.ex{background:var(--soft)} .dl.me{background:var(--us)}
+.dl .who{flex:0 0 auto;font-size:.75rem;font-weight:700;text-transform:uppercase;color:var(--muted);min-width:5.5em;padding-top:8px}
+.dl span:last-child{padding-top:5px}
 .q-text{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .foot{margin-top:8px;font-size:.8rem;color:var(--muted)}
 </style>
@@ -221,7 +225,7 @@ function srToggle(btn, out, model, q, kind){
       if(SR === st) SR = null; btn.classList.remove('on'); btn.textContent = label;
       if(st.tm){ clearInterval(st.tm); st.tm = null; }
       const said = st.finals.join('. ');
-      out.innerHTML = said ? `<p class="heard"><b>${t('heard')}:</b> ${esc(said)}</p>${kind === 'u3' ? feedback3(said) : feedback(said, model, q)}` : `<p class="note">${t('nothing')}</p>`; };
+      out.innerHTML = said ? `<p class="heard"><b>${t('heard')}:</b> ${esc(said)}</p>${kind === 'u3' ? feedback3(said) : kind === 'u2' ? feedback2(said) : feedback(said, model, q)}` : `<p class="note">${t('nothing')}</p>`; };
     rec.start(); };
   try{ start(); }catch(err){ out.innerHTML = `<p class="note">${t('noSR')}</p>`; return; }
   SR = st; btn.classList.add('on'); btn.textContent = t('stop'); out.innerHTML = `<p class="note">${t('listening')}</p>`; track('learn_speak', {kind: kind || 'u1'});
@@ -251,7 +255,7 @@ function lesson(u){
   ${vidHTML(D.videos[u])}
   ${u === 'u1' ? `<div class="trainbox"><b>🎯 ${t('practice')}</b><p class="small">${t('practiceD')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
   ${u === 'u3' ? `<div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
-  <h3>${u === 'u3' ? t('stories') : t('topics')}</h3><p class="small muted">${u === 'u3' ? t('storiesd') : t('topicsd')}</p>
+  <h3>${u === 'u3' ? t('stories') : u === 'u2' ? t('cards') : t('topics')}</h3><p class="small muted">${u === 'u3' ? t('storiesd') : u === 'u2' ? t('cardsd') : t('topicsd')}</p>
   <div class="tgrid">${items.map((it, i) => `<a class="tbtn ${DONE[u + '-' + i] ? 'done' : ''}" href="#${u}-${i}"><span>${esc(it.cz)}<span class="tr">${esc(it.t[LI[lang]] || it.t[0])}</span></span>${DONE[u + '-' + i] ? '<span class="ck">✓</span>' : ''}</a>`).join('')}</div></section>`; }
 function qaHTML(q, a, n){
   return `<div class="qa"><div class="qrow"><span class="num">${n}.</span><button class="btn sm" type="button" data-say="${esc(q)}" aria-label="▶">▶</button><span class="qtext">${esc(q)}</span></div>
@@ -283,6 +287,22 @@ function story(u, i){
   <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
 function train3(u){ const i = Math.floor(Math.random() * D[u].length), it = D[u][i]; track('learn_train', {u});
   return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toLesson')}</a><div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p></div><h2>${esc(it.cz)}</h2>${storyHTML(it, true)}<a class="btn primary" href="#${u}-train" data-retrain>${t('another')}</a></section>`; }
+function feedback2(said){
+  const W = srNorm(said).split(' ').filter(Boolean), T = W.join(' ');
+  const qw = (T.match(/\b(kolik|kdy|kde|jak|muzu|mohu|muzete|mate|musim|je mozne|proc|ktery|ktera|ktere|od kolika|je tam|jsou tam|potrebuju)\b/g) || []).length;
+  const ty = /\b(mas|muzes|chces|jsi|vis|budes|ahoj)\b/.test(T);
+  return `<ul class="fb"><li class="${qw ? 'ok' : 'no'}">${qw ? t('fb2q') : t('fb2noq')}</li><li class="${ty ? 'no' : 'ok'}">${ty ? t('fb2ty') : t('fb2vy')}</li></ul>`; }
+function card(u, i){
+  const it = (D[u] || [])[i]; if(!it) return lesson(u); const k = u + '-' + i;
+  return `<section class="sheet u ${u}"><a href="#${u}" class="small">${t('toList')}</a>
+  <div><span class="small muted">${t(u)} · ${t('card')} ${i + 1} / ${D[u].length}</span><h2>${esc(it.situation)}</h2><p>${esc(it.goal)} <button class="btn sm" type="button" data-say="${esc(it.situation + ' ' + it.goal)}">▶</button></p></div>
+  <div class="story"><b>${t('card2a')}</b>
+  ${it.pairs.map((p, n) => `<div class="qa"><div class="qrow"><span class="num">${n + 1}.</span><span class="qtext">${esc(p[0])}</span></div>
+    <div class="acts"><button class="btn sm" type="button" data-sr data-kind="u2" data-model="${esc(p[1])}">${t('say2')}</button><button class="btn sm" type="button" data-show>${t('showA')}</button></div>
+    <div class="ans" hidden><button class="btn sm" type="button" data-say="${esc(p[1])}">▶</button><button class="btn sm" type="button" data-say="${esc(p[1])}" data-slow="1">${t('slow')}</button><p>${esc(p[1])}</p></div><div class="srout"></div></div>`).join('')}</div>
+  <details class="sec"><summary>💬 ${t('dialog')}</summary><div class="body"><p class="note">${t('dialogD')}</p>
+  ${it.dialog.map(x => `<div class="dl ${x[0] === 'T' ? 'ex' : 'me'}"><span class="who">${x[0] === 'T' ? t('examiner') : t('you')}</span><button class="btn sm" type="button" data-say="${esc(x[1])}">▶</button><span>${esc(x[1])}</span></div>`).join('')}</div></details>
+  <div class="acts"><button class="btn ${DONE[k] ? '' : 'primary'}" type="button" data-done="${k}">${DONE[k] ? t('unmarkL') : t('markL')}</button>${i + 1 < D[u].length ? `<a class="btn" href="#${u}-${i + 1}">${esc(D[u][i + 1].cz)} →</a>` : ''}</div></section>`; }
 let TR = null;
 function train(u){
   const items = D[u]; const pick = []; const idx = items.map((_, i) => i).sort(() => Math.random() - 0.5).slice(0, 2);
@@ -306,7 +326,7 @@ function route(){
   let m;
   if(!h) html = home();
   else if((m = h.match(/^(u[1-4])-train$/)) && ready(m[1])){ if(m[1] === 'u3') html = train3(m[1]); else { html = train(m[1]); setTimeout(() => { const b = $('.trainbox [data-say]'); if(b) speak(b.dataset.say); }, 300); } }
-  else if((m = h.match(/^(u[1-4])-(\d+)$/)) && ready(m[1])){ html = m[1] === 'u3' ? story(m[1], +m[2]) : topic(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
+  else if((m = h.match(/^(u[1-4])-(\d+)$/)) && ready(m[1])){ html = m[1] === 'u3' ? story(m[1], +m[2]) : m[1] === 'u2' ? card(m[1], +m[2]) : topic(m[1], +m[2]); track('learn_topic', {u: m[1], i: +m[2]}); }
   else if((m = h.match(/^(u[1-4])$/)) && ready(m[1])){ html = lesson(m[1]); track('learn_lesson', {u: m[1]}); }
   else html = home();
   $('#app').innerHTML = html; window.scrollTo({top: 0});

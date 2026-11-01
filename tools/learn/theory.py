@@ -86,3 +86,42 @@ THEORY['u3']['uk'] = {
 <li>Тренуйтеся з таймером на 1 хвилину: спочатку з текстом, потім лише з картинками.</li>
 </ul>''',
 }
+
+THEORY['u2']['uk'] = {
+'how': '''
+<p>Ви отримуєте <b>2 картки</b> з ситуацією, наприклад <span class="cz">Jste na recepci hotelu.</span> На картці <b>3 короткі підказки</b> (<span class="cz">Volný pokoj?</span> · <span class="cz">Kč za noc?</span> · <span class="cz">Hodina snídaně?</span>) і четвертий пункт <span class="cz">…? (vaše otázka)</span>, де питання треба придумати самому. Разом 8 питань, <b>12 балів</b>.</p>
+<ul>
+<li><b>Питаєте ви</b>, екзаменатор відповідає, як працівник готелю, пошти чи магазину.</li>
+<li>Оцінюють, чи з підказки вийшло <b>повне правильне питання</b>, чи ви говорите ввічливо на <b>«Ви»</b> і чи четверте питання підходить до ситуації.</li>
+<li>Добрий порядок: привітання і мета → 4 питання → подяка й прощання.</li>
+</ul>''',
+'grammar': '''
+<h4>З підказки робимо питання</h4>
+<div class="tblw"><table class="tbl">
+<tr><th>Підказка</th><th>Питання</th></tr>
+<tr><td><span class="cz">Volný pokoj?</span></td><td><span class="cz">Máte volný pokoj?</span></td></tr>
+<tr><td><span class="cz">Kč za noc?</span> / <span class="cz">Cena?</span></td><td><span class="cz">Kolik stojí jedna noc?</span> · <span class="cz">Kolik to stojí?</span></td></tr>
+<tr><td><span class="cz">Hodina snídaně?</span></td><td><span class="cz">V kolik hodin je snídaně?</span></td></tr>
+<tr><td><span class="cz">Otevírací doba?</span></td><td><span class="cz">Od kolika do kolika máte otevřeno?</span></td></tr>
+<tr><td><span class="cz">Platba kartou?</span></td><td><span class="cz">Můžu platit kartou?</span></td></tr>
+<tr><td><span class="cz">Doba opravy?</span></td><td><span class="cz">Jak dlouho bude oprava trvat?</span></td></tr>
+<tr><td><span class="cz">Parkování?</span></td><td><span class="cz">Je u vás parkoviště?</span> · <span class="cz">Kde můžu parkovat?</span></td></tr>
+<tr><td><span class="cz">Sleva?</span></td><td><span class="cz">Máte nějakou slevu?</span></td></tr>
+</table></div>
+<h4>Питальні слова</h4>
+<p><span class="cz">Kolik?</span> скільки · <span class="cz">Kdy? V kolik hodin?</span> коли · <span class="cz">Kde?</span> де · <span class="cz">Jak dlouho?</span> як довго · <span class="cz">Jaký? Která?</span> який · <span class="cz">Proč?</span> чому · <span class="cz">Od kolika do kolika?</span> з якої до якої години</p>
+<h4>Питання «так / ні»: дієслово на початку</h4>
+<p><span class="cz">Máte…?</span> (у вас є) · <span class="cz">Můžu…? / Můžete…?</span> (можна / можете) · <span class="cz">Musím…?</span> (мушу) · <span class="cz">Je možné…?</span> (чи можна) · <span class="cz">Je tam…?</span> (чи там є)</p>
+<h4>Ввічливо на «Ви»</h4>
+<p>Правильно: <span class="cz">máte, můžete, víte, potřebujete</span>. Неправильно в цьому завданні: <span class="cz">máš, můžeš, víš</span>. Початок: <span class="cz">Dobrý den, chtěl/a bych…</span> або <span class="cz">Prosím vás, …</span>. Кінець: <span class="cz">Děkuju, na shledanou.</span></p>
+<h4>Четверте питання: універсальні варіанти</h4>
+<p><span class="cz">Můžu platit kartou?</span> · <span class="cz">Musím se objednat předem?</span> · <span class="cz">Je tam parkoviště?</span> · <span class="cz">Máte slevu pro děti?</span> · <span class="cz">Kde to najdu?</span> · <span class="cz">Máte otevřeno i v sobotu?</span></p>''',
+'tips': '''
+<ul>
+<li><b>Не читайте підказку вголос</b> («Cena?»): з неї треба зробити речення-питання.</li>
+<li><b>Слухайте відповідь екзаменатора</b> і не питайте того самого двічі.</li>
+<li>Четверте питання має <b>стосуватися ситуації</b>: у готелі про сніданок чи паркування, а не про погоду.</li>
+<li>Якщо відповідь незрозуміла: <span class="cz">Promiňte, můžete to zopakovat?</span></li>
+<li>Наприкінці подякуйте: <span class="cz">Děkuju za informace. Na shledanou.</span></li>
+</ul>''',
+}
