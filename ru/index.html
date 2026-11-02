@@ -24,6 +24,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://andre-kuvich14g.github.io/zkouska-a2/og-image-ru.jpg">
 <meta name="robots" content="index, follow">
+<link rel="manifest" href="/zkouska-a2/ru/manifest.webmanifest">
+<meta name="theme-color" content="#1f4e9c">
+<link rel="icon" type="image/png" sizes="32x32" href="/zkouska-a2/img/app/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/zkouska-a2/img/app/icon-192.png">
+<link rel="apple-touch-icon" href="/zkouska-a2/img/app/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Zkouška A2">
 <!-- Google tag (gtag.js) with Consent Mode: analytics only after consent -->
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -424,6 +432,18 @@ body.hide-q .qtext{visibility:hidden}
 .news ul{margin:10px 0 14px;padding-left:20px;display:grid;gap:7px;line-height:1.5}
 .news .nh{margin:12px 0 0;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .news .nh-hot{color:var(--c-speak, var(--accent))}
+.appbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:14px}
+.appbar .app-ico{width:40px;height:40px;border-radius:10px;flex:none}
+.appbar .app-t{display:grid;min-width:0;line-height:1.3;flex:1 1 180px}
+.appbar .app-t b{font-size:.95rem}
+.appbar .app-t span{font-size:.82rem;color:var(--muted)}
+.appbar .btn{margin-left:auto}
+@media (max-width:520px){.appbar .btn{margin-left:0;width:100%}}
+.app-steps{display:grid;gap:10px;margin:6px 0}
+.app-steps h4{margin:6px 0 2px;font-size:.95rem}
+.app-steps ol{margin:0;padding-left:1.3em}
+.app-steps li{margin:2px 0}
+body.standalone .appbar{display:none}
 .don-body{display:grid;gap:12px;padding:12px 0 14px}
 .don-grid{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
 .don-qr{width:150px;flex:0 0 auto;background:#fff;border-radius:8px;padding:4px;border:1px solid var(--rule)}
@@ -576,6 +596,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <p class="lead">Бесплатная платформа для подготовки: учитесь, тренируйтесь и сдайте пробный экзамен в новом формате 2026.</p>
         <ol class="route"><li><b>1</b> Учиться</li><li><b>2</b> Тренироваться</li><li><b>3</b> Проверить себя</li></ol>
         <div class="badges"><span>✓ Бесплатно, без регистрации</span><span>✓ Новый формат 2026</span><span>✓ 20 вариантов экзамена</span><span>✓ 400+ примеров с озвучкой</span></div>
+        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Приложение на телефон</b><span>Значок на экране, открывается одним касанием. Бесплатно.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Установить приложение</button></div>
         <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
       <details class="news struct-d"><summary>📋 Как выглядит экзамен: 4 части · 110 баллов · сдать 42/70 и 24/40</summary><div class="struct">
@@ -616,8 +637,9 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         <div><button class="btn primary" id="startBtn" type="button">Начать новый экзамен</button></div>
         <div id="history"></div>
         <div class="more">
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-01">01.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-02">02.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Новое в эти выходные</p><ul>
+          <li><b>📲 Приложение на телефон.</b> Установите Zkouška A2 как приложение: значок на главном экране, открывается на весь экран, не нужно искать ссылку. Кнопка «Установить приложение» — вверху страницы.</li>
           <li><b>📝 Учим Psaní.</b> Письмо — самая слабая часть экзамена для большинства кандидатов. Теперь к ней есть уроки: формула ответа, каркас письма, 80 заданий с образцами, счётчик слов, мгновенная проверка письма и тренировка на 25 минут.</li>
           <li><b>🗣 Учим Mluvení.</b> Все 4 úlohy шаг за шагом: 400 вопросов с ответами и озвучкой, 40 историй в прошедшем времени, 40 ситуаций для диалога, видео и тренировка с распознаванием речи.</li>
           <li><b>🧭 Учебная платформа.</b> Не просто тест, а понятный путь: Учиться → Тренироваться → Проверить себя.</li>
@@ -628,6 +650,13 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>20 полных вариантов в формате 2026.</b> Таймер как на экзамене, а в конце честный результат: сдали или нет, самая слабая часть, конкретные советы, история попыток и рекорд.</li>
           <li><b>Для всех и с телефона.</b> Бесплатно и без регистрации, объяснения на 4 языках, светлая и тёмная тема.</li>
           </ul></details>
+        <details class="news" id="appHelp"><summary>📲 Приложение на телефон: как установить</summary><div class="app-steps">
+          <p>Занимает меньше минуты, бесплатно, без Google Play и App Store. Нужен интернет, как и для сайта.</p>
+          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Нажмите кнопку «📲 Установить приложение» вверху страницы.</li><li>Подтвердите «Установить».</li><li>Значок Zkouška A2 появится на главном экране.</li></ol></div>
+          <div><h4>iPhone и iPad (Safari)</h4><ol><li>Нажмите кнопку «Поделиться» ⬆️ внизу экрана.</li><li>Выберите «На экран „Домой“».</li><li>Нажмите «Добавить».</li></ol></div>
+          <div><h4>Компьютер (Chrome, Edge)</h4><ol><li>Нажмите кнопку «📲 Установить приложение» или значок установки в адресной строке.</li></ol></div>
+          <p class="small muted">Открыли сайт из Facebook, Telegram или Viber? Сначала откройте его в Chrome или Safari: во встроенном браузере установить приложение нельзя.</p>
+        </div></details>
         <details class="news" id="feedback" hidden><summary>💬 Отзывы и пожелания</summary><div class="don-body">
           <p>Недавно сдавали экзамен в новом формате? Расскажите, какие темы и ситуации были в Mluvení и Psaní: мы добавим похожие задания, и это поможет другим.</p>
           <p>Или напишите, чего не хватает на сайте, что неудобно или работает не так.</p>
@@ -1605,5 +1634,23 @@ document.addEventListener('click', e => {
 })();
 </script>
 
+<script>
+/* PWA: installable app, online only; offline -> offline.html */
+(function(){
+  var standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  function ev(n, p){ try{ if(typeof gtag === 'function') gtag('event', n, p || {}); }catch(e){} }
+  if('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('/zkouska-a2/sw.js', {scope:'/zkouska-a2/'}).catch(function(){}); });
+  if(standalone){ document.body.classList.add('standalone'); try{ if(!sessionStorage.getItem('a2-app-open')){ sessionStorage.setItem('a2-app-open','1'); ev('app_open', {platform: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'ios' : (/Android/.test(navigator.userAgent) ? 'android' : 'desktop')}); } }catch(e){ ev('app_open'); } return; }
+  var deferred = null, btn = document.getElementById('installBtn'), help = document.getElementById('appHelp');
+  window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferred = e; ev('install_available'); });
+  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('appBar'); if(b) b.hidden = true; });
+  if(!btn) return;
+  btn.addEventListener('click', function(){
+    ev('install_click', {prompt: deferred ? 'yes' : 'no'});
+    if(deferred){ deferred.prompt(); deferred.userChoice.then(function(c){ ev('install_choice', {outcome: c.outcome}); }); deferred = null; return; }
+    if(help){ help.open = true; help.scrollIntoView({behavior:'smooth', block:'start'}); }
+  });
+})();
+</script>
 </body>
 </html>

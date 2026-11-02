@@ -1,0 +1,36 @@
+{
+ "id": "/zkouska-a2/",
+ "name": "Zkouška A2 nanečisto",
+ "short_name": "Zkouška A2",
+ "description": "Тренажер іспиту A2 з чеської для постійного проживання (trvalý pobyt): уроки, тренування, пробний іспит.",
+ "lang": "uk",
+ "start_url": "/zkouska-a2/?utm_source=pwa&utm_medium=app",
+ "scope": "/zkouska-a2/",
+ "display": "standalone",
+ "background_color": "#eef1f6",
+ "theme_color": "#1f4e9c",
+ "orientation": "any",
+ "categories": [
+  "education"
+ ],
+ "icons": [
+  {
+   "src": "/zkouska-a2/img/app/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/zkouska-a2/img/app/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/zkouska-a2/img/app/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
