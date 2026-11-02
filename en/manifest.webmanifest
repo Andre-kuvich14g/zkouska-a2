@@ -1,10 +1,10 @@
 {
- "id": "/zkouska-a2/en/",
+ "id": "/zkouska-a2/",
  "name": "Zkouška A2 nanečisto",
  "short_name": "Zkouška A2",
  "description": "Czech A2 exam trainer for permanent residence (trvalý pobyt): lessons, practice, mock exam.",
  "lang": "en",
- "start_url": "/zkouska-a2/en/?utm_source=pwa&utm_medium=app",
+ "start_url": "/zkouska-a2/?utm_source=pwa&utm_medium=app",
  "scope": "/zkouska-a2/",
  "display": "standalone",
  "background_color": "#eef1f6",

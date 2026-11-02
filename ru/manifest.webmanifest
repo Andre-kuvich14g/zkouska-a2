@@ -1,10 +1,10 @@
 {
- "id": "/zkouska-a2/ru/",
+ "id": "/zkouska-a2/",
  "name": "Zkouška A2 nanečisto",
  "short_name": "Zkouška A2",
  "description": "Тренажёр экзамена A2 по чешскому для ПМЖ (trvalý pobyt): уроки, тренировка, пробный экзамен.",
  "lang": "ru",
- "start_url": "/zkouska-a2/ru/?utm_source=pwa&utm_medium=app",
+ "start_url": "/zkouska-a2/?utm_source=pwa&utm_medium=app",
  "scope": "/zkouska-a2/",
  "display": "standalone",
  "background_color": "#eef1f6",

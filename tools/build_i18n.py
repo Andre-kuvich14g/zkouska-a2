@@ -37,8 +37,7 @@ def build(src, lang):
            (f"url = '{BASE}'", f"url = '{url}'"),
            ('src="img/om/', 'src="../img/om/'), ('`img/om/', '`../img/om/'), ('"img/om/', '"../img/om/'),
            ('href="ochrana-osobnich-udaju.html"', 'href="../ochrana-osobnich-udaju.html"'),
-           ('href="zdroje-obrazku.html"', 'href="../zdroje-obrazku.html"'),
-           ('href="/zkouska-a2/manifest.webmanifest"', f'href="/zkouska-a2/{lang}/manifest.webmanifest"')]
+           ('href="zdroje-obrazku.html"', 'href="../zdroje-obrazku.html"')]
     for a, b in rep: tpl = tpl.replace(a, b)
     d = json.load(open('data-variants.json', encoding='utf-8'))
     for v in d['variants']:

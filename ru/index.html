@@ -24,7 +24,21 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://andre-kuvich14g.github.io/zkouska-a2/og-image-ru.jpg">
 <meta name="robots" content="index, follow">
-<link rel="manifest" href="/zkouska-a2/ru/manifest.webmanifest">
+<link rel="manifest" href="/zkouska-a2/manifest.webmanifest">
+<script>
+/* App launch: open the user's language (explicit choice > last used > phone language) */
+(function(){ try{
+  var cur = document.documentElement.lang, L = ['uk','en','ru','vi'];
+  var app = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  if(app && location.search.indexOf('utm_source=pwa') >= 0){
+    var pref = localStorage.getItem('a2-lang') || localStorage.getItem('a2-last-lang');
+    if(!pref){ var b = ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0,2).toLowerCase(); pref = b === 'ru' ? 'ru' : b === 'vi' ? 'vi' : b === 'en' ? 'en' : 'uk'; }
+    if(L.indexOf(pref) >= 0 && pref !== cur){ location.replace('/zkouska-a2/' + (pref === 'uk' ? '' : pref + '/') + location.search + location.hash); return; }
+  }
+  localStorage.setItem('a2-last-lang', cur);
+}catch(e){} })();
+</script>
+
 <meta name="theme-color" content="#1f4e9c">
 <link rel="icon" type="image/png" sizes="32x32" href="/zkouska-a2/img/app/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/zkouska-a2/img/app/icon-192.png">

@@ -1,10 +1,10 @@
 {
- "id": "/zkouska-a2/vi/",
+ "id": "/zkouska-a2/",
  "name": "Zkouška A2 nanečisto",
  "short_name": "Zkouška A2",
  "description": "Luyện thi tiếng Séc A2 cho thường trú (trvalý pobyt): bài học, luyện tập, thi thử.",
  "lang": "vi",
- "start_url": "/zkouska-a2/vi/?utm_source=pwa&utm_medium=app",
+ "start_url": "/zkouska-a2/?utm_source=pwa&utm_medium=app",
  "scope": "/zkouska-a2/",
  "display": "standalone",
  "background_color": "#eef1f6",
