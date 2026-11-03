@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>xfer</title></head>
+<body style="font:16px sans-serif;padding:20px">Передаю відео…
+<script>
+(async function(){
+  var ok=['https://www.facebook.com','https://web.facebook.com','https://studio.youtube.com','https://www.youtube.com','https://web.telegram.org','https://www.instagram.com'];
+  var f=(new URLSearchParams(location.search)).get('f')||'';
+  if(!/^a2-(uk|ru|en|vi|cs)\.mp4$/.test(f)){document.body.textContent='bad';return;}
+  var b=await (await fetch('/zkouska-a2/video/'+f)).blob();
+  window.addEventListener('message',function(e){ if(ok.indexOf(e.origin)<0||e.data!=='ready') return;
+    e.source.postMessage({name:f,blob:b},e.origin); document.body.textContent='OK '+b.size; setTimeout(function(){window.close()},1500); });
+  ok.forEach(function(o){ try{ window.opener && window.opener.postMessage('xfer-loaded',o); }catch(e){} });
+})();
+</script></body></html>
