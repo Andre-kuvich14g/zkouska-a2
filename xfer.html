@@ -8,6 +8,6 @@
   var b=await (await fetch('/zkouska-a2/video/'+f)).blob();
   window.addEventListener('message',function(e){ if(ok.indexOf(e.origin)<0||e.data!=='ready') return;
     e.source.postMessage({name:f,blob:b},e.origin); document.body.textContent='OK '+b.size; setTimeout(function(){window.close()},1500); });
-  ok.forEach(function(o){ try{ window.opener && window.opener.postMessage('xfer-loaded',o); }catch(e){} });
+  ok.forEach(function(o){ try{ var t=window.opener||(window.parent!==window?window.parent:null); t && t.postMessage('xfer-loaded',o); }catch(e){} });
 })();
 </script></body></html>
