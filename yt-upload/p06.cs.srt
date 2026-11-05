@@ -1,47 +1,47 @@
 1
-00:00:00,200 --> 00:00:05,198
+00:00:00,200 --> 00:00:04,872
 Psaní, úloha dvě. E-mail číslo 6: Hluk v domě.
 
 2
-00:00:05,900 --> 00:00:18,386
+00:00:05,567 --> 00:00:17,019
 Váš soused dělá v noci hluk. Napište e-mail správci domu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
 
 3
-00:00:27,100 --> 00:00:28,568
+00:00:25,733 --> 00:00:27,120
 Dobrý den,
 
 4
-00:00:28,867 --> 00:00:34,003
+00:00:27,433 --> 00:00:32,222
 bydlím v ulici Lobečská 12, ve třetím patře.
 
 5
-00:00:34,300 --> 00:00:38,624
+00:00:32,533 --> 00:00:36,556
 Mám problém se sousedem ve čtvrtém patře.
 
 6
-00:00:38,933 --> 00:00:42,596
+00:00:36,867 --> 00:00:40,343
 Každý večer hraje velmi nahlas hudbu.
 
 7
-00:00:42,900 --> 00:00:46,632
+00:00:40,633 --> 00:00:44,075
 Je to vždy od deseti do dvou hodin v noci.
 
 8
-00:00:46,933 --> 00:00:52,209
+00:00:44,367 --> 00:00:49,364
 Já vstávám ve čtyři ráno do práce a nemůžu spát.
 
 9
-00:00:52,500 --> 00:00:56,313
+00:00:49,667 --> 00:00:53,283
 Prosím, můžete se sousedem mluvit?
 
 10
-00:00:56,600 --> 00:00:57,882
+00:00:53,567 --> 00:00:54,744
 Děkuji.
 
 11
-00:00:58,167 --> 00:01:08,029
+00:00:55,033 --> 00:01:04,199
 Tento e-mail má 53 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
 
 12
-00:01:08,733 --> 00:01:18,932
+00:01:04,900 --> 00:01:14,518
 Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

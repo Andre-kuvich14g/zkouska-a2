@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:09,110
+00:00:00,200 --> 00:00:08,460
 Mluvení, úloha jedna. Téma 2: Rodina. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:09,800 --> 00:00:12,499
+00:00:09,167 --> 00:00:11,726
 Kolik lidí má vaše rodina?
 
 3
-00:00:17,900 --> 00:00:23,199
-Moje rodina má čtyři lidi: manžela, dva syny a mě.
+00:00:17,133 --> 00:00:22,131
+Moje rodina má čtyři lidi: manželku, dva syny a mě.
 
 4
-00:00:24,100 --> 00:00:26,207
+00:00:23,033 --> 00:00:24,989
 Máte sourozence?
 
 5
-00:00:31,600 --> 00:00:37,550
+00:00:30,400 --> 00:00:35,990
 Ano, mám jednoho bratra. Je o tři roky starší a bydlí na Ukrajině.
 
 6
-00:00:38,433 --> 00:00:40,726
+00:00:36,900 --> 00:00:39,065
 Kde bydlí vaši rodiče?
 
 7
-00:00:46,133 --> 00:00:51,189
+00:00:44,467 --> 00:00:49,127
 Moji rodiče bydlí na Ukrajině v malém městě u řeky.
 
 8
-00:00:52,100 --> 00:00:55,925
+00:00:50,033 --> 00:00:53,696
 Co dělá váš manžel nebo vaše manželka?
 
 9
-00:01:01,333 --> 00:01:07,016
+00:00:59,100 --> 00:01:04,376
 Moje manželka pracuje v nemocnici jako zdravotní sestra.
 
 10
-00:01:07,900 --> 00:01:10,750
+00:01:05,267 --> 00:01:07,942
 Kolik let mají vaše děti?
 
 11
-00:01:16,133 --> 00:01:22,257
+00:01:13,333 --> 00:01:19,109
 Syn má devět let a dcera má pět let. Syn chodí do třetí třídy.
 
 12
-00:01:23,167 --> 00:01:25,889
+00:01:20,000 --> 00:01:22,443
 Co rádi děláte jako rodina?
 
 13
-00:01:31,300 --> 00:01:36,971
+00:01:27,833 --> 00:01:33,005
 Jako rodina rádi chodíme na procházky a o víkendu hrajeme hry.
 
 14
-00:01:37,867 --> 00:01:40,693
+00:01:33,900 --> 00:01:36,541
 Jak často voláte rodičům?
 
 15
-00:01:46,100 --> 00:01:51,330
+00:01:41,933 --> 00:01:46,768
 Rodičům volám skoro každý den večer, když jsou doma.
 
 16
-00:01:52,233 --> 00:01:56,244
-Kdy jste naposledy viděl/a rodiče?
+00:01:47,667 --> 00:01:50,679
+Kdy jste naposledy viděl rodiče?
 
 17
-00:02:01,633 --> 00:02:08,407
-Rodiče jsem naposledy viděl/a loni v létě, když přijeli na návštěvu.
+00:01:56,067 --> 00:02:01,726
+Rodiče jsem naposledy viděl loni v létě, když přijeli na návštěvu.
 
 18
-00:02:09,300 --> 00:02:13,496
+00:02:02,633 --> 00:02:06,400
 Jak jste slavili poslední narozeniny v rodině?
 
 19
-00:02:18,900 --> 00:02:25,047
+00:02:11,800 --> 00:02:17,436
 Synovi jsme minulý měsíc udělali oslavu doma s dortem a kamarády.
 
 20
-00:02:25,933 --> 00:02:28,818
+00:02:18,333 --> 00:02:21,113
 Kam pojedete příště s rodinou?
 
 21
-00:02:34,233 --> 00:02:38,755
+00:02:26,500 --> 00:02:30,673
 Příští léto pojedeme s rodinou k moři do Chorvatska.
 
 22
-00:02:39,667 --> 00:02:50,992
+00:02:31,567 --> 00:02:41,940
 Výborně! Procvičte si téma 2 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:09,377
+00:00:00,200 --> 00:00:08,588
 Mluvení, úloha jedna. Téma 6: Práce. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:10,067 --> 00:00:11,825
+00:00:09,300 --> 00:00:10,954
 Kde pracujete?
 
 3
-00:00:17,233 --> 00:00:20,013
+00:00:16,367 --> 00:00:18,984
 Pracuju ve skladu v Kralupech.
 
 4
-00:00:20,900 --> 00:00:23,877
+00:00:19,900 --> 00:00:22,680
 Co děláte v práci každý den?
 
 5
-00:00:29,267 --> 00:00:35,100
+00:00:28,067 --> 00:00:33,563
 Každý den nakládám a vykládám zboží a kontroluju krabice.
 
 6
-00:00:36,000 --> 00:00:39,349
+00:00:34,467 --> 00:00:37,607
 Kdy začínáte a končíte v práci?
 
 7
-00:00:44,733 --> 00:00:49,812
+00:00:43,000 --> 00:00:47,730
 Začínám v šest ráno a končím ve dvě odpoledne.
 
 8
-00:00:50,700 --> 00:00:52,992
+00:00:48,633 --> 00:00:50,752
 Jak jezdíte do práce?
 
 9
-00:00:58,400 --> 00:01:02,794
+00:00:56,167 --> 00:01:00,201
 Do práce jezdím autem, je to asi deset minut.
 
 10
-00:01:03,700 --> 00:01:06,492
+00:01:01,100 --> 00:01:03,706
 Líbí se vám vaše práce?
 
 11
-00:01:11,900 --> 00:01:18,035
+00:01:09,100 --> 00:01:14,632
 Práce se mi líbí, protože mám dobré kolegy, ale je dost těžká.
 
 12
-00:01:18,933 --> 00:01:21,446
+00:01:15,533 --> 00:01:17,837
 Mluvíte v práci česky?
 
 13
-00:01:26,833 --> 00:01:32,377
+00:01:23,233 --> 00:01:28,324
 Ano, s vedoucím mluvím česky, s kolegy někdy ukrajinsky.
 
 14
-00:01:33,267 --> 00:01:37,068
-Jakou práci jste dělal/a dřív?
+00:01:29,233 --> 00:01:32,071
+Jakou práci jste dělal dřív?
 
 15
-00:01:42,467 --> 00:01:47,987
-Dřív jsem pracoval/a jako řidič/ka v taxi.
+00:01:37,467 --> 00:01:41,001
+Dřív jsem pracoval jako řidič v taxi.
 
 16
-00:01:48,900 --> 00:01:52,922
-Jak jste našel/našla tuhle práci?
+00:01:41,900 --> 00:01:44,634
+Jak jste našel tuhle práci?
 
 17
-00:01:58,333 --> 00:02:04,294
-Tuhle práci jsem našel/našla na internetu přes agenturu.
+00:01:50,033 --> 00:01:54,543
+Tuhle práci jsem našel na internetu přes agenturu.
 
 18
-00:02:05,200 --> 00:02:08,828
+00:01:55,433 --> 00:01:58,875
 Kolik dní dovolené budete mít letos?
 
 19
-00:02:14,233 --> 00:02:18,058
+00:02:04,267 --> 00:02:07,674
 Letos budu mít dvacet dní dovolené.
 
 20
-00:02:18,967 --> 00:02:23,918
-Jakou práci byste chtěl/a dělat za pět let?
+00:02:08,567 --> 00:02:12,438
+Jakou práci byste chtěl dělat za pět let?
 
 21
-00:02:29,333 --> 00:02:35,457
-Za pět let bych chtěl/a pracovat v kanceláři jako účetní.
+00:02:17,833 --> 00:02:22,715
+Za pět let bych chtěl pracovat v kanceláři jako účetní.
 
 22
-00:02:36,367 --> 00:02:47,738
+00:02:23,600 --> 00:02:34,275
 Výborně! Procvičte si téma 6 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

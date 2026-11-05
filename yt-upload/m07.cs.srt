@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:10,735
+00:00:00,200 --> 00:00:09,702
 Mluvení, úloha jedna. Téma 7: Škola a vzdělávání. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:11,433 --> 00:00:14,910
-Jakou školu jste studoval/a?
+00:00:10,400 --> 00:00:12,727
+Jakou školu jste studoval?
 
 3
-00:00:20,300 --> 00:00:26,702
-Studoval/a jsem střední školu a potom ekonomii na univerzitě.
+00:00:18,133 --> 00:00:23,340
+Studoval jsem střední školu a potom ekonomii na univerzitě.
 
 4
-00:00:27,600 --> 00:00:30,345
-Co jste studoval/a?
+00:00:24,233 --> 00:00:25,957
+Co jste studoval?
 
 5
-00:00:35,733 --> 00:00:40,429
-Studoval/a jsem ekonomii a účetnictví.
+00:00:31,367 --> 00:00:35,052
+Studoval jsem ekonomii a účetnictví.
 
 6
-00:00:41,333 --> 00:00:46,586
-Jaký předmět jste měl/a ve škole rád/a?
+00:00:35,967 --> 00:00:39,374
+Jaký předmět jste měl ve škole rád?
 
 7
-00:00:52,000 --> 00:00:58,298
-Ve škole jsem měl/a rád/a matematiku a zeměpis.
+00:00:44,767 --> 00:00:48,963
+Ve škole jsem měl rád matematiku a zeměpis.
 
 8
-00:00:59,200 --> 00:01:02,920
-Jak dlouho jste chodil/a do školy?
+00:00:49,867 --> 00:00:52,658
+Jak dlouho jste chodil do školy?
 
 9
-00:01:08,333 --> 00:01:14,701
-Do školy jsem chodil/a jedenáct let a na univerzitu pět let.
+00:00:58,067 --> 00:01:03,180
+Do školy jsem chodil jedenáct let a na univerzitu pět let.
 
 10
-00:01:15,600 --> 00:01:18,136
+00:01:04,067 --> 00:01:06,475
 Chodí vaše děti do školy?
 
 11
-00:01:23,533 --> 00:01:28,670
+00:01:11,867 --> 00:01:16,539
 Ano, syn chodí do základní školy, je ve třetí třídě.
 
 12
-00:01:29,567 --> 00:01:32,707
+00:01:17,433 --> 00:01:20,492
 Jak daleko je škola od vašeho bytu?
 
 13
-00:01:38,100 --> 00:01:42,285
+00:01:25,900 --> 00:01:29,795
 Škola je blízko, asi deset minut pěšky.
 
 14
-00:01:43,200 --> 00:01:45,202
+00:01:30,700 --> 00:01:32,621
 Co se teď učíte?
 
 15
-00:01:50,600 --> 00:01:55,087
+00:01:38,033 --> 00:01:42,172
 Teď se učím česky, chodím na kurz dvakrát týdně.
 
 16
-00:01:56,000 --> 00:01:58,873
+00:01:43,067 --> 00:01:45,731
 Jak se vaše děti učí česky?
 
 17
-00:02:04,267 --> 00:02:09,438
+00:01:51,133 --> 00:01:55,817
 Děti se učí česky ve škole a mluví česky s kamarády.
 
 18
-00:02:10,333 --> 00:02:12,881
+00:01:56,733 --> 00:01:59,211
 Budete ještě něco studovat?
 
 19
-00:02:18,267 --> 00:02:22,893
+00:02:04,600 --> 00:02:08,854
 Ano, příští rok budu studovat kurz účetnictví.
 
 20
-00:02:23,800 --> 00:02:29,494
-Co byste chtěl/a studovat, kdybyste měl/a čas?
+00:02:09,767 --> 00:02:13,603
+Co byste chtěl studovat, kdybyste měl čas?
 
 21
-00:02:34,900 --> 00:02:42,045
-Kdybych měl/a čas, studoval/a bych počítače a programování.
+00:02:19,000 --> 00:02:23,998
+Kdybych měl čas, studoval bych počítače a programování.
 
 22
-00:02:42,933 --> 00:02:54,699
+00:02:24,900 --> 00:02:35,563
 Výborně! Procvičte si téma 7 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

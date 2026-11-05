@@ -1,39 +1,39 @@
 1
-00:00:00,200 --> 00:00:04,803
+00:00:00,200 --> 00:00:04,478
 Psaní, úloha dvě. E-mail číslo 2: Nemoc.
 
 2
-00:00:05,500 --> 00:00:20,575
-Jste nemocný/nemocná a nemůžete přijít do práce. Napište e-mail vedoucímu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+00:00:05,167 --> 00:00:17,815
+Jste nemocný a nemůžete přijít do práce. Napište e-mail vedoucímu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
 
 3
-00:00:29,267 --> 00:00:32,000
+00:00:26,500 --> 00:00:29,106
 Dobrý den, pane Dvořáku,
 
 4
-00:00:32,300 --> 00:00:36,752
+00:00:29,400 --> 00:00:33,376
 omlouvám se, ale dnes nemůžu přijít do práce.
 
 5
-00:00:37,067 --> 00:00:40,880
+00:00:33,667 --> 00:00:37,283
 Mám vysokou horečku a bolí mě v krku.
 
 6
-00:00:41,167 --> 00:00:45,677
+00:00:37,567 --> 00:00:41,670
 Lékař mi řekl, že musím zůstat týden doma.
 
 7
-00:00:45,967 --> 00:00:52,903
+00:00:41,967 --> 00:00:48,729
 Vrátím se asi v pondělí 10. 2. Moji práci může dělat kolega Petr.
 
 8
-00:00:53,200 --> 00:01:00,287
+00:00:49,033 --> 00:00:55,691
 Můžete mi zavolat na telefon 605 123 456.
 
 9
-00:01:00,600 --> 00:01:10,567
+00:00:56,000 --> 00:01:05,049
 Tento e-mail má 53 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
 
 10
-00:01:11,267 --> 00:01:21,547
+00:01:05,733 --> 00:01:15,085
 Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
