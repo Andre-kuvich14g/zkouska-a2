@@ -1,0 +1,47 @@
+1
+00:00:00,200 --> 00:00:05,662
+Psaní, úloha dvě. E-mail číslo 3: Výlet o víkendu.
+
+2
+00:00:06,367 --> 00:00:18,168
+Chcete pozvat kamaráda na výlet. Napište mu e-mail. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+3
+00:00:26,867 --> 00:00:28,462
+Ahoj Martine,
+
+4
+00:00:28,767 --> 00:00:31,431
+chceš jet s námi na výlet?
+
+5
+00:00:31,733 --> 00:00:34,293
+Pojedeme na hrad Karlštejn.
+
+6
+00:00:34,600 --> 00:00:37,868
+Pojedeme v sobotu ráno v osm hodin.
+
+7
+00:00:38,167 --> 00:00:42,549
+Pojedeme vlakem z Prahy, je to jen 40 minut.
+
+8
+00:00:42,833 --> 00:00:48,539
+Na hradě budeme mít prohlídku a potom půjdeme na procházku do lesa.
+
+9
+00:00:48,833 --> 00:00:52,972
+Vezmi si s sebou pohodlné boty a něco k jídlu.
+
+10
+00:00:53,267 --> 00:00:56,093
+Napiš mi, jestli pojedeš.
+
+11
+00:00:56,400 --> 00:01:06,239
+Tento e-mail má 56 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+12
+00:01:06,933 --> 00:01:17,039
+Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
