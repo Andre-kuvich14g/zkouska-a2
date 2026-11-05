@@ -1419,7 +1419,8 @@ function pickVoice(g){
   return f || any;
 }
 function voiceDistinct(){ return pickVoice('f') !== pickVoice('m'); }
-function cleanSpeech(t){ return String(t).replace(/(\p{L}+)\/(\p{L}+)/gu, '$1').replace(/\s[–-]\s/g, '. ').replace(/[🌀-🫶☀-➿]/gu, ''); }
+function genderize(t){ let g = 'm'; try{ g = localStorage.getItem('a2-gender') === 'f' ? 'f' : 'm'; }catch(e){} return String(t).replace(/(\p{L}+)\/(\p{L}+)/gu, (m, a, b) => { const lb = b.toLowerCase(); let f; if(lb === 'a' || lb === 'ka') f = a + b; else if(lb === 'á') f = /[ýy]$/i.test(a) ? a.slice(0, -1) + b : a + b; else f = b; return g === 'f' ? f : a; }); }
+function cleanSpeech(t){ return genderize(t).replace(/\s[–-]\s/g, '. ').replace(/[🌀-🫶☀-➿]/gu, ''); }
 function parseScript(s){
   return String(s).split('\n').map(line => {
     const m = line.match(/^\[(.+?)\]:\s*(.*)$/);

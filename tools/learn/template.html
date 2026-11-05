@@ -110,6 +110,8 @@ button{font:inherit;color:inherit}
 .tbtn.done{border-color:var(--ok)} .tbtn .ck{color:var(--ok);font-weight:700}
 .tbtn .tn{flex:none;min-width:1.9em;height:1.9em;padding:0 4px;border-radius:999px;background:var(--us);color:var(--u);font-weight:700;font-size:.85rem;display:inline-grid;place-items:center;font-variant-numeric:tabular-nums}
 .tbtn .tl{flex:1;min-width:0}
+.gsel{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0}
+.gsel [aria-pressed="true"]{background:var(--u1,#1f5fbf);color:#fff;border-color:transparent}
 .qa{display:grid;gap:8px;padding:12px 0;border-top:1px solid var(--rule)}
 .qa:first-of-type{border-top:0}
 .qrow{display:flex;gap:8px;align-items:flex-start}
@@ -204,8 +206,15 @@ const saveDone = () => { try{ localStorage.setItem('a2-learn-done', JSON.stringi
 const hasTTS = 'speechSynthesis' in window; let VOICE = null;
 function pickVoice(){ if(!hasTTS) return; const v = speechSynthesis.getVoices().filter(x => /^cs/i.test(x.lang)); VOICE = v.find(x => /google|natural|online/i.test(x.name)) || v[0] || null; }
 if(hasTTS){ pickVoice(); try{ speechSynthesis.addEventListener('voiceschanged', pickVoice); }catch(e){} }
+let GENDER = 'm'; try{ GENDER = localStorage.getItem('a2-gender') === 'f' ? 'f' : 'm'; }catch(e){}
+function genderize(t, g){ g = g || GENDER; return String(t).replace(/(\p{L}+)\/(\p{L}+)/gu, (m, a, b) => { const lb = b.toLowerCase(); let f;
+  if(lb === 'a' || lb === 'ka') f = a + b; else if(lb === 'á') f = /[ýy]$/i.test(a) ? a.slice(0, -1) + b : a + b; else if(a.slice(0, 3).toLowerCase() === lb.slice(0, 3)) f = b; else return m;
+  return g === 'f' ? f : a; }); }
+function setGender(g){ GENDER = g === 'f' ? 'f' : 'm'; try{ localStorage.setItem('a2-gender', GENDER); }catch(e){} document.querySelectorAll('[data-gender]').forEach(b => b.setAttribute('aria-pressed', b.dataset.gender === GENDER)); track('learn_gender', {g: GENDER}); }
+document.addEventListener('click', e => { const b = e.target.closest('[data-gender]'); if(b) setGender(b.dataset.gender); });
+function genderHTML(){ return `<div class="gsel"><span class="small">${t('genderL')}</span><button class="btn sm" type="button" data-gender="m" aria-pressed="${GENDER === 'm'}">♂ ${t('gM')}</button><button class="btn sm" type="button" data-gender="f" aria-pressed="${GENDER === 'f'}">♀ ${t('gF')}</button></div>`; }
 function speak(text, slow){ if(!hasTTS) return; try{ speechSynthesis.cancel(); }catch(e){}
-  const u = new SpeechSynthesisUtterance(text); u.lang = 'cs-CZ'; if(VOICE) u.voice = VOICE; u.rate = slow ? 0.7 : 0.92;
+  const u = new SpeechSynthesisUtterance(genderize(text)); u.lang = 'cs-CZ'; if(VOICE) u.voice = VOICE; u.rate = slow ? 0.7 : 0.92;
   setTimeout(() => { try{ speechSynthesis.speak(u); }catch(e){} }, 60); }
 
 /* speech recognition */
@@ -268,7 +277,7 @@ function home(){
   return `<section class="sheet"><div class="hero"><h1>📚 ${t('title')}</h1><p>${t('lead')}</p></div>
   <h2 class="grp" id="g-mluveni">🗣 ${t('gM')}</h2>${ucards(U)}
   <h2 class="grp" id="g-psani">✍️ ${t('gP')}</h2>${ucards(W)}
-  <p class="note">${t('voiceNote')}</p>${vidHTML(D.videos.home)}</section>`; }
+  <p class="note">${t('voiceNote')}</p>${genderHTML()}${vidHTML(D.videos.home)}</section>`; }
 function lesson(u){
   const items = D[u] || [];
   return `<section class="sheet u ${u}"><a href="#" class="small">${t('home')}</a><h2>${t(u)}</h2>
