@@ -108,6 +108,8 @@ button{font:inherit;color:inherit}
 .tbtn:hover{border-color:var(--u);background:var(--us)}
 .tbtn .tr{font-size:.8rem;color:var(--muted);display:block}
 .tbtn.done{border-color:var(--ok)} .tbtn .ck{color:var(--ok);font-weight:700}
+.tbtn .tn{flex:none;min-width:1.9em;height:1.9em;padding:0 4px;border-radius:999px;background:var(--us);color:var(--u);font-weight:700;font-size:.85rem;display:inline-grid;place-items:center;font-variant-numeric:tabular-nums}
+.tbtn .tl{flex:1;min-width:0}
 .qa{display:grid;gap:8px;padding:12px 0;border-top:1px solid var(--rule)}
 .qa:first-of-type{border-top:0}
 .qrow{display:flex;gap:8px;align-items:flex-start}
@@ -278,7 +280,7 @@ function lesson(u){
   ${u[0] === 'w' ? `<div class="trainbox"><b>🎯 ${t('practiceW')}</b><p class="small">${t('practiceWD')}</p><a class="btn primary" href="#w-train">${t('start')}</a></div>` : ''}
   ${u === 'u3' ? `<div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
   <h3>${u === 'w1' ? t('forms') : u === 'w2' ? t('mails') : u === 'u3' ? t('stories') : u === 'u2' ? t('cards') : u === 'u4' ? t('situations') : t('topics')}</h3><p class="small muted">${u === 'w1' ? t('formsd') : u === 'w2' ? t('mailsd') : u === 'u3' ? t('storiesd') : u === 'u2' ? t('cardsd') : u === 'u4' ? t('situationsd') : t('topicsd')}</p>
-  <div class="tgrid">${items.map((it, i) => `<a class="tbtn ${DONE[u + '-' + i] ? 'done' : ''}" href="#${u}-${i}"><span>${esc(it.cz)}<span class="tr">${esc(it.t[LI[lang]] || it.t[0])}</span></span>${DONE[u + '-' + i] ? '<span class="ck">✓</span>' : ''}</a>`).join('')}</div></section>`; }
+  <div class="tgrid">${items.map((it, i) => `<a class="tbtn ${DONE[u + '-' + i] ? 'done' : ''}" href="#${u}-${i}"><span class="tn" aria-label="${t('topic')} ${i + 1}">${i + 1}</span><span class="tl">${esc(it.cz)}<span class="tr">${esc(it.t[LI[lang]] || it.t[0])}</span></span>${DONE[u + '-' + i] ? '<span class="ck">✓</span>' : ''}</a>`).join('')}</div></section>`; }
 function qaHTML(q, a, n){
   return `<div class="qa"><div class="qrow"><span class="num">${n}.</span><button class="btn sm" type="button" data-say="${esc(q)}" aria-label="▶">▶</button><span class="qtext">${esc(q)}</span></div>
   <div class="acts"><button class="btn sm" type="button" data-show>${t('showA')}</button><button class="btn sm" type="button" data-sr data-model="${esc(a)}" data-q="${esc(q)}">${t('say')}</button></div>
