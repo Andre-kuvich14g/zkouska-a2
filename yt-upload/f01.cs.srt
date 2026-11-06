@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,976
+Psaní, úloha jedna. Formulář číslo 1. Chcete chodit do fitness centra. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,667 --> 00:00:16,923
+Jaký sport děláte a jak často?
+
+3
+00:00:27,333 --> 00:00:32,772
+Chodím běhat do parku třikrát týdně a v zimě někdy plavu v bazénu.
+
+4
+00:00:33,667 --> 00:00:37,364
+Proč chcete chodit do našeho fitness centra?
+
+5
+00:00:47,767 --> 00:00:54,169
+Chci chodit do vašeho centra, protože je blízko mého domu a máte moderní stroje.
+
+6
+00:00:55,067 --> 00:00:57,580
+Kdy máte čas na cvičení?
+
+7
+00:01:07,967 --> 00:01:13,997
+Na cvičení mám čas hlavně večer po práci, od šesti hodin, a o víkendu.
+
+8
+00:01:14,900 --> 00:01:24,634
+Vyplňte formulář 1 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
