@@ -539,7 +539,24 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .home .skyline{height:44px}
 .home .badges span{font-size:.78rem!important}
 @media (max-width:520px){.home .hero.hero-start h1{font-size:1.55rem}.home .lead{font-size:1rem}}
-.hero-pills{display:flex;flex-wrap:wrap;gap:8px}
+.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.qb{appearance:none;cursor:pointer;font-family:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:3px;padding:10px 4px 9px;border-radius:16px;border:2px solid var(--qd);background:var(--qbg);color:var(--qink);box-shadow:0 5px 0 var(--qd);min-height:96px}
+.qb:hover{filter:brightness(1.05)}
+.qb:active{transform:translateY(3px);box-shadow:0 2px 0 var(--qd)}
+.qb:focus-visible{outline:3px solid var(--qd);outline-offset:3px}
+.qb .qi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:1.15rem;background:rgba(255,255,255,.9);color:#1b1b1b;margin-bottom:2px}
+.qb b{font-size:clamp(.82rem,3.6vw,.95rem);line-height:1.15;max-width:100%}
+.home .quick{margin:0 0 14px}
+.qb span:not(.qi){font-size:.74rem;line-height:1.2;opacity:.9}
+.qb-coffee{--qbg:#ffcf3f;--qd:#b98a00;--qink:#3b2600}
+.qb-yt{--qbg:#e62117;--qd:#9e130c;--qink:#fff}
+.qb-yt .qi{color:#e62117;font-size:.95rem}
+.qb-app{--qbg:#1f4e9c;--qd:#12306a;--qink:#fff}
+body.standalone .qb-app{display:none}
+body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+.quick:has(.qb-app[hidden]){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:760px){.quick{max-width:560px}}
+
 .pill{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid;line-height:1.2}
 .pill-coffee{background:var(--cof-bg);color:var(--cof-ink);border-color:var(--cof-bd);box-shadow:0 3px 0 var(--cof-bd)}
 .pill-coffee:active{transform:translateY(2px);box-shadow:0 1px 0 var(--cof-bd)}
@@ -671,11 +688,12 @@ details.src-list{font-size:.85rem;color:var(--muted)}
   <!-- START -->
   <section id="startView">
     <div class="sheet home">
+      <nav class="quick" aria-label="Быстрые ссылки">
+          <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Угостить кофе</b><span>поддержать автора</span></a>
+          <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>каждый день новое видео</span></a>
+          <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>Приложение</b><span>на телефон, бесплатно</span></button>
+        </nav>
       <div class="hero hero-start">
-        <div class="hero-pills">
-          <a class="pill pill-coffee" href="#donate" id="coffeeTop">☕ Угостить автора кофе</a>
-          <a class="pill pill-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="yt-dot" aria-hidden="true">▶</span> YouTube: каждый день новое видео</a>
-        </div>
         <h1>Экзамен A2 по чешскому для ПМЖ</h1>
         <p class="lead">Пробный экзамен в новом формате 2026, тренировка и уроки. Бесплатно, без регистрации.</p>
         <div class="badges"><span>✓ 20 вариантов экзамена</span><span>✓ Новый формат 2026</span><span>✓ Озвучка живыми голосами</span></div>
@@ -732,7 +750,6 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </table>
         <p class="small muted" style="margin-top:8px">Чтобы сдать: письменная часть минимум 42 из 70, устная минимум 24 из 40.</p>
       </div></details>
-        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Приложение на телефон</b><span>Значок на экране, открывается одним касанием. Бесплатно.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Установить приложение</button></div>
         <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-07">07.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Новое на этой неделе</p><ul>
           <li><b>🎙 Новая озвучка в уроках Mluvení и Psaní.</b> Все 2 900 чешских фраз теперь читают профессиональные голоса: женский голос экзаменатора и мужской голос кандидата. Звучит естественно, как на настоящем экзамене, и можно слушать медленнее.</li>
@@ -741,7 +758,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>✅ Исправления в диалогах.</b> Экзаменатор теперь говорит в женском роде (byla jsem, mám ráda), как на настоящем экзамене.</li>
           </ul>
           <p class="nh">Уже есть на платформе</p><ul>
-          <li><b>📲 Приложение на телефон.</b> Установите Zkouška A2 как приложение: значок на главном экране, открывается на весь экран, не нужно искать ссылку. Кнопка «Установить приложение» — внизу главной страницы.</li>
+          <li><b>📲 Приложение на телефон.</b> Установите Zkouška A2 как приложение: значок на главном экране, открывается на весь экран, не нужно искать ссылку. Кнопка «Установить приложение» — вверху страницы.</li>
           <li><b>📝 Учим Psaní.</b> Письмо — самая слабая часть экзамена для большинства кандидатов. Теперь к ней есть уроки: формула ответа, каркас письма, 80 заданий с образцами, счётчик слов, мгновенная проверка письма и тренировка на 25 минут.</li>
           <li><b>🗣 Учим Mluvení.</b> Все 4 úlohy шаг за шагом: 400 вопросов с ответами и озвучкой, 40 историй в прошедшем времени, 40 ситуаций для диалога, видео и тренировка с распознаванием речи.</li>
           <li><b>🎯 Mluvení как на новом экзамене.</b> Новые рассказы по картинкам (полиция, ДТП, скорая, авария в квартире), 1 минута на рассказ, проверка «ты/Вы» и времён.</li>
@@ -751,7 +768,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           </ul></details>
         <details class="news" id="appHelp"><summary>📲 Приложение на телефон: как установить</summary><div class="app-steps">
           <p>Занимает меньше минуты, бесплатно, без Google Play и App Store. Нужен интернет, как и для сайта.</p>
-          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Нажмите кнопку «📲 Установить приложение» внизу главной страницы.</li><li>Подтвердите «Установить».</li><li>Значок Zkouška A2 появится на главном экране.</li></ol></div>
+          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Нажмите кнопку «📲 Установить приложение» вверху страницы.</li><li>Подтвердите «Установить».</li><li>Значок Zkouška A2 появится на главном экране.</li></ol></div>
           <div><h4>iPhone и iPad (Safari)</h4><ol><li>Нажмите кнопку «Поделиться» ⬆️ внизу экрана.</li><li>Выберите «На экран „Домой“».</li><li>Нажмите «Добавить».</li></ol></div>
           <div><h4>Компьютер (Chrome, Edge)</h4><ol><li>Нажмите кнопку «📲 Установить приложение» или значок установки в адресной строке.</li></ol></div>
           <p class="small muted">Открыли сайт из Facebook, Telegram или Viber? Сначала откройте его в Chrome или Safari: во встроенном браузере установить приложение нельзя.</p>
@@ -1743,7 +1760,7 @@ document.addEventListener('click', e => {
   if(standalone){ document.body.classList.add('standalone'); try{ if(!sessionStorage.getItem('a2-app-open')){ sessionStorage.setItem('a2-app-open','1'); ev('app_open', {platform: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'ios' : (/Android/.test(navigator.userAgent) ? 'android' : 'desktop')}); } }catch(e){ ev('app_open'); } return; }
   var deferred = null, btn = document.getElementById('installBtn'), help = document.getElementById('appHelp');
   window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferred = e; ev('install_available'); });
-  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('appBar'); if(b) b.hidden = true; });
+  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('installBtn'); if(b) b.hidden = true; });
   if(!btn) return;
   btn.addEventListener('click', function(){
     ev('install_click', {prompt: deferred ? 'yes' : 'no'});

@@ -539,7 +539,24 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .home .skyline{height:44px}
 .home .badges span{font-size:.78rem!important}
 @media (max-width:520px){.home .hero.hero-start h1{font-size:1.55rem}.home .lead{font-size:1rem}}
-.hero-pills{display:flex;flex-wrap:wrap;gap:8px}
+.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.qb{appearance:none;cursor:pointer;font-family:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:3px;padding:10px 4px 9px;border-radius:16px;border:2px solid var(--qd);background:var(--qbg);color:var(--qink);box-shadow:0 5px 0 var(--qd);min-height:96px}
+.qb:hover{filter:brightness(1.05)}
+.qb:active{transform:translateY(3px);box-shadow:0 2px 0 var(--qd)}
+.qb:focus-visible{outline:3px solid var(--qd);outline-offset:3px}
+.qb .qi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:1.15rem;background:rgba(255,255,255,.9);color:#1b1b1b;margin-bottom:2px}
+.qb b{font-size:clamp(.82rem,3.6vw,.95rem);line-height:1.15;max-width:100%}
+.home .quick{margin:0 0 14px}
+.qb span:not(.qi){font-size:.74rem;line-height:1.2;opacity:.9}
+.qb-coffee{--qbg:#ffcf3f;--qd:#b98a00;--qink:#3b2600}
+.qb-yt{--qbg:#e62117;--qd:#9e130c;--qink:#fff}
+.qb-yt .qi{color:#e62117;font-size:.95rem}
+.qb-app{--qbg:#1f4e9c;--qd:#12306a;--qink:#fff}
+body.standalone .qb-app{display:none}
+body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+.quick:has(.qb-app[hidden]){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:760px){.quick{max-width:560px}}
+
 .pill{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid;line-height:1.2}
 .pill-coffee{background:var(--cof-bg);color:var(--cof-ink);border-color:var(--cof-bd);box-shadow:0 3px 0 var(--cof-bd)}
 .pill-coffee:active{transform:translateY(2px);box-shadow:0 1px 0 var(--cof-bd)}
@@ -671,11 +688,12 @@ details.src-list{font-size:.85rem;color:var(--muted)}
   <!-- START -->
   <section id="startView">
     <div class="sheet home">
+      <nav class="quick" aria-label="Quick links">
+          <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Buy a coffee</b><span>support the author</span></a>
+          <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>a new video every day</span></a>
+          <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>App</b><span>for your phone, free</span></button>
+        </nav>
       <div class="hero hero-start">
-        <div class="hero-pills">
-          <a class="pill pill-coffee" href="#donate" id="coffeeTop">☕ Buy the author a coffee</a>
-          <a class="pill pill-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="yt-dot" aria-hidden="true">▶</span> YouTube: a new video every day</a>
-        </div>
         <h1>The Czech A2 exam for permanent residence</h1>
         <p class="lead">A mock exam in the new 2026 format, practice and lessons. Free, no registration.</p>
         <div class="badges"><span>✓ 20 exam variants</span><span>✓ New 2026 format</span><span>✓ Natural-sounding audio</span></div>
@@ -732,7 +750,6 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </table>
         <p class="small muted" style="margin-top:8px">To pass: written part at least 42 of 70, oral part at least 24 of 40.</p>
       </div></details>
-        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Phone app</b><span>An icon on your home screen, opens with one tap. Free.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Install the app</button></div>
         <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-07">07.11.2026</time></summary>
           <p class="nh nh-hot">🔥 New this week</p><ul>
           <li><b>🎙 New voices in the Mluvení and Psaní lessons.</b> All 2,900 Czech phrases are now read by professional voices: a female voice for the examiner and a male voice for the candidate. It sounds natural, like the real exam, and you can play it more slowly.</li>
@@ -741,7 +758,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>✅ Fixes in the dialogues.</b> The examiner now speaks in the feminine form (byla jsem, mám ráda), as in the real exam.</li>
           </ul>
           <p class="nh">Already on the platform</p><ul>
-          <li><b>📲 Phone app.</b> Install Zkouška A2 as an app: an icon on your home screen, opens full screen, no need to look for the link. The “Install the app” button is at the bottom of the home page.</li>
+          <li><b>📲 Phone app.</b> Install Zkouška A2 as an app: an icon on your home screen, opens full screen, no need to look for the link. The “Install the app” button is at the top of the page.</li>
           <li><b>📝 Learn Psaní.</b> Writing is the weakest part of the exam for most candidates. Now it has lessons: an answer formula, an e-mail frame, 80 tasks with samples, a word counter, an instant e-mail check and a 25-minute training.</li>
           <li><b>🗣 Learn Mluvení.</b> All 4 úlohy step by step: 400 questions with answers and audio, 40 stories in the past tense, 40 dialogue situations, videos and training with speech recognition.</li>
           <li><b>🎯 Mluvení like the new exam.</b> New picture stories (police, car accident, ambulance, flat emergency), 1 minute per story, a check of ty/Vy and tenses.</li>
@@ -751,7 +768,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           </ul></details>
         <details class="news" id="appHelp"><summary>📲 Phone app: how to install</summary><div class="app-steps">
           <p>Takes less than a minute, free, no Google Play or App Store needed. It needs the internet, just like the website.</p>
-          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Tap the “📲 Install the app” button at the bottom of the home page.</li><li>Confirm “Install”.</li><li>The Zkouška A2 icon will appear on your home screen.</li></ol></div>
+          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Tap the “📲 Install the app” button at the top of the page.</li><li>Confirm “Install”.</li><li>The Zkouška A2 icon will appear on your home screen.</li></ol></div>
           <div><h4>iPhone and iPad (Safari)</h4><ol><li>Tap the “Share” button ⬆️ at the bottom of the screen.</li><li>Choose “Add to Home Screen”.</li><li>Tap “Add”.</li></ol></div>
           <div><h4>Computer (Chrome, Edge)</h4><ol><li>Click the “📲 Install the app” button or the install icon in the address bar.</li></ol></div>
           <p class="small muted">Opened the site from Facebook, Telegram or Viber? Open it in Chrome or Safari first: apps can’t be installed from the built-in browser.</p>
@@ -1743,7 +1760,7 @@ document.addEventListener('click', e => {
   if(standalone){ document.body.classList.add('standalone'); try{ if(!sessionStorage.getItem('a2-app-open')){ sessionStorage.setItem('a2-app-open','1'); ev('app_open', {platform: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'ios' : (/Android/.test(navigator.userAgent) ? 'android' : 'desktop')}); } }catch(e){ ev('app_open'); } return; }
   var deferred = null, btn = document.getElementById('installBtn'), help = document.getElementById('appHelp');
   window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferred = e; ev('install_available'); });
-  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('appBar'); if(b) b.hidden = true; });
+  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('installBtn'); if(b) b.hidden = true; });
   if(!btn) return;
   btn.addEventListener('click', function(){
     ev('install_click', {prompt: deferred ? 'yes' : 'no'});

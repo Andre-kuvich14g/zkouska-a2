@@ -539,7 +539,24 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .home .skyline{height:44px}
 .home .badges span{font-size:.78rem!important}
 @media (max-width:520px){.home .hero.hero-start h1{font-size:1.55rem}.home .lead{font-size:1rem}}
-.hero-pills{display:flex;flex-wrap:wrap;gap:8px}
+.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.qb{appearance:none;cursor:pointer;font-family:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:3px;padding:10px 4px 9px;border-radius:16px;border:2px solid var(--qd);background:var(--qbg);color:var(--qink);box-shadow:0 5px 0 var(--qd);min-height:96px}
+.qb:hover{filter:brightness(1.05)}
+.qb:active{transform:translateY(3px);box-shadow:0 2px 0 var(--qd)}
+.qb:focus-visible{outline:3px solid var(--qd);outline-offset:3px}
+.qb .qi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:1.15rem;background:rgba(255,255,255,.9);color:#1b1b1b;margin-bottom:2px}
+.qb b{font-size:clamp(.82rem,3.6vw,.95rem);line-height:1.15;max-width:100%}
+.home .quick{margin:0 0 14px}
+.qb span:not(.qi){font-size:.74rem;line-height:1.2;opacity:.9}
+.qb-coffee{--qbg:#ffcf3f;--qd:#b98a00;--qink:#3b2600}
+.qb-yt{--qbg:#e62117;--qd:#9e130c;--qink:#fff}
+.qb-yt .qi{color:#e62117;font-size:.95rem}
+.qb-app{--qbg:#1f4e9c;--qd:#12306a;--qink:#fff}
+body.standalone .qb-app{display:none}
+body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+.quick:has(.qb-app[hidden]){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:760px){.quick{max-width:560px}}
+
 .pill{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid;line-height:1.2}
 .pill-coffee{background:var(--cof-bg);color:var(--cof-ink);border-color:var(--cof-bd);box-shadow:0 3px 0 var(--cof-bd)}
 .pill-coffee:active{transform:translateY(2px);box-shadow:0 1px 0 var(--cof-bd)}
@@ -671,11 +688,12 @@ details.src-list{font-size:.85rem;color:var(--muted)}
   <!-- START -->
   <section id="startView">
     <div class="sheet home">
+      <nav class="quick" aria-label="Liên kết nhanh">
+          <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Mời cà phê</b><span>ủng hộ tác giả</span></a>
+          <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>video mới mỗi ngày</span></a>
+          <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>Ứng dụng</b><span>cho điện thoại, miễn phí</span></button>
+        </nav>
       <div class="hero hero-start">
-        <div class="hero-pills">
-          <a class="pill pill-coffee" href="#donate" id="coffeeTop">☕ Mời tác giả một ly cà phê</a>
-          <a class="pill pill-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="yt-dot" aria-hidden="true">▶</span> YouTube: mỗi ngày một video mới</a>
-        </div>
         <h1>Kỳ thi A2 tiếng Séc cho thường trú</h1>
         <p class="lead">Bài thi thử theo định dạng mới 2026, luyện tập và bài học. Miễn phí, không cần đăng ký.</p>
         <div class="badges"><span>✓ 20 đề thi</span><span>✓ Định dạng mới 2026</span><span>✓ Giọng đọc tự nhiên</span></div>
@@ -732,7 +750,6 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </table>
         <p class="small muted" style="margin-top:8px">Để đỗ: phần viết tối thiểu 42/70, phần nói tối thiểu 24/40.</p>
       </div></details>
-        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Ứng dụng trên điện thoại</b><span>Biểu tượng trên màn hình, mở bằng một chạm. Miễn phí.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Cài ứng dụng</button></div>
         <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-07">07.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Mới trong tuần này</p><ul>
           <li><b>🎙 Giọng đọc mới trong bài học Mluvení và Psaní.</b> Tất cả 2.900 câu tiếng Séc giờ được đọc bằng giọng chuyên nghiệp: giọng nữ cho giám khảo và giọng nam cho thí sinh. Nghe tự nhiên như kỳ thi thật, và có thể nghe chậm hơn.</li>
@@ -741,7 +758,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           <li><b>✅ Sửa lỗi trong hội thoại.</b> Giám khảo giờ nói ở dạng giống cái (byla jsem, mám ráda), như trong kỳ thi thật.</li>
           </ul>
           <p class="nh">Đã có trên nền tảng</p><ul>
-          <li><b>📲 Ứng dụng trên điện thoại.</b> Cài Zkouška A2 như một ứng dụng: biểu tượng trên màn hình chính, mở toàn màn hình, không cần tìm lại đường link. Nút “Cài ứng dụng” ở cuối trang chủ.</li>
+          <li><b>📲 Ứng dụng trên điện thoại.</b> Cài Zkouška A2 như một ứng dụng: biểu tượng trên màn hình chính, mở toàn màn hình, không cần tìm lại đường link. Nút “Cài ứng dụng” ở đầu trang.</li>
           <li><b>📝 Học Psaní.</b> Viết là phần yếu nhất của kỳ thi với hầu hết thí sinh. Giờ đã có bài học: công thức trả lời, khung e-mail, 80 bài có bài mẫu, bộ đếm từ, kiểm tra e-mail ngay và bài luyện 25 phút.</li>
           <li><b>🗣 Học Mluvení.</b> Cả 4 úlohy từng bước: 400 câu hỏi có đáp án và phát âm, 40 câu chuyện thì quá khứ, 40 tình huống hội thoại, video và luyện tập với nhận dạng giọng nói.</li>
           <li><b>🎯 Mluvení như kỳ thi mới.</b> Truyện tranh mới (cảnh sát, tai nạn xe, cấp cứu, sự cố trong căn hộ), 1 phút cho mỗi truyện, kiểm tra ty/Vy và thì.</li>
@@ -751,7 +768,7 @@ details.src-list{font-size:.85rem;color:var(--muted)}
           </ul></details>
         <details class="news" id="appHelp"><summary>📲 Ứng dụng trên điện thoại: cách cài đặt</summary><div class="app-steps">
           <p>Chưa đến một phút, miễn phí, không cần Google Play hay App Store. Cần có Internet, giống như trang web.</p>
-          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Nhấn nút “📲 Cài ứng dụng” ở cuối trang chủ.</li><li>Xác nhận “Cài đặt”.</li><li>Biểu tượng Zkouška A2 sẽ xuất hiện trên màn hình chính.</li></ol></div>
+          <div><h4>Android (Chrome, Samsung Internet)</h4><ol><li>Nhấn nút “📲 Cài ứng dụng” ở đầu trang.</li><li>Xác nhận “Cài đặt”.</li><li>Biểu tượng Zkouška A2 sẽ xuất hiện trên màn hình chính.</li></ol></div>
           <div><h4>iPhone và iPad (Safari)</h4><ol><li>Nhấn nút “Chia sẻ” ⬆️ ở cuối màn hình.</li><li>Chọn “Thêm vào MH chính”.</li><li>Nhấn “Thêm”.</li></ol></div>
           <div><h4>Máy tính (Chrome, Edge)</h4><ol><li>Nhấn nút “📲 Cài ứng dụng” hoặc biểu tượng cài đặt trên thanh địa chỉ.</li></ol></div>
           <p class="small muted">Mở trang từ Facebook, Telegram hoặc Viber? Hãy mở lại bằng Chrome hoặc Safari trước: trình duyệt tích hợp không cài được ứng dụng.</p>
@@ -1743,7 +1760,7 @@ document.addEventListener('click', e => {
   if(standalone){ document.body.classList.add('standalone'); try{ if(!sessionStorage.getItem('a2-app-open')){ sessionStorage.setItem('a2-app-open','1'); ev('app_open', {platform: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'ios' : (/Android/.test(navigator.userAgent) ? 'android' : 'desktop')}); } }catch(e){ ev('app_open'); } return; }
   var deferred = null, btn = document.getElementById('installBtn'), help = document.getElementById('appHelp');
   window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferred = e; ev('install_available'); });
-  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('appBar'); if(b) b.hidden = true; });
+  window.addEventListener('appinstalled', function(){ ev('app_installed'); deferred = null; var b = document.getElementById('installBtn'); if(b) b.hidden = true; });
   if(!btn) return;
   btn.addEventListener('click', function(){
     ev('install_click', {prompt: deferred ? 'yes' : 'no'});
