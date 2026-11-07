@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,203
+Mluvení, úloha čtyři. Situace číslo 2. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:10,900 --> 00:00:17,773
+V sobotu večer chceme jít spolu ven. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:26,467 --> 00:00:27,989
+Co kdybychom šli do kina?
+
+4
+00:00:28,300 --> 00:00:30,759
+Do kina se mi nechce, byla jsem tam včera.
+
+5
+00:00:31,067 --> 00:00:32,482
+Tak můžeme jít do divadla.
+
+6
+00:00:32,767 --> 00:00:34,113
+Divadlo je moc drahé.
+
+7
+00:00:34,400 --> 00:00:35,908
+Tak půjdeme do restaurace.
+
+8
+00:00:36,200 --> 00:00:37,716
+A proč chceš jít tam?
+
+9
+00:00:38,000 --> 00:00:40,658
+Protože máme hlad a můžeme si tam v klidu povídat.
+
+10
+00:00:40,967 --> 00:00:44,696
+Dobře, to je dobrý nápad. Půjdeme do restaurace.
+
+11
+00:00:45,000 --> 00:00:53,956
+Procvičte si situaci 2 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

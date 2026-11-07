@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,780
+Speaking, task two. Card number 1. You are at the post office. You want to send a parcel abroad. Ask four questions.
+
+2
+00:00:10,467 --> 00:00:13,700
+You are at the post office. You want to send a parcel abroad.
+
+3
+00:00:14,900 --> 00:00:17,395
+Hello. What can I do for you?
+
+4
+00:00:22,600 --> 00:00:26,352
+Hello, I want to send a parcel to Ukraine. How much does it cost?
+
+5
+00:00:26,567 --> 00:00:30,000
+A parcel up to 5 kilograms costs 650 CZK.
+
+6
+00:00:35,200 --> 00:00:36,550
+How long does it take?
+
+7
+00:00:36,767 --> 00:00:38,525
+The parcel will be there in about five days.
+
+8
+00:00:43,733 --> 00:00:45,354
+Can I pay by card?
+
+9
+00:00:45,567 --> 00:00:48,260
+Yes, you can pay by card or in cash.
+
+10
+00:00:53,467 --> 00:00:55,200
+Can I track the parcel online?
+
+11
+00:00:55,400 --> 00:00:57,956
+Yes, you will find the tracking number on the receipt.
+
+12
+00:00:58,167 --> 00:01:01,167
+Thank you for the information. Goodbye.
+
+13
+00:01:01,367 --> 00:01:03,133
+You're welcome. Goodbye.
+
+14
+00:01:03,333 --> 00:01:12,265
+Practise card 1 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,006
+Mluvení, úloha dvě. Karta číslo 2. Jste v jazykové škole. Chcete se přihlásit do kurzu angličtiny. Položte čtyři otázky.
+
+2
+00:00:10,700 --> 00:00:14,495
+Jste v jazykové škole. Chcete se přihlásit do kurzu angličtiny.
+
+3
+00:00:15,700 --> 00:00:18,195
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,400 --> 00:00:25,963
+Dobrý den, kdy začíná kurz angličtiny?
+
+5
+00:00:26,167 --> 00:00:28,267
+Nový kurz začíná 1. října.
+
+6
+00:00:33,467 --> 00:00:34,500
+Kolik stojí?
+
+7
+00:00:34,700 --> 00:00:37,661
+Kurz stojí 4 500 Kč za semestr.
+
+8
+00:00:42,867 --> 00:00:44,654
+Kolik lidí je ve skupině?
+
+9
+00:00:44,867 --> 00:00:47,289
+Ve skupině je maximálně deset lidí.
+
+10
+00:00:52,500 --> 00:00:53,633
+Je kurz večer?
+
+11
+00:00:53,833 --> 00:00:56,752
+Ano, lekce jsou vždy v úterý od 18 hodin.
+
+12
+00:00:56,967 --> 00:00:59,967
+Děkuju za informace. Na shledanou.
+
+13
+00:01:00,167 --> 00:01:01,933
+Není zač. Na shledanou.
+
+14
+00:01:02,133 --> 00:01:11,427
+Procvičte si kartu 2 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

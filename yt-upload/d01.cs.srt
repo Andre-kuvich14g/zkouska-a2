@@ -1,55 +1,55 @@
 1
-00:00:00,200 --> 00:00:09,482
+00:00:00,200 --> 00:00:09,780
 Mluvení, úloha dvě. Karta číslo 1. Jste na poště. Chcete poslat balík do zahraničí. Položte čtyři otázky.
 
 2
-00:00:10,167 --> 00:00:14,293
+00:00:10,467 --> 00:00:13,700
 Jste na poště. Chcete poslat balík do zahraničí.
 
 3
-00:00:15,500 --> 00:00:17,885
+00:00:14,900 --> 00:00:17,395
 Dobrý den. Co pro vás můžu udělat?
 
 4
-00:00:23,100 --> 00:00:28,086
+00:00:22,600 --> 00:00:26,352
 Dobrý den, chci poslat balík na Ukrajinu. Kolik to stojí?
 
 5
-00:00:28,300 --> 00:00:31,626
+00:00:26,567 --> 00:00:30,000
 Balík do 5 kilogramů stojí 650 Kč.
 
 6
-00:00:36,833 --> 00:00:38,767
+00:00:35,200 --> 00:00:36,550
 Jak dlouho to trvá?
 
 7
-00:00:38,967 --> 00:00:41,000
+00:00:36,767 --> 00:00:38,525
 Balík tam bude asi za pět dní.
 
 8
-00:00:46,200 --> 00:00:48,260
+00:00:43,733 --> 00:00:45,354
 Můžu platit kartou?
 
 9
-00:00:48,467 --> 00:00:51,131
+00:00:45,567 --> 00:00:48,260
 Ano, můžete platit kartou i hotově.
 
 10
-00:00:56,333 --> 00:00:59,520
+00:00:53,467 --> 00:00:55,200
 Můžu balík sledovat na internetu?
 
 11
-00:00:59,733 --> 00:01:02,989
+00:00:55,400 --> 00:00:57,956
 Ano, číslo zásilky najdete na účtence.
 
 12
-00:01:03,200 --> 00:01:06,421
+00:00:58,167 --> 00:01:01,167
 Děkuju za informace. Na shledanou.
 
 13
-00:01:06,633 --> 00:01:08,496
+00:01:01,367 --> 00:01:03,133
 Není zač. Na shledanou.
 
 14
-00:01:08,700 --> 00:01:18,620
-Procvičte si kartu 1 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:03,333 --> 00:01:12,265
+Procvičte si kartu 1 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

@@ -1,0 +1,39 @@
+1
+00:00:00,200 --> 00:00:04,540
+Writing, task two. E-mail number 2: Illness.
+
+2
+00:00:05,233 --> 00:00:15,348
+You are ill and cannot come to work. Write an e-mail to your manager. Write at least thirty-five words. Write one sentence for each picture.
+
+3
+00:00:24,033 --> 00:00:25,655
+Dear Mr Dvořák,
+
+4
+00:00:25,967 --> 00:00:28,634
+I am sorry, but I can't come to work today.
+
+5
+00:00:28,933 --> 00:00:31,198
+I have a high temperature and a sore throat.
+
+6
+00:00:31,500 --> 00:00:34,122
+The doctor told me I must stay at home for a week.
+
+7
+00:00:34,433 --> 00:00:38,470
+I will probably be back on Monday 10 February. My colleague Petr can do my work.
+
+8
+00:00:38,767 --> 00:00:43,337
+You can call me on 605 123 456.
+
+9
+00:00:43,633 --> 00:00:50,392
+This e-mail has 53 words. One sentence for each picture. Don't forget the greeting at the beginning and the end.
+
+10
+00:00:51,100 --> 00:01:00,111
+Write your own e-mail on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

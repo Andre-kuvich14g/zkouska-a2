@@ -1,43 +1,43 @@
 1
-00:00:00,200 --> 00:00:11,513
+00:00:00,200 --> 00:00:10,876
 Mluvení, úloha čtyři. Situace číslo 1. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
 
 2
-00:00:12,200 --> 00:00:19,949
+00:00:11,567 --> 00:00:20,272
 Kamarádka bude mít narozeniny. Chceme jí spolu koupit dárek. Co jí koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
 
 3
-00:00:28,633 --> 00:00:30,972
+00:00:28,967 --> 00:00:30,538
 Můžeme jí koupit knihu.
 
 4
-00:00:31,267 --> 00:00:34,743
+00:00:30,833 --> 00:00:33,340
 Myslím, že knihu už má. Ona moc nečte.
 
 5
-00:00:35,033 --> 00:00:37,407
+00:00:33,633 --> 00:00:35,326
 Tak jí koupíme čokoládu.
 
 6
-00:00:37,700 --> 00:00:40,201
+00:00:35,633 --> 00:00:38,134
 Čokoládu ne, ona teď nejí sladké.
 
 7
-00:00:40,500 --> 00:00:43,245
+00:00:38,433 --> 00:00:41,069
 Dobře, tak jí koupíme květiny.
 
 8
-00:00:43,533 --> 00:00:45,570
+00:00:41,367 --> 00:00:42,973
 A proč chceš koupit tohle?
 
 9
-00:00:45,867 --> 00:00:50,040
+00:00:43,267 --> 00:00:45,800
 Protože má ráda květiny a udělají jí radost.
 
 10
-00:00:50,333 --> 00:00:54,135
+00:00:46,100 --> 00:00:49,697
 To je pravda, květiny jsou dobrý nápad. Koupíme jí květiny.
 
 11
-00:00:54,433 --> 00:01:04,412
-Procvičte si situaci 1 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:00:50,000 --> 00:00:59,321
+Procvičte si situaci 1 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

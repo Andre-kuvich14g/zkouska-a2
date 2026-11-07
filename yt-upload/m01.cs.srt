@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:08,390
+00:00:00,200 --> 00:00:10,556
 Mluvení, úloha jedna. Téma 1: O mně. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:09,100 --> 00:00:10,905
+00:00:11,267 --> 00:00:12,526
 Jak se jmenujete?
 
 3
-00:00:16,300 --> 00:00:20,763
+00:00:17,933 --> 00:00:21,709
 Jmenuju se Oleh Kovalenko. Přátelé mi říkají Olek.
 
 4
-00:00:21,667 --> 00:00:23,077
+00:00:22,600 --> 00:00:23,663
 Odkud jste?
 
 5
-00:00:28,467 --> 00:00:33,708
+00:00:29,067 --> 00:00:33,324
 Jsem z Ukrajiny, z města Charkov. Je to velké město na východě.
 
 6
-00:00:34,600 --> 00:00:36,486
+00:00:34,233 --> 00:00:35,511
 Kde teď bydlíte?
 
 7
-00:00:41,900 --> 00:00:45,748
+00:00:40,900 --> 00:00:43,748
 Teď bydlím v Kralupech nad Vltavou s rodinou.
 
 8
-00:00:46,633 --> 00:00:48,972
+00:00:44,633 --> 00:00:46,146
 Jak dlouho jste v Česku?
 
 9
-00:00:54,367 --> 00:01:00,014
+00:00:51,533 --> 00:00:55,396
 V Česku jsem už pět let. Přijel jsem v roce 2021.
 
 10
-00:01:00,900 --> 00:01:02,356
+00:00:56,300 --> 00:00:57,393
 Co děláte?
 
 11
-00:01:07,767 --> 00:01:12,335
+00:01:02,800 --> 00:01:05,809
 Pracuju ve skladu a ve volném čase se učím česky.
 
 12
-00:01:13,233 --> 00:01:15,247
+00:01:06,700 --> 00:01:08,503
 Jaké jazyky umíte?
 
 13
-00:01:20,633 --> 00:01:25,329
+00:01:13,900 --> 00:01:17,250
 Umím ukrajinsky, rusky a trochu česky a anglicky.
 
 14
-00:01:26,233 --> 00:01:28,108
+00:01:18,167 --> 00:01:19,443
 Jaký jste člověk?
 
 15
-00:01:33,500 --> 00:01:38,776
+00:01:24,833 --> 00:01:28,645
 Myslím, že jsem klidný a přátelský. Rád pomáhám lidem.
 
 16
-00:01:39,667 --> 00:01:42,876
+00:01:29,533 --> 00:01:31,623
 Co jste dělal před příjezdem do Česka?
 
 17
-00:01:48,267 --> 00:01:52,428
+00:01:37,033 --> 00:01:39,605
 Na Ukrajině jsem pracoval jako prodavač v obchodě.
 
 18
-00:01:53,333 --> 00:01:55,893
+00:01:40,500 --> 00:01:42,022
 Proč jste přijel do Česka?
 
 19
-00:02:01,300 --> 00:02:06,518
+00:01:47,433 --> 00:01:50,616
 Přijel jsem kvůli práci a protože tady žijí moji příbuzní.
 
 20
-00:02:07,433 --> 00:02:10,446
+00:01:51,500 --> 00:01:53,280
 Co byste chtěl dělat za pět let?
 
 21
-00:02:15,833 --> 00:02:20,970
+00:01:58,667 --> 00:02:01,993
 Za pět let bych chtěl mít lepší práci a mluvit dobře česky.
 
 22
-00:02:21,867 --> 00:02:32,623
-Výborně! Procvičte si téma 1 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:02:02,900 --> 00:02:12,682
+Výborně! Procvičte si téma 1 na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

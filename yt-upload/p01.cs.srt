@@ -1,47 +1,47 @@
 1
-00:00:00,200 --> 00:00:04,907
+00:00:00,200 --> 00:00:04,879
 Psaní, úloha dvě. E-mail číslo 1: Hledám byt.
 
 2
-00:00:05,600 --> 00:00:16,820
+00:00:05,567 --> 00:00:15,685
 Chcete se přestěhovat. Napište e-mail realitní kanceláři. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
 
 3
-00:00:25,533 --> 00:00:26,897
+00:00:24,400 --> 00:00:25,467
 Dobrý den,
 
 4
-00:00:27,200 --> 00:00:29,446
+00:00:25,767 --> 00:00:27,414
 hledám byt k pronájmu.
 
 5
-00:00:29,733 --> 00:00:34,870
+00:00:27,700 --> 00:00:30,805
 Potřebuju byt 2+1, protože mám manželku a syna.
 
 6
-00:00:35,167 --> 00:00:39,096
+00:00:31,100 --> 00:00:33,659
 Chceme bydlet blízko centra nebo blízko školy.
 
 7
-00:00:39,400 --> 00:00:45,466
+00:00:33,967 --> 00:00:37,270
 Můžeme platit maximálně 18 000 Kč měsíčně.
 
 8
-00:00:45,767 --> 00:00:48,999
+00:00:37,567 --> 00:00:39,827
 Stěhovat se chceme od 1. září.
 
 9
-00:00:49,300 --> 00:00:54,286
+00:00:40,133 --> 00:00:43,334
 Na prohlídku můžu přijít v pondělí nebo ve středu odpoledne.
 
 10
-00:00:54,600 --> 00:00:56,556
+00:00:43,633 --> 00:00:44,964
 Děkuji za odpověď.
 
 11
-00:00:56,867 --> 00:01:06,044
+00:00:45,267 --> 00:00:52,708
 Tento e-mail má 52 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
 
 12
-00:01:06,733 --> 00:01:16,119
-Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:00:53,400 --> 00:01:02,411
+Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

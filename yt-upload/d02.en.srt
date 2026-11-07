@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,006
+Speaking, task two. Card number 2. You are at a language school. You want to sign up for an English course. Ask four questions.
+
+2
+00:00:10,700 --> 00:00:14,495
+You are at a language school. You want to sign up for an English course.
+
+3
+00:00:15,700 --> 00:00:18,195
+Hello. What can I do for you?
+
+4
+00:00:23,400 --> 00:00:25,963
+Hello, when does the English course start?
+
+5
+00:00:26,167 --> 00:00:28,267
+The new course starts on 1 October.
+
+6
+00:00:33,467 --> 00:00:34,500
+How much is it?
+
+7
+00:00:34,700 --> 00:00:37,661
+The course costs 4,500 CZK per term.
+
+8
+00:00:42,867 --> 00:00:44,654
+How many people are in the group?
+
+9
+00:00:44,867 --> 00:00:47,289
+There are at most ten people in the group.
+
+10
+00:00:52,500 --> 00:00:53,633
+Is the course in the evening?
+
+11
+00:00:53,833 --> 00:00:56,752
+Yes, the lessons are always on Tuesday at 6 pm.
+
+12
+00:00:56,967 --> 00:00:59,967
+Thank you for the information. Goodbye.
+
+13
+00:01:00,167 --> 00:01:01,933
+You're welcome. Goodbye.
+
+14
+00:01:02,133 --> 00:01:11,427
+Practise card 2 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

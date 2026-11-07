@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,350
+Psaní, úloha jedna. Formulář číslo 2. Chcete se zaregistrovat do městské knihovny. Odpovězte na otázky v registraci. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,033 --> 00:00:15,246
+Jaké knihy nebo časopisy rád čtete?
+
+3
+00:00:25,633 --> 00:00:30,424
+Rád čtu detektivky a historické romány, někdy si přečtu i časopis o vaření.
+
+4
+00:00:31,333 --> 00:00:33,626
+Proč se chcete zaregistrovat do naší knihovny?
+
+5
+00:00:44,033 --> 00:00:48,342
+Chci se zaregistrovat, protože knihy jsou drahé a chci číst víc česky.
+
+6
+00:00:49,233 --> 00:00:51,033
+Kdy máte čas chodit do knihovny?
+
+7
+00:01:01,433 --> 00:01:05,540
+Do knihovny můžu chodit v úterý a ve čtvrtek odpoledne nebo v sobotu ráno.
+
+8
+00:01:06,433 --> 00:01:15,082
+Vyplňte formulář 2 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

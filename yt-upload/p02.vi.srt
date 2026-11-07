@@ -1,0 +1,39 @@
+1
+00:00:00,200 --> 00:00:04,540
+Phần Viết, bài hai. E-mail số 2: Bị ốm.
+
+2
+00:00:05,233 --> 00:00:15,348
+Bạn bị ốm và không thể đi làm. Hãy viết e-mail cho quản lý. Viết ít nhất ba mươi lăm từ. Mỗi bức tranh viết một câu.
+
+3
+00:00:24,033 --> 00:00:25,655
+Kính chào ông Dvořák,
+
+4
+00:00:25,967 --> 00:00:28,634
+xin lỗi, hôm nay tôi không thể đi làm.
+
+5
+00:00:28,933 --> 00:00:31,198
+Tôi bị sốt cao và đau họng.
+
+6
+00:00:31,500 --> 00:00:34,122
+Bác sĩ nói tôi phải ở nhà một tuần.
+
+7
+00:00:34,433 --> 00:00:38,470
+Có lẽ tôi sẽ quay lại vào thứ Hai ngày 10 tháng 2. Đồng nghiệp Petr có thể làm thay việc của tôi.
+
+8
+00:00:38,767 --> 00:00:43,337
+Ông có thể gọi cho tôi theo số 605 123 456.
+
+9
+00:00:43,633 --> 00:00:50,392
+E-mail này có 53 từ. Mỗi bức tranh một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+10
+00:00:51,100 --> 00:01:00,111
+Hãy viết e-mail của bạn trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

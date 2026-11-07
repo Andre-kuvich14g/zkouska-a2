@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,350
+Writing, task one. Form number 2. You want to register at the city library. Answer the registration questions. Answer in a full sentence, at least ten words.
+
+2
+00:00:13,033 --> 00:00:15,246
+What books or magazines do you like to read?
+
+3
+00:00:25,633 --> 00:00:30,424
+I like reading detective stories and historical novels, sometimes also a cooking magazine.
+
+4
+00:00:31,333 --> 00:00:33,626
+Why do you want to register at our library?
+
+5
+00:00:44,033 --> 00:00:48,342
+I want to register because books are expensive and I want to read more in Czech.
+
+6
+00:00:49,233 --> 00:00:51,033
+When do you have time to go to the library?
+
+7
+00:01:01,433 --> 00:01:05,540
+I can go to the library on Tuesday and Thursday afternoons or on Saturday morning.
+
+8
+00:01:06,433 --> 00:01:15,082
+Fill in form 2 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

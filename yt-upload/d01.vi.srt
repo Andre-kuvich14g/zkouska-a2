@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,780
+Phần Nói, bài hai. Thẻ số 1. Bạn đang ở bưu điện. Bạn muốn gửi bưu kiện ra nước ngoài. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,467 --> 00:00:13,700
+Bạn đang ở bưu điện. Bạn muốn gửi bưu kiện ra nước ngoài.
+
+3
+00:00:14,900 --> 00:00:17,395
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:22,600 --> 00:00:26,352
+Xin chào, tôi muốn gửi bưu kiện sang Ukraina. Giá bao nhiêu?
+
+5
+00:00:26,567 --> 00:00:30,000
+Bưu kiện dưới 5 kg giá 650 Kč.
+
+6
+00:00:35,200 --> 00:00:36,550
+Mất bao lâu?
+
+7
+00:00:36,767 --> 00:00:38,525
+Bưu kiện sẽ đến nơi trong khoảng năm ngày.
+
+8
+00:00:43,733 --> 00:00:45,354
+Tôi có thể trả bằng thẻ không?
+
+9
+00:00:45,567 --> 00:00:48,260
+Có, bạn có thể trả bằng thẻ hoặc tiền mặt.
+
+10
+00:00:53,467 --> 00:00:55,200
+Tôi có thể theo dõi bưu kiện trên mạng không?
+
+11
+00:00:55,400 --> 00:00:57,956
+Có, bạn sẽ thấy mã bưu kiện trên hóa đơn.
+
+12
+00:00:58,167 --> 00:01:01,167
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:01,367 --> 00:01:03,133
+Không có gì. Tạm biệt.
+
+14
+00:01:03,333 --> 00:01:12,265
+Hãy luyện thẻ 1 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

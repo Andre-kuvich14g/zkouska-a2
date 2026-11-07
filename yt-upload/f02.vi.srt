@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,350
+Phần Viết, bài một. Mẫu đơn số 2. Bạn muốn đăng ký thư viện thành phố. Hãy trả lời các câu hỏi đăng ký. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:13,033 --> 00:00:15,246
+Bạn thích đọc sách hay tạp chí nào?
+
+3
+00:00:25,633 --> 00:00:30,424
+Tôi thích đọc truyện trinh thám và tiểu thuyết lịch sử, đôi khi đọc cả tạp chí nấu ăn.
+
+4
+00:00:31,333 --> 00:00:33,626
+Tại sao bạn muốn đăng ký thư viện của chúng tôi?
+
+5
+00:00:44,033 --> 00:00:48,342
+Tôi muốn đăng ký vì sách đắt và tôi muốn đọc tiếng Séc nhiều hơn.
+
+6
+00:00:49,233 --> 00:00:51,033
+Khi nào bạn có thời gian đến thư viện?
+
+7
+00:01:01,433 --> 00:01:05,540
+Tôi có thể đến thư viện vào chiều thứ Ba, thứ Năm hoặc sáng thứ Bảy.
+
+8
+00:01:06,433 --> 00:01:15,082
+Hãy điền mẫu đơn 2 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
