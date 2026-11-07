@@ -531,6 +531,60 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .consent p{flex:1 1 360px;font-size:.9rem}
 .consent .bt{display:flex;gap:8px;flex-wrap:wrap}
 </style>
+<style id="home-css">
+:root{--ua-b:#0057b7;--ua-b2:#1f4e9c;--ua-y:#ffd500;--ua-y-d:#c9a200;--g-train:#15803d;--g-train-d:#0f5f2d;--g-train-soft:#e3f5e8;--g-learn:#7c3aed;--g-learn-d:#5b21b6;--g-learn-soft:#efe7fd;--cof-bg:#fff4cc;--cof-ink:#6b4200;--cof-bd:#f0c445}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ua-b:#0b4a9e;--ua-b2:#13305f;--g-train:#4ade80;--g-train-d:#1f7a43;--g-train-soft:#14301f;--g-learn:#b99eff;--g-learn-d:#6d4bc4;--g-learn-soft:#2a2145;--cof-bg:#3a2e0c;--cof-ink:#ffd970;--cof-bd:#7a5f14}}
+:root[data-theme="dark"]{--ua-b:#0b4a9e;--ua-b2:#13305f;--g-train:#4ade80;--g-train-d:#1f7a43;--g-train-soft:#14301f;--g-learn:#b99eff;--g-learn-d:#6d4bc4;--g-learn-soft:#2a2145;--cof-bg:#3a2e0c;--cof-ink:#ffd970;--cof-bd:#7a5f14}
+.home .hero.hero-start{padding-bottom:46px;gap:12px}
+.home .skyline{height:44px}
+.home .badges span{font-size:.78rem!important}
+@media (max-width:520px){.home .hero.hero-start h1{font-size:1.55rem}.home .lead{font-size:1rem}}
+.hero-pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid;line-height:1.2}
+.pill-coffee{background:var(--cof-bg);color:var(--cof-ink);border-color:var(--cof-bd);box-shadow:0 3px 0 var(--cof-bd)}
+.pill-coffee:active{transform:translateY(2px);box-shadow:0 1px 0 var(--cof-bd)}
+.pill-yt{background:var(--sheet);color:var(--ink);border-color:var(--rule);font-weight:600}
+.yt-dot{display:inline-grid;place-items:center;width:20px;height:14px;border-radius:4px;background:#e62117;color:#fff;font-size:8px}
+.levels{display:grid;gap:22px;margin:16px 0 8px}
+.lvl{--lc:var(--accent);--lcd:var(--accent);border:2px solid var(--lc);border-radius:22px;padding:18px 16px 18px;background:var(--sheet);box-shadow:0 6px 0 var(--lcd);display:grid;gap:14px}
+.lvl-h{display:flex;gap:12px;align-items:center}
+.lvl-h>div{display:grid;gap:2px}
+.lvl h2{font-size:1.45rem;line-height:1.15}
+.lvl-s{color:var(--muted);font-size:.92rem}
+.lvl-n{flex:none;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font:800 1.4rem/1 var(--f-display);background:var(--lc);color:#fff;box-shadow:inset 0 -4px 0 rgba(0,0,0,.22)}
+.lvl-exam{--lc:var(--ua-b);--lcd:var(--ua-y-d);color:#fff;background:linear-gradient(150deg,var(--ua-b) 0%,var(--ua-b2) 100%);border-color:var(--ua-y)}
+.lvl-exam .lvl-n{background:var(--ua-y);color:#1b1b1b}
+.lvl-exam h2{color:#fff;font-size:1.7rem}
+.lvl-k{display:inline-block;width:fit-content;padding:2px 10px;border-radius:999px;background:var(--ua-y);color:#1b1b1b;font-weight:800;font-size:.75rem;letter-spacing:.04em;text-transform:uppercase}
+.lvl-p{margin:0;color:#eaf1ff;font-size:1rem}
+.lvl-facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.lvl-facts li{padding:4px 10px;border-radius:10px;background:rgba(255,255,255,.14);font-weight:600;font-size:.88rem}
+.gbtn{appearance:none;border:0;cursor:pointer;width:100%;min-height:60px;border-radius:16px;background:var(--ua-y);color:#1b1b1b;font-family:inherit;font-weight:800;font-size:1.25rem;line-height:1.1;letter-spacing:.01em;box-shadow:0 6px 0 var(--ua-y-d);margin-bottom:6px}
+.gbtn:hover{filter:brightness(1.04)}
+.gbtn:active{transform:translateY(4px);box-shadow:0 2px 0 var(--ua-y-d)}
+.gbtn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.lvl-exam .codebox{font-size:.9rem;color:#dbe6ff}
+.lvl-exam .codebox summary{cursor:pointer;width:fit-content;text-decoration:underline;text-underline-offset:3px}
+.lvl-exam .codebox[open]{display:grid;gap:6px}
+.lvl-exam .codebox input{max-width:200px;color:var(--ink)}
+.lvl-train{--lc:var(--g-train);--lcd:var(--g-train-d);--ls:var(--g-train-soft)}
+.lvl-learn{--lc:var(--g-learn);--lcd:var(--g-learn-d);--ls:var(--g-learn-soft)}
+.lvl-train .lvl-n,.lvl-learn .lvl-n{color:var(--sheet)}
+.tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.tile{appearance:none;cursor:pointer;text-align:left;font-family:inherit;display:flex;align-items:center;gap:12px;padding:12px 14px;min-height:72px;border-radius:16px;border:2px solid var(--lc);background:var(--ls);color:var(--ink);box-shadow:0 4px 0 var(--lcd)}
+.tile:hover{filter:brightness(1.03)}
+.tile:active{transform:translateY(3px);box-shadow:0 1px 0 var(--lcd)}
+.tile:focus-visible{outline:3px solid var(--lc);outline-offset:3px}
+.t-ico{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:1.4rem;background:var(--sheet);border:2px solid var(--lc)}
+.t-tx{flex:1;display:grid;gap:2px;min-width:0}
+.t-tx b{font-size:1.05rem}
+.t-tx span{font-size:.86rem;color:var(--muted);line-height:1.3}
+.t-go{flex:none;font-weight:800;font-size:1.3rem;color:var(--lc)}
+.home .more{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:10px;margin-top:18px;columns:auto!important}
+.home #history:empty{display:none}
+.home .appbar{margin:0}
+@media (min-width:760px){.lvl{padding:22px 24px}.lvl-exam{grid-template-columns:1fr minmax(260px,340px);align-items:center;column-gap:28px}.lvl-exam>.lvl-h,.lvl-exam>.lvl-p,.lvl-exam>.lvl-facts{grid-column:1}.lvl-exam>.gbtn{grid-column:2;grid-row:1/3}.lvl-exam>.codebox{grid-column:2;grid-row:3}}
+</style>
 </head>
 <body>
 <div class="iab" id="iab" hidden role="alert">
@@ -616,21 +670,57 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 
   <!-- START -->
   <section id="startView">
-    <div class="sheet">
+    <div class="sheet home">
       <div class="hero hero-start">
+        <div class="hero-pills">
+          <a class="pill pill-coffee" href="#donate" id="coffeeTop">☕ Buy the author a coffee</a>
+          <a class="pill pill-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="yt-dot" aria-hidden="true">▶</span> YouTube: a new video every day</a>
+        </div>
         <h1>The Czech A2 exam for permanent residence</h1>
-        <p class="lead">A free platform to prepare: learn, practise and take a mock exam in the new 2026 format.</p>
-        <ol class="route"><li><b>1</b> Learn</li><li><b>2</b> Practise</li><li><b>3</b> Test yourself</li></ol>
-        <div class="badges"><span>✓ Free, no registration</span><span>✓ New 2026 format</span><span>✓ 20 exam variants</span><span>✓ 400+ examples with audio</span></div>
-        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Phone app</b><span>An icon on your home screen, opens with one tap. Free.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Install the app</button></div>
+        <p class="lead">A mock exam in the new 2026 format, practice and lessons. Free, no registration.</p>
+        <div class="badges"><span>✓ 20 exam variants</span><span>✓ New 2026 format</span><span>✓ Natural-sounding audio</span></div>
         <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
-      <div class="vidbox" id="vidBox">
-        <video id="promoVid" controls playsinline preload="none" poster="/zkouska-a2/video/poster-uk.jpg" src="/zkouska-a2/video/a2-uk.mp4"></video>
-        <div class="vid-t"><b>The A2 exam in 45 seconds</b><span>The 2026 format, pass marks and how to practise on this site. Video with voice-over.</span><a href="#" id="vidCz" class="vid-cz">🇨🇿 Česká verze</a></div>
+
+      <div class="levels">
+        <article class="lvl lvl-exam">
+          <div class="lvl-h"><span class="lvl-n" aria-hidden="true">1</span><div><span class="lvl-k">Main</span><h2>🏆 Mock exam</h2></div></div>
+          <p class="lvl-p">A full exam, just like the real one: reading, writing, listening and speaking. A timer, and at the end an honest result: pass or fail.</p>
+          <ul class="lvl-facts"><li>📝 4 parts</li><li>🎯 110 points</li><li>⏱ timer</li></ul>
+          <button type="button" class="gbtn" data-go="exam">▶ Start the exam</button>
+          <details class="codebox" id="codeBox"><summary>I have an exam code</summary>
+            <label for="codeIn" class="small">Enter the code to take the same version again:</label>
+            <input id="codeIn" inputmode="numeric" maxlength="6" placeholder="e.g. 482913">
+          </details>
+        </article>
+
+        <article class="lvl lvl-train">
+          <div class="lvl-h"><span class="lvl-n" aria-hidden="true">2</span><div><h2>🎯 Practise</h2><span class="lvl-s">No rush: hints, explanations and model answers</span></div></div>
+          <div class="tiles">
+            <button type="button" class="tile" data-go="practice"><span class="t-ico" aria-hidden="true">📘</span><span class="t-tx"><b>The whole exam, no timer</b><span>Replay audio as often as you like, transcripts and explanations</span></span><span class="t-go" aria-hidden="true">→</span></button>
+            <button type="button" class="tile" data-go="trainW"><span class="t-ico" aria-hidden="true">✍️</span><span class="t-tx"><b>Psaní only</b><span>Form and e-mail, feedback on your text</span></span><span class="t-go" aria-hidden="true">→</span></button>
+            <button type="button" class="tile" data-go="trainS"><span class="t-ico" aria-hidden="true">🗣</span><span class="t-tx"><b>Mluvení only</b><span>Questions, dialogues, a story, voice recording</span></span><span class="t-go" aria-hidden="true">→</span></button>
+          </div>
+        </article>
+
+        <article class="lvl lvl-learn">
+          <div class="lvl-h"><span class="lvl-n" aria-hidden="true">3</span><div><h2>📚 Learn</h2><span class="lvl-s">Lessons from scratch: templates, examples and audio</span></div></div>
+          <div class="tiles">
+            <button type="button" class="tile" data-go="learn"><span class="t-ico" aria-hidden="true">🗣</span><span class="t-tx"><b>Mluvení lessons</b><span>400 questions with answers, 40 stories, 40 situations</span></span><span class="t-go" aria-hidden="true">→</span></button>
+            <button type="button" class="tile" data-go="learnw"><span class="t-ico" aria-hidden="true">📝</span><span class="t-tx"><b>Psaní lessons</b><span>Templates, 80 tasks with samples, word counter</span></span><span class="t-go" aria-hidden="true">→</span></button>
+            <button type="button" class="tile" data-go="tips"><span class="t-ico" aria-hidden="true">💡</span><span class="t-tx"><b>Exam tips</b><span>What to do before, during and after the exam</span></span><span class="t-go" aria-hidden="true">→</span></button>
+          </div>
+        </article>
       </div>
-      <a class="ytbar" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="yt-ico" aria-hidden="true">▶</span><span class="yt-t"><b>Video lessons on YouTube</b><span>A new video every day: Mluvení and Psaní, same topics as on the site.</span></span><span class="yt-go">Subscribe</span></a>
-      <details class="news struct-d"><summary>📋 What the exam looks like: 4 parts · 110 points · pass with 42/70 and 24/40</summary><div class="struct">
+
+      <div hidden aria-hidden="true">
+        <input type="radio" name="mode" value="exam" id="modeExam"><input type="radio" name="mode" value="practice" id="modePractice" checked><input type="radio" name="mode" value="trainW" id="modeTrainW"><input type="radio" name="mode" value="trainS" id="modeTrainS"><input type="radio" name="mode" value="learn" id="modeLearn"><input type="radio" name="mode" value="learnw" id="modeLearnW"><input type="radio" name="mode" value="tips" id="modeTips">
+      </div>
+
+      <div id="history"></div>
+
+      <div class="more">
+        <details class="news struct-d"><summary>📋 What the exam looks like: 4 parts · 110 points · pass with 42/70 and 24/40</summary><div class="struct">
         <table>
           <thead><tr><th>Part</th><th>What you do</th><th>Time</th><th>Points</th></tr></thead>
           <tbody>
@@ -642,33 +732,8 @@ details.src-list{font-size:.85rem;color:var(--muted)}
         </table>
         <p class="small muted" style="margin-top:8px">To pass: written part at least 42 of 70, oral part at least 24 of 40.</p>
       </div></details>
-      <div class="start-grid">
-        <div class="paths" role="radiogroup" aria-label="Mode">
-          <div class="path p-learn"><div class="path-h"><span class="pn">1</span><div><b>Learn</b><span class="small muted">Explanations, templates and examples with audio</span></div></div>
-          <div class="modes">
-          <label class="mode m-learn"><input type="radio" name="mode" value="learn" id="modeLearn"><span class="mi" aria-hidden="true">📚</span><span><b>Learn Mluvení</b> <span class="rec-tag">new</span><br><span class="small muted">Not a test but lessons for the oral part: explanations, templates, videos and hundreds of examples with audio for every úloha.</span><button type="button" class="btn primary sm mstart" data-start="1">Open lessons →</button></span></label>
-          <label class="mode m-learnw"><input type="radio" name="mode" value="learnw" id="modeLearnW"><span class="mi" aria-hidden="true">📝</span><span><b>Learn Psaní</b> <span class="rec-tag">new</span><br><span class="small muted">The form and the e-mail: templates, 80 tasks with samples, a word counter and an e-mail check.</span><button type="button" class="btn primary sm mstart" data-start="1">Open lessons →</button></span></label>
-          <label class="mode m-tips"><input type="radio" name="mode" value="tips" id="modeTips"><span class="mi" aria-hidden="true">💡</span><span><b>Exam tips</b><br><span class="small muted">What to do before, during and after the exam: registration, a strategy for each part, lifesaver phrases for Mluvení. Short, from official sources and candidates’ experience.</span><button type="button" class="btn primary sm mstart" data-start="1">Open the tips →</button></span></label>
-          </div></div>
-          <div class="path p-train"><div class="path-h"><span class="pn">2</span><div><b>Practise</b><span class="small muted">No rush, with hints, explanations and samples</span></div></div>
-          <div class="modes">
-          <label class="mode m-practice"><input type="radio" name="mode" value="practice" id="modePractice" checked><span class="mi" aria-hidden="true">📘</span><span><b>Practice</b> <span class="rec-tag">start here</span><br><span class="small muted">No time limit, audio can be replayed as often as you like, transcripts can be shown, with sample answers and explanations.</span><button type="button" class="btn primary sm mstart" data-start="1">Start →</button></span></label>
-          <label class="mode m-trainW"><input type="radio" name="mode" value="trainW" id="modeTrainW"><span class="mi" aria-hidden="true">✍️</span><span><b>Practise Psaní (writing)</b><br><span class="small muted">Writing only: the form and the e-mail. Samples, hints, the site’s score and a “Next task” button.</span><button type="button" class="btn primary sm mstart" data-start="1">Start →</button></span></label>
-          <label class="mode m-trainS"><input type="radio" name="mode" value="trainS" id="modeTrainS"><span class="mi" aria-hidden="true">🗣</span><span><b>Practise Mluvení (speaking)</b><br><span class="small muted">Speaking only: questions, dialogues, a story from pictures, making an agreement. Audio, voice recording and the site’s score.</span><button type="button" class="btn primary sm mstart" data-start="1">Start →</button></span></label>
-          </div></div>
-          <div class="path p-exam"><div class="path-h"><span class="pn">3</span><div><b>Test yourself</b><span class="small muted">A full mock exam with timers, like the real one</span></div></div>
-          <div class="modes">
-          <label class="mode m-exam"><input type="radio" name="mode" value="exam" id="modeExam"><span class="mi" aria-hidden="true">⏱️</span><span><b>Exam</b><br><span class="small muted">Timers, each recording can be started once (it plays twice), transcripts are hidden until checking. To test yourself after practising.</span><button type="button" class="btn primary sm mstart" data-start="1">Start →</button></span></label>
-          </div></div>
-        </div>
-        <div class="codebox" id="codeBox">
-          <label for="codeIn" class="small muted">Exam code (optional, to repeat the same exam):</label>
-          <input id="codeIn" inputmode="numeric" maxlength="6" placeholder="e.g. 482913">
-        </div>
-        <div><button class="btn primary" id="startBtn" type="button">Start a new exam</button></div>
-        <div id="history"></div>
-        <div class="more">
-        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-05">05.11.2026</time></summary>
+        <div class="appbar" id="appBar"><img class="app-ico" src="/zkouska-a2/img/app/icon-192.png" alt="" width="40" height="40"><span class="app-t"><b>Phone app</b><span>An icon on your home screen, opens with one tap. Free.</span></span><button class="btn primary sm" id="installBtn" type="button">📲 Install the app</button></div>
+        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-07">07.11.2026</time></summary>
           <p class="nh nh-hot">🔥 New this weekend</p><ul>
           <li><b>📲 Phone app.</b> Install Zkouška A2 as an app: an icon on your home screen, opens full screen, no need to look for the link. The “Install the app” button is at the top of the page.</li>
           <li><b>📝 Learn Psaní.</b> Writing is the weakest part of the exam for most candidates. Now it has lessons: an answer formula, an e-mail frame, 80 tasks with samples, a word counter, an instant e-mail check and a 25-minute training.</li>
@@ -703,9 +768,8 @@ details.src-list{font-size:.85rem;color:var(--muted)}
             <p class="small muted">On a phone: copy the number and paste it into your banking app. On a computer: scan the QR code with your banking app.</p>
           </div></div>
         </div></details>
-        </div>
-        <p class="official small">This is an unofficial learning platform. It is worth taking the official NPI ČR practice test at least once: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
       </div>
+      <p class="official small">This is an unofficial learning platform. It is worth taking the official NPI ČR practice test at least once: <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/" rel="noopener">cestina-pro-cizince.cz</a>.</p>
     </div>
   </section>
 
@@ -1624,7 +1688,7 @@ function startExam(){
 function goStart(){ stopSpeech(); s3Stop(); renderHistory(); $('#examView').hidden = true; $('#startView').hidden = false; $('#topActions').hidden = true; $('#codeIn').value = ''; resetNewBtn(); window.scrollTo({top:0}); }
 function showTips(){ stopSpeech(); $('#startView').hidden = true; $('#examView').hidden = true; $('#tipsView').hidden = false; $('#topActions').hidden = true; window.scrollTo({top:0}); track('tips_open'); }
 function hideTips(){ $('#tipsView').hidden = true; $('#startView').hidden = false; window.scrollTo({top:0}); }
-function modeUI(){ const tips = $('#modeTips').checked, lrn = $('#modeLearn').checked || $('#modeLearnW').checked; $('#codeBox').hidden = tips || lrn; $('#startBtn').textContent = tips ? 'Open the tips' : lrn ? 'Open lessons →' : 'Start a new exam'; }
+function modeUI(){}
 document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', modeUI));
 if(location.hash === '#porady'){ $('#modeTips').checked = true; modeUI(); showTips(); }
 function isDark(){ const t = document.documentElement.getAttribute('data-theme'); return t ? t === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
@@ -1639,7 +1703,8 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'New exam'; b.cl
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
-  if(t.id === 'startBtn' || t.dataset.start){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
+  if(t.dataset.go){ const r = $('#mode' + {exam:'Exam', practice:'Practice', trainW:'TrainW', trainS:'TrainS', learn:'Learn', learnw:'LearnW', tips:'Tips'}[t.dataset.go]); if(r) r.checked = true; track('home_pick', {mode: t.dataset.go}); if(t.dataset.go !== 'exam') $('#codeIn').value = ''; }
+  if(t.id === 'startBtn' || t.dataset.start || t.dataset.go){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Copied ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();
@@ -1684,17 +1749,7 @@ document.addEventListener('click', e => {
   });
 })();
 </script>
-<script>
-(function(){ var v=document.getElementById('promoVid'); if(!v) return;
-  var L=document.documentElement.lang; var m={uk:'uk',ru:'ru',en:'en',vi:'vi'}; var cur=m[L]||'uk';
-  function set(c){ v.poster='/zkouska-a2/video/poster-'+c+'.jpg'; v.src='/zkouska-a2/video/a2-'+c+'.mp4'; cur=c; }
-  set(cur);
-  var cz=document.getElementById('vidCz');
-  if(cz) cz.addEventListener('click',function(e){ e.preventDefault(); set('cs'); v.play().catch(function(){}); });
-  var sent=false; v.addEventListener('play',function(){ if(!sent){ sent=true; track('video_play',{video:cur}); } });
-  v.addEventListener('ended',function(){ track('video_complete',{video:cur}); });
-})();
-</script>
+<script>(function(){var c=document.getElementById('coffeeTop'); if(c) c.addEventListener('click',function(e){ e.preventDefault(); var d=document.getElementById('donate'); if(d){ d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'}); } track('donate_top'); });})();</script>
 <script>(function(){var y=document.getElementById('ytBar'); if(y) y.addEventListener('click',function(){ track('youtube_click',{place:'home'}); });})();</script>
 </body>
 </html>
