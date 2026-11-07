@@ -13,7 +13,7 @@ S("Dnes večer spolu vaříme večeři. Co uvaříme?", [("pizzu", ["1F355"]), (
   "Pizzu jsme měli včera, chci něco jiného.", "Polévka trvá dlouho a já mám velký hlad.",
   "Dobře, tak uděláme salát.", "Protože je rychlý, zdravý a máme doma zeleninu.", "Máš pravdu, salát je dobrý nápad. Jdeme na to."),
 S("V neděli odpoledne bude pršet. Co budeme dělat?", [("kino", ["1F3AC"]), ("bowling", ["1F3B3"]), ("muzeum", ["1F3DB"])],
-  "Do kina se mi nechce, v kině jsem byl minulý týden.", "Bowling je drahý a já nemám moc peněz.",
+  "Do kina se mi nechce, v kině jsem byla minulý týden.", "Bowling je drahý a já nemám moc peněz.",
   "Tak pojďme do muzea.", "Protože je tam nová výstava a v neděli je vstup levnější.", "Dobře, muzeum je fajn. Půjdeme tam ve dvě."),
 S("Kamarád se nastěhoval do nového bytu. Co mu koupíme do bytu?", [("lampu", ["1F4A1"]), ("květinu", ["1FAB4"]), ("obraz", ["1F5BC"])],
   "Lampu už má, koupil si ji minulý týden.", "Obraz je těžké vybrat, nevím, co se mu líbí.",
