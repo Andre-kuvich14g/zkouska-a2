@@ -750,7 +750,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
         </table>
         <p class="small muted" style="margin-top:8px">Чтобы сдать: письменная часть минимум 42 из 70, устная минимум 24 из 40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-07">07.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-08">08.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Новое на этой неделе</p><ul>
           <li><b>🎙 Новая озвучка в уроках Mluvení и Psaní.</b> Все 2 900 чешских фраз теперь читают профессиональные голоса: женский голос экзаменатора и мужской голос кандидата. Звучит естественно, как на настоящем экзамене, и можно слушать медленнее.</li>
           <li><b>🧭 Новая главная страница.</b> Всё понятно с первого взгляда: 1 — пробный экзамен, 2 — тренировка, 3 — уроки. Каждая кнопка открывает раздел одним касанием.</li>
@@ -1461,12 +1461,11 @@ function loadVoices(){ if(!hasTTS) return; VOICES = (speechSynthesis.getVoices()
 if(hasTTS){ loadVoices(); try{ speechSynthesis.addEventListener('voiceschanged', loadVoices); }catch(e){ speechSynthesis.onvoiceschanged = loadVoices; } }
 function updateVoiceNote(){
   const n = document.getElementById('voiceNote'); if(!n) return;
-  if(!hasTTS){ n.hidden = false; n.innerHTML = '<b>Браузер не поддерживает озвучивание.</b> Откройте страницу в Chrome, Edge или Safari. Пока можно включать «Текст записи» в режиме тренировки.'; return; }
+  if(!hasTTS){ n.hidden = true; return; n.innerHTML = '<b>Браузер не поддерживает озвучивание.</b> Откройте страницу в Chrome, Edge или Safari. Пока можно включать «Текст записи» в режиме тренировки.'; return; }
   const vi = document.getElementById('voiceInfo');
   if(vi && VOICES.length){ const f = pickVoice('f'), m = pickVoice('m'); vi.textContent = 'Голоса: ' + f.name + (m !== f ? ' + ' + m.name : ' (один голос)') + '.' + (VOICES.some(v => QUAL(v) >= 4) ? '' : ' Естественнее всего звучат голоса Microsoft Edge (Vlasta, Antonín) или Google.'); }
   renderVoiceSettings();
-  if(VOICES.length){ n.hidden = true; return; }
-  n.hidden = false;
+  n.hidden = true; return;
   n.innerHTML = '<b>Чешский голос не найден.</b> Записи могут звучать с акцентом. Как добавить чешский голос: <br>• Android: Настройки → Язык и ввод → Синтез речи → Google → установить чешский.<br>• iPhone: Настройки → Универсальный доступ → Устный контент → Голоса → Čeština (Zuzana).<br>• Windows: Параметры → Время и язык → Речь → Добавить голоса → Čeština.<br>Потом перезагрузите страницу.';
 }
 let VPREF = {f:'', m:'', pitch:true};
@@ -1512,8 +1511,36 @@ function parseScript(s){
     return {g:'f', alt:false, text: line};
   }).filter(x => x.text.trim());
 }
+const EL_F = 'vdZa6jplen8RQdIWzOGX', EL_M = 'e36pGtHFyzkf4HTb9rQG', EL_P = 'eqq8WgtBRP5bj6X669PV';
+const EL_BASE = location.pathname.replace(/\/(en|ru|vi)\/[^\/]*$/, '/').replace(/[^\/]*$/, '') + 'learn/audio/';
+let EL_AU = null;
+async function elKey(v, t){ const b = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(v + '|' + t)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 16); }
+function altVoice(script){ let s = 0; for(const ch of String(script)) s += ch.codePointAt(0); return s % 2 === 1; }
+function elPlay(voice, text, tok, alive){
+  return new Promise(async res => {
+    let k; try{ k = await elKey(voice, text); }catch(e){ return res('fail'); }
+    if(tok !== speakTok || (alive && !alive())) return res('stop');
+    const a = new Audio(EL_BASE + k + '.mp3'); EL_AU = a; let done = false;
+    const fin = r => { if(done) return; done = true; clearInterval(iv); res(r); };
+    a.onended = () => fin('ok'); a.onerror = () => fin('fail');
+    const iv = setInterval(() => { if(tok !== speakTok || (alive && !alive())){ try{ a.pause(); }catch(e){} fin('stop'); } }, 150);
+    a.play().catch(() => fin('fail'));
+  });
+}
 const UTT_REFS = new Set();
-function speakSegs(segs, tok, alive){
+async function speakSegs(segs, tok, alive){
+  for(let si = 0; si < segs.length; si++){
+    const sg = segs[si], t = cleanSpeech(sg.text).trim(); if(!t) continue;
+    if(tok !== speakTok || (alive && !alive())) return false;
+    const v = sg.g === 'f' ? EL_F : (sg.v3 ? EL_P : EL_M);
+    const r = await elPlay(v, t, tok, alive);
+    if(r === 'stop') return false;
+    if(r === 'fail'){ if(!hasTTS) continue; const ok = await ttsSegs([sg], tok, alive); if(!ok) return false; }
+    if(si < segs.length - 1){ await sleep(450); }
+  }
+  return tok === speakTok;
+}
+function ttsSegs(segs, tok, alive){
   return new Promise(res => {
     const queue = [];
     segs.forEach((sg, si) => (cleanSpeech(sg.text).match(/[^.!?]+[.!?]*/g) || [sg.text]).forEach(t => { if(t.trim()) queue.push({g:sg.g, alt:sg.alt, text:t.trim(), turn:si}); }));
@@ -1536,9 +1563,8 @@ function speakSegs(segs, tok, alive){
     next();
   });
 }
-function stopSpeech(){ speakTok++; if(PREV_WAKE){ const w = PREV_WAKE; PREV_WAKE = null; w(); } $$('.skipbtn').forEach(b => b.remove()); if(hasTTS) speechSynthesis.cancel(); $$('.play.playing').forEach(b => { b.classList.remove('playing'); b.textContent = '▶ Přehrát (2×)'; }); $$('.stopbtn').forEach(b => b.hidden = true); }
+function stopSpeech(){ speakTok++; if(EL_AU){ try{ EL_AU.pause(); }catch(e){} EL_AU = null; } if(PREV_WAKE){ const w = PREV_WAKE; PREV_WAKE = null; w(); } $$('.skipbtn').forEach(b => b.remove()); if(hasTTS) speechSynthesis.cancel(); $$('.play.playing').forEach(b => { b.classList.remove('playing'); b.textContent = '▶ Přehrát (2×)'; }); $$('.stopbtn').forEach(b => b.hidden = true); }
 async function playTwice(btn){
-  if(!hasTTS) return;
   track('audio_play', {item: btn.dataset.key});
   const key = btn.dataset.key;
   if(MODE === 'exam' && (PLAYS[key] || 0) >= 1) return;
@@ -1546,7 +1572,7 @@ async function playTwice(btn){
   const tok = ++speakTok;
   PLAYS[key] = (PLAYS[key] || 0) + 1;
   const script = scriptFor(key);
-  const segs = parseScript(script);
+  const segs = parseScript(script); const v3 = altVoice(script); segs.forEach(sg => { if(sg.g === 'm') sg.v3 = v3; });
   btn.classList.add('playing'); btn.textContent = '♪ 1. poslech';
   const stop = btn.parentElement.querySelector('.stopbtn'); stop.hidden = false;
   const task = key.split('-')[0];
@@ -1570,7 +1596,7 @@ async function playTwice(btn){
     if(tok !== speakTok) return abort();
     PREV_WAKE = null; btn.classList.remove('previewing');
     $$('.skipbtn').forEach(b => b.remove());
-    if(PREV_SKIP && hasTTS){ speechSynthesis.cancel(); await sleep(200); }
+    if(PREV_SKIP){ if(EL_AU){ try{ EL_AU.pause(); }catch(e){} } if(hasTTS) speechSynthesis.cancel(); await sleep(200); }
     btn.textContent = '♪ 1. poslech';
   }
   await sleep(150);
@@ -1597,8 +1623,8 @@ function scriptFor(key){
   if(key === 'l5') return E.l5.script;
   const [t, i] = key.split('-'); return E[t].items[+i].script;
 }
-async function sayDialog(lines){ if(!hasTTS || !lines) return; stopSpeech(); const tok = ++speakTok; await sleep(120); speakSegs(lines.map(l => ({g: l[0] === 'T' ? 'f' : 'm', alt:false, text:l[1]})), tok); }
-async function say(text, g){ if(!hasTTS) return; stopSpeech(); const tok = ++speakTok; await sleep(120);
+async function sayDialog(lines){ if(!lines) return; stopSpeech(); const tok = ++speakTok; await sleep(120); speakSegs(lines.map(l => ({g: l[0] === 'T' ? 'f' : 'm', alt:false, text:l[1]})), tok); }
+async function say(text, g){ stopSpeech(); const tok = ++speakTok; await sleep(120);
   const parts = String(text).split(/\s[–-]\s/); const segs = parts.length > 1 ? parts.map((t, i) => ({g: i % 2 ? 'm' : 'f', alt:false, text:t})) : [{g: g || 'f', alt:false, text}];
   speakSegs(segs, tok); }
 
@@ -1748,6 +1774,7 @@ document.addEventListener('click', e => {
   if(t.classList.contains('srbtn')) return toggleSR(t);
   if(t.classList.contains('sayd')) return sayDialog(DLG.at(Number(t.dataset.dlg)));
 });
+window.__a2audio = {cleanSpeech, parseScript, altVoice, elKey, EL_BASE, EL_F, EL_M, EL_P, PREVIEW_SAY, PREVIEW_SEC, V};
 })();
 </script>
 
