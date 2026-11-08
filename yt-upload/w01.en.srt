@@ -1,0 +1,455 @@
+1
+00:00:00,200 --> 00:00:10,556
+Speaking, task one. Topic 1: About me. Ten questions. Listen to the question and answer out loud.
+
+2
+00:00:11,267 --> 00:00:12,526
+What is your name?
+
+3
+00:00:17,933 --> 00:00:21,709
+My name is Oleh Kovalenko. My friends call me Olek.
+
+4
+00:00:22,600 --> 00:00:23,663
+Where are you from?
+
+5
+00:00:29,067 --> 00:00:33,324
+I am from Ukraine, from the city of Kharkiv. It is a big city in the east.
+
+6
+00:00:34,233 --> 00:00:35,511
+Where do you live now?
+
+7
+00:00:40,900 --> 00:00:43,748
+Now I live in Kralupy nad Vltavou with my family.
+
+8
+00:00:44,633 --> 00:00:46,146
+How long have you been in Czechia?
+
+9
+00:00:51,533 --> 00:00:55,396
+I have been in Czechia for five years. I came in 2021.
+
+10
+00:00:56,300 --> 00:00:57,393
+What do you do?
+
+11
+00:01:02,800 --> 00:01:05,809
+I work in a warehouse and in my free time I learn Czech.
+
+12
+00:01:06,700 --> 00:01:08,503
+What languages do you speak?
+
+13
+00:01:13,900 --> 00:01:17,250
+I speak Ukrainian, Russian and a little Czech and English.
+
+14
+00:01:18,167 --> 00:01:19,443
+What kind of person are you?
+
+15
+00:01:24,833 --> 00:01:28,645
+I think I am calm and friendly. I like helping people.
+
+16
+00:01:29,533 --> 00:01:31,623
+What did you do before you came to Czechia?
+
+17
+00:01:37,033 --> 00:01:39,605
+In Ukraine I worked as a shop assistant.
+
+18
+00:01:40,500 --> 00:01:42,022
+Why did you come to Czechia?
+
+19
+00:01:47,433 --> 00:01:50,616
+I came because of work and because my relatives live here.
+
+20
+00:01:51,500 --> 00:01:53,280
+What would you like to do in five years?
+
+21
+00:01:58,667 --> 00:02:01,993
+In five years I would like to have a better job and speak Czech well.
+
+22
+00:02:02,933 --> 00:02:11,717
+Speaking, task one. Topic 2: Family. Ten questions. Listen to the question and answer out loud.
+
+23
+00:02:12,433 --> 00:02:14,106
+How many people are there in your family?
+
+24
+00:02:19,500 --> 00:02:23,264
+There are four of us: my wife, two sons and me.
+
+25
+00:02:24,166 --> 00:02:25,505
+Do you have any brothers or sisters?
+
+26
+00:02:30,900 --> 00:02:35,738
+Yes, I have one brother. He is three years older and lives in Ukraine.
+
+27
+00:02:36,633 --> 00:02:38,162
+Where do your parents live?
+
+28
+00:02:43,566 --> 00:02:46,481
+My parents live in Ukraine in a small town by a river.
+
+29
+00:02:47,366 --> 00:02:49,733
+What does your husband or wife do?
+
+30
+00:02:55,133 --> 00:02:58,098
+My wife works in a hospital as a nurse.
+
+31
+00:02:59,000 --> 00:03:00,557
+How old are your children?
+
+32
+00:03:05,966 --> 00:03:10,138
+My son is nine and my daughter is five. My son is in the third year at school.
+
+33
+00:03:11,033 --> 00:03:12,883
+What do you like doing as a family?
+
+34
+00:03:18,300 --> 00:03:21,509
+As a family we like going for walks and at the weekend we play games.
+
+35
+00:03:22,400 --> 00:03:24,165
+How often do you call your parents?
+
+36
+00:03:29,566 --> 00:03:32,706
+I call my parents almost every evening when they are at home.
+
+37
+00:03:33,600 --> 00:03:35,370
+When did you last see your parents?
+
+38
+00:03:40,766 --> 00:03:44,649
+I last saw my parents last summer when they came to visit.
+
+39
+00:03:45,533 --> 00:03:47,900
+How did you celebrate the last birthday in your family?
+
+40
+00:03:53,300 --> 00:03:57,144
+Last month we had a party at home for our son with a cake and friends.
+
+41
+00:03:58,033 --> 00:03:59,785
+Where will you go with your family next time?
+
+42
+00:04:05,200 --> 00:04:07,930
+Next summer we will go to the sea in Croatia with the family.
+
+43
+00:04:08,933 --> 00:04:18,513
+Speaking, task two. Card number 1. You are at the post office. You want to send a parcel abroad. Ask four questions.
+
+44
+00:04:19,200 --> 00:04:22,433
+You are at the post office. You want to send a parcel abroad.
+
+45
+00:04:23,633 --> 00:04:26,128
+Hello. What can I do for you?
+
+46
+00:04:31,333 --> 00:04:35,085
+Hello, I want to send a parcel to Ukraine. How much does it cost?
+
+47
+00:04:35,300 --> 00:04:38,733
+A parcel up to 5 kilograms costs 650 CZK.
+
+48
+00:04:43,933 --> 00:04:45,283
+How long does it take?
+
+49
+00:04:45,500 --> 00:04:47,258
+The parcel will be there in about five days.
+
+50
+00:04:52,466 --> 00:04:54,087
+Can I pay by card?
+
+51
+00:04:54,300 --> 00:04:56,993
+Yes, you can pay by card or in cash.
+
+52
+00:05:02,200 --> 00:05:03,933
+Can I track the parcel online?
+
+53
+00:05:04,133 --> 00:05:06,689
+Yes, you will find the tracking number on the receipt.
+
+54
+00:05:06,900 --> 00:05:09,900
+Thank you for the information. Goodbye.
+
+55
+00:05:10,100 --> 00:05:11,866
+You're welcome. Goodbye.
+
+56
+00:05:12,133 --> 00:05:21,939
+Speaking, task two. Card number 2. You are at a language school. You want to sign up for an English course. Ask four questions.
+
+57
+00:05:22,633 --> 00:05:26,428
+You are at a language school. You want to sign up for an English course.
+
+58
+00:05:27,633 --> 00:05:30,128
+Hello. What can I do for you?
+
+59
+00:05:35,333 --> 00:05:37,896
+Hello, when does the English course start?
+
+60
+00:05:38,100 --> 00:05:40,200
+The new course starts on 1 October.
+
+61
+00:05:45,400 --> 00:05:46,433
+How much is it?
+
+62
+00:05:46,633 --> 00:05:49,594
+The course costs 4,500 CZK per term.
+
+63
+00:05:54,800 --> 00:05:56,587
+How many people are in the group?
+
+64
+00:05:56,800 --> 00:05:59,222
+There are at most ten people in the group.
+
+65
+00:06:04,433 --> 00:06:05,566
+Is the course in the evening?
+
+66
+00:06:05,766 --> 00:06:08,685
+Yes, the lessons are always on Tuesday at 6 pm.
+
+67
+00:06:08,900 --> 00:06:11,900
+Thank you for the information. Goodbye.
+
+68
+00:06:12,100 --> 00:06:13,866
+You're welcome. Goodbye.
+
+69
+00:06:14,133 --> 00:06:24,644
+Speaking, task three. Story number 1: Moving house. What did the Novák family do yesterday? Tell the story from the pictures in the past tense.
+
+70
+00:06:25,333 --> 00:06:27,358
+What did the Novák family do yesterday?
+
+71
+00:06:48,066 --> 00:06:50,864
+Yesterday the Novák family moved to a new flat.
+
+72
+00:06:51,066 --> 00:06:53,100
+In the morning they packed everything into boxes.
+
+73
+00:06:53,300 --> 00:06:56,033
+Mum packed the dishes and the children packed the toys.
+
+74
+00:06:56,233 --> 00:06:58,000
+Then a big van arrived.
+
+75
+00:06:58,200 --> 00:07:01,166
+Two strong men carried the boxes and furniture to the van.
+
+76
+00:07:01,366 --> 00:07:03,833
+It was hard, but it went quickly.
+
+77
+00:07:04,033 --> 00:07:06,722
+In the new flat they put the sofa and the table in place.
+
+78
+00:07:06,933 --> 00:07:10,161
+Dad put the beds together and Mum cleaned the kitchen.
+
+79
+00:07:10,366 --> 00:07:12,333
+In the evening everyone was very tired.
+
+80
+00:07:12,533 --> 00:07:14,900
+They had no time to cook, so they ordered pizza.
+
+81
+00:07:15,100 --> 00:07:17,600
+They ate it on the floor between the boxes and laughed.
+
+82
+00:07:17,933 --> 00:07:28,165
+Speaking, task three. Story number 2: A trip to the mountains. What did Petr and Jana do on Saturday? Tell the story from the pictures in the past tense.
+
+83
+00:07:28,866 --> 00:07:30,612
+What did Petr and Jana do on Saturday?
+
+84
+00:07:51,300 --> 00:07:53,866
+On Saturday Petr and Jana went on a trip to the mountains.
+
+85
+00:07:54,066 --> 00:07:56,587
+In the morning they sat on the train and looked out of the window.
+
+86
+00:07:56,800 --> 00:07:59,017
+It was nice outside and the sun was shining.
+
+87
+00:07:59,233 --> 00:08:01,725
+Then they walked up the path to the top of the hill.
+
+88
+00:08:01,933 --> 00:08:04,833
+The way was long, but the nature was beautiful.
+
+89
+00:08:05,033 --> 00:08:06,633
+Suddenly it started to rain.
+
+90
+00:08:06,833 --> 00:08:10,200
+Petr and Jana had no umbrella, so they got completely wet.
+
+91
+00:08:10,400 --> 00:08:12,058
+Finally they found a small hut.
+
+92
+00:08:12,266 --> 00:08:14,466
+They sat down at the table and drank hot tea.
+
+93
+00:08:14,666 --> 00:08:17,266
+They rested and waited for the rain to stop.
+
+94
+00:08:17,567 --> 00:08:28,243
+Speaking, task four. Situation number 1. The examiner describes a situation. Agree with her, choose one option and say why.
+
+95
+00:08:28,934 --> 00:08:37,639
+Our friend has a birthday soon. We want to buy her a present together. What shall we buy her? Any ideas? You can choose from these options.
+
+96
+00:08:46,334 --> 00:08:47,905
+We can buy her a book.
+
+97
+00:08:48,200 --> 00:08:50,707
+I think she already has the book. She doesn't read much.
+
+98
+00:08:50,999 --> 00:08:52,693
+Then let's buy her chocolate.
+
+99
+00:08:52,999 --> 00:08:55,501
+Not chocolate, she doesn't eat sweets now.
+
+100
+00:08:55,800 --> 00:08:58,436
+OK, then let's buy her flowers.
+
+101
+00:08:58,734 --> 00:09:00,340
+And why do you want to buy that?
+
+102
+00:09:00,634 --> 00:09:03,167
+Because she likes flowers and they will make her happy.
+
+103
+00:09:03,467 --> 00:09:07,064
+That's true, flowers are a good idea. Let's buy her flowers.
+
+104
+00:09:07,467 --> 00:09:17,470
+Speaking, task four. Situation number 2. The examiner describes a situation. Agree with her, choose one option and say why.
+
+105
+00:09:18,167 --> 00:09:25,040
+On Saturday evening we want to go out together. Where shall we go? Any ideas? You can choose from these options.
+
+106
+00:09:33,734 --> 00:09:35,256
+How about going to the cinema?
+
+107
+00:09:35,567 --> 00:09:38,026
+I don't feel like the cinema, I was there yesterday.
+
+108
+00:09:38,334 --> 00:09:39,749
+Then we can go to the theatre.
+
+109
+00:09:40,034 --> 00:09:41,380
+The theatre is too expensive.
+
+110
+00:09:41,667 --> 00:09:43,175
+Then let's go to a restaurant.
+
+111
+00:09:43,467 --> 00:09:44,983
+And why do you want to go there?
+
+112
+00:09:45,267 --> 00:09:47,925
+Because we are hungry and we can talk there in peace.
+
+113
+00:09:48,234 --> 00:09:51,963
+OK, that's a good idea. Let's go to a restaurant.
+
+114
+00:09:52,267 --> 00:10:01,223
+Practise situation 2 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.
