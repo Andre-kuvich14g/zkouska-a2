@@ -6,25 +6,25 @@
 <title>Czech A2 exam: lessons and practice – Zkouška A2 nanečisto</title>
 <meta name="description" content="Free Czech A2 practice exam for permanent residence (trvalý pobyt) – new format from 11 April 2026. Reading, writing, listening, speaking, 20 variants, explanations in English.">
 <meta name="keywords" content="Czech A2 exam, permanent residence Czech Republic, trvalý pobyt, Czech language test practice, A2 mock test, zkouška A2">
-<link rel="canonical" href="https://andre-kuvich14g.github.io/zkouska-a2/en/">
-<link rel="alternate" hreflang="uk" href="https://andre-kuvich14g.github.io/zkouska-a2/">
-<link rel="alternate" hreflang="en" href="https://andre-kuvich14g.github.io/zkouska-a2/en/">
-<link rel="alternate" hreflang="ru" href="https://andre-kuvich14g.github.io/zkouska-a2/ru/">
-<link rel="alternate" hreflang="vi" href="https://andre-kuvich14g.github.io/zkouska-a2/vi/">
-<link rel="alternate" hreflang="x-default" href="https://andre-kuvich14g.github.io/zkouska-a2/">
+<link rel="canonical" href="https://zkouska-a2.cz/en/">
+<link rel="alternate" hreflang="uk" href="https://zkouska-a2.cz/">
+<link rel="alternate" hreflang="en" href="https://zkouska-a2.cz/en/">
+<link rel="alternate" hreflang="ru" href="https://zkouska-a2.cz/ru/">
+<link rel="alternate" hreflang="vi" href="https://zkouska-a2.cz/vi/">
+<link rel="alternate" hreflang="x-default" href="https://zkouska-a2.cz/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Zkouška A2 nanečisto – trvalý pobyt">
 <meta property="og:description" content="A free platform to prepare for the Czech A2 exam for permanent residence: lessons, practice and a mock exam in the new 2026 format, 4 languages.">
-<meta property="og:url" content="https://andre-kuvich14g.github.io/zkouska-a2/en/">
-<meta property="og:image" content="https://andre-kuvich14g.github.io/zkouska-a2/og-image-en.jpg">
+<meta property="og:url" content="https://zkouska-a2.cz/en/">
+<meta property="og:image" content="https://zkouska-a2.cz/og-image-en.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Czech A2 practice exam – free, 20 variants">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://andre-kuvich14g.github.io/zkouska-a2/og-image-en.jpg">
+<meta name="twitter:image" content="https://zkouska-a2.cz/og-image-en.jpg">
 <meta name="robots" content="index, follow">
-<link rel="manifest" href="/zkouska-a2/manifest.webmanifest">
+<link rel="manifest" href="/manifest.webmanifest">
 <script>
 /* App launch: open the user's language (explicit choice > last used > phone language) */
 (function(){ try{
@@ -33,16 +33,16 @@
   if(app && location.search.indexOf('utm_source=pwa') >= 0){
     var pref = localStorage.getItem('a2-lang') || localStorage.getItem('a2-last-lang');
     if(!pref){ var b = ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0,2).toLowerCase(); pref = b === 'ru' ? 'ru' : b === 'vi' ? 'vi' : b === 'en' ? 'en' : 'uk'; }
-    if(L.indexOf(pref) >= 0 && pref !== cur){ location.replace('/zkouska-a2/' + (pref === 'uk' ? '' : pref + '/') + location.search + location.hash); return; }
+    if(L.indexOf(pref) >= 0 && pref !== cur){ location.replace('/' + (pref === 'uk' ? '' : pref + '/') + location.search + location.hash); return; }
   }
   localStorage.setItem('a2-last-lang', cur);
 }catch(e){} })();
 </script>
 
 <meta name="theme-color" content="#1f4e9c">
-<link rel="icon" type="image/png" sizes="32x32" href="/zkouska-a2/img/app/favicon-32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/zkouska-a2/img/app/icon-192.png">
-<link rel="apple-touch-icon" href="/zkouska-a2/img/app/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/app/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/img/app/icon-192.png">
+<link rel="apple-touch-icon" href="/img/app/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Zkouška A2">
@@ -612,7 +612,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
 <script>
 (function(){
   var PAGE_LANG = document.documentElement.lang || 'uk';
-  var URLS = {uk:'/zkouska-a2/', en:'/zkouska-a2/en/', ru:'/zkouska-a2/ru/', vi:'/zkouska-a2/vi/'};
+  var URLS = {uk:'/', en:'/en/', ru:'/ru/', vi:'/vi/'};
   var SUG = {en:['This page is also available in English.','Switch to English'], ru:['Эта страница есть на русском языке.','Перейти на русский'], vi:['Trang này có tiếng Việt.','Chuyển sang tiếng Việt'], uk:['Ця сторінка є українською.','Перейти на українську']};
   document.addEventListener('DOMContentLoaded', function(){
     var nav = document.getElementById('langs'); if(!nav) return;
@@ -639,7 +639,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
   function alertLang(){ var n = document.getElementById('langwarn'); if(!n){ n = document.createElement('div'); n.id = 'langwarn'; n.className = 'langwarn'; document.body.appendChild(n); } n.textContent = LANG_WARN; n.hidden = false; clearTimeout(n._t); n._t = setTimeout(function(){ n.hidden = true; }, 4000); }
 })();
 (function(){
-  var ua = navigator.userAgent || '', url = 'https://andre-kuvich14g.github.io/zkouska-a2/en/';
+  var ua = navigator.userAgent || '', url = 'https://zkouska-a2.cz/en/';
   var apps = [['Facebook', /FBAN|FBAV|FB_IAB|FBIOS|FB4A/i], ['Messenger', /Messenger|Orca/i], ['Instagram', /Instagram/i], ['Viber', /Viber/i], ['TikTok', /musical_ly|TikTok|BytedanceWebview/i], ['LinkedIn', /LinkedInApp/i], ['Snapchat', /Snapchat/i], ['Line', /\bLine\//i], ['WhatsApp', /WhatsApp/i]];
   var app = null; for (var i = 0; i < apps.length; i++) if (apps[i][1].test(ua)) { app = apps[i][0]; break; }
   var android = /Android/i.test(ua), ios = /iPhone|iPad|iPod/i.test(ua);
@@ -678,7 +678,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
 <div class="wrap">
   <div class="top">
     <div class="brand"><span class="eyebrow">Trvalý pobyt · úroveň A2 · nový formát od 11. 4. 2026</span><b>Zkouška A2 nanečisto</b></div>
-    <nav class="langs" id="langs" aria-label="Interface language"><span class="globe" aria-hidden="true">🌐</span><a href="/zkouska-a2/" hreflang="uk" data-lang="uk">UA</a><a href="/zkouska-a2/en/" hreflang="en" data-lang="en">EN</a><a href="/zkouska-a2/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/zkouska-a2/vi/" hreflang="vi" data-lang="vi">VI</a></nav><button type="button" class="btn theme-btn" id="themeBtn" aria-label="Dark theme"></button>
+    <nav class="langs" id="langs" aria-label="Interface language"><span class="globe" aria-hidden="true">🌐</span><a href="/" hreflang="uk" data-lang="uk">UA</a><a href="/en/" hreflang="en" data-lang="en">EN</a><a href="/ru/" hreflang="ru" data-lang="ru">RU</a><a href="/vi/" hreflang="vi" data-lang="vi">VI</a></nav><button type="button" class="btn theme-btn" id="themeBtn" aria-label="Dark theme"></button>
     <div class="top-actions" id="topActions" hidden>
       <span class="code" id="codeLabel"></span>
       <button class="btn sm" id="newBtn" type="button">New exam</button>
@@ -1750,7 +1750,7 @@ function resetNewBtn(){ const b = $('#newBtn'); b.textContent = 'New exam'; b.cl
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-jump]'); if(!t) return;
   if(t.dataset.go){ const r = $('#mode' + {exam:'Exam', practice:'Practice', trainW:'TrainW', trainS:'TrainS', learn:'Learn', learnw:'LearnW', tips:'Tips'}[t.dataset.go]); if(r) r.checked = true; track('home_pick', {mode: t.dataset.go}); if(t.dataset.go !== 'exam') $('#codeIn').value = ''; }
-  if(t.id === 'startBtn' || t.dataset.start || t.dataset.go){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/zkouska-a2/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
+  if(t.id === 'startBtn' || t.dataset.start || t.dataset.go){ if($('#modeLearn').checked || $('#modeLearnW').checked){ const w = $('#modeLearnW').checked; track('learn_open_card', {part: w ? 'psani' : 'mluveni'}); location.href = '/learn/?lang=' + (document.documentElement.lang || 'uk') + (w ? '#psani' : ''); return; } return $('#modeTips').checked ? showTips() : startExam(); }
   if(t.dataset.copyacc){ const acc = '2074872011/3030'; const done = ok => { const o = t.dataset.lbl || t.textContent; t.dataset.lbl = o; t.textContent = ok ? 'Copied ✓' : acc; setTimeout(() => { t.textContent = o; }, 2000); };
     try{ navigator.clipboard.writeText(acc).then(() => done(true), () => done(false)); }catch(err){ done(false); } track('donate_copy'); return; }
   if(t.id === 'tipsBack') return hideTips();
@@ -1783,7 +1783,7 @@ window.__a2audio = {cleanSpeech, parseScript, altVoice, elKey, EL_BASE, EL_F, EL
 (function(){
   var standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
   function ev(n, p){ try{ if(typeof gtag === 'function') gtag('event', n, p || {}); }catch(e){} }
-  if('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('/zkouska-a2/sw.js', {scope:'/zkouska-a2/'}).catch(function(){}); });
+  if('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('/sw.js', {scope:'/'}).catch(function(){}); });
   if(standalone){ document.body.classList.add('standalone'); try{ if(!sessionStorage.getItem('a2-app-open')){ sessionStorage.setItem('a2-app-open','1'); ev('app_open', {platform: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'ios' : (/Android/.test(navigator.userAgent) ? 'android' : 'desktop')}); } }catch(e){ ev('app_open'); } return; }
   var deferred = null, btn = document.getElementById('installBtn'), help = document.getElementById('appHelp');
   window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferred = e; ev('install_available'); });

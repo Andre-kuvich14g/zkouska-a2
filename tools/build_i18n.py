@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from i18n_extract import segments, CYR
 from i18n_tr import T, KEEP
 from why_tr import X
-BASE = 'https://andre-kuvich14g.github.io/zkouska-a2/'
+BASE = 'https://zkouska-a2.cz/'
 LANGS = {'en': (0, 'en_US'), 'ru': (1, 'ru_RU'), 'vi': (2, 'vi_VN')}
 DATA_RE = re.compile(r'(<script type="application/json" id="exam-data">)(.*?)(</script>)', re.S)
 

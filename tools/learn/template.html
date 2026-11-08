@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="manifest" href="/zkouska-a2/manifest.webmanifest">
+<link rel="manifest" href="/manifest.webmanifest">
 <meta name="theme-color" content="#1f4e9c">
-<link rel="icon" type="image/png" sizes="32x32" href="/zkouska-a2/img/app/favicon-32.png">
-<link rel="apple-touch-icon" href="/zkouska-a2/img/app/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/app/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/app/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="Zkouška A2">
 <title>Вчимо Mluvení – Zkouška A2 nanečisto</title>
 <meta name="description" content="Уроки до усної частини іспиту A2 з чеської для трвалого побиту: пояснення, шаблони, відео й сотні прикладів з озвученням. Lekce k ústní části zkoušky A2 pro trvalý pobyt.">
-<link rel="canonical" href="https://andre-kuvich14g.github.io/zkouska-a2/learn/">
+<link rel="canonical" href="https://zkouska-a2.cz/learn/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Вчимо Mluvení · Zkouška A2 nanečisto">
 <meta property="og:description" content="Безкоштовні уроки до усної частини іспиту A2 з чеської: шаблони, відео й приклади з озвученням.">
-<meta property="og:url" content="https://andre-kuvich14g.github.io/zkouska-a2/learn/">
-<meta property="og:image" content="https://andre-kuvich14g.github.io/zkouska-a2/og-image.jpg">
+<meta property="og:url" content="https://zkouska-a2.cz/learn/">
+<meta property="og:image" content="https://zkouska-a2.cz/og-image.jpg">
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -166,11 +166,11 @@ h2.grp{font-size:1.15rem;margin-top:8px}
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="back" id="backLink" href="/zkouska-a2/"></a>
+    <a class="back" id="backLink" href="/"></a>
     <div class="right"><nav class="langs" id="langs" aria-label="Language"></nav><button class="btn icon-btn" id="themeBtn" type="button"></button></div>
   </header>
   <main id="app"></main>
-  <p class="foot">Zkouška A2 nanečisto · <a href="/zkouska-a2/ochrana-osobnich-udaju.html">Ochrana osobních údajů</a> · <a href="/zkouska-a2/zdroje-obrazku.html">Zdroje obrázků</a></p>
+  <p class="foot">Zkouška A2 nanečisto · <a href="/ochrana-osobnich-udaju.html">Ochrana osobních údajů</a> · <a href="/zdroje-obrazku.html">Zdroje obrázků</a></p>
 </div>
 <script type="application/json" id="learn-data">@@DATA@@</script>
 <script>
@@ -191,7 +191,7 @@ const track = (n, p) => { try{ if(typeof gtag === 'function') gtag('event', n, p
 const fold = x => String(x).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 /* header */
-$('#backLink').textContent = t('back'); $('#backLink').href = '/zkouska-a2/' + (lang === 'uk' ? '' : lang + '/');
+$('#backLink').textContent = t('back'); $('#backLink').href = '/' + (lang === 'uk' ? '' : lang + '/');
 $('#langs').innerHTML = LANGS.map(l => `<a href="?lang=${l}${location.hash}" ${l === lang ? 'aria-current="page"' : ''}>${{uk:'UA',en:'EN',ru:'RU',vi:'VI'}[l]}</a>`).join('');
 function isDark(){ const a = document.documentElement.getAttribute('data-theme'); return a ? a === 'dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
 function themeUI(){ const b = $('#themeBtn'), d = isDark(); b.textContent = d ? '☀️' : '🌙'; b.title = d ? t('themeL') : t('themeD'); b.setAttribute('aria-label', b.title); }
@@ -462,6 +462,6 @@ document.addEventListener('click', e => { const a = e.target.closest('[data-retr
 route();
 })();
 </script>
-<script>if('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('/zkouska-a2/sw.js', {scope:'/zkouska-a2/'}).catch(function(){}); });</script>
+<script>if('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('/sw.js', {scope:'/'}).catch(function(){}); });</script>
 </body>
 </html>
