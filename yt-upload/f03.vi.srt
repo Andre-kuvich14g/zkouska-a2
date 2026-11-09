@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:11,353
+Phần Viết, bài một. Mẫu đơn số 3. Thành phố làm bảng khảo sát cho cư dân. Hãy trả lời các câu hỏi. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:12,067 --> 00:00:13,867
+Bạn sống ở thành phố của chúng tôi bao lâu rồi?
+
+3
+00:00:24,267 --> 00:00:29,140
+Tôi sống ở Kralupy đã năm năm, tôi chuyển đến đây cùng gia đình năm 2021.
+
+4
+00:00:30,033 --> 00:00:31,636
+Bạn thích gì ở thành phố?
+
+5
+00:00:42,033 --> 00:00:46,307
+Tôi thích dòng sông, công viên đẹp và việc thành phố yên tĩnh, sạch sẽ.
+
+6
+00:00:47,200 --> 00:00:49,018
+Bạn muốn thay đổi điều gì ở thành phố?
+
+7
+00:00:59,433 --> 00:01:03,693
+Tôi muốn thành phố có thêm sân chơi cho trẻ em và tuyến xe buýt đi Praha tốt hơn.
+
+8
+00:01:04,600 --> 00:01:14,131
+Hãy điền mẫu đơn 3 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:11,353
+Writing, task one. Form number 3. The town is running a survey for residents. Answer the questions. Answer in a full sentence, at least ten words.
+
+2
+00:00:12,067 --> 00:00:13,867
+How long have you lived in our town?
+
+3
+00:00:24,267 --> 00:00:29,140
+I have lived in Kralupy for five years, I moved here with my family in 2021.
+
+4
+00:00:30,033 --> 00:00:31,636
+What do you like about the town?
+
+5
+00:00:42,033 --> 00:00:46,307
+I like the river, the nice park and that the town is quiet and clean.
+
+6
+00:00:47,200 --> 00:00:49,018
+What would you like to change in the town?
+
+7
+00:00:59,433 --> 00:01:03,693
+I would like more playgrounds for children and a better bus connection to Prague.
+
+8
+00:01:04,600 --> 00:01:14,131
+Fill in form 3 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

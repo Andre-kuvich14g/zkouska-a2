@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,552
+Mluvení, úloha čtyři. Situace číslo 3. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,267 --> 00:00:18,720
+V létě chceme spolu jet na dovolenou. Kam pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:27,433 --> 00:00:28,583
+Můžeme jet k moři.
+
+4
+00:00:28,867 --> 00:00:30,437
+K moři je to moc daleko.
+
+5
+00:00:30,733 --> 00:00:32,757
+Tak pojedeme do nějakého velkého města.
+
+6
+00:00:33,067 --> 00:00:34,904
+Ve městě je v létě moc horko.
+
+7
+00:00:35,200 --> 00:00:36,559
+Tak pojedeme na hory.
+
+8
+00:00:36,867 --> 00:00:38,464
+A proč chceš jet tam?
+
+9
+00:00:38,767 --> 00:00:42,080
+Protože tam je klid, čerstvý vzduch a můžeme chodit na výlety.
+
+10
+00:00:42,367 --> 00:00:44,539
+Máš pravdu. Pojedeme na hory.
+
+11
+00:00:44,833 --> 00:00:54,190
+Procvičte si situaci 3 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

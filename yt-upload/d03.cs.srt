@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,363
+Mluvení, úloha dvě. Karta číslo 3. Jste na recepci u lékaře. Chcete se objednat na prohlídku. Položte čtyři otázky.
+
+2
+00:00:11,067 --> 00:00:14,891
+Jste na recepci u lékaře. Chcete se objednat na prohlídku.
+
+3
+00:00:16,100 --> 00:00:18,595
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,800 --> 00:00:26,967
+Dobrý den, máte volný termín na prohlídku?
+
+5
+00:00:27,167 --> 00:00:29,030
+Volný termín máme ve čtvrtek.
+
+6
+00:00:34,233 --> 00:00:35,767
+V kolik hodin můžu přijít?
+
+7
+00:00:35,967 --> 00:00:37,733
+Můžete přijít v deset hodin.
+
+8
+00:00:42,933 --> 00:00:44,160
+Co si mám přinést?
+
+9
+00:00:44,367 --> 00:00:46,033
+Přineste si kartu pojištěnce.
+
+10
+00:00:51,233 --> 00:00:52,700
+Musím přijít nalačno?
+
+11
+00:00:52,900 --> 00:00:56,289
+Ne, nalačno nemusíte, můžete se normálně nasnídat.
+
+12
+00:00:56,500 --> 00:00:59,500
+Děkuju za informace. Na shledanou.
+
+13
+00:00:59,700 --> 00:01:01,467
+Není zač. Na shledanou.
+
+14
+00:01:01,667 --> 00:01:10,842
+Procvičte si kartu 3 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

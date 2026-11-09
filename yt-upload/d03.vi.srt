@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,363
+Phần Nói, bài hai. Thẻ số 3. Bạn ở quầy lễ tân phòng khám. Bạn muốn đặt lịch khám. Hãy đặt bốn câu hỏi.
+
+2
+00:00:11,067 --> 00:00:14,891
+Bạn ở quầy lễ tân phòng khám. Bạn muốn đặt lịch khám.
+
+3
+00:00:16,100 --> 00:00:18,595
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,800 --> 00:00:26,967
+Xin chào, chị còn lịch trống để khám không?
+
+5
+00:00:27,167 --> 00:00:29,030
+Chúng tôi có lịch trống vào thứ Năm.
+
+6
+00:00:34,233 --> 00:00:35,767
+Tôi có thể đến lúc mấy giờ?
+
+7
+00:00:35,967 --> 00:00:37,733
+Bạn có thể đến lúc mười giờ.
+
+8
+00:00:42,933 --> 00:00:44,160
+Tôi cần mang theo gì?
+
+9
+00:00:44,367 --> 00:00:46,033
+Hãy mang theo thẻ bảo hiểm y tế.
+
+10
+00:00:51,233 --> 00:00:52,700
+Tôi có phải nhịn ăn khi đến không?
+
+11
+00:00:52,900 --> 00:00:56,289
+Không, bạn không cần nhịn ăn, có thể ăn sáng bình thường.
+
+12
+00:00:56,500 --> 00:00:59,500
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:59,700 --> 00:01:01,467
+Không có gì. Tạm biệt.
+
+14
+00:01:01,667 --> 00:01:10,842
+Hãy luyện thẻ 3 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

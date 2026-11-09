@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,363
+Speaking, task two. Card number 3. You are at the doctor's reception. You want to book a check-up. Ask four questions.
+
+2
+00:00:11,067 --> 00:00:14,891
+You are at the doctor's reception. You want to book a check-up.
+
+3
+00:00:16,100 --> 00:00:18,595
+Good afternoon. How can I help you?
+
+4
+00:00:23,800 --> 00:00:26,967
+Hello, do you have a free slot for a check-up?
+
+5
+00:00:27,167 --> 00:00:29,030
+We have a free slot on Thursday.
+
+6
+00:00:34,233 --> 00:00:35,767
+What time can I come?
+
+7
+00:00:35,967 --> 00:00:37,733
+You can come at ten.
+
+8
+00:00:42,933 --> 00:00:44,160
+What should I bring?
+
+9
+00:00:44,367 --> 00:00:46,033
+Bring your health insurance card.
+
+10
+00:00:51,233 --> 00:00:52,700
+Do I have to come on an empty stomach?
+
+11
+00:00:52,900 --> 00:00:56,289
+No, you don't, you can have breakfast as usual.
+
+12
+00:00:56,500 --> 00:00:59,500
+Thank you for the information. Goodbye.
+
+13
+00:00:59,700 --> 00:01:01,467
+You're welcome. Goodbye.
+
+14
+00:01:01,667 --> 00:01:10,842
+Practise card 3 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

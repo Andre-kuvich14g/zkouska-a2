@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:11,353
+Psaní, úloha jedna. Formulář číslo 3. Město dělá dotazník pro obyvatele. Odpovězte na otázky. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:12,067 --> 00:00:13,867
+Jak dlouho bydlíte v našem městě?
+
+3
+00:00:24,267 --> 00:00:29,140
+V Kralupech bydlím už pět let, přistěhoval jsem se sem s rodinou v roce 2021.
+
+4
+00:00:30,033 --> 00:00:31,636
+Co se vám ve městě líbí?
+
+5
+00:00:42,033 --> 00:00:46,307
+Líbí se mi řeka, hezký park a to, že je město klidné a čisté.
+
+6
+00:00:47,200 --> 00:00:49,018
+Co byste ve městě chtěl změnit?
+
+7
+00:00:59,433 --> 00:01:03,693
+Chtěl bych ve městě víc hřišť pro děti a lepší autobusové spojení do Prahy.
+
+8
+00:01:04,600 --> 00:01:14,131
+Vyplňte formulář 3 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
