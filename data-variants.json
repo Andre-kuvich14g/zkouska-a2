@@ -722,7 +722,7 @@
        "Jakou práci byste chtěl/a dělat za pět let?"
       ],
       "answers": [
-       "Pracuju ve skladu v Kralupech.",
+       "Pracuju ve skladu v Kralupech. Pracuju tam už dva roky a práce mě baví, i když je těžká.",
        "Každý den nakládám a vykládám zboží a kontroluju krabice.",
        "Dřív jsem pracoval/a jako prodavač/ka v obchodě.",
        "Za pět let bych chtěl/a pracovat v kanceláři jako účetní."
@@ -2679,8 +2679,8 @@
        "Co budete dělat, když bude o víkendu pršet?"
       ],
       "answers": [
-       "Mám rád/a teplé a slunečné počasí.",
-       "Dnes je zima a trochu prší.",
+       "Mám rád/a teplé a slunečné počasí. V létě rád/a chodím k vodě, protože zimu nemám rád/a.",
+       "Dnes je zima a trochu prší. Proto jsem si vzal/a teplou bundu a deštník.",
        "Minulý víkend bylo hezky, svítilo slunce a bylo teplo.",
        "Když bude o víkendu pršet, budu doma a budu se dívat na film."
       ]
@@ -4628,9 +4628,9 @@
        "Co se chcete ještě naučit?"
       ],
       "answers": [
-       "Česky se učím už tři roky.",
+       "Česky se učím už tři roky. Chodím do kurzu a doma se učím z internetu.",
        "Na češtině se mi líbí, že je podobná ukrajinštině.",
-       "Studoval/a jsem ekonomii na vysoké škole.",
+       "Studoval/a jsem ekonomii na vysoké škole. Studium trvalo pět let a bylo zajímavé.",
        "Ještě se chci naučit lépe mluvit a psát česky."
       ]
      }
@@ -5598,7 +5598,7 @@
        "Co budete dělat zítra v práci?"
       ],
       "answers": [
-       "Pracuju jako skladník ve velké firmě.",
+       "Pracuju jako skladník ve velké firmě. Připravuju zboží pro zákazníky a jezdím s vozíkem.",
        "Na práci se mi líbí, že mám dobré kolegy.",
        "Práci jsem hledal/a na internetu a přes pracovní agenturu.",
        "Zítra budu v práci nakládat zboží do kamionů."
@@ -8481,7 +8481,7 @@
        "Co budete dělat, abyste byl/a zdravý/á?"
       ],
       "answers": [
-       "Mám se dobře, děkuju.",
+       "Mám se dobře, děkuju. Dnes jsem trochu nervózní, ale jsem rád/a, že jsem tady.",
        "Když jsem nemocný/á, zůstanu doma a piju hodně čaje.",
        "Naposledy jsem byl/a u lékaře minulý měsíc na prohlídce.",
        "Budu víc sportovat a jíst méně sladkého."
@@ -8497,7 +8497,7 @@
       ],
       "answers": [
        "Oblečení kupuju v obchodním centru nebo na internetu.",
-       "Mám rád/a modrou barvu.",
+       "Mám rád/a modrou barvu. Modrá je klidná barva a doma máme modrý gauč.",
        "Naposledy jsem si koupil/a džíny a tričko.",
        "Na zimu si koupím teplou bundu a čepici."
       ]
@@ -9451,7 +9451,7 @@
       ],
       "answers": [
        "Večer po práci vařím večeři a odpočívám.",
-       "Ano, čtu knihy, nejraději detektivky.",
+       "Ano, čtu knihy, nejraději detektivky. Večer před spaním čtu asi půl hodiny.",
        "Minulou neděli jsem byl/a s rodinou v parku.",
        "O prázdninách pojedeme na týden k moři."
       ]
@@ -10415,7 +10415,7 @@
        "Co uvaříte o víkendu?"
       ],
       "answers": [
-       "Rád/a piju kávu a zelený čaj.",
+       "Rád/a piju kávu a zelený čaj. Ráno piju kávu a večer čaj, protože po kávě nemůžu spát.",
        "Ano, vařím doma, nejčastěji polévky a těstoviny.",
        "Včera jsem k večeři jedl/a kuře s rýží.",
        "O víkendu uvařím boršč pro celou rodinu."
@@ -10431,7 +10431,7 @@
       ],
       "answers": [
        "Bydlím v bytě v paneláku ve třetím patře.",
-       "Moji sousedé jsou milí a tiší.",
+       "Moji sousedé jsou milí a tiší. Někdy si spolu povídáme na chodbě a pomáháme si.",
        "Byt jsem hledal/a na internetu a v realitní kanceláři.",
        "Ve svém bytě bych chtěl/a novou kuchyň."
       ]
@@ -11388,7 +11388,7 @@
        "Kam byste chtěl/a jet v budoucnu?"
       ],
       "answers": [
-       "Ano, rád/a cestuju, hlavně po Evropě.",
+       "Ano, rád/a cestuju, hlavně po Evropě. Minulý rok jsem byl/a ve Vídni a v Budapešti.",
        "Líbí se mi Český Krumlov, protože je to krásné staré město.",
        "Minulý rok jsem byl/a na dovolené v Chorvatsku.",
        "V budoucnu bych chtěl/a jet do Španělska."
@@ -11403,9 +11403,9 @@
        "Co budete dělat zítra po práci?"
       ],
       "answers": [
-       "Pracuju osm hodin denně.",
+       "Pracuju osm hodin denně. Začínám v šest ráno a končím ve dvě odpoledne.",
        "Do práce jezdím autem, je to asi patnáct minut.",
-       "Studoval/a jsem ekonomii na univerzitě.",
+       "Studoval/a jsem ekonomii na univerzitě. Teď ale pracuju v jiném oboru.",
        "Zítra po práci půjdu nakoupit a potom budu doma s rodinou."
       ]
      }
@@ -12359,9 +12359,9 @@
        "Kam byste chtěl/a vzít kamaráda na procházku?"
       ],
       "answers": [
-       "Bydlím v Kralupech nad Vltavou.",
+       "Bydlím v Kralupech nad Vltavou. Je to malé město blízko Prahy a bydlí se tu dobře.",
        "V mém městě je zajímavá řeka a hezký park.",
-       "Bydlím tam už pět let.",
+       "Bydlím tam už pět let. Předtím jsem bydlel/a na Ukrajině.",
        "Kamaráda bych vzal/a na procházku podél řeky Vltavy."
       ]
      },
@@ -12377,7 +12377,7 @@
        "U nás doma nakupuje hlavně manželka, ale někdy i já.",
        "Podle mě jsou nejlepší ceny v Lidlu a v Kauflandu.",
        "Minulý víkend jsem koupil/a ovoce, maso a nový ručník.",
-       "Zítra budu kupovat chleba a mléko."
+       "Zítra budu kupovat chleba a mléko. Půjdu do obchodu po práci, protože ráno nemám čas."
       ]
      }
     ],
@@ -13329,10 +13329,10 @@
        "Jaký sport byste chtěl/a zkusit?"
       ],
       "answers": [
-       "Ano, sportuju dvakrát týdně, chodím běhat.",
+       "Ano, sportuju dvakrát týdně, chodím běhat. Běhám v parku, obvykle v úterý a v sobotu.",
        "V televizi se dívám na fotbal a hokej.",
        "Jako dítě jsem hrál/a volejbal ve škole.",
-       "Chtěl/a bych zkusit tenis."
+       "Chtěl/a bych zkusit tenis. Myslím, že je to zábavný sport a můžu ho hrát s kamarádem."
       ]
      },
      {
@@ -14290,7 +14290,7 @@
        "Co budete dělat zítra odpoledne?"
       ],
       "answers": [
-       "Vstávám v pět hodin ráno.",
+       "Vstávám v pět hodin ráno. Do práce jezdím autobusem a začínám v šest.",
        "Ráno se osprchuju, nasnídám se a jedu do práce.",
        "Včera večer jsem se díval/a na film a četl/a knihu.",
        "Zítra odpoledne půjdu se synem na hřiště."
@@ -14305,7 +14305,7 @@
        "Co uděláte příští týden pro své zdraví?"
       ],
       "answers": [
-       "Ano, chodím na procházky každý víkend.",
+       "Ano, chodím na procházky každý víkend. Nejraději chodím s rodinou k řece nebo do lesa.",
        "Jím hodně ovoce a zeleniny a málo sladkého.",
        "Naposledy jsem sportoval/a v neděli, byl/a jsem plavat.",
        "Příští týden budu chodit do práce pěšky."
@@ -15260,10 +15260,10 @@
        "Jaký koníček byste chtěl/a mít?"
       ],
       "answers": [
-       "Můj koníček je vaření a fotografování.",
+       "Můj koníček je vaření a fotografování. Rád/a vařím pro rodinu a fotím přírodu.",
        "Volného času mám málo, hlavně o víkendu.",
        "O minulých prázdninách jsem byl/a s rodinou na horách.",
-       "Chtěl/a bych hrát na kytaru."
+       "Chtěl/a bych hrát na kytaru. Už jsem si koupil/a kytaru, ale zatím nemám čas."
       ]
      },
      {
@@ -15275,7 +15275,7 @@
        "Kde budete žít za pět let?"
       ],
       "answers": [
-       "V Česku žiju od roku 2021.",
+       "V Česku žiju od roku 2021. Přijel/a jsem sem s rodinou a líbí se mi tady.",
        "V Česku se mi líbí příroda a staré hrady.",
        "První den v Česku jsem hledal/a ubytování a byl/a jsem na úřadě.",
        "Za pět let budu žít tady v Česku."
@@ -17204,7 +17204,7 @@
       "answers": [
        "Už jsem byl/a na ministerstvu vnitra a na úřadu práce.",
        "Na úřadech je pro mě těžké vyplňovat formuláře.",
-       "Naposledy jsem vyřizoval/a prodloužení pobytu.",
+       "Naposledy jsem vyřizoval/a prodloužení pobytu. Musel/a jsem jít na ministerstvo vnitra a přinést hodně dokladů.",
        "Příští rok budu muset vyřídit trvalý pobyt."
       ]
      },
@@ -17218,7 +17218,7 @@
       ],
       "answers": [
        "Do kina chodím jednou za měsíc, do divadla ne.",
-       "Poslouchám pop a ukrajinskou hudbu.",
+       "Poslouchám pop a ukrajinskou hudbu. Hudbu poslouchám hlavně v autě a při vaření.",
        "Naposledy jsem viděl/a českou komedii v kině.",
        "Chtěl/a bych jít na koncert své oblíbené kapely."
       ]
@@ -18166,7 +18166,7 @@
       "answers": [
        "V Česku je drahé bydlení a energie.",
        "Nejlevněji nakupuju v Lidlu a na internetu.",
-       "Draze jsem koupil/a nový telefon.",
+       "Draze jsem koupil/a nový telefon. Stál skoro dvacet tisíc korun, ale je moc dobrý.",
        "Šetřím peníze na dovolenou a na auto."
       ]
      },
