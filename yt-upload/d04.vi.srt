@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,923
+Phần Nói, bài hai. Thẻ số 4. Bạn ở quầy vé nhà ga. Bạn muốn đi tàu đến Brno. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,633 --> 00:00:15,027
+Bạn ở quầy vé nhà ga. Bạn muốn đi tàu đến Brno.
+
+3
+00:00:16,233 --> 00:00:18,665
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,867 --> 00:00:26,933
+Xin chào, khi nào có tàu đi Brno?
+
+5
+00:00:27,133 --> 00:00:29,890
+Chuyến tàu gần nhất khởi hành lúc 10:15.
+
+6
+00:00:35,100 --> 00:00:37,323
+Vé giá bao nhiêu?
+
+7
+00:00:37,533 --> 00:00:40,133
+Vé giá 320 korun.
+
+8
+00:00:45,333 --> 00:00:47,467
+Tôi có phải đổi tàu không?
+
+9
+00:00:47,667 --> 00:00:49,367
+Không, tàu chạy thẳng.
+
+10
+00:00:54,567 --> 00:00:57,428
+Tàu chạy từ sân ga nào?
+
+11
+00:00:57,633 --> 00:01:00,088
+Tàu chạy từ sân ga số 3.
+
+12
+00:01:00,300 --> 00:01:03,486
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:03,700 --> 00:01:05,167
+Chúc thượng lộ bình an.
+
+14
+00:01:05,367 --> 00:01:15,159
+Hãy luyện thẻ 4 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

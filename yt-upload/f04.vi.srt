@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:14,288
+Phần Viết, bài một. Mẫu đơn số 4. Bạn muốn làm thêm ở siêu thị. Hãy trả lời các câu hỏi trong đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:15,000 --> 00:00:17,594
+Bạn đã từng làm công việc gì?
+
+3
+00:00:28,000 --> 00:00:34,948
+Tôi đã làm nhân viên bán hàng ở cửa hàng thực phẩm hai năm và xếp hàng lên kệ.
+
+4
+00:00:35,833 --> 00:00:39,647
+Tại sao bạn muốn làm việc ở siêu thị của chúng tôi?
+
+5
+00:00:50,033 --> 00:00:57,388
+Tôi muốn làm ở đây vì siêu thị ở gần và tôi đang tìm việc bán thời gian.
+
+6
+00:00:58,300 --> 00:01:00,558
+Khi nào bạn có thể làm việc?
+
+7
+00:01:10,967 --> 00:01:17,555
+Tôi có thể làm từ thứ Hai đến thứ Sáu buổi chiều và cả ngày thứ Bảy cách tuần.
+
+8
+00:01:18,467 --> 00:01:28,306
+Hãy điền mẫu đơn 4 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

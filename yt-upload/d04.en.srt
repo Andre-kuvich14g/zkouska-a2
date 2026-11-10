@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,923
+Speaking, task two. Card number 4. You are at the station ticket office. You want to take a train to Brno. Ask four questions.
+
+2
+00:00:10,633 --> 00:00:15,027
+You are at the station ticket office. You want to take a train to Brno.
+
+3
+00:00:16,233 --> 00:00:18,665
+Good afternoon. How can I help you?
+
+4
+00:00:23,867 --> 00:00:26,933
+Hello, when is the train to Brno?
+
+5
+00:00:27,133 --> 00:00:29,890
+The next train leaves at 10:15.
+
+6
+00:00:35,100 --> 00:00:37,323
+How much is the ticket?
+
+7
+00:00:37,533 --> 00:00:40,133
+The ticket costs 320 crowns.
+
+8
+00:00:45,333 --> 00:00:47,467
+Do I have to change trains?
+
+9
+00:00:47,667 --> 00:00:49,367
+No, the train is direct.
+
+10
+00:00:54,567 --> 00:00:57,428
+Which platform does the train leave from?
+
+11
+00:00:57,633 --> 00:01:00,088
+The train leaves from platform 3.
+
+12
+00:01:00,300 --> 00:01:03,486
+Thank you for the information. Goodbye.
+
+13
+00:01:03,700 --> 00:01:05,167
+Have a good trip.
+
+14
+00:01:05,367 --> 00:01:15,159
+Practise card 4 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.
