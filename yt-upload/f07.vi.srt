@@ -1,31 +1,31 @@
 1
-00:00:00,200 --> 00:00:14,009
+00:00:00,200 --> 00:00:12,861
 Phần Viết, bài một. Mẫu đơn số 7. Bạn muốn thuê ô tô. Hãy trả lời các câu hỏi trong mẫu đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
 
 2
-00:00:14,700 --> 00:00:18,235
+00:00:13,567 --> 00:00:15,911
 Bạn muốn thuê xe mấy ngày và khi nào?
 
 3
-00:00:28,633 --> 00:00:35,535
+00:00:26,300 --> 00:00:31,246
 Tôi muốn thuê xe bốn ngày, từ thứ Sáu ngày mười hai đến thứ Hai ngày mười lăm tháng Bảy.
 
 4
-00:00:36,433 --> 00:00:38,563
+00:00:32,133 --> 00:00:33,673
 Bạn sẽ đi đâu và tại sao?
 
 5
-00:00:48,967 --> 00:00:55,114
+00:00:44,067 --> 00:00:48,266
 Chúng tôi sẽ cùng gia đình đến Šumava vì muốn ngắm núi và đi dã ngoại.
 
 6
-00:00:56,000 --> 00:00:58,873
+00:00:49,167 --> 00:00:51,241
 Bạn cần loại xe nào và tại sao?
 
 7
-00:01:09,267 --> 00:01:15,936
+00:01:01,633 --> 00:01:06,564
 Tôi cần xe lớn cho năm người vì chúng tôi có ba con và nhiều hành lý.
 
 8
-00:01:16,833 --> 00:01:26,707
+00:01:07,467 --> 00:01:15,605
 Hãy điền mẫu đơn 7 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

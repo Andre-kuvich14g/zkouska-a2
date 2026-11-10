@@ -1,55 +1,55 @@
 1
-00:00:00,200 --> 00:00:09,888
+00:00:00,200 --> 00:00:09,865
 Mluvení, úloha dvě. Karta číslo 5. Jste v obchodě s oblečením. Chcete koupit zimní bundu. Položte čtyři otázky.
 
 2
-00:00:10,600 --> 00:00:15,168
+00:00:10,567 --> 00:00:14,448
 Jste v obchodě s oblečením. Chcete koupit zimní bundu.
 
 3
-00:00:16,367 --> 00:00:18,752
+00:00:15,633 --> 00:00:18,128
 Dobrý den. Co pro vás můžu udělat?
 
 4
-00:00:23,967 --> 00:00:28,267
+00:00:23,333 --> 00:00:26,597
 Dobrý den, máte tuhle bundu ve větší velikosti?
 
 5
-00:00:28,467 --> 00:00:30,700
+00:00:26,800 --> 00:00:29,033
 Ano, máme ji i ve velikosti L.
 
 6
-00:00:35,900 --> 00:00:37,400
+00:00:34,233 --> 00:00:35,267
 Kolik stojí?
 
 7
-00:00:37,600 --> 00:00:40,891
+00:00:35,467 --> 00:00:37,867
 Bunda stojí 2 490 Kč.
 
 8
-00:00:46,100 --> 00:00:49,733
+00:00:43,067 --> 00:00:45,167
 Můžu ji vrátit, když se mi nebude líbit?
 
 9
-00:00:49,933 --> 00:00:52,226
+00:00:45,367 --> 00:00:47,525
 Vrátit ji můžete do 30 dnů.
 
 10
-00:00:57,433 --> 00:00:59,923
+00:00:52,733 --> 00:00:54,321
 Máte ji i v černé barvě?
 
 11
-00:01:00,133 --> 00:01:02,967
+00:00:54,533 --> 00:00:56,861
 Ano, černou máme ve všech velikostech.
 
 12
-00:01:03,167 --> 00:01:06,295
+00:00:57,067 --> 00:01:00,067
 Děkuju za informace. Na shledanou.
 
 13
-00:01:06,500 --> 00:01:08,533
+00:01:00,267 --> 00:01:01,660
 Děkuji, na shledanou.
 
 14
-00:01:08,733 --> 00:01:18,259
-Procvičte si kartu 5 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:01,867 --> 00:01:10,594
+Procvičte si kartu 5 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

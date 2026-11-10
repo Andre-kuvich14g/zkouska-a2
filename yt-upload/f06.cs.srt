@@ -1,31 +1,31 @@
 1
-00:00:00,200 --> 00:00:14,056
+00:00:00,200 --> 00:00:12,486
 Psaní, úloha jedna. Formulář číslo 6. Hledáte novou práci. Odpovězte na otázky v dotazníku pracovní agentury. Odpovězte celou větou, minimálně deset slov.
 
 2
-00:00:14,767 --> 00:00:17,256
+00:00:13,200 --> 00:00:14,901
 Jakou práci teď děláte?
 
 3
-00:00:27,667 --> 00:00:33,837
+00:00:25,300 --> 00:00:29,611
 Teď pracuju jako skladník ve velké firmě, nakládám a vykládám zboží.
 
 4
-00:00:34,733 --> 00:00:37,513
+00:00:30,500 --> 00:00:32,574
 Jakou práci hledáte a proč?
 
 5
-00:00:47,900 --> 00:00:55,487
+00:00:42,967 --> 00:00:48,075
 Hledám práci v kanceláři, protože jsem studoval ekonomii a chci pracovat ve svém oboru.
 
 6
-00:00:56,400 --> 00:00:59,273
+00:00:48,967 --> 00:00:50,784
 Od kdy můžete začít pracovat?
 
 7
-00:01:09,667 --> 00:01:16,057
+00:01:01,200 --> 00:01:04,694
 Pracovat můžu začít od prvního prosince, protože musím dát výpověď.
 
 8
-00:01:16,967 --> 00:01:26,817
-Vyplňte formulář 6 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:05,600 --> 00:01:13,972
+Vyplňte formulář 6 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

@@ -1,31 +1,31 @@
 1
-00:00:00,200 --> 00:00:14,009
+00:00:00,200 --> 00:00:12,861
 Psaní, úloha jedna. Formulář číslo 7. Chcete si půjčit auto v autopůjčovně. Odpovězte na otázky ve formuláři. Odpovězte celou větou, minimálně deset slov.
 
 2
-00:00:14,700 --> 00:00:18,235
+00:00:13,567 --> 00:00:15,911
 Na kolik dní a kdy chcete auto půjčit?
 
 3
-00:00:28,633 --> 00:00:35,535
+00:00:26,300 --> 00:00:31,246
 Chci si půjčit auto na čtyři dny, od pátku dvanáctého do pondělí patnáctého července.
 
 4
-00:00:36,433 --> 00:00:38,563
+00:00:32,133 --> 00:00:33,673
 Kam a proč pojedete?
 
 5
-00:00:48,967 --> 00:00:55,114
+00:00:44,067 --> 00:00:48,266
 Pojedeme s rodinou na Šumavu, protože chceme vidět hory a chodit na výlety.
 
 6
-00:00:56,000 --> 00:00:58,873
+00:00:49,167 --> 00:00:51,241
 Jaké auto potřebujete a proč?
 
 7
-00:01:09,267 --> 00:01:15,936
+00:01:01,633 --> 00:01:06,564
 Potřebuju velké auto pro pět lidí, protože máme tři děti a hodně zavazadel.
 
 8
-00:01:16,833 --> 00:01:26,707
-Vyplňte formulář 7 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:07,467 --> 00:01:15,605
+Vyplňte formulář 7 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

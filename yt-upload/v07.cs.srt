@@ -1,51 +1,51 @@
 1
-00:00:00,200 --> 00:00:10,724
+00:00:00,200 --> 00:00:10,672
 Mluvení, úloha tři. Příběh číslo 7: U lékaře. Co se stalo včera Olze? Vyprávějte podle obrázků v minulém čase.
 
 2
-00:00:11,433 --> 00:00:13,726
+00:00:11,367 --> 00:00:12,959
 Co se stalo včera Olze?
 
 3
-00:00:34,433 --> 00:00:37,833
+00:00:33,667 --> 00:00:35,756
 Včera ráno se Olga necítila dobře.
 
 4
-00:00:38,033 --> 00:00:42,450
+00:00:35,967 --> 00:00:39,290
 Ležela v posteli, bolela ji hlava a měla horečku.
 
 5
-00:00:42,667 --> 00:00:44,797
+00:00:39,500 --> 00:00:40,995
 Do práce nemohla jít.
 
 6
-00:00:45,000 --> 00:00:49,127
+00:00:41,200 --> 00:00:44,223
 Zavolala do ordinace a objednala se k lékařce.
 
 7
-00:00:49,333 --> 00:00:53,133
+00:00:44,433 --> 00:00:46,933
 Sestra jí řekla, ať přijde v deset hodin.
 
 8
-00:00:53,333 --> 00:00:55,765
+00:00:47,133 --> 00:00:48,753
 Lékařka Olgu vyšetřila.
 
 9
-00:00:55,967 --> 00:01:00,593
+00:00:48,967 --> 00:00:52,033
 Řekla jí, že má chřipku, a napsala jí recept.
 
 10
-00:01:00,800 --> 00:01:03,487
+00:00:52,233 --> 00:00:54,125
 Potom šla Olga do lékárny.
 
 11
-00:01:03,700 --> 00:01:06,155
+00:00:54,333 --> 00:00:56,061
 Koupila si léky a čaj.
 
 12
-00:01:06,367 --> 00:01:09,866
+00:00:56,267 --> 00:00:58,624
 Doma si lehla a celý den odpočívala.
 
 13
-00:01:10,067 --> 00:01:20,265
-Vyprávějte příběh 7 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:00:58,833 --> 00:01:08,133
+Vyprávějte příběh 7 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

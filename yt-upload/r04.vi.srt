@@ -1,43 +1,43 @@
 1
-00:00:00,200 --> 00:00:11,885
+00:00:00,200 --> 00:00:09,797
 Phần Nói, bài bốn. Tình huống số 4. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận với cô ấy, chọn một phương án và nói lý do.
 
 2
-00:00:12,600 --> 00:00:20,512
+00:00:10,500 --> 00:00:19,259
 Thứ Bảy bạn bè sẽ đến nhà. Chúng ta muốn cùng nấu bữa tối. Nấu món gì đây? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này.
 
 3
-00:00:29,200 --> 00:00:31,330
+00:00:27,967 --> 00:00:29,280
 Chúng ta có thể nấu cá.
 
 4
-00:00:31,633 --> 00:00:34,053
+00:00:29,567 --> 00:00:31,236
 Mình không thích cá, không hợp khẩu vị.
 
 5
-00:00:34,367 --> 00:00:36,241
+00:00:31,533 --> 00:00:32,861
 Vậy làm pizza nhé.
 
 6
-00:00:36,533 --> 00:00:38,756
+00:00:33,167 --> 00:00:35,075
 Tuần trước chúng ta ăn pizza rồi.
 
 7
-00:00:39,067 --> 00:00:41,313
+00:00:35,367 --> 00:00:36,843
 Vậy nấu món goulash.
 
 8
-00:00:41,600 --> 00:00:43,521
+00:00:37,133 --> 00:00:38,675
 Thế tại sao bạn muốn nấu món này?
 
 9
-00:00:43,833 --> 00:00:49,040
+00:00:38,967 --> 00:00:42,105
 Vì ai cũng thích goulash và có thể nấu trước.
 
 10
-00:00:49,333 --> 00:00:52,322
+00:00:42,400 --> 00:00:45,374
 Được, goulash là ý hay. Chúng ta nấu goulash.
 
 11
-00:00:52,633 --> 00:01:02,623
+00:00:45,667 --> 00:00:55,038
 Hãy luyện tình huống 4 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

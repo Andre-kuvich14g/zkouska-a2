@@ -1,31 +1,31 @@
 1
-00:00:00,200 --> 00:00:14,288
+00:00:00,200 --> 00:00:13,762
 Writing, task one. Form number 4. You want a part-time job in a supermarket. Answer the questions in the application. Answer in a full sentence, at least ten words.
 
 2
-00:00:15,000 --> 00:00:17,594
+00:00:14,467 --> 00:00:16,047
 What work have you done before?
 
 3
-00:00:28,000 --> 00:00:34,948
+00:00:26,433 --> 00:00:30,973
 For two years I worked as a shop assistant in a grocery store and stocked the shelves.
 
 4
-00:00:35,833 --> 00:00:39,647
+00:00:31,867 --> 00:00:34,234
 Why do you want to work in our supermarket?
 
 5
-00:00:50,033 --> 00:00:57,388
+00:00:44,633 --> 00:00:50,465
 I want to work for you because the supermarket is close and I'm looking for a part-time job.
 
 6
-00:00:58,300 --> 00:01:00,558
+00:00:51,367 --> 00:00:52,730
 When can you work?
 
 7
-00:01:10,967 --> 00:01:17,555
+00:01:03,133 --> 00:01:07,406
 I can work Monday to Friday in the afternoon and every other Saturday all day.
 
 8
-00:01:18,467 --> 00:01:28,306
+00:01:08,300 --> 00:01:18,073
 Fill in form 4 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

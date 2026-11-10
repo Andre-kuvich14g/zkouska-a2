@@ -1,43 +1,43 @@
 1
-00:00:00,200 --> 00:00:12,407
+00:00:00,200 --> 00:00:10,660
 Mluvení, úloha tři. Příběh číslo 4: Ztracená peněženka. Co se stalo včera panu Dvořákovi? Vyprávějte podle obrázků v minulém čase.
 
 2
-00:00:13,100 --> 00:00:16,205
+00:00:11,367 --> 00:00:13,319
 Co se stalo včera panu Dvořákovi?
 
 3
-00:00:36,900 --> 00:00:41,166
+00:00:34,033 --> 00:00:36,693
 Včera ráno jel pan Dvořák autobusem do práce.
 
 4
-00:00:41,367 --> 00:00:43,856
+00:00:36,900 --> 00:00:38,667
 V autobuse bylo hodně lidí.
 
 5
-00:00:44,067 --> 00:00:50,423
+00:00:38,867 --> 00:00:43,655
 Když přišel do práce, chtěl si koupit kávu, ale zjistil, že nemá peněženku.
 
 6
-00:00:50,633 --> 00:00:58,661
+00:00:43,867 --> 00:00:49,519
 Byl nervózní, protože v peněžence měl platební kartu, řidičský průkaz a povolení k pobytu.
 
 7
-00:00:58,867 --> 00:01:02,833
+00:00:49,733 --> 00:00:52,200
 Nejdřív zavolal do banky a kartu zablokoval.
 
 8
-00:01:03,033 --> 00:01:07,767
+00:00:52,400 --> 00:00:55,660
 Odpoledne šel na policii a nahlásil ztrátu dokladů.
 
 9
-00:01:07,967 --> 00:01:10,700
+00:00:55,867 --> 00:00:57,600
 Policista napsal protokol.
 
 10
-00:01:10,900 --> 00:01:17,163
+00:00:57,800 --> 00:01:02,127
 Večer mu zavolali z dopravního podniku, že peněženku někdo našel v autobuse.
 
 11
-00:01:17,367 --> 00:01:27,902
-Vyprávějte příběh 4 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:02,333 --> 00:01:10,669
+Vyprávějte příběh 4 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

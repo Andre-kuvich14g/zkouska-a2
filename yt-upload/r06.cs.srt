@@ -1,43 +1,43 @@
 1
-00:00:00,200 --> 00:00:11,560
+00:00:00,200 --> 00:00:10,667
 Mluvení, úloha čtyři. Situace číslo 6. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
 
 2
-00:00:12,267 --> 00:00:18,193
+00:00:11,367 --> 00:00:21,718
 Kamarád se stěhuje do nového bytu. Co mu koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
 
 3
-00:00:26,900 --> 00:00:29,471
+00:00:30,433 --> 00:00:31,992
 Můžeme mu koupit květinu.
 
 4
-00:00:29,767 --> 00:00:32,930
+00:00:32,300 --> 00:00:34,672
 Květiny on nemá rád, nestará se o ně.
 
 5
-00:00:33,233 --> 00:00:35,572
+00:00:34,967 --> 00:00:36,400
 Tak mu koupíme obraz.
 
 6
-00:00:35,867 --> 00:00:37,567
+00:00:36,700 --> 00:00:38,164
 Obraz je moc drahý.
 
 7
-00:00:37,867 --> 00:00:40,089
+00:00:38,467 --> 00:00:39,853
 Tak mu koupíme hrnky.
 
 8
-00:00:40,400 --> 00:00:42,263
+00:00:40,167 --> 00:00:41,585
 Proč chceš koupit tohle?
 
 9
-00:00:42,567 --> 00:00:46,751
+00:00:41,900 --> 00:00:44,737
 Protože rád pije kávu a hrnky potřebuje každý.
 
 10
-00:00:47,067 --> 00:00:50,625
+00:00:45,033 --> 00:00:48,285
 Dobře, to je praktický dárek. Koupíme mu hrnky.
 
 11
-00:00:50,933 --> 00:01:01,004
-Procvičte si situaci 6 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:00:48,600 --> 00:00:57,781
+Procvičte si situaci 6 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

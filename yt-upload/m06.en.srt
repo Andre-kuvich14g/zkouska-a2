@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:08,588
+00:00:00,200 --> 00:00:09,586
 Speaking, task one. Topic 6: Work. Ten questions. Listen to the question and answer aloud.
 
 2
-00:00:09,300 --> 00:00:10,954
+00:00:10,300 --> 00:00:11,453
 Where do you work?
 
 3
-00:00:16,367 --> 00:00:18,984
+00:00:16,867 --> 00:00:18,641
 I work in a warehouse in Kralupy.
 
 4
-00:00:19,900 --> 00:00:22,680
+00:00:19,533 --> 00:00:21,251
 What do you do at work every day?
 
 5
-00:00:28,067 --> 00:00:33,563
+00:00:26,667 --> 00:00:30,189
 Every day I load and unload goods and check boxes.
 
 6
-00:00:34,467 --> 00:00:37,607
+00:00:31,100 --> 00:00:33,098
 When do you start and finish work?
 
 7
-00:00:43,000 --> 00:00:47,730
+00:00:38,500 --> 00:00:41,224
 I start at six in the morning and finish at two in the afternoon.
 
 8
-00:00:48,633 --> 00:00:50,752
+00:00:42,133 --> 00:00:43,651
 How do you get to work?
 
 9
-00:00:56,167 --> 00:01:00,201
+00:00:49,067 --> 00:00:51,958
 I drive to work, it's about ten minutes.
 
 10
-00:01:01,100 --> 00:01:03,706
+00:00:52,867 --> 00:00:54,434
 Do you like your job?
 
 11
-00:01:09,100 --> 00:01:14,632
+00:00:59,833 --> 00:01:04,103
 I like my job because I have good colleagues, but it's quite hard.
 
 12
-00:01:15,533 --> 00:01:17,837
+00:01:05,000 --> 00:01:06,480
 Do you speak Czech at work?
 
 13
-00:01:23,233 --> 00:01:28,324
+00:01:11,867 --> 00:01:16,390
 Yes, I speak Czech with my boss and sometimes Ukrainian with colleagues.
 
 14
-00:01:29,233 --> 00:01:32,071
+00:01:17,300 --> 00:01:19,137
 What job did you do before?
 
 15
-00:01:37,467 --> 00:01:41,001
+00:01:24,533 --> 00:01:26,655
 I used to work as a taxi driver.
 
 16
-00:01:41,900 --> 00:01:44,634
+00:01:27,567 --> 00:01:29,344
 How did you find this job?
 
 17
-00:01:50,033 --> 00:01:54,543
+00:01:34,733 --> 00:01:37,366
 I found this job online through an agency.
 
 18
-00:01:55,433 --> 00:01:58,875
+00:01:38,267 --> 00:01:40,465
 How many days of holiday will you have this year?
 
 19
-00:02:04,267 --> 00:02:07,674
+00:01:45,867 --> 00:01:48,176
 This year I'll have twenty days of holiday.
 
 20
-00:02:08,567 --> 00:02:12,438
+00:01:49,067 --> 00:01:51,267
 What job would you like to do in five years?
 
 21
-00:02:17,833 --> 00:02:22,715
+00:01:56,667 --> 00:01:59,863
 In five years I'd like to work in an office as an accountant.
 
 22
-00:02:23,600 --> 00:02:34,275
+00:02:00,767 --> 00:02:10,949
 Great! Practise topic 6 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

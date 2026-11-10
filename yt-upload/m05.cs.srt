@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:08,866
+00:00:00,200 --> 00:00:10,478
 Mluvení, úloha jedna. Téma 5: Moje město. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:09,567 --> 00:00:12,126
+00:00:11,167 --> 00:00:12,797
 Ve kterém městě bydlíte?
 
 3
-00:00:17,533 --> 00:00:22,763
+00:00:18,200 --> 00:00:22,193
 Bydlím v Kralupech nad Vltavou. Je to malé město blízko Prahy.
 
 4
-00:00:23,667 --> 00:00:26,714
+00:00:23,100 --> 00:00:25,357
 Je vaše město velké, nebo malé?
 
 5
-00:00:32,100 --> 00:00:36,807
+00:00:30,767 --> 00:00:34,237
 Moje město je malé, má asi osmnáct tisíc obyvatel.
 
 6
-00:00:37,700 --> 00:00:40,573
+00:00:35,133 --> 00:00:36,820
 Co je ve vašem městě zajímavé?
 
 7
-00:00:45,967 --> 00:00:50,314
+00:00:42,233 --> 00:00:45,321
 Zajímavá je řeka Vltava a hezký park u nádraží.
 
 8
-00:00:51,200 --> 00:00:54,108
+00:00:46,233 --> 00:00:47,915
 Kam chodíte ve městě nejraději?
 
 9
-00:00:59,500 --> 00:01:03,673
+00:00:53,300 --> 00:00:56,072
 Nejraději chodím do parku a na procházku k řece.
 
 10
-00:01:04,567 --> 00:01:07,625
+00:00:56,967 --> 00:00:58,968
 Jak se ve městě dostanete do práce?
 
 11
-00:01:13,033 --> 00:01:17,915
+00:01:04,367 --> 00:01:08,015
 Do práce jezdím autobusem, cesta trvá patnáct minut.
 
 12
-00:01:18,800 --> 00:01:21,243
+00:01:08,900 --> 00:01:10,555
 Co ve vašem městě chybí?
 
 13
-00:01:26,633 --> 00:01:30,168
+00:01:15,967 --> 00:01:18,344
 Chybí tady kino a víc hřišť pro děti.
 
 14
-00:01:31,067 --> 00:01:34,590
+00:01:19,233 --> 00:01:21,838
 Jaké bylo vaše město, když jste přijel?
 
 15
-00:01:40,000 --> 00:01:44,800
+00:01:27,233 --> 00:01:30,646
 Když jsem přijel, bylo město tiché a nikoho jsem neznal.
 
 16
-00:01:45,700 --> 00:01:49,177
+00:01:31,533 --> 00:01:34,072
 Co jste ve městě dělal minulou sobotu?
 
 17
-00:01:54,567 --> 00:02:00,052
+00:01:39,467 --> 00:01:43,033
 Minulou sobotu jsem byl na trhu na náměstí a koupil jsem zeleninu.
 
 18
-00:02:00,967 --> 00:02:04,501
+00:01:43,933 --> 00:01:46,161
 Budete v tomto městě bydlet i v budoucnu?
 
 19
-00:02:09,900 --> 00:02:15,884
+00:01:51,567 --> 00:01:56,033
 Ano, myslím, že tady budu bydlet i v budoucnu, protože se mi tu líbí.
 
 20
-00:02:16,800 --> 00:02:20,776
+00:01:56,933 --> 00:01:59,363
 Co byste doporučil turistovi ve vašem městě?
 
 21
-00:02:26,167 --> 00:02:31,106
+00:02:04,767 --> 00:02:07,970
 Doporučil bych procházku podél řeky a návštěvu kostela.
 
 22
-00:02:32,000 --> 00:02:42,733
-Výborně! Procvičte si téma 5 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:02:08,867 --> 00:02:20,107
+Výborně! Procvičte si téma 5 na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

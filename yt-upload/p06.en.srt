@@ -1,47 +1,47 @@
 1
-00:00:00,200 --> 00:00:04,872
+00:00:00,200 --> 00:00:05,087
 Writing, task two. E-mail number 6: Noise in the building.
 
 2
-00:00:05,567 --> 00:00:17,019
+00:00:05,800 --> 00:00:16,434
 Your neighbour makes noise at night. Write an e-mail to the building manager. Write at least thirty-five words. Write one sentence for each picture.
 
 3
-00:00:25,733 --> 00:00:27,120
+00:00:25,133 --> 00:00:26,200
 Good afternoon,
 
 4
-00:00:27,433 --> 00:00:32,222
+00:00:26,500 --> 00:00:29,622
 I live at Lobečská 12, on the third floor.
 
 5
-00:00:32,533 --> 00:00:36,556
+00:00:29,933 --> 00:00:32,115
 I have a problem with my neighbour on the fourth floor.
 
 6
-00:00:36,867 --> 00:00:40,343
+00:00:32,400 --> 00:00:34,679
 Every evening he plays music very loudly.
 
 7
-00:00:40,633 --> 00:00:44,075
+00:00:34,967 --> 00:00:37,148
 It's always from ten in the evening until two at night.
 
 8
-00:00:44,367 --> 00:00:49,364
+00:00:37,433 --> 00:00:40,505
 I get up at four in the morning for work and I can't sleep.
 
 9
-00:00:49,667 --> 00:00:53,283
+00:00:40,800 --> 00:00:43,277
 Could you please talk to the neighbour?
 
 10
-00:00:53,567 --> 00:00:54,744
+00:00:43,567 --> 00:00:44,535
 Thank you.
 
 11
-00:00:55,033 --> 00:01:04,199
+00:00:44,833 --> 00:00:51,592
 This e-mail has 53 words. There is one sentence for each picture. Don't forget the greeting at the beginning and the end.
 
 12
-00:01:04,900 --> 00:01:14,518
+00:00:52,300 --> 00:01:01,311
 Write your own e-mail on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

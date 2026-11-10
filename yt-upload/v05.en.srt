@@ -1,59 +1,59 @@
 1
-00:00:00,200 --> 00:00:10,422
+00:00:00,200 --> 00:00:10,034
 Speaking, task three. Story number 5: Birthday. What did Marie do yesterday? Tell the story from the pictures in the past tense.
 
 2
-00:00:11,133 --> 00:00:13,263
+00:00:10,733 --> 00:00:12,251
 What did Marie do yesterday?
 
 3
-00:00:33,967 --> 00:00:36,500
+00:00:32,967 --> 00:00:34,833
 Yesterday it was Marie's birthday.
 
 4
-00:00:36,700 --> 00:00:41,221
+00:00:35,033 --> 00:00:38,233
 In the morning she got up early and baked a chocolate cake in the kitchen.
 
 5
-00:00:41,433 --> 00:00:44,267
+00:00:38,433 --> 00:00:40,517
 The cake was big and smelled wonderful.
 
 6
-00:00:44,467 --> 00:00:47,456
+00:00:40,733 --> 00:00:43,031
 She put strawberries and whipped cream on the cake.
 
 7
-00:00:47,667 --> 00:00:49,900
+00:00:43,233 --> 00:00:44,862
 In the afternoon she decorated the flat.
 
 8
-00:00:50,100 --> 00:00:53,267
+00:00:45,067 --> 00:00:47,293
 She put colourful balloons in the living room.
 
 9
-00:00:53,467 --> 00:00:56,300
+00:00:47,500 --> 00:00:49,326
 Then she prepared food and drinks.
 
 10
-00:00:56,500 --> 00:00:58,850
+00:00:49,533 --> 00:00:51,167
 In the evening her friends came.
 
 11
-00:00:59,067 --> 00:01:02,021
+00:00:51,367 --> 00:00:53,600
 They brought Marie presents and flowers.
 
 12
-00:01:02,233 --> 00:01:04,630
+00:00:53,800 --> 00:00:55,333
 Marie was very happy.
 
 13
-00:01:04,833 --> 00:01:08,800
+00:00:55,533 --> 00:00:58,600
 Then everyone ate cake, sang and danced.
 
 14
-00:01:09,000 --> 00:01:13,591
+00:00:58,800 --> 00:01:01,967
 The party didn't end until midnight and everyone had a great time.
 
 15
-00:01:13,800 --> 00:01:23,836
+00:01:02,167 --> 00:01:11,403
 Tell story 5 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

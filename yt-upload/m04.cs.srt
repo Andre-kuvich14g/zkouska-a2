@@ -1,87 +1,87 @@
 1
-00:00:00,200 --> 00:00:08,669
+00:00:00,200 --> 00:00:09,293
 Mluvení, úloha jedna. Téma 4: Bydlení. Deset otázek. Poslouchejte otázku a odpovězte nahlas.
 
 2
-00:00:09,367 --> 00:00:12,019
+00:00:10,000 --> 00:00:12,128
 Bydlíte v bytě, nebo v domě?
 
 3
-00:00:17,433 --> 00:00:21,316
+00:00:17,533 --> 00:00:19,807
 Bydlím v bytě v paneláku ve třetím patře.
 
 4
-00:00:22,200 --> 00:00:24,597
+00:00:20,700 --> 00:00:22,114
 Jak velký je váš byt?
 
 5
-00:00:30,000 --> 00:00:34,382
+00:00:27,500 --> 00:00:31,149
 Náš byt je dva plus jedna. Má dva pokoje a kuchyň.
 
 6
-00:00:35,267 --> 00:00:37,431
+00:00:32,033 --> 00:00:33,529
 Kolik platíte za nájem?
 
 7
-00:00:42,833 --> 00:00:48,156
+00:00:38,933 --> 00:00:42,228
 Za nájem platíme dvanáct tisíc korun měsíčně i s energiemi.
 
 8
-00:00:49,067 --> 00:00:51,754
+00:00:43,133 --> 00:00:44,829
 Co máte v obývacím pokoji?
 
 9
-00:00:57,167 --> 00:01:02,408
+00:00:50,233 --> 00:00:54,518
 V obývacím pokoji máme gauč, stůl, televizi a velkou skříň.
 
 10
-00:01:03,300 --> 00:01:07,369
+00:00:55,433 --> 00:00:57,888
 Jaký nábytek potřebuje každý člověk a proč?
 
 11
-00:01:12,767 --> 00:01:17,962
+00:01:03,300 --> 00:01:06,485
 Každý člověk potřebuje postel, protože musí dobře spát.
 
 12
-00:01:18,867 --> 00:01:21,414
+00:01:07,400 --> 00:01:09,043
 Líbí se vám váš byt?
 
 13
-00:01:26,800 --> 00:01:31,589
+00:01:14,433 --> 00:01:18,133
 Ano, byt se mi líbí, protože je světlý a blízko je park.
 
 14
-00:01:32,500 --> 00:01:35,698
+00:01:19,033 --> 00:01:20,964
 Jak vypadal váš domov v dětství?
 
 15
-00:01:41,100 --> 00:01:45,703
+00:01:26,367 --> 00:01:29,470
 V dětství jsem bydlel s rodiči v malém domě se zahradou.
 
 16
-00:01:46,600 --> 00:01:49,334
+00:01:30,367 --> 00:01:32,143
 Kdy jste se naposledy stěhoval?
 
 17
-00:01:54,733 --> 00:01:59,510
+00:01:37,533 --> 00:01:40,580
 Naposledy jsem se stěhoval před dvěma lety do většího bytu.
 
 18
-00:02:00,400 --> 00:02:03,029
+00:01:41,467 --> 00:01:43,400
 Co byste chtěl v bytě změnit?
 
 19
-00:02:08,433 --> 00:02:11,840
+00:01:48,800 --> 00:01:51,188
 Chtěl bych novou kuchyň a větší koupelnu.
 
 20
-00:02:12,733 --> 00:02:16,082
+00:01:52,100 --> 00:01:54,150
 Jaký domov byste chtěl za deset let?
 
 21
-00:02:21,467 --> 00:02:25,396
+00:01:59,533 --> 00:02:02,298
 Za deset let bych chtěl vlastní dům se zahradou.
 
 22
-00:02:26,300 --> 00:02:37,195
-Výborně! Procvičte si téma 4 na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:02:03,200 --> 00:02:13,108
+Výborně! Procvičte si téma 4 na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

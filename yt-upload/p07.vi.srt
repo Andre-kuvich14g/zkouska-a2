@@ -1,43 +1,43 @@
 1
-00:00:00,200 --> 00:00:05,151
+00:00:00,200 --> 00:00:05,190
 Phần Viết, bài hai. E-mail số 7: Khóa học tiếng Séc.
 
 2
-00:00:05,867 --> 00:00:18,237
+00:00:05,900 --> 00:00:16,688
 Bạn muốn đăng ký khóa học tiếng Séc. Hãy viết e-mail cho trường ngoại ngữ, ít nhất ba mươi lăm từ. Mỗi bức tranh viết một câu.
 
 3
-00:00:26,933 --> 00:00:28,320
+00:00:25,400 --> 00:00:26,467
 Xin chào,
 
 4
-00:00:28,633 --> 00:00:33,526
+00:00:26,767 --> 00:00:30,335
 tôi muốn đăng ký khóa tiếng Séc trình độ trung cấp sơ.
 
 5
-00:00:33,833 --> 00:00:39,318
+00:00:30,633 --> 00:00:34,655
 Tôi muốn học tiếng Séc vì sẽ thi lấy thường trú.
 
 6
-00:00:39,633 --> 00:00:44,700
+00:00:34,967 --> 00:00:38,465
 Tôi rảnh tối thứ Ba và thứ Năm, ban ngày tôi đi làm.
 
 7
-00:00:45,000 --> 00:00:47,768
+00:00:38,767 --> 00:00:40,659
 Tôi muốn thanh toán bằng chuyển khoản.
 
 8
-00:00:48,067 --> 00:00:57,128
+00:00:40,967 --> 00:00:47,046
 Quý vị có thể gọi cho tôi số 777 456 123 hoặc gửi e-mail.
 
 9
-00:00:57,433 --> 00:00:58,600
+00:00:47,333 --> 00:00:48,302
 Cảm ơn.
 
 10
-00:00:58,900 --> 00:01:08,124
+00:00:48,600 --> 00:00:55,631
 E-mail này có 56 từ. Mỗi bức tranh có một câu. Đừng quên lời chào ở đầu và cuối thư.
 
 11
-00:01:08,833 --> 00:01:18,045
+00:00:56,333 --> 00:01:05,344
 Hãy viết e-mail của bạn trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

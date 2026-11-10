@@ -1,39 +1,39 @@
 1
-00:00:00,200 --> 00:00:05,012
+00:00:00,200 --> 00:00:05,058
 Writing, task two. E-mail number 5: Complaint about shoes.
 
 2
-00:00:05,700 --> 00:00:19,289
+00:00:05,767 --> 00:00:16,723
 You bought shoes online but there is a problem with them. Write an e-mail to the shop. Write at least thirty-five words. Write one sentence for each picture.
 
 3
-00:00:28,000 --> 00:00:29,387
+00:00:25,433 --> 00:00:26,500
 Good afternoon,
 
 4
-00:00:29,700 --> 00:00:38,598
+00:00:26,800 --> 00:00:33,558
 I bought Nike sports shoes from you, size 43. I bought them online on 2 October.
 
 5
-00:00:38,900 --> 00:00:44,617
+00:00:33,867 --> 00:00:37,991
 I've only worn them for a week and they're already broken, the left shoe has a hole.
 
 6
-00:00:44,933 --> 00:00:47,876
+00:00:38,300 --> 00:00:40,289
 I would like to exchange them for new ones.
 
 7
-00:00:48,167 --> 00:00:50,970
+00:00:40,600 --> 00:00:42,519
 I'll send the shoes back to you by post tomorrow.
 
 8
-00:00:51,267 --> 00:00:53,153
+00:00:42,833 --> 00:00:44,164
 Thank you for your reply.
 
 9
-00:00:53,467 --> 00:01:02,470
+00:00:44,467 --> 00:00:51,420
 This e-mail has 50 words. There is one sentence for each picture. Don't forget the greeting at the beginning and the end.
 
 10
-00:01:03,167 --> 00:01:12,739
+00:00:52,133 --> 00:01:01,144
 Write your own e-mail on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

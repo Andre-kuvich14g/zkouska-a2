@@ -1,31 +1,31 @@
 1
-00:00:00,200 --> 00:00:14,044
+00:00:00,200 --> 00:00:12,337
 Writing, task one. Form number 5. You want to enrol your child in an after-school club. Answer the questions in the application. Answer in a full sentence, at least ten words.
 
 2
-00:00:14,733 --> 00:00:18,396
+00:00:13,033 --> 00:00:15,300
 What does your child like doing in their free time?
 
 3
-00:00:28,800 --> 00:00:34,935
+00:00:25,700 --> 00:00:30,219
 My daughter likes drawing, singing and playing with friends outside at the playground.
 
 4
-00:00:35,833 --> 00:00:39,345
+00:00:31,133 --> 00:00:33,272
 Why do you want to enrol your child in our club?
 
 5
-00:00:49,733 --> 00:00:55,927
+00:00:43,667 --> 00:00:48,170
 I want to enrol her because she will learn new things there and make friends.
 
 6
-00:00:56,833 --> 00:01:00,194
+00:00:49,067 --> 00:00:51,140
 When can your child attend the club?
 
 7
-00:01:10,600 --> 00:01:16,120
+00:01:01,533 --> 00:01:05,385
 She can go on Mondays and Wednesdays after school, from three o'clock.
 
 8
-00:01:17,033 --> 00:01:26,663
+00:01:06,300 --> 00:01:15,318
 Fill in form 5 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

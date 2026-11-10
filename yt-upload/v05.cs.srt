@@ -1,59 +1,59 @@
 1
-00:00:00,200 --> 00:00:10,422
+00:00:00,200 --> 00:00:10,034
 Mluvení, úloha tři. Příběh číslo 5: Narozeniny. Co dělala včera Marie? Vyprávějte podle obrázků v minulém čase.
 
 2
-00:00:11,133 --> 00:00:13,263
+00:00:10,733 --> 00:00:12,251
 Co dělala včera Marie?
 
 3
-00:00:33,967 --> 00:00:36,500
+00:00:32,967 --> 00:00:34,833
 Včera měla Marie narozeniny.
 
 4
-00:00:36,700 --> 00:00:41,221
+00:00:35,033 --> 00:00:38,233
 Ráno vstala brzy a v kuchyni pekla čokoládový dort.
 
 5
-00:00:41,433 --> 00:00:44,267
+00:00:38,433 --> 00:00:40,517
 Dort byl velký a moc voněl.
 
 6
-00:00:44,467 --> 00:00:47,456
+00:00:40,733 --> 00:00:43,031
 Na dort dala jahody a šlehačku.
 
 7
-00:00:47,667 --> 00:00:49,900
+00:00:43,233 --> 00:00:44,862
 Odpoledne zdobila byt.
 
 8
-00:00:50,100 --> 00:00:53,267
+00:00:45,067 --> 00:00:47,293
 Dala do obýváku barevné balonky.
 
 9
-00:00:53,467 --> 00:00:56,300
+00:00:47,500 --> 00:00:49,326
 Potom připravila jídlo a pití.
 
 10
-00:00:56,500 --> 00:00:58,850
+00:00:49,533 --> 00:00:51,167
 Večer přišli kamarádi.
 
 11
-00:00:59,067 --> 00:01:02,021
+00:00:51,367 --> 00:00:53,600
 Přinesli Marii dárky a květiny.
 
 12
-00:01:02,233 --> 00:01:04,630
+00:00:53,800 --> 00:00:55,333
 Marie byla moc ráda.
 
 13
-00:01:04,833 --> 00:01:08,800
+00:00:55,533 --> 00:00:58,600
 Potom všichni jedli dort, zpívali a tancovali.
 
 14
-00:01:09,000 --> 00:01:13,591
+00:00:58,800 --> 00:01:01,967
 Oslava skončila až o půlnoci a všichni se měli dobře.
 
 15
-00:01:13,800 --> 00:01:23,836
-Vyprávějte příběh 5 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:01:02,167 --> 00:01:11,403
+Vyprávějte příběh 5 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

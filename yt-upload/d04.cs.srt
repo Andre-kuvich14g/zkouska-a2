@@ -1,55 +1,55 @@
 1
-00:00:00,200 --> 00:00:09,923
+00:00:00,200 --> 00:00:09,597
 Mluvení, úloha dvě. Karta číslo 4. Jste na nádraží u pokladny. Chcete jet vlakem do Brna. Položte čtyři otázky.
 
 2
-00:00:10,633 --> 00:00:15,027
+00:00:10,300 --> 00:00:13,852
 Jste na nádraží u pokladny. Chcete jet vlakem do Brna.
 
 3
-00:00:16,233 --> 00:00:18,665
+00:00:15,067 --> 00:00:17,561
 Dobrý den. Co pro vás můžu udělat?
 
 4
-00:00:23,867 --> 00:00:26,933
+00:00:22,767 --> 00:00:25,267
 Dobrý den, kdy jede vlak do Brna?
 
 5
-00:00:27,133 --> 00:00:29,890
+00:00:25,467 --> 00:00:27,799
 Nejbližší vlak odjíždí v 10:15.
 
 6
-00:00:35,100 --> 00:00:37,323
+00:00:33,000 --> 00:00:34,400
 Kolik stojí jízdenka?
 
 7
-00:00:37,533 --> 00:00:40,133
+00:00:34,600 --> 00:00:36,533
 Jízdenka stojí 320 Kč.
 
 8
-00:00:45,333 --> 00:00:47,467
+00:00:41,733 --> 00:00:43,233
 Musím přestupovat?
 
 9
-00:00:47,667 --> 00:00:49,367
+00:00:43,433 --> 00:00:44,933
 Ne, vlak jede přímo.
 
 10
-00:00:54,567 --> 00:00:57,428
+00:00:50,133 --> 00:00:51,933
 Z kterého nástupiště vlak jede?
 
 11
-00:00:57,633 --> 00:01:00,088
+00:00:52,133 --> 00:00:54,457
 Vlak jede z nástupiště číslo 3.
 
 12
-00:01:00,300 --> 00:01:03,486
+00:00:54,667 --> 00:00:57,667
 Děkuju za informace. Na shledanou.
 
 13
-00:01:03,700 --> 00:01:05,167
+00:00:57,867 --> 00:00:59,267
 Šťastnou cestu.
 
 14
-00:01:05,367 --> 00:01:15,159
-Procvičte si kartu 4 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
+00:00:59,467 --> 00:01:08,608
+Procvičte si kartu 4 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
