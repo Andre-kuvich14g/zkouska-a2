@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,598
+Speaking, task two. Card number 7. You are at the bank. You want to open a bank account. Ask four questions.
+
+2
+00:00:10,300 --> 00:00:14,647
+You are at the bank. You want to open a bank account.
+
+3
+00:00:15,833 --> 00:00:18,265
+Good afternoon. How can I help you?
+
+4
+00:00:23,467 --> 00:00:29,033
+Hello, I want to open an account. How much does the account cost per month?
+
+5
+00:00:29,233 --> 00:00:30,967
+The account is free of charge.
+
+6
+00:00:36,167 --> 00:00:38,633
+Will I get a bank card?
+
+7
+00:00:38,833 --> 00:00:41,358
+Yes, you'll get the card by post within a week.
+
+8
+00:00:46,567 --> 00:00:50,100
+Can I have online banking?
+
+9
+00:00:50,300 --> 00:00:53,324
+Yes, online banking is free.
+
+10
+00:00:58,533 --> 00:01:00,396
+Do I need a passport?
+
+11
+00:01:00,600 --> 00:01:03,667
+Yes, you need a passport and a residence permit.
+
+12
+00:01:03,867 --> 00:01:07,099
+Thank you for the information. Goodbye.
+
+13
+00:01:07,300 --> 00:01:09,367
+Thank you, goodbye.
+
+14
+00:01:09,567 --> 00:01:19,452
+Practise card 7 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,888
+Phần Nói, bài hai. Thẻ số 5. Bạn ở cửa hàng quần áo. Bạn muốn mua áo khoác mùa đông. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,600 --> 00:00:15,168
+Bạn ở cửa hàng quần áo. Bạn muốn mua áo khoác mùa đông.
+
+3
+00:00:16,367 --> 00:00:18,752
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,967 --> 00:00:28,267
+Xin chào, áo này có size lớn hơn không?
+
+5
+00:00:28,467 --> 00:00:30,700
+Có, chúng tôi có cả size L.
+
+6
+00:00:35,900 --> 00:00:37,400
+Áo giá bao nhiêu?
+
+7
+00:00:37,600 --> 00:00:40,891
+Áo khoác giá 2 490 korun.
+
+8
+00:00:46,100 --> 00:00:49,733
+Tôi có thể trả lại nếu không thích không?
+
+9
+00:00:49,933 --> 00:00:52,226
+Bạn có thể trả lại trong vòng 30 ngày.
+
+10
+00:00:57,433 --> 00:00:59,923
+Có màu đen không?
+
+11
+00:01:00,133 --> 00:01:02,967
+Có, màu đen có đủ các size.
+
+12
+00:01:03,167 --> 00:01:06,295
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:06,500 --> 00:01:08,533
+Cảm ơn, tạm biệt.
+
+14
+00:01:08,733 --> 00:01:18,259
+Hãy luyện thẻ 5 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

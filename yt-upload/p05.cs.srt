@@ -1,0 +1,39 @@
+1
+00:00:00,200 --> 00:00:05,012
+Psaní, úloha dvě. E-mail číslo 5: Reklamace bot.
+
+2
+00:00:05,700 --> 00:00:19,289
+Koupil jste si přes internet boty, ale máte s nimi problém. Napište e-mail do obchodu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+3
+00:00:28,000 --> 00:00:29,387
+Dobrý den,
+
+4
+00:00:29,700 --> 00:00:38,598
+koupil jsem si u Vás sportovní boty Nike, velikost 43. Koupil jsem je 2. října přes internet.
+
+5
+00:00:38,900 --> 00:00:44,617
+Boty jsem nosil jen týden a už jsou rozbité, levá bota má díru.
+
+6
+00:00:44,933 --> 00:00:47,876
+Chtěl bych výměnu za nové boty.
+
+7
+00:00:48,167 --> 00:00:50,970
+Boty Vám pošlu poštou zítra.
+
+8
+00:00:51,267 --> 00:00:53,153
+Děkuji za odpověď.
+
+9
+00:00:53,467 --> 00:01:02,470
+Tento e-mail má 50 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+10
+00:01:03,167 --> 00:01:12,739
+Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

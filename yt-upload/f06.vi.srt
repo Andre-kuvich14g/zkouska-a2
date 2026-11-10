@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:14,056
+Phần Viết, bài một. Mẫu đơn số 6. Bạn đang tìm việc mới. Hãy trả lời câu hỏi trong phiếu của công ty việc làm. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:14,767 --> 00:00:17,256
+Hiện giờ bạn làm công việc gì?
+
+3
+00:00:27,667 --> 00:00:33,837
+Hiện tôi làm thủ kho ở một công ty lớn, bốc dỡ hàng hóa.
+
+4
+00:00:34,733 --> 00:00:37,513
+Bạn tìm việc gì và tại sao?
+
+5
+00:00:47,900 --> 00:00:55,487
+Tôi tìm việc văn phòng vì tôi học kinh tế và muốn làm đúng chuyên ngành.
+
+6
+00:00:56,400 --> 00:00:59,273
+Từ khi nào bạn có thể bắt đầu làm việc?
+
+7
+00:01:09,667 --> 00:01:16,057
+Tôi có thể bắt đầu từ ngày mùng một tháng Mười hai vì phải nộp đơn nghỉ việc.
+
+8
+00:01:16,967 --> 00:01:26,817
+Hãy điền mẫu đơn 6 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

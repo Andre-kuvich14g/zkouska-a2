@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:11,734
+Mluvení, úloha čtyři. Situace číslo 5. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:12,433 --> 00:00:18,603
+Chceme spolu začít sportovat. Jaký sport budeme dělat? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:27,300 --> 00:00:29,430
+Můžeme chodit běhat.
+
+4
+00:00:29,733 --> 00:00:32,246
+Běhat nechci, bolí mě kolena.
+
+5
+00:00:32,533 --> 00:00:34,965
+Tak budeme jezdit na kole.
+
+6
+00:00:35,267 --> 00:00:36,561
+Nemám kolo.
+
+7
+00:00:36,867 --> 00:00:39,275
+Tak budeme chodit plavat.
+
+8
+00:00:39,567 --> 00:00:41,441
+A proč chceš dělat tohle?
+
+9
+00:00:41,733 --> 00:00:45,779
+Protože plavání je zdravé a bazén je blízko.
+
+10
+00:00:46,067 --> 00:00:48,382
+To je pravda. Budeme chodit plavat.
+
+11
+00:00:48,667 --> 00:00:58,575
+Procvičte si situaci 5 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.

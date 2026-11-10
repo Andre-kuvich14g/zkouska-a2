@@ -1,0 +1,87 @@
+1
+00:00:00,200 --> 00:00:09,702
+Phần Nói, bài một. Chủ đề 7: Trường học và giáo dục. Mười câu hỏi. Hãy nghe câu hỏi và trả lời thành tiếng.
+
+2
+00:00:10,400 --> 00:00:12,727
+Bạn đã học trường gì?
+
+3
+00:00:18,133 --> 00:00:23,340
+Tôi học xong trung học rồi học kinh tế ở đại học.
+
+4
+00:00:24,233 --> 00:00:25,957
+Bạn đã học ngành gì?
+
+5
+00:00:31,367 --> 00:00:35,052
+Tôi học kinh tế và kế toán.
+
+6
+00:00:35,967 --> 00:00:39,374
+Ở trường bạn thích môn nào?
+
+7
+00:00:44,767 --> 00:00:48,963
+Ở trường tôi thích toán và địa lý.
+
+8
+00:00:49,867 --> 00:00:52,658
+Bạn đi học bao nhiêu năm?
+
+9
+00:00:58,067 --> 00:01:03,180
+Tôi học phổ thông mười một năm và đại học năm năm.
+
+10
+00:01:04,067 --> 00:01:06,475
+Con bạn có đi học không?
+
+11
+00:01:11,867 --> 00:01:16,539
+Có, con trai tôi học tiểu học, lớp ba.
+
+12
+00:01:17,433 --> 00:01:20,492
+Trường cách nhà bạn bao xa?
+
+13
+00:01:25,900 --> 00:01:29,795
+Trường ở gần, đi bộ khoảng mười phút.
+
+14
+00:01:30,700 --> 00:01:32,621
+Hiện giờ bạn đang học gì?
+
+15
+00:01:38,033 --> 00:01:42,172
+Hiện tôi học tiếng Séc, đi học hai lần một tuần.
+
+16
+00:01:43,067 --> 00:01:45,731
+Con bạn học tiếng Séc thế nào?
+
+17
+00:01:51,133 --> 00:01:55,817
+Các con học tiếng Séc ở trường và nói tiếng Séc với bạn bè.
+
+18
+00:01:56,733 --> 00:01:59,211
+Bạn sẽ học thêm gì nữa không?
+
+19
+00:02:04,600 --> 00:02:08,854
+Có, năm sau tôi sẽ học khóa kế toán.
+
+20
+00:02:09,767 --> 00:02:13,603
+Nếu có thời gian, bạn muốn học gì?
+
+21
+00:02:19,000 --> 00:02:23,998
+Nếu có thời gian, tôi sẽ học máy tính và lập trình.
+
+22
+00:02:24,900 --> 00:02:35,563
+Tuyệt vời! Hãy luyện chủ đề 7 trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

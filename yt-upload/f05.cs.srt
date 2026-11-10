@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:14,044
+Psaní, úloha jedna. Formulář číslo 5. Chcete dát dítě do zájmového kroužku. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:14,733 --> 00:00:18,396
+Co dělá vaše dítě rádo ve volném čase?
+
+3
+00:00:28,800 --> 00:00:34,935
+Moje dcera ráda kreslí, zpívá a hraje si s kamarády venku na hřišti.
+
+4
+00:00:35,833 --> 00:00:39,345
+Proč chcete dát dítě do našeho kroužku?
+
+5
+00:00:49,733 --> 00:00:55,927
+Chci ji dát do kroužku, protože se tam naučí nové věci a najde si kamarády.
+
+6
+00:00:56,833 --> 00:01:00,194
+Kdy může vaše dítě chodit do kroužku?
+
+7
+00:01:10,600 --> 00:01:16,120
+Do kroužku může chodit v pondělí a ve středu po škole, od tří hodin.
+
+8
+00:01:17,033 --> 00:01:26,663
+Vyplňte formulář 5 na webu Zkouška A2 nanečisto. Odkaz je v popisu. A odebírejte kanál, každý den je tu nové video.
