@@ -1,0 +1,195 @@
+1
+00:00:00,200 --> 00:00:09,194
+Poslech. Cvičný test číslo dva. Uslyšíte pět úloh. Každou nahrávku uslyšíte dvakrát. Připravte si papír a tužku.
+
+2
+00:00:10,400 --> 00:00:21,621
+Úloha jedna. Uslyšíte pět krátkých dialogů. Ke každému dialogu vyberte jednu správnou odpověď A, B, C nebo D.
+
+3
+00:00:22,833 --> 00:00:24,257
+Číslo 1.
+
+4
+00:00:34,467 --> 00:00:51,613
+[Muž]: Půjdeš odpoledne do banky? [Žena]: Chtěla jsem, ale nemůžu. Volala paní učitelka, musím přijít do školy kvůli synovi. [Muž]: Něco se stalo? [Žena]: Ne, jen chce mluvit o výletě. Do banky půjdu zítra a k lékaři až ve čtvrtek.
+
+5
+00:01:26,333 --> 00:01:27,267
+Číslo 2.
+
+6
+00:01:37,467 --> 00:01:49,969
+[Žena]: Kolik lidí jsi pozval na oslavu? [Muž]: Pozval jsem dvanáct lidí, ale dva nemůžou přijít. [Žena]: Takže nás bude deset. [Muž]: Ano. Minulý rok nás bylo patnáct, letos je to menší oslava.
+
+7
+00:02:20,067 --> 00:02:21,067
+Číslo 3.
+
+8
+00:02:31,267 --> 00:02:45,162
+[Žena]: Pojedeš zítra do práce autem? [Muž]: Ne, auto je v servisu. Chtěl jsem jet na kole, ale bude pršet. [Žena]: A co autobus? [Muž]: Autobus jede moc dlouho. Pojedu vlakem, je to jen dvacet minut.
+
+9
+00:03:16,667 --> 00:03:17,733
+Číslo 4.
+
+10
+00:03:27,933 --> 00:03:43,733
+[Muž]: Dobrý den, máme volný dvoulůžkový pokoj s balkonem. [Žena]: Já jsem tady sama a budu tady dva týdny. Potřebuju si vařit. [Muž]: Tak vám můžu nabídnout pokoj s kuchyňkou. Je trochu dražší. [Žena]: To nevadí, ten si vezmu.
+
+11
+00:04:17,133 --> 00:04:18,267
+Číslo 5.
+
+12
+00:04:28,467 --> 00:04:40,040
+[Žena]: Co je ti? Jsi nějaký smutný. [Muž]: Celou noc jsem nespal, strašně mě bolí zub. [Žena]: A nebolí tě taky hlava? [Muž]: Ne, hlava ne. Zítra ráno půjdu k zubaři.
+
+13
+00:05:09,200 --> 00:05:20,511
+Úloha dvě. Uslyšíte pět krátkých oznámení. Ke každému vyberte jednu správnou odpověď A, B, C nebo D.
+
+14
+00:05:21,700 --> 00:05:22,889
+Číslo 6.
+
+15
+00:05:33,100 --> 00:05:50,383
+[Muž]: Vážení cestující, osobní vlak do Prahy, hlavní nádraží, pravidelný odjezd v deset hodin dvacet minut, přijede dnes výjimečně na nástupiště číslo čtyři, ne na nástupiště dvě. Vlak do Kolína přijede na nástupiště jedna.
+
+16
+00:06:25,233 --> 00:06:26,367
+Číslo 7.
+
+17
+00:06:36,567 --> 00:06:51,759
+[Žena]: Vážení zákazníci, v obchodním centru Atrium jsme pro vás otevřeli novou prodejnu obuvi. Najdete ji ve druhém patře vedle kavárny. V přízemí je supermarket a v prvním patře oblečení pro děti. Ve třetím patře je kino.
+
+18
+00:07:24,567 --> 00:07:25,795
+Číslo 8.
+
+19
+00:07:36,000 --> 00:07:54,119
+[Muž]: Dopravní informace. Na dálnici D1 u Brna se tvoří kolony. Dálnice D5 směrem na Plzeň je kvůli nehodě úplně zavřená. Řidiči, jeďte prosím po silnici číslo šest. Dálnice D8 a D11 jsou bez problémů.
+
+20
+00:08:29,867 --> 00:08:31,025
+Číslo 9.
+
+21
+00:08:41,233 --> 00:09:02,881
+[Žena]: Restaurace Zlatá Husa zve celé rodiny na nedělní oběd! Polední menu s polévkou stojí sto devadesát korun. Dětské menu, kuřecí řízek s hranolky, stojí devadesát korun. Každé dítě dostane od nás dezert zdarma. Limonády jsou za třicet pět korun.
+
+22
+00:09:42,100 --> 00:09:43,257
+Číslo 10.
+
+23
+00:09:53,467 --> 00:10:08,334
+[Muž]: Vážení návštěvníci zoo, dnes v deset hodin uvidíte krmení lvů. V jedenáct hodin začíná program u slonů. Krmení tučňáků bude ve čtrnáct hodin u velkého bazénu. Zoo dnes zavírá v sedmnáct hodin.
+
+24
+00:10:40,800 --> 00:10:50,508
+Úloha tři. Uslyšíte pět krátkých textů. Ke každému textu vyberte správnou možnost A až G. Dvě možnosti jsou navíc.
+
+25
+00:10:51,700 --> 00:10:52,933
+Číslo 11.
+
+26
+00:11:00,133 --> 00:11:11,657
+[Muž]: Jsem Igor. Dřív jsem hodně fotografoval, ale teď nemám čas. Každou neděli jezdím k řece a chytám ryby. Je tam klid a ticho.
+
+27
+00:11:40,800 --> 00:11:42,029
+Číslo 12.
+
+28
+00:11:49,233 --> 00:12:01,686
+[Žena]: Jsem Fatima. Ráda vařím, ale to není koníček, to je moje práce. Ve volném čase chodím do tanečního kurzu, tancuju salsu dvakrát týdně.
+
+29
+00:12:31,767 --> 00:12:33,167
+Číslo 13.
+
+30
+00:12:40,367 --> 00:12:50,080
+[Muž]: Jsem Nguyen. Koupil jsem malý dům a za domem je zahrada. Teď tam pěstuju rajčata, papriky a jahody. Celý víkend jsem na zahradě.
+
+31
+00:13:17,367 --> 00:13:18,684
+Číslo 14.
+
+32
+00:13:25,900 --> 00:13:34,638
+[Žena]: Jsem Olena. Jako dítě jsem hodně četla, ale teď hraju na kytaru. Učím se třetí rok a někdy hraju s kamarády v kavárně.
+
+33
+00:14:00,967 --> 00:14:02,267
+Číslo 15.
+
+34
+00:14:09,467 --> 00:14:19,040
+[Muž]: Jsem Raj z Indie. Moje žena ráda vaří, já ne. Já mám nový fotoaparát a fotím přírodu a zvířata. Fotky dávám na internet.
+
+35
+00:14:46,200 --> 00:14:55,952
+Úloha čtyři. Uslyšíte pět krátkých dialogů. Ke každému dialogu vyberte správný obrázek A až F. Jeden obrázek je navíc.
+
+36
+00:14:57,167 --> 00:14:58,650
+Číslo 16.
+
+37
+00:15:08,867 --> 00:15:16,800
+[Muž]: Promiňte, moje žena bude rodit. Jak se dostanu do nemocnice? [Žena]: Jeďte rovně a na druhém semaforu doprava.
+
+38
+00:15:42,333 --> 00:15:43,552
+Číslo 17.
+
+39
+00:15:53,767 --> 00:16:02,769
+[Žena]: Dobrý den, potřebuju si vyřídit nový občanský průkaz. Kde je tady městský úřad? [Muž]: Na náměstí, ta velká budova s hodinami.
+
+40
+00:16:29,367 --> 00:16:30,733
+Číslo 18.
+
+41
+00:16:40,933 --> 00:16:48,310
+[Muž]: Ahoj, mám plavky i ručník, ale nevím, kde je ten nový bazén. [Žena]: Je za školou, vedle sportovní haly.
+
+42
+00:17:13,267 --> 00:17:14,567
+Číslo 19.
+
+43
+00:17:24,767 --> 00:17:32,840
+[Žena]: Musím ještě koupit mléko a chleba. Je tady blízko nějaký supermarket? [Muž]: Ano, Lidl je hned za rohem.
+
+44
+00:17:58,500 --> 00:17:59,628
+Číslo 20.
+
+45
+00:18:09,833 --> 00:18:17,396
+[Muž]: Film začíná za deset minut a my nevíme, kde je kino! [Žena]: Klid, je to v obchodním centru, ve třetím patře.
+
+46
+00:18:42,567 --> 00:18:47,207
+Úloha pět. Uslyšíte hlasovou zprávu. Doplňte pět informací.
+
+47
+00:18:58,400 --> 00:19:29,940
+[Žena]: Ahoj Olgo, tady Katka. Chci tě pozvat na moji oslavu. Bude to v sobotu dvacátého dubna v restauraci U Lípy. Lípa se píše velké el í dlouhé pé á. Začínáme v pět hodin odpoledne. Prosím tě, můžeš přinést nějaký salát? Dort a pití už mám. Do restaurace pojedeš tramvají číslo devět, vystup na zastávce Hlavní pošta. Zavolej mi prosím, jestli přijdeš. Moje číslo je sedm dva čtyři, tři pět jedna, nula osm osm. Měj se.
+
+48
+00:19:30,433 --> 00:19:31,919
+Ještě jednou.
+
+49
+00:20:47,167 --> 00:21:02,776
+To je konec testu. Spočítejte si body. Za každou správnou odpověď máte jeden bod. Celou zkoušku si můžete zdarma vyzkoušet na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál.
