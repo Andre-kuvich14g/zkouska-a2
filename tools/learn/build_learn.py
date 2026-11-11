@@ -36,6 +36,12 @@ def yt_data():
         if h.count('-') == 1 and h.split('-')[1].isdigit():
             u, i = h.split('-')
             if u in secs: secs[u]['v'][int(i)] = [vid, m['title'].replace('Zkouška A2 – ', '')]
+    for key, m in meta.items():  # великі повторення: om<N>_<C> -> u<N>, op_<C> -> w1+w2
+        vid = ids.get(key)
+        if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
+        us = ['u' + key[2]] if key.startswith('om') else (['w1', 'w2'] if key.startswith('op_') else [])
+        for u in us:
+            if u in secs: secs[u].setdefault('r', []).insert(0, [vid, m['title'].replace('Zkouška A2 – ', '')])
     home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), PLAYLISTS[k[0]]] for k in ('w01', 'l02', 'l01') if k in ids and k in meta]
     return {'ch': CHANNEL, 'sec': secs, 'home': home}
 

@@ -301,7 +301,7 @@ function ytTopic(u, i){ const s = YT.sec[u]; if(!s) return ''; const v = s.v[i];
   return `<div class="ytl big"><b>${t('ytLesson')}</b>${vidCard(v[0], v[1], s.pl)}<div class="ytacts">${subBtn()}<a class="btn" href="${plURL(s.pl)}" target="_blank" rel="noopener" data-ytout>${t('ytAll')}</a></div><p class="note">${t('vnote')}</p></div>`; }
 function ytSection(u){ const s = YT.sec[u]; if(!s) return ''; const ks = Object.keys(s.v).map(Number).sort((a, b) => b - a);
   if(!ks.length) return '';
-  return `<details class="sec" open><summary>${t('ytSec')} · ${ks.length} / 40</summary><div class="body"><div class="vids">${ks.slice(0, 3).map(k => vidCard(s.v[k][0], s.v[k][1], s.pl)).join('')}</div>
+  return `<details class="sec" open><summary>${t('ytSec')} · ${ks.length} / 40</summary><div class="body"><div class="vids">${(s.r || []).slice(0, 1).map(v => vidCard(v[0], '🔁 ' + v[1], s.pl)).join('')}${ks.slice(0, (s.r || []).length ? 2 : 3).map(k => vidCard(s.v[k][0], s.v[k][1], s.pl)).join('')}</div>
   <div class="ytacts">${subBtn()}<a class="btn" href="${plURL(s.pl)}" target="_blank" rel="noopener" data-ytout>${t('ytAll')}</a><span class="small muted">${t('ytNext')}</span></div><p class="note">${t('vnote')}</p></div></details>`; }
 function ytHome(){ if(!YT.home.length) return '';
   return `<details class="sec" open><summary>${t('ytSec')}</summary><div class="body"><div class="vids">${YT.home.map(v => vidCard(v[0], v[1], v[2])).join('')}</div><div class="ytacts">${subBtn()}<span class="small muted">${t('ytNext')}</span></div><p class="note">${t('vnote')}</p></div></details>`; }
