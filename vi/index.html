@@ -600,6 +600,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
 .lvl-p{margin:0;color:#eaf1ff;font-size:1rem}
 .lvl-facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .lvl-facts li{padding:4px 10px;border-radius:10px;background:rgba(255,255,255,.14);font-weight:600;font-size:.88rem}
+.hero-cta{position:relative;z-index:1;max-width:420px;margin:14px 0 4px}
 .gbtn{appearance:none;border:0;cursor:pointer;width:100%;min-height:60px;border-radius:16px;background:var(--ua-y);color:#1b1b1b;font-family:inherit;font-weight:800;font-size:1.25rem;line-height:1.1;letter-spacing:.01em;box-shadow:0 6px 0 var(--ua-y-d);margin-bottom:6px}
 .gbtn:hover{filter:brightness(1.04)}
 .gbtn:active{transform:translateY(4px);box-shadow:0 2px 0 var(--ua-y-d)}
@@ -712,15 +713,11 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
   <!-- START -->
   <section id="startView">
     <div class="sheet home">
-      <nav class="quick" aria-label="Liên kết nhanh">
-          <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Mời cà phê</b><span>ủng hộ tác giả</span></a>
-          <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>video mới mỗi ngày</span></a>
-          <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>Ứng dụng</b><span>cho điện thoại, miễn phí</span></button>
-        </nav>
       <div class="hero hero-start">
         <h1>Kỳ thi A2 tiếng Séc cho thường trú</h1>
         <p class="lead">Bài thi thử theo định dạng mới 2026, luyện tập và bài học. Miễn phí, không cần đăng ký.</p>
         <div class="badges"><span>✓ 20 đề thi</span><span>✓ Định dạng mới 2026</span><span>✓ Giọng đọc tự nhiên</span></div>
+        <button type="button" class="gbtn hero-cta" data-go="exam">▶ Bắt đầu thi</button>
         <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
 
@@ -735,6 +732,12 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
             <input id="codeIn" inputmode="numeric" maxlength="6" placeholder="vd. 482913">
           </details>
         </article>
+
+        <nav class="quick" aria-label="Liên kết nhanh">
+          <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Mời cà phê</b><span>ủng hộ tác giả</span></a>
+          <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>video mới mỗi ngày</span></a>
+          <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>Ứng dụng</b><span>cho điện thoại, miễn phí</span></button>
+        </nav>
 
         <article class="lvl lvl-train">
           <div class="lvl-h"><span class="lvl-n" aria-hidden="true">2</span><div><h2>🎯 Luyện tập</h2><span class="lvl-s">Không vội: gợi ý, giải thích và câu trả lời mẫu</span></div></div>
@@ -774,7 +777,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
         </table>
         <p class="small muted" style="margin-top:8px">Để đỗ: phần viết tối thiểu 42/70, phần nói tối thiểu 24/40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-09">09.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Có gì mới · cập nhật <time id="updDate" datetime="2026-11-11">11.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Mới trong tuần này</p><ul>
           <li><b>📝 Kỳ thi như thật.</b> Ở chế độ «Thi», các phần giờ đi theo thứ tự: Čtení → Psaní → Poslech → Mluvení → Výsledky. Trên điện thoại mọi tab đều hiển thị đầy đủ.</li>
           <li><b>🆘 Câu cứu nguy cho Mluvení.</b> Cách hỏi lại, xin nói chậm hơn hoặc câu giờ, có âm thanh.</li>
