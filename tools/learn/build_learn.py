@@ -18,6 +18,8 @@ CHANNEL = 'UCpkz24CVlceUnyC8PIF9KMA'
 PLAYLISTS = {'w1': 'PLUQqjJU0hPfs', 'w2': 'PLEbZM6bcfLsA', 'u1': 'PLMPSqjkk5Axw', 'u2': 'PLZ9QkvIdNGFg',
              'u3': 'PLQZcneUaebBI', 'u4': 'PLK-4mNG0zlrk', 'l': 'PLDXeIemVzXw8', 'w': 'PLROyJEw4bAqA'}
 
+SHOW_REVIEWS = False
+
 def yt_data():
     ids = json.load(open(os.path.join(ROOT, 'yt-upload', 'ids.json'), encoding='utf-8'))
     meta = json.load(open(os.path.join(ROOT, 'yt-upload', 'meta.json'), encoding='utf-8'))
@@ -36,7 +38,7 @@ def yt_data():
         if h.count('-') == 1 and h.split('-')[1].isdigit():
             u, i = h.split('-')
             if u in secs: secs[u]['v'][int(i)] = [vid, m['title'].replace('Zkouška A2 – ', '')]
-    for key, m in meta.items():  # великі повторення: om<N>_<C> -> u<N>, op_<C> -> w1+w2
+    for key, m in (meta.items() if SHOW_REVIEWS else []):  # великі повторення: om<N>_<C> -> u<N>, op_<C> -> w1+w2 (за рішенням Андре 11.11 — тільки на YouTube)
         vid = ids.get(key)
         if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
         us = ['u' + key[2]] if key.startswith('om') else (['w1', 'w2'] if key.startswith('op_') else [])
