@@ -549,10 +549,10 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
 <style>
-.consent{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--sheet);border-top:2px solid var(--accent);box-shadow:0 -4px 16px rgba(0,0,0,.12);
-  padding:14px max(16px, env(safe-area-inset-right, 0px)) calc(14px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px))}
+.consent{position:fixed;left:8px;right:8px;bottom:8px;z-index:20;background:var(--sheet);border:1px solid var(--rule);border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.18);max-width:640px;margin:0 auto;
+  padding:10px 14px calc(10px + env(safe-area-inset-bottom, 0px))}
 .consent .in{max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
-.consent p{flex:1 1 360px;font-size:.9rem}
+.consent p{flex:1 1 260px;font-size:.88rem;line-height:1.35;margin:0}
 .consent .bt{display:flex;gap:8px;flex-wrap:wrap}
 </style>
 <style id="home-css">
@@ -693,9 +693,9 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
   });
 })();
 </script>
-<div class="consent" id="consent" hidden role="dialog" aria-label="Souhlas s analytikou">
- <div class="in"><p><b>Statistika návštěvnosti.</b> Používáme Google Analytics, abychom věděli, kolik lidí test využívá a které úlohy jsou nejtěžší. Údaje jsou anonymní. <a href="../ochrana-osobnich-udaju.html">Více / Подробнее</a><br><span class="muted">Мы собираем анонимную статистику посещений (Google Analytics), чтобы улучшать тест. Разрешить?</span></p>
- <div class="bt"><button class="btn" type="button" id="consentNo">Nesouhlasím / Нет</button><button class="btn primary" type="button" id="consentYes">Souhlasím / Да</button></div></div>
+<div class="consent" id="consent" hidden role="dialog" aria-label="Google Analytics">
+ <div class="in"><p>📊 <b>Анонимная статистика?</b> Она показывает нам, какие задания самые трудные. <a href="../ochrana-osobnich-udaju.html">Подробнее</a></p>
+ <div class="bt"><button class="btn sm" type="button" id="consentNo">Нет</button><button class="btn sm primary" type="button" id="consentYes">Да, разрешить</button></div></div>
 </div>
 
 
@@ -869,7 +869,9 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
 "use strict";
 function track(name, params){ try{ if(typeof gtag === 'function') gtag('event', name, params || {}); }catch(e){} }
 (function(){ let c = null; try{ c = localStorage.getItem('ga-consent'); }catch(e){}
-  const box = document.getElementById('consent'); if(!box) return; if(c !== 'yes' && c !== 'no') box.hidden = false;
+  const box = document.getElementById('consent'); if(!box) return;
+  if(c !== 'yes' && c !== 'no'){ let shown = false; const show = () => { if(shown) return; const ls = document.getElementById('langsug'); if(ls && !ls.hidden){ setTimeout(show, 1500); return; } shown = true; box.hidden = false; };
+    ['scroll','pointerdown','keydown'].forEach(ev => addEventListener(ev, () => setTimeout(show, 600), {once: true, passive: true})); setTimeout(show, 7000); }
   const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes') track('page_view_after_consent'); };
   document.getElementById('consentYes').addEventListener('click', () => set('yes'));
   document.getElementById('consentNo').addEventListener('click', () => set('no'));
