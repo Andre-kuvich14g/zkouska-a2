@@ -104,6 +104,19 @@ button{font:inherit;color:inherit}
 .vid .ph{aspect-ratio:16/9;max-width:100%;display:grid;place-items:center;background:linear-gradient(135deg,var(--us),var(--soft))}
 .vid iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
 .vid .meta{padding:8px 10px;display:grid;gap:2px;font-size:.9rem}
+.vid .ph{position:relative;padding:0;border:0;cursor:pointer;width:100%;background:#000;overflow:hidden}
+.vid .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s,opacity .2s}
+.vid .ph:hover img,.vid .ph:focus-visible img{transform:scale(1.03);opacity:.92}
+.vid .ph .pl{position:absolute;inset:0;margin:auto;width:68px;height:48px;border-radius:14px;background:#e1251b;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.vid .ph .pl::after{content:"";border-style:solid;border-width:11px 0 11px 19px;border-color:transparent transparent transparent #fff;margin-left:4px}
+.ytl{border:2px solid #e1251b33;border-radius:var(--r);padding:12px;background:var(--soft);display:grid;gap:10px;margin:12px 0}
+.ytl>b{font-size:1.05rem}
+.ytl .vid{background:var(--sheet)}
+.ytl.big .vid{max-width:720px}
+.ytacts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn.yt{background:#e1251b;border-color:#e1251b;color:#fff}
+.btn.yt:hover{filter:brightness(1.08)}
+.ytsoon{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
 .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:8px}
 .tbtn{color:var(--ink);text-decoration:none;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);cursor:pointer;text-align:left}
 .tbtn:hover{border-color:var(--u);background:var(--us)}
@@ -276,8 +289,22 @@ function srToggle(btn, out, model, q, kind){
 }
 
 /* videos */
-function vidHTML(list){ if(!list || !list.length) return '';
-  return `<details class="sec"><summary>🎬 ${t('videos')}</summary><div class="body"><div class="vids">${list.map(v => `<div class="vid"><div class="ph"><button class="btn primary" type="button" data-vid="${esc(v[0])}">${t('vplay')}</button></div><div class="meta"><b>${esc(v[1])}</b><a class="small" href="https://www.youtube.com/watch?v=${esc(v[0])}" target="_blank" rel="noopener">${t('vyt')} ↗</a></div></div>`).join('')}</div><p class="note">${t('vnote')}</p></div></details>`; }
+const YT = D.yt || {sec: {}, home: []};
+const subURL = () => `https://www.youtube.com/channel/${YT.ch}?sub_confirmation=1`;
+const plURL = pl => `https://www.youtube.com/playlist?list=${pl}`;
+function vidCard(id, title, pl){
+  return `<div class="vid"><button class="ph" type="button" data-vid="${esc(id)}" aria-label="${esc(t('ytPlay'))}: ${esc(title)}"><img src="yt/${esc(id)}.jpg" alt="" loading="lazy" width="640" height="360"><span class="pl" aria-hidden="true"></span></button>
+  <div class="meta"><b>${esc(title)}</b><a class="small" href="https://www.youtube.com/watch?v=${esc(id)}${pl ? '&list=' + pl : ''}" target="_blank" rel="noopener" data-ytout>${t('vyt')} ↗</a></div></div>`; }
+const subBtn = () => `<a class="btn yt" href="${subURL()}" target="_blank" rel="noopener" data-ytsub>${t('ytSub')}</a>`;
+function ytTopic(u, i){ const s = YT.sec[u]; if(!s) return ''; const v = s.v[i];
+  if(!v) return `<div class="ytl"><div class="ytsoon"><span class="small">🎬 ${t('ytSoon')}</span>${subBtn()}</div></div>`;
+  return `<div class="ytl big"><b>${t('ytLesson')}</b>${vidCard(v[0], v[1], s.pl)}<div class="ytacts">${subBtn()}<a class="btn" href="${plURL(s.pl)}" target="_blank" rel="noopener" data-ytout>${t('ytAll')}</a></div><p class="note">${t('vnote')}</p></div>`; }
+function ytSection(u){ const s = YT.sec[u]; if(!s) return ''; const ks = Object.keys(s.v).map(Number).sort((a, b) => b - a);
+  if(!ks.length) return '';
+  return `<details class="sec" open><summary>${t('ytSec')} · ${ks.length} / 40</summary><div class="body"><div class="vids">${ks.slice(0, 3).map(k => vidCard(s.v[k][0], s.v[k][1], s.pl)).join('')}</div>
+  <div class="ytacts">${subBtn()}<a class="btn" href="${plURL(s.pl)}" target="_blank" rel="noopener" data-ytout>${t('ytAll')}</a><span class="small muted">${t('ytNext')}</span></div><p class="note">${t('vnote')}</p></div></details>`; }
+function ytHome(){ if(!YT.home.length) return '';
+  return `<details class="sec" open><summary>${t('ytSec')}</summary><div class="body"><div class="vids">${YT.home.map(v => vidCard(v[0], v[1], v[2])).join('')}</div><div class="ytacts">${subBtn()}<span class="small muted">${t('ytNext')}</span></div><p class="note">${t('vnote')}</p></div></details>`; }
 
 /* views */
 const U = ['u1','u2','u3','u4'];
@@ -289,14 +316,14 @@ function home(){
   return `<section class="sheet"><div class="hero"><h1>📚 ${t('title')}</h1><p>${t('lead')}</p></div>
   <h2 class="grp" id="g-mluveni">🗣 ${t('gM')}</h2>${ucards(U)}
   <h2 class="grp" id="g-psani">✍️ ${t('gP')}</h2>${ucards(W)}
-  <p class="note">${t('voiceNote')}</p>${genderHTML()}${vidHTML(D.videos.home)}</section>`; }
+  <p class="note">${t('voiceNote')}</p>${genderHTML()}${ytHome()}</section>`; }
 function lesson(u){
   const items = D[u] || [];
   return `<section class="sheet u ${u}"><a href="#" class="small">${t('home')}</a><h2>${t(u)}</h2>
   <details class="sec" open><summary>📋 ${t('how')}</summary><div class="body">${th(u, 'how')}</div></details>
   <details class="sec"><summary>🧩 ${t('grammar')}</summary><div class="body">${th(u, 'grammar')}<p class="note">${t('clickCz')}</p></div></details>
   <details class="sec"><summary>💡 ${t('tips')}</summary><div class="body">${th(u, 'tips')}</div></details>
-  ${vidHTML(D.videos[u])}
+  ${ytSection(u)}
   ${u === 'u1' ? `<div class="trainbox"><b>🎯 ${t('practice')}</b><p class="small">${t('practiceD')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
   ${u[0] === 'w' ? `<div class="trainbox"><b>🎯 ${t('practiceW')}</b><p class="small">${t('practiceWD')}</p><a class="btn primary" href="#w-train">${t('start')}</a></div>` : ''}
   ${u === 'u3' ? `<div class="trainbox"><b>🎯 ${t('practice3')}</b><p class="small">${t('practice3D')}</p><a class="btn primary" href="#${u}-train">${t('start')}</a></div>` : ''}
@@ -441,6 +468,7 @@ function route(){
   else if((m = h.match(/^(u[1-4])$/)) && ready(m[1])){ html = lesson(m[1]); track('learn_lesson', {u: m[1]}); }
   else html = home();
   $('#app').innerHTML = html; window.scrollTo({top: 0});
+  if((m = h.match(/^([uw][1-4])-(\d+)$/)) && YT.sec[m[1]]){ const h2 = $('#app .sheet h2'); if(h2){ const host = h2.parentElement.tagName === 'SECTION' ? h2 : h2.parentElement; host.insertAdjacentHTML('afterend', ytTopic(m[1], +m[2])); } }
   if(h === 'psani'){ const g = $('#g-psani'); if(g) setTimeout(() => g.scrollIntoView({block: 'start'}), 50); }
 }
 window.addEventListener('hashchange', route);
@@ -457,8 +485,10 @@ document.addEventListener('click', e => {
   if(b.hasAttribute('data-sr')){ srToggle(b, b.closest('.qa, .trainbox, .story').querySelector('.srout'), b.dataset.model, b.dataset.q, b.dataset.kind); return; }
   if(b.dataset.done){ const k = b.dataset.done; if(DONE[k]) delete DONE[k]; else DONE[k] = 1; saveDone(); route(); return; }
   if(b.hasAttribute('data-next')){ TR.n++; $('#app').innerHTML = trainView(); const s = $('.trainbox [data-say]'); if(s) speak(s.dataset.say, false, s); return; }
-  if(b.dataset.vid){ const ph = b.closest('.ph'); ph.outerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.vid)}?autoplay=1&rel=0" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`; track('learn_video', {id: b.dataset.vid}); return; }
+  if(b.dataset.vid){ const ph = b.closest('.ph'); const L = {uk:'uk', en:'en', ru:'ru', vi:'vi'}[lang] || 'uk';
+    ph.outerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.vid)}?autoplay=1&rel=0&playsinline=1&cc_load_policy=1&cc_lang_pref=${L}&hl=${L}" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`; track('learn_video', {id: b.dataset.vid}); return; }
 });
+document.addEventListener('click', e => { const a = e.target.closest('[data-ytsub],[data-ytout]'); if(a) track(a.hasAttribute('data-ytsub') ? 'youtube_subscribe' : 'youtube_click', {place: 'learn', page: location.hash || '#'}); });
 document.addEventListener('click', e => { const a = e.target.closest('[data-retrain]'); if(a && location.hash === a.getAttribute('href')){ e.preventDefault(); route(); } });
 route();
 })();

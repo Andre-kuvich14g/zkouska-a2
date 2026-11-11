@@ -12,21 +12,37 @@ def opt(mod, name):
     try: return getattr(__import__(mod), name)
     except Exception: return []
 
-VIDEOS = {
- 'home': [('NmmVbgWpIfo', 'Zkouška pro trvalý pobyt A2: Co se mění v dubnu 2026?'), ('dZe4_xv6QkM', 'Zkouška pro trvalý pobyt A2: Mluvení – jak vypadá a jak se připravit')],
- 'u1': [('a8i-TWtrAwE', 'Mluvení – umíte odpovědět na otázky?'), ('VJ_1cz6DowY', 'Czech Language Exam A2: Common Questions and Answers from the Examiner'), ('3P7Bb-JSggo', 'Zkouška pro trvalý pobyt A2: Moje rodina (mluvení)')],
- 'u2': [('8h3rjTZHzr8', 'Mluvení, úloha 2 – další příklady'), ('ojyeYcwEgM4', 'Czech A2 exam – speaking (roleplays)'), ('yEhP3U98glw', 'Czech A2 Exam Speaking 2026 – BIG Overview with Examples')],
- 'u3': [('2ZiLJaTHIQ8', 'Learn Czech Past Tense for the A2 Exam'), ('wM-i8G-a_aE', 'Mluvení – úlohy 3 a 4'), ('kgWPlOsxKNs', 'Nová zkouška z češtiny A2 2026: Jak zvládnout mluvení bez stresu')],
- 'w1': [('vekuykH44kE', 'Zkouška pro trvalý pobyt A2: Psaní – formuláře (cvičení)'), ('RorFosAfoAY', 'Zkouška pro trvalý pobyt A2: Jak vypadá psaní?')],
- 'w2': [('I5nrNMORXUw', 'Zkouška pro trvalý pobyt A2: Psaní – e-maily (cvičení)'), ('RorFosAfoAY', 'Zkouška pro trvalý pobyt A2: Jak vypadá psaní?')],
- 'u4': [('evQzRMJIfYA', 'Mluvení, nová úloha 4 – další cvičení'), ('m558l91RI54', 'Mluvení, nová úloha 4 – cvičení')],
-}
+# Лише відео нашого каналу @zkouska-a2cz (чужі відео прибрано 11.11.2026).
+# Відео до тем беруться з yt-upload/ids.json + yt-upload/meta.json (поле link «#u1-4» -> тема).
+CHANNEL = 'UCpkz24CVlceUnyC8PIF9KMA'
+PLAYLISTS = {'w1': 'PLUQqjJU0hPfs', 'w2': 'PLEbZM6bcfLsA', 'u1': 'PLMPSqjkk5Axw', 'u2': 'PLZ9QkvIdNGFg',
+             'u3': 'PLQZcneUaebBI', 'u4': 'PLK-4mNG0zlrk', 'l': 'PLDXeIemVzXw8', 'w': 'PLROyJEw4bAqA'}
+
+def yt_data():
+    ids = json.load(open(os.path.join(ROOT, 'yt-upload', 'ids.json'), encoding='utf-8'))
+    meta = json.load(open(os.path.join(ROOT, 'yt-upload', 'meta.json'), encoding='utf-8'))
+    secs = {u: {'pl': PLAYLISTS[u], 'v': {}} for u in ('u1', 'u2', 'u3', 'u4', 'w1', 'w2')}
+    for key, vid in ids.items():  # мініатюра 640×360 для сайту з yt-upload/thumb2/<key>.jpg (якщо ще нема)
+        src, dst = os.path.join(ROOT, 'yt-upload', 'thumb2', key + '.jpg'), os.path.join(ROOT, 'learn', 'yt', str(vid) + '.jpg')
+        if isinstance(vid, str) and not key.startswith('s_') and os.path.exists(src) and not os.path.exists(dst):
+            from PIL import Image
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            Image.open(src).convert('RGB').resize((640, 360), Image.LANCZOS).save(dst, quality=80, optimize=True, progressive=True)
+    for key, m in meta.items():
+        vid = ids.get(key)
+        if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
+        link = m.get('link', '')
+        if '#' in link:
+            u, i = link.split('#')[1].rsplit('-', 1)
+            if u in secs: secs[u]['v'][int(i)] = [vid, m['title'].replace('Zkouška A2 – ', '')]
+    home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), PLAYLISTS[k[0]]] for k in ('w01', 'l02', 'l01') if k in ids and k in meta]
+    return {'ch': CHANNEL, 'sec': secs, 'home': home}
 
 def topics(rows): return [{'cz': cz, 't': tr, 'qa': [list(x) for x in qa]} for cz, tr, qa in rows]
 
 def build():
     data = {
-        'ui': UI, 'theory': THEORY, 'videos': {k: [list(v) for v in vs] for k, vs in VIDEOS.items()},
+        'ui': UI, 'theory': THEORY, 'yt': yt_data(),
         'u1': topics(U1_A + U1_B + U1_C + U1_D),
         'u2': opt('u2', 'U2'), 'u3': [dict(x, cz=x['title']) for x in opt('u3', 'U3')], 'u4': opt('u4', 'U4'),
         'w1': W1, 'w2': W2,
