@@ -526,6 +526,9 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .tab.locked{opacity:.45;cursor:not-allowed}
 @media (min-width:641px){ .tab.locked .t1::after{content:" 🔒";font-size:.75em} }
 .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:50;max-width:min(92vw,520px);background:var(--ink,#111);color:var(--paper,#fff);padding:12px 16px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:.92rem;line-height:1.4}
+.share-res{border:2px dashed var(--accent);border-radius:16px;padding:14px;margin:14px 0;display:grid;gap:12px;justify-items:start}
+.share-res canvas{width:min(100%,360px);height:auto;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.share-btns{display:flex;flex-wrap:wrap;gap:8px}
 .res-prog{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:12px 0}
 .res-prog .st{border:1px solid var(--rule);border-radius:var(--r);padding:8px 4px;text-align:center;font-size:.85rem;background:var(--sheet)}
 .res-prog .st b{display:block}
@@ -1529,12 +1532,48 @@ function renderResults(){
   let h = `<div class="sec-head"><h2>Výsledky</h2><span class="meta">код іспиту ${E.seed}</span></div>${rec}
     ${overall ? (wr >= 42 && sp >= 24 ? `<div class="verdict pass"><span class="vi" aria-hidden="true">🎉</span><div><b>Іспит складено!</b><span>Обидві частини вище 60 %. Так тримати!</span></div></div><details class="donate-res"><summary>Тренажер допоміг? Можете пригостити автора кавою ☕</summary>${(document.querySelector('#donate .don-body') || {}).outerHTML || ''}</details>` : `<div class="verdict fail"><span class="vi" aria-hidden="true">💪</span><div><b>Іспит поки не складено</b><span>Потрібно 60 % в кожній частині окремо. Нижче видно, що саме підтягнути.</span></div></div>`) : progHTML}
     <div class="sum">${card('Písemná část', wr, 70, 42, writtenDone)}${card('Ústní část', sp, 40, 24, CHECKED.speak && RES.speakSet)}</div>
+    ${overall ? shareHTML(wr, sp) : ''}
     ${analysisHTML(rows, srows, wr, sp, writtenDone, CHECKED.speak && RES.speakSet, overall)}
     <div class="tbl-wrap"><table class="rtable" style="width:100%"><tbody>${rows.map(tr).join('')}<tr><th>Písemná část</th><th class="n">${wr} / 70</th></tr>${srows.map(tr).join('')}<tr><th>Ústní část</th><th class="n">${sp} / 40</th></tr></tbody></table></div>
     <details class="src-list"><summary>З яких варіантів складено цей іспит</summary><p>${SLOTS.map(s => `${SLOT_NAMES[s]}: варіант ${E.src[s]+1}`).join(' · ')}</p></details>
     <div class="controls"><button class="btn primary" type="button" id="againBtn">Новий іспит</button><span class="small muted">Щоб повторити саме цей іспит, введіть код ${E.seed} на стартовій сторінці.</span></div>`;
   $('#pane-results').innerHTML = h;
   $('#againBtn').addEventListener('click', () => goStart());
+  if(overall) drawShare(wr, sp);
+}
+
+
+/* ---------- share result ---------- */
+const SHARE_URL = m => 'https://zkouska-a2.cz/?utm_source=share&utm_medium=' + m + '&utm_campaign=result';
+const shareText = (wr, sp) => `Мій результат пробного іспиту A2 з чеської: ${wr + sp} / 110 ${wr >= 42 && sp >= 24 ? '✅' : '💪'} Спробуйте безкоштовно:`;
+function shareHTML(wr, sp){
+  const tx = encodeURIComponent(shareText(wr, sp));
+  const L = (m, u) => u.replace('@U', encodeURIComponent(SHARE_URL(m))).replace('@T', tx);
+  return `<div class="share-res"><b>📣 Поділіться результатом із друзями, яким теж потрібен іспит A2</b>
+  <canvas id="shareCv" width="1080" height="1080" aria-label="Картинка з результатом"></canvas>
+  <div class="share-btns"><button type="button" class="btn primary" id="shareNative">📤 Поділитися</button>
+  <a class="btn" data-share="telegram" target="_blank" rel="noopener" href="${L('telegram', 'https://t.me/share/url?url=@U&text=@T')}">Telegram</a>
+  <a class="btn" data-share="viber" href="${L('viber', 'viber://forward?text=@T%20@U')}">Viber</a>
+  <a class="btn" data-share="whatsapp" target="_blank" rel="noopener" href="${L('whatsapp', 'https://wa.me/?text=@T%20@U')}">WhatsApp</a>
+  <a class="btn" data-share="facebook" target="_blank" rel="noopener" href="${L('facebook', 'https://www.facebook.com/sharer/sharer.php?u=@U')}">Facebook</a>
+  <button type="button" class="btn" id="shareSave">⬇ Зберегти картинку</button></div></div>`; }
+function drawShare(wr, sp){
+  const cv = document.getElementById('shareCv'); if(!cv) return; const c = cv.getContext('2d'); if(!c.roundRect) c.roundRect = function(x, y, w, h){ this.rect(x, y, w, h); }; const W = 1080, pass = wr >= 42 && sp >= 24;
+  const g = c.createLinearGradient(0, 0, W, W); g.addColorStop(0, '#1f4fb8'); g.addColorStop(1, '#0b1a40'); c.fillStyle = g; c.fillRect(0, 0, W, W);
+  c.fillStyle = '#fff'; c.fillRect(0, W - 36, W / 3, 36); c.fillStyle = '#d7141a'; c.fillRect(W / 3, W - 36, W / 3, 36); c.fillStyle = '#11457e'; c.fillRect(2 * W / 3, W - 36, W / 3, 36);
+  const F = (w, z) => `${w} ${z}px Inter, "Segoe UI", Arial, sans-serif`; c.textAlign = 'center';
+  c.fillStyle = '#ffd400'; c.font = F(800, 44); c.fillText('ZKOUŠKA A2 NANEČISTO', W / 2, 120);
+  c.fillStyle = '#fff'; c.font = F(700, 40); c.fillText('Пробний іспит A2 · trvalý pobyt', W / 2, 180);
+  c.font = F(900, 210); c.fillText(String(wr + sp), W / 2 - 70, 430); c.font = F(700, 80); c.fillStyle = 'rgba(255,255,255,.75)'; c.fillText('/ 110', W / 2 + 190, 430);
+  const box = (x, label, v, max, ok) => { c.fillStyle = 'rgba(255,255,255,.12)'; c.beginPath(); c.roundRect(x, 500, 440, 200, 28); c.fill(); c.fillStyle = '#fff'; c.font = F(700, 38); c.fillText(label, x + 220, 565); c.font = F(900, 86); c.fillStyle = ok ? '#4ade80' : '#fbbf24'; c.fillText(v + ' / ' + max, x + 220, 665); };
+  box(80, 'Písemná část', wr, 70, wr >= 42); box(560, 'Ústní část', sp, 40, sp >= 24);
+  c.fillStyle = pass ? '#16a34a' : '#e0892b'; c.beginPath(); c.roundRect(240, 760, 600, 100, 50); c.fill(); c.fillStyle = '#fff'; c.font = F(900, 54); c.fillText(pass ? '✓ SLOŽENO' : 'TRÉNUJI DÁL 💪', W / 2, 828);
+  c.fillStyle = '#ffd400'; c.font = F(900, 62); c.fillText('zkouska-a2.cz', W / 2, 960); c.fillStyle = '#fff'; c.font = F(600, 34); c.fillText('Безкоштовно · без реєстрації', W / 2, 1010);
+  const toBlob = () => new Promise(r => cv.toBlob(r, 'image/png'));
+  document.getElementById('shareSave').onclick = async () => { const b = await toBlob(); const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = 'zkouska-a2-vysledek.png'; a.click(); track('share_result', {via: 'save'}); };
+  document.getElementById('shareNative').onclick = async () => { const b = await toBlob(); const f = new File([b], 'zkouska-a2-vysledek.png', {type: 'image/png'}); const d = {title: 'Zkouška A2 nanečisto', text: shareText(wr, sp), url: SHARE_URL('native')};
+    try{ if(navigator.canShare && navigator.canShare({files: [f]})) await navigator.share({...d, files: [f]}); else if(navigator.share) await navigator.share(d); else { await navigator.clipboard.writeText(d.text + ' ' + d.url); toast('Посилання скопійовано'); } track('share_result', {via: 'native'}); }catch(e){} };
+  document.querySelectorAll('[data-share]').forEach(a => a.addEventListener('click', () => track('share_result', {via: a.dataset.share})));
 }
 
 /* ---------- speech ---------- */
