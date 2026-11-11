@@ -1,275 +1,519 @@
 1
-00:00:00,200 --> 00:00:17,861
-Speaking, task 1. Big review: topics 1–5. Today you will review everything: how the task works, two mock exams, the most important phrases, five typical mistakes and finally a test without hints.
+00:00:00,200 --> 00:00:15,399
+All fifty questions from topics 1–5 with model answers — exactly the way the examiner asks. Plus the twelve most important phrases and five mistakes that cost people points. Get ready and answer out loud!
 
 2
-00:00:18,767 --> 00:00:30,548
+00:00:16,300 --> 00:00:28,082
 How does the task work? The examiner chooses two topics and asks four questions on each. That is eight questions in total, and each good answer gets one point.
 
 3
-00:00:31,433 --> 00:00:43,928
-You know the topics in advance, but not the questions. Always answer with a full sentence, ideally two. And listen to the tense: questions are in the present, past and future.
+00:00:28,967 --> 00:00:40,735
+You know the topics in advance, but not the questions. So now we will go through all ten questions of each topic. Answer with a full sentence, ideally two, and listen to the tense.
 
 4
-00:00:44,833 --> 00:00:53,788
-Mock exam number one. Topics: About me and Housing. You have eight seconds for each answer. Let’s start.
+00:00:41,633 --> 00:00:45,304
+Topic 1: About me. Ten questions.
 
 5
-00:00:54,500 --> 00:00:55,508
-Where are you from?
+00:00:45,800 --> 00:00:47,057
+What is your name?
 
 6
-00:01:03,800 --> 00:01:08,058
-I am from Ukraine, from the city of Kharkiv. It is a big city in the east.
+00:00:54,367 --> 00:00:58,142
+My name is Oleh Kovalenko. My friends call me Olek.
 
 7
-00:01:09,167 --> 00:01:10,652
-How long have you been in Czechia?
+00:00:59,233 --> 00:01:00,242
+Where are you from?
 
 8
-00:01:18,967 --> 00:01:22,829
-I have been in Czechia for five years. I came in 2021.
+00:01:07,533 --> 00:01:11,791
+I am from Ukraine, from the city of Kharkiv. It is a big city in the east.
 
 9
-00:01:23,933 --> 00:01:25,983
-What did you do before you came to Czechia?
+00:01:12,900 --> 00:01:14,403
+Where do you live now?
 
 10
-00:01:34,267 --> 00:01:36,839
-In Ukraine I worked as a shop assistant.
+00:01:21,700 --> 00:01:24,548
+Now I live in Kralupy nad Vltavou with my family.
 
 11
-00:01:37,933 --> 00:01:40,047
-What would you like to do in five years?
+00:01:25,633 --> 00:01:27,118
+How long have you been in Czechia?
 
 12
-00:01:48,333 --> 00:01:51,660
-In five years I would like to have a better job and speak Czech well.
+00:01:34,433 --> 00:01:38,296
+I have been in Czechia for five years. I came in 2021.
 
 13
-00:01:52,767 --> 00:01:54,411
-Do you live in a flat or a house?
+00:01:39,400 --> 00:01:40,454
+What do you do?
 
 14
-00:02:02,700 --> 00:02:04,974
-I live in a flat in a prefab block on the third floor.
+00:01:47,767 --> 00:01:50,775
+I work in a warehouse and in my free time I learn Czech.
 
 15
-00:02:06,067 --> 00:02:07,504
-Do you like your flat?
+00:01:51,867 --> 00:01:53,279
+What languages do you speak?
 
 16
-00:02:15,800 --> 00:02:19,499
-Yes, I like it because it's bright and there's a park nearby.
+00:02:00,567 --> 00:02:03,917
+I speak Ukrainian, Russian and a little Czech and English.
 
 17
-00:02:20,600 --> 00:02:22,788
-When did you last move house?
+00:02:05,033 --> 00:02:06,232
+What kind of person are you?
 
 18
-00:02:31,100 --> 00:02:34,147
-I last moved two years ago, to a bigger flat.
+00:02:13,533 --> 00:02:17,345
+I think I am calm and friendly. I like helping people.
 
 19
-00:02:35,233 --> 00:02:37,623
-What kind of home would you like in ten years?
+00:02:18,433 --> 00:02:20,483
+What did you do before you came to Czechia?
 
 20
-00:02:45,933 --> 00:02:48,698
-In ten years I'd like my own house with a garden.
+00:02:27,767 --> 00:02:30,339
+In Ukraine I worked as a shop assistant.
 
 21
-00:02:49,800 --> 00:02:53,774
-How many points out of eight did you get? Write your score in the comments.
+00:02:31,433 --> 00:02:32,792
+Why did you come to Czechia?
 
 22
-00:02:54,967 --> 00:03:00,594
-Mock exam number two. Topics: Family and My town.
+00:02:40,100 --> 00:02:43,283
+I came because of work and because my relatives live here.
 
 23
-00:03:01,300 --> 00:03:02,765
-Do you have any brothers or sisters?
+00:02:44,367 --> 00:02:46,480
+What would you like to do in five years?
 
 24
-00:03:11,067 --> 00:03:15,905
-Yes, I have one brother. He is three years older and lives in Ukraine.
+00:02:53,767 --> 00:02:57,093
+In five years I would like to have a better job and speak Czech well.
 
 25
-00:03:17,000 --> 00:03:18,426
-How old are your children?
+00:02:58,200 --> 00:03:02,106
+Topic 2: Family. Ten questions.
 
 26
-00:03:26,733 --> 00:03:30,905
-My son is nine and my daughter is five. My son is in the third year at school.
+00:03:02,600 --> 00:03:04,040
+How many people are there in your family?
 
 27
-00:03:32,000 --> 00:03:34,247
-When did you last see your parents?
+00:03:11,333 --> 00:03:15,098
+There are four of us: my wife, two sons and me.
 
 28
-00:03:42,533 --> 00:03:46,416
-I last saw my parents last summer when they came to visit.
+00:03:16,200 --> 00:03:17,665
+Do you have any brothers or sisters?
 
 29
-00:03:47,500 --> 00:03:49,620
-Where will you go with your family next time?
+00:03:24,967 --> 00:03:29,805
+Yes, I have one brother. He is three years older and lives in Ukraine.
 
 30
-00:03:57,933 --> 00:04:00,664
-Next summer we will go to the sea in Croatia with the family.
+00:03:30,900 --> 00:03:32,548
+Where do your parents live?
 
 31
-00:04:01,767 --> 00:04:03,845
-What is interesting in your town?
+00:03:39,833 --> 00:03:42,748
+My parents live in Ukraine in a small town by a river.
 
 32
-00:04:12,133 --> 00:04:15,221
-The Vltava river and a nice park by the station are interesting.
+00:03:43,833 --> 00:03:46,428
+What does your husband or wife do?
 
 33
-00:04:16,333 --> 00:04:18,477
-How do you get to work in town?
+00:03:53,733 --> 00:03:56,698
+My wife works in a hospital as a nurse.
 
 34
-00:04:26,767 --> 00:04:30,415
-I go to work by bus, the journey takes fifteen minutes.
+00:03:57,800 --> 00:03:59,226
+How old are your children?
 
 35
-00:04:31,500 --> 00:04:33,780
-What did you do in town last Saturday?
+00:04:06,533 --> 00:04:10,705
+My son is nine and my daughter is five. My son is in the third year at school.
 
 36
-00:04:42,067 --> 00:04:45,633
-Last Saturday I went to the market on the square and bought vegetables.
+00:04:11,800 --> 00:04:13,455
+What do you like doing as a family?
 
 37
-00:04:46,733 --> 00:04:48,997
-Will you live in this town in the future too?
+00:04:20,767 --> 00:04:23,976
+As a family we like going for walks and at the weekend we play games.
 
 38
-00:04:57,300 --> 00:05:01,767
-Yes, I think I'll live here in the future too, because I like it here.
+00:04:25,067 --> 00:04:26,704
+How often do you call your parents?
 
 39
-00:05:02,867 --> 00:05:06,841
-How many points out of eight did you get? Write your score in the comments.
+00:04:34,000 --> 00:04:37,140
+I call my parents almost every evening when they are at home.
 
 40
-00:05:08,033 --> 00:05:12,740
-Now the twelve most important phrases. Listen and repeat out loud.
+00:04:38,233 --> 00:04:40,481
+When did you last see your parents?
 
 41
-00:05:13,433 --> 00:05:15,287
-My name is Oleh Kovalenko.
+00:04:47,767 --> 00:04:51,650
+I last saw my parents last summer when they came to visit.
 
 42
-00:05:18,500 --> 00:05:20,800
-I am from Ukraine, from Kharkiv.
+00:04:52,733 --> 00:04:55,319
+How did you celebrate the last birthday in your family?
 
 43
-00:05:24,000 --> 00:05:26,033
-I live in Kralupy nad Vltavou.
+00:05:02,633 --> 00:05:06,478
+Last month we had a party at home for our son with a cake and friends.
 
 44
-00:05:29,233 --> 00:05:30,733
-I have been in Czechia for five years.
+00:05:07,567 --> 00:05:09,687
+Where will you go with your family next time?
 
 45
-00:05:33,933 --> 00:05:35,133
-I work in a warehouse.
+00:05:17,000 --> 00:05:19,730
+Next summer we will go to the sea in Croatia with the family.
 
 46
-00:05:38,333 --> 00:05:40,128
-I have a wife and two sons.
+00:05:20,833 --> 00:05:24,967
+Topic 3: Friends. Ten questions.
 
 47
-00:05:43,333 --> 00:05:45,665
-In my free time I like going for walks.
-
-48
-00:05:48,867 --> 00:05:51,429
-I like the flat because it is bright.
-
-49
-00:05:54,633 --> 00:05:56,567
-Last Saturday I was at the market.
-
-50
-00:05:59,767 --> 00:06:01,533
-Next summer we will go to the sea.
-
-51
-00:06:04,733 --> 00:06:07,000
-In five years I would like to have a better job.
-
-52
-00:06:10,200 --> 00:06:12,400
-I think I am calm and friendly.
-
-53
-00:06:15,600 --> 00:06:18,658
-Five typical mistakes that cost people points.
-
-54
-00:06:21,867 --> 00:06:28,092
-Correct: Bydlím v Kralupech nad Vltavou. Answer with a full sentence, not one word.
-
-55
-00:06:31,800 --> 00:06:37,409
-Correct: Jsem z Ukrajiny. After the preposition z we use the 2nd case: z Ukrajiny, z Kyjeva.
-
-56
-00:06:41,100 --> 00:06:48,034
-Correct: Bydlím v Praze. After the preposition v we use the 6th case: v Praze, v Brně.
-
-57
-00:06:51,733 --> 00:06:57,764
-Correct: Je mi čtyřicet let. This is how we say age: je mi … let.
-
-58
-00:07:01,467 --> 00:07:09,219
-Correct: Rodiče jsem naposledy viděl loni v létě. The question is in the past tense, so the answer must be too.
-
-59
-00:07:10,433 --> 00:07:19,524
-And now a test without hints. Eight questions, ten seconds per answer. You won’t hear the answers this time — you’ll find them on the website.
-
-60
-00:07:20,233 --> 00:07:21,774
+00:05:25,467 --> 00:05:27,007
 Do you have friends in the Czech Republic?
 
-61
-00:07:32,067 --> 00:07:33,365
+48
+00:05:34,300 --> 00:05:38,385
+Yes, I have several friends here. I know some of them from work.
+
+49
+00:05:39,500 --> 00:05:41,602
+How often do you meet your friends?
+
+50
+00:05:48,900 --> 00:05:52,503
+I meet my friends about once a week, usually on Saturday.
+
+51
+00:05:53,600 --> 00:05:55,918
+What does your best friend look like?
+
+52
+00:06:03,233 --> 00:06:07,883
+My best friend is tall, has short black hair and wears glasses.
+
+53
+00:06:09,000 --> 00:06:10,583
+What is your best friend like?
+
+54
+00:06:17,867 --> 00:06:20,871
+He's cheerful and always helps when I have a problem.
+
+55
+00:06:21,967 --> 00:06:23,265
 What do you do with your friends?
 
-62
-00:07:43,667 --> 00:07:46,657
+56
+00:06:30,567 --> 00:06:34,151
+We go to a café, play football or have a barbecue.
+
+57
+00:06:35,267 --> 00:06:37,594
+Where did you meet your best friend?
+
+58
+00:06:44,900 --> 00:06:48,202
+I met my best friend at work three years ago.
+
+59
+00:06:49,300 --> 00:06:52,291
 When did you last visit a friend and why?
 
+60
+00:06:59,600 --> 00:07:03,466
+Last Sunday I visited a friend because it was his birthday.
+
+61
+00:07:04,567 --> 00:07:05,969
+Do you have Czech friends?
+
+62
+00:07:13,267 --> 00:07:17,282
+I have one Czech friend. She helps me with Czech.
+
 63
-00:07:56,967 --> 00:07:59,157
+00:07:18,367 --> 00:07:20,557
 What will you do with your friends at the weekend?
 
 64
-00:08:09,467 --> 00:08:10,521
-What do you do?
+00:07:27,867 --> 00:07:30,355
+At the weekend my friends and I will go on a trip to Prague.
 
 65
-00:08:20,833 --> 00:08:22,274
-How many people are there in your family?
+00:07:31,467 --> 00:07:33,430
+Why are friends important?
 
 66
-00:08:32,567 --> 00:08:34,081
-How big is your flat?
+00:07:40,733 --> 00:07:44,212
+Friends are important because I can talk to them about everything.
 
 67
-00:08:44,367 --> 00:08:46,100
-Where do you like going most in town?
+00:07:45,300 --> 00:07:49,365
+Topic 4: Housing. Ten questions.
 
 68
-00:08:56,400 --> 00:09:01,563
-Done! How many questions did you manage? Write it in the comments.
+00:07:49,867 --> 00:07:51,511
+Do you live in a flat or a house?
 
 69
-00:09:02,767 --> 00:09:18,228
-Excellent! All questions with answers and a pronunciation check are free on the Zkouška A2 nanečisto website, link in the description. Tomorrow: big review of Speaking task 2. Subscribe so you don’t miss anything.
+00:07:58,800 --> 00:08:01,074
+I live in a flat in a prefab block on the third floor.
+
+70
+00:08:02,167 --> 00:08:03,681
+How big is your flat?
+
+71
+00:08:10,967 --> 00:08:14,615
+Our flat is a 2+1. It has two rooms and a kitchen.
+
+72
+00:08:15,700 --> 00:08:17,086
+How much do you pay in rent?
+
+73
+00:08:24,400 --> 00:08:27,695
+We pay twelve thousand crowns a month in rent, including utilities.
+
+74
+00:08:28,800 --> 00:08:30,617
+What do you have in your living room?
+
+75
+00:08:37,933 --> 00:08:42,218
+In the living room we have a sofa, a table, a TV and a big wardrobe.
+
+76
+00:08:43,333 --> 00:08:46,258
+What furniture does everyone need and why?
+
+77
+00:08:53,567 --> 00:08:56,751
+Everyone needs a bed because they have to sleep well.
+
+78
+00:08:57,867 --> 00:08:59,304
+Do you like your flat?
+
+79
+00:09:06,600 --> 00:09:10,299
+Yes, I like it because it's bright and there's a park nearby.
+
+80
+00:09:11,400 --> 00:09:13,472
+What was your home like when you were a child?
+
+81
+00:09:20,767 --> 00:09:23,870
+As a child I lived with my parents in a small house with a garden.
+
+82
+00:09:24,967 --> 00:09:27,154
+When did you last move house?
+
+83
+00:09:34,467 --> 00:09:37,514
+I last moved two years ago, to a bigger flat.
+
+84
+00:09:38,600 --> 00:09:40,341
+What would you like to change in your flat?
+
+85
+00:09:47,633 --> 00:09:50,022
+I'd like a new kitchen and a bigger bathroom.
+
+86
+00:09:51,133 --> 00:09:53,523
+What kind of home would you like in ten years?
+
+87
+00:10:00,833 --> 00:10:03,598
+In ten years I'd like my own house with a garden.
+
+88
+00:10:04,700 --> 00:10:08,552
+Topic 5: My town. Ten questions.
+
+89
+00:10:09,067 --> 00:10:10,559
+Which town do you live in?
+
+90
+00:10:17,867 --> 00:10:21,860
+I live in Kralupy nad Vltavou. It's a small town near Prague.
+
+91
+00:10:22,967 --> 00:10:25,065
+Is your town big or small?
+
+92
+00:10:32,367 --> 00:10:35,837
+My town is small, it has about eighteen thousand inhabitants.
+
+93
+00:10:36,933 --> 00:10:39,012
+What is interesting in your town?
+
+94
+00:10:46,300 --> 00:10:49,388
+The Vltava river and a nice park by the station are interesting.
+
+95
+00:10:50,500 --> 00:10:52,233
+Where do you like going most in town?
+
+96
+00:10:59,533 --> 00:11:02,306
+I like going to the park and walking by the river most.
+
+97
+00:11:03,400 --> 00:11:05,544
+How do you get to work in town?
+
+98
+00:11:12,833 --> 00:11:16,481
+I go to work by bus, the journey takes fifteen minutes.
+
+99
+00:11:17,567 --> 00:11:19,083
+What is missing in your town?
+
+100
+00:11:26,367 --> 00:11:28,744
+There's no cinema and not enough playgrounds for children.
+
+101
+00:11:29,833 --> 00:11:32,607
+What was your town like when you arrived?
+
+102
+00:11:39,900 --> 00:11:43,313
+When I arrived, the town was quiet and I didn't know anyone.
+
+103
+00:11:44,400 --> 00:11:46,680
+What did you do in town last Saturday?
+
+104
+00:11:53,967 --> 00:11:57,533
+Last Saturday I went to the market on the square and bought vegetables.
+
+105
+00:11:58,633 --> 00:12:00,897
+Will you live in this town in the future too?
+
+106
+00:12:08,200 --> 00:12:12,667
+Yes, I think I'll live here in the future too, because I like it here.
+
+107
+00:12:13,767 --> 00:12:16,400
+What would you recommend to a tourist in your town?
+
+108
+00:12:23,700 --> 00:12:26,904
+I'd recommend a walk along the river and a visit to the church.
+
+109
+00:12:28,000 --> 00:12:32,707
+Now the twelve most important phrases. Listen and repeat out loud.
+
+110
+00:12:33,400 --> 00:12:35,253
+My name is Oleh Kovalenko.
+
+111
+00:12:38,467 --> 00:12:40,767
+I am from Ukraine, from Kharkiv.
+
+112
+00:12:43,967 --> 00:12:46,000
+I live in Kralupy nad Vltavou.
+
+113
+00:12:49,200 --> 00:12:50,700
+I have been in Czechia for five years.
+
+114
+00:12:53,900 --> 00:12:55,100
+I work in a warehouse.
+
+115
+00:12:58,300 --> 00:13:00,094
+I have a wife and two sons.
+
+116
+00:13:03,300 --> 00:13:05,631
+In my free time I like going for walks.
+
+117
+00:13:08,833 --> 00:13:11,396
+I like the flat because it is bright.
+
+118
+00:13:14,600 --> 00:13:16,533
+Last Saturday I was at the market.
+
+119
+00:13:19,733 --> 00:13:21,500
+Next summer we will go to the sea.
+
+120
+00:13:24,700 --> 00:13:26,967
+In five years I would like to have a better job.
+
+121
+00:13:30,167 --> 00:13:32,367
+I think I am calm and friendly.
+
+122
+00:13:35,567 --> 00:13:38,625
+Five typical mistakes that cost people points.
+
+123
+00:13:41,833 --> 00:13:48,059
+Correct: Bydlím v Kralupech nad Vltavou. Answer with a full sentence, not one word.
+
+124
+00:13:51,767 --> 00:13:57,376
+Correct: Jsem z Ukrajiny. After the preposition z we use the 2nd case: z Ukrajiny, z Kyjeva.
+
+125
+00:14:01,067 --> 00:14:08,000
+Correct: Bydlím v Praze. After the preposition v we use the 6th case: v Praze, v Brně.
+
+126
+00:14:11,700 --> 00:14:17,731
+Correct: Je mi čtyřicet let. This is how we say age: je mi … let.
+
+127
+00:14:21,433 --> 00:14:29,186
+Correct: Rodiče jsem naposledy viděl loni v létě. The question is in the past tense, so the answer must be too.
+
+128
+00:14:30,400 --> 00:14:52,095
+Summary. First: answer with a full sentence, ideally two. Second: listen to the tense of the question and answer in the same tense. Third: watch the cases — z Ukrajiny, v Praze. And fourth: be specific — numbers, places, names.
+
+129
+00:14:53,300 --> 00:15:02,544
+Which topic is the hardest for you? Write it in the comments. And if the video helped, give it a like — it helps other people preparing for the exam.
+
+130
+00:15:03,733 --> 00:15:19,201
+On the Zkouška A2 nanečisto website you can practise all the questions for free — it listens to you and checks your answer. Link in the description. Tomorrow: big review of Speaking task 2. Subscribe so you don’t miss anything.

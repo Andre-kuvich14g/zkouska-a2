@@ -1,275 +1,519 @@
 1
-00:00:00,200 --> 00:00:17,861
-Nói, bài 1. Ôn tập lớn: chủ đề 1–5. Hôm nay bạn sẽ ôn lại tất cả: bài thi diễn ra thế nào, hai bài thi thử, các câu quan trọng nhất, năm lỗi thường gặp và cuối cùng là bài kiểm tra không gợi ý.
+00:00:00,200 --> 00:00:15,399
+Tất cả năm mươi câu hỏi của chủ đề 1–5 kèm câu trả lời mẫu — đúng như giám khảo hỏi. Thêm mười hai câu quan trọng nhất và năm lỗi khiến mọi người mất điểm. Hãy chuẩn bị và trả lời thành tiếng!
 
 2
-00:00:18,767 --> 00:00:30,548
+00:00:16,300 --> 00:00:28,082
 Bài thi diễn ra thế nào? Giám khảo chọn hai chủ đề, mỗi chủ đề hỏi bốn câu. Tổng cộng tám câu, mỗi câu trả lời tốt được một điểm.
 
 3
-00:00:31,433 --> 00:00:43,928
-Bạn biết trước chủ đề nhưng không biết câu hỏi. Luôn trả lời bằng câu đầy đủ, tốt nhất là hai câu. Và chú ý thì: câu hỏi ở hiện tại, quá khứ và tương lai.
+00:00:28,967 --> 00:00:40,735
+Bạn biết trước chủ đề nhưng không biết câu hỏi. Vì vậy bây giờ chúng ta sẽ đi qua cả mười câu hỏi của mỗi chủ đề. Hãy trả lời bằng câu đầy đủ, tốt nhất là hai câu, và chú ý thì.
 
 4
-00:00:44,833 --> 00:00:53,788
-Thi thử số một. Chủ đề: Về bản thân và Nhà ở. Mỗi câu trả lời có tám giây. Bắt đầu.
+00:00:41,633 --> 00:00:45,304
+Chủ đề 1: Về bản thân. Mười câu hỏi.
 
 5
-00:00:54,500 --> 00:00:55,508
-Bạn đến từ đâu?
+00:00:45,800 --> 00:00:47,057
+Bạn tên là gì?
 
 6
-00:01:03,800 --> 00:01:08,058
-Tôi đến từ Ukraina, từ thành phố Kharkiv. Đó là một thành phố lớn ở phía đông.
+00:00:54,367 --> 00:00:58,142
+Tôi tên là Oleh Kovalenko. Bạn bè gọi tôi là Olek.
 
 7
-00:01:09,167 --> 00:01:10,652
-Bạn ở Séc bao lâu rồi?
+00:00:59,233 --> 00:01:00,242
+Bạn đến từ đâu?
 
 8
-00:01:18,967 --> 00:01:22,829
-Tôi ở Séc đã năm năm. Tôi đến vào năm 2021.
+00:01:07,533 --> 00:01:11,791
+Tôi đến từ Ukraina, từ thành phố Kharkiv. Đó là một thành phố lớn ở phía đông.
 
 9
-00:01:23,933 --> 00:01:25,983
-Bạn đã làm gì trước khi đến Séc?
+00:01:12,900 --> 00:01:14,403
+Bây giờ bạn sống ở đâu?
 
 10
-00:01:34,267 --> 00:01:36,839
-Ở Ukraina tôi làm nhân viên bán hàng trong cửa hàng.
+00:01:21,700 --> 00:01:24,548
+Bây giờ tôi sống ở Kralupy nad Vltavou cùng gia đình.
 
 11
-00:01:37,933 --> 00:01:40,047
-Bạn muốn làm gì trong năm năm tới?
+00:01:25,633 --> 00:01:27,118
+Bạn ở Séc bao lâu rồi?
 
 12
-00:01:48,333 --> 00:01:51,660
-Trong năm năm nữa tôi muốn có công việc tốt hơn và nói tiếng Séc giỏi.
+00:01:34,433 --> 00:01:38,296
+Tôi ở Séc đã năm năm. Tôi đến vào năm 2021.
 
 13
-00:01:52,767 --> 00:01:54,411
-Bạn sống ở căn hộ hay nhà riêng?
+00:01:39,400 --> 00:01:40,454
+Bạn làm nghề gì?
 
 14
-00:02:02,700 --> 00:02:04,974
-Tôi sống ở căn hộ trong chung cư, tầng ba.
+00:01:47,767 --> 00:01:50,775
+Tôi làm việc ở kho hàng và lúc rảnh tôi học tiếng Séc.
 
 15
-00:02:06,067 --> 00:02:07,504
-Bạn có thích căn hộ của mình không?
+00:01:51,867 --> 00:01:53,279
+Bạn biết những ngôn ngữ nào?
 
 16
-00:02:15,800 --> 00:02:19,499
-Có, tôi thích vì căn hộ sáng sủa và gần công viên.
+00:02:00,567 --> 00:02:03,917
+Tôi biết tiếng Ukraina, tiếng Nga và một chút tiếng Séc và tiếng Anh.
 
 17
-00:02:20,600 --> 00:02:22,788
-Lần gần nhất bạn chuyển nhà là khi nào?
+00:02:05,033 --> 00:02:06,232
+Bạn là người như thế nào?
 
 18
-00:02:31,100 --> 00:02:34,147
-Lần gần nhất tôi chuyển nhà là hai năm trước, sang căn hộ lớn hơn.
+00:02:13,533 --> 00:02:17,345
+Tôi nghĩ tôi là người điềm tĩnh và thân thiện. Tôi thích giúp đỡ mọi người.
 
 19
-00:02:35,233 --> 00:02:37,623
-Mười năm nữa bạn muốn có ngôi nhà như thế nào?
+00:02:18,433 --> 00:02:20,483
+Bạn đã làm gì trước khi đến Séc?
 
 20
-00:02:45,933 --> 00:02:48,698
-Mười năm nữa tôi muốn có nhà riêng có vườn.
+00:02:27,767 --> 00:02:30,339
+Ở Ukraina tôi làm nhân viên bán hàng trong cửa hàng.
 
 21
-00:02:49,800 --> 00:02:53,774
-Bạn được mấy điểm trên tám? Hãy viết kết quả vào bình luận.
+00:02:31,433 --> 00:02:32,792
+Tại sao bạn đến Séc?
 
 22
-00:02:54,967 --> 00:03:00,594
-Thi thử số hai. Chủ đề: Gia đình và Thành phố của tôi.
+00:02:40,100 --> 00:02:43,283
+Tôi đến vì công việc và vì người thân của tôi sống ở đây.
 
 23
-00:03:01,300 --> 00:03:02,765
-Bạn có anh chị em không?
+00:02:44,367 --> 00:02:46,480
+Bạn muốn làm gì trong năm năm tới?
 
 24
-00:03:11,067 --> 00:03:15,905
-Có, tôi có một anh trai. Anh ấy hơn tôi ba tuổi và sống ở Ukraina.
+00:02:53,767 --> 00:02:57,093
+Trong năm năm nữa tôi muốn có công việc tốt hơn và nói tiếng Séc giỏi.
 
 25
-00:03:17,000 --> 00:03:18,426
-Các con bạn bao nhiêu tuổi?
+00:02:58,200 --> 00:03:02,106
+Chủ đề 2: Gia đình. Mười câu hỏi.
 
 26
-00:03:26,733 --> 00:03:30,905
-Con trai tôi chín tuổi và con gái năm tuổi. Con trai học lớp ba.
+00:03:02,600 --> 00:03:04,040
+Gia đình bạn có mấy người?
 
 27
-00:03:32,000 --> 00:03:34,247
-Lần cuối bạn gặp bố mẹ là khi nào?
+00:03:11,333 --> 00:03:15,098
+Gia đình tôi có bốn người: vợ, hai con trai và tôi.
 
 28
-00:03:42,533 --> 00:03:46,416
-Lần cuối tôi gặp bố mẹ là mùa hè năm ngoái khi họ đến thăm.
+00:03:16,200 --> 00:03:17,665
+Bạn có anh chị em không?
 
 29
-00:03:47,500 --> 00:03:49,620
-Lần tới bạn sẽ đi đâu cùng gia đình?
+00:03:24,967 --> 00:03:29,805
+Có, tôi có một anh trai. Anh ấy hơn tôi ba tuổi và sống ở Ukraina.
 
 30
-00:03:57,933 --> 00:04:00,664
-Mùa hè tới cả gia đình chúng tôi sẽ đi biển ở Croatia.
+00:03:30,900 --> 00:03:32,548
+Bố mẹ bạn sống ở đâu?
 
 31
-00:04:01,767 --> 00:04:03,845
-Thành phố của bạn có gì thú vị?
+00:03:39,833 --> 00:03:42,748
+Bố mẹ tôi sống ở Ukraina, trong một thị trấn nhỏ bên sông.
 
 32
-00:04:12,133 --> 00:04:15,221
-Thú vị là sông Vltava và công viên đẹp gần nhà ga.
+00:03:43,833 --> 00:03:46,428
+Chồng hoặc vợ bạn làm nghề gì?
 
 33
-00:04:16,333 --> 00:04:18,477
-Bạn đi làm bằng gì?
+00:03:53,733 --> 00:03:56,698
+Vợ tôi làm y tá ở bệnh viện.
 
 34
-00:04:26,767 --> 00:04:30,415
-Tôi đi làm bằng xe buýt, mất mười lăm phút.
+00:03:57,800 --> 00:03:59,226
+Các con bạn bao nhiêu tuổi?
 
 35
-00:04:31,500 --> 00:04:33,780
-Thứ Bảy tuần trước bạn làm gì trong thành phố?
+00:04:06,533 --> 00:04:10,705
+Con trai tôi chín tuổi và con gái năm tuổi. Con trai học lớp ba.
 
 36
-00:04:42,067 --> 00:04:45,633
-Thứ Bảy tuần trước tôi đi chợ ở quảng trường và mua rau.
+00:04:11,800 --> 00:04:13,455
+Cả gia đình bạn thích làm gì cùng nhau?
 
 37
-00:04:46,733 --> 00:04:48,997
-Sau này bạn vẫn sống ở thành phố này chứ?
+00:04:20,767 --> 00:04:23,976
+Cả nhà chúng tôi thích đi dạo và cuối tuần chơi trò chơi.
 
 38
-00:04:57,300 --> 00:05:01,767
-Có, tôi nghĩ sau này tôi vẫn sống ở đây vì tôi thích nơi này.
+00:04:25,067 --> 00:04:26,704
+Bạn gọi điện cho bố mẹ bao lâu một lần?
 
 39
-00:05:02,867 --> 00:05:06,841
-Bạn được mấy điểm trên tám? Hãy viết kết quả vào bình luận.
+00:04:34,000 --> 00:04:37,140
+Tôi gọi cho bố mẹ gần như mỗi tối khi họ ở nhà.
 
 40
-00:05:08,033 --> 00:05:12,740
-Bây giờ là mười hai câu quan trọng nhất. Hãy nghe và nhắc lại thành tiếng.
+00:04:38,233 --> 00:04:40,481
+Lần cuối bạn gặp bố mẹ là khi nào?
 
 41
-00:05:13,433 --> 00:05:15,287
-Tôi tên là Oleh Kovalenko.
+00:04:47,767 --> 00:04:51,650
+Lần cuối tôi gặp bố mẹ là mùa hè năm ngoái khi họ đến thăm.
 
 42
-00:05:18,500 --> 00:05:20,800
-Tôi đến từ Ukraina, từ Kharkiv.
+00:04:52,733 --> 00:04:55,319
+Gia đình bạn tổ chức sinh nhật gần đây nhất như thế nào?
 
 43
-00:05:24,000 --> 00:05:26,033
-Tôi sống ở Kralupy nad Vltavou.
+00:05:02,633 --> 00:05:06,478
+Tháng trước chúng tôi tổ chức tiệc cho con trai ở nhà với bánh kem và bạn bè.
 
 44
-00:05:29,233 --> 00:05:30,733
-Tôi ở Séc đã năm năm.
+00:05:07,567 --> 00:05:09,687
+Lần tới bạn sẽ đi đâu cùng gia đình?
 
 45
-00:05:33,933 --> 00:05:35,133
-Tôi làm việc ở kho hàng.
+00:05:17,000 --> 00:05:19,730
+Mùa hè tới cả gia đình chúng tôi sẽ đi biển ở Croatia.
 
 46
-00:05:38,333 --> 00:05:40,128
-Tôi có vợ và hai con trai.
+00:05:20,833 --> 00:05:24,967
+Chủ đề 3: Bạn bè. Mười câu hỏi.
 
 47
-00:05:43,333 --> 00:05:45,665
-Lúc rảnh tôi thích đi dạo.
-
-48
-00:05:48,867 --> 00:05:51,429
-Tôi thích căn hộ vì nó sáng sủa.
-
-49
-00:05:54,633 --> 00:05:56,567
-Thứ bảy tuần trước tôi đi chợ.
-
-50
-00:05:59,767 --> 00:06:01,533
-Mùa hè tới chúng tôi sẽ đi biển.
-
-51
-00:06:04,733 --> 00:06:07,000
-Năm năm nữa tôi muốn có công việc tốt hơn.
-
-52
-00:06:10,200 --> 00:06:12,400
-Tôi nghĩ tôi là người điềm tĩnh và thân thiện.
-
-53
-00:06:15,600 --> 00:06:18,658
-Năm lỗi thường gặp khiến mọi người mất điểm.
-
-54
-00:06:21,867 --> 00:06:28,092
-Đúng: Bydlím v Kralupech nad Vltavou. Hãy trả lời bằng câu đầy đủ, không phải một từ.
-
-55
-00:06:31,800 --> 00:06:37,409
-Đúng: Jsem z Ukrajiny. Sau giới từ z dùng cách 2: z Ukrajiny, z Kyjeva.
-
-56
-00:06:41,100 --> 00:06:48,034
-Đúng: Bydlím v Praze. Sau giới từ v dùng cách 6: v Praze, v Brně.
-
-57
-00:06:51,733 --> 00:06:57,764
-Đúng: Je mi čtyřicet let. Nói tuổi như sau: je mi … let.
-
-58
-00:07:01,467 --> 00:07:09,219
-Đúng: Rodiče jsem naposledy viděl loni v létě. Câu hỏi ở thì quá khứ thì câu trả lời cũng phải ở quá khứ.
-
-59
-00:07:10,433 --> 00:07:19,524
-Và bây giờ là bài kiểm tra không gợi ý. Tám câu hỏi, mười giây cho mỗi câu. Lần này bạn sẽ không nghe đáp án — đáp án có trên trang web.
-
-60
-00:07:20,233 --> 00:07:21,774
+00:05:25,467 --> 00:05:27,007
 Bạn có bạn bè ở Séc không?
 
-61
-00:07:32,067 --> 00:07:33,365
+48
+00:05:34,300 --> 00:05:38,385
+Có, tôi có vài người bạn ở đây. Một số tôi quen ở chỗ làm.
+
+49
+00:05:39,500 --> 00:05:41,602
+Bạn gặp bạn bè bao lâu một lần?
+
+50
+00:05:48,900 --> 00:05:52,503
+Tôi gặp bạn bè khoảng một lần một tuần, thường vào thứ Bảy.
+
+51
+00:05:53,600 --> 00:05:55,918
+Bạn thân nhất của bạn trông như thế nào?
+
+52
+00:06:03,233 --> 00:06:07,883
+Bạn thân nhất của tôi cao, tóc đen ngắn và đeo kính.
+
+53
+00:06:09,000 --> 00:06:10,583
+Bạn thân nhất của bạn là người thế nào?
+
+54
+00:06:17,867 --> 00:06:20,871
+Anh ấy vui vẻ và luôn giúp khi tôi gặp khó khăn.
+
+55
+00:06:21,967 --> 00:06:23,265
 Bạn làm gì cùng bạn bè?
 
-62
-00:07:43,667 --> 00:07:46,657
+56
+00:06:30,567 --> 00:06:34,151
+Chúng tôi đi quán cà phê, chơi bóng đá hoặc nướng thịt.
+
+57
+00:06:35,267 --> 00:06:37,594
+Bạn quen bạn thân nhất ở đâu?
+
+58
+00:06:44,900 --> 00:06:48,202
+Tôi quen bạn thân nhất ở chỗ làm ba năm trước.
+
+59
+00:06:49,300 --> 00:06:52,291
 Lần cuối bạn đến thăm bạn bè là khi nào và vì sao?
 
+60
+00:06:59,600 --> 00:07:03,466
+Chủ nhật tuần trước tôi đến thăm một người bạn vì hôm đó là sinh nhật anh ấy.
+
+61
+00:07:04,567 --> 00:07:05,969
+Bạn có bạn người Séc không?
+
+62
+00:07:13,267 --> 00:07:17,282
+Tôi có một người bạn gái người Séc. Cô ấy giúp tôi học tiếng Séc.
+
 63
-00:07:56,967 --> 00:07:59,157
+00:07:18,367 --> 00:07:20,557
 Cuối tuần bạn sẽ làm gì với bạn bè?
 
 64
-00:08:09,467 --> 00:08:10,521
-Bạn làm nghề gì?
+00:07:27,867 --> 00:07:30,355
+Cuối tuần tôi và bạn bè sẽ đi chơi Praha.
 
 65
-00:08:20,833 --> 00:08:22,274
-Gia đình bạn có mấy người?
+00:07:31,467 --> 00:07:33,430
+Tại sao bạn bè quan trọng?
 
 66
-00:08:32,567 --> 00:08:34,081
-Căn hộ của bạn rộng bao nhiêu?
+00:07:40,733 --> 00:07:44,212
+Bạn bè quan trọng vì tôi có thể nói với họ về mọi thứ.
 
 67
-00:08:44,367 --> 00:08:46,100
-Bạn thích đi đâu nhất trong thành phố?
+00:07:45,300 --> 00:07:49,365
+Chủ đề 4: Nhà ở. Mười câu hỏi.
 
 68
-00:08:56,400 --> 00:09:01,563
-Xong! Bạn trả lời được mấy câu? Hãy viết vào bình luận.
+00:07:49,867 --> 00:07:51,511
+Bạn sống ở căn hộ hay nhà riêng?
 
 69
-00:09:02,767 --> 00:09:18,228
-Tuyệt vời! Tất cả câu hỏi kèm đáp án và kiểm tra phát âm có miễn phí trên trang Zkouška A2 nanečisto, liên kết trong mô tả. Ngày mai: ôn tập lớn phần Nói, bài 2. Hãy đăng ký kênh để không bỏ lỡ.
+00:07:58,800 --> 00:08:01,074
+Tôi sống ở căn hộ trong chung cư, tầng ba.
+
+70
+00:08:02,167 --> 00:08:03,681
+Căn hộ của bạn rộng bao nhiêu?
+
+71
+00:08:10,967 --> 00:08:14,615
+Căn hộ của chúng tôi loại 2+1. Có hai phòng và một bếp.
+
+72
+00:08:15,700 --> 00:08:17,086
+Bạn trả tiền thuê bao nhiêu?
+
+73
+00:08:24,400 --> 00:08:27,695
+Chúng tôi trả mười hai nghìn korun mỗi tháng, gồm cả điện nước.
+
+74
+00:08:28,800 --> 00:08:30,617
+Trong phòng khách của bạn có gì?
+
+75
+00:08:37,933 --> 00:08:42,218
+Phòng khách có ghế sofa, bàn, tivi và một tủ lớn.
+
+76
+00:08:43,333 --> 00:08:46,258
+Mỗi người cần đồ nội thất gì và tại sao?
+
+77
+00:08:53,567 --> 00:08:56,751
+Ai cũng cần một cái giường vì phải ngủ ngon.
+
+78
+00:08:57,867 --> 00:08:59,304
+Bạn có thích căn hộ của mình không?
+
+79
+00:09:06,600 --> 00:09:10,299
+Có, tôi thích vì căn hộ sáng sủa và gần công viên.
+
+80
+00:09:11,400 --> 00:09:13,472
+Ngôi nhà thời thơ ấu của bạn thế nào?
+
+81
+00:09:20,767 --> 00:09:23,870
+Hồi nhỏ tôi sống cùng bố mẹ trong một ngôi nhà nhỏ có vườn.
+
+82
+00:09:24,967 --> 00:09:27,154
+Lần gần nhất bạn chuyển nhà là khi nào?
+
+83
+00:09:34,467 --> 00:09:37,514
+Lần gần nhất tôi chuyển nhà là hai năm trước, sang căn hộ lớn hơn.
+
+84
+00:09:38,600 --> 00:09:40,341
+Bạn muốn thay đổi gì trong căn hộ?
+
+85
+00:09:47,633 --> 00:09:50,022
+Tôi muốn có bếp mới và phòng tắm rộng hơn.
+
+86
+00:09:51,133 --> 00:09:53,523
+Mười năm nữa bạn muốn có ngôi nhà như thế nào?
+
+87
+00:10:00,833 --> 00:10:03,598
+Mười năm nữa tôi muốn có nhà riêng có vườn.
+
+88
+00:10:04,700 --> 00:10:08,552
+Chủ đề 5: Thành phố của tôi. Mười câu hỏi.
+
+89
+00:10:09,067 --> 00:10:10,559
+Bạn sống ở thành phố nào?
+
+90
+00:10:17,867 --> 00:10:21,860
+Tôi sống ở Kralupy nad Vltavou. Đó là thị trấn nhỏ gần Praha.
+
+91
+00:10:22,967 --> 00:10:25,065
+Thành phố của bạn lớn hay nhỏ?
+
+92
+00:10:32,367 --> 00:10:35,837
+Thành phố của tôi nhỏ, có khoảng mười tám nghìn dân.
+
+93
+00:10:36,933 --> 00:10:39,012
+Thành phố của bạn có gì thú vị?
+
+94
+00:10:46,300 --> 00:10:49,388
+Thú vị là sông Vltava và công viên đẹp gần nhà ga.
+
+95
+00:10:50,500 --> 00:10:52,233
+Bạn thích đi đâu nhất trong thành phố?
+
+96
+00:10:59,533 --> 00:11:02,306
+Tôi thích nhất là đi công viên và đi dạo bên sông.
+
+97
+00:11:03,400 --> 00:11:05,544
+Bạn đi làm bằng gì?
+
+98
+00:11:12,833 --> 00:11:16,481
+Tôi đi làm bằng xe buýt, mất mười lăm phút.
+
+99
+00:11:17,567 --> 00:11:19,083
+Thành phố của bạn còn thiếu gì?
+
+100
+00:11:26,367 --> 00:11:28,744
+Ở đây thiếu rạp chiếu phim và sân chơi cho trẻ em.
+
+101
+00:11:29,833 --> 00:11:32,607
+Thành phố thế nào khi bạn mới đến?
+
+102
+00:11:39,900 --> 00:11:43,313
+Khi tôi mới đến, thành phố yên tĩnh và tôi không quen ai.
+
+103
+00:11:44,400 --> 00:11:46,680
+Thứ Bảy tuần trước bạn làm gì trong thành phố?
+
+104
+00:11:53,967 --> 00:11:57,533
+Thứ Bảy tuần trước tôi đi chợ ở quảng trường và mua rau.
+
+105
+00:11:58,633 --> 00:12:00,897
+Sau này bạn vẫn sống ở thành phố này chứ?
+
+106
+00:12:08,200 --> 00:12:12,667
+Có, tôi nghĩ sau này tôi vẫn sống ở đây vì tôi thích nơi này.
+
+107
+00:12:13,767 --> 00:12:16,400
+Bạn sẽ gợi ý gì cho khách du lịch?
+
+108
+00:12:23,700 --> 00:12:26,904
+Tôi sẽ gợi ý đi dạo dọc bờ sông và thăm nhà thờ.
+
+109
+00:12:28,000 --> 00:12:32,707
+Bây giờ là mười hai câu quan trọng nhất. Hãy nghe và nhắc lại thành tiếng.
+
+110
+00:12:33,400 --> 00:12:35,253
+Tôi tên là Oleh Kovalenko.
+
+111
+00:12:38,467 --> 00:12:40,767
+Tôi đến từ Ukraina, từ Kharkiv.
+
+112
+00:12:43,967 --> 00:12:46,000
+Tôi sống ở Kralupy nad Vltavou.
+
+113
+00:12:49,200 --> 00:12:50,700
+Tôi ở Séc đã năm năm.
+
+114
+00:12:53,900 --> 00:12:55,100
+Tôi làm việc ở kho hàng.
+
+115
+00:12:58,300 --> 00:13:00,094
+Tôi có vợ và hai con trai.
+
+116
+00:13:03,300 --> 00:13:05,631
+Lúc rảnh tôi thích đi dạo.
+
+117
+00:13:08,833 --> 00:13:11,396
+Tôi thích căn hộ vì nó sáng sủa.
+
+118
+00:13:14,600 --> 00:13:16,533
+Thứ bảy tuần trước tôi đi chợ.
+
+119
+00:13:19,733 --> 00:13:21,500
+Mùa hè tới chúng tôi sẽ đi biển.
+
+120
+00:13:24,700 --> 00:13:26,967
+Năm năm nữa tôi muốn có công việc tốt hơn.
+
+121
+00:13:30,167 --> 00:13:32,367
+Tôi nghĩ tôi là người điềm tĩnh và thân thiện.
+
+122
+00:13:35,567 --> 00:13:38,625
+Năm lỗi thường gặp khiến mọi người mất điểm.
+
+123
+00:13:41,833 --> 00:13:48,059
+Đúng: Bydlím v Kralupech nad Vltavou. Hãy trả lời bằng câu đầy đủ, không phải một từ.
+
+124
+00:13:51,767 --> 00:13:57,376
+Đúng: Jsem z Ukrajiny. Sau giới từ z dùng cách 2: z Ukrajiny, z Kyjeva.
+
+125
+00:14:01,067 --> 00:14:08,000
+Đúng: Bydlím v Praze. Sau giới từ v dùng cách 6: v Praze, v Brně.
+
+126
+00:14:11,700 --> 00:14:17,731
+Đúng: Je mi čtyřicet let. Nói tuổi như sau: je mi … let.
+
+127
+00:14:21,433 --> 00:14:29,186
+Đúng: Rodiče jsem naposledy viděl loni v létě. Câu hỏi ở thì quá khứ thì câu trả lời cũng phải ở quá khứ.
+
+128
+00:14:30,400 --> 00:14:52,095
+Tóm tắt. Thứ nhất: trả lời bằng câu đầy đủ, tốt nhất là hai câu. Thứ hai: nghe thì của câu hỏi và trả lời cùng thì. Thứ ba: chú ý cách — z Ukrajiny, v Praze. Và thứ tư: nói cụ thể — số, nơi chốn, tên.
+
+129
+00:14:53,300 --> 00:15:02,544
+Chủ đề nào khó nhất với bạn? Hãy viết vào bình luận. Nếu video có ích, hãy bấm thích — điều đó giúp những người khác đang ôn thi.
+
+130
+00:15:03,733 --> 00:15:19,201
+Trên trang Zkouška A2 nanečisto bạn có thể luyện tất cả câu hỏi miễn phí — trang web nghe và kiểm tra câu trả lời. Liên kết trong mô tả. Ngày mai: ôn tập lớn phần Nói, bài 2. Hãy đăng ký kênh để không bỏ lỡ.

@@ -1,275 +1,519 @@
 1
-00:00:00,200 --> 00:00:17,861
-Mluvení, úloha jedna. Velké opakování: témata jedna až pět. Dnes si zopakujete všechno: jak úloha funguje, dvě zkoušky nanečisto, nejdůležitější fráze, pět typických chyb a na konec test bez nápovědy.
+00:00:00,200 --> 00:00:15,399
+Všech padesát otázek z témat jedna až pět, se vzorovými odpověďmi – přesně tak, jak se ptá zkoušející. A navíc dvanáct nejdůležitějších frází a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a odpovídejte nahlas!
 
 2
-00:00:18,767 --> 00:00:30,548
+00:00:16,300 --> 00:00:28,082
 Jak úloha funguje? Zkoušející vybere dvě témata. Z každého tématu se zeptá na čtyři otázky. Celkem je to osm otázek a za každou dobrou odpověď dostanete jeden bod.
 
 3
-00:00:31,433 --> 00:00:43,928
-Témata znáte předem, ale otázky ne. Odpovídejte vždy celou větou, nejlépe dvěma větami. A dobře poslouchejte čas: otázky jsou v přítomném, minulém i budoucím čase.
+00:00:28,967 --> 00:00:40,735
+Témata znáte předem, ale otázky ne. Proto si teď projdeme všech deset otázek z každého tématu. Odpovídejte celou větou, nejlépe dvěma větami, a dobře poslouchejte čas.
 
 4
-00:00:44,833 --> 00:00:53,788
-Zkouška nanečisto číslo jedna. Témata: O mně a Bydlení. Na každou odpověď máte osm sekund. Začínáme.
+00:00:41,633 --> 00:00:45,304
+Téma jedna: O mně. Deset otázek.
 
 5
-00:00:54,500 --> 00:00:55,508
-Odkud jste?
+00:00:45,800 --> 00:00:47,057
+Jak se jmenujete?
 
 6
-00:01:03,800 --> 00:01:08,058
-Jsem z Ukrajiny, z města Charkov. Je to velké město na východě.
+00:00:54,367 --> 00:00:58,142
+Jmenuju se Oleh Kovalenko. Přátelé mi říkají Olek.
 
 7
-00:01:09,167 --> 00:01:10,652
-Jak dlouho jste v Česku?
+00:00:59,233 --> 00:01:00,242
+Odkud jste?
 
 8
-00:01:18,967 --> 00:01:22,829
-V Česku jsem už pět let. Přijel jsem v roce 2021.
+00:01:07,533 --> 00:01:11,791
+Jsem z Ukrajiny, z města Charkov. Je to velké město na východě.
 
 9
-00:01:23,933 --> 00:01:25,983
-Co jste dělal před příjezdem do Česka?
+00:01:12,900 --> 00:01:14,403
+Kde teď bydlíte?
 
 10
-00:01:34,267 --> 00:01:36,839
-Na Ukrajině jsem pracoval jako prodavač v obchodě.
+00:01:21,700 --> 00:01:24,548
+Teď bydlím v Kralupech nad Vltavou s rodinou.
 
 11
-00:01:37,933 --> 00:01:40,047
-Co byste chtěl dělat za pět let?
+00:01:25,633 --> 00:01:27,118
+Jak dlouho jste v Česku?
 
 12
-00:01:48,333 --> 00:01:51,660
-Za pět let bych chtěl mít lepší práci a mluvit dobře česky.
+00:01:34,433 --> 00:01:38,296
+V Česku jsem už pět let. Přijel jsem v roce 2021.
 
 13
-00:01:52,767 --> 00:01:54,411
-Bydlíte v bytě, nebo v domě?
+00:01:39,400 --> 00:01:40,454
+Co děláte?
 
 14
-00:02:02,700 --> 00:02:04,974
-Bydlím v bytě v paneláku ve třetím patře.
+00:01:47,767 --> 00:01:50,775
+Pracuju ve skladu a ve volném čase se učím česky.
 
 15
-00:02:06,067 --> 00:02:07,504
-Líbí se vám váš byt?
+00:01:51,867 --> 00:01:53,279
+Jaké jazyky umíte?
 
 16
-00:02:15,800 --> 00:02:19,499
-Ano, byt se mi líbí, protože je světlý a blízko je park.
+00:02:00,567 --> 00:02:03,917
+Umím ukrajinsky, rusky a trochu česky a anglicky.
 
 17
-00:02:20,600 --> 00:02:22,788
-Kdy jste se naposledy stěhoval?
+00:02:05,033 --> 00:02:06,232
+Jaký jste člověk?
 
 18
-00:02:31,100 --> 00:02:34,147
-Naposledy jsem se stěhoval před dvěma lety do většího bytu.
+00:02:13,533 --> 00:02:17,345
+Myslím, že jsem klidný a přátelský. Rád pomáhám lidem.
 
 19
-00:02:35,233 --> 00:02:37,623
-Jaký domov byste chtěl za deset let?
+00:02:18,433 --> 00:02:20,483
+Co jste dělal před příjezdem do Česka?
 
 20
-00:02:45,933 --> 00:02:48,698
-Za deset let bych chtěl vlastní dům se zahradou.
+00:02:27,767 --> 00:02:30,339
+Na Ukrajině jsem pracoval jako prodavač v obchodě.
 
 21
-00:02:49,800 --> 00:02:53,774
-Kolik máte bodů z osmi? Napište svůj výsledek do komentáře.
+00:02:31,433 --> 00:02:32,792
+Proč jste přijel do Česka?
 
 22
-00:02:54,967 --> 00:03:00,594
-Zkouška nanečisto číslo dvě. Témata: Rodina a Moje město.
+00:02:40,100 --> 00:02:43,283
+Přijel jsem kvůli práci a protože tady žijí moji příbuzní.
 
 23
-00:03:01,300 --> 00:03:02,765
-Máte sourozence?
+00:02:44,367 --> 00:02:46,480
+Co byste chtěl dělat za pět let?
 
 24
-00:03:11,067 --> 00:03:15,905
-Ano, mám jednoho bratra. Je o tři roky starší a bydlí na Ukrajině.
+00:02:53,767 --> 00:02:57,093
+Za pět let bych chtěl mít lepší práci a mluvit dobře česky.
 
 25
-00:03:17,000 --> 00:03:18,426
-Kolik let mají vaše děti?
+00:02:58,200 --> 00:03:02,106
+Téma dva: Rodina. Deset otázek.
 
 26
-00:03:26,733 --> 00:03:30,905
-Syn má devět let a dcera má pět let. Syn chodí do třetí třídy.
+00:03:02,600 --> 00:03:04,040
+Kolik lidí má vaše rodina?
 
 27
-00:03:32,000 --> 00:03:34,247
-Kdy jste naposledy viděl rodiče?
+00:03:11,333 --> 00:03:15,098
+Moje rodina má čtyři lidi: manželku, dva syny a mě.
 
 28
-00:03:42,533 --> 00:03:46,416
-Rodiče jsem naposledy viděl loni v létě, když přijeli na návštěvu.
+00:03:16,200 --> 00:03:17,665
+Máte sourozence?
 
 29
-00:03:47,500 --> 00:03:49,620
-Kam pojedete příště s rodinou?
+00:03:24,967 --> 00:03:29,805
+Ano, mám jednoho bratra. Je o tři roky starší a bydlí na Ukrajině.
 
 30
-00:03:57,933 --> 00:04:00,664
-Příští léto pojedeme s rodinou k moři do Chorvatska.
+00:03:30,900 --> 00:03:32,548
+Kde bydlí vaši rodiče?
 
 31
-00:04:01,767 --> 00:04:03,845
-Co je ve vašem městě zajímavé?
+00:03:39,833 --> 00:03:42,748
+Moji rodiče bydlí na Ukrajině v malém městě u řeky.
 
 32
-00:04:12,133 --> 00:04:15,221
-Zajímavá je řeka Vltava a hezký park u nádraží.
+00:03:43,833 --> 00:03:46,428
+Co dělá váš manžel nebo vaše manželka?
 
 33
-00:04:16,333 --> 00:04:18,477
-Jak se ve městě dostanete do práce?
+00:03:53,733 --> 00:03:56,698
+Moje manželka pracuje v nemocnici jako zdravotní sestra.
 
 34
-00:04:26,767 --> 00:04:30,415
-Do práce jezdím autobusem, cesta trvá patnáct minut.
+00:03:57,800 --> 00:03:59,226
+Kolik let mají vaše děti?
 
 35
-00:04:31,500 --> 00:04:33,780
-Co jste ve městě dělal minulou sobotu?
+00:04:06,533 --> 00:04:10,705
+Syn má devět let a dcera má pět let. Syn chodí do třetí třídy.
 
 36
-00:04:42,067 --> 00:04:45,633
-Minulou sobotu jsem byl na trhu na náměstí a koupil jsem zeleninu.
+00:04:11,800 --> 00:04:13,455
+Co rádi děláte jako rodina?
 
 37
-00:04:46,733 --> 00:04:48,997
-Budete v tomto městě bydlet i v budoucnu?
+00:04:20,767 --> 00:04:23,976
+Jako rodina rádi chodíme na procházky a o víkendu hrajeme hry.
 
 38
-00:04:57,300 --> 00:05:01,767
-Ano, myslím, že tady budu bydlet i v budoucnu, protože se mi tu líbí.
+00:04:25,067 --> 00:04:26,704
+Jak často voláte rodičům?
 
 39
-00:05:02,867 --> 00:05:06,841
-Kolik máte bodů z osmi? Napište svůj výsledek do komentáře.
+00:04:34,000 --> 00:04:37,140
+Rodičům volám skoro každý den večer, když jsou doma.
 
 40
-00:05:08,033 --> 00:05:12,740
-Teď dvanáct nejdůležitějších frází. Poslouchejte a opakujte nahlas.
+00:04:38,233 --> 00:04:40,481
+Kdy jste naposledy viděl rodiče?
 
 41
-00:05:13,433 --> 00:05:15,287
-Jmenuju se Oleh Kovalenko.
+00:04:47,767 --> 00:04:51,650
+Rodiče jsem naposledy viděl loni v létě, když přijeli na návštěvu.
 
 42
-00:05:18,500 --> 00:05:20,800
-Jsem z Ukrajiny, z Charkova.
+00:04:52,733 --> 00:04:55,319
+Jak jste slavili poslední narozeniny v rodině?
 
 43
-00:05:24,000 --> 00:05:26,033
-Bydlím v Kralupech nad Vltavou.
+00:05:02,633 --> 00:05:06,478
+Synovi jsme minulý měsíc udělali oslavu doma s dortem a kamarády.
 
 44
-00:05:29,233 --> 00:05:30,733
-V Česku jsem už pět let.
+00:05:07,567 --> 00:05:09,687
+Kam pojedete příště s rodinou?
 
 45
-00:05:33,933 --> 00:05:35,133
-Pracuju ve skladu.
+00:05:17,000 --> 00:05:19,730
+Příští léto pojedeme s rodinou k moři do Chorvatska.
 
 46
-00:05:38,333 --> 00:05:40,128
-Mám manželku a dva syny.
+00:05:20,833 --> 00:05:24,967
+Téma tři: Kamarádi. Deset otázek.
 
 47
-00:05:43,333 --> 00:05:45,665
-Ve volném čase rád chodím na procházky.
-
-48
-00:05:48,867 --> 00:05:51,429
-Byt se mi líbí, protože je světlý.
-
-49
-00:05:54,633 --> 00:05:56,567
-Minulou sobotu jsem byl na trhu.
-
-50
-00:05:59,767 --> 00:06:01,533
-Příští léto pojedeme k moři.
-
-51
-00:06:04,733 --> 00:06:07,000
-Za pět let bych chtěl mít lepší práci.
-
-52
-00:06:10,200 --> 00:06:12,400
-Myslím, že jsem klidný a přátelský.
-
-53
-00:06:15,600 --> 00:06:18,658
-Pět typických chyb, kvůli kterým lidé ztrácejí body.
-
-54
-00:06:21,867 --> 00:06:28,092
-Správně: Bydlím v Kralupech nad Vltavou. Odpovídejte celou větou, ne jedním slovem.
-
-55
-00:06:31,800 --> 00:06:37,409
-Správně: Jsem z Ukrajiny. Po předložce z je druhý pád: z Ukrajiny, z Kyjeva.
-
-56
-00:06:41,100 --> 00:06:48,034
-Správně: Bydlím v Praze. Po předložce v je šestý pád: v Praze, v Brně.
-
-57
-00:06:51,733 --> 00:06:57,764
-Správně: Je mi čtyřicet let. Věk říkáme takhle: je mi čtyřicet let.
-
-58
-00:07:01,467 --> 00:07:09,219
-Správně: Rodiče jsem naposledy viděl loni v létě. Otázka je v minulém čase, odpověď musí být taky v minulém čase.
-
-59
-00:07:10,433 --> 00:07:19,524
-A teď test bez nápovědy. Osm otázek, deset sekund na odpověď. Správné odpovědi tentokrát neuslyšíte. Najdete je na webu.
-
-60
-00:07:20,233 --> 00:07:21,774
+00:05:25,467 --> 00:05:27,007
 Máte v Česku kamarády?
 
-61
-00:07:32,067 --> 00:07:33,365
+48
+00:05:34,300 --> 00:05:38,385
+Ano, mám tady několik kamarádů. Některé znám z práce.
+
+49
+00:05:39,500 --> 00:05:41,602
+Jak často se scházíte s kamarády?
+
+50
+00:05:48,900 --> 00:05:52,503
+S kamarády se scházím asi jednou týdně, většinou v sobotu.
+
+51
+00:05:53,600 --> 00:05:55,918
+Jak vypadá váš nejlepší kamarád?
+
+52
+00:06:03,233 --> 00:06:07,883
+Můj nejlepší kamarád je vysoký, má krátké černé vlasy a nosí brýle.
+
+53
+00:06:09,000 --> 00:06:10,583
+Jaký je váš nejlepší kamarád?
+
+54
+00:06:17,867 --> 00:06:20,871
+Je veselý a vždycky pomůže, když mám problém.
+
+55
+00:06:21,967 --> 00:06:23,265
 Co děláte s kamarády?
 
-62
-00:07:43,667 --> 00:07:46,657
+56
+00:06:30,567 --> 00:06:34,151
+S kamarády chodíme do kavárny, hrajeme fotbal nebo grilujeme.
+
+57
+00:06:35,267 --> 00:06:37,594
+Kde jste se seznámil s nejlepším kamarádem?
+
+58
+00:06:44,900 --> 00:06:48,202
+S nejlepším kamarádem jsem se seznámil v práci před třemi lety.
+
+59
+00:06:49,300 --> 00:06:52,291
 Kdy jste naposledy navštívil kamaráda a proč?
 
+60
+00:06:59,600 --> 00:07:03,466
+Minulou neděli jsem navštívil kamaráda, protože měl narozeniny.
+
+61
+00:07:04,567 --> 00:07:05,969
+Máte kamarády Čechy?
+
+62
+00:07:13,267 --> 00:07:17,282
+Mám jednu kamarádku Češku. Pomáhá mi s češtinou.
+
 63
-00:07:56,967 --> 00:07:59,157
+00:07:18,367 --> 00:07:20,557
 Co budete dělat s kamarády o víkendu?
 
 64
-00:08:09,467 --> 00:08:10,521
-Co děláte?
+00:07:27,867 --> 00:07:30,355
+O víkendu půjdeme s kamarády na výlet do Prahy.
 
 65
-00:08:20,833 --> 00:08:22,274
-Kolik lidí má vaše rodina?
+00:07:31,467 --> 00:07:33,430
+Proč jsou kamarádi důležití?
 
 66
-00:08:32,567 --> 00:08:34,081
-Jak velký je váš byt?
+00:07:40,733 --> 00:07:44,212
+Kamarádi jsou důležití, protože s nimi můžu mluvit o všem.
 
 67
-00:08:44,367 --> 00:08:46,100
-Kam chodíte ve městě nejraději?
+00:07:45,300 --> 00:07:49,365
+Téma čtyři: Bydlení. Deset otázek.
 
 68
-00:08:56,400 --> 00:09:01,563
-Hotovo! Kolik otázek jste zvládli? Napište to do komentáře.
+00:07:49,867 --> 00:07:51,511
+Bydlíte v bytě, nebo v domě?
 
 69
-00:09:02,767 --> 00:09:18,228
-Výborně! Všechny otázky s odpověďmi a kontrolu výslovnosti najdete zdarma na webu Zkouška A2 nanečisto, odkaz je v popisu. Zítra: velké opakování Mluvení, úloha dvě. Odebírejte kanál, ať vám nic neuteče.
+00:07:58,800 --> 00:08:01,074
+Bydlím v bytě v paneláku ve třetím patře.
+
+70
+00:08:02,167 --> 00:08:03,681
+Jak velký je váš byt?
+
+71
+00:08:10,967 --> 00:08:14,615
+Náš byt je dva plus jedna. Má dva pokoje a kuchyň.
+
+72
+00:08:15,700 --> 00:08:17,086
+Kolik platíte za nájem?
+
+73
+00:08:24,400 --> 00:08:27,695
+Za nájem platíme dvanáct tisíc korun měsíčně i s energiemi.
+
+74
+00:08:28,800 --> 00:08:30,617
+Co máte v obývacím pokoji?
+
+75
+00:08:37,933 --> 00:08:42,218
+V obývacím pokoji máme gauč, stůl, televizi a velkou skříň.
+
+76
+00:08:43,333 --> 00:08:46,258
+Jaký nábytek potřebuje každý člověk a proč?
+
+77
+00:08:53,567 --> 00:08:56,751
+Každý člověk potřebuje postel, protože musí dobře spát.
+
+78
+00:08:57,867 --> 00:08:59,304
+Líbí se vám váš byt?
+
+79
+00:09:06,600 --> 00:09:10,299
+Ano, byt se mi líbí, protože je světlý a blízko je park.
+
+80
+00:09:11,400 --> 00:09:13,472
+Jak vypadal váš domov v dětství?
+
+81
+00:09:20,767 --> 00:09:23,870
+V dětství jsem bydlel s rodiči v malém domě se zahradou.
+
+82
+00:09:24,967 --> 00:09:27,154
+Kdy jste se naposledy stěhoval?
+
+83
+00:09:34,467 --> 00:09:37,514
+Naposledy jsem se stěhoval před dvěma lety do většího bytu.
+
+84
+00:09:38,600 --> 00:09:40,341
+Co byste chtěl v bytě změnit?
+
+85
+00:09:47,633 --> 00:09:50,022
+Chtěl bych novou kuchyň a větší koupelnu.
+
+86
+00:09:51,133 --> 00:09:53,523
+Jaký domov byste chtěl za deset let?
+
+87
+00:10:00,833 --> 00:10:03,598
+Za deset let bych chtěl vlastní dům se zahradou.
+
+88
+00:10:04,700 --> 00:10:08,552
+Téma pět: Moje město. Deset otázek.
+
+89
+00:10:09,067 --> 00:10:10,559
+Ve kterém městě bydlíte?
+
+90
+00:10:17,867 --> 00:10:21,860
+Bydlím v Kralupech nad Vltavou. Je to malé město blízko Prahy.
+
+91
+00:10:22,967 --> 00:10:25,065
+Je vaše město velké, nebo malé?
+
+92
+00:10:32,367 --> 00:10:35,837
+Moje město je malé, má asi osmnáct tisíc obyvatel.
+
+93
+00:10:36,933 --> 00:10:39,012
+Co je ve vašem městě zajímavé?
+
+94
+00:10:46,300 --> 00:10:49,388
+Zajímavá je řeka Vltava a hezký park u nádraží.
+
+95
+00:10:50,500 --> 00:10:52,233
+Kam chodíte ve městě nejraději?
+
+96
+00:10:59,533 --> 00:11:02,306
+Nejraději chodím do parku a na procházku k řece.
+
+97
+00:11:03,400 --> 00:11:05,544
+Jak se ve městě dostanete do práce?
+
+98
+00:11:12,833 --> 00:11:16,481
+Do práce jezdím autobusem, cesta trvá patnáct minut.
+
+99
+00:11:17,567 --> 00:11:19,083
+Co ve vašem městě chybí?
+
+100
+00:11:26,367 --> 00:11:28,744
+Chybí tady kino a víc hřišť pro děti.
+
+101
+00:11:29,833 --> 00:11:32,607
+Jaké bylo vaše město, když jste přijel?
+
+102
+00:11:39,900 --> 00:11:43,313
+Když jsem přijel, bylo město tiché a nikoho jsem neznal.
+
+103
+00:11:44,400 --> 00:11:46,680
+Co jste ve městě dělal minulou sobotu?
+
+104
+00:11:53,967 --> 00:11:57,533
+Minulou sobotu jsem byl na trhu na náměstí a koupil jsem zeleninu.
+
+105
+00:11:58,633 --> 00:12:00,897
+Budete v tomto městě bydlet i v budoucnu?
+
+106
+00:12:08,200 --> 00:12:12,667
+Ano, myslím, že tady budu bydlet i v budoucnu, protože se mi tu líbí.
+
+107
+00:12:13,767 --> 00:12:16,400
+Co byste doporučil turistovi ve vašem městě?
+
+108
+00:12:23,700 --> 00:12:26,904
+Doporučil bych procházku podél řeky a návštěvu kostela.
+
+109
+00:12:28,000 --> 00:12:32,707
+Teď dvanáct nejdůležitějších frází. Poslouchejte a opakujte nahlas.
+
+110
+00:12:33,400 --> 00:12:35,253
+Jmenuju se Oleh Kovalenko.
+
+111
+00:12:38,467 --> 00:12:40,767
+Jsem z Ukrajiny, z Charkova.
+
+112
+00:12:43,967 --> 00:12:46,000
+Bydlím v Kralupech nad Vltavou.
+
+113
+00:12:49,200 --> 00:12:50,700
+V Česku jsem už pět let.
+
+114
+00:12:53,900 --> 00:12:55,100
+Pracuju ve skladu.
+
+115
+00:12:58,300 --> 00:13:00,094
+Mám manželku a dva syny.
+
+116
+00:13:03,300 --> 00:13:05,631
+Ve volném čase rád chodím na procházky.
+
+117
+00:13:08,833 --> 00:13:11,396
+Byt se mi líbí, protože je světlý.
+
+118
+00:13:14,600 --> 00:13:16,533
+Minulou sobotu jsem byl na trhu.
+
+119
+00:13:19,733 --> 00:13:21,500
+Příští léto pojedeme k moři.
+
+120
+00:13:24,700 --> 00:13:26,967
+Za pět let bych chtěl mít lepší práci.
+
+121
+00:13:30,167 --> 00:13:32,367
+Myslím, že jsem klidný a přátelský.
+
+122
+00:13:35,567 --> 00:13:38,625
+Pět typických chyb, kvůli kterým lidé ztrácejí body.
+
+123
+00:13:41,833 --> 00:13:48,059
+Správně: Bydlím v Kralupech nad Vltavou. Odpovídejte celou větou, ne jedním slovem.
+
+124
+00:13:51,767 --> 00:13:57,376
+Správně: Jsem z Ukrajiny. Po předložce z je druhý pád: z Ukrajiny, z Kyjeva.
+
+125
+00:14:01,067 --> 00:14:08,000
+Správně: Bydlím v Praze. Po předložce v je šestý pád: v Praze, v Brně.
+
+126
+00:14:11,700 --> 00:14:17,731
+Správně: Je mi čtyřicet let. Věk říkáme takhle: je mi čtyřicet let.
+
+127
+00:14:21,433 --> 00:14:29,186
+Správně: Rodiče jsem naposledy viděl loni v létě. Otázka je v minulém čase, odpověď musí být taky v minulém čase.
+
+128
+00:14:30,400 --> 00:14:52,095
+Shrnutí. Za prvé: odpovídejte celou větou, nejlépe dvěma větami. Za druhé: poslouchejte čas v otázce a odpovězte ve stejném čase. Za třetí: pozor na pády – z Ukrajiny, v Praze. A za čtvrté: mluvte konkrétně – čísla, místa, jména.
+
+129
+00:14:53,300 --> 00:15:02,544
+Které téma je pro vás nejtěžší? Napište to do komentáře. A pokud vám video pomohlo, dejte like – pomůže to dalším lidem, kteří se připravují na zkoušku.
+
+130
+00:15:03,733 --> 00:15:19,201
+Na webu Zkouška A2 nanečisto si můžete všechny otázky procvičit zdarma – web vás poslouchá a kontroluje odpověď. Odkaz je v popisu. Zítra: velké opakování Mluvení, úloha dvě. Odebírejte kanál, ať vám nic neuteče.
