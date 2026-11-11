@@ -32,8 +32,9 @@ def yt_data():
         vid = ids.get(key)
         if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
         link = m.get('link', '')
-        if '#' in link:
-            u, i = link.split('#')[1].rsplit('-', 1)
+        h = link.split('#')[1] if '#' in link else ''
+        if h.count('-') == 1 and h.split('-')[1].isdigit():
+            u, i = h.split('-')
             if u in secs: secs[u]['v'][int(i)] = [vid, m['title'].replace('Zkouška A2 – ', '')]
     home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), PLAYLISTS[k[0]]] for k in ('w01', 'l02', 'l01') if k in ids and k in meta]
     return {'ch': CHANNEL, 'sec': secs, 'home': home}
