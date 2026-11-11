@@ -37,7 +37,7 @@ def build(src, lang):
            (f"url = '{BASE}'", f"url = '{url}'"),
            ('src="img/om/', 'src="../img/om/'), ('`img/om/', '`../img/om/'), ('"img/om/', '"../img/om/'),
            ('href="ochrana-osobnich-udaju.html"', 'href="../ochrana-osobnich-udaju.html"'),
-           ('href="zdroje-obrazku.html"', 'href="../zdroje-obrazku.html"')]
+           ('href="zdroje-obrazku.html"', 'href="../zdroje-obrazku.html"')] + ([('href="/faq/"', 'href="/ru/faq/"')] if lang == 'ru' else [])
     for a, b in rep: tpl = tpl.replace(a, b)
     d = json.load(open('data-variants.json', encoding='utf-8'))
     for v in d['variants']:
@@ -56,7 +56,7 @@ def sitemap():
     alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{h}" href="{BASE}{p}"/>' for h, p in [('uk', ''), ('en', 'en/'), ('ru', 'ru/'), ('vi', 'vi/'), ('x-default', '')])
     urls = ''.join(f'  <url><loc>{BASE}{p}</loc><lastmod>{today}</lastmod>{alts}</url>\n' for p in ['', 'en/', 'ru/', 'vi/'])
     urls += f'  <url><loc>{BASE}learn/</loc><lastmod>{today}</lastmod></url>\n'
-    urls += f'  <url><loc>{BASE}faq/</loc><lastmod>{today}</lastmod></url>\n'
+    urls += f'  <url><loc>{BASE}faq/</loc><lastmod>{today}</lastmod></url>\n  <url><loc>{BASE}ru/faq/</loc><lastmod>{today}</lastmod></url>\n'
     open('sitemap.xml', 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + urls + '</urlset>\n')
 
 if __name__ == '__main__':
