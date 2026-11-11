@@ -17,7 +17,7 @@ def build(src, lang):
     segs = segments(src)
     miss = [x for x in segs if x not in table and x not in KEEP]
     if miss: raise SystemExit('Немає перекладу для: ' + repr(miss[:5]))
-    m = DATA_RE.search(src); tpl = src[:m.start(2)] + '@@DATA@@' + src[m.end(2):]
+    tpl = src
     # захищаємо рядки, які мають лишитись як є
     for i, k in enumerate(KEEP): tpl = tpl.replace(k, f'@@KEEP{i}@@')
     pat = re.compile('|'.join(re.escape(k) for k in sorted(table, key=len, reverse=True)))
@@ -47,7 +47,9 @@ def build(src, lang):
             k = (v['id'], i)
             if k in X: it['why'] = X[k][col]
             elif CYR.search(it.get('why', '')): raise SystemExit(f'немає перекладу пояснення {k}')
-    return tpl.replace('@@DATA@@', blob(d))
+    os.makedirs('data', exist_ok=True)
+    open(f'data/exam-{lang}.json', 'w', encoding='utf-8').write(blob(d))
+    return tpl.replace('data-src="/data/exam-uk.json"', f'data-src="/data/exam-{lang}.json"')
 
 def sitemap():
     today = datetime.date.today().isoformat()
@@ -72,4 +74,6 @@ if __name__ == '__main__':
         os.makedirs(lang, exist_ok=True)
         open(f'{lang}/index.html', 'w', encoding='utf-8').write(build(src, lang))
         print('OK', lang)
+    os.makedirs('data', exist_ok=True)
+    open('data/exam-uk.json', 'w', encoding='utf-8').write(blob(json.load(open('data-variants.json', encoding='utf-8'))))
     sitemap(); print('OK sitemap')

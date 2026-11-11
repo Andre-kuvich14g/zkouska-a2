@@ -62,6 +62,8 @@ T = [
 ("❓ Іспит A2: ціна, запис, бали", "❓ A2 exam: fee, registration, scores (UA)", "❓ Экзамен A2: цена, запись, баллы (укр.)", "❓ Thi A2: lệ phí, đăng ký, điểm (tiếng Ukraina)"),
 ("Усе про іспит", "All about the exam", "Всё об экзамене", "Tất cả về kỳ thi"),
 ("Ціна, запис, бали, документи, результати", "Fee, registration, scores, documents, results (in Ukrainian)", "Цена, запись, баллы, документы, результаты (на украинском)", "Lệ phí, đăng ký, điểm, giấy tờ, kết quả (tiếng Ukraina)"),
+("⏳ Завантажуємо завдання…", "⏳ Loading tasks…", "⏳ Загружаем задания…", "⏳ Đang tải bài…"),
+("Не вдалося завантажити завдання. Перевірте інтернет і спробуйте ще раз.", "Could not load the tasks. Check your internet connection and try again.", "Не удалось загрузить задания. Проверьте интернет и попробуйте ещё раз.", "Không tải được bài. Hãy kiểm tra kết nối mạng và thử lại."),
 ("Детальніше", "Learn more", "Подробнее", "Chi tiết"),
 ("Ні", "No", "Нет", "Không"),
 ("Анонімна статистика?", "Anonymous statistics?", "Анонимная статистика?", "Thống kê ẩn danh?"),
