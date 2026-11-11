@@ -1439,6 +1439,8 @@ function renderProgress(){
   ${todo ? `<div class="mp-todo"><span>🎯 <b>Сегодня:</b> ${todoTxt}</span><button type="button" class="btn primary sm" data-go="${todoGo}">Начать →</button></div>` : ''}</section>`;
 }
 renderProgress();
+(function(){ const g = new URLSearchParams(location.search).get('go'); if(!/^(exam|practice|trainW|trainS)$/.test(g || '')) return;
+  const b = document.querySelector(`[data-go="${g}"]`); if(b) setTimeout(() => b.click(), 300); })();
 
 /* ---------- results ---------- */
 const TIPS = {

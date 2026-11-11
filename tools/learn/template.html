@@ -316,6 +316,7 @@ function home(){
   return `<section class="sheet"><div class="hero"><h1>📚 ${t('title')}</h1><p>${t('lead')}</p></div>
   <h2 class="grp" id="g-mluveni">🗣 ${t('gM')}</h2>${ucards(U)}
   <h2 class="grp" id="g-psani">✍️ ${t('gP')}</h2>${ucards(W)}
+  <h2 class="grp" id="g-poslech">🎧 ${t('gL')}</h2><div class="cards"><a class="ucard u1" href="${lang === 'uk' ? '/' : '/' + lang + '/'}?go=practice&utm_source=learn"><b>${t('lTrain')}</b><span class="small muted">${t('lTrainD')}</span></a><a class="ucard u2" href="https://www.youtube.com/playlist?list=PLDXeIemVzXw8" target="_blank" rel="noopener" data-ytout><b>${t('lVid')}</b><span class="small muted">${t('lVidD')}</span></a></div>
   <p class="note">${t('voiceNote')}</p>${genderHTML()}${ytHome()}</section>`; }
 function lesson(u){
   const items = D[u] || [];
