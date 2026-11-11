@@ -600,6 +600,15 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
 .lvl-p{margin:0;color:#eaf1ff;font-size:1rem}
 .lvl-facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .lvl-facts li{padding:4px 10px;border-radius:10px;background:rgba(255,255,255,.14);font-weight:600;font-size:.88rem}
+.mp{border:2px solid var(--accent);border-radius:16px;padding:14px 16px;margin:14px 0;background:var(--sheet);display:grid;gap:10px}
+.mp-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}.mp-h h2{margin:0;font-size:1.25rem}
+.mp-fire{font-weight:800;background:#fff3cd;color:#7a4b00;border-radius:999px;padding:4px 12px;font-size:.95rem}
+.mp-bars{display:grid;gap:8px}.mp-row{display:grid;grid-template-columns:7.2em 1fr 3.6em;gap:8px;align-items:center;font-size:.95rem}
+.mp-bar{position:relative;height:14px;border-radius:7px;background:var(--rule);overflow:hidden}.mp-bar i{position:absolute;left:0;top:0;bottom:0;border-radius:7px;background:#16a34a}.mp-bar i.lo{background:#e0892b}.mp-bar i.no{background:transparent}
+.mp-bar b{position:absolute;left:60%;top:-2px;bottom:-2px;width:2px;background:var(--ink);opacity:.55}
+.mp-row .n{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.mp-todo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--soft,rgba(0,0,0,.03));border-radius:12px;padding:10px 12px}
+.mp-todo .btn{white-space:nowrap}
 .hero-cta{position:relative;z-index:1;max-width:420px;margin:14px 0 4px}
 .gbtn{appearance:none;border:0;cursor:pointer;width:100%;min-height:60px;border-radius:16px;background:var(--ua-y);color:#1b1b1b;font-family:inherit;font-weight:800;font-size:1.25rem;line-height:1.1;letter-spacing:.01em;box-shadow:0 6px 0 var(--ua-y-d);margin-bottom:6px}
 .gbtn:hover{filter:brightness(1.04)}
@@ -721,6 +730,7 @@ body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
         <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
 
+      <div id="myprog"></div>
       <div class="levels">
         <article class="lvl lvl-exam">
           <div class="lvl-h"><span class="lvl-n" aria-hidden="true">1</span><div><span class="lvl-k">Главное</span><h2>🏆 Пробный экзамен</h2></div></div>
@@ -1365,6 +1375,7 @@ function saveAttempt(){
   if(CHECKED.write && RES.w1set && RES.w2set) a.write = (RES.w1 || 0) + (RES.w2 || 0);
   if(CHECKED.speak) a.speak = sum(['s1','s2','s3','s4','ph']);
   try{ localStorage.setItem('a2-history', JSON.stringify(h.slice(0, 30))); }catch(e){}
+  try{ markActive(); }catch(e){}
 }
 const histDone = a => a.read != null && a.write != null && a.listen != null && a.speak != null;
 const histTotal = a => a.read + a.write + a.listen + a.speak;
@@ -1391,6 +1402,34 @@ function renderHistory(){
     <p class="small muted">↑ лучше, ↓ хуже, чем предыдущая попытка (в % от проверенных частей). Хранится только в этом браузере.</p></div>`;
 }
 renderHistory();
+
+/* ---------- my progress (this browser only) ---------- */
+function actDays(){ try{ return JSON.parse(localStorage.getItem('a2-days') || '[]'); }catch(e){ return []; } }
+function markActive(){ const d = new Date(), k = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); const a = actDays(); if(!a.includes(k)){ a.push(k); try{ localStorage.setItem('a2-days', JSON.stringify(a.slice(-120))); }catch(e){} } }
+function streak(){ const set = new Set(actDays()); loadHist().forEach(x => { const d = new Date(x.ts); set.add(d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0')); });
+  let n = 0; const d = new Date(); const key = t => t.getFullYear() + '-' + String(t.getMonth()+1).padStart(2,'0') + '-' + String(t.getDate()).padStart(2,'0');
+  if(!set.has(key(d))) d.setDate(d.getDate() - 1);
+  while(set.has(key(d))){ n++; d.setDate(d.getDate() - 1); } return n; }
+function renderProgress(){
+  const el = document.getElementById('myprog'); if(!el) return; const h = loadHist();
+  let ld = {}; try{ ld = JSON.parse(localStorage.getItem('a2-learn-done') || '{}'); }catch(e){}
+  const learned = Object.keys(ld).length;
+  if(!h.length && !learned){ el.innerHTML = ''; return; }
+  const P = [['read', 25, 'Čtení', 'practice'], ['write', 20, 'Psaní', 'trainW'], ['listen', 25, 'Poslech', 'practice'], ['speak', 40, 'Mluvení', 'trainS']];
+  const last = P.map(([k, max, name, go]) => { const a = h.find(x => x[k] != null); return {k, max, name, go, v: a ? a[k] : null, pct: a ? Math.round(a[k] / max * 100) : null}; });
+  const known = last.filter(x => x.pct != null); const weak = known.length ? known.slice().sort((a, b) => a.pct - b.pct)[0] : null;
+  const notTried = last.find(x => x.pct == null);
+  const st = streak();
+  const bar = x => `<div class="mp-row"><span>${x.name}</span><span class="mp-bar" title="60 % — порог"><i class="${x.pct == null ? 'no' : x.pct < 60 ? 'lo' : ''}" style="width:${x.pct || 0}%"></i><b></b></span><span class="n">${x.pct == null ? '–' : x.pct + ' %'}</span></div>`;
+  const todo = notTried && (!weak || weak.pct >= 60) ? notTried : weak;
+  const todoTxt = !todo ? '' : todo.pct == null ? `Вы ещё не пробовали эту часть: ${todo.name}.` : todo.pct < 60 ? `Самая слабая часть: ${todo.name} (${todo.pct} %). Потренируйте её 15 минут.` : `Все части выше порога! Пройдите полный экзамен с таймером.`;
+  const todoGo = !todo ? 'exam' : (todo.pct != null && todo.pct >= 60) ? 'exam' : todo.go;
+  el.innerHTML = `<section class="mp" aria-label="Мой прогресс"><div class="mp-h"><h2>📈 Мой прогресс</h2>${st ? `<span class="mp-fire">🔥 ${st} ${st === 1 ? 'день' : st < 5 ? 'дня' : 'дней'} подряд</span>` : ''}</div>
+  <div class="mp-bars">${last.map(bar).join('')}</div>
+  <p class="small muted">Последняя проверенная попытка каждой части. Черта — порог 60 %. Уроков изучено: ${learned} / 240.</p>
+  ${todo ? `<div class="mp-todo"><span>🎯 <b>Сегодня:</b> ${todoTxt}</span><button type="button" class="btn primary sm" data-go="${todoGo}">Начать →</button></div>` : ''}</section>`;
+}
+renderProgress();
 
 /* ---------- results ---------- */
 const TIPS = {
