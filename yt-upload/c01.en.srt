@@ -1,0 +1,440 @@
+1
+00:00:00,200 --> 00:00:10,556
+Speaking, task one. Topic 1: About me. Ten questions. Listen to the question and answer out loud.
+
+2
+00:00:11,267 --> 00:00:12,526
+What is your name?
+
+3
+00:00:17,933 --> 00:00:21,709
+My name is Oleh Kovalenko. My friends call me Olek.
+
+4
+00:00:22,600 --> 00:00:23,663
+Where are you from?
+
+5
+00:00:29,067 --> 00:00:33,324
+I am from Ukraine, from the city of Kharkiv. It is a big city in the east.
+
+6
+00:00:34,233 --> 00:00:35,511
+Where do you live now?
+
+7
+00:00:40,900 --> 00:00:43,748
+Now I live in Kralupy nad Vltavou with my family.
+
+8
+00:00:44,633 --> 00:00:46,146
+How long have you been in Czechia?
+
+9
+00:00:51,533 --> 00:00:55,396
+I have been in Czechia for five years. I came in 2021.
+
+10
+00:00:56,300 --> 00:00:57,393
+What do you do?
+
+11
+00:01:02,800 --> 00:01:05,809
+I work in a warehouse and in my free time I learn Czech.
+
+12
+00:01:06,700 --> 00:01:08,503
+What languages do you speak?
+
+13
+00:01:13,900 --> 00:01:17,250
+I speak Ukrainian, Russian and a little Czech and English.
+
+14
+00:01:18,167 --> 00:01:19,443
+What kind of person are you?
+
+15
+00:01:24,833 --> 00:01:28,645
+I think I am calm and friendly. I like helping people.
+
+16
+00:01:29,533 --> 00:01:31,623
+What did you do before you came to Czechia?
+
+17
+00:01:37,033 --> 00:01:39,605
+In Ukraine I worked as a shop assistant.
+
+18
+00:01:40,500 --> 00:01:42,022
+Why did you come to Czechia?
+
+19
+00:01:47,433 --> 00:01:50,616
+I came because of work and because my relatives live here.
+
+20
+00:01:51,500 --> 00:01:53,280
+What would you like to do in five years?
+
+21
+00:01:58,667 --> 00:02:01,993
+In five years I would like to have a better job and speak Czech well.
+
+22
+00:02:02,900 --> 00:02:12,682
+Great! Practise topic 1 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.
+
+23
+00:02:14,400 --> 00:02:23,184
+Speaking, task one. Topic 2: Family. Ten questions. Listen to the question and answer out loud.
+
+24
+00:02:23,900 --> 00:02:25,573
+How many people are there in your family?
+
+25
+00:02:30,967 --> 00:02:34,731
+There are four of us: my wife, two sons and me.
+
+26
+00:02:35,633 --> 00:02:36,972
+Do you have any brothers or sisters?
+
+27
+00:02:42,367 --> 00:02:47,205
+Yes, I have one brother. He is three years older and lives in Ukraine.
+
+28
+00:02:48,100 --> 00:02:49,629
+Where do your parents live?
+
+29
+00:02:55,033 --> 00:02:57,948
+My parents live in Ukraine in a small town by a river.
+
+30
+00:02:58,833 --> 00:03:01,200
+What does your husband or wife do?
+
+31
+00:03:06,600 --> 00:03:09,565
+My wife works in a hospital as a nurse.
+
+32
+00:03:10,467 --> 00:03:12,024
+How old are your children?
+
+33
+00:03:17,433 --> 00:03:21,605
+My son is nine and my daughter is five. My son is in the third year at school.
+
+34
+00:03:22,500 --> 00:03:24,350
+What do you like doing as a family?
+
+35
+00:03:29,767 --> 00:03:32,976
+As a family we like going for walks and at the weekend we play games.
+
+36
+00:03:33,867 --> 00:03:35,632
+How often do you call your parents?
+
+37
+00:03:41,033 --> 00:03:44,173
+I call my parents almost every evening when they are at home.
+
+38
+00:03:45,067 --> 00:03:46,837
+When did you last see your parents?
+
+39
+00:03:52,233 --> 00:03:56,116
+I last saw my parents last summer when they came to visit.
+
+40
+00:03:57,000 --> 00:03:59,367
+How did you celebrate the last birthday in your family?
+
+41
+00:04:04,767 --> 00:04:08,611
+Last month we had a party at home for our son with a cake and friends.
+
+42
+00:04:09,500 --> 00:04:11,252
+Where will you go with your family next time?
+
+43
+00:04:16,667 --> 00:04:19,397
+Next summer we will go to the sea in Croatia with the family.
+
+44
+00:04:20,300 --> 00:04:30,099
+Great! Practise topic 2 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.
+
+45
+00:04:31,900 --> 00:04:41,067
+Speaking, task one. Topic 3: Friends. Ten questions. Listen to the question and answer aloud.
+
+46
+00:04:41,767 --> 00:04:43,375
+Do you have friends in the Czech Republic?
+
+47
+00:04:48,767 --> 00:04:52,852
+Yes, I have several friends here. I know some of them from work.
+
+48
+00:04:53,767 --> 00:04:55,880
+How often do you meet your friends?
+
+49
+00:05:01,267 --> 00:05:04,870
+I meet my friends about once a week, usually on Saturday.
+
+50
+00:05:05,767 --> 00:05:07,753
+What does your best friend look like?
+
+51
+00:05:13,167 --> 00:05:17,817
+My best friend is tall, has short black hair and wears glasses.
+
+52
+00:05:18,733 --> 00:05:20,449
+What is your best friend like?
+
+53
+00:05:25,833 --> 00:05:28,837
+He's cheerful and always helps when I have a problem.
+
+54
+00:05:29,733 --> 00:05:31,196
+What do you do with your friends?
+
+55
+00:05:36,600 --> 00:05:40,185
+We go to a café, play football or have a barbecue.
+
+56
+00:05:41,100 --> 00:05:43,541
+Where did you meet your best friend?
+
+57
+00:05:48,933 --> 00:05:52,235
+I met my best friend at work three years ago.
+
+58
+00:05:53,133 --> 00:05:55,834
+When did you last visit a friend and why?
+
+59
+00:06:01,233 --> 00:06:05,100
+Last Sunday I visited a friend because it was his birthday.
+
+60
+00:06:06,000 --> 00:06:07,512
+Do you have Czech friends?
+
+61
+00:06:12,900 --> 00:06:16,915
+I have one Czech friend. She helps me with Czech.
+
+62
+00:06:17,800 --> 00:06:19,913
+What will you do with your friends at the weekend?
+
+63
+00:06:25,300 --> 00:06:27,789
+At the weekend my friends and I will go on a trip to Prague.
+
+64
+00:06:28,700 --> 00:06:30,321
+Why are friends important?
+
+65
+00:06:35,733 --> 00:06:39,212
+Friends are important because I can talk to them about everything.
+
+66
+00:06:40,100 --> 00:06:50,112
+Great! Practise topic 3 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.
+
+67
+00:06:51,900 --> 00:07:00,993
+Speaking, task one. Topic 4: Housing. Ten questions. Listen to the question and answer aloud.
+
+68
+00:07:01,700 --> 00:07:03,828
+Do you live in a flat or a house?
+
+69
+00:07:09,233 --> 00:07:11,507
+I live in a flat in a prefab block on the third floor.
+
+70
+00:07:12,400 --> 00:07:13,814
+How big is your flat?
+
+71
+00:07:19,200 --> 00:07:22,849
+Our flat is a 2+1. It has two rooms and a kitchen.
+
+72
+00:07:23,733 --> 00:07:25,229
+How much do you pay in rent?
+
+73
+00:07:30,633 --> 00:07:33,928
+We pay twelve thousand crowns a month in rent, including utilities.
+
+74
+00:07:34,833 --> 00:07:36,529
+What do you have in your living room?
+
+75
+00:07:41,933 --> 00:07:46,218
+In the living room we have a sofa, a table, a TV and a big wardrobe.
+
+76
+00:07:47,133 --> 00:07:49,588
+What furniture does everyone need and why?
+
+77
+00:07:55,000 --> 00:07:58,185
+Everyone needs a bed because they have to sleep well.
+
+78
+00:07:59,100 --> 00:08:00,743
+Do you like your flat?
+
+79
+00:08:06,133 --> 00:08:09,833
+Yes, I like it because it's bright and there's a park nearby.
+
+80
+00:08:10,733 --> 00:08:12,664
+What was your home like when you were a child?
+
+81
+00:08:18,067 --> 00:08:21,170
+As a child I lived with my parents in a small house with a garden.
+
+82
+00:08:22,067 --> 00:08:23,843
+When did you last move house?
+
+83
+00:08:29,233 --> 00:08:32,280
+I last moved two years ago, to a bigger flat.
+
+84
+00:08:33,167 --> 00:08:35,100
+What would you like to change in your flat?
+
+85
+00:08:40,500 --> 00:08:42,888
+I'd like a new kitchen and a bigger bathroom.
+
+86
+00:08:43,800 --> 00:08:45,850
+What kind of home would you like in ten years?
+
+87
+00:08:51,233 --> 00:08:53,998
+In ten years I'd like my own house with a garden.
+
+88
+00:08:54,900 --> 00:09:04,808
+Great! Practise topic 4 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.
+
+89
+00:09:06,600 --> 00:09:16,878
+Speaking, task one. Topic 5: My town. Ten questions. Listen to the question and answer aloud.
+
+90
+00:09:17,567 --> 00:09:19,197
+Which town do you live in?
+
+91
+00:09:24,600 --> 00:09:28,593
+I live in Kralupy nad Vltavou. It's a small town near Prague.
+
+92
+00:09:29,500 --> 00:09:31,757
+Is your town big or small?
+
+93
+00:09:37,167 --> 00:09:40,637
+My town is small, it has about eighteen thousand inhabitants.
+
+94
+00:09:41,533 --> 00:09:43,220
+What is interesting in your town?
+
+95
+00:09:48,633 --> 00:09:51,721
+The Vltava river and a nice park by the station are interesting.
+
+96
+00:09:52,633 --> 00:09:54,315
+Where do you like going most in town?
+
+97
+00:09:59,700 --> 00:10:02,472
+I like going to the park and walking by the river most.
+
+98
+00:10:03,367 --> 00:10:05,368
+How do you get to work in town?
+
+99
+00:10:10,767 --> 00:10:14,415
+I go to work by bus, the journey takes fifteen minutes.
+
+100
+00:10:15,300 --> 00:10:16,955
+What is missing in your town?
+
+101
+00:10:22,367 --> 00:10:24,744
+There's no cinema and not enough playgrounds for children.
+
+102
+00:10:25,633 --> 00:10:28,238
+What was your town like when you arrived?
+
+103
+00:10:33,633 --> 00:10:37,046
+When I arrived, the town was quiet and I didn't know anyone.
+
+104
+00:10:37,933 --> 00:10:40,472
+What did you do in town last Saturday?
+
+105
+00:10:45,867 --> 00:10:49,433
+Last Saturday I went to the market on the square and bought vegetables.
+
+106
+00:10:50,333 --> 00:10:52,561
+Will you live in this town in the future too?
+
+107
+00:10:57,967 --> 00:11:02,433
+Yes, I think I'll live here in the future too, because I like it here.
+
+108
+00:11:03,333 --> 00:11:05,763
+What would you recommend to a tourist in your town?
+
+109
+00:11:11,167 --> 00:11:14,370
+I'd recommend a walk along the river and a visit to the church.
+
+110
+00:11:15,267 --> 00:11:26,507
+Great! Practise topic 5 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.
+
