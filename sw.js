@@ -1,6 +1,6 @@
 /* Zkouška A2 — service worker. Сайт працює лише онлайн; без інтернету показуємо сторінку offline.html.
    Нічого з завдань не кешується, тому статистика й оновлення завжди актуальні. */
-const CACHE = 'a2-shell-v5';
+const CACHE = 'a2-shell-v6';
 const SHELL = ['/offline.html', '/img/app/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {

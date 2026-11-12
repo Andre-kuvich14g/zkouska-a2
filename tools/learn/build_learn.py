@@ -24,12 +24,15 @@ def yt_data():
     ids = json.load(open(os.path.join(ROOT, 'yt-upload', 'ids.json'), encoding='utf-8'))
     meta = json.load(open(os.path.join(ROOT, 'yt-upload', 'meta.json'), encoding='utf-8'))
     secs = {u: {'pl': PLAYLISTS[u], 'v': {}} for u in ('u1', 'u2', 'u3', 'u4', 'w1', 'w2')}
-    for key, vid in ids.items():  # мініатюра 640×360 для сайту з yt-upload/thumb2/<key>.jpg (якщо ще нема)
-        src, dst = os.path.join(ROOT, 'yt-upload', 'thumb2', key + '.jpg'), os.path.join(ROOT, 'learn', 'yt', str(vid) + '.jpg')
-        if isinstance(vid, str) and not key.startswith('s_') and os.path.exists(src) and not os.path.exists(dst):
+    for key, vid in ids.items():  # мініатюра 640×360 для сайту: спершу yt-upload/thumb3 (мультяшні, з 12.11), інакше thumb2; оновлюємо, якщо джерело новіше
+        src = os.path.join(ROOT, 'yt-upload', 'thumb3', key + '.jpg')
+        if not os.path.exists(src): src = os.path.join(ROOT, 'yt-upload', 'thumb2', key + '.jpg')
+        dst = os.path.join(ROOT, 'learn', 'yt', str(vid) + '.jpg')
+        if isinstance(vid, str) and not key.startswith('s_') and os.path.exists(src) and (not os.path.exists(dst) or os.path.getmtime(src) > os.path.getmtime(dst) or 'thumb3' in src and os.path.getsize(dst) and not os.path.exists(dst + '.v3')):
             from PIL import Image
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             Image.open(src).convert('RGB').resize((640, 360), Image.LANCZOS).save(dst, quality=80, optimize=True, progressive=True)
+            if 'thumb3' in src: open(dst + '.v3', 'w').close()
     for key, m in meta.items():
         vid = ids.get(key)
         if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
