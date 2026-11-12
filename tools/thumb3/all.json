@@ -4,571 +4,616 @@
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"ЗАЯВКА",
-"У ФІТНЕС"
+"FITNESS",
+"PŘIHLÁŠKA"
 ],
-"topic": "Fitness centrum Energie – přihláška",
+"topic": null,
 "num": "1/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Заявка у фітнес-центр"
 },
 {
 "id": "p01",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"ШУКАЮ",
-"КВАРТИРУ"
+"HLEDÁM BYT"
 ],
-"topic": "Hledám byt",
+"topic": null,
 "num": "1/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Шукаю квартиру"
 },
 {
 "id": "m01",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"ПРО СЕБЕ"
+"O MNĚ"
 ],
-"topic": "O mně",
+"topic": null,
 "num": "1/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Про себе"
 },
 {
 "id": "d01",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"НА ПОШТІ"
+"NA POŠTĚ"
 ],
-"topic": "Jste na poště",
+"topic": null,
 "num": "1/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "На пошті"
 },
 {
 "id": "v01",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"ПЕРЕЇЗД"
+"STĚHOVÁNÍ"
 ],
-"topic": "Stěhování",
+"topic": null,
 "num": "1/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "Переїзд"
 },
 {
 "id": "r01",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"ПОДАРУНОК",
-"ПОДРУЗІ"
+"DÁREK PRO",
+"KAMARÁDKU"
 ],
-"topic": "Kamarádka bude mít narozeniny",
+"topic": null,
 "num": "1/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "День народження подруги"
 },
 {
 "id": "f02",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"КАРТКА",
-"БІБЛІОТЕКИ"
+"KNIHOVNA",
+"REGISTRACE"
 ],
-"topic": "Městská knihovna – registrace",
+"topic": null,
 "num": "2/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Реєстрація в бібліотеці"
 },
 {
 "id": "p02",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"ХВОРОБА:",
-"НЕ ПРИЙДУ"
+"NEMOC"
 ],
-"topic": "Nemoc",
+"topic": null,
 "num": "2/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Хвороба"
 },
 {
 "id": "m02",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"МОЯ РОДИНА"
+"RODINA"
 ],
-"topic": "Rodina",
+"topic": null,
 "num": "2/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Родина"
 },
 {
 "id": "d02",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"У МОВНІЙ",
-"ШКОЛІ"
+"JAZYKOVÁ",
+"ŠKOLA"
 ],
-"topic": "Jste v jazykové škole",
+"topic": null,
 "num": "2/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "У мовній школі"
 },
 {
 "id": "v02",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"ПОЇЗДКА",
-"В ГОРИ"
+"VÝLET",
+"NA HORY"
 ],
-"topic": "Výlet na hory",
+"topic": null,
 "num": "2/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "Поїздка в гори"
 },
 {
 "id": "r02",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"КУДИ ПІТИ",
-"ВВЕЧЕРІ?"
+"SOBOTA",
+"VEČER"
 ],
-"topic": "V sobotu večer chceme jít spolu ven",
+"topic": null,
 "num": "2/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Куди піти в суботу ввечері"
 },
 {
 "id": "f03",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"АНКЕТА",
-"ДЛЯ МІСТА"
+"DOTAZNÍK",
+"PRO MĚSTO"
 ],
-"topic": "Dotazník pro obyvatele města Kralupy",
+"topic": null,
 "num": "3/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Анкета для мешканців міста"
 },
 {
 "id": "p03",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"ПОЇЗДКА",
-"НА ВИХІДНІ"
+"VÝLET",
+"O VÍKENDU"
 ],
-"topic": "Výlet o víkendu",
+"topic": null,
 "num": "3/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Поїздка на вихідних"
 },
 {
 "id": "m03",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"МОЇ ДРУЗІ"
+"KAMARÁDI"
 ],
-"topic": "Kamarádi",
+"topic": null,
 "num": "3/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Друзі"
 },
 {
 "id": "d03",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"ЗАПИС",
-"ДО ЛІКАРЯ"
+"RECEPCE",
+"U LÉKAŘE"
 ],
-"topic": "Jste na recepci u lékaře",
+"topic": null,
 "num": "3/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "Реєстратура в лікаря"
 },
 {
 "id": "v03",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"АВАРІЯ",
-"НА ВЕЛИКУ"
+"NEHODA",
+"NA KOLE"
 ],
-"topic": "Nehoda na kole",
+"topic": null,
 "num": "3/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "Аварія на велосипеді"
 },
 {
 "id": "r03",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"ВІДПУСТКА",
-"ВЛІТКУ"
+"DOVOLENÁ",
+"V LÉTĚ"
 ],
-"topic": "V létě chceme spolu jet na dovolenou",
+"topic": null,
 "num": "3/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Спільна відпустка влітку"
 },
 {
 "id": "f04",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"РОБОТА",
-"В МАГАЗИНІ"
+"BRIGÁDA",
+"V OBCHODĚ"
 ],
-"topic": "Supermarket Albert – brigáda",
+"topic": null,
 "num": "4/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Підробіток у супермаркеті"
 },
 {
 "id": "p04",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"БРОНЮЮ",
-"НОМЕР"
+"REZERVACE",
+"POKOJE"
 ],
-"topic": "Rezervace pokoje",
+"topic": null,
 "num": "4/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Бронювання номера"
 },
 {
 "id": "m04",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"ДЕ Я ЖИВУ"
+"BYDLENÍ"
 ],
-"topic": "Bydlení",
+"topic": null,
 "num": "4/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Житло"
 },
 {
 "id": "d04",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"КАСА",
-"НА ВОКЗАЛІ"
+"NA NÁDRAŽÍ"
 ],
-"topic": "Jste na nádraží u pokladny",
+"topic": null,
 "num": "4/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "Каса на вокзалі"
 },
 {
 "id": "v04",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"ЗАГУБИВ",
-"ГАМАНЕЦЬ"
+"ZTRACENÁ",
+"PENĚŽENKA"
 ],
-"topic": "Ztracená peněženka",
+"topic": null,
 "num": "4/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "Загублений гаманець"
 },
 {
 "id": "r04",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"ГОСТІ",
-"В СУБОТУ"
+"NÁVŠTĚVA",
+"KAMARÁDŮ"
 ],
-"topic": "V sobotu k nám přijdou kamarádi",
+"topic": null,
 "num": "4/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Вечеря з друзями в суботу"
 },
 {
 "id": "f05",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"ГУРТОК",
-"ДЛЯ ДИТИНИ"
+"KROUŽEK",
+"PRO DÍTĚ"
 ],
-"topic": "Dům dětí a mládeže – kroužek",
+"topic": null,
 "num": "5/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Запис дитини в гурток"
 },
 {
 "id": "p05",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"ПОВЕРНУТИ",
-"ВЗУТТЯ"
+"REKLAMACE",
+"BOT"
 ],
-"topic": "Reklamace bot",
+"topic": null,
 "num": "5/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Рекламація взуття"
 },
 {
 "id": "m05",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"МОЄ МІСТО"
+"MOJE MĚSTO"
 ],
-"topic": "Moje město",
+"topic": null,
 "num": "5/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Моє місто"
 },
 {
 "id": "d05",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"МАГАЗИН",
-"ОДЯГУ"
+"OBCHOD",
+"S OBLEČENÍM"
 ],
-"topic": "Jste v obchodě s oblečením",
+"topic": null,
 "num": "5/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "У магазині одягу"
 },
 {
 "id": "v05",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"ДЕНЬ",
-"НАРОДЖЕННЯ"
+"NAROZENINY"
 ],
-"topic": "Narozeniny",
+"topic": null,
 "num": "5/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "День народження"
 },
 {
 "id": "r05",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"ЯКИЙ",
-"СПОРТ?"
+"JAKÝ",
+"SPORT?"
 ],
-"topic": "Chceme spolu začít sportovat",
+"topic": null,
 "num": "5/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Яким спортом займатися разом"
 },
 {
 "id": "f06",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"АНКЕТА",
-"НА РОБОТУ"
+"DOTAZNÍK",
+"NA PRÁCI"
 ],
-"topic": "Pracovní agentura Job Plus – dotazník",
+"topic": null,
 "num": "6/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Анкета кадрового агентства"
 },
 {
 "id": "p06",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"ШУМ",
-"У БУДИНКУ"
+"HLUK",
+"V DOMĚ"
 ],
-"topic": "Hluk v domě",
+"topic": null,
 "num": "6/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Шум у будинку"
 },
 {
 "id": "m06",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"МОЯ РОБОТА"
+"PRÁCE"
 ],
-"topic": "Práce",
+"topic": null,
 "num": "6/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Робота"
 },
 {
 "id": "d06",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"СТОЛИК У",
-"РЕСТОРАНІ"
+"STŮL V",
+"RESTAURACI"
 ],
-"topic": "Voláte do restaurace",
+"topic": null,
 "num": "6/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "Бронювання столика в ресторані"
 },
 {
 "id": "v06",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"ЗАГУБИВ",
-"КЛЮЧ"
+"ZTRACENÝ",
+"KLÍČ"
 ],
-"topic": "Ztracený klíč",
+"topic": null,
 "num": "6/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "Загублений ключ"
 },
 {
 "id": "r06",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"НОВОСІЛЛЯ",
-"ДРУГА"
+"NOVÝ BYT",
+"KAMARÁDA"
 ],
-"topic": "Kamarád se stěhuje do nového bytu",
+"topic": null,
 "num": "6/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Подарунок на новосілля"
 },
 {
 "id": "f07",
 "sec": "f",
 "lab": "PSANÍ 1",
 "hook": [
-"ПРОКАТ",
-"АВТО"
+"PŮJČOVNA",
+"AUT"
 ],
-"topic": "Autopůjčovna Rent – rezervace",
+"topic": null,
 "num": "7/40",
-"badge": "ФОРМУЛЯР · 8 БАЛІВ"
+"badge": "FORMULÁŘ · 8 BODŮ",
+"ua": "Прокат автомобіля"
 },
 {
 "id": "p07",
 "sec": "p",
 "lab": "PSANÍ 2",
 "hook": [
-"КУРС",
-"ЧЕСЬКОЇ"
+"KURZ",
+"ČEŠTINY"
 ],
-"topic": "Kurz češtiny",
+"topic": null,
 "num": "7/40",
-"badge": "E-MAIL · 12 БАЛІВ"
+"badge": "E-MAIL · 12 BODŮ",
+"ua": "Курс чеської мови"
 },
 {
 "id": "m07",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"ШКОЛА Й",
-"НАВЧАННЯ"
+"ŠKOLA A",
+"VZDĚLÁNÍ"
 ],
-"topic": "Škola a vzdělávání",
+"topic": null,
 "num": "7/40",
-"badge": "10 ПИТАНЬ + ЗРАЗКИ"
+"badge": "10 OTÁZEK + VZORY",
+"ua": "Школа й освіта"
 },
 {
 "id": "d07",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"У БАНКУ"
+"V BANCE"
 ],
-"topic": "Jste v bance",
+"topic": null,
 "num": "7/40",
-"badge": "4 ПИТАННЯ · 12 БАЛІВ"
+"badge": "4 OTÁZKY · 12 BODŮ",
+"ua": "У банку"
 },
 {
 "id": "v07",
 "sec": "v",
 "lab": "MLUVENÍ 3",
 "hook": [
-"У ЛІКАРЯ"
+"U LÉKAŘE"
 ],
-"topic": "U lékaře",
+"topic": null,
 "num": "7/40",
-"badge": "РОЗПОВІДЬ · 10 БАЛІВ"
+"badge": "PŘÍBĚH · 10 BODŮ",
+"ua": "У лікаря"
 },
 {
 "id": "r07",
 "sec": "r",
 "lab": "MLUVENÍ 4",
 "hook": [
-"ВИХІДНИЙ",
-"З ДІТЬМИ"
+"VÝLET",
+"S DĚTMI"
 ],
-"topic": "V neděli chceme jít spolu s dětmi na výlet",
+"topic": null,
 "num": "7/40",
-"badge": "ДІАЛОГ · 7 БАЛІВ"
+"badge": "DIALOG · 7 BODŮ",
+"ua": "Куди піти з дітьми в неділю"
 },
 {
 "id": "l01",
 "sec": "l",
 "lab": "POSLECH",
 "hook": [
-"ЦІЛИЙ ТЕСТ",
-"№1 · 22 ХВ"
+"CELÝ TEST",
+"Č. 1 · 22 MIN"
 ],
-"topic": "Test 1 · 25 otázek",
+"topic": null,
 "num": "1/20",
-"badge": "ЯК НА ІСПИТІ"
+"badge": "JAKO U ZKOUŠKY",
+"ua": "Повний тест на аудіювання"
 },
 {
 "id": "l02",
 "sec": "l",
 "lab": "POSLECH",
 "hook": [
-"ЦІЛИЙ ТЕСТ",
-"№2 · 21 ХВ"
+"CELÝ TEST",
+"Č. 2 · 21 MIN"
 ],
-"topic": "Test 2 · 25 otázek",
+"topic": null,
 "num": "2/20",
-"badge": "ЯК НА ІСПИТІ"
+"badge": "JAKO U ZKOUŠKY",
+"ua": "Повний тест на аудіювання"
 },
 {
 "id": "w01",
 "sec": "w",
 "lab": "MLUVENÍ",
 "hook": [
-"УСНИЙ ІСПИТ",
-"ЗА 10 ХВ"
+"ÚSTNÍ ČÁST",
+"ZA 10 MINUT"
 ],
-"topic": "Všechny 4 úlohy",
-"badge": "ЯК НА ІСПИТІ"
+"topic": null,
+"badge": "JAKO U ZKOUŠKY",
+"ua": "Уся усна частина іспиту"
 },
 {
 "id": "t01",
 "sec": "t",
 "lab": "ZKOUŠKA A2",
 "hook": [
-"ЯК ЗДАТИ",
-"БЕЗ КУРСІВ"
+"JAK SE",
+"PŘIPRAVIT"
 ],
-"topic": "Příprava zdarma",
-"badge": "ТРВАЛИЙ ПОБИТ"
+"topic": null,
+"badge": "TRVALÝ POBYT",
+"ua": "Як підготуватися безкоштовно"
 },
 {
 "id": "promo",
 "sec": "t",
 "lab": "ZKOUŠKA A2",
 "hook": [
-"ТРЕНАЖЕР",
-"БЕЗКОШТОВНО"
+"TRENAŽÉR",
+"ZDARMA"
 ],
-"topic": "20 testů · živé hlasy"
+"topic": null,
+"ua": "20 пробних іспитів · живі голоси"
 },
 {
 "id": "om1_1",
 "sec": "m",
 "lab": "MLUVENÍ 1",
 "hook": [
-"50 ПИТАНЬ",
-"ТЕМИ 1–5"
+"50 OTÁZEK",
+"TÉMATA 1–5"
 ],
 "topic": "O mně · rodina · kamarádi · bydlení · město",
-"badge": "ВЕЛИКЕ ПОВТОРЕННЯ"
+"badge": "VELKÉ OPAKOVÁNÍ",
+"ua": "Усі питання тем 1–5 з відповідями"
 },
 {
 "id": "om2_1",
 "sec": "d",
 "lab": "MLUVENÍ 2",
 "hook": [
-"5 КАРТОК",
-"З ДІАЛОГАМИ"
+"5 KARET",
+"S DIALOGY"
 ],
 "topic": "Pošta · škola · lékař · nádraží · obchod",
-"badge": "ВЕЛИКЕ ПОВТОРЕННЯ"
+"badge": "VELKÉ OPAKOVÁNÍ",
+"ua": "Усі картки 1–5 з діалогами"
 }
 ]
