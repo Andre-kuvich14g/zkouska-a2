@@ -44,7 +44,7 @@ const person = (o) => { const s = o.s || 1, skin = o.skin || SK[0], hair = o.hai
   kid: `<path d="M-54 -2 Q-56 -62 0 -60 Q58 -62 54 -2 Q30 -30 6 -26 Q10 -40 -6 -44 Q-20 -26 -54 -2Z" fill="${hair}"/>` };
  const M = { smile: `<path d="M-14 24 Q0 36 14 24" stroke="#7a1f2b" stroke-width="5" fill="none" stroke-linecap="round"/>`, open: `<path d="M-15 22 Q0 46 15 22 Z" fill="#7a1f2b"/><path d="M-9 34 Q0 40 9 34" fill="#ff8a8a"/>`,
   o: `<ellipse cx="0" cy="30" rx="9" ry="11" fill="#7a1f2b"/>`, sad: `<path d="M-13 32 Q0 22 13 32" stroke="#7a1f2b" stroke-width="5" fill="none" stroke-linecap="round"/>` };
- const eyes = o.mouth === 'sad' ? `<path d="M-26 -8 l14 6 M26 -8 l-14 6" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>` : '';
+ const eyes = o.mouth === 'sad' ? `<path d="M-30 -12 l16 -6 M30 -12 l-16 -6" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>` : '';
  return `<g transform="translate(${o.x},${o.y}) scale(${f * s},${s})">
  <ellipse cx="0" cy="190" rx="70" ry="14" fill="rgba(0,0,0,.16)"/>
  ${o.hs === 'long' ? H.long.replace('<path', '<path opacity="1"') : ''}
