@@ -615,5 +615,17 @@
 "topic": "Pošta · škola · lékař · nádraží · obchod",
 "badge": "VELKÉ OPAKOVÁNÍ",
 "ua": "Усі картки 1–5 з діалогами"
+},
+{
+"id": "om3_1",
+"sec": "v",
+"lab": "MLUVENÍ 3",
+"hook": [
+"5 PŘÍBĚHŮ",
+"S OBRÁZKY"
+],
+"ua": "Усі 5 історій у минулому часі",
+"topic": "Stěhování · hory · kolo · peněženka · narozeniny",
+"badge": "VELKÉ OPAKOVÁNÍ"
 }
 ]
