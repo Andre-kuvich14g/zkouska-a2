@@ -21,3 +21,5 @@ window.__PL={f:'PLUQqjJU0hPfs',p:'PLEbZM6bcfLsA',m:'PLMPSqjkk5Axw',d:'PLZ9QkvIdN
 window.__plOnly=async(id)=>{ const pid=window.__PL[id[0]]; const cbs=[...document.querySelectorAll('ytcp-checkbox-lit[test-id^="PL"]')].filter(c=>c.offsetParent); for(const c of cbs){ const want=c.getAttribute('test-id').startsWith(pid); if(!!c.checked!==want){ c.click(); await window.__sleep(600);} } const host=cbs[0]?.closest('ytcp-playlist-dialog'); [...(host?.querySelectorAll('ytcp-button')||[])].find(x=>x.offsetParent && x.innerText.trim()==='Готово')?.click(); await window.__sleep(1200); return document.querySelector('ytcp-video-metadata-playlists')?.innerText.trim(); };
 
 window.__PL.o='PLROyJEw4bAqA';
+
+// NOTE 13.11: #done-button JS click leaves video as DRAFT. Publish via real click (find 'Опублікувати' ref) or __pubPrep + click.
