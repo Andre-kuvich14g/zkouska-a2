@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,113
+Speaking, task two. Card number 8. You are at a bike rental. You want to rent a bike for a trip. Ask four questions.
+
+2
+00:00:10,800 --> 00:00:14,348
+You are at a bike rental. You want to rent a bike for a trip.
+
+3
+00:00:15,533 --> 00:00:18,028
+Hello. What can I do for you?
+
+4
+00:00:23,233 --> 00:00:26,217
+Hello, how much is a bike for one day?
+
+5
+00:00:26,433 --> 00:00:29,084
+A bike costs 350 crowns a day.
+
+6
+00:00:34,300 --> 00:00:35,700
+Will you lend me a helmet too?
+
+7
+00:00:35,900 --> 00:00:37,353
+We'll lend you a helmet for free.
+
+8
+00:00:42,567 --> 00:00:44,789
+By what time do I have to return the bike?
+
+9
+00:00:45,000 --> 00:00:47,500
+You have to return the bike by 7 p.m.
+
+10
+00:00:52,700 --> 00:00:54,196
+Do you have a children's bike too?
+
+11
+00:00:54,400 --> 00:00:57,262
+Yes, we have children's bikes for kids from 6 years.
+
+12
+00:00:57,467 --> 00:01:00,467
+Thanks for the information. Goodbye.
+
+13
+00:01:00,667 --> 00:01:01,800
+Have a nice trip!
+
+14
+00:01:02,000 --> 00:01:10,132
+Practise card 8 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

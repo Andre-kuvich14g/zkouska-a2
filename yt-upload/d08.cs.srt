@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,113
+Mluvení, úloha dvě. Karta číslo 8. Jste v půjčovně kol. Chcete si půjčit kolo na výlet. Položte čtyři otázky.
+
+2
+00:00:10,800 --> 00:00:14,348
+Jste v půjčovně kol. Chcete si půjčit kolo na výlet.
+
+3
+00:00:15,533 --> 00:00:18,028
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,233 --> 00:00:26,217
+Dobrý den, kolik stojí kolo na jeden den?
+
+5
+00:00:26,433 --> 00:00:29,084
+Kolo stojí 350 Kč na den.
+
+6
+00:00:34,300 --> 00:00:35,700
+Půjčíte mi i helmu?
+
+7
+00:00:35,900 --> 00:00:37,353
+Helmu vám půjčíme zdarma.
+
+8
+00:00:42,567 --> 00:00:44,789
+Do kolika hodin musím kolo vrátit?
+
+9
+00:00:45,000 --> 00:00:47,500
+Kolo musíte vrátit do 19 hodin.
+
+10
+00:00:52,700 --> 00:00:54,196
+Máte i dětské kolo?
+
+11
+00:00:54,400 --> 00:00:57,262
+Ano, dětská kola máme pro děti od 6 let.
+
+12
+00:00:57,467 --> 00:01:00,467
+Děkuju za informace. Na shledanou.
+
+13
+00:01:00,667 --> 00:01:01,800
+Hezký výlet!
+
+14
+00:01:02,000 --> 00:01:10,132
+Procvičte si kartu 8 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

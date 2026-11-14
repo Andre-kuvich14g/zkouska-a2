@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,034
+Phần Viết, bài một. Mẫu đơn số 8. Bạn muốn đăng ký với bác sĩ gia đình mới. Hãy trả lời câu hỏi trong mẫu đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:13,733 --> 00:00:15,599
+Tại sao bạn tìm bác sĩ mới?
+
+3
+00:00:26,000 --> 00:00:30,979
+Tôi tìm bác sĩ mới vì tôi đã chuyển nhà và bác sĩ cũ ở quá xa.
+
+4
+00:00:31,867 --> 00:00:34,399
+Bạn có vấn đề sức khỏe hay dị ứng gì không?
+
+5
+00:00:44,800 --> 00:00:49,029
+Tôi không có vấn đề sức khỏe nghiêm trọng, nhưng bị dị ứng phấn hoa và penicillin.
+
+6
+00:00:49,933 --> 00:00:51,512
+Khi nào bạn có thể đi khám bác sĩ?
+
+7
+00:01:01,900 --> 00:01:06,033
+Tôi có thể đi khám buổi sáng trước giờ làm hoặc chiều thứ Sáu khi tôi rảnh.
+
+8
+00:01:06,933 --> 00:01:15,769
+Hãy điền mẫu đơn 8 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

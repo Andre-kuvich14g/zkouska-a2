@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,034
+Psaní, úloha jedna. Formulář číslo 8. Chcete se zapsat k novému praktickému lékaři. Odpovězte na otázky ve formuláři. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,733 --> 00:00:15,599
+Proč hledáte nového lékaře?
+
+3
+00:00:26,000 --> 00:00:30,979
+Hledám nového lékaře, protože jsem se přestěhoval a starý lékař je moc daleko.
+
+4
+00:00:31,867 --> 00:00:34,399
+Máte nějaké zdravotní problémy nebo alergie?
+
+5
+00:00:44,800 --> 00:00:49,029
+Nemám vážné zdravotní problémy, ale mám alergii na pyl a na penicilin.
+
+6
+00:00:49,933 --> 00:00:51,512
+Kdy můžete chodit k lékaři?
+
+7
+00:01:01,900 --> 00:01:06,033
+K lékaři můžu chodit ráno před prací nebo v pátek odpoledne, kdy mám volno.
+
+8
+00:01:06,933 --> 00:01:15,769
+Vyplňte formulář 8 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

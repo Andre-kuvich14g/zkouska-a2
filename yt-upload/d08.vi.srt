@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,113
+Phần Nói, bài hai. Thẻ số 8. Bạn ở cửa hàng cho thuê xe đạp. Bạn muốn thuê xe để đi chơi. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,800 --> 00:00:14,348
+Bạn ở cửa hàng cho thuê xe đạp. Bạn muốn thuê xe để đi chơi.
+
+3
+00:00:15,533 --> 00:00:18,028
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,233 --> 00:00:26,217
+Xin chào, thuê xe đạp một ngày bao nhiêu tiền?
+
+5
+00:00:26,433 --> 00:00:29,084
+Xe đạp giá 350 korun một ngày.
+
+6
+00:00:34,300 --> 00:00:35,700
+Bạn có cho tôi mượn cả mũ bảo hiểm không?
+
+7
+00:00:35,900 --> 00:00:37,353
+Chúng tôi cho bạn mượn mũ miễn phí.
+
+8
+00:00:42,567 --> 00:00:44,789
+Tôi phải trả xe trước mấy giờ?
+
+9
+00:00:45,000 --> 00:00:47,500
+Bạn phải trả xe trước 19 giờ.
+
+10
+00:00:52,700 --> 00:00:54,196
+Bạn có cả xe đạp trẻ em không?
+
+11
+00:00:54,400 --> 00:00:57,262
+Có, chúng tôi có xe cho trẻ từ 6 tuổi.
+
+12
+00:00:57,467 --> 00:01:00,467
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:00,667 --> 00:01:01,800
+Chúc chuyến đi vui vẻ!
+
+14
+00:01:02,000 --> 00:01:10,132
+Hãy luyện thẻ 8 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
