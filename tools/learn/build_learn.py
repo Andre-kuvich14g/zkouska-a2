@@ -48,6 +48,7 @@ def yt_data():
         for u in us:
             if u in secs: secs[u].setdefault('r', []).insert(0, [vid, m['title'].replace('Zkouška A2 – ', '')])
     home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), PLAYLISTS[k[0]]] for k in ('w01', 'l02', 'l01') if k in ids and k in meta]
+    if 'g01' in ids and 'g01' in meta: home.insert(0, [ids['g01'], '▶ ' + meta['g01']['title'], ''])  # 14.11: гайд «Почніть звідси» першим
     return {'ch': CHANNEL, 'sec': secs, 'home': home}
 
 def topics(rows): return [{'cz': cz, 't': tr, 'qa': [list(x) for x in qa]} for cz, tr, qa in rows]

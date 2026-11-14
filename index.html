@@ -559,6 +559,14 @@ details.src-list{font-size:.85rem;color:var(--muted)}
 .consent .bt{display:flex;gap:8px;flex-wrap:wrap}
 </style>
 <style id="home-css">
+.starthere{display:flex;gap:14px;align-items:center;margin:14px 0 6px;padding:10px;border-radius:14px;background:var(--sheet,#fff);border:2px solid #f5c400;text-decoration:none;color:inherit;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.starthere img{width:42%;max-width:260px;height:auto;border-radius:10px;flex:none}
+.starthere .sh-tx{display:flex;flex-direction:column;gap:4px;min-width:0}
+.starthere .sh-k{font-weight:800;color:#c2410c;font-size:.95rem}
+.starthere b{font-size:1.08rem;line-height:1.25}
+.starthere .sh-d{font-size:.88rem;opacity:.8}
+.starthere:hover{border-color:#e0a800}
+@media(max-width:520px){.starthere{flex-direction:column;align-items:stretch}.starthere img{width:100%;max-width:none}}
 :root{--ua-b:#0057b7;--ua-b2:#1f4e9c;--ua-y:#ffd500;--ua-y-d:#c9a200;--g-train:#15803d;--g-train-d:#0f5f2d;--g-train-soft:#e3f5e8;--g-learn:#7c3aed;--g-learn-d:#5b21b6;--g-learn-soft:#efe7fd;--cof-bg:#fff4cc;--cof-ink:#6b4200;--cof-bd:#f0c445}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ua-b:#0b4a9e;--ua-b2:#13305f;--g-train:#4ade80;--g-train-d:#1f7a43;--g-train-soft:#14301f;--g-learn:#b99eff;--g-learn-d:#6d4bc4;--g-learn-soft:#2a2145;--cof-bg:#3a2e0c;--cof-ink:#ffd970;--cof-bd:#7a5f14}}
 :root[data-theme="dark"]{--ua-b:#0b4a9e;--ua-b2:#13305f;--g-train:#4ade80;--g-train-d:#1f7a43;--g-train-soft:#14301f;--g-learn:#b99eff;--g-learn-d:#6d4bc4;--g-learn-soft:#2a2145;--cof-bg:#3a2e0c;--cof-ink:#ffd970;--cof-bd:#7a5f14}
@@ -734,6 +742,8 @@ a.tile{text-decoration:none;color:inherit}
         <svg class="skyline" viewBox="0 0 800 76" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 76V58h30V46l12-8 12 8v12h18V40h10V28l7-18 7 18v12h10v18h20V44l14-10 14 10v14h16V50h22V36l8-6 8 6v14h14V20l6-16 6 16v8h6V20l6-16 6 16v38h22V46h26V34l10-10 10 10v12h16V52h30V42l9-7 9 7v10h20V30h8V18l5-12 5 12v12h8v28h26V48h18V38l12-9 12 9v10h22V54h16V36h6V26l4-10 4 10v10h6v18h28V44l11-8 11 8v14h26V48h20V40l9-7 9 7v16h24V30l7-14 7 14v28h20V48h30V40l10-8 10 8v18h24V50h20v26z"/><path fill="currentColor" d="M0 76h800v-6c-30 0-30-10-60-10s-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10-30 10-60 10-30-10-60-10S30 70 0 70z" opacity=".55"/></svg>
       </div>
 
+      <a class="starthere" id="startHere" href="https://www.youtube.com/watch?v=ANaKrm9Mqo4" target="_blank" rel="noopener"><img src="/learn/yt/ANaKrm9Mqo4.jpg" alt="" width="640" height="360" loading="lazy"><span class="sh-tx"><span class="sh-k">▶ Почніть звідси</span><b>Увесь шлях до іспиту A2 за 28 хвилин</b><span class="sh-d">Реєстрація, оплата, підготовка, день іспиту і 10 помилок. Чеською, із субтитрами.</span></span></a>
+
       <div id="myprog"></div>
       <div class="levels">
         <article class="lvl lvl-exam">
@@ -792,7 +802,7 @@ a.tile{text-decoration:none;color:inherit}
         </table>
         <p class="small muted" style="margin-top:8px">Щоб скласти: письмова частина мінімум 42 з 70, усна мінімум 24 з 40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 Що нового · оновлено <time id="updDate" datetime="2026-11-12">12.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Що нового · оновлено <time id="updDate" datetime="2026-11-14">14.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Нове цього тижня</p><ul>
           <li><b>📝 Іспит як справжній.</b> У режимі «Іспит» частини тепер ідуть по черзі: Čtení → Psaní → Poslech → Mluvení → Výsledky. На телефоні всі вкладки видно повністю.</li>
           <li><b>🆘 Фрази-рятівники для Mluvení.</b> Як перепитати, попросити говорити повільніше чи виграти час, з озвученням.</li>
