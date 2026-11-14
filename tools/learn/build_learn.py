@@ -18,7 +18,7 @@ CHANNEL = 'UCpkz24CVlceUnyC8PIF9KMA'
 PLAYLISTS = {'w1': 'PLUQqjJU0hPfs', 'w2': 'PLEbZM6bcfLsA', 'u1': 'PLMPSqjkk5Axw', 'u2': 'PLZ9QkvIdNGFg',
              'u3': 'PLQZcneUaebBI', 'u4': 'PLK-4mNG0zlrk', 'l': 'PLDXeIemVzXw8', 'w': 'PLROyJEw4bAqA'}
 
-SHOW_REVIEWS = False
+SHOW_REVIEWS = True  # 14.11: Андре — усі опубліковані відео мають бути й на сайті
 
 def yt_data():
     ids = json.load(open(os.path.join(ROOT, 'yt-upload', 'ids.json'), encoding='utf-8'))
