@@ -44,7 +44,7 @@ def yt_data():
     for key, m in (meta.items() if SHOW_REVIEWS else []):  # великі повторення: om<N>_<C> -> u<N>, op_<C> -> w1+w2 (за рішенням Андре 11.11 — тільки на YouTube)
         vid = ids.get(key)
         if not vid or not isinstance(vid, str) or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
-        us = ['u' + key[2]] if key.startswith('om') else (['w1', 'w2'] if key.startswith('op_') else [])
+        us = ['u' + key[2]] if key.startswith('om') else (['w1', 'w2'] if key.startswith(('op_', 'sb_p')) else [])
         for u in us:
             if u in secs: secs[u].setdefault('r', []).insert(0, [vid, m['title'].replace('Zkouška A2 – ', '')])
     home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), PLAYLISTS[k[0]]] for k in ('w01', 'l02', 'l01') if k in ids and k in meta]
