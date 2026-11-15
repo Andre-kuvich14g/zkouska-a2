@@ -1,0 +1,343 @@
+1
+00:00:06,200 --> 00:00:17,846
+Writing, task one. Form number 1. You want to join a fitness centre. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:18,533 --> 00:00:20,694
+What sport do you do and how often?
+
+3
+00:00:31,100 --> 00:00:34,860
+I go running in the park three times a week and in winter I sometimes swim in the pool.
+
+4
+00:00:35,767 --> 00:00:38,001
+Why do you want to come to our fitness centre?
+
+5
+00:00:48,400 --> 00:00:53,011
+I want to come to your centre because it is close to my home and you have modern machines.
+
+6
+00:00:53,900 --> 00:00:55,437
+When do you have time to exercise?
+
+7
+00:01:05,833 --> 00:01:10,235
+I have time to exercise mainly in the evening after work, from six o'clock, and at the weekend.
+
+8
+00:01:11,133 --> 00:01:23,283
+Writing, task one. Form number 2. You want to register at the city library. Answer the registration questions. Answer in a full sentence, at least ten words.
+
+9
+00:01:23,966 --> 00:01:26,179
+What books or magazines do you like to read?
+
+10
+00:01:36,566 --> 00:01:41,357
+I like reading detective stories and historical novels, sometimes also a cooking magazine.
+
+11
+00:01:42,266 --> 00:01:44,559
+Why do you want to register at our library?
+
+12
+00:01:54,966 --> 00:01:59,275
+I want to register because books are expensive and I want to read more in Czech.
+
+13
+00:02:00,166 --> 00:02:01,966
+When do you have time to go to the library?
+
+14
+00:02:12,366 --> 00:02:16,473
+I can go to the library on Tuesday and Thursday afternoons or on Saturday morning.
+
+15
+00:02:17,367 --> 00:02:28,520
+Writing, task one. Form number 3. The town is running a survey for residents. Answer the questions. Answer in a full sentence, at least ten words.
+
+16
+00:02:29,234 --> 00:02:31,034
+How long have you lived in our town?
+
+17
+00:02:41,434 --> 00:02:46,307
+I have lived in Kralupy for five years, I moved here with my family in 2021.
+
+18
+00:02:47,200 --> 00:02:48,803
+What do you like about the town?
+
+19
+00:02:59,200 --> 00:03:03,474
+I like the river, the nice park and that the town is quiet and clean.
+
+20
+00:03:04,367 --> 00:03:06,185
+What would you like to change in the town?
+
+21
+00:03:16,600 --> 00:03:20,860
+I would like more playgrounds for children and a better bus connection to Prague.
+
+22
+00:03:21,767 --> 00:03:35,329
+Writing, task one. Form number 4. You want a part-time job in a supermarket. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+23
+00:03:36,034 --> 00:03:37,614
+What work have you done before?
+
+24
+00:03:47,000 --> 00:03:52,540
+For two years I worked as a shop assistant in a grocery store and stocked the shelves.
+
+25
+00:03:53,434 --> 00:03:55,801
+Why do you want to work in our supermarket?
+
+26
+00:04:06,200 --> 00:04:12,032
+I want to work for you because the supermarket is close and I'm looking for a part-time job.
+
+27
+00:04:12,934 --> 00:04:14,297
+When can you work?
+
+28
+00:04:24,700 --> 00:04:28,973
+I can work Monday to Friday in the afternoon and every other Saturday all day.
+
+29
+00:04:29,867 --> 00:04:42,004
+Writing, task one. Form number 5. You want to enrol your child in an after-school club. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+30
+00:04:42,700 --> 00:04:44,967
+What does your child like doing in their free time?
+
+31
+00:04:55,367 --> 00:04:59,886
+My daughter likes drawing, singing and playing with friends outside at the playground.
+
+32
+00:05:00,800 --> 00:05:02,939
+Why do you want to enrol your child in our club?
+
+33
+00:05:13,334 --> 00:05:17,837
+I want to enrol her because she will learn new things there and make friends.
+
+34
+00:05:18,734 --> 00:05:20,807
+When can your child attend the club?
+
+35
+00:05:31,200 --> 00:05:35,052
+She can go on Mondays and Wednesdays after school, from three o'clock.
+
+36
+00:05:38,467 --> 00:05:43,146
+Writing, task two. E-mail number 1: Looking for a flat.
+
+37
+00:05:43,834 --> 00:05:53,952
+You want to move. Write an e-mail to an estate agency. Write at least thirty-five words. Write one sentence for each picture.
+
+38
+00:06:02,667 --> 00:06:03,734
+Hello,
+
+39
+00:06:04,034 --> 00:06:05,681
+I am looking for a flat to rent.
+
+40
+00:06:05,967 --> 00:06:09,072
+I need a 2+1 flat because I have a wife and a son.
+
+41
+00:06:09,367 --> 00:06:11,926
+We want to live near the centre or near a school.
+
+42
+00:06:12,234 --> 00:06:15,537
+We can pay at most 18,000 CZK a month.
+
+43
+00:06:15,834 --> 00:06:18,094
+We want to move from 1 September.
+
+44
+00:06:18,400 --> 00:06:21,601
+I can come to see the flat on Monday or Wednesday afternoon.
+
+45
+00:06:21,900 --> 00:06:23,231
+Thank you for your reply.
+
+46
+00:06:23,534 --> 00:06:30,975
+This e-mail has 52 words. One sentence for each picture. Don't forget the greeting at the beginning and the end.
+
+47
+00:06:31,667 --> 00:06:36,007
+Writing, task two. E-mail number 2: Illness.
+
+48
+00:06:36,700 --> 00:06:46,815
+You are ill and cannot come to work. Write an e-mail to your manager. Write at least thirty-five words. Write one sentence for each picture.
+
+49
+00:06:55,500 --> 00:06:57,122
+Dear Mr Dvořák,
+
+50
+00:06:57,434 --> 00:07:00,101
+I am sorry, but I can't come to work today.
+
+51
+00:07:00,400 --> 00:07:02,665
+I have a high temperature and a sore throat.
+
+52
+00:07:02,967 --> 00:07:05,589
+The doctor told me I must stay at home for a week.
+
+53
+00:07:05,900 --> 00:07:09,937
+I will probably be back on Monday 10 February. My colleague Petr can do my work.
+
+54
+00:07:10,234 --> 00:07:14,804
+You can call me on 605 123 456.
+
+55
+00:07:15,100 --> 00:07:21,859
+This e-mail has 53 words. One sentence for each picture. Don't forget the greeting at the beginning and the end.
+
+56
+00:07:22,567 --> 00:07:27,601
+Writing, task two. E-mail number 3: A weekend trip.
+
+57
+00:07:28,300 --> 00:07:37,861
+You want to invite a friend on a trip. Write him an e-mail. Write at least thirty-five words. Write one sentence for each picture.
+
+58
+00:07:46,567 --> 00:07:47,812
+Hi Martin,
+
+59
+00:07:48,100 --> 00:07:49,694
+do you want to come on a trip with us?
+
+60
+00:07:49,000 --> 00:07:51,770
+We're going to Karlštejn Castle.
+
+61
+00:07:52,067 --> 00:07:54,210
+We'll leave on Saturday morning at eight.
+
+62
+00:07:54,500 --> 00:07:57,480
+We'll take the train from Prague, it's only 40 minutes.
+
+63
+00:07:57,767 --> 00:08:01,270
+We'll have a tour of the castle and then go for a walk in the forest.
+
+64
+00:08:01,567 --> 00:08:04,387
+Bring comfortable shoes and something to eat.
+
+65
+00:08:04,700 --> 00:08:06,516
+Let me know if you're coming.
+
+66
+00:08:06,800 --> 00:08:13,831
+This e-mail has 56 words. There is one sentence for each picture. Don't forget the greeting at the beginning and the end.
+
+67
+00:08:14,533 --> 00:08:20,063
+Writing, task two. E-mail number 4: Booking a room.
+
+68
+00:08:20,766 --> 00:08:31,583
+You want to go on holiday to Šumava with your family. Write an e-mail to the hotel. Write at least thirty-five words. Write one sentence for each picture.
+
+69
+00:08:40,266 --> 00:08:41,333
+Good afternoon,
+
+70
+00:08:41,633 --> 00:08:43,906
+I would like to book a room in your hotel.
+
+71
+00:08:44,200 --> 00:08:48,639
+We will arrive on Friday 10 July and leave on Sunday 19 July.
+
+72
+00:08:48,933 --> 00:08:51,797
+There will be three of us: me, my wife and my son.
+
+73
+00:08:52,100 --> 00:08:54,249
+We would like a family room with a balcony.
+
+74
+00:08:54,533 --> 00:08:56,802
+We would like breakfast and dinner at the hotel.
+
+75
+00:08:57,100 --> 00:08:59,900
+We're coming by car, we need a parking space.
+
+76
+00:09:00,200 --> 00:09:02,734
+Thank you, I look forward to your reply.
+
+77
+00:09:03,033 --> 00:09:10,474
+This e-mail has 52 words. There is one sentence for each picture. Don't forget the greeting at the beginning and the end.
+
+78
+00:09:11,167 --> 00:09:16,025
+Writing, task two. E-mail number 5: Complaint about shoes.
+
+79
+00:09:16,734 --> 00:09:27,690
+You bought shoes online but there is a problem with them. Write an e-mail to the shop. Write at least thirty-five words. Write one sentence for each picture.
+
+80
+00:09:36,400 --> 00:09:37,467
+Good afternoon,
+
+81
+00:09:37,767 --> 00:09:44,525
+I bought Nike sports shoes from you, size 43. I bought them online on 2 October.
+
+82
+00:09:44,834 --> 00:09:48,958
+I've only worn them for a week and they're already broken, the left shoe has a hole.
+
+83
+00:09:49,267 --> 00:09:51,256
+I would like to exchange them for new ones.
+
+84
+00:09:51,567 --> 00:09:53,486
+I'll send the shoes back to you by post tomorrow.
+
+85
+00:09:53,800 --> 00:09:55,131
+Thank you for your reply.
+
+86
+00:09:55,434 --> 00:10:02,387
+This e-mail has 50 words. There is one sentence for each picture. Don't forget the greeting at the beginning and the end.

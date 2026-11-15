@@ -1,0 +1,343 @@
+1
+00:00:06,200 --> 00:00:17,846
+Psaní, úloha jedna. Formulář číslo 1. Chcete chodit do fitness centra. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:18,533 --> 00:00:20,694
+Jaký sport děláte a jak často?
+
+3
+00:00:31,100 --> 00:00:34,860
+Chodím běhat do parku třikrát týdně a v zimě někdy plavu v bazénu.
+
+4
+00:00:35,767 --> 00:00:38,001
+Proč chcete chodit do našeho fitness centra?
+
+5
+00:00:48,400 --> 00:00:53,011
+Chci chodit do vašeho centra, protože je blízko mého domu a máte moderní stroje.
+
+6
+00:00:53,900 --> 00:00:55,437
+Kdy máte čas na cvičení?
+
+7
+00:01:05,833 --> 00:01:10,235
+Na cvičení mám čas hlavně večer po práci, od šesti hodin, a o víkendu.
+
+8
+00:01:11,133 --> 00:01:23,283
+Psaní, úloha jedna. Formulář číslo 2. Chcete se zaregistrovat do městské knihovny. Odpovězte na otázky v registraci. Odpovězte celou větou, minimálně deset slov.
+
+9
+00:01:23,966 --> 00:01:26,179
+Jaké knihy nebo časopisy rád čtete?
+
+10
+00:01:36,566 --> 00:01:41,357
+Rád čtu detektivky a historické romány, někdy si přečtu i časopis o vaření.
+
+11
+00:01:42,266 --> 00:01:44,559
+Proč se chcete zaregistrovat do naší knihovny?
+
+12
+00:01:54,966 --> 00:01:59,275
+Chci se zaregistrovat, protože knihy jsou drahé a chci číst víc česky.
+
+13
+00:02:00,166 --> 00:02:01,966
+Kdy máte čas chodit do knihovny?
+
+14
+00:02:12,366 --> 00:02:16,473
+Do knihovny můžu chodit v úterý a ve čtvrtek odpoledne nebo v sobotu ráno.
+
+15
+00:02:17,367 --> 00:02:28,520
+Psaní, úloha jedna. Formulář číslo 3. Město dělá dotazník pro obyvatele. Odpovězte na otázky. Odpovězte celou větou, minimálně deset slov.
+
+16
+00:02:29,234 --> 00:02:31,034
+Jak dlouho bydlíte v našem městě?
+
+17
+00:02:41,434 --> 00:02:46,307
+V Kralupech bydlím už pět let, přistěhoval jsem se sem s rodinou v roce 2021.
+
+18
+00:02:47,200 --> 00:02:48,803
+Co se vám ve městě líbí?
+
+19
+00:02:59,200 --> 00:03:03,474
+Líbí se mi řeka, hezký park a to, že je město klidné a čisté.
+
+20
+00:03:04,367 --> 00:03:06,185
+Co byste ve městě chtěl změnit?
+
+21
+00:03:16,600 --> 00:03:20,860
+Chtěl bych ve městě víc hřišť pro děti a lepší autobusové spojení do Prahy.
+
+22
+00:03:21,767 --> 00:03:35,329
+Psaní, úloha jedna. Formulář číslo 4. Chcete pracovat na brigádě v supermarketu. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+23
+00:03:36,034 --> 00:03:37,614
+Jakou práci jste už dělal?
+
+24
+00:03:47,000 --> 00:03:52,540
+Dva roky jsem pracoval jako prodavač v obchodě s potravinami a doplňoval jsem zboží.
+
+25
+00:03:53,434 --> 00:03:55,801
+Proč chcete pracovat v našem supermarketu?
+
+26
+00:04:06,200 --> 00:04:12,032
+Chci u vás pracovat, protože supermarket je blízko a hledám práci na částečný úvazek.
+
+27
+00:04:12,934 --> 00:04:14,297
+Kdy můžete pracovat?
+
+28
+00:04:24,700 --> 00:04:28,973
+Pracovat můžu od pondělí do pátku odpoledne a každou druhou sobotu celý den.
+
+29
+00:04:29,867 --> 00:04:42,004
+Psaní, úloha jedna. Formulář číslo 5. Chcete dát dítě do zájmového kroužku. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+30
+00:04:42,700 --> 00:04:44,967
+Co dělá vaše dítě rádo ve volném čase?
+
+31
+00:04:55,367 --> 00:04:59,886
+Moje dcera ráda kreslí, zpívá a hraje si s kamarády venku na hřišti.
+
+32
+00:05:00,800 --> 00:05:02,939
+Proč chcete dát dítě do našeho kroužku?
+
+33
+00:05:13,334 --> 00:05:17,837
+Chci ji dát do kroužku, protože se tam naučí nové věci a najde si kamarády.
+
+34
+00:05:18,734 --> 00:05:20,807
+Kdy může vaše dítě chodit do kroužku?
+
+35
+00:05:31,200 --> 00:05:35,052
+Do kroužku může chodit v pondělí a ve středu po škole, od tří hodin.
+
+36
+00:05:38,467 --> 00:05:43,146
+Psaní, úloha dvě. E-mail číslo 1: Hledám byt.
+
+37
+00:05:43,834 --> 00:05:53,952
+Chcete se přestěhovat. Napište e-mail realitní kanceláři. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+38
+00:06:02,667 --> 00:06:03,734
+Dobrý den,
+
+39
+00:06:04,034 --> 00:06:05,681
+hledám byt k pronájmu.
+
+40
+00:06:05,967 --> 00:06:09,072
+Potřebuju byt 2+1, protože mám manželku a syna.
+
+41
+00:06:09,367 --> 00:06:11,926
+Chceme bydlet blízko centra nebo blízko školy.
+
+42
+00:06:12,234 --> 00:06:15,537
+Můžeme platit maximálně 18 000 Kč měsíčně.
+
+43
+00:06:15,834 --> 00:06:18,094
+Stěhovat se chceme od 1. září.
+
+44
+00:06:18,400 --> 00:06:21,601
+Na prohlídku můžu přijít v pondělí nebo ve středu odpoledne.
+
+45
+00:06:21,900 --> 00:06:23,231
+Děkuji za odpověď.
+
+46
+00:06:23,534 --> 00:06:30,975
+Tento e-mail má 52 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+47
+00:06:31,667 --> 00:06:36,007
+Psaní, úloha dvě. E-mail číslo 2: Nemoc.
+
+48
+00:06:36,700 --> 00:06:46,815
+Jste nemocný a nemůžete přijít do práce. Napište e-mail vedoucímu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+49
+00:06:55,500 --> 00:06:57,122
+Dobrý den, pane Dvořáku,
+
+50
+00:06:57,434 --> 00:07:00,101
+omlouvám se, ale dnes nemůžu přijít do práce.
+
+51
+00:07:00,400 --> 00:07:02,665
+Mám vysokou horečku a bolí mě v krku.
+
+52
+00:07:02,967 --> 00:07:05,589
+Lékař mi řekl, že musím zůstat týden doma.
+
+53
+00:07:05,900 --> 00:07:09,937
+Vrátím se asi v pondělí 10. 2. Moji práci může dělat kolega Petr.
+
+54
+00:07:10,234 --> 00:07:14,804
+Můžete mi zavolat na telefon 605 123 456.
+
+55
+00:07:15,100 --> 00:07:21,859
+Tento e-mail má 53 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+56
+00:07:22,567 --> 00:07:27,601
+Psaní, úloha dvě. E-mail číslo 3: Výlet o víkendu.
+
+57
+00:07:28,300 --> 00:07:37,861
+Chcete pozvat kamaráda na výlet. Napište mu e-mail. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+58
+00:07:46,567 --> 00:07:47,812
+Ahoj Martine,
+
+59
+00:07:48,100 --> 00:07:49,694
+chceš jet s námi na výlet?
+
+60
+00:07:49,000 --> 00:07:51,770
+Pojedeme na hrad Karlštejn.
+
+61
+00:07:52,067 --> 00:07:54,210
+Pojedeme v sobotu ráno v osm hodin.
+
+62
+00:07:54,500 --> 00:07:57,480
+Pojedeme vlakem z Prahy, je to jen 40 minut.
+
+63
+00:07:57,767 --> 00:08:01,270
+Na hradě budeme mít prohlídku a potom půjdeme na procházku do lesa.
+
+64
+00:08:01,567 --> 00:08:04,387
+Vezmi si s sebou pohodlné boty a něco k jídlu.
+
+65
+00:08:04,700 --> 00:08:06,516
+Napiš mi, jestli pojedeš.
+
+66
+00:08:06,800 --> 00:08:13,831
+Tento e-mail má 56 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+67
+00:08:14,533 --> 00:08:20,063
+Psaní, úloha dvě. E-mail číslo 4: Rezervace pokoje.
+
+68
+00:08:20,766 --> 00:08:31,583
+Chcete jet s rodinou na dovolenou na Šumavu. Napište e-mail do hotelu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+69
+00:08:40,266 --> 00:08:41,333
+Dobrý den,
+
+70
+00:08:41,633 --> 00:08:43,906
+chtěl bych rezervovat pokoj ve Vašem hotelu.
+
+71
+00:08:44,200 --> 00:08:48,639
+Přijedeme v pátek 10. července a odjedeme v neděli 19. července.
+
+72
+00:08:48,933 --> 00:08:51,797
+Budeme tři, já, manželka a syn.
+
+73
+00:08:52,100 --> 00:08:54,249
+Chceme rodinný pokoj s balkonem.
+
+74
+00:08:54,533 --> 00:08:56,802
+V hotelu chceme snídani a večeři.
+
+75
+00:08:57,100 --> 00:08:59,900
+Přijedeme autem, potřebujeme parkovací místo.
+
+76
+00:09:00,200 --> 00:09:02,734
+Děkuji a těším se na odpověď.
+
+77
+00:09:03,033 --> 00:09:10,474
+Tento e-mail má 52 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+78
+00:09:11,167 --> 00:09:16,025
+Psaní, úloha dvě. E-mail číslo 5: Reklamace bot.
+
+79
+00:09:16,734 --> 00:09:27,690
+Koupil jste si přes internet boty, ale máte s nimi problém. Napište e-mail do obchodu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+80
+00:09:36,400 --> 00:09:37,467
+Dobrý den,
+
+81
+00:09:37,767 --> 00:09:44,525
+koupil jsem si u Vás sportovní boty Nike, velikost 43. Koupil jsem je 2. října přes internet.
+
+82
+00:09:44,834 --> 00:09:48,958
+Boty jsem nosil jen týden a už jsou rozbité, levá bota má díru.
+
+83
+00:09:49,267 --> 00:09:51,256
+Chtěl bych výměnu za nové boty.
+
+84
+00:09:51,567 --> 00:09:53,486
+Boty Vám pošlu poštou zítra.
+
+85
+00:09:53,800 --> 00:09:55,131
+Děkuji za odpověď.
+
+86
+00:09:55,434 --> 00:10:02,387
+Tento e-mail má 50 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
