@@ -1,0 +1,87 @@
+1
+00:00:00,200 --> 00:00:09,493
+Speaking, task one. Topic 9: Daily routine. Ten questions. Listen to the question and answer aloud.
+
+2
+00:00:10,200 --> 00:00:11,775
+What time do you get up?
+
+3
+00:00:17,167 --> 00:00:19,656
+On weekdays I get up at five in the morning.
+
+4
+00:00:20,567 --> 00:00:21,859
+What do you do in the morning?
+
+5
+00:00:27,267 --> 00:00:31,423
+In the morning I wash, get dressed, have breakfast and go to work.
+
+6
+00:00:32,333 --> 00:00:33,397
+What do you have for breakfast?
+
+7
+00:00:38,800 --> 00:00:41,316
+For breakfast I eat bread with cheese and drink coffee.
+
+8
+00:00:42,200 --> 00:00:43,370
+Where do you have lunch?
+
+9
+00:00:48,767 --> 00:00:52,650
+I have lunch in the canteen at work, usually soup and a main course.
+
+10
+00:00:53,567 --> 00:00:54,996
+What do you do in the afternoon?
+
+11
+00:01:00,400 --> 00:01:02,976
+In the afternoon I pick up my son from school and do the shopping.
+
+12
+00:01:03,867 --> 00:01:05,040
+What do you do in the evening?
+
+13
+00:01:10,433 --> 00:01:14,219
+In the evening I cook dinner, watch TV and study Czech.
+
+14
+00:01:15,133 --> 00:01:16,716
+What time do you go to bed?
+
+15
+00:01:22,100 --> 00:01:24,384
+I go to bed at about ten in the evening.
+
+16
+00:01:25,300 --> 00:01:26,974
+What did you do yesterday evening?
+
+17
+00:01:32,367 --> 00:01:35,411
+Yesterday evening I cooked soup and then read a book.
+
+18
+00:01:36,300 --> 00:01:38,161
+What will you do tomorrow morning?
+
+19
+00:01:43,567 --> 00:01:46,193
+Tomorrow morning I'll go to the doctor and then to work.
+
+20
+00:01:47,100 --> 00:01:48,872
+How would you like to change your day?
+
+21
+00:01:54,267 --> 00:01:56,586
+I'd like to have more time for sport and for my family.
+
+22
+00:01:57,500 --> 00:02:07,476
+Great! Practise topic 9 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

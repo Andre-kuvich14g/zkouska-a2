@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,743
+Mluvení, úloha dvě. Karta číslo 9. Jste v kadeřnictví. Chcete se objednat na stříhání. Položte čtyři otázky.
+
+2
+00:00:10,433 --> 00:00:14,003
+Jste v kadeřnictví. Chcete se objednat na stříhání.
+
+3
+00:00:15,200 --> 00:00:17,695
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:22,900 --> 00:00:25,400
+Dobrý den, máte volný termín na stříhání?
+
+5
+00:00:25,600 --> 00:00:27,367
+Volno mám zítra ve tři hodiny.
+
+6
+00:00:32,567 --> 00:00:33,751
+Kolik to stojí?
+
+7
+00:00:33,967 --> 00:00:35,958
+Stříhání stojí 400 Kč.
+
+8
+00:00:41,167 --> 00:00:42,517
+Jak dlouho to trvá?
+
+9
+00:00:42,733 --> 00:00:44,500
+Trvá to asi 45 minut.
+
+10
+00:00:49,700 --> 00:00:51,320
+Můžu platit kartou?
+
+11
+00:00:51,533 --> 00:00:53,063
+Ano, kartou platit můžete.
+
+12
+00:00:53,267 --> 00:00:56,267
+Děkuju za informace. Na shledanou.
+
+13
+00:00:56,467 --> 00:00:57,833
+Tak zítra, na shledanou.
+
+14
+00:00:58,033 --> 00:01:06,848
+Procvičte si kartu 9 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

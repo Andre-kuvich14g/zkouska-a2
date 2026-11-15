@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,743
+Speaking, task two. Card number 9. You are at a hairdresser's. You want to book a haircut. Ask four questions.
+
+2
+00:00:10,433 --> 00:00:14,003
+You are at a hairdresser's. You want to book a haircut.
+
+3
+00:00:15,200 --> 00:00:17,695
+Good afternoon. What can I do for you?
+
+4
+00:00:22,900 --> 00:00:25,400
+Good afternoon, do you have a free slot for a haircut?
+
+5
+00:00:25,600 --> 00:00:27,367
+I'm free tomorrow at three.
+
+6
+00:00:32,567 --> 00:00:33,751
+How much does it cost?
+
+7
+00:00:33,967 --> 00:00:35,958
+A haircut costs 400 crowns.
+
+8
+00:00:41,167 --> 00:00:42,517
+How long does it take?
+
+9
+00:00:42,733 --> 00:00:44,500
+It takes about 45 minutes.
+
+10
+00:00:49,700 --> 00:00:51,320
+Can I pay by card?
+
+11
+00:00:51,533 --> 00:00:53,063
+Yes, you can pay by card.
+
+12
+00:00:53,267 --> 00:00:56,267
+Thank you for the information. Goodbye.
+
+13
+00:00:56,467 --> 00:00:57,833
+See you tomorrow then, goodbye.
+
+14
+00:00:58,033 --> 00:01:06,848
+Practise card 9 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

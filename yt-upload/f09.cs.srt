@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:11,841
+Psaní, úloha jedna. Formulář číslo 9. Chcete se stát členem sportovního klubu. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:12,533 --> 00:00:14,468
+Jaký sport chcete u nás dělat?
+
+3
+00:00:24,867 --> 00:00:28,618
+U vás bych chtěl hrát volejbal, protože je to týmový sport a baví mě.
+
+4
+00:00:29,533 --> 00:00:30,944
+Proč chcete sportovat?
+
+5
+00:00:41,333 --> 00:00:44,818
+Chci sportovat, protože celý den sedím v práci a chci být zdravý.
+
+6
+00:00:45,733 --> 00:00:47,528
+Jaké sporty jste dělal dřív?
+
+7
+00:00:57,933 --> 00:01:01,098
+Dřív jsem hrál fotbal ve škole a několik let jsem chodil plavat.
+
+8
+00:01:02,000 --> 00:01:10,857
+Vyplňte formulář 9 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

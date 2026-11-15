@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:11,841
+Writing, task one. Form number 9. You want to join a sports club. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:12,533 --> 00:00:14,468
+Which sport would you like to do with us?
+
+3
+00:00:24,867 --> 00:00:28,618
+I'd like to play volleyball with you because it's a team sport and I enjoy it.
+
+4
+00:00:29,533 --> 00:00:30,944
+Why do you want to do sport?
+
+5
+00:00:41,333 --> 00:00:44,818
+I want to do sport because I sit at work all day and I want to be healthy.
+
+6
+00:00:45,733 --> 00:00:47,528
+What sports did you do before?
+
+7
+00:00:57,933 --> 00:01:01,098
+I used to play football at school and went swimming for several years.
+
+8
+00:01:02,000 --> 00:01:10,857
+Fill in form 9 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.
