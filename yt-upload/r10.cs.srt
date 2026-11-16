@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:09,596
+Mluvení, úloha čtyři. Situace číslo 10. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:10,300 --> 00:00:17,454
+Kamarádka slaví narozeniny. Kde uděláme oslavu? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:26,167 --> 00:00:27,870
+Můžeme udělat oslavu doma.
+
+4
+00:00:28,167 --> 00:00:29,748
+Doma je málo místa.
+
+5
+00:00:30,033 --> 00:00:31,767
+Tak uděláme oslavu v parku.
+
+6
+00:00:32,067 --> 00:00:33,430
+V parku bude zima.
+
+7
+00:00:33,733 --> 00:00:35,617
+Tak uděláme oslavu v restauraci.
+
+8
+00:00:35,933 --> 00:00:37,186
+A proč tam?
+
+9
+00:00:37,500 --> 00:00:39,663
+Protože tam nemusíme vařit ani uklízet.
+
+10
+00:00:39,967 --> 00:00:43,753
+Dobře, to je dobrý nápad. Oslava bude v restauraci.
+
+11
+00:00:44,067 --> 00:00:53,307
+Procvičte si situaci 10 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,266
+Psaní, úloha jedna. Formulář číslo 10. Chcete si objednat internet domů. Odpovězte na otázky ve formuláři. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,967 --> 00:00:16,459
+Kde bydlíte a kolik lidí bydlí s vámi?
+
+3
+00:00:26,867 --> 00:00:31,375
+Bydlím v Kralupech v ulici Nádražní a bydlí se mnou manželka a dva synové.
+
+4
+00:00:32,267 --> 00:00:34,176
+Na co budete internet používat?
+
+5
+00:00:44,567 --> 00:00:48,913
+Internet budeme používat na práci z domova, na školu pro děti a na filmy.
+
+6
+00:00:49,800 --> 00:00:51,426
+Kdy může technik přijít?
+
+7
+00:01:01,833 --> 00:01:05,952
+Technik může přijít v sobotu dopoledne nebo ve všední den po páté hodině.
+
+8
+00:01:06,867 --> 00:01:16,662
+Vyplňte formulář 10 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

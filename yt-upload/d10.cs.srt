@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,947
+Mluvení, úloha dvě. Karta číslo 10. Jste v informačním centru. Chcete jít na prohlídku města. Položte čtyři otázky.
+
+2
+00:00:10,633 --> 00:00:14,057
+Jste v informačním centru. Chcete jít na prohlídku města.
+
+3
+00:00:15,267 --> 00:00:17,761
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:22,967 --> 00:00:25,655
+Dobrý den, kdy začíná prohlídka města?
+
+5
+00:00:25,867 --> 00:00:28,233
+Prohlídka začíná v 11 hodin.
+
+6
+00:00:33,433 --> 00:00:34,467
+Kolik stojí?
+
+7
+00:00:34,667 --> 00:00:36,700
+Vstupenka stojí 150 Kč.
+
+8
+00:00:41,900 --> 00:00:43,592
+V jakém jazyce je prohlídka?
+
+9
+00:00:43,800 --> 00:00:46,033
+Prohlídka je v češtině a angličtině.
+
+10
+00:00:51,233 --> 00:00:52,533
+Jak dlouho trvá?
+
+11
+00:00:52,733 --> 00:00:54,792
+Prohlídka trvá asi dvě hodiny.
+
+12
+00:00:55,000 --> 00:00:58,000
+Děkuju za informace. Na shledanou.
+
+13
+00:00:58,200 --> 00:00:59,352
+Hezký den.
+
+14
+00:00:59,567 --> 00:01:08,099
+Procvičte si kartu 10 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

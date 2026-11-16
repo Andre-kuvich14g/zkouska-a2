@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,947
+Speaking, task two. Card number 10. You are at the information centre. You want to go on a city tour. Ask four questions.
+
+2
+00:00:10,633 --> 00:00:14,057
+You are at the information centre. You want to go on a city tour.
+
+3
+00:00:15,267 --> 00:00:17,761
+Hello. How can I help you?
+
+4
+00:00:22,967 --> 00:00:25,655
+Hello, when does the city tour start?
+
+5
+00:00:25,867 --> 00:00:28,233
+The tour starts at 11 o'clock.
+
+6
+00:00:33,433 --> 00:00:34,467
+How much is it?
+
+7
+00:00:34,667 --> 00:00:36,700
+A ticket costs 150 crowns.
+
+8
+00:00:41,900 --> 00:00:43,592
+What language is the tour in?
+
+9
+00:00:43,800 --> 00:00:46,033
+The tour is in Czech and English.
+
+10
+00:00:51,233 --> 00:00:52,533
+How long does it take?
+
+11
+00:00:52,733 --> 00:00:54,792
+The tour takes about two hours.
+
+12
+00:00:55,000 --> 00:00:58,000
+Thank you for the information. Goodbye.
+
+13
+00:00:58,200 --> 00:00:59,352
+Have a nice day.
+
+14
+00:00:59,567 --> 00:01:08,099
+Practise card 10 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

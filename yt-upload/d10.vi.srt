@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,947
+Phần Nói, bài hai. Thẻ số 10. Bạn đang ở trung tâm thông tin. Bạn muốn đi tham quan thành phố. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,633 --> 00:00:14,057
+Bạn đang ở trung tâm thông tin. Bạn muốn đi tham quan thành phố.
+
+3
+00:00:15,267 --> 00:00:17,761
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:22,967 --> 00:00:25,655
+Xin chào, khi nào chuyến tham quan thành phố bắt đầu?
+
+5
+00:00:25,867 --> 00:00:28,233
+Chuyến tham quan bắt đầu lúc 11 giờ.
+
+6
+00:00:33,433 --> 00:00:34,467
+Giá bao nhiêu?
+
+7
+00:00:34,667 --> 00:00:36,700
+Vé giá 150 korun.
+
+8
+00:00:41,900 --> 00:00:43,592
+Chuyến tham quan bằng ngôn ngữ nào?
+
+9
+00:00:43,800 --> 00:00:46,033
+Chuyến tham quan bằng tiếng Séc và tiếng Anh.
+
+10
+00:00:51,233 --> 00:00:52,533
+Kéo dài bao lâu?
+
+11
+00:00:52,733 --> 00:00:54,792
+Chuyến tham quan kéo dài khoảng hai tiếng.
+
+12
+00:00:55,000 --> 00:00:58,000
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:58,200 --> 00:00:59,352
+Chúc một ngày tốt lành.
+
+14
+00:00:59,567 --> 00:01:08,099
+Hãy luyện thẻ 10 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

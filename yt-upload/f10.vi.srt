@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,266
+Phần Viết, bài một. Mẫu đơn số 10. Bạn muốn đăng ký internet tại nhà. Hãy trả lời câu hỏi trong mẫu đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:13,967 --> 00:00:16,459
+Bạn sống ở đâu và có bao nhiêu người sống cùng bạn?
+
+3
+00:00:26,867 --> 00:00:31,375
+Tôi sống ở Kralupy trên phố Nádražní, cùng vợ và hai con trai.
+
+4
+00:00:32,267 --> 00:00:34,176
+Bạn sẽ dùng internet để làm gì?
+
+5
+00:00:44,567 --> 00:00:48,913
+Chúng tôi sẽ dùng internet để làm việc tại nhà, cho các con học và xem phim.
+
+6
+00:00:49,800 --> 00:00:51,426
+Khi nào kỹ thuật viên có thể đến?
+
+7
+00:01:01,833 --> 00:01:05,952
+Kỹ thuật viên có thể đến vào sáng thứ Bảy hoặc ngày thường sau năm giờ.
+
+8
+00:01:06,867 --> 00:01:16,662
+Hãy điền mẫu đơn 10 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
