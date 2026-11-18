@@ -52,6 +52,7 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 var __c = null; try { __c = localStorage.getItem('ga-consent'); } catch(e) {}
+try { if(!sessionStorage.getItem('a2-land')){ sessionStorage.setItem('a2-land', location.href); sessionStorage.setItem('a2-ref', document.referrer||''); } } catch(e) {}
 gtag('consent', 'default', {analytics_storage: __c === 'yes' ? 'granted' : 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500});
 gtag('js', new Date());
 gtag('config', 'G-YMHXGCMMH4');
@@ -802,7 +803,7 @@ a.tile{text-decoration:none;color:inherit}
         </table>
         <p class="small muted" style="margin-top:8px">To pass: written part at least 42 of 70, oral part at least 24 of 40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-14">14.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 What’s new · updated <time id="updDate" datetime="2026-11-18">18.11.2026</time></summary>
           <p class="nh nh-hot">🔥 New this week</p><ul>
           <li><b>📝 An exam like the real one.</b> In Exam mode the parts now go in order: Čtení → Psaní → Poslech → Mluvení → Výsledky. On phones all tabs are now fully visible.</li>
           <li><b>🆘 Lifesaver phrases for Mluvení.</b> How to ask again, ask to speak more slowly or buy time, with audio.</li>
@@ -897,7 +898,7 @@ function track(name, params){ try{ if(typeof gtag === 'function') gtag('event', 
   const box = document.getElementById('consent'); if(!box) return;
   if(c !== 'yes' && c !== 'no'){ let shown = false; const show = () => { if(shown) return; const ls = document.getElementById('langsug'); if(ls && !ls.hidden){ setTimeout(show, 1500); return; } shown = true; box.hidden = false; };
     ['scroll','pointerdown','keydown'].forEach(ev => addEventListener(ev, () => setTimeout(show, 600), {once: true, passive: true})); setTimeout(show, 7000); }
-  const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes') track('page_view_after_consent'); };
+  const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes'){ track('page_view_after_consent'); try{ const L=sessionStorage.getItem('a2-land'); if(L && /utm_/.test(L)) gtag('event','page_view',{page_location:L, page_referrer: sessionStorage.getItem('a2-ref')||document.referrer}); }catch(e){} } };
   document.getElementById('consentYes').addEventListener('click', () => set('yes'));
   document.getElementById('consentNo').addEventListener('click', () => set('no'));
 })();

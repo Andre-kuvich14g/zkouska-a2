@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,967
+Mluvení, úloha dvě. Karta číslo 11. Jste v autoservisu. Potřebujete opravit auto. Položte čtyři otázky.
+
+2
+00:00:10,667 --> 00:00:14,275
+Jste v autoservisu. Potřebujete opravit auto.
+
+3
+00:00:15,467 --> 00:00:17,961
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,167 --> 00:00:25,500
+Dobrý den, kdy bude auto hotové?
+
+5
+00:00:25,700 --> 00:00:27,533
+Auto bude hotové v pátek.
+
+6
+00:00:32,733 --> 00:00:34,367
+Kolik bude stát oprava?
+
+7
+00:00:34,567 --> 00:00:36,855
+Oprava bude stát asi 6 000 Kč.
+
+8
+00:00:42,067 --> 00:00:43,855
+Můžete mi půjčit náhradní auto?
+
+9
+00:00:44,067 --> 00:00:46,223
+Ano, můžeme vám půjčit náhradní auto.
+
+10
+00:00:51,433 --> 00:00:53,054
+Můžu platit kartou?
+
+11
+00:00:53,267 --> 00:00:55,485
+Ano, platit můžete kartou i hotově.
+
+12
+00:00:55,700 --> 00:00:58,700
+Děkuju za informace. Na shledanou.
+
+13
+00:00:58,900 --> 00:01:00,052
+Na shledanou.
+
+14
+00:01:00,267 --> 00:01:08,962
+Procvičte si kartu 11 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

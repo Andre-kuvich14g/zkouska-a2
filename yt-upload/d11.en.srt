@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,967
+Speaking, task two. Card number 11. You are at a car repair shop. You need your car repaired. Ask four questions.
+
+2
+00:00:10,667 --> 00:00:14,275
+You are at a car repair shop. You need your car repaired.
+
+3
+00:00:15,467 --> 00:00:17,961
+Hello. What can I do for you?
+
+4
+00:00:23,167 --> 00:00:25,500
+Hello, when will the car be ready?
+
+5
+00:00:25,700 --> 00:00:27,533
+The car will be ready on Friday.
+
+6
+00:00:32,733 --> 00:00:34,367
+How much will the repair cost?
+
+7
+00:00:34,567 --> 00:00:36,855
+The repair will cost about 6,000 crowns.
+
+8
+00:00:42,067 --> 00:00:43,855
+Can you lend me a replacement car?
+
+9
+00:00:44,067 --> 00:00:46,223
+Yes, we can lend you a replacement car.
+
+10
+00:00:51,433 --> 00:00:53,054
+Can I pay by card?
+
+11
+00:00:53,267 --> 00:00:55,485
+Yes, you can pay by card or in cash.
+
+12
+00:00:55,700 --> 00:00:58,700
+Thank you for the information. Goodbye.
+
+13
+00:00:58,900 --> 00:01:00,052
+Goodbye.
+
+14
+00:01:00,267 --> 00:01:08,962
+Practise card 11 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

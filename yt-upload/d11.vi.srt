@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,967
+Phần Nói, bài hai. Thẻ số 11. Bạn ở xưởng sửa ô tô. Bạn cần sửa xe. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,667 --> 00:00:14,275
+Bạn ở xưởng sửa ô tô. Bạn cần sửa xe.
+
+3
+00:00:15,467 --> 00:00:17,961
+Xin chào. Tôi có thể giúp gì?
+
+4
+00:00:23,167 --> 00:00:25,500
+Xin chào, khi nào xe sửa xong?
+
+5
+00:00:25,700 --> 00:00:27,533
+Xe sẽ xong vào thứ Sáu.
+
+6
+00:00:32,733 --> 00:00:34,367
+Sửa hết bao nhiêu tiền?
+
+7
+00:00:34,567 --> 00:00:36,855
+Sửa khoảng 6.000 korun.
+
+8
+00:00:42,067 --> 00:00:43,855
+Anh có thể cho tôi mượn xe thay thế không?
+
+9
+00:00:44,067 --> 00:00:46,223
+Có, chúng tôi có thể cho anh mượn xe thay thế.
+
+10
+00:00:51,433 --> 00:00:53,054
+Tôi trả bằng thẻ được không?
+
+11
+00:00:53,267 --> 00:00:55,485
+Được, anh có thể trả bằng thẻ hoặc tiền mặt.
+
+12
+00:00:55,700 --> 00:00:58,700
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:58,900 --> 00:01:00,052
+Tạm biệt.
+
+14
+00:01:00,267 --> 00:01:08,962
+Hãy luyện thẻ 11 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

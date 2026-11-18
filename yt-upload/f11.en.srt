@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,512
+Writing, task one. Form number 11. You stayed in a hotel on holiday. The hotel wants your feedback. Answer the questions in a full sentence, at least ten words.
+
+2
+00:00:14,200 --> 00:00:15,842
+What did you like about the hotel?
+
+3
+00:00:26,233 --> 00:00:30,711
+I liked the clean room, the excellent breakfast and the very friendly staff.
+
+4
+00:00:31,600 --> 00:00:33,273
+What didn't you like and why?
+
+5
+00:00:43,667 --> 00:00:47,340
+I didn't like that the spa was small and there were too many people there in the evening.
+
+6
+00:00:48,233 --> 00:00:50,325
+Will you come again? Why?
+
+7
+00:01:00,733 --> 00:01:05,546
+Yes, we'll come again because the nature here is beautiful and the food is good.
+
+8
+00:01:06,433 --> 00:01:15,790
+Fill in form 11 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

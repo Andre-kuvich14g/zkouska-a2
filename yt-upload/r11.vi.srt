@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,355
+Phần Nói, bài bốn. Tình huống số 11. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận với cô ấy, chọn một phương án và nói lý do.
+
+2
+00:00:11,067 --> 00:00:19,723
+Tối thứ Sáu chúng ta cùng đi chơi nhé. Đi đâu nhỉ? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này.
+
+3
+00:00:28,433 --> 00:00:30,457
+Chúng ta có thể đi xem bóng đá.
+
+4
+00:00:30,767 --> 00:00:31,968
+Mình không thích bóng đá.
+
+5
+00:00:32,267 --> 00:00:33,693
+Vậy chúng ta đi xem hòa nhạc.
+
+6
+00:00:34,000 --> 00:00:35,379
+Buổi hòa nhạc đã bán hết vé.
+
+7
+00:00:35,667 --> 00:00:37,107
+Vậy chúng ta đi chơi bowling.
+
+8
+00:00:37,400 --> 00:00:38,916
+Tại sao lại ở đó?
+
+9
+00:00:39,200 --> 00:00:41,872
+Vì vui và chúng ta có thể rủ thêm bạn bè.
+
+10
+00:00:42,167 --> 00:00:43,763
+Được, chúng ta đi bowling.
+
+11
+00:00:44,067 --> 00:00:53,713
+Hãy luyện tình huống 11 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

@@ -52,6 +52,7 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 var __c = null; try { __c = localStorage.getItem('ga-consent'); } catch(e) {}
+try { if(!sessionStorage.getItem('a2-land')){ sessionStorage.setItem('a2-land', location.href); sessionStorage.setItem('a2-ref', document.referrer||''); } } catch(e) {}
 gtag('consent', 'default', {analytics_storage: __c === 'yes' ? 'granted' : 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500});
 gtag('js', new Date());
 gtag('config', 'G-YMHXGCMMH4');
@@ -802,7 +803,7 @@ a.tile{text-decoration:none;color:inherit}
         </table>
         <p class="small muted" style="margin-top:8px">Чтобы сдать: письменная часть минимум 42 из 70, устная минимум 24 из 40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-14">14.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-18">18.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Новое на этой неделе</p><ul>
           <li><b>📝 Экзамен как настоящий.</b> В режиме «Экзамен» части теперь идут по очереди: Čtení → Psaní → Poslech → Mluvení → Výsledky. На телефоне все вкладки видны полностью.</li>
           <li><b>🆘 Фразы-спасатели для Mluvení.</b> Как переспросить, попросить говорить медленнее или выиграть время, с озвучкой.</li>
@@ -897,7 +898,7 @@ function track(name, params){ try{ if(typeof gtag === 'function') gtag('event', 
   const box = document.getElementById('consent'); if(!box) return;
   if(c !== 'yes' && c !== 'no'){ let shown = false; const show = () => { if(shown) return; const ls = document.getElementById('langsug'); if(ls && !ls.hidden){ setTimeout(show, 1500); return; } shown = true; box.hidden = false; };
     ['scroll','pointerdown','keydown'].forEach(ev => addEventListener(ev, () => setTimeout(show, 600), {once: true, passive: true})); setTimeout(show, 7000); }
-  const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes') track('page_view_after_consent'); };
+  const set = v => { try{ localStorage.setItem('ga-consent', v); }catch(e){} box.hidden = true; if(typeof gtag === 'function') gtag('consent','update',{analytics_storage: v === 'yes' ? 'granted' : 'denied'}); if(v === 'yes'){ track('page_view_after_consent'); try{ const L=sessionStorage.getItem('a2-land'); if(L && /utm_/.test(L)) gtag('event','page_view',{page_location:L, page_referrer: sessionStorage.getItem('a2-ref')||document.referrer}); }catch(e){} } };
   document.getElementById('consentYes').addEventListener('click', () => set('yes'));
   document.getElementById('consentNo').addEventListener('click', () => set('no'));
 })();

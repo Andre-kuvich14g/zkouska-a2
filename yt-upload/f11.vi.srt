@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,512
+Phần Viết, bài một. Mẫu đơn số 11. Bạn đã đi nghỉ ở một khách sạn. Khách sạn muốn biết đánh giá của bạn. Hãy trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:14,200 --> 00:00:15,842
+Bạn thích điều gì ở khách sạn?
+
+3
+00:00:26,233 --> 00:00:30,711
+Tôi thích phòng sạch, bữa sáng tuyệt vời và nhân viên rất thân thiện.
+
+4
+00:00:31,600 --> 00:00:33,273
+Bạn không thích điều gì và tại sao?
+
+5
+00:00:43,667 --> 00:00:47,340
+Tôi không thích khu spa nhỏ và buổi tối có quá nhiều người.
+
+6
+00:00:48,233 --> 00:00:50,325
+Bạn có quay lại không? Tại sao?
+
+7
+00:01:00,733 --> 00:01:05,546
+Có, chúng tôi sẽ quay lại vì ở đây thiên nhiên đẹp và đồ ăn ngon.
+
+8
+00:01:06,433 --> 00:01:15,790
+Hãy điền mẫu đơn 11 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

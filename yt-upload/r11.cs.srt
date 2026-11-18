@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,355
+Mluvení, úloha čtyři. Situace číslo 11. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,067 --> 00:00:19,723
+Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:28,433 --> 00:00:30,457
+Můžeme jít na fotbalový zápas.
+
+4
+00:00:30,767 --> 00:00:31,968
+Fotbal mě nebaví.
+
+5
+00:00:32,267 --> 00:00:33,693
+Tak půjdeme na koncert.
+
+6
+00:00:34,000 --> 00:00:35,379
+Koncert je vyprodaný.
+
+7
+00:00:35,667 --> 00:00:37,107
+Tak půjdeme na bowling.
+
+8
+00:00:37,400 --> 00:00:38,916
+A proč chceš jít tam?
+
+9
+00:00:39,200 --> 00:00:41,872
+Protože je to zábava a můžeme vzít i kamarády.
+
+10
+00:00:42,167 --> 00:00:43,763
+Dobře, půjdeme na bowling.
+
+11
+00:00:44,067 --> 00:00:53,713
+Procvičte si situaci 11 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
