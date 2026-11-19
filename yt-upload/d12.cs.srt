@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,904
+Mluvení, úloha dvě. Karta číslo 12. Jste v supermarketu. Hledáte zboží. Položte čtyři otázky.
+
+2
+00:00:10,600 --> 00:00:13,699
+Jste v supermarketu. Hledáte zboží.
+
+3
+00:00:14,900 --> 00:00:16,500
+Dobrý den, můžu vám pomoct?
+
+4
+00:00:21,700 --> 00:00:23,822
+Dobrý den, kde najdu mléko?
+
+5
+00:00:24,033 --> 00:00:26,667
+Mléko je v chladicím boxu vzadu.
+
+6
+00:00:31,867 --> 00:00:33,300
+Máte čerstvý chleba?
+
+7
+00:00:33,500 --> 00:00:35,767
+Ano, chleba pečeme každé ráno.
+
+8
+00:00:40,967 --> 00:00:42,433
+Je dnes nějaká sleva?
+
+9
+00:00:42,633 --> 00:00:44,700
+Ano, dnes je sleva na ovoce.
+
+10
+00:00:49,900 --> 00:00:51,700
+Do kolika máte otevřeno?
+
+11
+00:00:51,900 --> 00:00:54,059
+Máme otevřeno do 22 hodin.
+
+12
+00:00:54,267 --> 00:00:57,267
+Děkuju za informace. Na shledanou.
+
+13
+00:00:57,467 --> 00:00:58,467
+Není zač.
+
+14
+00:00:58,667 --> 00:01:07,307
+Procvičte si kartu 12 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

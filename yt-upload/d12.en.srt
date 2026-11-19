@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,904
+Speaking, task two. Card number 12. You are in a supermarket looking for goods. Ask four questions.
+
+2
+00:00:10,600 --> 00:00:13,699
+You are in a supermarket looking for goods.
+
+3
+00:00:14,900 --> 00:00:16,500
+Hello, can I help you?
+
+4
+00:00:21,700 --> 00:00:23,822
+Hello, where can I find milk?
+
+5
+00:00:24,033 --> 00:00:26,667
+Milk is in the fridge at the back.
+
+6
+00:00:31,867 --> 00:00:33,300
+Do you have fresh bread?
+
+7
+00:00:33,500 --> 00:00:35,767
+Yes, we bake bread every morning.
+
+8
+00:00:40,967 --> 00:00:42,433
+Is there a discount today?
+
+9
+00:00:42,633 --> 00:00:44,700
+Yes, fruit is on sale today.
+
+10
+00:00:49,900 --> 00:00:51,700
+What time do you close?
+
+11
+00:00:51,900 --> 00:00:54,059
+We're open until 10 pm.
+
+12
+00:00:54,267 --> 00:00:57,267
+Thank you for the information. Goodbye.
+
+13
+00:00:57,467 --> 00:00:58,467
+You're welcome.
+
+14
+00:00:58,667 --> 00:01:07,307
+Practise card 12 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

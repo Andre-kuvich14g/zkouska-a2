@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,938
+Phần Viết, bài một. Mẫu đơn số 12. Bạn muốn đặt bàn ở nhà hàng qua mẫu đơn trên web. Hãy trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:14,633 --> 00:00:17,177
+Bạn muốn đặt bàn khi nào và cho bao nhiêu người?
+
+3
+00:00:27,567 --> 00:00:31,272
+Tôi muốn đặt bàn vào thứ Bảy ngày hai mươi lúc bảy giờ tối cho sáu người.
+
+4
+00:00:32,167 --> 00:00:33,446
+Tại sao bạn đến nhà hàng chúng tôi?
+
+5
+00:00:43,833 --> 00:00:49,031
+Chúng tôi đến vì đang mừng sinh nhật vợ tôi và nhà hàng của bạn được đánh giá tốt.
+
+6
+00:00:49,933 --> 00:00:51,977
+Bạn có yêu cầu đặc biệt nào không?
+
+7
+00:01:02,367 --> 00:01:07,273
+Xin cho bàn cạnh cửa sổ và một ghế trẻ em, vì chúng tôi có con nhỏ.
+
+8
+00:01:08,167 --> 00:01:17,713
+Hãy điền mẫu đơn 12 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

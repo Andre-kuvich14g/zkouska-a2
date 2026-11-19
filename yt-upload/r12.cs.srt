@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,213
+Mluvení, úloha čtyři. Situace číslo 12. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:10,900 --> 00:00:19,365
+Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:28,067 --> 00:00:29,393
+Můžeme si vzít psa.
+
+4
+00:00:29,700 --> 00:00:31,357
+Pes potřebuje hodně prostoru.
+
+5
+00:00:31,667 --> 00:00:33,003
+Tak si vezmeme kočku.
+
+6
+00:00:33,300 --> 00:00:34,672
+Na kočky mám alergii.
+
+7
+00:00:34,967 --> 00:00:36,465
+Tak si vezmeme králíka.
+
+8
+00:00:36,767 --> 00:00:38,321
+A proč chceš tohle zvíře?
+
+9
+00:00:38,633 --> 00:00:41,461
+Protože je malý, tichý a děti ho budou mít rády.
+
+10
+00:00:41,767 --> 00:00:44,050
+Máš pravdu. Vezmeme si králíka.
+
+11
+00:00:44,367 --> 00:00:53,648
+Procvičte si situaci 12 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
