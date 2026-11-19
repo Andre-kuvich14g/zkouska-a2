@@ -16,7 +16,7 @@ def opt(mod, name):
 # Відео до тем беруться з yt-upload/ids.json + yt-upload/meta.json (поле link «#u1-4» -> тема).
 CHANNEL = 'UCpkz24CVlceUnyC8PIF9KMA'
 PLAYLISTS = {'w1': 'PLUQqjJU0hPfs', 'w2': 'PLEbZM6bcfLsA', 'u1': 'PLMPSqjkk5Axw', 'u2': 'PLZ9QkvIdNGFg',
-             'u3': 'PLQZcneUaebBI', 'u4': 'PLK-4mNG0zlrk', 'l': 'PLDXeIemVzXw8', 'w': 'PLROyJEw4bAqA'}
+             'u3': 'PLQZcneUaebBI', 'u4': 'PLK-4mNG0zlrk', 'l': 'PLDXeIemVzXw8', 'w': 'PLROyJEw4bAqA', 's': 'PLFxEaYcv_EH4'}
 
 SHOW_REVIEWS = True  # 14.11: Андре — усі опубліковані відео мають бути й на сайті
 
