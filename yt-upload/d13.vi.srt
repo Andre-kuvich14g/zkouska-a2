@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,222
+Phần Nói, bài hai. Thẻ số 13. Bạn ở phòng tập thể hình và muốn bắt đầu tập. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,933 --> 00:00:14,056
+Bạn ở phòng tập và muốn bắt đầu tập.
+
+3
+00:00:15,267 --> 00:00:17,761
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:22,967 --> 00:00:25,097
+Xin chào, phòng tập mở cửa khi nào?
+
+5
+00:00:25,300 --> 00:00:28,657
+Chúng tôi mở cửa từ 6 đến 22 giờ.
+
+6
+00:00:33,867 --> 00:00:35,733
+Vé tháng giá bao nhiêu?
+
+7
+00:00:35,933 --> 00:00:37,765
+Một tháng giá 990 korun.
+
+8
+00:00:42,967 --> 00:00:44,300
+Có huấn luyện viên không?
+
+9
+00:00:44,500 --> 00:00:46,733
+Có, huấn luyện viên có mặt mỗi ngày.
+
+10
+00:00:51,933 --> 00:00:53,000
+Ở đây có vòi sen không?
+
+11
+00:00:53,200 --> 00:00:54,797
+Có, vòi sen ở trong phòng thay đồ.
+
+12
+00:00:55,000 --> 00:00:58,000
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:58,200 --> 00:00:59,400
+Hẹn gặp bạn.
+
+14
+00:00:59,600 --> 00:01:09,069
+Hãy luyện thẻ 13 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

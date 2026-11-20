@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,412
+Writing, task one. Form number 13. You want to volunteer for a charity. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:14,100 --> 00:00:15,281
+What can you do?
+
+3
+00:00:25,667 --> 00:00:30,412
+I'm a good cook, I speak Ukrainian, Russian and a little Czech, and I have a driving licence.
+
+4
+00:00:31,300 --> 00:00:33,451
+Why do you want to help as a volunteer?
+
+5
+00:00:43,867 --> 00:00:48,488
+I want to help because people in Czechia helped me too when I came here.
+
+6
+00:00:49,400 --> 00:00:51,018
+How much time can you help?
+
+7
+00:01:01,433 --> 00:01:05,076
+I can help twice a week after work or one Saturday a month.
+
+8
+00:01:05,967 --> 00:01:14,688
+Fill in form 13 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

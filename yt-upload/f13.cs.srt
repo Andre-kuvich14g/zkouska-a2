@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,412
+Psaní, úloha jedna. Formulář číslo 13. Chcete pracovat jako dobrovolník v charitě. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:14,100 --> 00:00:15,281
+Co umíte dělat?
+
+3
+00:00:25,667 --> 00:00:30,412
+Umím dobře vařit, mluvím ukrajinsky, rusky a trochu česky a mám řidičský průkaz.
+
+4
+00:00:31,300 --> 00:00:33,451
+Proč chcete pomáhat jako dobrovolník?
+
+5
+00:00:43,867 --> 00:00:48,488
+Chci pomáhat, protože mi lidé v Česku taky pomohli, když jsem sem přijel.
+
+6
+00:00:49,400 --> 00:00:51,018
+Kolik času můžete pomáhat?
+
+7
+00:01:01,433 --> 00:01:05,076
+Pomáhat můžu dvakrát týdně po práci nebo jednu sobotu v měsíci.
+
+8
+00:01:05,967 --> 00:01:14,688
+Vyplňte formulář 13 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

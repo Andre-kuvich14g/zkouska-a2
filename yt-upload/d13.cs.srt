@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,222
+Mluvení, úloha dvě. Karta číslo 13. Jste ve fitness centru. Chcete začít cvičit. Položte čtyři otázky.
+
+2
+00:00:10,933 --> 00:00:14,056
+Jste ve fitness centru. Chcete začít cvičit.
+
+3
+00:00:15,267 --> 00:00:17,761
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:22,967 --> 00:00:25,097
+Dobrý den, kdy máte otevřeno?
+
+5
+00:00:25,300 --> 00:00:28,657
+Máme otevřeno od 6 do 22 hodin.
+
+6
+00:00:33,867 --> 00:00:35,733
+Kolik stojí měsíční permanentka?
+
+7
+00:00:35,933 --> 00:00:37,765
+Měsíc stojí 990 Kč.
+
+8
+00:00:42,967 --> 00:00:44,300
+Máte trenéra?
+
+9
+00:00:44,500 --> 00:00:46,733
+Ano, trenér je tady každý den.
+
+10
+00:00:51,933 --> 00:00:53,000
+Je tady sprcha?
+
+11
+00:00:53,200 --> 00:00:54,797
+Ano, sprchy jsou v šatně.
+
+12
+00:00:55,000 --> 00:00:58,000
+Děkuju za informace. Na shledanou.
+
+13
+00:00:58,200 --> 00:00:59,400
+Těšíme se na vás.
+
+14
+00:00:59,600 --> 00:01:09,069
+Procvičte si kartu 13 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

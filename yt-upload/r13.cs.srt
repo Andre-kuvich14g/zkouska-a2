@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,342
+Mluvení, úloha čtyři. Situace číslo 13. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,033 --> 00:00:23,529
+Chceme spolu koupit dárek kolegyni, která odchází z práce. Co jí koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:32,233 --> 00:00:33,998
+Můžeme jí koupit kávovar.
+
+4
+00:00:34,300 --> 00:00:35,720
+Kávovar je moc drahý.
+
+5
+00:00:36,033 --> 00:00:37,513
+Tak jí koupíme kytici.
+
+6
+00:00:37,800 --> 00:00:39,118
+Kytice rychle uvadne.
+
+7
+00:00:39,433 --> 00:00:41,274
+Tak jí koupíme poukaz do wellness.
+
+8
+00:00:41,567 --> 00:00:43,173
+A proč chceš koupit tohle?
+
+9
+00:00:43,467 --> 00:00:46,149
+Protože hodně pracovala a teď si může odpočinout.
+
+10
+00:00:46,433 --> 00:00:49,348
+To je dobrý nápad. Koupíme jí poukaz do wellness.
+
+11
+00:00:49,633 --> 00:00:58,493
+Procvičte si situaci 13 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
