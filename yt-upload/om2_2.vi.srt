@@ -1,0 +1,359 @@
+1
+00:00:00,200 --> 00:00:14,281
+Všech pět karet z lekcí šest až deset – celé dialogy se zkoušejícím. A navíc dvanáct otázek, které se hodí skoro na každou kartu, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a ptejte se nahlas!
+
+2
+00:00:15,167 --> 00:00:29,657
+Bài 2 diễn ra thế nào? Bạn nhận hai thẻ tình huống. Mỗi thẻ bạn hỏi bốn câu: ba câu theo gợi ý và một câu của riêng bạn. Giám khảo trả lời. Tổng cộng được mười hai điểm.
+
+3
+00:00:30,567 --> 00:00:43,522
+Trên thẻ chỉ có gợi ý ngắn. Bạn phải biến chúng thành câu hỏi lịch sự đầy đủ. Bây giờ chúng ta đi qua cả năm thẻ. Hãy tự hỏi trước, sau đó nghe câu hỏi mẫu và câu trả lời của giám khảo.
+
+4
+00:00:44,433 --> 00:00:47,588
+Karta šest: Voláte do restaurace.
+
+5
+00:00:47,900 --> 00:00:51,980
+Bạn gọi đến nhà hàng. Bạn muốn đặt bàn cho thứ Bảy.
+
+6
+00:00:53,167 --> 00:00:55,032
+Nhà hàng U Lva, xin chào.
+
+7
+00:01:01,233 --> 00:01:04,164
+Xin chào, thứ Bảy còn bàn trống cho sáu người không?
+
+8
+00:01:04,367 --> 00:01:06,729
+Có, thứ Bảy chúng tôi còn bàn trống.
+
+9
+00:01:12,933 --> 00:01:14,733
+Cửa hàng mở đến mấy giờ?
+
+10
+00:01:14,933 --> 00:01:17,361
+Chúng tôi mở cửa đến 23 giờ.
+
+11
+00:01:23,567 --> 00:01:25,231
+Có món chay không?
+
+12
+00:01:25,433 --> 00:01:28,133
+Có, chúng tôi có vài món chay.
+
+13
+00:01:34,333 --> 00:01:36,056
+Có thể đỗ xe ở nhà hàng không?
+
+14
+00:01:36,267 --> 00:01:38,767
+Có, bãi đỗ xe ngay sau nhà hàng.
+
+15
+00:01:38,967 --> 00:01:41,967
+Cảm ơn thông tin. Tạm biệt.
+
+16
+00:01:42,167 --> 00:01:43,367
+Hẹn gặp bạn.
+
+17
+00:01:43,567 --> 00:01:46,288
+Karta sedm: Jste v bance.
+
+18
+00:01:46,600 --> 00:01:49,827
+Bạn ở ngân hàng. Bạn muốn mở tài khoản.
+
+19
+00:01:51,033 --> 00:01:53,528
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+20
+00:01:59,733 --> 00:02:04,067
+Xin chào, tôi muốn mở tài khoản. Phí hằng tháng là bao nhiêu?
+
+21
+00:02:04,267 --> 00:02:05,767
+Tài khoản miễn phí.
+
+22
+00:02:11,967 --> 00:02:13,467
+Tôi có được thẻ thanh toán không?
+
+23
+00:02:13,667 --> 00:02:15,833
+Có, bạn sẽ nhận thẻ qua bưu điện trong vòng một tuần.
+
+24
+00:02:22,033 --> 00:02:24,033
+Tôi có thể dùng ngân hàng trực tuyến không?
+
+25
+00:02:24,233 --> 00:02:26,967
+Có, ngân hàng trực tuyến miễn phí.
+
+26
+00:02:33,167 --> 00:02:34,389
+Tôi có cần hộ chiếu không?
+
+27
+00:02:34,600 --> 00:02:37,133
+Có, bạn cần hộ chiếu và giấy phép cư trú.
+
+28
+00:02:37,333 --> 00:02:40,333
+Cảm ơn thông tin. Tạm biệt.
+
+29
+00:02:40,533 --> 00:02:41,926
+Cảm ơn, tạm biệt.
+
+30
+00:02:42,133 --> 00:02:44,978
+Karta osm: Jste v půjčovně kol.
+
+31
+00:02:45,267 --> 00:02:48,814
+Bạn ở cửa hàng cho thuê xe đạp. Bạn muốn thuê xe để đi chơi.
+
+32
+00:02:50,000 --> 00:02:52,495
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+33
+00:02:58,700 --> 00:03:01,683
+Xin chào, thuê xe đạp một ngày bao nhiêu tiền?
+
+34
+00:03:01,900 --> 00:03:04,550
+Xe đạp giá 350 korun một ngày.
+
+35
+00:03:10,767 --> 00:03:12,167
+Bạn có cho tôi mượn cả mũ bảo hiểm không?
+
+36
+00:03:12,367 --> 00:03:13,819
+Chúng tôi cho bạn mượn mũ miễn phí.
+
+37
+00:03:20,033 --> 00:03:22,255
+Tôi phải trả xe trước mấy giờ?
+
+38
+00:03:22,467 --> 00:03:24,967
+Bạn phải trả xe trước 19 giờ.
+
+39
+00:03:31,167 --> 00:03:32,662
+Bạn có cả xe đạp trẻ em không?
+
+40
+00:03:32,867 --> 00:03:35,729
+Có, chúng tôi có xe cho trẻ từ 6 tuổi.
+
+41
+00:03:35,933 --> 00:03:38,933
+Cảm ơn thông tin. Tạm biệt.
+
+42
+00:03:39,133 --> 00:03:40,267
+Chúc chuyến đi vui vẻ!
+
+43
+00:03:40,467 --> 00:03:42,935
+Karta devět: Jste v kadeřnictví.
+
+44
+00:03:43,233 --> 00:03:46,803
+Bạn ở tiệm làm tóc. Bạn muốn đặt lịch cắt tóc.
+
+45
+00:03:48,000 --> 00:03:50,495
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+46
+00:03:56,700 --> 00:03:59,200
+Xin chào, bạn còn lịch trống để cắt tóc không?
+
+47
+00:03:59,400 --> 00:04:01,167
+Ngày mai lúc ba giờ tôi rảnh.
+
+48
+00:04:07,367 --> 00:04:08,551
+Cái này giá bao nhiêu?
+
+49
+00:04:08,767 --> 00:04:10,758
+Cắt tóc giá 400 korun.
+
+50
+00:04:16,967 --> 00:04:18,317
+Mất bao lâu?
+
+51
+00:04:18,533 --> 00:04:20,300
+Khoảng 45 phút.
+
+52
+00:04:26,500 --> 00:04:28,120
+Tôi trả bằng thẻ được không?
+
+53
+00:04:28,333 --> 00:04:29,863
+Vâng, bạn có thể trả bằng thẻ.
+
+54
+00:04:30,067 --> 00:04:33,067
+Cảm ơn thông tin. Tạm biệt.
+
+55
+00:04:33,267 --> 00:04:34,633
+Hẹn ngày mai nhé, tạm biệt.
+
+56
+00:04:34,833 --> 00:04:37,993
+Karta deset: Jste v informačním centru.
+
+57
+00:04:38,300 --> 00:04:41,724
+Bạn đang ở trung tâm thông tin. Bạn muốn đi tham quan thành phố.
+
+58
+00:04:42,933 --> 00:04:45,428
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+59
+00:04:51,633 --> 00:04:54,322
+Xin chào, khi nào chuyến tham quan thành phố bắt đầu?
+
+60
+00:04:54,533 --> 00:04:56,900
+Chuyến tham quan bắt đầu lúc 11 giờ.
+
+61
+00:05:03,100 --> 00:05:04,133
+Giá bao nhiêu?
+
+62
+00:05:04,333 --> 00:05:06,367
+Vé giá 150 korun.
+
+63
+00:05:12,567 --> 00:05:14,259
+Chuyến tham quan bằng ngôn ngữ nào?
+
+64
+00:05:14,467 --> 00:05:16,700
+Chuyến tham quan bằng tiếng Séc và tiếng Anh.
+
+65
+00:05:22,900 --> 00:05:24,200
+Kéo dài bao lâu?
+
+66
+00:05:24,400 --> 00:05:26,459
+Chuyến tham quan kéo dài khoảng hai tiếng.
+
+67
+00:05:26,667 --> 00:05:29,667
+Cảm ơn thông tin. Tạm biệt.
+
+68
+00:05:29,867 --> 00:05:31,019
+Chúc một ngày tốt lành.
+
+69
+00:05:31,233 --> 00:05:37,216
+Bây giờ là mười hai câu hỏi dùng được cho hầu hết các thẻ. Hãy nghe và nhắc lại.
+
+70
+00:05:37,900 --> 00:05:39,085
+Cái này giá bao nhiêu?
+
+71
+00:05:42,300 --> 00:05:43,600
+Khi nào khóa học bắt đầu?
+
+72
+00:05:46,800 --> 00:05:48,600
+Mấy giờ các bạn mở cửa?
+
+73
+00:05:51,800 --> 00:05:53,150
+Mất bao lâu?
+
+74
+00:05:56,367 --> 00:05:58,000
+Trạm dừng gần nhất ở đâu?
+
+75
+00:06:01,200 --> 00:06:03,260
+Bạn có áo khoác này cỡ lớn hơn không?
+
+76
+00:06:06,467 --> 00:06:08,087
+Tôi trả bằng thẻ được không?
+
+77
+00:06:11,300 --> 00:06:12,800
+Tôi có phải đổi tàu không?
+
+78
+00:06:16,000 --> 00:06:17,633
+Tôi phải mang theo gì?
+
+79
+00:06:20,833 --> 00:06:22,300
+Có thể trả lại không?
+
+80
+00:06:25,500 --> 00:06:27,167
+Làm sao để đến nhà ga?
+
+81
+00:06:30,367 --> 00:06:32,933
+Bạn có thể cho tôi biết quầy thu ngân ở đâu không?
+
+82
+00:06:36,133 --> 00:06:39,192
+Năm lỗi thường gặp khiến mọi người mất điểm.
+
+83
+00:06:42,400 --> 00:06:48,685
+Đúng: Kolik to stojí? Đừng chỉ đọc từ trên thẻ. Hãy đặt câu hỏi đầy đủ.
+
+84
+00:06:52,400 --> 00:06:59,794
+Đúng: Můžu platit kartou? Bạn phải hỏi, không phải thông báo. Câu hỏi kết thúc bằng dấu hỏi.
+
+85
+00:07:03,500 --> 00:07:10,324
+Đúng: Máte volný termín? Với giám khảo bạn nói trang trọng: máte, můžete.
+
+86
+00:07:14,033 --> 00:07:22,185
+Đúng: Kdy jede vlak do Brna? Đặt từ để hỏi lên đầu: kdy, kde, kolik.
+
+87
+00:07:25,900 --> 00:07:34,956
+Đúng: Je tam parkoviště? Hãy chuẩn bị trước câu hỏi thứ tư. Ví dụ: Je tam parkoviště? Můžu přijít i v sobotu?
+
+88
+00:07:36,167 --> 00:07:54,215
+Tóm tắt. Thứ nhất: biến gợi ý thành câu hỏi đầy đủ. Thứ hai: nói trang trọng — máte, můžete. Thứ ba: từ để hỏi đặt đầu câu. Và thứ tư: chuẩn bị sẵn câu hỏi của riêng bạn.
+
+89
+00:07:55,400 --> 00:08:05,557
+Thẻ nào khó nhất với bạn? Hãy viết vào bình luận. Nếu video có ích, hãy bấm thích — điều đó giúp những người khác đang ôn thi.
+
+90
+00:08:06,767 --> 00:08:23,079
+Trên trang Zkouška A2 nanečisto bạn có thể luyện tất cả thẻ miễn phí — trang web nghe và kiểm tra câu hỏi. Liên kết trong mô tả. Ngày mai: ôn tập lớn phần Nói, bài 3. Hãy đăng ký kênh.
