@@ -1,6 +1,6 @@
 1
 00:00:00,200 --> 00:00:14,281
-Všech pět karet z lekcí šest až deset – celé dialogy se zkoušejícím. A navíc dvanáct otázek, které se hodí skoro na každou kartu, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a ptejte se nahlas!
+All five cards from lessons 6–10 — full dialogues with the examiner. Plus twelve questions that fit almost any card and five mistakes that cost people points. Get ready and ask out loud!
 
 2
 00:00:15,167 --> 00:00:29,657
@@ -12,7 +12,7 @@ The card has only short hints. You must turn them into a full polite question. N
 
 4
 00:00:44,433 --> 00:00:47,588
-Karta šest: Voláte do restaurace.
+Card 6: You are calling a restaurant.
 
 5
 00:00:47,900 --> 00:00:51,980
@@ -116,7 +116,7 @@ Thank you, goodbye.
 
 30
 00:02:42,133 --> 00:02:44,978
-Karta osm: Jste v půjčovně kol.
+Card 8: You are at a bike rental.
 
 31
 00:02:45,267 --> 00:02:48,814
@@ -168,7 +168,7 @@ Have a nice trip!
 
 43
 00:03:40,467 --> 00:03:42,935
-Karta devět: Jste v kadeřnictví.
+Card 9: You are at the hairdresser.
 
 44
 00:03:43,233 --> 00:03:46,803
@@ -220,7 +220,7 @@ See you tomorrow then, goodbye.
 
 56
 00:04:34,833 --> 00:04:37,993
-Karta deset: Jste v informačním centru.
+Card 10: You are at the information centre.
 
 57
 00:04:38,300 --> 00:04:41,724

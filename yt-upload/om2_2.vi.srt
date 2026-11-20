@@ -1,6 +1,6 @@
 1
 00:00:00,200 --> 00:00:14,281
-Všech pět karet z lekcí šest až deset – celé dialogy se zkoušejícím. A navíc dvanáct otázek, které se hodí skoro na každou kartu, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a ptejte se nahlas!
+Cả năm thẻ từ bài 6–10 — hội thoại đầy đủ với giám khảo. Thêm mười hai câu hỏi dùng được cho hầu hết các thẻ và năm lỗi khiến mọi người mất điểm. Hãy chuẩn bị và hỏi thành tiếng!
 
 2
 00:00:15,167 --> 00:00:29,657
@@ -12,7 +12,7 @@ Trên thẻ chỉ có gợi ý ngắn. Bạn phải biến chúng thành câu h�
 
 4
 00:00:44,433 --> 00:00:47,588
-Karta šest: Voláte do restaurace.
+Thẻ 6: Bạn gọi điện đến nhà hàng.
 
 5
 00:00:47,900 --> 00:00:51,980
@@ -116,7 +116,7 @@ Cảm ơn, tạm biệt.
 
 30
 00:02:42,133 --> 00:02:44,978
-Karta osm: Jste v půjčovně kol.
+Thẻ 8: Bạn ở tiệm cho thuê xe đạp.
 
 31
 00:02:45,267 --> 00:02:48,814
@@ -168,7 +168,7 @@ Chúc chuyến đi vui vẻ!
 
 43
 00:03:40,467 --> 00:03:42,935
-Karta devět: Jste v kadeřnictví.
+Thẻ 9: Bạn ở tiệm cắt tóc.
 
 44
 00:03:43,233 --> 00:03:46,803
@@ -220,7 +220,7 @@ Hẹn ngày mai nhé, tạm biệt.
 
 56
 00:04:34,833 --> 00:04:37,993
-Karta deset: Jste v informačním centru.
+Thẻ 10: Bạn ở trung tâm thông tin.
 
 57
 00:04:38,300 --> 00:04:41,724

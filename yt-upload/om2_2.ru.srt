@@ -1,6 +1,6 @@
 1
 00:00:00,200 --> 00:00:14,281
-Všech pět karet z lekcí šest až deset – celé dialogy se zkoušejícím. A navíc dvanáct otázek, které se hodí skoro na každou kartu, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a ptejte se nahlas!
+Все пять карточек из уроков 6–10 — полные диалоги с экзаменатором. А ещё двенадцать вопросов, которые подходят почти к каждой карточке, и пять ошибок, из-за которых теряют баллы. Приготовьтесь и спрашивайте вслух!
 
 2
 00:00:15,167 --> 00:00:29,657
@@ -12,7 +12,7 @@ Všech pět karet z lekcí šest až deset – celé dialogy se zkoušejícím. 
 
 4
 00:00:44,433 --> 00:00:47,588
-Karta šest: Voláte do restaurace.
+Карточка 6: Вы звоните в ресторан.
 
 5
 00:00:47,900 --> 00:00:51,980
@@ -116,7 +116,7 @@ Karta sedm: Jste v bance.
 
 30
 00:02:42,133 --> 00:02:44,978
-Karta osm: Jste v půjčovně kol.
+Карточка 8: Вы в прокате велосипедов.
 
 31
 00:02:45,267 --> 00:02:48,814
@@ -168,7 +168,7 @@ Karta osm: Jste v půjčovně kol.
 
 43
 00:03:40,467 --> 00:03:42,935
-Karta devět: Jste v kadeřnictví.
+Карточка 9: Вы в парикмахерской.
 
 44
 00:03:43,233 --> 00:03:46,803
@@ -220,7 +220,7 @@ Karta devět: Jste v kadeřnictví.
 
 56
 00:04:34,833 --> 00:04:37,993
-Karta deset: Jste v informačním centru.
+Карточка 10: Вы в информационном центре.
 
 57
 00:04:38,300 --> 00:04:41,724
