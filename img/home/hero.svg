@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" role="img" aria-label="">
+ <defs><radialGradient id="hb" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#ffffff" stop-opacity=".22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+ <circle cx="330" cy="300" r="260" fill="url(#hb)"/>
+ <circle cx="330" cy="310" r="205" fill="#2b63c4" opacity=".55"/>
+ <g transform="translate(60,50) rotate(0) scale(0.55)"><rect x="-6" y="0" width="10" height="200" fill="#1d2433"/><rect x="4" y="0" width="150" height="50" fill="#fff"/><rect x="4" y="50" width="150" height="50" fill="#d7141a"/><path d="M4 0 L80 50 L4 100Z" fill="#11457e"/></g>
+ <g transform="translate(190,236) scale(0.95,0.95)">
+ <ellipse cx="0" cy="190" rx="70" ry="14" fill="rgba(0,0,0,.16)"/>
+ 
+ <path d="M-55 182 Q-60 70 0 62 Q60 70 55 182 Z" fill="#6d3fc0"/><path d="M-20 66 L0 90 L20 66" stroke="#fff" stroke-width="8" fill="none"/>
+ <path d="M-52 115 Q-70 150 -30 150" stroke="#6d3fc0" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M52 115 Q70 150 30 150" stroke="#6d3fc0" stroke-width="26" stroke-linecap="round" fill="none"/><circle cx="-26" cy="150" r="16" fill="#f1d0b5"/><circle cx="26" cy="150" r="16" fill="#f1d0b5"/>
+ <rect x="-14" y="38" width="28" height="30" rx="10" fill="#f1d0b5"/>
+ <circle cx="0" cy="0" r="52" fill="#f1d0b5"/><circle cx="-52" cy="6" r="9" fill="#f1d0b5"/><circle cx="52" cy="6" r="9" fill="#f1d0b5"/>
+ <circle cx="0" cy="-66" r="24" fill="#4a3426"/><path d="M-54 -4 Q-56 -62 0 -60 Q58 -62 54 -4 Q44 -36 0 -40 Q-42 -36 -54 -4Z" fill="#4a3426"/>
+ 
+ <circle cx="-18" cy="2" r="6.5" fill="#1d2433"/><circle cx="18" cy="2" r="6.5" fill="#1d2433"/><circle cx="-16" cy="0" r="2.2" fill="#fff"/><circle cx="20" cy="0" r="2.2" fill="#fff"/>
+ <g fill="none" stroke="#1d2433" stroke-width="4"><circle cx="-18" cy="2" r="14"/><circle cx="18" cy="2" r="14"/><path d="M-4 2 h8"/></g>
+ <circle cx="-32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/><circle cx="32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/>
+ <path d="M-14 24 Q0 36 14 24" stroke="#7a1f2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+ 
+ 
+ 
+ </g>
+ <g transform="translate(455,236) scale(-0.95,0.95)">
+ <ellipse cx="0" cy="190" rx="70" ry="14" fill="rgba(0,0,0,.16)"/>
+ 
+ <path d="M-55 182 Q-60 70 0 62 Q60 70 55 182 Z" fill="#2bb673"/>
+ <path d="M-55 120 Q-90 140 -78 175" stroke="#2bb673" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M52 110 Q95 80 100 40" stroke="#2bb673" stroke-width="26" stroke-linecap="round" fill="none"/><circle cx="100" cy="34" r="16" fill="#e9b48f"/>
+ <rect x="-14" y="38" width="28" height="30" rx="10" fill="#e9b48f"/>
+ <circle cx="0" cy="0" r="52" fill="#e9b48f"/><circle cx="-52" cy="6" r="9" fill="#e9b48f"/><circle cx="52" cy="6" r="9" fill="#e9b48f"/>
+ <path d="M-54 -6 Q-56 -62 0 -60 Q58 -62 54 -8 Q40 -40 0 -38 Q-38 -40 -54 -6Z" fill="#1d2433"/>
+ 
+ <circle cx="-18" cy="2" r="6.5" fill="#1d2433"/><circle cx="18" cy="2" r="6.5" fill="#1d2433"/><circle cx="-16" cy="0" r="2.2" fill="#fff"/><circle cx="20" cy="0" r="2.2" fill="#fff"/>
+ 
+ <circle cx="-32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/><circle cx="32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/>
+ <path d="M-15 22 Q0 46 15 22 Z" fill="#7a1f2b"/><path d="M-9 34 Q0 40 9 34" fill="#ff8a8a"/>
+ 
+ 
+ 
+ </g>
+ <rect x="70" y="400" width="500" height="30" rx="12" fill="#8a5a2b"/><rect x="100" y="430" width="22" height="110" fill="#8a5a2b"/><rect x="518" y="430" width="22" height="110" fill="#8a5a2b"/>
+ <path d="M70 400 h240 l-20 -60 h-200z" fill="#ffd500" stroke="#1d2433" stroke-width="5"/><text x="190" y="382" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="30" fill="#1d2433">ZKOUŠKA A2</text>
+ <g transform="translate(330,40)"><rect width="250" height="74" rx="37" fill="#fff" stroke="#1d2433" stroke-width="5"/>
+ <path d="M180 71 l48 34 l-18 -34" fill="#fff" stroke="#1d2433" stroke-width="5" stroke-linejoin="round"/>
+ <rect x="166" y="64" width="58" height="10" fill="#fff"/><text x="125" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="34" fill="#1d2433">Dobrý den!</text></g>
+ 
+<g transform="translate(0,0) rotate(0) scale(1)"><g transform="translate(360,392) rotate(-4) scale(1)">
+ <rect x="6" y="10" width="250" height="168" rx="22" fill="rgba(13,30,70,.25)"/>
+ <rect width="250" height="168" rx="22" fill="#fff" stroke="#1d2433" stroke-width="5"/>
+ <text x="26" y="42" text-anchor="start" font-family="Inter,sans-serif" font-weight="800" font-size="22" fill="#59647a">VÝSLEDEK</text>
+ <text x="26" y="98" text-anchor="start" font-family="Inter,sans-serif" font-weight="900" font-size="56" fill="#1d2433">92</text><text x="100" y="98" text-anchor="start" font-family="Inter,sans-serif" font-weight="800" font-size="30" fill="#59647a">/ 110</text>
+ <rect x="26" y="116" width="198" height="14" rx="7" fill="#e3ebf8"/><rect x="26" y="116" width="166" height="14" rx="7" fill="#22b14c"/>
+ <g transform="translate(206,58)"><circle r="30" fill="#22b14c"/><path d="M-13 0 l9 10 l17 -20" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <text x="26" y="158" text-anchor="start" font-family="Inter,sans-serif" font-weight="900" font-size="22" fill="#15803d">PROSPĚL ✓</text></g></g></svg>

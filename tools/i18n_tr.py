@@ -754,3 +754,18 @@ T += [
 ('· пройдено варіантів:', '· variants done:', '· пройдено вариантов:', '· đề đã làm:'),
 ('· варіант', '· variant', '· вариант', '· đề'),
 ]
+# 20.11: новий дизайн головної
+T += [
+("✓ Безкоштовно", "✓ Free", "✓ Бесплатно", "✓ Miễn phí"),
+("✓ Без реєстрації", "✓ No sign-up", "✓ Без регистрации", "✓ Không cần đăng ký"),
+("✓ Працює на телефоні", "✓ Works on your phone", "✓ Работает на телефоне", "✓ Dùng được trên điện thoại"),
+("варіантів іспиту", "exam variants", "вариантов экзамена", "đề thi"),
+("балів, як на справжньому іспиті", "points, like the real exam", "баллов, как на настоящем экзамене", "điểm, như kỳ thi thật"),
+("озвучених чеських фраз", "Czech phrases with audio", "озвученных чешских фраз", "câu tiếng Séc có âm thanh"),
+("мови пояснень", "explanation languages", "языка объяснений", "ngôn ngữ giải thích"),
+("Оберіть, з чого почати", "Choose where to start", "Выберите, с чего начать", "Chọn nơi bắt đầu"),
+]
+T += [
+("🎨 Новий вигляд головної сторінки.", "🎨 A new look for the home page.", "🎨 Новый вид главной страницы.", "🎨 Giao diện trang chủ mới."),
+("Яскравіше й простіше: головна кнопка, коротко про платформу в цифрах і ті самі персонажі, що в наших відео.", "Brighter and simpler: one main button, the platform in numbers and the same characters as in our videos.", "Ярче и проще: главная кнопка, коротко о платформе в цифрах и те же персонажи, что в наших видео.", "Tươi sáng và đơn giản hơn: một nút chính, nền tảng qua các con số và các nhân vật giống trong video của chúng tôi."),
+]
