@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,051
+Psaní, úloha jedna. Formulář číslo 14. Chcete se ubytovat na koleji. Odpovězte na otázky v žádosti. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:12,767 --> 00:00:14,227
+Co a kde studujete?
+
+3
+00:00:24,633 --> 00:00:29,883
+Studuju informatiku na Českém vysokém učení technickém v Praze, jsem v prvním ročníku.
+
+4
+00:00:30,767 --> 00:00:32,569
+Proč potřebujete bydlet na koleji?
+
+5
+00:00:42,967 --> 00:00:47,530
+Potřebuju bydlet na koleji, protože bydlím daleko a cesta do školy trvá dvě hodiny.
+
+6
+00:00:48,433 --> 00:00:50,128
+S kým chcete bydlet na pokoji?
+
+7
+00:01:00,533 --> 00:01:04,247
+Chtěl bych bydlet s kamarádem z mého ročníku, jmenuje se Petr Novák.
+
+8
+00:01:05,133 --> 00:01:14,830
+Vyplňte formulář 14 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

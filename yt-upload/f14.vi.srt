@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,051
+Phần Viết, bài một. Mẫu đơn số 14. Bạn muốn ở ký túc xá. Hãy trả lời các câu hỏi trong đơn bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:12,767 --> 00:00:14,227
+Bạn học gì và ở đâu?
+
+3
+00:00:24,633 --> 00:00:29,883
+Tôi học tin học ở Đại học Kỹ thuật Séc tại Praha, tôi đang học năm nhất.
+
+4
+00:00:30,767 --> 00:00:32,569
+Tại sao bạn cần ở ký túc xá?
+
+5
+00:00:42,967 --> 00:00:47,530
+Tôi cần ở ký túc xá vì tôi sống xa và đường đến trường mất hai tiếng.
+
+6
+00:00:48,433 --> 00:00:50,128
+Bạn muốn ở chung phòng với ai?
+
+7
+00:01:00,533 --> 00:01:04,247
+Tôi muốn ở cùng một người bạn cùng khóa, tên là Petr Novák.
+
+8
+00:01:05,133 --> 00:01:14,830
+Hãy điền mẫu đơn 14 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

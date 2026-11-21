@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,051
+Writing, task one. Form number 14. You want to live in a student dormitory. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:12,767 --> 00:00:14,227
+What and where do you study?
+
+3
+00:00:24,633 --> 00:00:29,883
+I study computer science at the Czech Technical University in Prague, I'm in my first year.
+
+4
+00:00:30,767 --> 00:00:32,569
+Why do you need to live in the dormitory?
+
+5
+00:00:42,967 --> 00:00:47,530
+I need to live in the dormitory because I live far away and the journey to school takes two hours.
+
+6
+00:00:48,433 --> 00:00:50,128
+Who do you want to share a room with?
+
+7
+00:01:00,533 --> 00:01:04,247
+I'd like to live with a friend from my year, his name is Petr Novák.
+
+8
+00:01:05,133 --> 00:01:14,830
+Fill in form 14 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

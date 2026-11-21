@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:11,169
+Mluvení, úloha čtyři. Situace číslo 14. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,867 --> 00:00:18,844
+Chceme spolu jet na víkend pryč z města. Kam pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:27,533 --> 00:00:29,097
+Můžeme jet do kempu.
+
+4
+00:00:29,400 --> 00:00:30,721
+V kempu je moc lidí.
+
+5
+00:00:31,033 --> 00:00:32,857
+Tak pojedeme do hotelu ve městě.
+
+6
+00:00:33,167 --> 00:00:34,587
+Hotel je moc drahý.
+
+7
+00:00:34,900 --> 00:00:36,165
+Tak pojedeme na chatu.
+
+8
+00:00:36,467 --> 00:00:38,064
+A proč chceš jet tam?
+
+9
+00:00:38,367 --> 00:00:40,475
+Protože tam je klid a můžeme grilovat.
+
+10
+00:00:40,767 --> 00:00:42,328
+Dobře, pojedeme na chatu.
+
+11
+00:00:42,633 --> 00:00:52,165
+Procvičte si situaci 14 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

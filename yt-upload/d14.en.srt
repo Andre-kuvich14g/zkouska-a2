@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,176
+Speaking, task two. Card number 14. You are at an estate agency looking for a flat to rent. Ask four questions.
+
+2
+00:00:10,867 --> 00:00:14,499
+You are at an estate agency. You are looking for a flat to rent.
+
+3
+00:00:15,700 --> 00:00:18,195
+Hello. What can I do for you?
+
+4
+00:00:23,400 --> 00:00:26,100
+Hello, do you have a 2+1 flat available?
+
+5
+00:00:26,300 --> 00:00:28,300
+Yes, we have a 2+1 flat available.
+
+6
+00:00:33,500 --> 00:00:34,964
+How much is the rent?
+
+7
+00:00:35,167 --> 00:00:37,124
+The rent is 14,000 crowns.
+
+8
+00:00:42,333 --> 00:00:44,067
+When can I come for a viewing?
+
+9
+00:00:44,267 --> 00:00:45,857
+A viewing is possible tomorrow.
+
+10
+00:00:51,067 --> 00:00:52,133
+Can I have a dog?
+
+11
+00:00:52,333 --> 00:00:54,267
+The owner will allow a small dog.
+
+12
+00:00:54,467 --> 00:00:57,467
+Thanks for the information. Goodbye.
+
+13
+00:00:57,667 --> 00:00:58,819
+Goodbye.
+
+14
+00:00:59,033 --> 00:01:08,254
+Practise card 14 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

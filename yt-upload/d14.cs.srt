@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,176
+Mluvení, úloha dvě. Karta číslo 14. Jste v realitní kanceláři. Hledáte byt k pronájmu. Položte čtyři otázky.
+
+2
+00:00:10,867 --> 00:00:14,499
+Jste v realitní kanceláři. Hledáte byt k pronájmu.
+
+3
+00:00:15,700 --> 00:00:18,195
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,400 --> 00:00:26,100
+Dobrý den, máte volný byt 2+1?
+
+5
+00:00:26,300 --> 00:00:28,300
+Ano, máme volný byt 2+1.
+
+6
+00:00:33,500 --> 00:00:34,964
+Kolik stojí nájem?
+
+7
+00:00:35,167 --> 00:00:37,124
+Nájem je 14 000 Kč.
+
+8
+00:00:42,333 --> 00:00:44,067
+Kdy můžu přijít na prohlídku?
+
+9
+00:00:44,267 --> 00:00:45,857
+Prohlídka je možná zítra.
+
+10
+00:00:51,067 --> 00:00:52,133
+Můžu mít psa?
+
+11
+00:00:52,333 --> 00:00:54,267
+Malého psa majitel dovolí.
+
+12
+00:00:54,467 --> 00:00:57,467
+Děkuju za informace. Na shledanou.
+
+13
+00:00:57,667 --> 00:00:58,819
+Na shledanou.
+
+14
+00:00:59,033 --> 00:01:08,254
+Procvičte si kartu 14 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

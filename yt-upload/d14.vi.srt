@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,176
+Phần Nói, bài hai. Thẻ số 14. Bạn ở văn phòng bất động sản và tìm căn hộ để thuê. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,867 --> 00:00:14,499
+Bạn ở văn phòng bất động sản. Bạn tìm căn hộ để thuê.
+
+3
+00:00:15,700 --> 00:00:18,195
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,400 --> 00:00:26,100
+Xin chào, anh chị có căn hộ 2+1 còn trống không?
+
+5
+00:00:26,300 --> 00:00:28,300
+Có, chúng tôi có căn hộ 2+1 còn trống.
+
+6
+00:00:33,500 --> 00:00:34,964
+Tiền thuê bao nhiêu?
+
+7
+00:00:35,167 --> 00:00:37,124
+Tiền thuê là 14 000 koruna.
+
+8
+00:00:42,333 --> 00:00:44,067
+Khi nào tôi có thể đến xem nhà?
+
+9
+00:00:44,267 --> 00:00:45,857
+Có thể xem nhà vào ngày mai.
+
+10
+00:00:51,067 --> 00:00:52,133
+Tôi có thể nuôi chó không?
+
+11
+00:00:52,333 --> 00:00:54,267
+Chủ nhà cho phép nuôi chó nhỏ.
+
+12
+00:00:54,467 --> 00:00:57,467
+Cảm ơn về thông tin. Tạm biệt.
+
+13
+00:00:57,667 --> 00:00:58,819
+Tạm biệt.
+
+14
+00:00:59,033 --> 00:01:08,254
+Hãy luyện thẻ 14 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
