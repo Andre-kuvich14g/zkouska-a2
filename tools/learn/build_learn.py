@@ -49,9 +49,26 @@ def yt_data():
             if u in secs: secs[u].setdefault('r', []).insert(0, [vid, m['title'].replace('Zkouška A2 – ', '')])
     # 19.11 (+1% сайт): найновіша збірка «Velké opakování» — першою після гайду на головній /learn
     HP = lambda k: PLAYLISTS['w'] if k.startswith('om') else PLAYLISTS[k[0]]
-    home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), HP(k)] for k in ('om2_2', 'om1_2', 'l03', 'w01', 'l02', 'l01') if k in ids and k in meta]
+    home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), HP(k)] for k in ('om3_2', 'om2_2', 'om1_2', 'l03', 'w01', 'l02') if k in ids and k in meta]
     if 'g01' in ids and 'g01' in meta: home.insert(0, [ids['g01'], '▶ ' + meta['g01']['title'], ''])  # 14.11: гайд «Почніть звідси» першим
     return {'ch': CHANNEL, 'sec': secs, 'home': home}
+
+def video_ld():  # 21.11 (+1% сайт): schema.org VideoObject для відео-уроків -> відео-сніпети в Google
+    import re
+    ids = json.load(open(os.path.join(ROOT, 'yt-upload', 'ids.json'), encoding='utf-8'))
+    meta = json.load(open(os.path.join(ROOT, 'yt-upload', 'meta.json'), encoding='utf-8'))
+    items = []
+    for key, m in meta.items():
+        vid = ids.get(key)
+        if key.startswith('s_') or not isinstance(vid, str) or not m.get('date') or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
+        d = re.sub(r'https?://\S+', '', m.get('desc', '')); d = re.sub(r'\s+', ' ', re.sub(r'[🌐👆▶💬👍🔔#]\S*', ' ', d)).strip()
+        for junk in ('Cvičná zkouška A2 zdarma / Безкоштовний тренажер:', 'Odkaz je i v záhlaví kanálu · Посилання є і в шапці каналу'): d = d.replace(junk, '')
+        d = d.strip()[:300]
+        items.append({'@type': 'VideoObject', 'name': m['title'][:100], 'description': d or m['title'], 'thumbnailUrl': f'https://zkouska-a2.cz/learn/yt/{vid}.jpg',
+                      'uploadDate': m['date'] + 'T' + m.get('time', '12:00') + ':00+01:00', 'embedUrl': f'https://www.youtube.com/embed/{vid}', 'url': f'https://www.youtube.com/watch?v={vid}', 'inLanguage': 'cs'})
+    items.sort(key=lambda x: x['uploadDate'], reverse=True)
+    ld = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': 'Video lekce – Zkouška A2 nanečisto', 'itemListElement': [dict(position=i + 1, **{'@type': 'ListItem', 'item': v}) for i, v in enumerate(items)]}
+    return '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + '</script>', len(items)
 
 def topics(rows): return [{'cz': cz, 't': tr, 'qa': [list(x) for x in qa]} for cz, tr, qa in rows]
 
@@ -65,7 +82,9 @@ def build():
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
     os.makedirs(os.path.join(ROOT, 'learn'), exist_ok=True)
-    open(os.path.join(ROOT, 'learn', 'index.html'), 'w', encoding='utf-8').write(tpl.replace('@@DATA@@', blob))
+    ld, nld = video_ld()
+    open(os.path.join(ROOT, 'learn', 'index.html'), 'w', encoding='utf-8').write(tpl.replace('@@DATA@@', blob).replace('</head>', ld + '\n</head>', 1))
+    print('VideoObject:', nld)
     print('OK learn/index.html', len(blob) // 1024, 'KB data;', {k: len(data[k]) for k in ('u1', 'u2', 'u3', 'u4', 'w1', 'w2')})
 
 if __name__ == '__main__': build()
