@@ -29,6 +29,7 @@ UI = {
 'ytSec': ['🎬 Відеоуроки нашого каналу', '🎬 Video lessons from our channel', '🎬 Видеоуроки нашего канала', '🎬 Video bài học từ kênh của chúng tôi'],
 'ytPlay': ['▶ Дивитися відеоурок', '▶ Watch the video lesson', '▶ Смотреть видеоурок', '▶ Xem video bài học'],
 'ytSub': ['🔔 Підписатися на канал', '🔔 Subscribe to the channel', '🔔 Подписаться на канал', '🔔 Đăng ký kênh'],
+'tgJoin': ['✈ Telegram: завдання дня', '✈ Telegram: task of the day', '✈ Telegram: задание дня', '✈ Telegram: bài tập mỗi ngày'],
 'ytAll': ['Усі відео цієї úlohy ↗', 'All videos for this úloha ↗', 'Все видео этой úlohy ↗', 'Tất cả video của úloha này ↗'],
 'ytSoon': ['Відеоурок до цієї теми ще готується: на каналі щодня виходять нові. Підпишіться, щоб не пропустити.', 'The video lesson for this topic is on its way: new ones come out on the channel every day. Subscribe so you don’t miss it.', 'Видеоурок к этой теме ещё готовится: на канале каждый день выходят новые. Подпишитесь, чтобы не пропустить.', 'Video bài học cho chủ đề này đang được chuẩn bị: kênh có video mới mỗi ngày. Hãy đăng ký để không bỏ lỡ.'],
 'ytNext': ['Нові відео щодня', 'New videos every day', 'Новые видео каждый день', 'Video mới mỗi ngày'],

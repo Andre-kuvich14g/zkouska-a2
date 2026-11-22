@@ -175,6 +175,7 @@ h2.grp{font-size:1.15rem;margin-top:8px}
 .mailtxt{white-space:pre-wrap;font-family:var(--f-body);margin:0;line-height:1.6;overflow-wrap:anywhere}
 .q-text{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .foot{margin-top:8px;font-size:.8rem;color:var(--muted)}
+.btn.tg{background:#229ed9;color:#fff;border-color:#229ed9}
 </style>
 </head>
 <body>
@@ -295,7 +296,7 @@ const plURL = pl => `https://www.youtube.com/playlist?list=${pl}`;
 function vidCard(id, title, pl){
   return `<div class="vid"><button class="ph" type="button" data-vid="${esc(id)}" aria-label="${esc(t('ytPlay'))}: ${esc(title)}"><img src="yt/${esc(id)}.jpg" alt="" loading="lazy" width="640" height="360"><span class="pl" aria-hidden="true"></span></button>
   <div class="meta"><b>${esc(title)}</b><a class="small" href="https://www.youtube.com/watch?v=${esc(id)}${pl ? '&list=' + pl : ''}" target="_blank" rel="noopener" data-ytout>${t('vyt')} ↗</a></div></div>`; }
-const subBtn = () => `<a class="btn yt" href="${subURL()}" target="_blank" rel="noopener" data-ytsub>${t('ytSub')}</a>`;
+const subBtn = () => `<a class="btn yt" href="${subURL()}" target="_blank" rel="noopener" data-ytsub>${t('ytSub')}</a><a class="btn tg" href="https://t.me/+zNCpFZYhnf45MGNk" target="_blank" rel="noopener" data-tg>${t('tgJoin')}</a>`;
 function ytTopic(u, i){ const s = YT.sec[u]; if(!s) return ''; const v = s.v[i];
   if(!v) return `<div class="ytl"><div class="ytsoon"><span class="small">🎬 ${t('ytSoon')}</span>${subBtn()}</div></div>`;
   return `<div class="ytl big"><b>${t('ytLesson')}</b>${vidCard(v[0], v[1], s.pl)}<div class="ytacts">${subBtn()}<a class="btn" href="${plURL(s.pl)}" target="_blank" rel="noopener" data-ytout>${t('ytAll')}</a></div><p class="note">${t('vnote')}</p></div>`; }
@@ -489,7 +490,7 @@ document.addEventListener('click', e => {
   if(b.dataset.vid){ const ph = b.closest('.ph'); const L = {uk:'uk', en:'en', ru:'ru', vi:'vi'}[lang] || 'uk';
     ph.outerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.vid)}?autoplay=1&rel=0&playsinline=1&cc_load_policy=1&cc_lang_pref=${L}&hl=${L}" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`; track('learn_video', {id: b.dataset.vid}); return; }
 });
-document.addEventListener('click', e => { const a = e.target.closest('[data-ytsub],[data-ytout]'); if(a) track(a.hasAttribute('data-ytsub') ? 'youtube_subscribe' : 'youtube_click', {place: 'learn', page: location.hash || '#'}); });
+document.addEventListener('click', e => { const a = e.target.closest('[data-ytsub],[data-ytout]'); if(a) track(a.hasAttribute('data-ytsub') ? 'youtube_subscribe' : 'youtube_click', {place: 'learn', page: location.hash || '#'}); const g = e.target.closest('[data-tg]'); if(g) track('tg_join', {from: 'learn'}); });
 document.addEventListener('click', e => { const a = e.target.closest('[data-retrain]'); if(a && location.hash === a.getAttribute('href')){ e.preventDefault(); route(); } });
 route();
 })();

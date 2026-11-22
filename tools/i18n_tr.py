@@ -780,3 +780,7 @@ T += [
 ("📲 Наш Telegram-канал.", "📲 Our Telegram channel.", "📲 Наш Telegram-канал.", "📲 Kênh Telegram của chúng tôi."),
 ("Щодня вікторина й 2 відео з розбором:", "A quiz and 2 explained videos every day:", "Каждый день викторина и 2 видео с разбором:", "Mỗi ngày một câu đố và 2 video giải thích:"),
 ]
+T += [
+("🎬 Урок 15 і нова збірка.", "🎬 Lesson 15 and a new review video.", "🎬 Урок 15 и новая подборка.", "🎬 Bài 15 và video ôn tập mới."),
+("Проїзний, скарга на ресторан, покупки, зміна адреси в установі, ремонт велосипеда, поїздка потягом, а також «Велике повторення» Mluvení 4 (ситуації 6–10).", "A transport pass, a restaurant complaint, shopping, changing your address at the office, fixing a bike, a train trip, plus the “Big review” of Speaking 4 (situations 6–10).", "Проездной, жалоба на ресторан, покупки, смена адреса в учреждении, ремонт велосипеда, поездка на поезде, а также «Большое повторение» Mluvení 4 (ситуации 6–10).", "Thẻ đi xe, khiếu nại nhà hàng, mua sắm, đổi địa chỉ ở cơ quan, sửa xe đạp, đi tàu, cùng video “Ôn tập lớn” phần Nói 4 (tình huống 6–10)."),
+]
