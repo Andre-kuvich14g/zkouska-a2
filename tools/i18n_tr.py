@@ -769,3 +769,14 @@ T += [
 ("🎨 Новий вигляд головної сторінки.", "🎨 A new look for the home page.", "🎨 Новый вид главной страницы.", "🎨 Giao diện trang chủ mới."),
 ("Яскравіше й простіше: головна кнопка, коротко про платформу в цифрах і ті самі персонажі, що в наших відео.", "Brighter and simpler: one main button, the platform in numbers and the same characters as in our videos.", "Ярче и проще: главная кнопка, коротко о платформе в цифрах и те же персонажи, что в наших видео.", "Tươi sáng và đơn giản hơn: một nút chính, nền tảng qua các con số và các nhân vật giống trong video của chúng tôi."),
 ]
+T += [
+("завдання дня", "task of the day", "задание дня", "bài tập mỗi ngày"),
+("🎬 Урок 14 і нова збірка.", "🎬 Lesson 14 and a new review video.", "🎬 Урок 14 и новая подборка.", "🎬 Bài 14 và video ôn tập mới."),
+("Гуртожиток, гриль із сусідами, ресторан, агентство нерухомості, іспит з чеської, вихідні за містом, а також «Велике повторення» Mluvení 3 (історії 6–10). Усі відео є й у розділі «Вчимо».", "Student dorm, a barbecue with neighbours, restaurant, estate agency, the Czech exam, a weekend away, plus the “Big review” of Speaking 3 (stories 6–10). All videos are also in the Learn section.", "Общежитие, гриль с соседями, ресторан, агентство недвижимости, экзамен по чешскому, выходные за городом, а также «Большое повторение» Mluvení 3 (истории 6–10). Все видео есть и в разделе «Учим».", "Ký túc xá, tiệc nướng với hàng xóm, nhà hàng, văn phòng bất động sản, kỳ thi tiếng Séc, cuối tuần ngoài thành phố, cùng video “Ôn tập lớn” phần Nói 3 (chuyện 6–10). Tất cả video cũng có trong mục Học."),
+("📲 Telegram-канал", "📲 Telegram channel", "📲 Telegram-канал", "📲 Kênh Telegram"),
+("📲 Щодня 1 завдання й нове відео — у нашому Telegram-каналі. Підписатися →", "📲 One task and a new video every day in our Telegram channel. Join →", "📲 Каждый день 1 задание и новое видео — в нашем Telegram-канале. Подписаться →", "📲 Mỗi ngày 1 bài tập và video mới trong kênh Telegram. Tham gia →"),
+]
+T += [
+("📲 Наш Telegram-канал.", "📲 Our Telegram channel.", "📲 Наш Telegram-канал.", "📲 Kênh Telegram của chúng tôi."),
+("Щодня вікторина й 2 відео з розбором:", "A quiz and 2 explained videos every day:", "Каждый день викторина и 2 видео с разбором:", "Mỗi ngày một câu đố và 2 video giải thích:"),
+]

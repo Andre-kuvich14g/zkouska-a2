@@ -33,7 +33,7 @@ def build(src, lang):
            (f'<link rel="canonical" href="{BASE}">', f'<link rel="canonical" href="{url}">'),
            (f'<meta property="og:url" content="{BASE}">', f'<meta property="og:url" content="{url}">'),
            ('content="uk_UA"', f'content="{locale}"'),
-           (BASE + 'og-image.jpg', BASE + f'og-image-{lang}.jpg'),
+           (BASE + 'img/og/og-card.jpg', BASE + f'img/og/og-card-{lang}.jpg'),
            (f"url = '{BASE}'", f"url = '{url}'"),
            ('src="img/om/', 'src="../img/om/'), ('`img/om/', '`../img/om/'), ('"img/om/', '"../img/om/'),
            ('href="ochrana-osobnich-udaju.html"', 'href="../ochrana-osobnich-udaju.html"'),

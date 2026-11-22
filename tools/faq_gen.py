@@ -73,7 +73,7 @@ for lang, d in L.items():
 {ALT}<link rel="icon" type="image/png" sizes="32x32" href="/img/app/favicon-32.png">
 <meta property="og:title" content="{d["og"]}">
 <meta property="og:description" content="{d["ogd"]}">
-<meta property="og:image" content="https://zkouska-a2.cz/og-image-{lang}.jpg">
+<meta property="og:image" content="https://zkouska-a2.cz/img/og/og-card{"" if lang=="uk" else "-"+lang}.jpg">
 <meta property="og:url" content="https://zkouska-a2.cz/{lang}/faq/">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {style}
