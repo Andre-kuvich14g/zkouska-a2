@@ -634,7 +634,7 @@ body:has(#startView:not([hidden])) .brand .eyebrow{display:none}
 .home .skyline{height:44px}
 .home .badges span{font-size:.78rem!important}
 @media (max-width:520px){.home .hero.hero-start h1{font-size:1.55rem}.home .lead{font-size:1rem}}
-.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.quick{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .qb{appearance:none;cursor:pointer;font-family:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:3px;padding:10px 4px 9px;border-radius:16px;border:2px solid var(--qd);background:var(--qbg);color:var(--qink);box-shadow:0 5px 0 var(--qd);min-height:96px}
 .qb:hover{filter:brightness(1.05)}
 .qb:active{transform:translateY(3px);box-shadow:0 2px 0 var(--qd)}
@@ -646,10 +646,13 @@ body:has(#startView:not([hidden])) .brand .eyebrow{display:none}
 .qb-coffee{--qbg:#ffcf3f;--qd:#b98a00;--qink:#3b2600}
 .qb-yt{--qbg:#e62117;--qd:#9e130c;--qink:#fff}
 .qb-yt .qi{color:#e62117;font-size:.95rem}
+.tg-cta{display:block;margin:14px 0 0;padding:12px 14px;border-radius:14px;background:#229ed9;color:#fff;font-weight:700;text-decoration:none;text-align:center}
+.qb-tg{--qbg:#229ed9;--qd:#16719c;--qink:#fff}
+.home .quick .qb-tg .qi{color:#fff}
 .qb-app{--qbg:#1f4e9c;--qd:#12306a;--qink:#fff}
 body.standalone .qb-app{display:none}
-body.standalone .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
-.quick:has(.qb-app[hidden]){grid-template-columns:repeat(2,minmax(0,1fr))}
+body.standalone .quick{grid-template-columns:repeat(3,minmax(0,1fr))}
+.quick:has(.qb-app[hidden]){grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (min-width:760px){.quick{max-width:560px}}
 
 .pill{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid;line-height:1.2}
@@ -830,6 +833,7 @@ a.tile{text-decoration:none;color:inherit}
         <nav class="quick" aria-label="Быстрые ссылки">
           <a class="qb qb-coffee" href="#donate" id="coffeeTop"><span class="qi" aria-hidden="true">☕</span><b>Угостить кофе</b><span>поддержать автора</span></a>
           <a class="qb qb-yt" id="ytBar" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">▶</span><b>YouTube</b><span>каждый день новое видео</span></a>
+          <a class="qb qb-tg" id="tgBar" href="https://t.me/+zNCpFZYhnf45MGNk" target="_blank" rel="noopener"><span class="qi" aria-hidden="true">✈</span><b>Telegram</b><span>задание дня</span></a>
           <button type="button" class="qb qb-app" id="installBtn"><span class="qi" aria-hidden="true">📲</span><b>Приложение</b><span>на телефон, бесплатно</span></button>
         </nav>
 
@@ -1646,7 +1650,7 @@ function shareHTML(wr, sp){
   <a class="btn" data-share="viber" href="${L('viber', 'viber://forward?text=@T%20@U')}">Viber</a>
   <a class="btn" data-share="whatsapp" target="_blank" rel="noopener" href="${L('whatsapp', 'https://wa.me/?text=@T%20@U')}">WhatsApp</a>
   <a class="btn" data-share="facebook" target="_blank" rel="noopener" href="${L('facebook', 'https://www.facebook.com/sharer/sharer.php?u=@U')}">Facebook</a>
-  <button type="button" class="btn" id="shareSave">⬇ Сохранить картинку</button></div></div>`; }
+  <button type="button" class="btn" id="shareSave">⬇ Сохранить картинку</button></div><a class="tg-cta" href="https://t.me/+zNCpFZYhnf45MGNk" target="_blank" rel="noopener" onclick="try{track('tg_join',{from:'result'})}catch(e){}">📲 Каждый день 1 задание и новое видео — в нашем Telegram-канале. Подписаться →</a></div>`; }
 function drawShare(wr, sp){
   const cv = document.getElementById('shareCv'); if(!cv) return; const c = cv.getContext('2d'); if(!c.roundRect) c.roundRect = function(x, y, w, h){ this.rect(x, y, w, h); }; const W = 1080, pass = wr >= 42 && sp >= 24;
   const g = c.createLinearGradient(0, 0, W, W); g.addColorStop(0, '#1f4fb8'); g.addColorStop(1, '#0b1a40'); c.fillStyle = g; c.fillRect(0, 0, W, W);

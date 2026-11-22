@@ -62,7 +62,7 @@ def video_ld():  # 21.11 (+1% сайт): schema.org VideoObject для віде�
         vid = ids.get(key)
         if key.startswith('s_') or not isinstance(vid, str) or not m.get('date') or not os.path.exists(os.path.join(ROOT, 'learn', 'yt', vid + '.jpg')): continue
         d = re.sub(r'https?://\S+', '', m.get('desc', '')); d = re.sub(r'\s+', ' ', re.sub(r'[🌐👆▶💬👍🔔#]\S*', ' ', d)).strip()
-        for junk in ('Cvičná zkouška A2 zdarma / Безкоштовний тренажер:', 'Odkaz je i v záhlaví kanálu · Посилання є і в шапці каналу'): d = d.replace(junk, '')
+        for junk in ('Cvičná zkouška A2 zdarma / Безкоштовний тренажер:', 'Odkaz je i v záhlaví kanálu · Посилання є і в шапці каналу', 'Telegram – úloha dne a nová videa / завдання дня:'): d = d.replace(junk, '')
         d = d.strip()[:300]
         items.append({'@type': 'VideoObject', 'name': m['title'][:100], 'description': d or m['title'], 'thumbnailUrl': f'https://zkouska-a2.cz/learn/yt/{vid}.jpg',
                       'uploadDate': m['date'] + 'T' + m.get('time', '12:00') + ':00+01:00', 'embedUrl': f'https://www.youtube.com/embed/{vid}', 'url': f'https://www.youtube.com/watch?v={vid}', 'inLanguage': 'cs'})
