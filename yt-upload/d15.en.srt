@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,284
+Speaking, task two. Card number 15. You are at the authorities' office. You want to change the address in your documents. Ask four questions.
+
+2
+00:00:11,000 --> 00:00:14,737
+You are at the office. You want to change the address in your documents.
+
+3
+00:00:15,933 --> 00:00:18,428
+Hello. What can I do for you?
+
+4
+00:00:23,633 --> 00:00:27,800
+Hello, I need to change my address. Where do I get the form?
+
+5
+00:00:28,000 --> 00:00:29,767
+You can get the form here from me.
+
+6
+00:00:34,967 --> 00:00:36,300
+How much is the fee?
+
+7
+00:00:36,500 --> 00:00:37,900
+The fee is 100 crowns.
+
+8
+00:00:43,100 --> 00:00:44,450
+How long does it take?
+
+9
+00:00:44,667 --> 00:00:46,056
+It takes about 30 days.
+
+10
+00:00:51,267 --> 00:00:52,867
+Do I need a tenancy agreement?
+
+11
+00:00:53,067 --> 00:00:56,600
+Yes, bring the tenancy agreement or a confirmation from the owner.
+
+12
+00:00:56,800 --> 00:00:59,800
+Thanks for the information. Goodbye.
+
+13
+00:01:00,000 --> 00:01:01,152
+Goodbye.
+
+14
+00:01:01,367 --> 00:01:09,566
+Practise card 15 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

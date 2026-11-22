@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,850
+Writing, task one. Form number 15. You want to get a public transport pass. Answer the questions in the form. Answer in a full sentence, at least ten words.
+
+2
+00:00:13,533 --> 00:00:15,187
+Where and how often do you travel?
+
+3
+00:00:25,600 --> 00:00:29,753
+Every day I take the bus to work and at weekends sometimes the metro to the centre.
+
+4
+00:00:30,667 --> 00:00:32,201
+Why do you want a pass?
+
+5
+00:00:42,600 --> 00:00:47,179
+I want a pass because it's cheaper and I don't have to buy a ticket every day.
+
+6
+00:00:48,067 --> 00:00:49,734
+How do you want to pay for the pass?
+
+7
+00:01:00,133 --> 00:01:04,242
+I want to pay online by card, ideally for the whole year at once.
+
+8
+00:01:05,133 --> 00:01:14,239
+Fill in form 15 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

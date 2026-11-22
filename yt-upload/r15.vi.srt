@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,937
+Phần Nói, bài bốn. Tình huống số 15. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận với cô ấy, chọn một phương án và nói lý do.
+
+2
+00:00:11,633 --> 00:00:17,551
+Chúng ta cùng đi chơi nhé. Đi bằng gì đây? Bạn có ý tưởng không? Bạn có thể chọn trong các phương án này.
+
+3
+00:00:26,267 --> 00:00:27,608
+Chúng ta có thể đi ô tô.
+
+4
+00:00:27,900 --> 00:00:29,540
+Ô tô đang ở xưởng sửa.
+
+5
+00:00:29,833 --> 00:00:31,486
+Vậy đi xe buýt.
+
+6
+00:00:31,800 --> 00:00:33,173
+Xe buýt đi lâu quá.
+
+7
+00:00:33,467 --> 00:00:34,972
+Vậy đi tàu hỏa.
+
+8
+00:00:35,267 --> 00:00:36,933
+Sao bạn muốn đi như vậy?
+
+9
+00:00:37,233 --> 00:00:39,983
+Vì nhanh và trên tàu chúng ta có thể đọc sách.
+
+10
+00:00:40,267 --> 00:00:42,384
+Bạn nói đúng. Chúng ta đi tàu hỏa.
+
+11
+00:00:42,700 --> 00:00:51,801
+Hãy luyện tình huống 15 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

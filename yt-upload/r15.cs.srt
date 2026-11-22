@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,937
+Mluvení, úloha čtyři. Situace číslo 15. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,633 --> 00:00:17,551
+Chceme spolu jet na výlet. Čím pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:26,267 --> 00:00:27,608
+Můžeme jet autem.
+
+4
+00:00:27,900 --> 00:00:29,540
+Auto je v servisu.
+
+5
+00:00:29,833 --> 00:00:31,486
+Tak pojedeme autobusem.
+
+6
+00:00:31,800 --> 00:00:33,173
+Autobus jede moc dlouho.
+
+7
+00:00:33,467 --> 00:00:34,972
+Tak pojedeme vlakem.
+
+8
+00:00:35,267 --> 00:00:36,933
+A proč chceš jet takhle?
+
+9
+00:00:37,233 --> 00:00:39,983
+Protože je to rychlé a ve vlaku si můžeme číst.
+
+10
+00:00:40,267 --> 00:00:42,384
+Máš pravdu. Pojedeme vlakem.
+
+11
+00:00:42,700 --> 00:00:51,801
+Procvičte si situaci 15 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

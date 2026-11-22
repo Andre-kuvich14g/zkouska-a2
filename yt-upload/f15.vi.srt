@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,850
+Phần Viết, bài một. Mẫu đơn số 15. Bạn muốn làm thẻ đi phương tiện công cộng. Hãy trả lời câu hỏi bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:13,533 --> 00:00:15,187
+Bạn đi đâu và thường xuyên thế nào?
+
+3
+00:00:25,600 --> 00:00:29,753
+Hằng ngày tôi đi xe buýt đến chỗ làm, cuối tuần thỉnh thoảng đi tàu điện ngầm vào trung tâm.
+
+4
+00:00:30,667 --> 00:00:32,201
+Tại sao bạn muốn có thẻ?
+
+5
+00:00:42,600 --> 00:00:47,179
+Tôi muốn có thẻ vì rẻ hơn và không phải mua vé mỗi ngày.
+
+6
+00:00:48,067 --> 00:00:49,734
+Bạn muốn trả tiền thẻ thế nào?
+
+7
+00:01:00,133 --> 00:01:04,242
+Tôi muốn trả online bằng thẻ, tốt nhất là cả năm một lần.
+
+8
+00:01:05,133 --> 00:01:14,239
+Hãy điền mẫu đơn 15 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

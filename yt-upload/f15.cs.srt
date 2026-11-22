@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,850
+Psaní, úloha jedna. Formulář číslo 15. Chcete si zařídit kartu na městskou dopravu. Odpovězte na otázky ve formuláři. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,533 --> 00:00:15,187
+Kam a jak často jezdíte?
+
+3
+00:00:25,600 --> 00:00:29,753
+Každý den jezdím autobusem do práce a o víkendu někdy metrem do centra.
+
+4
+00:00:30,667 --> 00:00:32,201
+Proč chcete mít kartu?
+
+5
+00:00:42,600 --> 00:00:47,179
+Chci mít kartu, protože je to levnější a nemusím každý den kupovat jízdenku.
+
+6
+00:00:48,067 --> 00:00:49,734
+Jak chcete kartu platit?
+
+7
+00:01:00,133 --> 00:01:04,242
+Kartu chci platit online kartou, nejlépe na celý rok najednou.
+
+8
+00:01:05,133 --> 00:01:14,239
+Vyplňte formulář 15 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

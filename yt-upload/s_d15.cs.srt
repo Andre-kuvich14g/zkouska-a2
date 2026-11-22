@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,284
+Mluvení, úloha dvě. Karta číslo 15. Jste na úřadě. Chcete si změnit adresu v dokladech. Položte čtyři otázky.
+
+2
+00:00:11,000 --> 00:00:14,737
+Jste na úřadě. Chcete si změnit adresu v dokladech.
+
+3
+00:00:15,933 --> 00:00:18,428
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,633 --> 00:00:27,800
+Dobrý den, potřebuju změnit adresu. Kde dostanu formulář?
+
+5
+00:00:28,000 --> 00:00:29,767
+Formulář dostanete tady u mě.
+
+6
+00:00:34,967 --> 00:00:36,300
+Kolik stojí poplatek?
+
+7
+00:00:36,500 --> 00:00:37,900
+Poplatek je 100 Kč.
+
+8
+00:00:43,100 --> 00:00:44,450
+Jak dlouho to trvá?
+
+9
+00:00:44,667 --> 00:00:46,056
+Trvá to asi 30 dní.
+
+10
+00:00:51,267 --> 00:00:52,867
+Potřebuju nájemní smlouvu?
+
+11
+00:00:53,067 --> 00:00:56,600
+Ano, přineste nájemní smlouvu nebo potvrzení od majitele.
+
+12
+00:00:56,800 --> 00:00:59,800
+Děkuju za informace. Na shledanou.
+
+13
+00:01:00,000 --> 00:01:01,152
+Na shledanou.
+
+14
+00:01:01,367 --> 00:01:09,566
+Procvičte si kartu 15 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

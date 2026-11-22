@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,284
+Phần Nói, bài hai. Thẻ số 15. Bạn ở cơ quan hành chính và muốn đổi địa chỉ trong giấy tờ. Hãy đặt bốn câu hỏi.
+
+2
+00:00:11,000 --> 00:00:14,737
+Bạn ở cơ quan. Bạn muốn đổi địa chỉ trong giấy tờ.
+
+3
+00:00:15,933 --> 00:00:18,428
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,633 --> 00:00:27,800
+Xin chào, tôi cần đổi địa chỉ. Tôi lấy mẫu đơn ở đâu?
+
+5
+00:00:28,000 --> 00:00:29,767
+Bạn nhận mẫu đơn ở chỗ tôi.
+
+6
+00:00:34,967 --> 00:00:36,300
+Lệ phí bao nhiêu?
+
+7
+00:00:36,500 --> 00:00:37,900
+Lệ phí là 100 koruna.
+
+8
+00:00:43,100 --> 00:00:44,450
+Mất bao lâu?
+
+9
+00:00:44,667 --> 00:00:46,056
+Mất khoảng 30 ngày.
+
+10
+00:00:51,267 --> 00:00:52,867
+Tôi có cần hợp đồng thuê nhà không?
+
+11
+00:00:53,067 --> 00:00:56,600
+Có, hãy mang hợp đồng thuê nhà hoặc giấy xác nhận của chủ nhà.
+
+12
+00:00:56,800 --> 00:00:59,800
+Cảm ơn về thông tin. Tạm biệt.
+
+13
+00:01:00,000 --> 00:01:01,152
+Tạm biệt.
+
+14
+00:01:01,367 --> 00:01:09,566
+Hãy luyện thẻ 15 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
