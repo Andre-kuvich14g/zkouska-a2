@@ -800,3 +800,7 @@ T += [
 ("Psaní й Mluvení: кожна тема окремою сторінкою", "Psaní and Mluvení: every topic on its own page", "Psaní и Mluvení: каждая тема на отдельной странице", "Psaní và Mluvení: mỗi chủ đề một trang riêng"),
 ("📚 Témata A2 se vzory", "📚 A2 topics with model answers", "📚 Темы A2 с образцами", "📚 Chủ đề A2 có bài mẫu"),
 ]
+T += [
+("По 40 тем до кожної частини", "40 topics for each task", "По 40 тем к каждой части", "40 chủ đề cho mỗi phần"),
+("Mluvení 1–4 і Psaní 1–2: кожна тема окремою сторінкою зі зразком", "Mluvení 1–4 and Psaní 1–2: every topic on its own page with a model answer", "Mluvení 1–4 и Psaní 1–2: каждая тема на отдельной странице с образцом", "Mluvení 1–4 và Psaní 1–2: mỗi chủ đề một trang riêng có bài mẫu"),
+]

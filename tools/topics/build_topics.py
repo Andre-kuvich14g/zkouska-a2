@@ -146,10 +146,10 @@ def build():
             [{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': cz, 'url': hurl}]))
         urls.append(hurl); hub_links.append((sslug, cz, uk))
     inner = '<p class="bc"><a href="/">Zkouška A2 nanečisto</a> › Témata</p><h1>Zkouška A2 (trvalý pobyt): všechna témata Psaní a Mluvení se vzory</h1>'
-    inner += '<p class="lead">240 témat nového formátu zkoušky (od 11. 4. 2026) – zadání a vzorové odpovědi na plný počet bodů.<br>Усі 240 тем письмової та усної частини іспиту A2 на ПМП зі зразками відповідей.</p><ul>'
+    inner += '<p class="lead">Ke každé ze 6 úloh nového formátu zkoušky (od 11. 4. 2026) 40 témat – zadání a vzorové odpovědi na plný počet bodů.<br>По 40 тем до кожної з 6 частин іспиту A2 на ПМП (Mluvení 1–4, Psaní 1–2) зі зразками відповідей.</p><ul>'
     inner += ''.join(f'<li><a href="{s}/"><b>{E(c)}</b></a> · {E(u)} · 40 témat</li>' for s, c, u in hub_links) + '</ul>' + cta('u1', 1)
-    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Témata zkoušky A2 pro trvalý pobyt: Psaní a Mluvení se vzory (240 témat)',
-        'Všech 240 témat Psaní a Mluvení zkoušky A2 pro trvalý pobyt se vzorovými odpověďmi. 240 тем іспиту A2 на ПМП зі зразками.', BASE + 'temata/', '', inner,
+    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Témata zkoušky A2 pro trvalý pobyt: Psaní a Mluvení se vzory (40 témat ke každé úloze)',
+        'Psaní 1–2 a Mluvení 1–4 zkoušky A2 pro trvalý pobyt: ke každé úloze 40 témat se vzorovými odpověďmi. По 40 тем до кожної частини іспиту A2 на ПМП.', BASE + 'temata/', '', inner,
         [{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Témata zkoušky A2', 'url': BASE + 'temata/'}]))
     urls.insert(0, BASE + 'temata/')
     json.dump(urls, open(os.path.join(HERE, 'urls.json'), 'w'), indent=0)

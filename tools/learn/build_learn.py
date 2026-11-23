@@ -84,7 +84,7 @@ def build():
     os.makedirs(os.path.join(ROOT, 'learn'), exist_ok=True)
     ld, nld = video_ld()
     # 23.11 (Search Console): посилання на окремі сторінки тем /temata/
-    nav = '<nav style="max-width:900px;margin:24px auto;padding:0 16px;font:15px/1.6 system-ui,sans-serif" aria-label="Témata"><b>📚 Témata se vzory:</b> ' + ' · '.join(f'<a href="/temata/{s}/">{n}</a>' for s, n in [('psani-1-formular', 'Psaní 1'), ('psani-2-email', 'Psaní 2'), ('mluveni-1-otazky', 'Mluvení 1'), ('mluveni-2-karta', 'Mluvení 2'), ('mluveni-3-pribeh', 'Mluvení 3'), ('mluveni-4-situace', 'Mluvení 4')]) + ' · <a href="/temata/">všech 240 témat</a></nav>'
+    nav = '<nav style="max-width:900px;margin:24px auto;padding:0 16px;font:15px/1.6 system-ui,sans-serif" aria-label="Témata"><b>📚 Témata se vzory:</b> ' + ' · '.join(f'<a href="/temata/{s}/">{n}</a>' for s, n in [('psani-1-formular', 'Psaní 1'), ('psani-2-email', 'Psaní 2'), ('mluveni-1-otazky', 'Mluvení 1'), ('mluveni-2-karta', 'Mluvení 2'), ('mluveni-3-pribeh', 'Mluvení 3'), ('mluveni-4-situace', 'Mluvení 4')]) + ' · <a href="/temata/">všechna témata</a></nav>'
     open(os.path.join(ROOT, 'learn', 'index.html'), 'w', encoding='utf-8').write(tpl.replace('@@DATA@@', blob).replace('</head>', ld + '\n</head>', 1).replace('</body>', nav + '\n</body>', 1))
     print('VideoObject:', nld)
     print('OK learn/index.html', len(blob) // 1024, 'KB data;', {k: len(data[k]) for k in ('u1', 'u2', 'u3', 'u4', 'w1', 'w2')})
