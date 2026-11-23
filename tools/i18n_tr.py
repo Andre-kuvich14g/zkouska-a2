@@ -795,3 +795,8 @@ T += [
 ("📊 Розбір на відео після іспиту.", "📊 Video walkthrough after the exam.", "📊 Разбор на видео после экзамена.", "📊 Video hướng dẫn sau bài thi."),
 ("У результатах тепер є посилання на відео до ваших найслабших завдань.", "Your results now link to videos for your weakest tasks.", "В результатах теперь есть ссылки на видео к вашим самым слабым заданиям.", "Kết quả giờ có liên kết tới video cho các bài bạn yếu nhất."),
 ]
+T += [
+("Усі 240 тем зі зразками", "All 240 topics with model answers", "Все 240 тем с образцами", "Tất cả 240 chủ đề có bài mẫu"),
+("Psaní й Mluvení: кожна тема окремою сторінкою", "Psaní and Mluvení: every topic on its own page", "Psaní и Mluvení: каждая тема на отдельной странице", "Psaní và Mluvení: mỗi chủ đề một trang riêng"),
+("📚 Témata A2 se vzory", "📚 A2 topics with model answers", "📚 Темы A2 с образцами", "📚 Chủ đề A2 có bài mẫu"),
+]

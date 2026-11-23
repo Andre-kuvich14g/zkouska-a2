@@ -57,6 +57,8 @@ def sitemap():
     urls = ''.join(f'  <url><loc>{BASE}{p}</loc><lastmod>{today}</lastmod>{alts}</url>\n' for p in ['', 'en/', 'ru/', 'vi/'])
     urls += f'  <url><loc>{BASE}learn/</loc><lastmod>{today}</lastmod></url>\n'
     urls += f'  <url><loc>{BASE}faq/</loc><lastmod>{today}</lastmod></url>\n  <url><loc>{BASE}ru/faq/</loc><lastmod>{today}</lastmod></url>\n  <url><loc>{BASE}en/faq/</loc><lastmod>{today}</lastmod></url>\n  <url><loc>{BASE}vi/faq/</loc><lastmod>{today}</lastmod></url>\n'
+    try: urls += ''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u in json.load(open('tools/topics/urls.json')))  # 23.11: окремі сторінки тем
+    except Exception: pass
     open('sitemap.xml', 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + urls + '</urlset>\n')
 
 if __name__ == '__main__':
