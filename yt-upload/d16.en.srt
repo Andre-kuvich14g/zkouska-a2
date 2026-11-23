@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,003
+Speaking, task two. Card number 16. You are in a café. You want to throw a party for your colleagues. Ask four questions.
+
+2
+00:00:09,700 --> 00:00:13,313
+You are in a café. You want to throw a party for your colleagues.
+
+3
+00:00:14,500 --> 00:00:16,995
+Hello. How can I help you?
+
+4
+00:00:22,200 --> 00:00:25,267
+Hello, do you have a free room for a party?
+
+5
+00:00:25,467 --> 00:00:27,923
+Yes, we have a private room for 20 people.
+
+6
+00:00:33,133 --> 00:00:34,667
+How much is it per person?
+
+7
+00:00:34,867 --> 00:00:37,484
+It costs 350 crowns per person.
+
+8
+00:00:42,700 --> 00:00:43,887
+Can we have music?
+
+9
+00:00:44,100 --> 00:00:46,400
+Yes, you can play your own music.
+
+10
+00:00:51,600 --> 00:00:53,533
+Until what time can we stay?
+
+11
+00:00:53,733 --> 00:00:55,859
+You can stay until 11 p.m.
+
+12
+00:00:56,067 --> 00:00:59,067
+Thank you for the information. Goodbye.
+
+13
+00:00:59,267 --> 00:01:00,484
+We look forward to seeing you.
+
+14
+00:01:00,700 --> 00:01:08,914
+Practise card 16 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

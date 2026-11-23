@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,257
+Psaní, úloha jedna. Formulář číslo 16. Chcete jít na kurz vaření. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:12,967 --> 00:00:14,474
+Jak často vaříte a co?
+
+3
+00:00:24,867 --> 00:00:29,365
+Vařím skoro každý den, hlavně polévky, těstoviny a jídla z mé země.
+
+4
+00:00:30,267 --> 00:00:32,070
+Co se chcete v kurzu naučit?
+
+5
+00:00:42,467 --> 00:00:46,368
+V kurzu se chci naučit vařit česká jídla, třeba svíčkovou a knedlíky.
+
+6
+00:00:47,267 --> 00:00:48,725
+Kdy máte čas na kurz?
+
+7
+00:00:59,133 --> 00:01:02,142
+Na kurz mám čas ve středu večer nebo v sobotu dopoledne.
+
+8
+00:01:03,033 --> 00:01:11,942
+Vyplňte formulář 16 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

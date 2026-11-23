@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,257
+Writing, task one. Form number 16. You want to join a cooking course. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:12,967 --> 00:00:14,474
+How often do you cook and what?
+
+3
+00:00:24,867 --> 00:00:29,365
+I cook almost every day, mainly soups, pasta and dishes from my country.
+
+4
+00:00:30,267 --> 00:00:32,070
+What do you want to learn in the course?
+
+5
+00:00:42,467 --> 00:00:46,368
+In the course I want to learn to cook Czech dishes, for example svíčková and dumplings.
+
+6
+00:00:47,267 --> 00:00:48,725
+When do you have time for the course?
+
+7
+00:00:59,133 --> 00:01:02,142
+I have time for the course on Wednesday evening or Saturday morning.
+
+8
+00:01:03,033 --> 00:01:11,942
+Fill in form 16 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

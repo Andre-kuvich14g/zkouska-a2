@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,257
+Phần Viết, bài một. Mẫu đơn số 16. Bạn muốn tham gia khóa học nấu ăn. Hãy trả lời các câu hỏi trong đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:12,967 --> 00:00:14,474
+Bạn nấu ăn thường xuyên thế nào và nấu gì?
+
+3
+00:00:24,867 --> 00:00:29,365
+Tôi nấu gần như mỗi ngày, chủ yếu là súp, mì và món ăn của nước tôi.
+
+4
+00:00:30,267 --> 00:00:32,070
+Bạn muốn học gì trong khóa học?
+
+5
+00:00:42,467 --> 00:00:46,368
+Trong khóa học tôi muốn học nấu món Séc, ví dụ svíčková và bánh knedlík.
+
+6
+00:00:47,267 --> 00:00:48,725
+Khi nào bạn có thời gian cho khóa học?
+
+7
+00:00:59,133 --> 00:01:02,142
+Tôi có thời gian vào tối thứ Tư hoặc sáng thứ Bảy.
+
+8
+00:01:03,033 --> 00:01:11,942
+Hãy điền mẫu đơn 16 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

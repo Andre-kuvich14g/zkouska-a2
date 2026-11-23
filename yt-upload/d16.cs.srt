@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,003
+Mluvení, úloha dvě. Karta číslo 16. Jste v kavárně. Chcete udělat oslavu pro kolegy. Položte čtyři otázky.
+
+2
+00:00:09,700 --> 00:00:13,313
+Jste v kavárně. Chcete udělat oslavu pro kolegy.
+
+3
+00:00:14,500 --> 00:00:16,995
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:22,200 --> 00:00:25,267
+Dobrý den, máte volnou místnost na oslavu?
+
+5
+00:00:25,467 --> 00:00:27,923
+Ano, máme salonek pro 20 lidí.
+
+6
+00:00:33,133 --> 00:00:34,667
+Kolik to stojí za osobu?
+
+7
+00:00:34,867 --> 00:00:37,484
+Stojí to 350 Kč za osobu.
+
+8
+00:00:42,700 --> 00:00:43,887
+Můžeme mít hudbu?
+
+9
+00:00:44,100 --> 00:00:46,400
+Ano, můžete pustit vlastní hudbu.
+
+10
+00:00:51,600 --> 00:00:53,533
+Do kolika hodin můžeme zůstat?
+
+11
+00:00:53,733 --> 00:00:55,859
+Můžete zůstat do 23 hodin.
+
+12
+00:00:56,067 --> 00:00:59,067
+Děkuju za informace. Na shledanou.
+
+13
+00:00:59,267 --> 00:01:00,484
+Těšíme se.
+
+14
+00:01:00,700 --> 00:01:08,914
+Procvičte si kartu 16 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
