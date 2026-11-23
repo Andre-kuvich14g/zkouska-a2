@@ -784,3 +784,14 @@ T += [
 ("🎬 Урок 15 і нова збірка.", "🎬 Lesson 15 and a new review video.", "🎬 Урок 15 и новая подборка.", "🎬 Bài 15 và video ôn tập mới."),
 ("Проїзний, скарга на ресторан, покупки, зміна адреси в установі, ремонт велосипеда, поїздка потягом, а також «Велике повторення» Mluvení 4 (ситуації 6–10).", "A transport pass, a restaurant complaint, shopping, changing your address at the office, fixing a bike, a train trip, plus the “Big review” of Speaking 4 (situations 6–10).", "Проездной, жалоба на ресторан, покупки, смена адреса в учреждении, ремонт велосипеда, поездка на поезде, а также «Большое повторение» Mluvení 4 (ситуации 6–10).", "Thẻ đi xe, khiếu nại nhà hàng, mua sắm, đổi địa chỉ ở cơ quan, sửa xe đạp, đi tàu, cùng video “Ôn tập lớn” phần Nói 4 (tình huống 6–10)."),
 ]
+T += [
+("🎬 Розбір на відео", "🎬 Video walkthrough", "🎬 Разбор на видео", "🎬 Video hướng dẫn"),
+("Відео-уроки до ваших найслабших завдань — з паузами для відповіді та зразками на повний бал.", "Video lessons for your weakest tasks — with pauses to answer and full-score model answers.", "Видеоуроки к вашим самым слабым заданиям — с паузами для ответа и образцами на полный балл.", "Video bài học cho các bài bạn yếu nhất — có khoảng dừng để trả lời và bài mẫu đạt điểm tối đa."),
+("🔔 Підписатися на YouTube — щодня нове відео", "🔔 Subscribe on YouTube — a new video every day", "🔔 Подписаться на YouTube — каждый день новое видео", "🔔 Đăng ký YouTube — mỗi ngày một video mới"),
+]
+T += [
+("🎬 Урок 16 і збірка Psaní 2.", "🎬 Lesson 16 and a Psaní 2 review.", "🎬 Урок 16 и подборка Psaní 2.", "🎬 Bài 16 và video ôn Psaní 2."),
+("Курс кулінарії, запрошення в гості, одяг, свято в кав'ярні, вода у ванній, обід удвох, а також нова збірка «Psaní 1 + 2» (формуляри й e-mailи 6–10) за 12 хвилин.", "A cooking course, inviting a friend, clothes, a party in a café, water in the bathroom, lunch together, plus a new «Psaní 1 + 2» review (forms and e-mails 6–10) in 12 minutes.", "Курс кулинарии, приглашение в гости, одежда, праздник в кафе, вода в ванной, обед вдвоём, а также новая подборка «Psaní 1 + 2» (анкеты и e-mail 6–10) за 12 минут.", "Khóa học nấu ăn, mời bạn đến chơi, quần áo, tiệc ở quán cà phê, nước trong phòng tắm, ăn trưa cùng nhau, cùng video ôn «Psaní 1 + 2» mới (mẫu đơn và e-mail 6–10) trong 12 phút."),
+("📊 Розбір на відео після іспиту.", "📊 Video walkthrough after the exam.", "📊 Разбор на видео после экзамена.", "📊 Video hướng dẫn sau bài thi."),
+("У результатах тепер є посилання на відео до ваших найслабших завдань.", "Your results now link to videos for your weakest tasks.", "В результатах теперь есть ссылки на видео к вашим самым слабым заданиям.", "Kết quả giờ có liên kết tới video cho các bài bạn yếu nhất."),
+]

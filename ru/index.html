@@ -646,6 +646,7 @@ body:has(#startView:not([hidden])) .brand .eyebrow{display:none}
 .qb-coffee{--qbg:#ffcf3f;--qd:#b98a00;--qink:#3b2600}
 .qb-yt{--qbg:#e62117;--qd:#9e130c;--qink:#fff}
 .qb-yt .qi{color:#e62117;font-size:.95rem}
+.vid-box{margin:16px 0;padding:14px;border-radius:14px;background:rgba(255,0,0,.06);border:1px solid rgba(255,0,0,.18)}.vid-links{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.yt-sub{display:block;text-align:center;background:#e62117;border-color:#e62117;color:#fff}
 .tg-cta{display:block;margin:14px 0 0;padding:12px 14px;border-radius:14px;background:#229ed9;color:#fff;font-weight:700;text-decoration:none;text-align:center}
 .qb-tg{--qbg:#229ed9;--qd:#16719c;--qink:#fff}
 .home .quick .qb-tg .qi{color:#fff}
@@ -876,8 +877,10 @@ a.tile{text-decoration:none;color:inherit}
         </table>
         <p class="small muted" style="margin-top:8px">Чтобы сдать: письменная часть минимум 42 из 70, устная минимум 24 из 40.</p>
       </div></details>
-        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-22">22.11.2026</time></summary>
+        <details class="news" id="news"><summary>🆕 Что нового · обновлено <time id="updDate" datetime="2026-11-23">23.11.2026</time></summary>
           <p class="nh nh-hot">🔥 Новое на этой неделе</p><ul>
+          <li><b>🎬 Урок 16 и подборка Psaní 2.</b> Курс кулинарии, приглашение в гости, одежда, праздник в кафе, вода в ванной, обед вдвоём, а также новая подборка «Psaní 1 + 2» (анкеты и e-mail 6–10) за 12 минут.</li>
+          <li><b>📊 Разбор на видео после экзамена.</b> В результатах теперь есть ссылки на видео к вашим самым слабым заданиям.</li>
           <li><b>🎬 Урок 15 и новая подборка.</b> Проездной, жалоба на ресторан, покупки, смена адреса в учреждении, ремонт велосипеда, поездка на поезде, а также «Большое повторение» Mluvení 4 (ситуации 6–10).</li>
           <li><b>📲 Наш Telegram-канал.</b> Каждый день викторина и 2 видео с разбором: <a href="https://t.me/+zNCpFZYhnf45MGNk" target="_blank" rel="noopener">t.me/zkouska_A2_cz</a></li>
           <li><b>🎬 Урок 14 и новая подборка.</b> Общежитие, гриль с соседями, ресторан, агентство недвижимости, экзамен по чешскому, выходные за городом, а также «Большое повторение» Mluvení 3 (истории 6–10). Все видео есть и в разделе «Учим».</li>
@@ -1597,6 +1600,12 @@ function analysisHTML(rows, srows, wr, sp, writtenDone, oralDone, overall){
   }
   if(!overall) next.push('Чтобы получить полный анализ, завершите все четыре части и поставьте самооценку за письмо и говорение.');
   if(done.some(r => r[1][0] === 'w' || r[1][0] === 's' || r[1] === 'ph')) next.push('Письмо и говорение вы оценивали сами. Если можете, покажите свои тексты или записи учителю или носителю языка.');
+  { // 23.11: video review for weakest tasks + YouTube subscribe
+    const VPL = {w1:['PLUQqjJU0hPfs','Psaní 1 · formulář'], w2:['PLEbZM6bcfLsA','Psaní 2 · e-mail'], s1:['PLMPSqjkk5Axw','Mluvení 1'], s2:['PLZ9QkvIdNGFg','Mluvení 2'], s3:['PLQZcneUaebBI','Mluvení 3'], s4:['PLK-4mNG0zlrk','Mluvení 4'], l1:['PLDXeIemVzXw8','Poslech'], l2:['PLDXeIemVzXw8','Poslech'], l3:['PLDXeIemVzXw8','Poslech'], l4:['PLDXeIemVzXw8','Poslech'], l5:['PLDXeIemVzXw8','Poslech']};
+    const seen = new Set(); const vids = weak.map(r => VPL[r[1]]).filter(v => v && !seen.has(v[0]) && seen.add(v[0])).slice(0, 3);
+    if(!vids.length) vids.push(['PLROyJEw4bAqA', 'Velké opakování']);
+    h += `<div class="vid-box"><h4>🎬 Разбор на видео</h4><p class="small">Видеоуроки к вашим самым слабым заданиям — с паузами для ответа и образцами на полный балл.</p><div class="vid-links">${vids.map(([pl, n]) => `<a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=${pl}" onclick="try{track('yt_review',{pl:'${pl}'})}catch(e){}">▶ ${n}</a>`).join('')}</div><a class="btn primary yt-sub" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" onclick="try{track('yt_sub',{from:'result'})}catch(e){}">🔔 Подписаться на YouTube — каждый день новое видео</a></div>`;
+  }
   h += `<h4>Что делать дальше</h4><ul class="an-list">${next.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
   return h;
 }

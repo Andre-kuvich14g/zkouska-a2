@@ -48,8 +48,8 @@ def yt_data():
         for u in us:
             if u in secs: secs[u].setdefault('r', []).insert(0, [vid, m['title'].replace('Zkouška A2 – ', '')])
     # 19.11 (+1% сайт): найновіша збірка «Velké opakování» — першою після гайду на головній /learn
-    HP = lambda k: PLAYLISTS['w'] if k.startswith('om') else PLAYLISTS[k[0]]
-    home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), HP(k)] for k in ('om4_2', 'om3_2', 'om2_2', 'om1_2', 'l03', 'w01') if k in ids and k in meta]
+    HP = lambda k: PLAYLISTS['w'] if k.startswith(('om', 'sb_')) else PLAYLISTS[k[0]]
+    home = [[ids[k], meta[k]['title'].replace('Zkouška A2 – ', ''), HP(k)] for k in ('sb_p2', 'om4_2', 'om3_2', 'om2_2', 'om1_2', 'l03', 'w01') if k in ids and k in meta]
     if 'g01' in ids and 'g01' in meta: home.insert(0, [ids['g01'], '▶ ' + meta['g01']['title'], ''])  # 14.11: гайд «Почніть звідси» першим
     return {'ch': CHANNEL, 'sec': secs, 'home': home}
 
