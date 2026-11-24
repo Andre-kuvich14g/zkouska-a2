@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:14,656
+Phần Viết, bài một. Mẫu đơn số 17. Bạn bị mất giấy tờ và đến đồn cảnh sát. Hãy trả lời các câu hỏi trong mẫu đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:15,367 --> 00:00:17,271
+Bạn đã mất những giấy tờ gì?
+
+3
+00:00:27,667 --> 00:00:32,276
+Tôi bị mất hộ chiếu, thẻ cư trú và bằng lái xe, chúng ở trong ví.
+
+4
+00:00:33,167 --> 00:00:35,127
+Bạn mất chúng ở đâu và khi nào?
+
+5
+00:00:45,533 --> 00:00:49,161
+Tôi mất chúng chiều hôm qua trên tàu điện số chín trên đường đi làm về.
+
+6
+00:00:50,067 --> 00:00:52,651
+Bạn đã làm gì khi phát hiện ra mình không còn chúng?
+
+7
+00:01:03,067 --> 00:01:07,109
+Tôi gọi ngay cho công ty giao thông và sau đó khóa thẻ ngân hàng.
+
+8
+00:01:08,000 --> 00:01:17,861
+Hãy điền mẫu đơn 17 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

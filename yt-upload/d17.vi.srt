@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,077
+Phần Nói, bài hai. Thẻ số 17. Bạn ở quầy thông tin nhà ga. Bạn muốn đi tàu đến Viên. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,767 --> 00:00:14,407
+Bạn ở quầy thông tin nhà ga. Bạn muốn đi tàu đến Viên.
+
+3
+00:00:15,600 --> 00:00:18,095
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,300 --> 00:00:25,633
+Xin chào, khi nào có tàu đi Viên?
+
+5
+00:00:25,833 --> 00:00:27,156
+Tàu chạy lúc 9:20.
+
+6
+00:00:32,367 --> 00:00:33,767
+Vé giá bao nhiêu?
+
+7
+00:00:33,967 --> 00:00:36,119
+Vé giá 650 korun.
+
+8
+00:00:41,333 --> 00:00:42,833
+Tôi có cần đặt chỗ ngồi không?
+
+9
+00:00:43,033 --> 00:00:45,993
+Tôi khuyên nên đặt chỗ, giá 50 korun.
+
+10
+00:00:51,200 --> 00:00:52,859
+Trên tàu có toa ăn không?
+
+11
+00:00:53,067 --> 00:00:55,567
+Có, toa ăn ở giữa đoàn tàu.
+
+12
+00:00:55,767 --> 00:00:58,767
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:58,967 --> 00:01:00,367
+Chúc thượng lộ bình an.
+
+14
+00:01:00,567 --> 00:01:09,208
+Hãy luyện thẻ 17 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

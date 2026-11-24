@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,811
+Mluvení, úloha čtyři. Situace číslo 17. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.
+
+2
+00:00:11,500 --> 00:00:20,077
+Chceme spolu udělat večírek. Jakou hudbu pustíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.
+
+3
+00:00:28,767 --> 00:00:30,153
+Můžeme pustit rock.
+
+4
+00:00:30,467 --> 00:00:31,849
+Rock je moc hlasitý.
+
+5
+00:00:32,133 --> 00:00:33,606
+Tak pustíme vážnou hudbu.
+
+6
+00:00:33,900 --> 00:00:36,188
+Vážná hudba je na večírek nudná.
+
+7
+00:00:36,500 --> 00:00:37,886
+Tak pustíme disko.
+
+8
+00:00:38,200 --> 00:00:39,717
+A proč chceš tuhle hudbu?
+
+9
+00:00:40,000 --> 00:00:41,777
+Protože na disko se dobře tancuje.
+
+10
+00:00:42,067 --> 00:00:43,845
+To je pravda. Pustíme disko.
+
+11
+00:00:44,133 --> 00:00:54,223
+Procvičte si situaci 17 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
