@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,242
+Psaní, úloha jedna. Formulář číslo 18. Chcete si koupit permanentku do bazénu. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,933 --> 00:00:15,399
+Jak dobře umíte plavat?
+
+3
+00:00:25,800 --> 00:00:29,030
+Plavat umím dobře, ale chci se naučit lépe plavat kraula.
+
+4
+00:00:29,933 --> 00:00:31,537
+Proč chcete chodit plavat?
+
+5
+00:00:41,933 --> 00:00:45,694
+Chci chodit plavat, protože mě bolí záda a plavání je zdravé.
+
+6
+00:00:46,600 --> 00:00:48,360
+Kdy budete chodit do bazénu?
+
+7
+00:00:58,767 --> 00:01:03,072
+Do bazénu budu chodit dvakrát týdně ráno před prací, v pondělí a ve čtvrtek.
+
+8
+00:01:03,967 --> 00:01:13,202
+Vyplňte formulář 18 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,742
+Mluvení, úloha dvě. Karta číslo 18. Jste v obchodě s nábytkem. Chcete koupit postel. Položte čtyři otázky.
+
+2
+00:00:10,433 --> 00:00:14,172
+Jste v obchodě s nábytkem. Chcete koupit postel.
+
+3
+00:00:15,367 --> 00:00:17,861
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,067 --> 00:00:25,491
+Dobrý den, jak velká je tato postel?
+
+5
+00:00:25,700 --> 00:00:28,967
+Postel je 160 krát 200 centimetrů.
+
+6
+00:00:34,167 --> 00:00:35,200
+Kolik stojí?
+
+7
+00:00:35,400 --> 00:00:37,067
+Stojí 12 000 Kč.
+
+8
+00:00:42,267 --> 00:00:43,650
+Dovezete mi ji domů?
+
+9
+00:00:43,867 --> 00:00:45,800
+Ano, dopravu domů vám zajistíme.
+
+10
+00:00:51,000 --> 00:00:52,500
+Je v ceně i matrace?
+
+11
+00:00:52,700 --> 00:00:54,867
+Ne, matraci musíte koupit zvlášť.
+
+12
+00:00:55,067 --> 00:00:58,067
+Děkuju za informace. Na shledanou.
+
+13
+00:00:58,267 --> 00:00:59,419
+Na shledanou.
+
+14
+00:00:59,633 --> 00:01:07,753
+Procvičte si kartu 18 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

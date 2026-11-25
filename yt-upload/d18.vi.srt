@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,742
+Phần Nói, bài hai. Thẻ số 18. Bạn ở cửa hàng nội thất. Bạn muốn mua giường. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,433 --> 00:00:14,172
+Bạn ở cửa hàng nội thất. Bạn muốn mua giường.
+
+3
+00:00:15,367 --> 00:00:17,861
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,067 --> 00:00:25,491
+Xin chào, chiếc giường này kích thước bao nhiêu?
+
+5
+00:00:25,700 --> 00:00:28,967
+Giường 160 x 200 cm.
+
+6
+00:00:34,167 --> 00:00:35,200
+Giá bao nhiêu?
+
+7
+00:00:35,400 --> 00:00:37,067
+Giá 12.000 korun.
+
+8
+00:00:42,267 --> 00:00:43,650
+Các bạn có giao đến nhà tôi không?
+
+9
+00:00:43,867 --> 00:00:45,800
+Có, chúng tôi sẽ giao tận nhà.
+
+10
+00:00:51,000 --> 00:00:52,500
+Giá đã bao gồm nệm chưa?
+
+11
+00:00:52,700 --> 00:00:54,867
+Chưa, nệm phải mua riêng.
+
+12
+00:00:55,067 --> 00:00:58,067
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:00:58,267 --> 00:00:59,419
+Tạm biệt.
+
+14
+00:00:59,633 --> 00:01:07,753
+Hãy luyện thẻ 18 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

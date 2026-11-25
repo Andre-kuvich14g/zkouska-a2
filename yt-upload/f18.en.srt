@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,242
+Writing, task one. Form number 18. You want to buy a swimming pool pass. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:13,933 --> 00:00:15,399
+How well can you swim?
+
+3
+00:00:25,800 --> 00:00:29,030
+I can swim well, but I want to learn to swim front crawl better.
+
+4
+00:00:29,933 --> 00:00:31,537
+Why do you want to go swimming?
+
+5
+00:00:41,933 --> 00:00:45,694
+I want to go swimming because my back hurts and swimming is healthy.
+
+6
+00:00:46,600 --> 00:00:48,360
+When will you go to the pool?
+
+7
+00:00:58,767 --> 00:01:03,072
+I will go to the pool twice a week in the morning before work, on Monday and Thursday.
+
+8
+00:01:03,967 --> 00:01:13,202
+Fill in form 18 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

@@ -1,0 +1,87 @@
+1
+00:00:00,200 --> 00:00:11,427
+Speaking, task one. Topic 18: Health and the doctor. Ten questions. Listen to the question and answer aloud.
+
+2
+00:00:12,133 --> 00:00:13,379
+How do you feel?
+
+3
+00:00:18,767 --> 00:00:21,320
+Today I feel fine, nothing hurts.
+
+4
+00:00:22,233 --> 00:00:23,960
+Do you have a GP?
+
+5
+00:00:29,367 --> 00:00:32,065
+Yes, I have a GP near my home.
+
+6
+00:00:32,967 --> 00:00:34,694
+How often do you go to the doctor?
+
+7
+00:00:40,100 --> 00:00:42,410
+I go to the doctor once a year for a check-up.
+
+8
+00:00:43,300 --> 00:00:44,892
+What do you do when you are ill?
+
+9
+00:00:50,300 --> 00:00:53,661
+When I'm ill I stay at home, drink tea and take medicine.
+
+10
+00:00:54,567 --> 00:00:56,243
+Do you have health insurance?
+
+11
+00:01:01,633 --> 00:01:04,676
+Yes, I'm insured with VZP.
+
+12
+00:01:05,567 --> 00:01:07,445
+When were you last ill?
+
+13
+00:01:12,833 --> 00:01:16,027
+I was last ill in winter, I had the flu.
+
+14
+00:01:16,933 --> 00:01:18,283
+What did the doctor tell you?
+
+15
+00:01:23,667 --> 00:01:27,336
+The doctor said I had to stay at home for a week and take antibiotics.
+
+16
+00:01:28,233 --> 00:01:29,788
+Have you ever been in hospital?
+
+17
+00:01:35,200 --> 00:01:39,699
+Yes, a year ago I was in hospital because I had a broken arm.
+
+18
+00:01:40,600 --> 00:01:42,009
+When will you go to the dentist?
+
+19
+00:01:47,400 --> 00:01:49,585
+I'll go to the dentist next month for a check-up.
+
+20
+00:01:50,500 --> 00:01:52,185
+What would you do for your health?
+
+21
+00:01:57,600 --> 00:02:01,162
+For my health I'd like to walk more and eat fewer sweets.
+
+22
+00:02:02,067 --> 00:02:12,731
+Great! Practise topic 18 on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.

@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,742
+Speaking, task two. Card number 18. You are in a furniture shop. You want to buy a bed. Ask four questions.
+
+2
+00:00:10,433 --> 00:00:14,172
+You are in a furniture shop. You want to buy a bed.
+
+3
+00:00:15,367 --> 00:00:17,861
+Good afternoon. What can I do for you?
+
+4
+00:00:23,067 --> 00:00:25,491
+Good afternoon, how big is this bed?
+
+5
+00:00:25,700 --> 00:00:28,967
+The bed is 160 by 200 centimetres.
+
+6
+00:00:34,167 --> 00:00:35,200
+How much is it?
+
+7
+00:00:35,400 --> 00:00:37,067
+It costs 12,000 crowns.
+
+8
+00:00:42,267 --> 00:00:43,650
+Will you deliver it to my home?
+
+9
+00:00:43,867 --> 00:00:45,800
+Yes, we'll arrange delivery to your home.
+
+10
+00:00:51,000 --> 00:00:52,500
+Is the mattress included in the price?
+
+11
+00:00:52,700 --> 00:00:54,867
+No, you have to buy the mattress separately.
+
+12
+00:00:55,067 --> 00:00:58,067
+Thank you for the information. Goodbye.
+
+13
+00:00:58,267 --> 00:00:59,419
+Goodbye.
+
+14
+00:00:59,633 --> 00:01:07,753
+Practise card 18 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe — a new video every day.

@@ -1,0 +1,363 @@
+1
+00:00:00,200 --> 00:00:14,924
+Všech pět karet z lekcí jedenáct až patnáct – celé dialogy se zkoušejícím. A navíc dvanáct otázek, které se hodí skoro na každou kartu, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a ptejte se nahlas!
+
+2
+00:00:15,833 --> 00:00:30,323
+Jak úloha dvě funguje? Dostanete dvě karty se situací. Na každé kartě položíte čtyři otázky: tři podle nápovědy a jednu vlastní. Zkoušející vám odpovídá. Celkem můžete dostat dvanáct bodů.
+
+3
+00:00:31,233 --> 00:00:44,189
+Na kartě jsou jen krátké nápovědy. Vy z nich musíte udělat celou zdvořilou otázku. Teď si projdeme všech pět karet. Nejdřív se zeptejte sami, pak uslyšíte vzorovou otázku a odpověď zkoušejícího.
+
+4
+00:00:45,100 --> 00:00:48,188
+Karta jedenáct: Jste v autoservisu.
+
+5
+00:00:48,500 --> 00:00:52,109
+Jste v autoservisu. Potřebujete opravit auto.
+
+6
+00:00:53,300 --> 00:00:55,795
+Dobrý den. Co pro vás můžu udělat?
+
+7
+00:01:02,000 --> 00:01:04,333
+Dobrý den, kdy bude auto hotové?
+
+8
+00:01:04,533 --> 00:01:06,367
+Auto bude hotové v pátek.
+
+9
+00:01:12,567 --> 00:01:14,200
+Kolik bude stát oprava?
+
+10
+00:01:14,400 --> 00:01:16,688
+Oprava bude stát asi 6 000 Kč.
+
+11
+00:01:22,900 --> 00:01:24,689
+Můžete mi půjčit náhradní auto?
+
+12
+00:01:24,900 --> 00:01:27,056
+Ano, můžeme vám půjčit náhradní auto.
+
+13
+00:01:33,267 --> 00:01:34,887
+Můžu platit kartou?
+
+14
+00:01:35,100 --> 00:01:37,319
+Ano, platit můžete kartou i hotově.
+
+15
+00:01:37,533 --> 00:01:40,533
+Děkuju za informace. Na shledanou.
+
+16
+00:01:40,733 --> 00:01:41,886
+Na shledanou.
+
+17
+00:01:42,100 --> 00:01:48,497
+Pomáhá vám to? Dejte odběr – každý den tu je nové video. A teď další karta.
+
+18
+00:01:48,800 --> 00:01:51,920
+Karta dvanáct: Jste v supermarketu.
+
+19
+00:01:52,233 --> 00:01:55,332
+Jste v supermarketu. Hledáte zboží.
+
+20
+00:01:56,533 --> 00:01:58,133
+Dobrý den, můžu vám pomoct?
+
+21
+00:02:04,333 --> 00:02:06,455
+Dobrý den, kde najdu mléko?
+
+22
+00:02:06,667 --> 00:02:09,300
+Mléko je v chladicím boxu vzadu.
+
+23
+00:02:15,500 --> 00:02:16,933
+Máte čerstvý chleba?
+
+24
+00:02:17,133 --> 00:02:19,400
+Ano, chleba pečeme každé ráno.
+
+25
+00:02:25,600 --> 00:02:27,067
+Je dnes nějaká sleva?
+
+26
+00:02:27,267 --> 00:02:29,333
+Ano, dnes je sleva na ovoce.
+
+27
+00:02:35,533 --> 00:02:37,333
+Do kolika máte otevřeno?
+
+28
+00:02:37,533 --> 00:02:39,692
+Máme otevřeno do 22 hodin.
+
+29
+00:02:39,900 --> 00:02:42,900
+Děkuju za informace. Na shledanou.
+
+30
+00:02:43,100 --> 00:02:44,100
+Není zač.
+
+31
+00:02:44,300 --> 00:02:47,298
+Karta třináct: Jste ve fitness centru.
+
+32
+00:02:47,600 --> 00:02:50,723
+Jste ve fitness centru. Chcete začít cvičit.
+
+33
+00:02:51,933 --> 00:02:54,428
+Dobrý den. Co pro vás můžu udělat?
+
+34
+00:03:00,633 --> 00:03:02,763
+Dobrý den, kdy máte otevřeno?
+
+35
+00:03:02,967 --> 00:03:06,324
+Máme otevřeno od 6 do 22 hodin.
+
+36
+00:03:12,533 --> 00:03:14,400
+Kolik stojí měsíční permanentka?
+
+37
+00:03:14,600 --> 00:03:16,432
+Měsíc stojí 990 Kč.
+
+38
+00:03:22,633 --> 00:03:23,967
+Máte trenéra?
+
+39
+00:03:24,167 --> 00:03:26,400
+Ano, trenér je tady každý den.
+
+40
+00:03:32,600 --> 00:03:33,667
+Je tady sprcha?
+
+41
+00:03:33,867 --> 00:03:35,464
+Ano, sprchy jsou v šatně.
+
+42
+00:03:35,667 --> 00:03:38,667
+Děkuju za informace. Na shledanou.
+
+43
+00:03:38,867 --> 00:03:40,067
+Těšíme se na vás.
+
+44
+00:03:40,267 --> 00:03:43,272
+Karta čtrnáct: Jste v realitní kanceláři.
+
+45
+00:03:43,567 --> 00:03:47,199
+Jste v realitní kanceláři. Hledáte byt k pronájmu.
+
+46
+00:03:48,400 --> 00:03:50,895
+Dobrý den. Co pro vás můžu udělat?
+
+47
+00:03:57,100 --> 00:03:59,800
+Dobrý den, máte volný byt 2+1?
+
+48
+00:04:00,000 --> 00:04:02,000
+Ano, máme volný byt 2+1.
+
+49
+00:04:08,200 --> 00:04:09,664
+Kolik stojí nájem?
+
+50
+00:04:09,867 --> 00:04:11,824
+Nájem je 14 000 Kč.
+
+51
+00:04:18,033 --> 00:04:19,767
+Kdy můžu přijít na prohlídku?
+
+52
+00:04:19,967 --> 00:04:21,557
+Prohlídka je možná zítra.
+
+53
+00:04:27,767 --> 00:04:28,833
+Můžu mít psa?
+
+54
+00:04:29,033 --> 00:04:30,967
+Malého psa majitel dovolí.
+
+55
+00:04:31,167 --> 00:04:34,167
+Děkuju za informace. Na shledanou.
+
+56
+00:04:34,367 --> 00:04:35,519
+Na shledanou.
+
+57
+00:04:35,733 --> 00:04:38,446
+Karta patnáct: Jste na úřadě.
+
+58
+00:04:38,733 --> 00:04:42,470
+Jste na úřadě. Chcete si změnit adresu v dokladech.
+
+59
+00:04:43,667 --> 00:04:46,161
+Dobrý den. Co pro vás můžu udělat?
+
+60
+00:04:52,367 --> 00:04:56,533
+Dobrý den, potřebuju změnit adresu. Kde dostanu formulář?
+
+61
+00:04:56,733 --> 00:04:58,500
+Formulář dostanete tady u mě.
+
+62
+00:05:04,700 --> 00:05:06,033
+Kolik stojí poplatek?
+
+63
+00:05:06,233 --> 00:05:07,633
+Poplatek je 100 Kč.
+
+64
+00:05:13,833 --> 00:05:15,183
+Jak dlouho to trvá?
+
+65
+00:05:15,400 --> 00:05:16,789
+Trvá to asi 30 dní.
+
+66
+00:05:23,000 --> 00:05:24,600
+Potřebuju nájemní smlouvu?
+
+67
+00:05:24,800 --> 00:05:28,333
+Ano, přineste nájemní smlouvu nebo potvrzení od majitele.
+
+68
+00:05:28,533 --> 00:05:31,533
+Děkuju za informace. Na shledanou.
+
+69
+00:05:31,733 --> 00:05:32,886
+Na shledanou.
+
+70
+00:05:33,100 --> 00:05:39,083
+Teď dvanáct otázek, které se hodí skoro na každou kartu. Poslouchejte a opakujte nahlas.
+
+71
+00:05:39,767 --> 00:05:40,951
+Kolik to stojí?
+
+72
+00:05:44,167 --> 00:05:45,467
+Kdy začíná kurz?
+
+73
+00:05:48,667 --> 00:05:50,467
+V kolik hodin máte otevřeno?
+
+74
+00:05:53,667 --> 00:05:55,017
+Jak dlouho to trvá?
+
+75
+00:05:58,233 --> 00:05:59,867
+Kde je nejbližší zastávka?
+
+76
+00:06:03,067 --> 00:06:05,126
+Máte tuhle bundu ve větší velikosti?
+
+77
+00:06:08,333 --> 00:06:09,954
+Můžu platit kartou?
+
+78
+00:06:13,167 --> 00:06:14,667
+Musím přestupovat?
+
+79
+00:06:17,867 --> 00:06:19,500
+Co musím přinést s sebou?
+
+80
+00:06:22,700 --> 00:06:24,167
+Je možné to vrátit?
+
+81
+00:06:27,367 --> 00:06:29,033
+Jak se dostanu na nádraží?
+
+82
+00:06:32,233 --> 00:06:34,800
+Mohl byste mi říct, kde je pokladna?
+
+83
+00:06:38,000 --> 00:06:41,058
+Pět typických chyb, kvůli kterým lidé ztrácejí body.
+
+84
+00:06:44,267 --> 00:06:50,551
+Správně: Kolik to stojí? Nečtěte jen slovo z karty. Udělejte celou otázku.
+
+85
+00:06:54,267 --> 00:07:01,661
+Správně: Můžu platit kartou? Musíte se ptát, ne oznamovat. Otázka končí otazníkem.
+
+86
+00:07:05,367 --> 00:07:12,190
+Správně: Máte volný termín? Se zkoušejícím mluvíte formálně – vykáte: máte, můžete.
+
+87
+00:07:15,900 --> 00:07:24,052
+Správně: Kdy jede vlak do Brna? Tázací slovo dejte na začátek: kdy, kde, kolik.
+
+88
+00:07:27,767 --> 00:07:36,823
+Správně: Je tam parkoviště? Čtvrtou otázku si připravte předem. Hodí se: Je tam parkoviště? Můžu přijít i v sobotu?
+
+89
+00:07:38,033 --> 00:07:56,082
+Shrnutí. Za prvé: z nápovědy udělejte celou otázku. Za druhé: vykejte – máte, můžete. Za třetí: tázací slovo dejte na začátek. A za čtvrté: vlastní otázku mějte připravenou předem.
+
+90
+00:07:57,267 --> 00:08:07,424
+Která karta je pro vás nejtěžší? Napište to do komentáře. A pokud vám video pomohlo, dejte like – pomůže to dalším lidem, kteří se připravují na zkoušku.
+
+91
+00:08:08,633 --> 00:08:24,945
+Na webu Zkouška A2 nanečisto si můžete všechny karty procvičit zdarma – web vás poslouchá a kontroluje otázku. Odkaz je v popisu. Zítra: velké opakování Mluvení, úloha tři. Odebírejte kanál, ať vám nic neuteče.

@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,242
+Phần Viết, bài một. Mẫu đơn số 18. Bạn muốn mua vé tháng bể bơi. Hãy trả lời các câu hỏi trong đơn. Trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:13,933 --> 00:00:15,399
+Bạn bơi giỏi đến mức nào?
+
+3
+00:00:25,800 --> 00:00:29,030
+Tôi bơi khá giỏi nhưng muốn học bơi sải tốt hơn.
+
+4
+00:00:29,933 --> 00:00:31,537
+Tại sao bạn muốn đi bơi?
+
+5
+00:00:41,933 --> 00:00:45,694
+Tôi muốn đi bơi vì tôi bị đau lưng và bơi lội tốt cho sức khỏe.
+
+6
+00:00:46,600 --> 00:00:48,360
+Khi nào bạn sẽ đi bể bơi?
+
+7
+00:00:58,767 --> 00:01:03,072
+Tôi sẽ đi bể bơi hai lần một tuần vào buổi sáng trước giờ làm, thứ Hai và thứ Năm.
+
+8
+00:01:03,967 --> 00:01:13,202
+Hãy điền mẫu đơn 18 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
