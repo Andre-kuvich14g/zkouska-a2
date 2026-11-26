@@ -1,0 +1,64 @@
+// Сцени дня 19: f19 zahrádka · p19 úklid · m19 doprava · d19 hotel · v19 policejní kontrola · r19 sport v sobotu
+const K = require('../../thumb3/kit.js'); const S2 = require('../../thumb3/scenes2.js');
+const { P, DAN, MIA, EXA, KID, person, bubble, room, outdoor, night, city, txt, svg, INK, T } = K;
+
+// --- власні предмети ---
+const can = (x, y, s = 1) => T(x, y, s, 0, `<rect x="0" y="0" width="120" height="110" rx="16" fill="#22b14c"/><path d="M120 30 L200 -20 L210 -6 L130 50" fill="#22b14c"/><path d="M20 0 Q60 -50 100 0" stroke="#1a8a3a" stroke-width="12" fill="none"/>${[0, 1, 2].map(i => `<circle cx="${220 + i * 14}" cy="${-4 + i * 18}" r="6" fill="#5cc4ff"/>`).join('')}`);
+const tomato = (x, y, s = 1) => T(x, y, s, 0, `<path d="M0 0 V-150" stroke="#1a8a3a" stroke-width="8"/>${[[-30, -110], [26, -80], [-24, -40], [28, -130]].map(([cx, cy]) => `<circle cx="${cx}" cy="${cy}" r="22" fill="#e63946"/><path d="M${cx - 8} ${cy - 20} l8 6 l8 -6" stroke="#22b14c" stroke-width="5" fill="none"/>`).join('')}${[[-20, -70], [18, -110], [16, -30]].map(([cx, cy]) => `<ellipse cx="${cx}" cy="${cy}" rx="22" ry="10" fill="#2fc65a"/>`).join('')}`);
+const fence = (x, y, w) => `<rect x="${x}" y="${y + 30}" width="${w}" height="14" fill="#c98b55"/><rect x="${x}" y="${y + 80}" width="${w}" height="14" fill="#c98b55"/>${Array.from({ length: Math.floor(w / 46) }, (_, i) => `<path d="M${x + i * 46} ${y + 130} V${y} l16 -18 l16 18 V${y + 130}Z" fill="#f3d19b" stroke="#c98b55" stroke-width="3"/>`).join('')}`;
+const bed = (x, y, w) => `<rect x="${x}" y="${y}" width="${w}" height="60" rx="12" fill="#7a4a1d"/>${Array.from({ length: Math.floor(w / 70) }, (_, i) => `<path d="M${x + 30 + i * 70} ${y} q-14 -40 0 -60 q14 20 0 60" fill="#2fc65a"/>`).join('')}`;
+const mop = (x, y, s = 1) => T(x, y, s, 0, `<rect x="-6" y="-260" width="12" height="260" rx="6" fill="#c98b55"/><path d="M-50 0 h100 l14 40 h-128z" fill="#5cc4ff"/>${[-40, -20, 0, 20, 40].map(dx => `<path d="M${dx} 40 v30" stroke="#5cc4ff" stroke-width="10" stroke-linecap="round"/>`).join('')}`);
+const bucket = (x, y, s = 1) => T(x, y, s, 0, `<path d="M0 0 h140 l-14 120 h-112z" fill="#ffd500" stroke="${INK}" stroke-width="5"/><path d="M10 0 Q70 -70 130 0" stroke="${INK}" stroke-width="6" fill="none"/>${[[30, -20], [70, -34], [104, -16]].map(([cx, cy]) => `<circle cx="${cx}" cy="${cy}" r="16" fill="#fff" stroke="#9fd8ff" stroke-width="3"/>`).join('')}`);
+const sparkle = (x, y, s = 1) => T(x, y, s, 0, `<path d="M0 -30 L8 -8 L30 0 L8 8 L0 30 L-8 8 L-30 0 L-8 -8Z" fill="#ffd500"/>`);
+const bus = (x, y, s = 1, c = '#e63946', n = '19') => T(x, y, s, 0, `<rect x="0" y="0" width="520" height="210" rx="30" fill="${c}"/><rect x="0" y="150" width="520" height="16" fill="#fff" opacity=".6"/>${[30, 140, 250, 360].map(wx => `<rect x="${wx}" y="28" width="90" height="80" rx="12" fill="#bfe6ff"/>`).join('')}<rect x="460" y="28" width="44" height="120" rx="8" fill="#bfe6ff"/><rect x="440" y="-34" width="70" height="40" rx="8" fill="${INK}"/>${txt(475, -4, n, 30, '#ffd500')}${[90, 420].map(cx => `<circle cx="${cx}" cy="212" r="38" fill="${INK}"/><circle cx="${cx}" cy="212" r="15" fill="#9aa4b8"/>`).join('')}`);
+const stop = (x, y, s = 1) => T(x, y, s, 0, `<rect x="-6" y="0" width="12" height="300" fill="#9aa4b8"/><rect x="-60" y="-10" width="120" height="70" rx="12" fill="#ffd500" stroke="${INK}" stroke-width="5"/>${txt(0, 38, 'BUS', 36, INK)}`);
+const desk = (x, y, w, t = 'RECEPCE') => `<rect x="${x}" y="${y}" width="${w}" height="${720 - y}" fill="#8a5a2b"/><rect x="${x - 12}" y="${y - 20}" width="${w + 24}" height="26" rx="8" fill="#6b4421"/><rect x="${x + w / 2 - 130}" y="${y + 40}" width="260" height="66" rx="12" fill="#ffd500"/>${txt(x + w / 2, y + 88, t, 40, INK)}`;
+const wifi = (x, y, s = 1) => T(x, y, s, 0, `<g fill="none" stroke="#1f5fbf" stroke-width="12" stroke-linecap="round"><path d="M-60 -20 Q0 -70 60 -20"/><path d="M-36 6 Q0 -24 36 6"/></g><circle cx="0" cy="30" r="12" fill="#1f5fbf"/>`);
+const parkSign = (x, y, s = 1) => T(x, y, s, 0, `<rect x="-6" y="40" width="12" height="220" fill="#9aa4b8"/><rect x="-55" y="-60" width="110" height="110" rx="16" fill="#1f5fbf" stroke="#fff" stroke-width="6"/>${txt(0, 28, 'P', 84, '#fff')}`);
+const police = (x, y, s = 1) => T(x, y, s, 0, P.car(0, 0, 1, '#fff') + `<rect x="0" y="80" width="390" height="22" fill="#1f5fbf"/>${txt(195, 98, 'POLICIE', 22, '#fff')}<rect x="150" y="-22" width="70" height="22" rx="6" fill="#1f5fbf"/><rect x="150" y="-22" width="34" height="22" rx="6" fill="#5cc4ff"/>`);
+const cop = (x, y, o = {}) => person({ x, y, skin: '#e9b48f', hair: '#3a2a1a', hs: 'short', shirt: '#1f3f7a', hat: 'cap', hatc: '#16203a', mouth: 'open', ...o, extra: `<rect x="-40" y="96" width="26" height="18" rx="4" fill="#ffd500"/>` + (o.extra || '') });
+const doc = (x, y, s = 1, r = 0, t = 'ŘIDIČSKÝ PRŮKAZ') => T(x, y, s, r, `<rect width="230" height="150" rx="16" fill="#f8e7f1" stroke="#be185d" stroke-width="5"/><rect x="18" y="40" width="64" height="80" rx="8" fill="#d6dcea"/><circle cx="50" cy="66" r="16" fill="#9aa4b8"/>${txt(115, 30, t, 17, '#be185d')}<path d="M100 60 h110 M100 84 h90 M100 108 h100" stroke="#9aa4b8" stroke-width="8" stroke-linecap="round"/>`);
+const speedo = (x, y, s = 1) => T(x, y, s, 0, `<circle r="80" fill="#fff" stroke="${INK}" stroke-width="8"/><circle r="80" fill="none" stroke="#e63946" stroke-width="16" stroke-dasharray="90 600" transform="rotate(-40)"/>${txt(0, 50, '70', 40, '#e63946')}<path d="M0 0 L54 -40" stroke="#e63946" stroke-width="8" stroke-linecap="round"/><circle r="10" fill="${INK}"/>`);
+const limit = (x, y, s = 1) => T(x, y, s, 0, `<rect x="-6" y="50" width="12" height="220" fill="#9aa4b8"/><circle r="64" fill="#fff" stroke="#e63946" stroke-width="16"/>${txt(0, 24, '50', 64, INK)}`);
+const road = () => `<rect y="520" width="1280" height="200" fill="#4a5163"/><path d="M0 620 H1280" stroke="#fff" stroke-width="10" stroke-dasharray="70 50"/>`;
+const wall = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#c9d3e6" stroke="#9aa4b8" stroke-width="6"/>${Array.from({ length: 22 }, (_, i) => `<circle cx="${x + 30 + (i * 97) % (w - 60)}" cy="${y + 30 + (i * 61) % (h - 60)}" r="${12 + (i % 3) * 4}" fill="${['#e63946', '#ffd500', '#22b14c', '#2f80ed', '#ff7a3d'][i % 5]}"/>`).join('')}`;
+const racket = (x, y, s = 1, r = -20) => T(x, y, s, r, `<ellipse cx="0" cy="-90" rx="60" ry="76" fill="none" stroke="#e63946" stroke-width="12"/><g stroke="#9aa4b8" stroke-width="3">${[-40, -20, 0, 20, 40].map(dx => `<path d="M${dx} -158 V-22"/>`).join('')}${[-140, -115, -90, -65, -40].map(dy => `<path d="M-56 ${dy} H56"/>`).join('')}</g><rect x="-10" y="-16" width="20" height="110" rx="8" fill="${INK}"/>`);
+const tball = (x, y, s = 1) => T(x, y, s, 0, `<circle r="26" fill="#d4f04a" stroke="#9ab52a" stroke-width="3"/><path d="M-22 -12 Q0 4 -4 26 M22 12 Q0 -4 4 -26" stroke="#fff" stroke-width="4" fill="none"/>`);
+const net = (x, y, w) => `<rect x="${x}" y="${y}" width="${w}" height="90" fill="url(#np)"/><defs><pattern id="np" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 0 H20 M0 0 V20" stroke="#fff" stroke-width="3"/></pattern></defs><rect x="${x}" y="${y - 8}" width="${w}" height="12" fill="#fff"/>`;
+const court = () => `<rect y="430" width="1280" height="290" fill="#2f9e5a"/><path d="M560 470 H1280 M560 690 H1280 M900 470 V690" stroke="#fff" stroke-width="8"/>`;
+
+exports.SC = {
+  f19: () => svg(outdoor('#5cc4ff', '#d4f3ff', '#6fcf57', { hills: false }) + fence(560, 330, 720) + bed(600, 520, 360) + tomato(1180, 540, 1.1) + tomato(640, 520, .8) + P.form(600, 120, .8, -6, 'ŽÁDOST') + DAN(980, 400, { arms: 'hold', shirt: '#ff7a3d', mouth: 'open' }) + can(940, 520, .7)),
+  f19_q3: () => svg(outdoor('#5cc4ff', '#d4f3ff', '#6fcf57', { hills: false }) + fence(560, 330, 720) + bed(600, 520, 600) + DAN(760, 400, { arms: 'wave', shirt: '#ff7a3d' }) + MIA(940, 400, { arms: 'hold' }) + KID(1120, 450, { arms: 'up', mouth: 'open' })),
+  p19: () => svg(room('#e6f6ff', '#c8ecff', '#c98b55', { window: [960, 70] }) + P.table(600, 500, 420) + P.laptop(640, 300, .8, `${txt(200, 80, 'ÚKLID', 40, '#1f5fbf')}${txt(200, 150, 'Čistota', 34, INK)}`) + mop(1110, 600, 1) + bucket(1150, 560, .9) + sparkle(1220, 120, 1) + sparkle(900, 60, .7) + P.envelope(620, 90, .7, -8) + DAN(1000, 410, { arms: 'point', mouth: 'open', s: .9, flip: true })),
+  m19: () => svg(outdoor('#5cc4ff', '#d4f3ff', '#9aa4b8', { hills: false }) + city(470) + `<rect y="560" width="1280" height="160" fill="#4a5163"/>` + bus(570, 400, .85) + stop(1230, 330, .9) + DAN(1170, 420, { arms: 'phone', s: .85, mouth: 'open' }) + P.ticket(580, 120, .7, -10, 'JÍZDENKA')),
+  m19_q4: () => svg(room('#e8f0ff', '#cfdcff', '#9aa4b8') + P.phone(700, 140, 1.4, -8) + P.ticket(900, 300, .9, 10, 'APLIKACE') + DAN(1100, 400, { arms: 'phone', mouth: 'open' })),
+  m19_q6: () => svg(room('#e8f0ff', '#cfdcff', '#9aa4b8') + P.train(560, 260, .9, '#c2410c') + DAN(700, 430, { s: .7, arms: 'hold' }) + MIA(840, 430, { s: .7 }) + person({ x: 980, y: 430, s: .7, shirt: '#22b14c', hs: 'curly', hair: '#2a1a0a' }) + person({ x: 1110, y: 430, s: .7, shirt: '#2f80ed', hs: 'bun', hair: '#7a3b12' })),
+  m19_q7: () => svg(room('#fff0f0', '#ffd6d6', '#9aa4b8') + cop(1080, 400, { arms: 'point', flip: true }) + DAN(760, 410, { mouth: 'sad', arms: 'down' }) + P.ticket(640, 160, .8, -8, 'POKUTA') + P.coins(860, 610, .8)),
+  m19_q9: () => svg(outdoor('#5cc4ff', '#d4f3ff', '#6fcf57') + `<rect y="560" width="1280" height="160" fill="#4a5163"/>` + P.car(640, 430, 1.0, '#ffb020') + DAN(1130, 420, { arms: 'up', mouth: 'open', s: .9 }) + P.key(1000, 200, .8)),
+  d19: () => svg(room('#fff3d6', '#ffe1a6', '#9c6435', { stripes: true }) + desk(560, 470, 440) + EXA(780, 360, { arms: 'hold', mouth: 'open', shirt: '#be185d', s: .9 }) + P.bell(700, 460, .6) + P.key(900, 440, .55, -10) + P.suitcase(1050, 380, .9, '#2f80ed') + DAN(1190, 420, { arms: 'wave', flip: true, s: .9 }) + wifi(640, 120, .9) + P.sign(700, 40, 300, 'HOTEL', '#1f5fbf', '#fff', 46)),
+  v19: () => svg(night() + road() + police(620, 420, .85) + cop(1000, 410, { arms: 'point', flip: false }) + limit(1210, 300, .8)),
+  r19: () => svg(room('#eee6fb', '#d9c8f8', '#9c6435') + P.dumbbell(660, 600, .9, -10) + racket(800, 260, .8) + tball(880, 300, 1) + DAN(960, 410, { arms: 'wave', shirt: '#22b14c', s: .95 }) + MIA(1150, 410, { arms: 'hold', shirt: '#e63946', s: .95 }) + P.qmark(1060, 130, .8)),
+  outro: () => S2.promo(),
+};
+const VSKY = () => night() + road();
+exports.PN = {
+  v19_1: () => svg(VSKY() + P.house(180, 170, 1.0, '#9aa4b8', '#5b6680') + P.car(520, 300, 1.6, '#e63946') + DAN(800, 290, { s: .75, arms: 'hold', mouth: 'smile' }) + bubble(840, 70, 300, '⚽ 20:00', 46, 'l')),
+  v19_2: () => svg(VSKY() + P.car(140, 360, 1.3, '#e63946') + police(640, 340, 1.25) + cop(1100, 360, { arms: 'up', flip: true, s: 1.1 }) + bubble(820, 60, 260, 'STOP!', 56, 'r')),
+  v19_3: () => svg(VSKY() + DAN(330, 360, { arms: 'hold', mouth: 'o', s: 1.15 }) + cop(1050, 360, { arms: 'hold', flip: true, s: 1.15 }) + doc(500, 150, 1.0, -8) + doc(560, 330, .95, 6, 'TECHNICKÝ PRŮKAZ') + doc(760, 230, .8, 10, 'POJIŠTĚNÍ')),
+  v19_4: () => svg(VSKY() + speedo(300, 220, 1.4) + DAN(620, 360, { mouth: 'sad', arms: 'hold', s: 1.15 }) + P.coins(720, 560, 1.1) + P.ticket(760, 90, 1.1, 8, 'POKUTA') + cop(1060, 360, { flip: true, mouth: 'smile', s: 1.15 })),
+};
+exports.OPT = {
+  r19_o1: () => svg(room('#e8f0ff', '#cfdcff', '#5a6b7d', { stripes: true }) + P.dumbbell(520, 520, 1.6, -10) + P.dumbbell(760, 600, 1.1, 8) + P.sign(380, 40, 520, 'POSILOVNA', '#1f5fbf', '#fff', 52)),
+  r19_o2: () => svg(room('#fff3d6', '#ffe1a6', '#9c6435') + wall(380, 60, 520, 560) + person({ x: 640, y: 260, s: .8, arms: 'up', shirt: '#e63946', hat: 'cap', hatc: '#ffd500' })),
+  r19_o3: () => svg(outdoor('#5cc4ff', '#d4f3ff', '#2f9e5a', { hills: false }) + net(300, 430, 680) + racket(560, 330, 1.2, -25) + tball(760, 230, 1.6)),
+};
+// Обкладинки (node tools/yt/thumb.js 19)
+exports.TH = [
+  { id: 'f19', sec: 'f', lab: 'PSANÍ 1', hook: ['ZAHRÁDKA', 'OD MĚSTA'], ua: 'Город в оренду від міста', badge: 'FORMULÁŘ · 8 BODŮ', num: '19/40' },
+  { id: 'p19', sec: 'p', lab: 'PSANÍ 2', hook: ['OBJEDNÁVKA', 'ÚKLIDU'], ua: 'Замовлення прибирання', badge: 'E-MAIL · 12 BODŮ', num: '19/40' },
+  { id: 'm19', sec: 'm', lab: 'MLUVENÍ 1', hook: ['DOPRAVA', 'VE MĚSTĚ'], ua: 'Транспорт у місті', badge: '10 OTÁZEK + VZORY', num: '19/40' },
+  { id: 'd19', sec: 'd', lab: 'MLUVENÍ 2', hook: ['V HOTELU'], ua: 'У готелі: Wi-Fi, парковка, сніданок', badge: '4 OTÁZKY · 12 BODŮ', num: '19/40' },
+  { id: 'v19', sec: 'v', lab: 'MLUVENÍ 3', hook: ['POLICEJNÍ', 'KONTROLA'], ua: 'Поліцейська перевірка', badge: 'PŘÍBĚH · 10 BODŮ', num: '19/40' },
+  { id: 'r19', sec: 'r', lab: 'MLUVENÍ 4', hook: ['KAM JÍT', 'CVIČIT?'], ua: 'Куди піти на спорт?', badge: 'DIALOG · 7 BODŮ', num: '19/40' },
+];

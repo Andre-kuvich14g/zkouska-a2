@@ -1,0 +1,8 @@
+{
+ "f19": {"uk": "оренда городу від міста", "ru": "аренда огорода у города", "en": "renting a garden plot from the town", "vi": "thuê mảnh vườn của thành phố"},
+ "p19": {"uk": "замовлення прибирання", "ru": "заказ уборки", "en": "booking a cleaning service", "vi": "đặt dịch vụ dọn dẹp"},
+ "m19": {"uk": "транспорт у місті", "ru": "транспорт в городе", "en": "getting around town", "vi": "giao thông trong thành phố"},
+ "d19": {"uk": "у готелі", "ru": "в отеле", "en": "at the hotel", "vi": "ở khách sạn"},
+ "v19": {"uk": "поліцейська перевірка", "ru": "полицейская проверка", "en": "a police check", "vi": "cảnh sát kiểm tra"},
+ "r19": {"uk": "куди піти на спорт у суботу", "ru": "куда пойти на спорт в субботу", "en": "where to work out on Saturday", "vi": "thứ Bảy đi tập thể thao ở đâu"}
+}
