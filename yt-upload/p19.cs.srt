@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:06,128
+Psaní, úloha dvě. E-mail číslo 19: Objednávka úklidu.
+
+2
+00:00:06,967 --> 00:00:16,055
+Chcete si objednat úklidovou firmu. Napište jim e-mail. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+3
+00:00:24,900 --> 00:00:26,099
+Dobrý den,
+
+4
+00:00:26,333 --> 00:00:28,238
+chtěl bych objednat úklid bytu.
+
+5
+00:00:28,500 --> 00:00:31,476
+Byt je 3+1, má asi 75 metrů.
+
+6
+00:00:31,733 --> 00:00:36,094
+Potřebuji umýt okna, vysát koberce a uklidit kuchyň a koupelnu.
+
+7
+00:00:36,333 --> 00:00:39,152
+Přijďte prosím v pátek 20. března dopoledne.
+
+8
+00:00:39,400 --> 00:00:42,977
+Já budu v práci, klíč vám nechám u sousedky v prvním patře.
+
+9
+00:00:43,233 --> 00:00:45,034
+Zaplatím převodem na účet.
+
+10
+00:00:45,300 --> 00:00:52,481
+Tento e-mail má 52 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+11
+00:00:53,533 --> 00:01:01,890
+Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

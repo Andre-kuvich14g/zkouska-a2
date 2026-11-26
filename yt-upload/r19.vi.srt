@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,725
+Nói, bài bốn. Tình huống số 19. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận với cô ấy, chọn một phương án và nói lý do.
+
+2
+00:00:11,567 --> 00:00:20,002
+Thứ Bảy chúng mình muốn cùng đi tập thể thao. Mình đi đâu? Bạn có ý gì không? Bạn có thể chọn trong các phương án này.
+
+3
+00:00:28,667 --> 00:00:30,284
+Mình có thể đi phòng gym.
+
+4
+00:00:30,733 --> 00:00:32,351
+Phòng gym chán lắm.
+
+5
+00:00:32,800 --> 00:00:34,757
+Vậy mình đi leo tường nhé.
+
+6
+00:00:35,200 --> 00:00:36,870
+Leo núi nguy hiểm lắm.
+
+7
+00:00:37,333 --> 00:00:39,003
+Vậy mình chơi quần vợt.
+
+8
+00:00:39,467 --> 00:00:41,032
+Tại sao lại ở đó?
+
+9
+00:00:41,467 --> 00:00:44,260
+Vì nó vui và mình có thể chơi cùng nhau.
+
+10
+00:00:44,700 --> 00:00:47,153
+Bạn nói đúng. Mình đi chơi quần vợt.
+
+11
+00:00:47,600 --> 00:00:56,688
+Hãy luyện tình huống 19 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

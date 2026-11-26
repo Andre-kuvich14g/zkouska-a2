@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,789
+Viết, bài một. Mẫu đơn số 19. Bạn muốn thuê một mảnh vườn của thành phố. Hãy trả lời các câu hỏi trong đơn. Trả lời bằng câu hoàn chỉnh, ít nhất mười từ.
+
+2
+00:00:13,633 --> 00:00:15,538
+Tại sao bạn muốn có mảnh vườn?
+
+3
+00:00:26,200 --> 00:00:30,874
+Tôi muốn có mảnh vườn vì tôi sống trong căn hộ và thích làm việc ngoài trời, nơi không khí trong lành.
+
+4
+00:00:31,933 --> 00:00:33,916
+Bạn sẽ trồng gì trong vườn?
+
+5
+00:00:44,567 --> 00:00:49,397
+Trong vườn tôi sẽ trồng cà chua, dưa chuột, khoai tây và cả hoa nữa.
+
+6
+00:00:50,433 --> 00:00:52,469
+Ai sẽ giúp bạn làm vườn?
+
+7
+00:01:03,133 --> 00:01:07,311
+Vợ tôi và con trai chín tuổi của chúng tôi sẽ giúp tôi làm vườn.
+
+8
+00:01:08,367 --> 00:01:17,377
+Hãy điền mẫu đơn 19 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

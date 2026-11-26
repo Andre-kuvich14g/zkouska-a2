@@ -119,7 +119,7 @@ def p_lesson(D, n):
     lines = masc(e['model']).split('\n')
     greet, close = lines[0], '\n'.join(lines[-2:])
     body = ' '.join(lines[1:-2])
-    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+', body) if s.strip()]
+    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', body) if s.strip()]
     mb = dict(kind='p-model', subj=subj, to=e['to'], greet=greet, sents=sents, close=close, pr=pr)
     P.add(dict(mb, hi=-1), greet, pad=0.1, side='')
     for k, s in enumerate(sents):
@@ -185,7 +185,7 @@ def v_lesson(D, n):
     base = dict(kind='v-pics', q=e['q'], pics=pics, scn=scn, name=nm)
     P.add(base, e['q'], pad=0.5, side='')
     P.wait(base, 20, 'Teď vy! Vyprávějte v minulém čase.', side='')
-    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+', masc(e['model'])) if s.strip()]
+    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', masc(e['model'])) if s.strip()]
     mp = [min(3, i * 4 // len(sents)) for i in range(len(sents))]
     for k, s in enumerate(sents):
         P.add(dict(kind='v-model', q=e['q'], pics=pics, scn=scn, sents=sents, hi=k, map=mp, name=nm), s, pad=0.0, side='')

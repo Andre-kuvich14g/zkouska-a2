@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,124
+Speaking, task two. Card number 19. You are at a hotel. You want information about the room. Ask four questions.
+
+2
+00:00:10,967 --> 00:00:14,674
+You are at a hotel. You want information about the room.
+
+3
+00:00:15,533 --> 00:00:18,117
+Good afternoon. What can I do for you?
+
+4
+00:00:23,767 --> 00:00:25,750
+Hello, is there Wi-Fi in the room?
+
+5
+00:00:26,300 --> 00:00:28,466
+Wi-Fi is free; the password is in the room.
+
+6
+00:00:34,100 --> 00:00:35,848
+By what time do we have to leave?
+
+7
+00:00:36,400 --> 00:00:37,965
+Check-out is by 10 o'clock.
+
+8
+00:00:43,600 --> 00:00:45,087
+Where can I park?
+
+9
+00:00:45,633 --> 00:00:47,120
+The car park is behind the hotel.
+
+10
+00:00:52,767 --> 00:00:54,436
+Can I have a late breakfast?
+
+11
+00:00:55,000 --> 00:00:57,923
+Yes, at the weekend breakfast is until 11 o'clock.
+
+12
+00:00:58,567 --> 00:01:01,673
+Thank you for the information. Goodbye.
+
+13
+00:01:02,333 --> 00:01:03,716
+Enjoy your stay.
+
+14
+00:01:04,367 --> 00:01:13,560
+Practise card 19 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.

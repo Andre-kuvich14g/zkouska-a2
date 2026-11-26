@@ -1,0 +1,87 @@
+1
+00:00:00,200 --> 00:00:10,960
+Nói, bài một. Chủ đề 19: Giao thông trong thành phố. Mười câu hỏi. Hãy nghe câu hỏi và trả lời thành tiếng.
+
+2
+00:00:11,800 --> 00:00:13,417
+Bạn đi làm bằng gì?
+
+3
+00:00:19,067 --> 00:00:21,990
+Tôi đi làm bằng xe buýt, đôi khi bằng xe đạp.
+
+4
+00:00:22,833 --> 00:00:24,033
+Bạn có ô tô không?
+
+5
+00:00:29,667 --> 00:00:33,426
+Có, chúng tôi có một chiếc ô tô, nhưng trong thành phố tôi đi xe buýt.
+
+6
+00:00:34,267 --> 00:00:36,224
+Vé xe buýt giá bao nhiêu?
+
+7
+00:00:41,867 --> 00:00:45,574
+Vé khoảng ba mươi koruna, tôi có vé tháng.
+
+8
+00:00:46,433 --> 00:00:48,286
+Bạn mua vé ở đâu?
+
+9
+00:00:53,933 --> 00:00:56,517
+Tôi mua vé trên ứng dụng điện thoại.
+
+10
+00:00:57,367 --> 00:00:59,402
+Đi vào trung tâm mất bao lâu?
+
+11
+00:01:05,067 --> 00:01:07,938
+Đi vào trung tâm bằng tàu điện mất khoảng hai mươi phút.
+
+12
+00:01:08,800 --> 00:01:10,365
+Bạn có thích đi tàu điện ngầm không?
+
+13
+00:01:16,000 --> 00:01:19,289
+Có, tàu điện ngầm nhanh, nhưng buổi sáng rất đông người.
+
+14
+00:01:20,133 --> 00:01:22,090
+Bạn đã bao giờ gặp rắc rối trên phương tiện công cộng chưa?
+
+15
+00:01:27,733 --> 00:01:31,153
+Có lần tôi quên vé và phải nộp phạt.
+
+16
+00:01:32,000 --> 00:01:33,748
+Hôm nay bạn đến đây bằng gì?
+
+17
+00:01:39,400 --> 00:01:42,193
+Hôm nay tôi đi tàu hỏa rồi sau đó đi bộ.
+
+18
+00:01:43,033 --> 00:01:44,703
+Bạn có định mua ô tô không?
+
+19
+00:01:50,367 --> 00:01:53,107
+Có, năm sau tôi sẽ mua một chiếc ô tô nhỏ.
+
+20
+00:01:53,967 --> 00:01:56,524
+Bạn muốn cải thiện điều gì trong giao thông ở thành phố của bạn?
+
+21
+00:02:02,167 --> 00:02:05,377
+Tôi sẽ cải thiện xe buýt buổi tối vì có ít chuyến.
+
+22
+00:02:06,233 --> 00:02:15,896
+Tuyệt vời! Hãy luyện chủ đề 19 trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,124
+Nói, bài hai. Thẻ số 19. Bạn đang ở khách sạn. Bạn muốn biết thông tin về phòng. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,967 --> 00:00:14,674
+Bạn đang ở khách sạn. Bạn muốn biết thông tin về phòng.
+
+3
+00:00:15,533 --> 00:00:18,117
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:23,767 --> 00:00:25,750
+Xin chào, trong phòng có Wi-Fi không?
+
+5
+00:00:26,300 --> 00:00:28,466
+Wi-Fi miễn phí, mật khẩu có trong phòng.
+
+6
+00:00:34,100 --> 00:00:35,848
+Chúng tôi phải trả phòng trước mấy giờ?
+
+7
+00:00:36,400 --> 00:00:37,965
+Trả phòng trước 10 giờ.
+
+8
+00:00:43,600 --> 00:00:45,087
+Tôi có thể đỗ xe ở đâu?
+
+9
+00:00:45,633 --> 00:00:47,120
+Bãi đỗ xe ở phía sau khách sạn.
+
+10
+00:00:52,767 --> 00:00:54,436
+Tôi có thể ăn sáng muộn không?
+
+11
+00:00:55,000 --> 00:00:57,923
+Có, cuối tuần bữa sáng kéo dài đến 11 giờ.
+
+12
+00:00:58,567 --> 00:01:01,673
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:02,333 --> 00:01:03,716
+Chúc quý khách có kỳ nghỉ vui vẻ.
+
+14
+00:01:04,367 --> 00:01:13,560
+Hãy luyện thẻ 19 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

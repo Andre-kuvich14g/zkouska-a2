@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,124
+Mluvení, úloha dvě. Karta číslo 19. Jste v hotelu. Chcete zjistit informace o pokoji. Položte čtyři otázky.
+
+2
+00:00:10,967 --> 00:00:14,674
+Jste v hotelu. Chcete zjistit informace o pokoji.
+
+3
+00:00:15,533 --> 00:00:18,117
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:23,767 --> 00:00:25,750
+Dobrý den, je v pokoji Wi-Fi?
+
+5
+00:00:26,300 --> 00:00:28,466
+Wi-Fi je zdarma, heslo je na pokoji.
+
+6
+00:00:34,100 --> 00:00:35,848
+Do kolika musíme odejít?
+
+7
+00:00:36,400 --> 00:00:37,965
+Check-out je do 10 hodin.
+
+8
+00:00:43,600 --> 00:00:45,087
+Kde můžu parkovat?
+
+9
+00:00:45,633 --> 00:00:47,120
+Parkování je za hotelem.
+
+10
+00:00:52,767 --> 00:00:54,436
+Můžu mít pozdní snídani?
+
+11
+00:00:55,000 --> 00:00:57,923
+Ano, o víkendu je snídaně až do 11 hodin.
+
+12
+00:00:58,567 --> 00:01:01,673
+Děkuju za informace. Na shledanou.
+
+13
+00:01:02,333 --> 00:01:03,716
+Příjemný pobyt.
+
+14
+00:01:04,367 --> 00:01:13,560
+Procvičte si kartu 19 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
