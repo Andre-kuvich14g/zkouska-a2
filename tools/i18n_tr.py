@@ -790,6 +790,9 @@ T += [
 ("🔔 Підписатися на YouTube — щодня нове відео", "🔔 Subscribe on YouTube — a new video every day", "🔔 Подписаться на YouTube — каждый день новое видео", "🔔 Đăng ký YouTube — mỗi ngày một video mới"),
 ]
 T += [
+("Щодня 2 хвилини до іспиту — у Telegram", "2 minutes a day for your exam — on Telegram", "2 минуты в день к экзамену — в Telegram", "Mỗi ngày 2 phút luyện thi — trên Telegram"),
+("Аудіо як на Poslech, вікторини з поясненнями й нові відео", "Audio like in Poslech, quizzes with explanations and new videos", "Аудио как на Poslech, викторины с пояснениями и новые видео", "Bài nghe như Poslech, câu đố có giải thích và video mới"),
+("Підписатися →", "Subscribe →", "Подписаться →", "Theo dõi →"),
 ("🎬 Урок 18, збірка Mluvení 2 і тест Poslech 4.", "🎬 Lesson 18, a Mluvení 2 review and Poslech test 4.", "🎬 Урок 18, подборка Mluvení 2 и тест Poslech 4.", "🎬 Bài 18, video ôn Mluvení 2 và bài nghe Poslech 4."),
 ("Абонемент у басейн, вибачення подрузі, здоров'я й лікар, ліжко в меблевому магазині, переїзд до Чехії, де купити одяг, картки Mluvení 2 (11–15) і повний тест на аудіювання №4 (20 хвилин).", "A swimming pool pass, apologising to a friend, health and the doctor, a bed at the furniture shop, moving to the Czech Republic, where to buy clothes, Mluvení 2 cards 11–15 and full listening test no. 4 (20 minutes).", "Абонемент в бассейн, извинение подруге, здоровье и врач, кровать в мебельном магазине, переезд в Чехию, где купить одежду, карточки Mluvení 2 (11–15) и полный тест по аудированию №4 (20 минут).", "Vé tháng bể bơi, xin lỗi bạn, sức khỏe và bác sĩ, mua giường ở cửa hàng nội thất, chuyển đến Séc, mua quần áo ở đâu, các thẻ Mluvení 2 (11–15) và bài nghe đầy đủ số 4 (20 phút)."),
 ("🎬 Урок 17 і збірка Mluvení 1 (теми 11–15).", "🎬 Lesson 17 and a Mluvení 1 review (topics 11–15).", "🎬 Урок 17 и подборка Mluvení 1 (темы 11–15).", "🎬 Bài 17 và video ôn Mluvení 1 (chủ đề 11–15)."),
