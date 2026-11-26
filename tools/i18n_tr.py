@@ -810,4 +810,6 @@ T += [
 T += [
 ("По 40 тем до кожної частини", "40 topics for each task", "По 40 тем к каждой части", "40 chủ đề cho mỗi phần"),
 ("Mluvení 1–4 і Psaní 1–2: кожна тема окремою сторінкою зі зразком", "Mluvení 1–4 and Psaní 1–2: every topic on its own page with a model answer", "Mluvení 1–4 и Psaní 1–2: каждая тема на отдельной странице с образцом", "Mluvení 1–4 và Psaní 1–2: mỗi chủ đề một trang riêng có bài mẫu"),
+("🎬 Урок 19 і збірка Mluvení 3 (історії 11–15).", "🎬 Lesson 19 and a Mluvení 3 review (stories 11–15).", "🎬 Урок 19 и подборка Mluvení 3 (истории 11–15).", "🎬 Bài 19 và video ôn Mluvení 3 (câu chuyện 11–15)."),
+("Город в оренду від міста, замовлення прибирання, транспорт у місті, готель, поліцейська перевірка, куди піти на спорт, а також усі 5 історій 11–15 у минулому часі за 8 хвилин.", "Renting a garden plot from the town, booking a cleaning, getting around town, the hotel, a police check, where to work out, plus all 5 stories 11–15 in the past tense in 8 minutes.", "Огород в аренду у города, заказ уборки, транспорт в городе, отель, полицейская проверка, куда пойти на спорт, а также все 5 историй 11–15 в прошедшем времени за 8 минут.", "Thuê vườn của thành phố, đặt dọn dẹp, giao thông trong thành phố, khách sạn, cảnh sát kiểm tra, đi tập thể thao ở đâu, cùng cả 5 câu chuyện 11–15 ở thì quá khứ trong 8 phút."),
 ]

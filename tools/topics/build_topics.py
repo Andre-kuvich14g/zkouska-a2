@@ -77,6 +77,7 @@ a{color:var(--accent)}.lead,.bc,small{color:var(--muted)}.bc{font-size:.92rem}
 .vid b{position:absolute;inset:auto 12px 12px auto;background:#e1251b;color:#fff;padding:8px 14px;border-radius:10px}
 .cta{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.btn{display:inline-block;text-decoration:none;font-weight:800;border-radius:12px;padding:11px 16px;border:1px solid var(--rule);color:var(--ink);background:var(--sheet)}
 .btn.y{background:var(--y);color:#1b1b1b;border-color:#c9a800}.btn.r{background:#e1251b;color:#fff;border-color:#e1251b}.btn.tg{background:#229ed9;color:#fff;border-color:#229ed9}
+.tgb{display:flex;align-items:center;gap:14px;margin:6px 0 18px;padding:14px 18px;border-radius:16px;background:#229ed9;color:#fff;text-decoration:none}.tgb>span:first-child{font-size:30px}.tgb b{display:block;font-size:17px}.tgb small{display:block;color:#eaf6fd;font-size:14px;margin-top:2px}.tgb i{margin-left:auto;font-style:normal;font-weight:800;background:#fff;color:#1b6fa0;padding:8px 12px;border-radius:10px;white-space:nowrap}@media(max-width:560px){.tgb i{display:none}}
 .nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;border-top:1px solid var(--rule);padding-top:12px}.list{columns:2;padding-left:1.2em}@media(max-width:560px){.list{columns:1}}"""
 
 def page(title, desc, canon, h1, inner, ld):
@@ -101,7 +102,10 @@ def cta(sec, n):
     return (f'<div class="cta"><a class="btn y" href="/?utm_source=temata&amp;utm_content={sec}-{n}">▶ Cvičná zkouška A2 zdarma / Безкоштовний пробний іспит</a>'
             f'<a class="btn" href="/learn/?utm_source=temata#{sec}-{n - 1}">🎧 Procvičit s audiem</a>'
             f'<a class="btn r" href="https://www.youtube.com/channel/UCpkz24CVlceUnyC8PIF9KMA?sub_confirmation=1" rel="noopener">🔔 YouTube</a>'
-            f'<a class="btn tg" href="https://t.me/zkouska_A2_cz" rel="noopener">✈ Telegram</a></div>')
+            f'<a class="btn tg" href="https://t.me/+zNCpFZYhnf45MGNk" rel="noopener">✈ Telegram</a></div>'
+            # 26.11 (+1 % сайт): помітний блок Telegram на кожній сторінці теми (посилання сайту — рахується окремо)
+            f'<a class="tgb" href="https://t.me/+zNCpFZYhnf45MGNk" rel="noopener"><span>✈</span><span><b>Щодня 2 хвилини до іспиту — у Telegram</b>'
+            f'<small>Аудіо як на Poslech · вікторини з поясненнями · нові відео · CZ/UA</small></span><i>Підписатися →</i></a>')
 
 def build():
     out = os.path.join(ROOT, 'temata'); urls = []
