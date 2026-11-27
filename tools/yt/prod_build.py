@@ -4,7 +4,7 @@ import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import build
 OUT = os.environ.get('YT_OUT', '/home/claude/yt/out')
-NAMES = dict(m1='Mluveni_1', m2='Mluveni_2', m3='Mluveni_3', m4='Mluveni_4', p1='Psani_1', p2='Psani_2')
+NAMES = dict(d0='Dil_0_Cesta_ke_zkousce', m1='Mluveni_1', m2='Mluveni_2', m3='Mluveni_3', m4='Mluveni_4', p1='Psani_1', p2='Psani_2')
 
 
 def hms(t): return f'{int(t // 3600)}:{int(t % 3600 // 60):02d}:{int(t % 60):02d}'
@@ -15,7 +15,7 @@ for part in sys.argv[1:]:
     subprocess.run(['node', os.path.join(HERE, 'slides.js'), id], check=True, env=dict(os.environ, YT_OUT=OUT))
     total = build.build(id)
     P = json.load(open(f'{d}/plan.json')); ch = P['chapters']
-    meta = [';FFMETADATA1', f'title=Zkouška A2 do sluchátek · {NAMES[part].replace("_", " ").replace("Mluveni", "Mluvení").replace("Psani", "Psaní")}', 'artist=Zkouška A2 nanečisto']
+    meta = [';FFMETADATA1', f'title=Zkouška A2 do sluchátek · {NAMES[part].replace("_", " ").replace("Mluveni", "Mluvení").replace("Psani", "Psaní").replace("Dil 0 Cesta ke zkousce", "Díl 0 · Cesta ke zkoušce")}', 'artist=Zkouška A2 nanečisto']
     for i, (t, name) in enumerate(ch):
         end = ch[i + 1][0] if i + 1 < len(ch) else total
         meta += ['[CHAPTER]', 'TIMEBASE=1/1000', f'START={int(t * 1000)}', f'END={int(end * 1000)}', f'title={name}']
