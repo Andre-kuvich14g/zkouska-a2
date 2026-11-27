@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,210
+Mluvení, úloha dvě. Karta číslo 20. Jste v zoo. Chcete jít s dětmi na prohlídku. Položte čtyři otázky.
+
+2
+00:00:10,067 --> 00:00:13,042
+Jste v zoo. Chcete jít s dětmi na prohlídku.
+
+3
+00:00:13,900 --> 00:00:16,484
+Dobrý den. Co pro vás můžu udělat?
+
+4
+00:00:22,133 --> 00:00:24,717
+Dobrý den, kolik stojí vstupenka pro děti?
+
+5
+00:00:25,267 --> 00:00:26,832
+Děti platí 100 Kč.
+
+6
+00:00:32,467 --> 00:00:34,136
+Kdy je krmení zvířat?
+
+7
+00:00:34,700 --> 00:00:36,422
+Krmení je ve 14 hodin.
+
+8
+00:00:42,067 --> 00:00:43,553
+Je tady restaurace?
+
+9
+00:00:44,100 --> 00:00:45,770
+Ano, restaurace je u vchodu.
+
+10
+00:00:51,433 --> 00:00:53,234
+Můžu si půjčit kočárek?
+
+11
+00:00:53,800 --> 00:00:56,488
+Ano, kočárky půjčujeme u pokladny zdarma.
+
+12
+00:00:57,133 --> 00:01:00,240
+Děkuju za informace. Na shledanou.
+
+13
+00:01:00,900 --> 00:01:02,099
+Hezký den.
+
+14
+00:01:02,733 --> 00:01:11,456
+Procvičte si kartu 20 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

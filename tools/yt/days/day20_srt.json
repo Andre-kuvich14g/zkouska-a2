@@ -1,0 +1,914 @@
+{
+"Psaní, úloha jedna. Formulář číslo 20. Chcete jet na zájezd s cestovní kanceláří. Odpovězte na otázky v objednávce. Odpovězte celou větou, minimálně deset slov.": {
+"uk": "Письмо, завдання перше. Формуляр номер 20. Ви хочете поїхати в тур з турагенцією. Дайте відповіді на питання в замовленні. Відповідайте повним реченням, мінімум десять слів.",
+"ru": "Письмо, задание первое. Анкета номер 20. Вы хотите поехать в тур с турагентством. Ответьте на вопросы в заказе. Отвечайте полным предложением, минимум десять слов.",
+"en": "Writing, task one. Form number 20. You want to go on a package holiday with a travel agency. Answer the questions in the booking form. Answer in a full sentence, at least ten words.",
+"vi": "Viết, bài một. Mẫu đơn số 20. Bạn muốn đi tour với công ty du lịch. Hãy trả lời các câu hỏi trong phiếu đặt. Trả lời bằng câu hoàn chỉnh, ít nhất mười từ."
+},
+"Kam a kdy chcete jet?": {
+"uk": "Куди й коли ви хочете поїхати?",
+"ru": "Куда и когда вы хотите поехать?",
+"en": "Where and when do you want to go?",
+"vi": "Bạn muốn đi đâu và khi nào?"
+},
+"Chceme jet k moři do Chorvatska na deset dní na konci července.": {
+"uk": "Ми хочемо поїхати на море в Хорватію на десять днів наприкінці липня.",
+"ru": "Мы хотим поехать на море в Хорватию на десять дней в конце июля.",
+"en": "We want to go to the seaside in Croatia for ten days at the end of July.",
+"vi": "Chúng tôi muốn đi biển ở Croatia mười ngày vào cuối tháng Bảy."
+},
+"Kdo s vámi pojede?": {
+"uk": "Хто поїде з вами?",
+"ru": "Кто поедет с вами?",
+"en": "Who will go with you?",
+"vi": "Ai sẽ đi cùng bạn?"
+},
+"Pojede se mnou manželka a naše dvě děti, kterým je šest a devět let.": {
+"uk": "Зі мною поїде дружина й наші двоє дітей, яким шість і дев'ять років.",
+"ru": "Со мной поедет жена и наши двое детей, которым шесть и девять лет.",
+"en": "My wife and our two children, aged six and nine, will go with me.",
+"vi": "Vợ tôi và hai con của chúng tôi, sáu và chín tuổi, sẽ đi cùng tôi."
+},
+"Co chcete na dovolené dělat?": {
+"uk": "Що ви хочете робити у відпустці?",
+"ru": "Что вы хотите делать в отпуске?",
+"en": "What do you want to do on holiday?",
+"vi": "Bạn muốn làm gì trong kỳ nghỉ?"
+},
+"Na dovolené se chceme koupat v moři, odpočívat a jet lodí na ostrov.": {
+"uk": "У відпустці ми хочемо купатися в морі, відпочивати й поплисти човном на острів.",
+"ru": "В отпуске мы хотим купаться в море, отдыхать и поплыть на лодке на остров.",
+"en": "On holiday we want to swim in the sea, relax and take a boat to an island.",
+"vi": "Trong kỳ nghỉ chúng tôi muốn tắm biển, nghỉ ngơi và đi thuyền ra đảo."
+},
+"Vyplňte formulář 20 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Заповніть формуляр 20 на сайті Zkouška A2 nanečisto. Посилання — в описі відео. І підписуйтеся на канал: тут щодня нове відео.",
+"ru": "Заполните анкету 20 на сайте Zkouška A2 nanečisto. Ссылка — в описании видео. И подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "Fill in form 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.",
+"vi": "Hãy điền mẫu đơn 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Psaní, úloha dvě. E-mail číslo 20: Zkouška.": {
+"uk": "Письмо, завдання друге. E-mail номер 20: іспит.",
+"ru": "Письмо, задание второе. E-mail номер 20: экзамен.",
+"en": "Writing, task two. E-mail number 20: The exam.",
+"vi": "Viết, bài hai. E-mail số 20: Kỳ thi."
+},
+"Udělal jste zkoušku z češtiny. Napište e-mail učitelce z kurzu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.": {
+"uk": "Ви склали іспит з чеської. Напишіть e-mail учительці з курсу. Напишіть e-mail, мінімум тридцять п'ять слів. До кожної картинки — одне речення.",
+"ru": "Вы сдали экзамен по чешскому. Напишите e-mail учительнице с курса. Напишите e-mail, минимум тридцать пять слов. К каждой картинке — одно предложение.",
+"en": "You passed your Czech exam. Write an e-mail to your course teacher. Write an e-mail of at least thirty-five words. Write one sentence for each picture.",
+"vi": "Bạn đã thi đỗ tiếng Séc. Hãy viết e-mail cho cô giáo khóa học. Viết e-mail ít nhất ba mươi lăm từ. Mỗi bức tranh viết một câu."
+},
+"Dobrý den, paní učitelko,": {
+"uk": "Добрий день, пані вчителько,",
+"ru": "Добрый день, уважаемая учительница,",
+"en": "Dear Teacher,",
+"vi": "Kính chào cô giáo,"
+},
+"chci Vám říct, že jsem udělal zkoušku z češtiny!": {
+"uk": "хочу вам сказати, що я склав іспит з чеської!",
+"ru": "хочу вам сказать, что я сдал экзамен по чешскому!",
+"en": "I want to tell you that I passed my Czech exam!",
+"vi": "em muốn báo với cô rằng em đã thi đỗ tiếng Séc!"
+},
+"Nejtěžší byl poslech, lidé mluvili moc rychle.": {
+"uk": "Найважчим було аудіювання, люди говорили дуже швидко.",
+"ru": "Самым трудным было аудирование, люди говорили очень быстро.",
+"en": "The listening was the hardest — people spoke very fast.",
+"vi": "Khó nhất là phần nghe, mọi người nói rất nhanh."
+},
+"Moc Vám děkuji za Vaše lekce a za trpělivost.": {
+"uk": "Щиро дякую вам за уроки й за терпіння.",
+"ru": "Большое спасибо вам за уроки и за терпение.",
+"en": "Thank you very much for your lessons and your patience.",
+"vi": "Em cảm ơn cô rất nhiều vì các buổi học và sự kiên nhẫn."
+},
+"Teď si podám žádost o trvalý pobyt a budu se dál učit česky.": {
+"uk": "Тепер я подам заяву на ПМЖ і далі вчитиму чеську.",
+"ru": "Теперь я подам заявление на ПМЖ и буду дальше учить чешский.",
+"en": "Now I'll apply for permanent residence and keep learning Czech.",
+"vi": "Bây giờ em sẽ nộp đơn xin thường trú và tiếp tục học tiếng Séc."
+},
+"Chtěl bych Vás pozvat na kávu a dort, máte čas příští týden?": {
+"uk": "Я хотів би запросити вас на каву й торт — у вас є час наступного тижня?",
+"ru": "Я хотел бы пригласить вас на кофе и торт — у вас есть время на следующей неделе?",
+"en": "I'd like to invite you for coffee and cake — are you free next week?",
+"vi": "Em muốn mời cô đi uống cà phê và ăn bánh, tuần sau cô có rảnh không?"
+},
+"Tento e-mail má 57 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.": {
+"uk": "Цей e-mail має 57 слів. На кожну картинку — одне речення. Не забудьте про привітання на початку й наприкінці.",
+"ru": "В этом e-mail 57 слов. На каждую картинку — одно предложение. Не забудьте о приветствии в начале и в конце.",
+"en": "This e-mail has 57 words. One sentence for each picture. Don't forget the greeting at the beginning and the end.",
+"vi": "E-mail này có 57 từ. Mỗi bức tranh một câu. Đừng quên lời chào ở đầu và cuối thư."
+},
+"Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Напишіть свій e-mail на сайті Zkouška A2 nanečisto, посилання в описі відео. І підписуйтеся на канал — щодня нове відео.",
+"ru": "Напишите свой e-mail на сайте Zkouška A2 nanečisto, ссылка в описании видео. И подписывайтесь на канал — каждый день новое видео.",
+"en": "Write your own e-mail on the Zkouška A2 nanečisto website, the link is in the video description. And subscribe — a new video every day.",
+"vi": "Hãy viết e-mail của bạn trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới."
+},
+"Mluvení, úloha jedna. Téma 20: Cestování a dovolená. Deset otázek. Poslouchejte otázku a odpovězte nahlas.": {
+"uk": "Мовлення, завдання перше. Тема 20: подорожі й відпустка. Десять питань. Слухайте питання й відповідайте вголос.",
+"ru": "Говорение, задание первое. Тема 20: путешествия и отпуск. Десять вопросов. Слушайте вопрос и отвечайте вслух.",
+"en": "Speaking, task one. Topic 20: Travel and holidays. Ten questions. Listen to the question and answer out loud.",
+"vi": "Nói, bài một. Chủ đề 20: Du lịch và kỳ nghỉ. Mười câu hỏi. Hãy nghe câu hỏi và trả lời thành tiếng."
+},
+"Rád cestujete?": {
+"uk": "Ви любите подорожувати?",
+"ru": "Вы любите путешествовать?",
+"en": "Do you like travelling?",
+"vi": "Bạn có thích đi du lịch không?"
+},
+"Ano, cestuju rád, poznávám nová místa.": {
+"uk": "Так, люблю подорожувати, пізнаю нові місця.",
+"ru": "Да, люблю путешествовать, узнаю новые места.",
+"en": "Yes, I like travelling — I discover new places.",
+"vi": "Có, tôi thích đi du lịch, khám phá những nơi mới."
+},
+"Jak nejraději cestujete?": {
+"uk": "Як ви найбільше любите подорожувати?",
+"ru": "Как вы больше всего любите путешествовать?",
+"en": "How do you most like to travel?",
+"vi": "Bạn thích đi du lịch bằng gì nhất?"
+},
+"Nejraději cestuju autem, protože můžu zastavit, kde chci.": {
+"uk": "Найбільше люблю подорожувати машиною, бо можу зупинитися, де хочу.",
+"ru": "Больше всего люблю путешествовать на машине, потому что могу остановиться, где хочу.",
+"en": "I most like travelling by car, because I can stop wherever I want.",
+"vi": "Tôi thích đi bằng ô tô nhất vì có thể dừng ở đâu tùy thích."
+},
+"Kam jezdíte na dovolenou?": {
+"uk": "Куди ви їздите у відпустку?",
+"ru": "Куда вы ездите в отпуск?",
+"en": "Where do you go on holiday?",
+"vi": "Bạn thường đi nghỉ ở đâu?"
+},
+"Na dovolenou jezdíme k moři nebo na hory.": {
+"uk": "У відпустку ми їздимо на море або в гори.",
+"ru": "В отпуск мы ездим на море или в горы.",
+"en": "We go to the seaside or to the mountains on holiday.",
+"vi": "Chúng tôi thường đi biển hoặc lên núi."
+},
+"Kolik dní trvá vaše dovolená?": {
+"uk": "Скільки днів триває ваша відпустка?",
+"ru": "Сколько дней длится ваш отпуск?",
+"en": "How many days does your holiday last?",
+"vi": "Kỳ nghỉ của bạn kéo dài bao nhiêu ngày?"
+},
+"Naše dovolená trvá obvykle deset dní.": {
+"uk": "Наша відпустка зазвичай триває десять днів.",
+"ru": "Наш отпуск обычно длится десять дней.",
+"en": "Our holiday usually lasts ten days.",
+"vi": "Kỳ nghỉ của chúng tôi thường kéo dài mười ngày."
+},
+"Co si berete na cestu?": {
+"uk": "Що ви берете в дорогу?",
+"ru": "Что вы берёте в дорогу?",
+"en": "What do you take on a trip?",
+"vi": "Bạn mang gì khi đi đường?"
+},
+"Na cestu si beru pas, peníze, telefon a oblečení.": {
+"uk": "У дорогу я беру паспорт, гроші, телефон і одяг.",
+"ru": "В дорогу я беру паспорт, деньги, телефон и одежду.",
+"en": "I take my passport, money, phone and clothes.",
+"vi": "Tôi mang hộ chiếu, tiền, điện thoại và quần áo."
+},
+"Kde jste byl na poslední dovolené?": {
+"uk": "Де ви були в останній відпустці?",
+"ru": "Где вы были в последнем отпуске?",
+"en": "Where did you go on your last holiday?",
+"vi": "Kỳ nghỉ gần đây nhất bạn đã đi đâu?"
+},
+"Na poslední dovolené jsem byl v Itálii u moře.": {
+"uk": "В останній відпустці я був в Італії на морі.",
+"ru": "В последнем отпуске я был в Италии на море.",
+"en": "On my last holiday I was at the seaside in Italy.",
+"vi": "Kỳ nghỉ gần nhất tôi đã ở biển nước Ý."
+},
+"Co jste tam dělal?": {
+"uk": "Що ви там робили?",
+"ru": "Что вы там делали?",
+"en": "What did you do there?",
+"vi": "Bạn đã làm gì ở đó?"
+},
+"Koupal jsem se, jedl jsem pizzu a prohlížel jsem si město.": {
+"uk": "Я купався, їв піцу й оглядав місто.",
+"ru": "Я купался, ел пиццу и осматривал город.",
+"en": "I swam, ate pizza and looked around the town.",
+"vi": "Tôi tắm biển, ăn pizza và tham quan thành phố."
+},
+"Jaká byla vaše nejhorší cesta?": {
+"uk": "Якою була ваша найгірша поїздка?",
+"ru": "Какой была ваша худшая поездка?",
+"en": "What was your worst trip?",
+"vi": "Chuyến đi tệ nhất của bạn là gì?"
+},
+"Nejhorší cesta byla, když se nám rozbilo auto na dálnici.": {
+"uk": "Найгіршою була поїздка, коли в нас зламалася машина на автостраді.",
+"ru": "Худшей была поездка, когда у нас сломалась машина на автостраде.",
+"en": "The worst trip was when our car broke down on the motorway.",
+"vi": "Chuyến tệ nhất là khi xe chúng tôi bị hỏng trên đường cao tốc."
+},
+"Kam pojedete příští léto?": {
+"uk": "Куди ви поїдете наступного літа?",
+"ru": "Куда вы поедете следующим летом?",
+"en": "Where will you go next summer?",
+"vi": "Mùa hè tới bạn sẽ đi đâu?"
+},
+"Příští léto pojedeme do Chorvatska na dva týdny.": {
+"uk": "Наступного літа ми поїдемо в Хорватію на два тижні.",
+"ru": "Следующим летом мы поедем в Хорватию на две недели.",
+"en": "Next summer we'll go to Croatia for two weeks.",
+"vi": "Mùa hè tới chúng tôi sẽ đi Croatia hai tuần."
+},
+"Kterou zemi byste chtěl navštívit a proč?": {
+"uk": "Яку країну ви хотіли б відвідати і чому?",
+"ru": "Какую страну вы хотели бы посетить и почему?",
+"en": "Which country would you like to visit and why?",
+"vi": "Bạn muốn đến thăm nước nào và tại sao?"
+},
+"Chtěl bych navštívit Japonsko, protože má zajímavou kulturu.": {
+"uk": "Я хотів би відвідати Японію, бо там цікава культура.",
+"ru": "Я хотел бы посетить Японию, потому что там интересная культура.",
+"en": "I'd like to visit Japan because it has an interesting culture.",
+"vi": "Tôi muốn đến Nhật Bản vì văn hóa ở đó rất thú vị."
+},
+"Výborně! Procvičte si téma 20 na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Чудово! Потренуйте тему 20 на сайті Zkouška A2 nanečisto, посилання — в описі відео. І підписуйтеся на канал: тут щодня нове відео.",
+"ru": "Отлично! Потренируйте тему 20 на сайте Zkouška A2 nanečisto, ссылка — в описании видео. И подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "Great! Practise topic 20 on the Zkouška A2 nanečisto website — the link is in the video description. And subscribe to the channel — there's a new video every day.",
+"vi": "Tuyệt vời! Hãy luyện chủ đề 20 trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Mluvení, úloha dvě. Karta číslo 20. Jste v zoo. Chcete jít s dětmi na prohlídku. Položte čtyři otázky.": {
+"uk": "Мовлення, завдання друге. Картка номер 20. Ви в зоопарку. Хочете піти з дітьми на екскурсію. Поставте чотири запитання.",
+"ru": "Говорение, задание второе. Карточка номер 20. Вы в зоопарке. Хотите пойти с детьми на экскурсию. Задайте четыре вопроса.",
+"en": "Speaking, task two. Card number 20. You are at the zoo. You want to go round with your children. Ask four questions.",
+"vi": "Nói, bài hai. Thẻ số 20. Bạn đang ở sở thú. Bạn muốn đi tham quan cùng các con. Hãy đặt bốn câu hỏi."
+},
+"Jste v zoo. Chcete jít s dětmi na prohlídku.": {
+"uk": "Ви в зоопарку. Хочете піти з дітьми на екскурсію.",
+"ru": "Вы в зоопарке. Хотите пойти с детьми на экскурсию.",
+"en": "You are at the zoo. You want to go round with your children.",
+"vi": "Bạn đang ở sở thú. Bạn muốn đi tham quan cùng các con."
+},
+"Dobrý den. Co pro vás můžu udělat?": {
+"uk": "Добрий день. Чим можу допомогти?",
+"ru": "Добрый день. Чем могу помочь?",
+"en": "Good afternoon. What can I do for you?",
+"vi": "Xin chào. Tôi có thể giúp gì cho bạn?"
+},
+"Dobrý den, kolik stojí vstupenka pro děti?": {
+"uk": "Добрий день, скільки коштує квиток для дітей?",
+"ru": "Добрый день, сколько стоит билет для детей?",
+"en": "Hello, how much is a children's ticket?",
+"vi": "Xin chào, vé trẻ em giá bao nhiêu?"
+},
+"Děti platí 100 Kč.": {
+"uk": "Діти платять 100 крон.",
+"ru": "Дети платят 100 крон.",
+"en": "Children pay 100 crowns.",
+"vi": "Trẻ em trả 100 koruna."
+},
+"Kdy je krmení zvířat?": {
+"uk": "Коли годування тварин?",
+"ru": "Когда кормление животных?",
+"en": "When is animal feeding time?",
+"vi": "Khi nào cho thú ăn?"
+},
+"Krmení je ve 14 hodin.": {
+"uk": "Годування о 14 годині.",
+"ru": "Кормление в 14 часов.",
+"en": "Feeding is at 2 p.m.",
+"vi": "Giờ cho ăn là 14 giờ."
+},
+"Je tady restaurace?": {
+"uk": "Тут є ресторан?",
+"ru": "Здесь есть ресторан?",
+"en": "Is there a restaurant here?",
+"vi": "Ở đây có nhà hàng không?"
+},
+"Ano, restaurace je u vchodu.": {
+"uk": "Так, ресторан біля входу.",
+"ru": "Да, ресторан у входа.",
+"en": "Yes, the restaurant is by the entrance.",
+"vi": "Có, nhà hàng ở cạnh lối vào."
+},
+"Můžu si půjčit kočárek?": {
+"uk": "Можна взяти напрокат дитячий візок?",
+"ru": "Можно взять напрокат детскую коляску?",
+"en": "Can I borrow a pushchair?",
+"vi": "Tôi có thể mượn xe đẩy không?"
+},
+"Ano, kočárky půjčujeme u pokladny zdarma.": {
+"uk": "Так, візки видаємо біля каси безкоштовно.",
+"ru": "Да, коляски выдаём у кассы бесплатно.",
+"en": "Yes, we lend pushchairs at the ticket desk for free.",
+"vi": "Có, chúng tôi cho mượn xe đẩy miễn phí ở quầy vé."
+},
+"Děkuju za informace. Na shledanou.": {
+"uk": "Дякую за інформацію. До побачення.",
+"ru": "Спасибо за информацию. До свидания.",
+"en": "Thank you for the information. Goodbye.",
+"vi": "Cảm ơn thông tin. Tạm biệt."
+},
+"Hezký den.": {
+"uk": "Гарного дня.",
+"ru": "Хорошего дня.",
+"en": "Have a nice day.",
+"vi": "Chúc một ngày tốt lành."
+},
+"Procvičte si kartu 20 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Потренуйте картку 20 на сайті Zkouška A2 nanečisto. Посилання — в описі відео. І підписуйтеся на канал: тут щодня нове відео.",
+"ru": "Потренируйте карточку 20 на сайте Zkouška A2 nanečisto. Ссылка — в описании видео. И подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "Practise card 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.",
+"vi": "Hãy luyện thẻ 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Mluvení, úloha tři. Příběh číslo 20: Den zkoušky. Co dělal Andrij v den zkoušky? Vyprávějte podle obrázků v minulém čase.": {
+"uk": "Мовлення, завдання третє. Розповідь номер 20: день іспиту. Що робив Андрій у день іспиту? Розкажіть за картинками в минулому часі.",
+"ru": "Говорение, задание третье. Рассказ номер 20: день экзамена. Что делал Андрей в день экзамена? Расскажите по картинкам в прошедшем времени.",
+"en": "Speaking, task three. Story number 20: Exam day. What did Andrij do on the day of the exam? Tell the story from the pictures in the past tense.",
+"vi": "Nói, bài ba. Câu chuyện số 20: Ngày thi. Andrij đã làm gì vào ngày thi? Hãy kể theo tranh ở thì quá khứ."
+},
+"Co dělal Andrij v den zkoušky?": {
+"uk": "Що робив Андрій у день іспиту?",
+"ru": "Что делал Андрей в день экзамена?",
+"en": "What did Andrij do on the day of the exam?",
+"vi": "Andrij đã làm gì vào ngày thi?"
+},
+"V den zkoušky vstal Andrij brzy ráno.": {
+"uk": "У день іспиту Андрій встав рано-вранці.",
+"ru": "В день экзамена Андрей встал рано утром.",
+"en": "On the day of the exam Andrij got up early in the morning.",
+"vi": "Vào ngày thi, Andrij dậy từ sáng sớm."
+},
+"Vypil kávu a ještě jednou si zopakoval slovíčka.": {
+"uk": "Випив каву й ще раз повторив слова.",
+"ru": "Выпил кофе и ещё раз повторил слова.",
+"en": "He drank a coffee and went over his vocabulary once more.",
+"vi": "Anh ấy uống cà phê và ôn lại từ vựng một lần nữa."
+},
+"Byl trochu nervózní, ale věřil si, protože se dlouho učil.": {
+"uk": "Він трохи хвилювався, але вірив у себе, бо довго вчився.",
+"ru": "Он немного волновался, но верил в себя, потому что долго учился.",
+"en": "He was a bit nervous but confident, because he had studied for a long time.",
+"vi": "Anh hơi lo lắng nhưng tự tin vì đã học rất lâu."
+},
+"Potom jel vlakem do jazykové školy.": {
+"uk": "Потім поїхав потягом до мовної школи.",
+"ru": "Потом поехал на поезде в языковую школу.",
+"en": "Then he took the train to the language school.",
+"vi": "Sau đó anh đi tàu đến trường ngôn ngữ."
+},
+"Cesta trvala čtyřicet minut.": {
+"uk": "Дорога тривала сорок хвилин.",
+"ru": "Дорога заняла сорок минут.",
+"en": "The journey took forty minutes.",
+"vi": "Chuyến đi mất bốn mươi phút."
+},
+"Ve třídě psal test.": {
+"uk": "У класі він писав тест.",
+"ru": "В классе он писал тест.",
+"en": "In the classroom he did the written test.",
+"vi": "Trong lớp anh làm bài thi viết."
+},
+"Nejdřív bylo čtení, potom psaní a poslech.": {
+"uk": "Спочатку було читання, потім письмо й аудіювання.",
+"ru": "Сначала было чтение, потом письмо и аудирование.",
+"en": "First came reading, then writing and listening.",
+"vi": "Đầu tiên là đọc, sau đó là viết và nghe."
+},
+"Odpoledne měl ústní zkoušku.": {
+"uk": "Після обіду в нього був усний іспит.",
+"ru": "После обеда у него был устный экзамен.",
+"en": "In the afternoon he had the oral exam.",
+"vi": "Buổi chiều anh thi nói."
+},
+"Mluvil s examinátorkou o práci a rodině.": {
+"uk": "Він говорив з екзаменаторкою про роботу й сім'ю.",
+"ru": "Он говорил с экзаменатором о работе и семье.",
+"en": "He talked with the examiner about work and family.",
+"vi": "Anh nói chuyện với giám khảo về công việc và gia đình."
+},
+"Na konci se usmíval, protože věděl, že to zvládl.": {
+"uk": "Наприкінці він усміхався, бо знав, що впорався.",
+"ru": "В конце он улыбался, потому что знал, что справился.",
+"en": "At the end he was smiling, because he knew he had made it.",
+"vi": "Cuối cùng anh mỉm cười vì biết mình đã làm được."
+},
+"Vyprávějte příběh 20 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Розкажіть історію 20 на сайті Zkouška A2 nanečisto. Посилання — в описі відео. І підписуйтеся на канал: тут щодня нове відео.",
+"ru": "Расскажите историю 20 на сайте Zkouška A2 nanečisto. Ссылка — в описании видео. И подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "Tell story 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.",
+"vi": "Hãy kể câu chuyện 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Mluvení, úloha čtyři. Situace číslo 20. Zkoušející vám řekne situaci. Domluvte se s ní, vyberte jednu možnost a řekněte proč.": {
+"uk": "Мовлення, завдання четверте. Ситуація номер 20. Екзаменаторка опише ситуацію. Домовтеся з нею, виберіть один варіант і скажіть чому.",
+"ru": "Говорение, задание четвёртое. Ситуация номер 20. Экзаменатор опишет ситуацию. Договоритесь с ней, выберите один вариант и скажите почему.",
+"en": "Speaking, task four. Situation number 20. The examiner describes a situation. Agree with her, choose one option and say why.",
+"vi": "Nói, bài bốn. Tình huống số 20. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận với cô ấy, chọn một phương án và nói lý do."
+},
+"Uděláme zkoušku a chceme to oslavit. Jak to oslavíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Ми складемо іспит і хочемо це відсвяткувати. Як відсвяткуємо? Маєш ідею? Можеш вибирати з цих варіантів.",
+"ru": "Мы сдадим экзамен и хотим это отпраздновать. Как отпразднуем? Есть идея? Можешь выбирать из этих вариантов.",
+"en": "We'll pass the exam and want to celebrate. How shall we celebrate? Any ideas? You can choose from these options.",
+"vi": "Chúng mình sẽ thi đỗ và muốn ăn mừng. Ăn mừng thế nào? Bạn có ý gì không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme jít na večeři do restaurace.": {
+"uk": "Можемо піти на вечерю в ресторан.",
+"ru": "Можем пойти на ужин в ресторан.",
+"en": "We can go out to a restaurant for dinner.",
+"vi": "Mình có thể đi ăn tối ở nhà hàng."
+},
+"Do restaurace chodíme často.": {
+"uk": "У ресторан ми ходимо часто.",
+"ru": "В ресторан мы ходим часто.",
+"en": "We go to restaurants often.",
+"vi": "Mình đi nhà hàng thường xuyên rồi."
+},
+"Tak půjdeme na bowling.": {
+"uk": "Тоді підемо на боулінг.",
+"ru": "Тогда пойдём в боулинг.",
+"en": "Then let's go bowling.",
+"vi": "Vậy chúng ta đi chơi bowling."
+},
+"Bowling neumím.": {
+"uk": "Я не вмію грати в боулінг.",
+"ru": "Я не умею играть в боулинг.",
+"en": "I can't bowl.",
+"vi": "Mình không biết chơi bowling."
+},
+"Tak pojedeme na výlet na loďkách.": {
+"uk": "Тоді поїдемо на прогулянку на човнах.",
+"ru": "Тогда поедем на прогулку на лодках.",
+"en": "Then we'll go on a boat trip.",
+"vi": "Vậy mình đi chơi thuyền nhé."
+},
+"A proč chceš udělat tohle?": {
+"uk": "А чому ти хочеш саме це?",
+"ru": "А почему ты хочешь именно это?",
+"en": "And why do you want to do that?",
+"vi": "Tại sao bạn muốn làm điều này?"
+},
+"Protože bude hezky a je to něco nového.": {
+"uk": "Бо буде гарна погода і це щось нове.",
+"ru": "Потому что будет хорошая погода и это что-то новое.",
+"en": "Because the weather will be nice and it's something new.",
+"vi": "Vì trời sẽ đẹp và đó là điều mới mẻ."
+},
+"To je super nápad. Pojedeme na loďky.": {
+"uk": "Це супер ідея. Поїдемо на човни.",
+"ru": "Это супер идея. Поедем на лодки.",
+"en": "That's a great idea. Let's go boating.",
+"vi": "Ý hay đấy. Mình đi thuyền nhé."
+},
+"Procvičte si situaci 20 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.": {
+"uk": "Потренуйте ситуацію 20 на сайті Zkouška A2 nanečisto. Посилання — в описі відео. І підписуйтеся на канал: тут щодня нове відео.",
+"ru": "Потренируйте ситуацию 20 на сайте Zkouška A2 nanečisto. Ссылка — в описании видео. И подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "Practise situation 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.",
+"vi": "Hãy luyện tình huống 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Všech pět situací z lekcí jedenáct až patnáct – vždy tři možnosti a celý vzorový dialog se zkoušející. A navíc dvanáct frází, se kterými se domluvíte v každé situaci, a pět chyb, kvůli kterým lidé ztrácejí body. Připravte se a mluvte nahlas!": {
+"uk": "Усі п'ять ситуацій з уроків 11–15 — щоразу три варіанти і повний зразковий діалог з екзаменаторкою. А ще дванадцять фраз, з якими ви домовитеся в будь-якій ситуації, і п'ять помилок, через які втрачають бали. Готуйтеся й говоріть уголос!",
+"ru": "Все пять ситуаций из уроков 11–15 — каждый раз три варианта и полный образец диалога с экзаменатором. А ещё двенадцать фраз, с которыми вы договоритесь в любой ситуации, и пять ошибок, из-за которых теряют баллы. Готовьтесь и говорите вслух!",
+"en": "All five situations from lessons 11–15 — three options each and a full model dialogue with the examiner. Plus twelve phrases that work in any situation and five mistakes that cost people points. Get ready and speak out loud!",
+"vi": "Cả năm tình huống từ bài 11–15 — mỗi tình huống ba phương án và hội thoại mẫu đầy đủ với giám khảo. Thêm mười hai cụm từ dùng cho mọi tình huống và năm lỗi khiến mọi người mất điểm. Hãy chuẩn bị và nói thành tiếng!"
+},
+"Jak úloha čtyři funguje? Zkoušející vám řekne situaci a ukáže tři možnosti. Vy navrhnete jednu. Ona většinou řekne, že se jí to nelíbí – a vy navrhnete jinou. Nakonec se dohodnete a řeknete proč. Za tuto úlohu můžete dostat sedm bodů.": {
+"uk": "Як працює завдання 4? Екзаменаторка описує ситуацію й показує три варіанти. Ви пропонуєте один. Вона зазвичай каже, що їй це не подобається, — і ви пропонуєте інший. Наприкінці ви домовляєтеся й кажете чому. За це завдання можна отримати сім балів.",
+"ru": "Как устроено задание 4? Экзаменатор описывает ситуацию и показывает три варианта. Вы предлагаете один. Она обычно говорит, что ей это не нравится, — и вы предлагаете другой. В конце вы договариваетесь и говорите почему. За это задание можно получить семь баллов.",
+"en": "How does task 4 work? The examiner describes a situation and shows three options. You suggest one. She usually says she doesn’t like it — and you suggest another. In the end you agree and say why. You can get seven points for this task.",
+"vi": "Bài 4 diễn ra thế nào? Giám khảo nêu tình huống và đưa ra ba phương án. Bạn đề xuất một. Cô ấy thường nói không thích — và bạn đề xuất phương án khác. Cuối cùng hai người thống nhất và bạn nói lý do. Bài này được tối đa bảy điểm."
+},
+"Dialog má jednoduchý plán. Navrhnete jednu možnost. Zkoušející řekne, proč ne. Vy klidně navrhnete jinou možnost. A když se zeptá proč, odpovíte: protože. Teď si projdeme všech pět situací. Nejdřív mluvte sami, pak uslyšíte vzor.": {
+"uk": "Діалог має простий план. Ви пропонуєте один варіант. Екзаменаторка каже, чому ні. Ви спокійно пропонуєте інший. А коли вона спитає чому, відповідаєте: protože. Тепер пройдемо всі п’ять ситуацій. Спочатку говоріть самі, потім почуєте зразок.",
+"ru": "У диалога простой план. Вы предлагаете один вариант. Экзаменатор говорит, почему нет. Вы спокойно предлагаете другой. А когда она спросит почему, отвечаете: protože. Теперь пройдём все пять ситуаций. Сначала говорите сами, потом услышите образец.",
+"en": "The dialogue has a simple plan. You suggest one option. The examiner says why not. You calmly suggest another. And when she asks why, you answer: protože. Now let’s go through all five situations. Speak yourself first, then you hear the model.",
+"vi": "Hội thoại có kế hoạch đơn giản. Bạn đề xuất một phương án. Giám khảo nói vì sao không. Bạn bình tĩnh đề xuất phương án khác. Khi cô hỏi tại sao, bạn trả lời: protože. Bây giờ đi qua cả năm tình huống. Hãy tự nói trước, sau đó nghe mẫu."
+},
+"Situace jedenáct: Chceme spolu jít v pátek večer na nějakou akci.": {
+"uk": "Ситуація 11: у п'ятницю ввечері хочемо разом піти на якийсь захід.",
+"ru": "Ситуация 11: в пятницу вечером хотим вместе пойти на какое-нибудь мероприятие.",
+"en": "Situation 11: We want to go to an event together on Friday evening.",
+"vi": "Tình huống 11: Tối thứ Sáu chúng mình muốn cùng đi một sự kiện."
+},
+"Chceme spolu jít v pátek večer na nějakou akci. Kam půjdeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Хочемо разом піти в п'ятницю ввечері на якийсь захід. Куди підемо? Маєш ідею? Можеш вибрати з цих варіантів.",
+"ru": "Хотим вместе пойти в пятницу вечером на какое-нибудь мероприятие. Куда пойдём? Есть идея? Можешь выбрать из этих вариантов.",
+"en": "Let's go out together on Friday evening. Where shall we go? Any ideas? You can choose from these options.",
+"vi": "Tối thứ Sáu chúng ta cùng đi chơi nhé. Đi đâu nhỉ? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme jít na fotbalový zápas.": {
+"uk": "Можемо піти на футбольний матч.",
+"ru": "Можем пойти на футбольный матч.",
+"en": "We could go to a football match.",
+"vi": "Chúng ta có thể đi xem bóng đá."
+},
+"Fotbal mě nebaví.": {
+"uk": "Футбол мені не цікавий.",
+"ru": "Футбол мне не интересен.",
+"en": "I don't enjoy football.",
+"vi": "Mình không thích bóng đá."
+},
+"Tak půjdeme na koncert.": {
+"uk": "Тоді підемо на концерт.",
+"ru": "Тогда пойдём на концерт.",
+"en": "Then let's go to a concert.",
+"vi": "Vậy chúng ta đi xem hòa nhạc."
+},
+"Koncert je vyprodaný.": {
+"uk": "Квитки на концерт розпродані.",
+"ru": "Билеты на концерт распроданы.",
+"en": "The concert is sold out.",
+"vi": "Buổi hòa nhạc đã bán hết vé."
+},
+"A proč chceš jít tam?": {
+"uk": "А чому саме туди?",
+"ru": "А почему именно туда?",
+"en": "And why there?",
+"vi": "Tại sao lại ở đó?"
+},
+"Protože je to zábava a můžeme vzít i kamarády.": {
+"uk": "Бо це весело і можемо взяти з собою друзів.",
+"ru": "Потому что это весело и можно взять с собой друзей.",
+"en": "Because it's fun and we can bring our friends too.",
+"vi": "Vì vui và chúng ta có thể rủ thêm bạn bè."
+},
+"Dobře, půjdeme na bowling.": {
+"uk": "Добре, підемо на боулінг.",
+"ru": "Хорошо, пойдём в боулинг.",
+"en": "OK, let's go bowling.",
+"vi": "Được, chúng ta đi bowling."
+},
+"Situace dvanáct: Chceme si spolu adoptovat zvíře z útulku pro děti.": {
+"uk": "Ситуація 12: хочемо взяти для дітей тварину з притулку.",
+"ru": "Ситуация 12: хотим взять для детей животное из приюта.",
+"en": "Situation 12: We want to adopt a pet from a shelter for the kids.",
+"vi": "Tình huống 12: Chúng mình muốn nhận nuôi một con vật từ trại cho các con."
+},
+"Chceme si spolu adoptovat zvíře z útulku pro děti. Jaké zvíře vezmeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Хочемо разом узяти тварину з притулку для дітей. Яку тварину візьмемо? Маєш ідею? Можеш вибрати з цих варіантів.",
+"ru": "Хотим вместе взять животное из приюта для детей. Какое животное возьмём? Есть идея? Можешь выбрать из этих вариантов.",
+"en": "Let's adopt an animal from the shelter for the kids. Which animal shall we take? Any ideas? You can choose from these options.",
+"vi": "Chúng ta cùng nhận nuôi một con vật từ trại cứu hộ cho bọn trẻ nhé. Nhận con gì? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme si vzít psa.": {
+"uk": "Можемо взяти собаку.",
+"ru": "Можем взять собаку.",
+"en": "We could take a dog.",
+"vi": "Chúng ta có thể nhận một con chó."
+},
+"Pes potřebuje hodně prostoru.": {
+"uk": "Собаці потрібно багато місця.",
+"ru": "Собаке нужно много места.",
+"en": "A dog needs a lot of space.",
+"vi": "Chó cần nhiều không gian."
+},
+"Tak si vezmeme kočku.": {
+"uk": "Тоді візьмемо кішку.",
+"ru": "Тогда возьмём кошку.",
+"en": "Then let's take a cat.",
+"vi": "Vậy nhận một con mèo."
+},
+"Na kočky mám alergii.": {
+"uk": "У мене алергія на котів.",
+"ru": "У меня аллергия на кошек.",
+"en": "I'm allergic to cats.",
+"vi": "Mình bị dị ứng với mèo."
+},
+"Tak si vezmeme králíka.": {
+"uk": "Тоді візьмемо кролика.",
+"ru": "Тогда возьмём кролика.",
+"en": "Then let's take a rabbit.",
+"vi": "Vậy nhận một con thỏ."
+},
+"A proč chceš tohle zvíře?": {
+"uk": "А чому ти хочеш саме цю тварину?",
+"ru": "А почему ты хочешь именно это животное?",
+"en": "And why do you want this animal?",
+"vi": "Sao bạn muốn con vật này?"
+},
+"Protože je malý, tichý a děti ho budou mít rády.": {
+"uk": "Бо він маленький, тихий, і діти його любитимуть.",
+"ru": "Потому что он маленький, тихий, и дети будут его любить.",
+"en": "Because it's small, quiet and the kids will love it.",
+"vi": "Vì nó nhỏ, yên lặng và bọn trẻ sẽ rất thích."
+},
+"Máš pravdu. Vezmeme si králíka.": {
+"uk": "Маєш рацію. Візьмемо кролика.",
+"ru": "Ты прав. Возьмём кролика.",
+"en": "You're right. Let's take the rabbit.",
+"vi": "Bạn nói đúng. Chúng ta nhận thỏ."
+},
+"Situace třináct: Chceme spolu koupit dárek kolegyni, která odchází z práce.": {
+"uk": "Ситуація 13: хочемо разом купити подарунок колезі, яка йде з роботи.",
+"ru": "Ситуация 13: хотим вместе купить подарок коллеге, которая уходит с работы.",
+"en": "Situation 13: We want to buy a present for a colleague who is leaving.",
+"vi": "Tình huống 13: Chúng mình muốn cùng mua quà cho đồng nghiệp sắp nghỉ việc."
+},
+"Chceme spolu koupit dárek kolegyni, která odchází z práce. Co jí koupíme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Хочемо разом купити подарунок колезі, яка йде з роботи. Що їй купимо? Маєш ідею? Можеш вибрати з цих варіантів.",
+"ru": "Хотим вместе купить подарок коллеге, которая уходит с работы. Что ей купим? Есть идея? Можешь выбрать из этих вариантов.",
+"en": "Let's buy a present together for a colleague who is leaving the job. What shall we get her? Any ideas? You can choose from these options.",
+"vi": "Chúng ta cùng mua quà cho đồng nghiệp sắp nghỉ việc nhé. Mua gì cho cô ấy? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme jí koupit kávovar.": {
+"uk": "Можемо купити їй кавоварку.",
+"ru": "Можем купить ей кофеварку.",
+"en": "We could buy her a coffee machine.",
+"vi": "Chúng ta có thể mua cho cô ấy máy pha cà phê."
+},
+"Kávovar je moc drahý.": {
+"uk": "Кавоварка надто дорога.",
+"ru": "Кофеварка слишком дорогая.",
+"en": "A coffee machine is too expensive.",
+"vi": "Máy pha cà phê đắt quá."
+},
+"Tak jí koupíme kytici.": {
+"uk": "Тоді купимо їй букет.",
+"ru": "Тогда купим ей букет.",
+"en": "Then let's buy her a bouquet.",
+"vi": "Vậy mua cho cô ấy một bó hoa."
+},
+"Kytice rychle uvadne.": {
+"uk": "Букет швидко зів'яне.",
+"ru": "Букет быстро завянет.",
+"en": "A bouquet will wilt quickly.",
+"vi": "Hoa sẽ nhanh héo."
+},
+"Tak jí koupíme poukaz do wellness.": {
+"uk": "Тоді купимо їй сертифікат у велнес.",
+"ru": "Тогда купим ей сертификат в велнес.",
+"en": "Then let's buy her a wellness voucher.",
+"vi": "Vậy mua cho cô ấy phiếu quà tặng spa."
+},
+"A proč chceš koupit tohle?": {
+"uk": "А чому ти хочеш купити саме це?",
+"ru": "А почему ты хочешь купить именно это?",
+"en": "And why do you want to buy that?",
+"vi": "Thế tại sao bạn muốn mua cái này?"
+},
+"Protože hodně pracovala a teď si může odpočinout.": {
+"uk": "Бо вона багато працювала, і тепер може відпочити.",
+"ru": "Потому что она много работала и теперь может отдохнуть.",
+"en": "Because she worked hard and now she can relax.",
+"vi": "Vì cô ấy đã làm việc rất nhiều và giờ có thể nghỉ ngơi."
+},
+"To je dobrý nápad. Koupíme jí poukaz do wellness.": {
+"uk": "Це гарна ідея. Купимо їй сертифікат у велнес.",
+"ru": "Это хорошая идея. Купим ей сертификат в велнес.",
+"en": "That's a good idea. Let's buy her a wellness voucher.",
+"vi": "Ý hay đấy. Chúng ta mua cho cô ấy phiếu quà tặng spa."
+},
+"Situace čtrnáct: Chceme spolu jet na víkend pryč z města.": {
+"uk": "Ситуація 14: хочемо разом поїхати на вихідні за місто.",
+"ru": "Ситуация 14: хотим вместе поехать на выходные за город.",
+"en": "Situation 14: We want to go away together for the weekend.",
+"vi": "Tình huống 14: Chúng mình muốn cùng đi ra ngoài thành phố cuối tuần."
+},
+"Chceme spolu jet na víkend pryč z města. Kam pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Хочемо разом поїхати на вихідні за місто. Куди поїдемо? Маєш ідею? Можеш вибрати з цих варіантів.",
+"ru": "Хотим вместе поехать на выходные за город. Куда поедем? Есть идея? Можешь выбрать из этих вариантов.",
+"en": "Let's go away from the city together for the weekend. Where shall we go? Any ideas? You can choose from these options.",
+"vi": "Chúng ta cùng đi chơi cuối tuần ngoài thành phố nhé. Đi đâu đây? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme jet do kempu.": {
+"uk": "Можемо поїхати в кемпінг.",
+"ru": "Можем поехать в кемпинг.",
+"en": "We could go camping.",
+"vi": "Chúng ta có thể đi cắm trại."
+},
+"V kempu je moc lidí.": {
+"uk": "У кемпінгу забагато людей.",
+"ru": "В кемпинге слишком много людей.",
+"en": "There are too many people at the campsite.",
+"vi": "Ở khu cắm trại đông người quá."
+},
+"Tak pojedeme do hotelu ve městě.": {
+"uk": "Тоді поїдемо в готель у місті.",
+"ru": "Тогда поедем в гостиницу в городе.",
+"en": "Then let's go to a hotel in town.",
+"vi": "Vậy đi khách sạn trong thành phố."
+},
+"Hotel je moc drahý.": {
+"uk": "Готель задорогий.",
+"ru": "Гостиница слишком дорогая.",
+"en": "The hotel is too expensive.",
+"vi": "Khách sạn đắt quá."
+},
+"Tak pojedeme na chatu.": {
+"uk": "Тоді поїдемо на дачу.",
+"ru": "Тогда поедем на дачу.",
+"en": "Then let's go to a cottage.",
+"vi": "Vậy đi nhà gỗ ở quê."
+},
+"A proč chceš jet tam?": {
+"uk": "А чому ти хочеш поїхати туди?",
+"ru": "А почему ты хочешь поехать туда?",
+"en": "And why do you want to go there?",
+"vi": "Sao bạn muốn đi đến đó?"
+},
+"Protože tam je klid a můžeme grilovat.": {
+"uk": "Бо там спокійно і можемо зробити гриль.",
+"ru": "Потому что там спокойно и можем пожарить на гриле.",
+"en": "Because it's quiet there and we can have a barbecue.",
+"vi": "Vì ở đó yên tĩnh và chúng ta có thể nướng thịt."
+},
+"Dobře, pojedeme na chatu.": {
+"uk": "Добре, поїдемо на дачу.",
+"ru": "Хорошо, поедем на дачу.",
+"en": "OK, let's go to the cottage.",
+"vi": "Được, chúng ta đi nhà gỗ."
+},
+"Situace patnáct: Chceme spolu jet na výlet.": {
+"uk": "Ситуація 15: хочемо разом поїхати на прогулянку.",
+"ru": "Ситуация 15: хотим вместе поехать на экскурсию.",
+"en": "Situation 15: We want to go on a trip together.",
+"vi": "Tình huống 15: Chúng mình muốn cùng đi chơi."
+},
+"Chceme spolu jet na výlet. Čím pojedeme? Máš nějaký nápad? Můžeš vybírat z těchto možností.": {
+"uk": "Хочемо разом поїхати на екскурсію. Чим поїдемо? Маєш ідею? Можеш вибрати з цих варіантів.",
+"ru": "Хотим вместе поехать на экскурсию. На чём поедем? Есть идея? Можешь выбрать из этих вариантов.",
+"en": "Let's go on a trip together. How shall we travel? Any ideas? You can choose from these options.",
+"vi": "Chúng ta cùng đi chơi nhé. Đi bằng gì đây? Bạn có ý tưởng không? Bạn có thể chọn trong các phương án này."
+},
+"Můžeme jet autem.": {
+"uk": "Можемо поїхати машиною.",
+"ru": "Можем поехать на машине.",
+"en": "We could go by car.",
+"vi": "Chúng ta có thể đi ô tô."
+},
+"Auto je v servisu.": {
+"uk": "Машина в сервісі.",
+"ru": "Машина в сервисе.",
+"en": "The car is at the garage.",
+"vi": "Ô tô đang ở xưởng sửa."
+},
+"Tak pojedeme autobusem.": {
+"uk": "Тоді поїдемо автобусом.",
+"ru": "Тогда поедем автобусом.",
+"en": "Then let's take the bus.",
+"vi": "Vậy đi xe buýt."
+},
+"Autobus jede moc dlouho.": {
+"uk": "Автобус їде задовго.",
+"ru": "Автобус едет слишком долго.",
+"en": "The bus takes too long.",
+"vi": "Xe buýt đi lâu quá."
+},
+"Tak pojedeme vlakem.": {
+"uk": "Тоді поїдемо потягом.",
+"ru": "Тогда поедем поездом.",
+"en": "Then let's take the train.",
+"vi": "Vậy đi tàu hỏa."
+},
+"A proč chceš jet takhle?": {
+"uk": "А чому ти хочеш їхати саме так?",
+"ru": "А почему ты хочешь ехать именно так?",
+"en": "And why do you want to go that way?",
+"vi": "Sao bạn muốn đi như vậy?"
+},
+"Protože je to rychlé a ve vlaku si můžeme číst.": {
+"uk": "Бо це швидко і в потязі можемо читати.",
+"ru": "Потому что это быстро и в поезде можем читать.",
+"en": "Because it's fast and we can read on the train.",
+"vi": "Vì nhanh và trên tàu chúng ta có thể đọc sách."
+},
+"Máš pravdu. Pojedeme vlakem.": {
+"uk": "Маєш рацію. Поїдемо потягом.",
+"ru": "Ты прав. Поедем поездом.",
+"en": "You're right. Let's take the train.",
+"vi": "Bạn nói đúng. Chúng ta đi tàu hỏa."
+},
+"Teď dvanáct frází, se kterými se domluvíte v každé situaci. Poslouchejte a opakujte nahlas.": {
+"uk": "Тепер дванадцять фраз, з якими ви домовитеся в будь-якій ситуації. Слухайте й повторюйте вголос.",
+"ru": "Теперь двенадцать фраз, с которыми вы договоритесь в любой ситуации. Слушайте и повторяйте вслух.",
+"en": "Now twelve phrases to reach agreement in any situation. Listen and repeat out loud.",
+"vi": "Bây giờ là mười hai cụm từ để thỏa thuận trong mọi tình huống. Hãy nghe và nhắc lại thành tiếng."
+},
+"Můžeme jít do kina.": {
+"uk": "Можемо піти в кіно.",
+"ru": "Можем пойти в кино.",
+"en": "We could go to the cinema.",
+"vi": "Chúng ta có thể đi xem phim."
+},
+"Co kdybychom jeli na hory?": {
+"uk": "А що, якби ми поїхали в гори?",
+"ru": "А что, если бы мы поехали в горы?",
+"en": "What if we went to the mountains?",
+"vi": "Hay là chúng ta đi lên núi?"
+},
+"A co třeba pizza?": {
+"uk": "А як щодо піци?",
+"ru": "А как насчёт пиццы?",
+"en": "How about pizza?",
+"vi": "Còn pizza thì sao?"
+},
+"Tak půjdeme do restaurace.": {
+"uk": "Тоді підемо в ресторан.",
+"ru": "Тогда пойдём в ресторан.",
+"en": "Then let's go to a restaurant.",
+"vi": "Vậy chúng ta đi nhà hàng."
+},
+"Dobře, tak uvaříme guláš.": {
+"uk": "Добре, тоді зваримо гуляш.",
+"ru": "Хорошо, тогда сварим гуляш.",
+"en": "OK, then we’ll cook goulash.",
+"vi": "Được, vậy nấu goulash."
+},
+"Máš pravdu, divadlo je drahé.": {
+"uk": "Маєш рацію, театр дорогий.",
+"ru": "Ты прав, театр дорогой.",
+"en": "You’re right, the theatre is expensive.",
+"vi": "Bạn nói đúng, nhà hát đắt."
+},
+"To je škoda, ale nevadí.": {
+"uk": "Шкода, але нічого.",
+"ru": "Жаль, но ничего.",
+"en": "That’s a pity, but never mind.",
+"vi": "Tiếc thật, nhưng không sao."
+},
+"Já bych radši jel k moři.": {
+"uk": "Я б краще поїхав на море.",
+"ru": "Я бы лучше поехал на море.",
+"en": "I’d rather go to the seaside.",
+"vi": "Tôi thích đi biển hơn."
+},
+"Protože plavání je zdravé.": {
+"uk": "Бо плавання корисне для здоров’я.",
+"ru": "Потому что плавание полезно для здоровья.",
+"en": "Because swimming is healthy.",
+"vi": "Vì bơi lội tốt cho sức khỏe."
+},
+"Kino je levné a je blízko.": {
+"uk": "Кіно дешеве й близько.",
+"ru": "Кино дешёвое и близко.",
+"en": "The cinema is cheap and close.",
+"vi": "Rạp phim rẻ và gần."
+},
+"Souhlasím, to je dobrý nápad.": {
+"uk": "Погоджуюся, це гарна ідея.",
+"ru": "Согласен, это хорошая идея.",
+"en": "I agree, that’s a good idea.",
+"vi": "Tôi đồng ý, ý hay đấy."
+},
+"Bude to legrace.": {
+"uk": "Буде весело.",
+"ru": "Будет весело.",
+"en": "It’ll be fun.",
+"vi": "Sẽ vui lắm."
+},
+"Pět typických chyb, kvůli kterým lidé ztrácejí body.": {
+"uk": "П’ять типових помилок, через які люди втрачають бали.",
+"ru": "Пять типичных ошибок, из-за которых люди теряют баллы.",
+"en": "Five typical mistakes that cost people points.",
+"vi": "Năm lỗi thường gặp khiến mọi người mất điểm."
+},
+"Správně: Co kdybychom šli do kina? Navrhujte celou větou: Můžeme…, Co kdybychom…": {
+"uk": "Правильно: Co kdybychom šli do kina? Пропонуйте цілим реченням: Můžeme…, Co kdybychom…",
+"ru": "Правильно: Co kdybychom šli do kina? Предлагайте целым предложением: Můžeme…, Co kdybychom…",
+"en": "Correct: Co kdybychom šli do kina? Make suggestions in full sentences: Můžeme…, Co kdybychom…",
+"vi": "Đúng: Co kdybychom šli do kina? Hãy đề xuất bằng câu đầy đủ: Můžeme…, Co kdybychom…"
+},
+"Správně: Dobře, tak půjdeme do divadla. Když zkoušející nesouhlasí, navrhněte jinou možnost.": {
+"uk": "Правильно: Dobře, tak půjdeme do divadla. Коли екзаменаторка не погоджується, запропонуйте інший варіант.",
+"ru": "Правильно: Dobře, tak půjdeme do divadla. Когда экзаменатор не согласен, предложите другой вариант.",
+"en": "Correct: Dobře, tak půjdeme do divadla. When the examiner disagrees, suggest another option.",
+"vi": "Đúng: Dobře, tak půjdeme do divadla. Khi giám khảo không đồng ý, hãy đề xuất phương án khác."
+},
+"Správně: Protože plavání je zdravé a bazén je blízko. Na konci řekněte konkrétní důvod: protože…": {
+"uk": "Правильно: Protože plavání je zdravé a bazén je blízko. Наприкінці назвіть конкретну причину: protože…",
+"ru": "Правильно: Protože plavání je zdravé a bazén je blízko. В конце назовите конкретную причину: protože…",
+"en": "Correct: Protože plavání je zdravé a bazén je blízko. At the end give a concrete reason: protože…",
+"vi": "Đúng: Protože plavání je zdravé a bazén je blízko. Cuối cùng hãy nêu lý do cụ thể: protože…"
+},
+"Správně: Chceš jet na hory? V úloze 4 mluvíte s kamarádkou: tykejte – máš, chceš, můžeš.": {
+"uk": "Правильно: Chceš jet na hory? У завданні 4 ви говорите з подругою: на «ти» — máš, chceš, můžeš.",
+"ru": "Правильно: Chceš jet na hory? В задании 4 вы говорите с подругой: на «ты» — máš, chceš, můžeš.",
+"en": "Correct: Chceš jet na hory? In task 4 you talk to a friend: use the informal “ty” — máš, chceš, můžeš.",
+"vi": "Đúng: Chceš jet na hory? Ở bài 4 bạn nói với bạn bè: xưng «ty» — máš, chceš, můžeš."
+},
+"Správně: Půjdeme do kina. Po do je 2. pád: do kina, do divadla, do restaurace.": {
+"uk": "Правильно: Půjdeme do kina. Після do — родовий відмінок: do kina, do divadla, do restaurace.",
+"ru": "Правильно: Půjdeme do kina. После do — родительный падеж: do kina, do divadla, do restaurace.",
+"en": "Correct: Půjdeme do kina. After do use the genitive: do kina, do divadla, do restaurace.",
+"vi": "Đúng: Půjdeme do kina. Sau do dùng cách 2: do kina, do divadla, do restaurace."
+},
+"Shrnutí. Za prvé: navrhujte celou větou. Za druhé: když zkoušející nesouhlasí, navrhněte jinou možnost. Za třetí: na konci řekněte důvod – protože. A za čtvrté: s kamarádkou si tykáte.": {
+"uk": "Підсумок. Перше: пропонуйте цілим реченням. Друге: коли екзаменаторка не погоджується, пропонуйте інший варіант. Третє: наприкінці скажіть причину — protože. І четверте: з подругою ви на «ти».",
+"ru": "Итог. Первое: предлагайте целым предложением. Второе: когда экзаменатор не согласен, предлагайте другой вариант. Третье: в конце скажите причину — protože. И четвёртое: с подругой вы на «ты».",
+"en": "Summary. First: make suggestions in full sentences. Second: when the examiner disagrees, suggest another option. Third: at the end give a reason — protože. And fourth: with a friend you use “ty”.",
+"vi": "Tóm tắt. Thứ nhất: đề xuất bằng câu đầy đủ. Thứ hai: khi giám khảo không đồng ý, hãy đề xuất phương án khác. Thứ ba: cuối cùng nêu lý do — protože. Và thứ tư: với bạn bè thì xưng «ty»."
+},
+"A co vy? Která situace z dnešního videa je pro vás nejtěžší? Napište do komentáře celou větou, co byste navrhli, a řekněte proč. A jestli vám video pomáhá, odebírejte kanál – každý den je tu nové video.": {
+"uk": "А ви? Яка ситуація з сьогоднішнього відео для вас найважча? Напишіть у коментарі повним реченням, що б ви запропонували, і скажіть чому. А якщо відео вам допомагає, підписуйтеся на канал: тут щодня нове відео.",
+"ru": "А вы? Какая ситуация из сегодняшнего видео для вас самая трудная? Напишите в комментарии полным предложением, что бы вы предложили, и скажите почему. А если видео вам помогает, подписывайтесь на канал: здесь каждый день новое видео.",
+"en": "What about you? Which situation in today's video is the hardest for you? Write in the comments, in a full sentence, what you would suggest and why. And if the video helps you, subscribe — there's a new video every day.",
+"vi": "Còn bạn? Tình huống nào trong video hôm nay khó nhất với bạn? Hãy viết vào bình luận bằng câu hoàn chỉnh bạn sẽ đề xuất gì và vì sao. Nếu video giúp ích, hãy đăng ký kênh — mỗi ngày đều có video mới."
+},
+"Na webu Zkouška A2 nanečisto si můžete všechny situace procvičit zdarma – web hraje roli zkoušející. Odkaz je v popisu. Zítra: velké opakování Psaní, formulář i e-mail. Odebírejte kanál, ať vám nic neuteče.": {
+"uk": "На сайті Zkouška A2 nanečisto можна безкоштовно потренувати всі ситуації — сайт грає роль екзаменаторки. Посилання в описі. Завтра: велике повторення Psaní — формуляр і e-mail. Підписуйтеся на канал, щоб нічого не пропустити.",
+"ru": "На сайте Zkouška A2 nanečisto можно бесплатно потренировать все ситуации — сайт играет роль экзаменатора. Ссылка в описании. Завтра: большое повторение Psaní — формуляр и e-mail. Подписывайтесь на канал.",
+"en": "On the Zkouška A2 nanečisto website you can practise all situations for free — the site plays the examiner. Link in the description. Tomorrow: big review of Writing — the form and the e-mail. Subscribe so you don’t miss anything.",
+"vi": "Trên trang Zkouška A2 nanečisto bạn có thể luyện tất cả tình huống miễn phí — trang web đóng vai giám khảo. Liên kết trong mô tả. Ngày mai: ôn tập lớn phần Viết — mẫu đơn và e-mail. Hãy đăng ký kênh."
+}
+}

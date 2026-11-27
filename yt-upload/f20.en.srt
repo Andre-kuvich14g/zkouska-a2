@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,024
+Writing, task one. Form number 20. You want to go on a package holiday with a travel agency. Answer the questions in the booking form. Answer in a full sentence, at least ten words.
+
+2
+00:00:13,867 --> 00:00:15,536
+Where and when do you want to go?
+
+3
+00:00:26,200 --> 00:00:29,594
+We want to go to the seaside in Croatia for ten days at the end of July.
+
+4
+00:00:30,633 --> 00:00:32,172
+Who will go with you?
+
+5
+00:00:42,833 --> 00:00:47,429
+My wife and our two children, aged six and nine, will go with me.
+
+6
+00:00:48,467 --> 00:00:50,189
+What do you want to do on holiday?
+
+7
+00:01:00,833 --> 00:01:05,089
+On holiday we want to swim in the sea, relax and take a boat to an island.
+
+8
+00:01:06,133 --> 00:01:14,438
+Fill in form 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.

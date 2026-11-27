@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,210
+Speaking, task two. Card number 20. You are at the zoo. You want to go round with your children. Ask four questions.
+
+2
+00:00:10,067 --> 00:00:13,042
+You are at the zoo. You want to go round with your children.
+
+3
+00:00:13,900 --> 00:00:16,484
+Good afternoon. What can I do for you?
+
+4
+00:00:22,133 --> 00:00:24,717
+Hello, how much is a children's ticket?
+
+5
+00:00:25,267 --> 00:00:26,832
+Children pay 100 crowns.
+
+6
+00:00:32,467 --> 00:00:34,136
+When is animal feeding time?
+
+7
+00:00:34,700 --> 00:00:36,422
+Feeding is at 2 p.m.
+
+8
+00:00:42,067 --> 00:00:43,553
+Is there a restaurant here?
+
+9
+00:00:44,100 --> 00:00:45,770
+Yes, the restaurant is by the entrance.
+
+10
+00:00:51,433 --> 00:00:53,234
+Can I borrow a pushchair?
+
+11
+00:00:53,800 --> 00:00:56,488
+Yes, we lend pushchairs at the ticket desk for free.
+
+12
+00:00:57,133 --> 00:01:00,240
+Thank you for the information. Goodbye.
+
+13
+00:01:00,900 --> 00:01:02,099
+Have a nice day.
+
+14
+00:01:02,733 --> 00:01:11,456
+Practise card 20 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.

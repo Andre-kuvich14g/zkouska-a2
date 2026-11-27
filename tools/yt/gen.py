@@ -29,8 +29,14 @@ def cznum(n):
 def fr(x): return round(x * FPS) / FPS
 
 
+FIX = {  # ручні правки тексту для чоловічого голосу / без справжніх імен родини
+    'p20': [('jsem udělala', 'jsem udělal'), ('Chtěla bych', 'Chtěl bych'), ('Julija', 'Andrij')],
+}
+
+
 def masc(s):
     """Чоловічий рід для голосу Daniel: «rád/a» -> «rád», «šel/šla» -> «šel», «nepřišel/nepřišla» -> «nepřišel»."""
+    s = s.replace('manžel/ka', 'manželka').replace('Manžel/ka', 'Manželka')  # мовець-чоловік → дружина
     return re.sub(r'([^\W\d]+)/([^\W\d]+)', lambda m: m.group(1), s)
 
 
@@ -43,7 +49,7 @@ def fem(s):
 
 
 def spoken(s):
-    return re.sub(r'\s+', ' ', s.replace('…', '.')).strip()
+    return re.sub(r'\s+', ' ', s).strip()
 
 
 def words(s): return len(re.findall(r"[\wÀ-ž]+", s))
@@ -116,7 +122,9 @@ def p_lesson(D, n):
     base = dict(kind='p-task', subj=subj, sit=sit, to=e['to'], pr=pr)
     P.add(base, f'{sit} Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.', pad=0.7)
     P.wait(base, 8, 'Zastavte video a napište e-mail.')
-    lines = masc(e['model']).split('\n')
+    mod = e['model']
+    for a, b in FIX.get(P.id, []): mod = mod.replace(a, b)
+    lines = masc(mod).split('\n')
     greet, close = lines[0], '\n'.join(lines[-2:])
     body = ' '.join(lines[1:-2])
     sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', body) if s.strip()]
@@ -124,7 +132,7 @@ def p_lesson(D, n):
     P.add(dict(mb, hi=-1), greet, pad=0.1, side='')
     for k, s in enumerate(sents):
         P.add(dict(mb, hi=k), s, pad=0.1, side='')
-    wc = words(masc(e['model']))
+    wc = words(masc(mod))
     P.add(dict(kind='p-tip', subj=subj, wc=wc), f'Tento e-mail má {wc} slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.', pad=0.9)
     nx = D['p'][n]['subject'] if n < 40 else ''
     P.add(dict(kind='x-outro', line='Napište svůj e-mail na webu', sub='web počítá slova a kontroluje e-mail · zdarma', nxt=nx, nxtlab=f'E-mail {n + 1}', subj=subj),

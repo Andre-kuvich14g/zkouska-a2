@@ -1,0 +1,8 @@
+{
+ "f20": {"uk": "замовлення туру в турагенції", "ru": "заказ тура в турагентстве", "en": "booking a holiday with a travel agency", "vi": "đặt tour ở công ty du lịch"},
+ "p20": {"uk": "e-mail учительці після іспиту", "ru": "e-mail учительнице после экзамена", "en": "an e-mail to the teacher after the exam", "vi": "e-mail gửi cô giáo sau kỳ thi"},
+ "m20": {"uk": "подорожі й відпустка", "ru": "путешествия и отпуск", "en": "travel and holidays", "vi": "du lịch và kỳ nghỉ"},
+ "d20": {"uk": "у зоопарку з дітьми", "ru": "в зоопарке с детьми", "en": "at the zoo with children", "vi": "ở sở thú cùng các con"},
+ "v20": {"uk": "день іспиту", "ru": "день экзамена", "en": "exam day", "vi": "ngày thi"},
+ "r20": {"uk": "як відсвяткуємо іспит", "ru": "как отпразднуем экзамен", "en": "how to celebrate the exam", "vi": "ăn mừng kỳ thi thế nào"}
+}

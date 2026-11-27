@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:09,210
+Nói, bài hai. Thẻ số 20. Bạn đang ở sở thú. Bạn muốn đi tham quan cùng các con. Hãy đặt bốn câu hỏi.
+
+2
+00:00:10,067 --> 00:00:13,042
+Bạn đang ở sở thú. Bạn muốn đi tham quan cùng các con.
+
+3
+00:00:13,900 --> 00:00:16,484
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:22,133 --> 00:00:24,717
+Xin chào, vé trẻ em giá bao nhiêu?
+
+5
+00:00:25,267 --> 00:00:26,832
+Trẻ em trả 100 koruna.
+
+6
+00:00:32,467 --> 00:00:34,136
+Khi nào cho thú ăn?
+
+7
+00:00:34,700 --> 00:00:36,422
+Giờ cho ăn là 14 giờ.
+
+8
+00:00:42,067 --> 00:00:43,553
+Ở đây có nhà hàng không?
+
+9
+00:00:44,100 --> 00:00:45,770
+Có, nhà hàng ở cạnh lối vào.
+
+10
+00:00:51,433 --> 00:00:53,234
+Tôi có thể mượn xe đẩy không?
+
+11
+00:00:53,800 --> 00:00:56,488
+Có, chúng tôi cho mượn xe đẩy miễn phí ở quầy vé.
+
+12
+00:00:57,133 --> 00:01:00,240
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:00,900 --> 00:01:02,099
+Chúc một ngày tốt lành.
+
+14
+00:01:02,733 --> 00:01:11,456
+Hãy luyện thẻ 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:13,024
+Viết, bài một. Mẫu đơn số 20. Bạn muốn đi tour với công ty du lịch. Hãy trả lời các câu hỏi trong phiếu đặt. Trả lời bằng câu hoàn chỉnh, ít nhất mười từ.
+
+2
+00:00:13,867 --> 00:00:15,536
+Bạn muốn đi đâu và khi nào?
+
+3
+00:00:26,200 --> 00:00:29,594
+Chúng tôi muốn đi biển ở Croatia mười ngày vào cuối tháng Bảy.
+
+4
+00:00:30,633 --> 00:00:32,172
+Ai sẽ đi cùng bạn?
+
+5
+00:00:42,833 --> 00:00:47,429
+Vợ tôi và hai con của chúng tôi, sáu và chín tuổi, sẽ đi cùng tôi.
+
+6
+00:00:48,467 --> 00:00:50,189
+Bạn muốn làm gì trong kỳ nghỉ?
+
+7
+00:01:00,833 --> 00:01:05,089
+Trong kỳ nghỉ chúng tôi muốn tắm biển, nghỉ ngơi và đi thuyền ra đảo.
+
+8
+00:01:06,133 --> 00:01:14,438
+Hãy điền mẫu đơn 20 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.
