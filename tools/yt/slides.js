@@ -157,7 +157,7 @@ const SEC = {
 function frame(p, s, body) {
   const k = s.sec || s.kind[0]; const [c, cs, badge, lab] = SEC[k];
   const nm = s.name || s.cz || s.subj;
-  const left = s.sb ? `${s.sbu || 'Mluvení 1'} · <b>Velké opakování ${s.sb}</b> · ${s.sbr || 'témata'} ${5*s.sb-4}–${5*s.sb}` : k === 'l' ? `Poslech · test <b>${s.n}/20</b>${s.u ? ` · úloha <b>${s.u}</b>` : ''}` : `${lab} <b>${s.n}/40</b> · ${esc(nm)}`;
+  const left = s.prod ? s.prod : s.sb ? `${s.sbu || 'Mluvení 1'} · <b>Velké opakování ${s.sb}</b> · ${s.sbr || 'témata'} ${5*s.sb-4}–${5*s.sb}` : k === 'l' ? `Poslech · test <b>${s.n}/20</b>${s.u ? ` · úloha <b>${s.u}</b>` : ''}` : `${lab} <b>${s.n}/40</b> · ${esc(nm)}`;
   const badge2 = s.sb ? `${(s.sbu || 'Mluvení 1').toUpperCase()} · OPAKOVÁNÍ` : k === 'l' && s.u ? `POSLECH · ÚLOHA ${s.u}` : badge;
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${CSS2} :root{--c:${c};--cs:${cs}}</style></head><body class="${s.side ? 'hasside' : ''}">${s.side ? `<img class="sideimg" src="file://${s.side}">` : ''}
 <div class="hd"><img src="file://${ICON}"><b>Zkouška A2 nanečisto</b><span class="badge">${badge2}</span></div>${body}
@@ -177,6 +177,10 @@ function body(p, s) {
 
 
 
+    case 'pr-hook': return `<div class="main"><div class="big">🎧</div><div class="title" style="font-size:110px;margin-top:20px">${esc(s.t)}</div><div class="sub">${esc(s.sub || '')}</div></div>`;
+    case 'pr-block': return `<div class="main"><span class="chip">BLOK ${s.b} / 8</span><div class="title" style="font-size:96px">${esc(s.t)}</div><div class="tns" style="font-size:40px;margin-top:26px;text-align:left">${s.names.map((x, i) => `<div>${s.a + i}. ${esc(x)}</div>`).join('')}</div><div class="dots">${[1,2,3,4,5,6,7,8].map(k => `<i class="${k < s.b ? 'ok' : (k === s.b ? 'on' : '')}"></i>`).join('')}</div></div>`;
+    case 'pr-item': return `<div class="main"><span class="chip">${esc(s.chip)}</span><div class="title" style="font-size:${s.t.length > 34 ? 72 : 100}px">${esc(s.t)}</div>${s.uk ? `<div class="tr" style="color:#1f4e9c;font-weight:700">🇺🇦 ${esc(s.uk)}</div>` : ''}</div>`;
+    case 'pr-mot': return `<div class="main"><div class="big">${s.ic || '💪'}</div><div class="title" style="font-size:84px;margin-top:20px">${esc(s.t)}</div><div class="dots" style="margin-top:40px">${[1,2,3,4,5,6,7,8].map(k => `<i class="${k <= s.b ? 'ok' : ''}"></i>`).join('')}</div></div>`;
     case 'sb-intro2': return `<div class="main"><span class="chip">${esc(s.chip)}</span><div class="title" style="font-size:104px">${s.title}</div><div class="sub">${s.topics.map(esc).join(' · ')}</div><div class="agenda">${s.agenda.map((a, i) => `<div><i>${i + 1}</i>${esc(a)}</div>`).join('')}</div></div>`;
     case 'sb-stats': return `<div class="main"><div class="title" style="font-size:80px;margin-bottom:30px">${esc(s.t)}</div><div class="stats">${s.stats.map(([n, l]) => `<div class="stat"><b>${n}</b><span>${esc(l)}</span></div>`).join('')}</div><div class="uk">🇺🇦 ${esc(s.uk)}</div></div>`;
     case 'sb-list': return `<div class="main"><div class="title" style="font-size:${s.fs || 72}px;margin-bottom:22px">${esc(s.t)}</div><div class="tns" style="font-size:48px">${s.items.map(x => `<div>${x}</div>`).join('')}</div><div class="uk">🇺🇦 ${esc(s.uk)}</div></div>`;

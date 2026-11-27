@@ -24,7 +24,7 @@ def key(voice, text):
 
 def find(voice, text):
     k = key(voice, text)
-    for d in (CACHE, SITE):
+    for d in (CACHE, SITE, *[x for x in os.environ.get('YT_XCACHE', '').split(':') if x]):
         p = os.path.join(d, k + '.mp3')
         if os.path.exists(p) and os.path.getsize(p) > 500:
             return p
