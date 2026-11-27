@@ -177,6 +177,7 @@ function body(p, s) {
 
 
 
+    case 'pr-txt': return `<div class="main"><span class="chip">${esc(s.chip)}</span><div class="title" style="font-size:${s.t.length > 150 ? 46 : s.t.length > 90 ? 56 : s.t.length > 45 ? 68 : 84}px;line-height:1.2;max-width:1600px">${esc(s.t)}</div></div>`;
     case 'pr-hook': return `<div class="main"><div class="big">🎧</div><div class="title" style="font-size:110px;margin-top:20px">${esc(s.t)}</div><div class="sub">${esc(s.sub || '')}</div></div>`;
     case 'pr-block': return `<div class="main"><span class="chip">BLOK ${s.b} / 8</span><div class="title" style="font-size:96px">${esc(s.t)}</div><div class="tns" style="font-size:40px;margin-top:26px;text-align:left">${s.names.map((x, i) => `<div>${s.a + i}. ${esc(x)}</div>`).join('')}</div><div class="dots">${[1,2,3,4,5,6,7,8].map(k => `<i class="${k < s.b ? 'ok' : (k === s.b ? 'on' : '')}"></i>`).join('')}</div></div>`;
     case 'pr-item': return `<div class="main"><span class="chip">${esc(s.chip)}</span><div class="title" style="font-size:${s.t.length > 34 ? 72 : 100}px">${esc(s.t)}</div>${s.uk ? `<div class="tr" style="color:#1f4e9c;font-weight:700">🇺🇦 ${esc(s.uk)}</div>` : ''}</div>`;
