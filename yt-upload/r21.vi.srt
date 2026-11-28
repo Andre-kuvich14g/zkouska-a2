@@ -1,0 +1,43 @@
+1
+00:00:00,200 --> 00:00:10,124
+Nói, bài bốn. Tình huống số 21. Giám khảo sẽ nêu tình huống. Hãy thỏa thuận, chọn một phương án và nói lý do.
+
+2
+00:00:10,967 --> 00:00:19,036
+Tối nay chúng ta cùng nấu bữa tối. Nấu món gì đây? Bạn có ý tưởng gì không? Bạn có thể chọn trong các phương án này.
+
+3
+00:00:27,700 --> 00:00:29,265
+Chúng ta có thể làm pizza.
+
+4
+00:00:29,700 --> 00:00:32,441
+Hôm qua mình ăn pizza rồi, mình muốn món khác.
+
+5
+00:00:32,900 --> 00:00:34,334
+Vậy còn súp thì sao?
+
+6
+00:00:34,800 --> 00:00:37,593
+Súp nấu lâu mà mình đói lắm rồi.
+
+7
+00:00:38,033 --> 00:00:40,304
+Được, vậy mình làm salad.
+
+8
+00:00:40,767 --> 00:00:42,802
+Sao bạn nghĩ đó là lựa chọn tốt nhất?
+
+9
+00:00:43,267 --> 00:00:46,477
+Vì nó nhanh, tốt cho sức khỏe và nhà mình có sẵn rau.
+
+10
+00:00:46,933 --> 00:00:50,275
+Bạn nói đúng, salad là ý hay. Bắt đầu thôi.
+
+11
+00:00:50,733 --> 00:00:59,822
+Hãy luyện tình huống 21 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

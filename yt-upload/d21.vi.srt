@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,647
+Nói, bài hai. Thẻ số 21. Bạn đang ở trường ngôn ngữ. Bạn muốn đăng ký thi tiếng Séc. Hãy đặt bốn câu hỏi.
+
+2
+00:00:11,500 --> 00:00:15,547
+Bạn đang ở trường ngôn ngữ. Bạn muốn đăng ký thi tiếng Séc.
+
+3
+00:00:16,400 --> 00:00:18,984
+Xin chào. Tôi có thể giúp gì cho bạn?
+
+4
+00:00:24,633 --> 00:00:27,452
+Xin chào, kỳ thi gần nhất là khi nào?
+
+5
+00:00:28,000 --> 00:00:30,688
+Kỳ thi gần nhất là ngày 15 tháng Mười Một.
+
+6
+00:00:36,333 --> 00:00:37,533
+Giá bao nhiêu?
+
+7
+00:00:38,067 --> 00:00:40,233
+Kỳ thi có giá 3.200 korun.
+
+8
+00:00:45,867 --> 00:00:47,249
+Kỳ thi sẽ diễn ra ở đâu?
+
+9
+00:00:47,800 --> 00:00:49,940
+Kỳ thi sẽ diễn ra ngay tại trường chúng tôi.
+
+10
+00:00:55,600 --> 00:00:57,087
+Tôi cần mang theo gì?
+
+11
+00:00:57,633 --> 00:00:59,616
+Hãy mang theo hộ chiếu và bút xanh.
+
+12
+00:01:00,267 --> 00:01:03,373
+Cảm ơn thông tin. Tạm biệt.
+
+13
+00:01:04,033 --> 00:01:05,285
+Chúc may mắn.
+
+14
+00:01:05,933 --> 00:01:15,022
+Hãy luyện thẻ 21 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày đều có video mới.

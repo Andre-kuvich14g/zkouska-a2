@@ -1,0 +1,343 @@
+1
+00:00:06,200 --> 00:00:19,651
+Phần Viết, bài một. Mẫu đơn số 11. Bạn đã đi nghỉ ở một khách sạn. Khách sạn muốn biết đánh giá của bạn. Hãy trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+2
+00:00:20,500 --> 00:00:22,222
+Bạn thích điều gì ở khách sạn?
+
+3
+00:00:32,867 --> 00:00:37,697
+Tôi thích phòng sạch, bữa sáng tuyệt vời và nhân viên rất thân thiện.
+
+4
+00:00:38,733 --> 00:00:40,586
+Bạn không thích điều gì và tại sao?
+
+5
+00:00:51,233 --> 00:00:54,810
+Tôi không thích khu spa nhỏ và buổi tối có quá nhiều người.
+
+6
+00:00:55,867 --> 00:00:58,137
+Bạn có quay lại không? Tại sao?
+
+7
+00:01:08,800 --> 00:01:14,310
+Có, chúng tôi sẽ quay lại vì ở đây thiên nhiên đẹp và đồ ăn ngon.
+
+8
+00:01:15,367 --> 00:01:24,925
+Hãy điền mẫu đơn 11 trên trang Zkouška A2 nanečisto. Đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.
+
+9
+00:01:27,067 --> 00:01:40,988
+Phần Viết, bài một. Mẫu đơn số 12. Bạn muốn đặt bàn ở nhà hàng qua mẫu đơn trên web. Hãy trả lời bằng câu đầy đủ, ít nhất mười từ.
+
+10
+00:01:41,833 --> 00:01:44,391
+Bạn muốn đặt bàn khi nào và cho bao nhiêu người?
+
+11
+00:01:55,033 --> 00:01:59,289
+Tôi muốn đặt bàn vào thứ Bảy ngày hai mươi lúc bảy giờ tối cho sáu người.
+
+12
+00:02:00,333 --> 00:02:01,820
+Tại sao bạn đến nhà hàng chúng tôi?
+
+13
+00:02:12,467 --> 00:02:17,663
+Chúng tôi đến vì đang mừng sinh nhật vợ tôi và nhà hàng của bạn được đánh giá tốt.
+
+14
+00:02:18,700 --> 00:02:20,866
+Bạn có yêu cầu đặc biệt nào không?
+
+15
+00:02:31,500 --> 00:02:36,566
+Xin cho bàn cạnh cửa sổ và một ghế trẻ em, vì chúng tôi có con nhỏ.
+
+16
+00:02:37,600 --> 00:02:50,972
+Phần Viết, bài một. Mẫu đơn số 13. Bạn muốn làm tình nguyện viên cho tổ chức từ thiện. Hãy trả lời các câu hỏi trong đơn bằng câu đầy đủ, ít nhất mười từ.
+
+17
+00:02:51,833 --> 00:02:53,163
+Bạn biết làm gì?
+
+18
+00:03:03,800 --> 00:03:08,761
+Tôi nấu ăn giỏi, nói tiếng Ukraina, tiếng Nga và một chút tiếng Séc, và tôi có bằng lái xe.
+
+19
+00:03:09,800 --> 00:03:12,123
+Tại sao bạn muốn làm tình nguyện viên?
+
+20
+00:03:22,767 --> 00:03:28,093
+Tôi muốn giúp đỡ vì người dân ở Séc cũng đã giúp tôi khi tôi mới đến đây.
+
+21
+00:03:29,133 --> 00:03:30,986
+Bạn có thể giúp bao nhiêu thời gian?
+
+22
+00:03:41,633 --> 00:03:45,340
+Tôi có thể giúp hai lần một tuần sau giờ làm hoặc một ngày thứ Bảy mỗi tháng.
+
+23
+00:03:46,400 --> 00:03:58,466
+Phần Viết, bài một. Mẫu đơn số 14. Bạn muốn ở ký túc xá. Hãy trả lời các câu hỏi trong đơn bằng câu đầy đủ, ít nhất mười từ.
+
+24
+00:03:59,300 --> 00:04:00,839
+Bạn học gì và ở đâu?
+
+25
+00:04:11,500 --> 00:04:16,592
+Tôi học tin học ở Đại học Kỹ thuật Séc tại Praha, tôi đang học năm nhất.
+
+26
+00:04:17,633 --> 00:04:19,669
+Tại sao bạn cần ở ký túc xá?
+
+27
+00:04:30,333 --> 00:04:35,111
+Tôi cần ở ký túc xá vì tôi sống xa và đường đến trường mất hai tiếng.
+
+28
+00:04:36,167 --> 00:04:38,019
+Bạn muốn ở chung phòng với ai?
+
+29
+00:04:48,667 --> 00:04:52,740
+Tôi muốn ở cùng một người bạn cùng khóa, tên là Petr Novák.
+
+30
+00:04:53,800 --> 00:05:06,702
+Phần Viết, bài một. Mẫu đơn số 15. Bạn muốn làm thẻ đi phương tiện công cộng. Hãy trả lời câu hỏi bằng câu đầy đủ, ít nhất mười từ.
+
+31
+00:05:07,567 --> 00:05:09,419
+Bạn đi đâu và thường xuyên thế nào?
+
+32
+00:05:20,067 --> 00:05:24,140
+Hằng ngày tôi đi xe buýt đến chỗ làm, cuối tuần thỉnh thoảng đi tàu điện ngầm vào trung tâm.
+
+33
+00:05:25,200 --> 00:05:26,870
+Tại sao bạn muốn có thẻ?
+
+34
+00:05:37,533 --> 00:05:42,547
+Tôi muốn có thẻ vì rẻ hơn và không phải mua vé mỗi ngày.
+
+35
+00:05:43,600 --> 00:05:45,400
+Bạn muốn trả tiền thẻ thế nào?
+
+36
+00:05:56,067 --> 00:05:59,904
+Tôi muốn trả online bằng thẻ, tốt nhất là cả năm một lần.
+
+37
+00:06:00,967 --> 00:06:06,032
+Phần Viết, bài hai. E-mail số 11: Xin phép nghỉ học.
+
+38
+00:06:06,867 --> 00:06:16,608
+Con trai bạn sẽ nghỉ học. Hãy viết e-mail cho cô giáo, ít nhất ba mươi lăm từ. Mỗi hình viết một câu.
+
+39
+00:06:25,467 --> 00:06:27,267
+Kính chào cô giáo,
+
+40
+00:06:27,533 --> 00:06:30,326
+tôi xin phép cho con trai tôi Matvij lớp 3A nghỉ học.
+
+41
+00:06:30,567 --> 00:06:33,360
+Tuần sau cháu sẽ nghỉ học từ thứ Hai đến thứ Tư.
+
+42
+00:06:33,600 --> 00:06:36,158
+Chúng tôi sẽ về Ukraina dự đám tang ông của cháu.
+
+43
+00:06:36,400 --> 00:06:39,924
+Cháu sẽ làm bài ở nhà, cô vui lòng gửi bài qua e-mail.
+
+44
+00:06:40,167 --> 00:06:42,333
+Thứ Năm cháu sẽ đi học lại.
+
+45
+00:06:42,567 --> 00:06:44,132
+Cảm ơn cô đã thông cảm.
+
+46
+00:06:44,367 --> 00:06:51,104
+E-mail này có 50 từ. Mỗi hình một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+47
+00:06:52,167 --> 00:06:57,232
+Phần Viết, bài hai. E-mail số 12: Bán xe đạp.
+
+48
+00:06:58,067 --> 00:07:09,532
+Bạn muốn bán chiếc xe đạp cũ. Hãy viết e-mail cho người bạn đang tìm xe đạp, ít nhất ba mươi lăm từ. Mỗi hình viết một câu.
+
+49
+00:07:18,367 --> 00:07:19,671
+Chào Jirka,
+
+50
+00:07:19,933 --> 00:07:21,786
+mình nghe nói bạn đang tìm xe đạp.
+
+51
+00:07:22,033 --> 00:07:26,106
+Mình bán chiếc xe đạp địa hình, màu xanh và có 21 tốc độ.
+
+52
+00:07:26,367 --> 00:07:29,238
+Mình có nó ba năm nhưng ít đi.
+
+53
+00:07:29,500 --> 00:07:32,920
+Mình bán vì đã mua xe đạp điện.
+
+54
+00:07:33,167 --> 00:07:35,097
+Mình muốn bán 4.000 korun.
+
+55
+00:07:35,333 --> 00:07:37,969
+Bạn có thể đến xem xe vào sáng thứ Bảy.
+
+56
+00:07:38,233 --> 00:07:44,971
+E-mail này có 50 từ. Mỗi hình một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+57
+00:07:46,033 --> 00:07:52,353
+Phần Viết, bài hai. E-mail số 13: Máy sưởi bị hỏng.
+
+58
+00:07:53,200 --> 00:08:02,941
+Máy sưởi trong căn hộ của bạn bị hỏng. Hãy viết e-mail cho chủ nhà, ít nhất ba mươi lăm từ. Mỗi hình viết một câu.
+
+59
+00:08:11,800 --> 00:08:13,522
+Kính chào ông Veselý,
+
+60
+00:08:13,767 --> 00:08:15,619
+máy sưởi trong căn hộ của chúng tôi không hoạt động.
+
+61
+00:08:15,867 --> 00:08:18,006
+Các lò sưởi hoàn toàn lạnh.
+
+62
+00:08:18,267 --> 00:08:20,903
+Tình trạng này đã kéo dài từ thứ Hai, ba ngày rồi.
+
+63
+00:08:21,167 --> 00:08:24,221
+Trong nhà chỉ có mười lăm độ và con trai tôi bị cảm.
+
+64
+00:08:24,467 --> 00:08:26,789
+Xin hãy cử thợ sửa đến càng sớm càng tốt.
+
+65
+00:08:27,033 --> 00:08:29,669
+Chúng tôi ở nhà mỗi ngày từ bốn giờ chiều.
+
+66
+00:08:29,933 --> 00:08:30,689
+Cảm ơn ông.
+
+67
+00:08:30,933 --> 00:08:38,402
+E-mail này có 48 từ. Mỗi hình một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+68
+00:08:39,467 --> 00:08:45,029
+Phần Viết, bài hai. E-mail số 14: Mời tiệc nướng.
+
+69
+00:08:45,867 --> 00:08:55,948
+Bạn muốn mời hàng xóm đến tiệc nướng. Hãy viết e-mail cho hàng xóm, ít nhất ba mươi lăm từ. Mỗi hình viết một câu.
+
+70
+00:09:04,800 --> 00:09:06,104
+Các bạn hàng xóm thân mến,
+
+71
+00:09:06,367 --> 00:09:11,798
+chúng tôi muốn mời các bạn đến tiệc nướng vì chúng tôi mới chuyển đến đây và muốn làm quen với các bạn.
+
+72
+00:09:12,033 --> 00:09:15,375
+Sẽ vào thứ Bảy, ngày 6 tháng Sáu, từ năm giờ chiều.
+
+73
+00:09:15,633 --> 00:09:17,799
+Chúng tôi sẽ nướng ở vườn sau nhà.
+
+74
+00:09:18,033 --> 00:09:21,662
+Chúng tôi có thịt và đồ uống, xin mang theo salad hoặc bánh mì.
+
+75
+00:09:21,900 --> 00:09:23,935
+Xin trả lời chúng tôi trước thứ Tư.
+
+76
+00:09:24,200 --> 00:09:31,068
+E-mail này có 54 từ. Mỗi hình một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+77
+00:09:32,133 --> 00:09:37,617
+Phần Viết, bài hai. E-mail số 15: Khiếu nại.
+
+78
+00:09:38,467 --> 00:09:49,384
+Bạn đã đến một nhà hàng và không hài lòng. Hãy viết e-mail cho chủ nhà hàng, ít nhất ba mươi lăm từ. Mỗi hình viết một câu.
+
+79
+00:09:58,233 --> 00:09:59,433
+Xin chào,
+
+80
+00:09:59,667 --> 00:10:02,486
+tối thứ Bảy tôi đã đến nhà hàng của Quý vị cùng gia đình.
+
+81
+00:10:02,733 --> 00:10:05,239
+Chúng tôi gọi mì Ý và hai chiếc pizza.
+
+82
+00:10:05,500 --> 00:10:08,241
+Đồ ăn nguội và pizza bị cháy.
+
+83
+00:10:08,500 --> 00:10:11,554
+Chúng tôi chờ đồ ăn một tiếng và người phục vụ khó chịu.
+
+84
+00:10:11,800 --> 00:10:15,977
+Tôi muốn Quý vị hoàn lại một phần tiền hoặc giảm giá cho lần sau.
+
+85
+00:10:16,233 --> 00:10:23,415
+E-mail này có 52 từ. Mỗi bức tranh có một câu. Đừng quên lời chào ở đầu và cuối thư.
+
+86
+00:10:24,467 --> 00:10:32,824
+Hãy viết e-mail của bạn trên trang Zkouška A2 nanečisto, đường link ở phần mô tả video. Và hãy đăng ký kênh — mỗi ngày có video mới.

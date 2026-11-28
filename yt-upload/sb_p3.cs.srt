@@ -1,0 +1,343 @@
+1
+00:00:06,200 --> 00:00:19,651
+Psaní, úloha jedna. Formulář číslo 11. Byl jste na dovolené v hotelu. Hotel chce vědět vaše hodnocení. Odpovězte na otázky. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:20,500 --> 00:00:22,222
+Co se vám v hotelu líbilo?
+
+3
+00:00:32,867 --> 00:00:37,697
+V hotelu se mi líbil čistý pokoj, výborná snídaně a velmi milý personál.
+
+4
+00:00:38,733 --> 00:00:40,586
+Co se vám nelíbilo a proč?
+
+5
+00:00:51,233 --> 00:00:54,810
+Nelíbilo se mi, že wellness bylo malé a večer tam bylo moc lidí.
+
+6
+00:00:55,867 --> 00:00:58,137
+Přijedete k nám znovu? Proč?
+
+7
+00:01:08,800 --> 00:01:14,310
+Ano, přijedeme znovu, protože je tady krásná příroda a dobré jídlo.
+
+8
+00:01:15,367 --> 00:01:24,925
+Vyplňte formulář 11 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.
+
+9
+00:01:27,067 --> 00:01:40,988
+Psaní, úloha jedna. Formulář číslo 12. Chcete si zarezervovat stůl v restauraci přes webový formulář. Odpovězte na otázky. Odpovězte celou větou, minimálně deset slov.
+
+10
+00:01:41,833 --> 00:01:44,391
+Kdy a pro kolik lidí chcete rezervaci?
+
+11
+00:01:55,033 --> 00:01:59,289
+Chci rezervaci na sobotu dvacátého v sedm hodin večer pro šest lidí.
+
+12
+00:02:00,333 --> 00:02:01,820
+Proč k nám přijdete?
+
+13
+00:02:12,467 --> 00:02:17,663
+Přijdeme k vám, protože slavíme narozeniny mé manželky a vaše restaurace má dobré recenze.
+
+14
+00:02:18,700 --> 00:02:20,866
+Máte nějaké speciální přání?
+
+15
+00:02:31,500 --> 00:02:36,566
+Prosím o stůl u okna a jednu dětskou židličku, protože máme malé dítě.
+
+16
+00:02:37,600 --> 00:02:50,972
+Psaní, úloha jedna. Formulář číslo 13. Chcete pracovat jako dobrovolník v charitě. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+17
+00:02:51,833 --> 00:02:53,163
+Co umíte dělat?
+
+18
+00:03:03,800 --> 00:03:08,761
+Umím dobře vařit, mluvím ukrajinsky, rusky a trochu česky a mám řidičský průkaz.
+
+19
+00:03:09,800 --> 00:03:12,123
+Proč chcete pomáhat jako dobrovolník?
+
+20
+00:03:22,767 --> 00:03:28,093
+Chci pomáhat, protože mi lidé v Česku taky pomohli, když jsem sem přijel.
+
+21
+00:03:29,133 --> 00:03:30,986
+Kolik času můžete pomáhat?
+
+22
+00:03:41,633 --> 00:03:45,340
+Pomáhat můžu dvakrát týdně po práci nebo jednu sobotu v měsíci.
+
+23
+00:03:46,400 --> 00:03:58,466
+Psaní, úloha jedna. Formulář číslo 14. Chcete se ubytovat na koleji. Odpovězte na otázky v žádosti. Odpovězte celou větou, minimálně deset slov.
+
+24
+00:03:59,300 --> 00:04:00,839
+Co a kde studujete?
+
+25
+00:04:11,500 --> 00:04:16,592
+Studuju informatiku na Českém vysokém učení technickém v Praze, jsem v prvním ročníku.
+
+26
+00:04:17,633 --> 00:04:19,669
+Proč potřebujete bydlet na koleji?
+
+27
+00:04:30,333 --> 00:04:35,111
+Potřebuju bydlet na koleji, protože bydlím daleko a cesta do školy trvá dvě hodiny.
+
+28
+00:04:36,167 --> 00:04:38,019
+S kým chcete bydlet na pokoji?
+
+29
+00:04:48,667 --> 00:04:52,740
+Chtěl bych bydlet s kamarádem z mého ročníku, jmenuje se Petr Novák.
+
+30
+00:04:53,800 --> 00:05:06,702
+Psaní, úloha jedna. Formulář číslo 15. Chcete si zařídit kartu na městskou dopravu. Odpovězte na otázky ve formuláři. Odpovězte celou větou, minimálně deset slov.
+
+31
+00:05:07,567 --> 00:05:09,419
+Kam a jak často jezdíte?
+
+32
+00:05:20,067 --> 00:05:24,140
+Každý den jezdím autobusem do práce a o víkendu někdy metrem do centra.
+
+33
+00:05:25,200 --> 00:05:26,870
+Proč chcete mít kartu?
+
+34
+00:05:37,533 --> 00:05:42,547
+Chci mít kartu, protože je to levnější a nemusím každý den kupovat jízdenku.
+
+35
+00:05:43,600 --> 00:05:45,400
+Jak chcete kartu platit?
+
+36
+00:05:56,067 --> 00:05:59,904
+Kartu chci platit online kartou, nejlépe na celý rok najednou.
+
+37
+00:06:00,967 --> 00:06:06,032
+Psaní, úloha dvě. E-mail číslo 11: Omluva ze školy.
+
+38
+00:06:06,867 --> 00:06:16,608
+Váš syn bude chybět ve škole. Napište e-mail učitelce. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+39
+00:06:25,467 --> 00:06:27,267
+Dobrý den, paní učitelko,
+
+40
+00:06:27,533 --> 00:06:30,326
+omlouvám svého syna Matvije ze 3. A.
+
+41
+00:06:30,567 --> 00:06:33,360
+Příští týden nebude ve škole od pondělí do středy.
+
+42
+00:06:33,600 --> 00:06:36,158
+Pojedeme na Ukrajinu na pohřeb jeho dědečka.
+
+43
+00:06:36,400 --> 00:06:39,924
+Úkoly bude dělat doma, prosím pošlete nám je e-mailem.
+
+44
+00:06:40,167 --> 00:06:42,333
+Do školy přijde zpátky ve čtvrtek.
+
+45
+00:06:42,567 --> 00:06:44,132
+Děkuji za pochopení.
+
+46
+00:06:44,367 --> 00:06:51,104
+Tento e-mail má 50 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+47
+00:06:52,167 --> 00:06:57,232
+Psaní, úloha dvě. E-mail číslo 12: Kolo na prodej.
+
+48
+00:06:58,067 --> 00:07:09,532
+Chcete prodat svoje staré kolo. Napište e-mail kamarádovi, který kolo hledá. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+49
+00:07:18,367 --> 00:07:19,671
+Ahoj Jirko,
+
+50
+00:07:19,933 --> 00:07:21,786
+slyšel jsem, že hledáš kolo.
+
+51
+00:07:22,033 --> 00:07:26,106
+Prodávám svoje horské kolo, je modré a má 21 rychlostí.
+
+52
+00:07:26,367 --> 00:07:29,238
+Mám ho tři roky, ale jezdil jsem na něm málo.
+
+53
+00:07:29,500 --> 00:07:32,920
+Prodávám ho, protože jsem si koupil elektrokolo.
+
+54
+00:07:33,167 --> 00:07:35,097
+Chci za něj 4 000 Kč.
+
+55
+00:07:35,333 --> 00:07:37,969
+Můžeš si ho přijít prohlédnout v sobotu dopoledne.
+
+56
+00:07:38,233 --> 00:07:44,971
+Tento e-mail má 50 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+57
+00:07:46,033 --> 00:07:52,353
+Psaní, úloha dvě. E-mail číslo 13: Nefunguje topení.
+
+58
+00:07:53,200 --> 00:08:02,941
+V bytě vám nefunguje topení. Napište e-mail majiteli bytu. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+59
+00:08:11,800 --> 00:08:13,522
+Dobrý den, pane Veselý,
+
+60
+00:08:13,767 --> 00:08:15,619
+v bytě nám nefunguje topení.
+
+61
+00:08:15,867 --> 00:08:18,006
+Radiátory jsou úplně studené.
+
+62
+00:08:18,267 --> 00:08:20,903
+Trvá to už od pondělí, tři dny.
+
+63
+00:08:21,167 --> 00:08:24,221
+V bytě je jen patnáct stupňů a syn je nachlazený.
+
+64
+00:08:24,467 --> 00:08:26,789
+Prosím, pošlete co nejdřív opraváře.
+
+65
+00:08:27,033 --> 00:08:29,669
+Doma jsme každý den od čtyř hodin odpoledne.
+
+66
+00:08:29,933 --> 00:08:30,689
+Děkuji.
+
+67
+00:08:30,933 --> 00:08:38,402
+Tento e-mail má 48 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+68
+00:08:39,467 --> 00:08:45,029
+Psaní, úloha dvě. E-mail číslo 14: Pozvání na grilování.
+
+69
+00:08:45,867 --> 00:08:55,948
+Chcete pozvat sousedy na grilování. Napište e-mail sousedům. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+70
+00:09:04,800 --> 00:09:06,104
+Milí sousedé,
+
+71
+00:09:06,367 --> 00:09:11,798
+chceme vás pozvat na grilování, protože jsme se sem nově přistěhovali a chceme se s vámi seznámit.
+
+72
+00:09:12,033 --> 00:09:15,375
+Bude to v sobotu 6. června od pěti hodin odpoledne.
+
+73
+00:09:15,633 --> 00:09:17,799
+Grilovat budeme na zahradě za domem.
+
+74
+00:09:18,033 --> 00:09:21,662
+Maso a pití budeme mít, přineste prosím salát nebo chleba.
+
+75
+00:09:21,900 --> 00:09:23,935
+Odpovězte nám prosím do středy.
+
+76
+00:09:24,200 --> 00:09:31,068
+Tento e-mail má 54 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+77
+00:09:32,133 --> 00:09:37,617
+Psaní, úloha dvě. E-mail číslo 15: Stížnost.
+
+78
+00:09:38,467 --> 00:09:49,384
+Byl jste v restauraci a nebyl jste spokojený. Napište e-mail majiteli. Napište e-mail, minimálně třicet pět slov. Ke každému obrázku napište jednu větu.
+
+79
+00:09:58,233 --> 00:09:59,433
+Dobrý den,
+
+80
+00:09:59,667 --> 00:10:02,486
+v sobotu večer jsem byl ve Vaší restauraci s rodinou.
+
+81
+00:10:02,733 --> 00:10:05,239
+Objednali jsme si těstoviny a dvě pizzy.
+
+82
+00:10:05,500 --> 00:10:08,241
+Jídlo bylo studené a pizza byla spálená.
+
+83
+00:10:08,500 --> 00:10:11,554
+Na jídlo jsme čekali hodinu a číšník byl nepříjemný.
+
+84
+00:10:11,800 --> 00:10:15,977
+Chtěl bych, abyste nám vrátili část peněz, nebo nám dali slevu na příště.
+
+85
+00:10:16,233 --> 00:10:23,415
+Tento e-mail má 52 slov. Na každý obrázek je jedna věta. Nezapomeňte na pozdrav na začátku a na konci.
+
+86
+00:10:24,467 --> 00:10:32,824
+Napište svůj e-mail na webu Zkouška A2 nanečisto, odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

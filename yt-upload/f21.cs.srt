@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,919
+Psaní, úloha jedna. Formulář číslo 21. Chcete dát dítě do mateřské školy. Odpovězte na otázky v přihlášce. Odpovězte celou větou, minimálně deset slov.
+
+2
+00:00:13,767 --> 00:00:16,351
+Kolik let má vaše dítě a co rádo dělá?
+
+3
+00:00:27,000 --> 00:00:31,230
+Moje dcera má čtyři roky a ráda kreslí, zpívá a hraje si venku.
+
+4
+00:00:32,267 --> 00:00:34,589
+Proč chcete dát dítě do naší školky?
+
+5
+00:00:45,233 --> 00:00:49,698
+Chci ji dát do vaší školky, protože je blízko domu a má velkou zahradu.
+
+6
+00:00:50,733 --> 00:00:52,716
+Kdy může dítě do školky chodit?
+
+7
+00:01:03,367 --> 00:01:07,361
+Dítě může chodit do školky každý den od sedmi ráno do čtyř odpoledne.
+
+8
+00:01:08,400 --> 00:01:18,429
+Vyplňte formulář 21 na webu Zkouška A2 nanečisto. Odkaz najdete v popisu videa. A odebírejte kanál, každý den je tu nové video.

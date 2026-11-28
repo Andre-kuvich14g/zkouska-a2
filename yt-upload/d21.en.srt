@@ -1,0 +1,55 @@
+1
+00:00:00,200 --> 00:00:10,647
+Speaking, task two. Card number 21. You are at a language school. You want to register for a Czech exam. Ask four questions.
+
+2
+00:00:11,500 --> 00:00:15,547
+You are at a language school. You want to register for a Czech exam.
+
+3
+00:00:16,400 --> 00:00:18,984
+Good afternoon. What can I do for you?
+
+4
+00:00:24,633 --> 00:00:27,452
+Hello, when is the next exam date?
+
+5
+00:00:28,000 --> 00:00:30,688
+The next date is the 15th of November.
+
+6
+00:00:36,333 --> 00:00:37,533
+How much is it?
+
+7
+00:00:38,067 --> 00:00:40,233
+The exam costs 3,200 crowns.
+
+8
+00:00:45,867 --> 00:00:47,249
+Where will the exam be?
+
+9
+00:00:47,800 --> 00:00:49,940
+The exam will be here at our school.
+
+10
+00:00:55,600 --> 00:00:57,087
+What should I bring?
+
+11
+00:00:57,633 --> 00:00:59,616
+Bring your passport and a blue pen.
+
+12
+00:01:00,267 --> 00:01:03,373
+Thank you for the information. Goodbye.
+
+13
+00:01:04,033 --> 00:01:05,285
+Good luck.
+
+14
+00:01:05,933 --> 00:01:15,022
+Practise card 21 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.

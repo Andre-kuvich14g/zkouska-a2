@@ -1,0 +1,31 @@
+1
+00:00:00,200 --> 00:00:12,919
+Writing, task one. Form number 21. You want to enrol your child in a nursery school. Answer the questions in the application. Answer in a full sentence, at least ten words.
+
+2
+00:00:13,767 --> 00:00:16,351
+How old is your child and what do they like doing?
+
+3
+00:00:27,000 --> 00:00:31,230
+My daughter is four and she likes drawing, singing and playing outside.
+
+4
+00:00:32,267 --> 00:00:34,589
+Why do you want to send your child to our nursery?
+
+5
+00:00:45,233 --> 00:00:49,698
+I want to send her to your nursery because it is close to home and has a big garden.
+
+6
+00:00:50,733 --> 00:00:52,716
+When can the child attend the nursery?
+
+7
+00:01:03,367 --> 00:01:07,361
+The child can attend every day from seven in the morning until four in the afternoon.
+
+8
+00:01:08,400 --> 00:01:18,429
+Fill in form 21 on the Zkouška A2 nanečisto website. The link is in the video description. And subscribe to the channel — there's a new video every day.
