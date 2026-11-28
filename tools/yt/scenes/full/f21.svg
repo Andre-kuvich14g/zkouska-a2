@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"><defs><linearGradient id="g0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5cc4ff"/><stop offset="1" stop-color="#d4f3ff"/></linearGradient><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fcf57"/><stop offset="1" stop-color="#3fa63a"/></linearGradient></defs><rect width="1280" height="720" fill="url(#g0)"/><g transform="translate(1150,110)"><circle r="92.8" fill="#ffd93b" opacity=".22"/><circle r="64" fill="#ffd93b"/></g><g transform="translate(700,110) rotate(0) scale(1)"><g fill="#fff" opacity=".95"><ellipse cx="0" cy="0" rx="80" ry="30"/><ellipse cx="45" cy="-18" rx="52" ry="36"/><ellipse cx="-40" cy="-8" rx="40" ry="26"/></g></g><g transform="translate(980,190) rotate(0) scale(0.7)"><g fill="#fff" opacity=".95"><ellipse cx="0" cy="0" rx="80" ry="30"/><ellipse cx="45" cy="-18" rx="52" ry="36"/><ellipse cx="-40" cy="-8" rx="40" ry="26"/></g></g>
+ <path d="M480 520 Q700 360 900 470 Q1050 380 1280 450 V720 H480Z" fill="#9be07f" opacity=".9"/>
+ <path d="M0 540 Q400 510 800 540 T1280 530 V720 H0Z" fill="url(#g1)"/><g transform="translate(560,200) rotate(0) scale(0.8)"><rect x="0" y="80" width="420" height="250" fill="#ffd56b"/><path d="M-20 90 L210 -20 L440 90Z" fill="#c2410c"/><text x="210" y="66" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="40" fill="#fff">ŠKOLA</text><rect x="30" y="130" width="56" height="60" rx="8" fill="#8fd3ff"/><rect x="120" y="130" width="56" height="60" rx="8" fill="#8fd3ff"/><rect x="250" y="130" width="56" height="60" rx="8" fill="#8fd3ff"/><rect x="340" y="130" width="56" height="60" rx="8" fill="#8fd3ff"/><rect x="170" y="220" width="80" height="110" rx="8" fill="#8a5a2b"/><circle cx="210" cy="10" r="0"/></g><line x1="590" y1="0" x2="590" y2="40" stroke="#1d2433" stroke-width="5"/><line x1="930" y1="0" x2="930" y2="40" stroke="#1d2433" stroke-width="5"/><rect x="560" y="40" width="400" height="74" rx="14" fill="#ffd500" stroke="#1d2433" stroke-width="5"/><text x="760" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="40" fill="#1d2433">ŠKOLKA SLUNÍČKO</text><g transform="translate(1150,110) rotate(0) scale(0.8)"><circle r="60" fill="#ffd500"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(0)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(36)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(72)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(108)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(144)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(180)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(216)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(252)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(288)"/><path d="M0 -78 V-104" stroke="#ffd500" stroke-width="10" stroke-linecap="round" transform="rotate(324)"/><circle cx="-20" cy="-10" r="7" fill="#1d2433"/><circle cx="20" cy="-10" r="7" fill="#1d2433"/><path d="M-24 18 Q0 40 24 18" stroke="#1d2433" stroke-width="6" fill="none" stroke-linecap="round"/></g><g transform="translate(980,120) rotate(-8) scale(0.5)"><rect x="0" y="0" width="250" height="320" rx="14" fill="#8a5a2b"/><rect x="16" y="26" width="218" height="280" rx="6" fill="#fff"/><rect x="80" y="-10" width="90" height="34" rx="8" fill="#9aa4b8"/>
+  <text x="125" y="66" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="26" fill="#15803d">PŘIHLÁŠKA</text><rect x="34" y="96" width="30" height="30" rx="6" fill="none" stroke="#1d2433" stroke-width="4"/><path d="M39 112 l8 9 l14 -18" stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M78 104 h130 M78 122 h96" stroke="#b8c2d6" stroke-width="8" stroke-linecap="round"/><rect x="34" y="160" width="30" height="30" rx="6" fill="none" stroke="#1d2433" stroke-width="4"/><path d="M39 176 l8 9 l14 -18" stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M78 168 h130 M78 186 h96" stroke="#b8c2d6" stroke-width="8" stroke-linecap="round"/><rect x="34" y="224" width="30" height="30" rx="6" fill="none" stroke="#1d2433" stroke-width="4"/><path d="M39 240 l8 9 l14 -18" stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M78 232 h130 M78 250 h96" stroke="#b8c2d6" stroke-width="8" stroke-linecap="round"/></g><g transform="translate(960,420) scale(0.85,0.85)">
+ <ellipse cx="0" cy="190" rx="70" ry="14" fill="rgba(0,0,0,.16)"/>
+ 
+ <path d="M-55 182 Q-60 70 0 62 Q60 70 55 182 Z" fill="#2bb673"/>
+ <path d="M-52 115 Q-70 150 -30 150" stroke="#2bb673" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M52 115 Q70 150 30 150" stroke="#2bb673" stroke-width="26" stroke-linecap="round" fill="none"/><circle cx="-26" cy="150" r="16" fill="#e9b48f"/><circle cx="26" cy="150" r="16" fill="#e9b48f"/>
+ <rect x="-14" y="38" width="28" height="30" rx="10" fill="#e9b48f"/>
+ <circle cx="0" cy="0" r="52" fill="#e9b48f"/><circle cx="-52" cy="6" r="9" fill="#e9b48f"/><circle cx="52" cy="6" r="9" fill="#e9b48f"/>
+ <path d="M-54 -6 Q-56 -62 0 -60 Q58 -62 54 -8 Q40 -40 0 -38 Q-38 -40 -54 -6Z" fill="#1d2433"/>
+ 
+ <circle cx="-18" cy="2" r="6.5" fill="#1d2433"/><circle cx="18" cy="2" r="6.5" fill="#1d2433"/><circle cx="-16" cy="0" r="2.2" fill="#fff"/><circle cx="20" cy="0" r="2.2" fill="#fff"/>
+ 
+ <circle cx="-32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/><circle cx="32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/>
+ <path d="M-14 24 Q0 36 14 24" stroke="#7a1f2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+ 
+ 
+ 
+ </g><g transform="translate(1120,470) scale(0.75,0.75)">
+ <ellipse cx="0" cy="190" rx="70" ry="14" fill="rgba(0,0,0,.16)"/>
+ 
+ <path d="M-55 182 Q-60 70 0 62 Q60 70 55 182 Z" fill="#2f80ed"/>
+ <path d="M-55 120 Q-90 140 -78 175" stroke="#2f80ed" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M52 110 Q95 80 100 40" stroke="#2f80ed" stroke-width="26" stroke-linecap="round" fill="none"/><circle cx="100" cy="34" r="16" fill="#f6c7a1"/>
+ <rect x="-14" y="38" width="28" height="30" rx="10" fill="#f6c7a1"/>
+ <circle cx="0" cy="0" r="52" fill="#f6c7a1"/><circle cx="-52" cy="6" r="9" fill="#f6c7a1"/><circle cx="52" cy="6" r="9" fill="#f6c7a1"/>
+ <path d="M-54 -2 Q-56 -62 0 -60 Q58 -62 54 -2 Q30 -30 6 -26 Q10 -40 -6 -44 Q-20 -26 -54 -2Z" fill="#e0a84a"/>
+ 
+ <circle cx="-18" cy="2" r="6.5" fill="#1d2433"/><circle cx="18" cy="2" r="6.5" fill="#1d2433"/><circle cx="-16" cy="0" r="2.2" fill="#fff"/><circle cx="20" cy="0" r="2.2" fill="#fff"/>
+ 
+ <circle cx="-32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/><circle cx="32" cy="18" r="8" fill="#ff8a8a" opacity=".55"/>
+ <path d="M-15 22 Q0 46 15 22 Z" fill="#7a1f2b"/><path d="M-9 34 Q0 40 9 34" fill="#ff8a8a"/>
+ 
+ 
+ 
+ </g></svg>

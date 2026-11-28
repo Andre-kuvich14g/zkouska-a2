@@ -30,6 +30,7 @@ def fr(x): return round(x * FPS) / FPS
 
 
 FIX = {  # ручні правки тексту для чоловічого голосу / без справжніх імен родини
+    'p15': [('jsem byla', 'jsem byl'), ('Chtěla bych', 'Chtěl bych'), ('Marija Koval', 'Andrij Koval')],
     'p20': [('jsem udělala', 'jsem udělal'), ('Chtěla bych', 'Chtěl bych'), ('Julija', 'Andrij')],
 }
 
@@ -100,7 +101,7 @@ INTRO_TAG = '⏱ Do 2 minut: vzor na plný počet bodů'
 def f_lesson(D, n):
     e = D['f'][n - 1]; P = Plan(f'f{n:02d}'); nm = e['cz']
     P.add(dict(kind='x-intro', chip=f'Formulář {n} / 40', title=nm, sub='Psaní · úloha 1 · 3 otázky · celé věty, minimálně 10 slov · 8 bodů', tag=INTRO_TAG, name=nm),
-          f"Psaní, úloha jedna. Formulář číslo {n}. {e['situation']} Odpovězte celou větou, minimálně deset slov.", pad=0.7)
+          f"Psaní, úloha jedna. Formulář číslo {n}. {masc(e['situation'])} Odpovězte celou větou, minimálně deset slov.", pad=0.7)
     for k, (q, a) in enumerate(e['qa'], 1):
         a = masc(a); sd = scene(f'{P.id}_q{k}') or P.side
         base = dict(kind='f-q', sit=e['situation'], k=k, q=q, name=nm)
@@ -127,7 +128,7 @@ def p_lesson(D, n):
     lines = masc(mod).split('\n')
     greet, close = lines[0], '\n'.join(lines[-2:])
     body = ' '.join(lines[1:-2])
-    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', body) if s.strip()]
+    sents = [s.strip() for s in re.split(r'(?<=[.!?])(?<![0-9]\.)\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', body) if s.strip()]
     mb = dict(kind='p-model', subj=subj, to=e['to'], greet=greet, sents=sents, close=close, pr=pr)
     P.add(dict(mb, hi=-1), greet, pad=0.1, side='')
     for k, s in enumerate(sents):
@@ -193,7 +194,7 @@ def v_lesson(D, n):
     base = dict(kind='v-pics', q=e['q'], pics=pics, scn=scn, name=nm)
     P.add(base, e['q'], pad=0.5, side='')
     P.wait(base, 20, 'Teď vy! Vyprávějte v minulém čase.', side='')
-    sents = [s.strip() for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', masc(e['model'])) if s.strip()]
+    sents = [s.strip() for s in re.split(r'(?<=[.!?])(?<![0-9]\.)\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', masc(e['model'])) if s.strip()]
     mp = [min(3, i * 4 // len(sents)) for i in range(len(sents))]
     for k, s in enumerate(sents):
         P.add(dict(kind='v-model', q=e['q'], pics=pics, scn=scn, sents=sents, hi=k, map=mp, name=nm), s, pad=0.0, side='')
